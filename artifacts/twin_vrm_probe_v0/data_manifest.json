@@ -1,0 +1,49 @@
+{
+  "base_pair_counts": {
+    "dev": 1000,
+    "sealed": 1000,
+    "train": 8000
+  },
+  "data_dir": "/mnt/d/VRM/artifacts/twin_task_pilot_v1",
+  "episode_counts": {
+    "dev": 2000,
+    "sealed": 2000,
+    "train": 16000
+  },
+  "model_input_contract": {
+    "candidate_metadata_eval_only": true,
+    "excluded": [
+      "base_id",
+      "candidate_0",
+      "candidate_1",
+      "candidates",
+      "height_targets",
+      "label",
+      "metadata",
+      "pair_position",
+      "query_targets",
+      "rule_id",
+      "target",
+      "target_output",
+      "template_id",
+      "twin",
+      "width_targets"
+    ],
+    "included": [
+      "query_input_mask",
+      "query_inputs",
+      "support_evidence_colors",
+      "support_evidence_cols",
+      "support_evidence_mask",
+      "support_evidence_pair_indices",
+      "support_evidence_roles",
+      "support_evidence_rows"
+    ],
+    "target_output_used_only_for_supervised_loss": true
+  },
+  "source_files": {
+    "dev": "/mnt/d/VRM/artifacts/twin_task_pilot_v1/dev.jsonl",
+    "sealed": "/mnt/d/VRM/artifacts/twin_task_pilot_v1/sealed.jsonl",
+    "train": "/mnt/d/VRM/artifacts/twin_task_pilot_v1/train.jsonl"
+  }
+}

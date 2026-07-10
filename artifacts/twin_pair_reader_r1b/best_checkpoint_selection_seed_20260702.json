@@ -1,0 +1,46 @@
+{
+  "checkpoint_hash_unchanged_after_sealed": true,
+  "sealed_split_read_before_selection": false,
+  "seed": 20260702,
+  "selected_checkpoint": "/mnt/d/VRM/checkpoints/twin_pair_reader_r1b/pair_reader_r1b_seed_20260702_best_dev.pt",
+  "selected_checkpoint_sha256_after_sealed": "033d9aa7e0d1a63eaae0c863d762d05b8f40c4da0b0a67a67e73eab6418f5492",
+  "selected_checkpoint_sha256_before_sealed": "033d9aa7e0d1a63eaae0c863d762d05b8f40c4da0b0a67a67e73eab6418f5492",
+  "selected_epoch_index": 0,
+  "selected_global_step": 125,
+  "selection_metrics": {
+    "all_cell_color_accuracy": 1.0,
+    "candidate_exact_match_rate": 1.0,
+    "candidate_nearest_score": 1.0,
+    "candidate_tie_rate": 0.0,
+    "condition": "NORMAL",
+    "correct_counterfactual_switch_rate": 1.0,
+    "direct_grid_exact_accuracy": 1.0,
+    "episode_count": 2000,
+    "epoch_index": 0,
+    "foreground_cell_count_per_episode": {
+      "expected_informative_foreground_count_verified": true,
+      "mean": 5.0,
+      "unique": [
+        5
+      ]
+    },
+    "foreground_color_accuracy": 1.0,
+    "global_step": 125,
+    "mean_relevant_pair_mass": 0.9999696587324143,
+    "mean_target_rectangle_hamming_error": 0.0,
+    "median_relevant_pair_mass": 0.9999710321426392,
+    "retrieval_entropy": 0.000363893929788901,
+    "retrieval_top1_accuracy": 1.0,
+    "selection_key": [
+      1.0,
+      1.0,
+      1.0,
+      -0.0,
+      0
+    ],
+    "split": "dev",
+    "target_rectangle_hamming_error": 0.0,
+    "twin_same_predicted_grid_rate": 0.0
+  },
+  "selection_rule": "highest dev direct_grid_exact_accuracy; tie-break retrieval_top1_accuracy, correct_counterfactual_switch_rate, lowest hamming, earliest epoch"
+}

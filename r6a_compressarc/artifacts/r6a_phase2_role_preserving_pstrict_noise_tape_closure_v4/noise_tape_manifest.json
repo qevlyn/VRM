@@ -1,0 +1,712 @@
+{
+  "created_utc": "2026-07-04T03:11:22Z",
+  "tasks": [
+    {
+      "expected_noise_leaves": [
+        {
+          "device": "cpu",
+          "dims": [
+            0,
+            1,
+            0,
+            0,
+            0
+          ],
+          "dtype": "torch.float64",
+          "leaf_ordinal": 0,
+          "real_example_axis": false,
+          "requested_shape": [
+            7,
+            4
+          ]
+        },
+        {
+          "device": "cpu",
+          "dims": [
+            1,
+            1,
+            0,
+            0,
+            0
+          ],
+          "dtype": "torch.float64",
+          "leaf_ordinal": 1,
+          "real_example_axis": true,
+          "requested_shape": [
+            4,
+            7,
+            4
+          ]
+        },
+        {
+          "device": "cpu",
+          "dims": [
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "dtype": "torch.float64",
+          "leaf_ordinal": 2,
+          "real_example_axis": false,
+          "requested_shape": [
+            8,
+            4
+          ]
+        },
+        {
+          "device": "cpu",
+          "dims": [
+            1,
+            0,
+            1,
+            0,
+            0
+          ],
+          "dtype": "torch.float64",
+          "leaf_ordinal": 3,
+          "real_example_axis": true,
+          "requested_shape": [
+            4,
+            8,
+            4
+          ]
+        },
+        {
+          "device": "cpu",
+          "dims": [
+            0,
+            1,
+            1,
+            0,
+            0
+          ],
+          "dtype": "torch.float64",
+          "leaf_ordinal": 4,
+          "real_example_axis": false,
+          "requested_shape": [
+            7,
+            8,
+            4
+          ]
+        },
+        {
+          "device": "cpu",
+          "dims": [
+            1,
+            1,
+            1,
+            0,
+            0
+          ],
+          "dtype": "torch.float64",
+          "leaf_ordinal": 5,
+          "real_example_axis": true,
+          "requested_shape": [
+            4,
+            7,
+            8,
+            4
+          ]
+        },
+        {
+          "device": "cpu",
+          "dims": [
+            1,
+            0,
+            0,
+            1,
+            0
+          ],
+          "dtype": "torch.float64",
+          "leaf_ordinal": 6,
+          "real_example_axis": true,
+          "requested_shape": [
+            4,
+            10,
+            4
+          ]
+        },
+        {
+          "device": "cpu",
+          "dims": [
+            1,
+            1,
+            0,
+            1,
+            0
+          ],
+          "dtype": "torch.float64",
+          "leaf_ordinal": 7,
+          "real_example_axis": true,
+          "requested_shape": [
+            4,
+            7,
+            10,
+            4
+          ]
+        },
+        {
+          "device": "cpu",
+          "dims": [
+            1,
+            0,
+            1,
+            1,
+            0
+          ],
+          "dtype": "torch.float64",
+          "leaf_ordinal": 8,
+          "real_example_axis": true,
+          "requested_shape": [
+            4,
+            8,
+            10,
+            4
+          ]
+        },
+        {
+          "device": "cpu",
+          "dims": [
+            1,
+            1,
+            1,
+            1,
+            0
+          ],
+          "dtype": "torch.float64",
+          "leaf_ordinal": 9,
+          "real_example_axis": true,
+          "requested_shape": [
+            4,
+            7,
+            8,
+            10,
+            4
+          ]
+        },
+        {
+          "device": "cpu",
+          "dims": [
+            1,
+            0,
+            0,
+            0,
+            1
+          ],
+          "dtype": "torch.float64",
+          "leaf_ordinal": 10,
+          "real_example_axis": true,
+          "requested_shape": [
+            4,
+            10,
+            4
+          ]
+        },
+        {
+          "device": "cpu",
+          "dims": [
+            1,
+            1,
+            0,
+            0,
+            1
+          ],
+          "dtype": "torch.float64",
+          "leaf_ordinal": 11,
+          "real_example_axis": true,
+          "requested_shape": [
+            4,
+            7,
+            10,
+            4
+          ]
+        },
+        {
+          "device": "cpu",
+          "dims": [
+            1,
+            0,
+            1,
+            0,
+            1
+          ],
+          "dtype": "torch.float64",
+          "leaf_ordinal": 12,
+          "real_example_axis": true,
+          "requested_shape": [
+            4,
+            8,
+            10,
+            4
+          ]
+        },
+        {
+          "device": "cpu",
+          "dims": [
+            1,
+            1,
+            1,
+            0,
+            1
+          ],
+          "dtype": "torch.float64",
+          "leaf_ordinal": 13,
+          "real_example_axis": true,
+          "requested_shape": [
+            4,
+            7,
+            8,
+            10,
+            4
+          ]
+        },
+        {
+          "device": "cpu",
+          "dims": [
+            1,
+            0,
+            0,
+            1,
+            1
+          ],
+          "dtype": "torch.float64",
+          "leaf_ordinal": 14,
+          "real_example_axis": true,
+          "requested_shape": [
+            4,
+            10,
+            10,
+            4
+          ]
+        },
+        {
+          "device": "cpu",
+          "dims": [
+            1,
+            1,
+            0,
+            1,
+            1
+          ],
+          "dtype": "torch.float64",
+          "leaf_ordinal": 15,
+          "real_example_axis": true,
+          "requested_shape": [
+            4,
+            7,
+            10,
+            10,
+            4
+          ]
+        },
+        {
+          "device": "cpu",
+          "dims": [
+            1,
+            0,
+            1,
+            1,
+            1
+          ],
+          "dtype": "torch.float64",
+          "leaf_ordinal": 16,
+          "real_example_axis": true,
+          "requested_shape": [
+            4,
+            8,
+            10,
+            10,
+            4
+          ]
+        },
+        {
+          "device": "cpu",
+          "dims": [
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "dtype": "torch.float64",
+          "leaf_ordinal": 17,
+          "real_example_axis": true,
+          "requested_shape": [
+            4,
+            7,
+            8,
+            10,
+            10,
+            4
+          ]
+        }
+      ],
+      "final_label": "P_STRICT_DETERMINISTIC_STEP0_MISMATCH",
+      "perm_new_to_old": [
+        1,
+        2,
+        0,
+        3
+      ],
+      "runtime_trace_count": 90,
+      "task_id": "1f876c06",
+      "unhandled_call_count": 0
+    },
+    {
+      "expected_noise_leaves": [
+        {
+          "device": "cpu",
+          "dims": [
+            0,
+            1,
+            0,
+            0,
+            0
+          ],
+          "dtype": "torch.float64",
+          "leaf_ordinal": 0,
+          "real_example_axis": false,
+          "requested_shape": [
+            6,
+            4
+          ]
+        },
+        {
+          "device": "cpu",
+          "dims": [
+            1,
+            1,
+            0,
+            0,
+            0
+          ],
+          "dtype": "torch.float64",
+          "leaf_ordinal": 1,
+          "real_example_axis": true,
+          "requested_shape": [
+            5,
+            6,
+            4
+          ]
+        },
+        {
+          "device": "cpu",
+          "dims": [
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "dtype": "torch.float64",
+          "leaf_ordinal": 2,
+          "real_example_axis": false,
+          "requested_shape": [
+            8,
+            4
+          ]
+        },
+        {
+          "device": "cpu",
+          "dims": [
+            1,
+            0,
+            1,
+            0,
+            0
+          ],
+          "dtype": "torch.float64",
+          "leaf_ordinal": 3,
+          "real_example_axis": true,
+          "requested_shape": [
+            5,
+            8,
+            4
+          ]
+        },
+        {
+          "device": "cpu",
+          "dims": [
+            0,
+            1,
+            1,
+            0,
+            0
+          ],
+          "dtype": "torch.float64",
+          "leaf_ordinal": 4,
+          "real_example_axis": false,
+          "requested_shape": [
+            6,
+            8,
+            4
+          ]
+        },
+        {
+          "device": "cpu",
+          "dims": [
+            1,
+            1,
+            1,
+            0,
+            0
+          ],
+          "dtype": "torch.float64",
+          "leaf_ordinal": 5,
+          "real_example_axis": true,
+          "requested_shape": [
+            5,
+            6,
+            8,
+            4
+          ]
+        },
+        {
+          "device": "cpu",
+          "dims": [
+            1,
+            0,
+            0,
+            1,
+            0
+          ],
+          "dtype": "torch.float64",
+          "leaf_ordinal": 6,
+          "real_example_axis": true,
+          "requested_shape": [
+            5,
+            20,
+            4
+          ]
+        },
+        {
+          "device": "cpu",
+          "dims": [
+            1,
+            1,
+            0,
+            1,
+            0
+          ],
+          "dtype": "torch.float64",
+          "leaf_ordinal": 7,
+          "real_example_axis": true,
+          "requested_shape": [
+            5,
+            6,
+            20,
+            4
+          ]
+        },
+        {
+          "device": "cpu",
+          "dims": [
+            1,
+            0,
+            1,
+            1,
+            0
+          ],
+          "dtype": "torch.float64",
+          "leaf_ordinal": 8,
+          "real_example_axis": true,
+          "requested_shape": [
+            5,
+            8,
+            20,
+            4
+          ]
+        },
+        {
+          "device": "cpu",
+          "dims": [
+            1,
+            1,
+            1,
+            1,
+            0
+          ],
+          "dtype": "torch.float64",
+          "leaf_ordinal": 9,
+          "real_example_axis": true,
+          "requested_shape": [
+            5,
+            6,
+            8,
+            20,
+            4
+          ]
+        },
+        {
+          "device": "cpu",
+          "dims": [
+            1,
+            0,
+            0,
+            0,
+            1
+          ],
+          "dtype": "torch.float64",
+          "leaf_ordinal": 10,
+          "real_example_axis": true,
+          "requested_shape": [
+            5,
+            16,
+            4
+          ]
+        },
+        {
+          "device": "cpu",
+          "dims": [
+            1,
+            1,
+            0,
+            0,
+            1
+          ],
+          "dtype": "torch.float64",
+          "leaf_ordinal": 11,
+          "real_example_axis": true,
+          "requested_shape": [
+            5,
+            6,
+            16,
+            4
+          ]
+        },
+        {
+          "device": "cpu",
+          "dims": [
+            1,
+            0,
+            1,
+            0,
+            1
+          ],
+          "dtype": "torch.float64",
+          "leaf_ordinal": 12,
+          "real_example_axis": true,
+          "requested_shape": [
+            5,
+            8,
+            16,
+            4
+          ]
+        },
+        {
+          "device": "cpu",
+          "dims": [
+            1,
+            1,
+            1,
+            0,
+            1
+          ],
+          "dtype": "torch.float64",
+          "leaf_ordinal": 13,
+          "real_example_axis": true,
+          "requested_shape": [
+            5,
+            6,
+            8,
+            16,
+            4
+          ]
+        },
+        {
+          "device": "cpu",
+          "dims": [
+            1,
+            0,
+            0,
+            1,
+            1
+          ],
+          "dtype": "torch.float64",
+          "leaf_ordinal": 14,
+          "real_example_axis": true,
+          "requested_shape": [
+            5,
+            20,
+            16,
+            4
+          ]
+        },
+        {
+          "device": "cpu",
+          "dims": [
+            1,
+            1,
+            0,
+            1,
+            1
+          ],
+          "dtype": "torch.float64",
+          "leaf_ordinal": 15,
+          "real_example_axis": true,
+          "requested_shape": [
+            5,
+            6,
+            20,
+            16,
+            4
+          ]
+        },
+        {
+          "device": "cpu",
+          "dims": [
+            1,
+            0,
+            1,
+            1,
+            1
+          ],
+          "dtype": "torch.float64",
+          "leaf_ordinal": 16,
+          "real_example_axis": true,
+          "requested_shape": [
+            5,
+            8,
+            20,
+            16,
+            4
+          ]
+        },
+        {
+          "device": "cpu",
+          "dims": [
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "dtype": "torch.float64",
+          "leaf_ordinal": 17,
+          "real_example_axis": true,
+          "requested_shape": [
+            5,
+            6,
+            8,
+            20,
+            16,
+            4
+          ]
+        }
+      ],
+      "final_label": "P_STRICT_DETERMINISTIC_STEP0_MISMATCH",
+      "perm_new_to_old": [
+        1,
+        2,
+        3,
+        0,
+        4
+      ],
+      "runtime_trace_count": 90,
+      "task_id": "604001fa",
+      "unhandled_call_count": 0
+    }
+  ]
+}

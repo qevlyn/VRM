@@ -1,0 +1,135 @@
+{
+  "all_conditions_begin_byte_identical": true,
+  "artifact_root": "/mnt/d/VRM/r6a_compressarc/artifacts/determinism_triage/future_pairing_initialization_artifacts",
+  "proofs": [
+    {
+      "all_model_hashes_identical": true,
+      "all_optimizer_hashes_identical": true,
+      "conditions": [
+        "ALL_PAIRING_SWAP",
+        "CONTENT_PAIRING_SWAP",
+        "FULL"
+      ],
+      "loaded_hashes": {
+        "ALL_PAIRING_SWAP": {
+          "model_hash_after_loading_shared_initialization": "b9630974606bd106700d719d41b5142472daa57fa902389ebc0f9054ddbbf2f8",
+          "optimizer_hash_after_construction": "303dfc88384552ee65180297eee2929b9103e91ba38ee03e5a6c10ac4237b9d5"
+        },
+        "CONTENT_PAIRING_SWAP": {
+          "model_hash_after_loading_shared_initialization": "b9630974606bd106700d719d41b5142472daa57fa902389ebc0f9054ddbbf2f8",
+          "optimizer_hash_after_construction": "303dfc88384552ee65180297eee2929b9103e91ba38ee03e5a6c10ac4237b9d5"
+        },
+        "FULL": {
+          "model_hash_after_loading_shared_initialization": "b9630974606bd106700d719d41b5142472daa57fa902389ebc0f9054ddbbf2f8",
+          "optimizer_hash_after_construction": "303dfc88384552ee65180297eee2929b9103e91ba38ee03e5a6c10ac4237b9d5"
+        }
+      },
+      "task_id": "3ed85e70"
+    },
+    {
+      "all_model_hashes_identical": true,
+      "all_optimizer_hashes_identical": true,
+      "conditions": [
+        "ALL_PAIRING_SWAP",
+        "FULL"
+      ],
+      "loaded_hashes": {
+        "ALL_PAIRING_SWAP": {
+          "model_hash_after_loading_shared_initialization": "d7e02e3e85257b62edc645c4b40928752ab34fd9dfde1800615e60d3dc47a91d",
+          "optimizer_hash_after_construction": "303dfc88384552ee65180297eee2929b9103e91ba38ee03e5a6c10ac4237b9d5"
+        },
+        "FULL": {
+          "model_hash_after_loading_shared_initialization": "d7e02e3e85257b62edc645c4b40928752ab34fd9dfde1800615e60d3dc47a91d",
+          "optimizer_hash_after_construction": "303dfc88384552ee65180297eee2929b9103e91ba38ee03e5a6c10ac4237b9d5"
+        }
+      },
+      "task_id": "604001fa"
+    },
+    {
+      "all_model_hashes_identical": true,
+      "all_optimizer_hashes_identical": true,
+      "conditions": [
+        "ALL_PAIRING_SWAP",
+        "FULL"
+      ],
+      "loaded_hashes": {
+        "ALL_PAIRING_SWAP": {
+          "model_hash_after_loading_shared_initialization": "02a196964c550abfc24c52ddabfbbb5377515c3b55fc0a3b370b90c260f3b388",
+          "optimizer_hash_after_construction": "303dfc88384552ee65180297eee2929b9103e91ba38ee03e5a6c10ac4237b9d5"
+        },
+        "FULL": {
+          "model_hash_after_loading_shared_initialization": "02a196964c550abfc24c52ddabfbbb5377515c3b55fc0a3b370b90c260f3b388",
+          "optimizer_hash_after_construction": "303dfc88384552ee65180297eee2929b9103e91ba38ee03e5a6c10ac4237b9d5"
+        }
+      },
+      "task_id": "79fb03f4"
+    },
+    {
+      "all_model_hashes_identical": true,
+      "all_optimizer_hashes_identical": true,
+      "conditions": [
+        "ALL_PAIRING_SWAP",
+        "CONTENT_PAIRING_SWAP",
+        "FULL"
+      ],
+      "loaded_hashes": {
+        "ALL_PAIRING_SWAP": {
+          "model_hash_after_loading_shared_initialization": "951c8eab55f0414196538a1d9739c5b78eeefd1350e33c51f050d2c69f58f27c",
+          "optimizer_hash_after_construction": "303dfc88384552ee65180297eee2929b9103e91ba38ee03e5a6c10ac4237b9d5"
+        },
+        "CONTENT_PAIRING_SWAP": {
+          "model_hash_after_loading_shared_initialization": "951c8eab55f0414196538a1d9739c5b78eeefd1350e33c51f050d2c69f58f27c",
+          "optimizer_hash_after_construction": "303dfc88384552ee65180297eee2929b9103e91ba38ee03e5a6c10ac4237b9d5"
+        },
+        "FULL": {
+          "model_hash_after_loading_shared_initialization": "951c8eab55f0414196538a1d9739c5b78eeefd1350e33c51f050d2c69f58f27c",
+          "optimizer_hash_after_construction": "303dfc88384552ee65180297eee2929b9103e91ba38ee03e5a6c10ac4237b9d5"
+        }
+      },
+      "task_id": "929ab4e9"
+    },
+    {
+      "all_model_hashes_identical": true,
+      "all_optimizer_hashes_identical": true,
+      "conditions": [
+        "ALL_PAIRING_SWAP",
+        "CONTENT_PAIRING_SWAP",
+        "FULL"
+      ],
+      "loaded_hashes": {
+        "ALL_PAIRING_SWAP": {
+          "model_hash_after_loading_shared_initialization": "410f1ec5beae564f241d62a7a3630cba06657070f0d64f06b0104bca23aadec5",
+          "optimizer_hash_after_construction": "303dfc88384552ee65180297eee2929b9103e91ba38ee03e5a6c10ac4237b9d5"
+        },
+        "CONTENT_PAIRING_SWAP": {
+          "model_hash_after_loading_shared_initialization": "410f1ec5beae564f241d62a7a3630cba06657070f0d64f06b0104bca23aadec5",
+          "optimizer_hash_after_construction": "303dfc88384552ee65180297eee2929b9103e91ba38ee03e5a6c10ac4237b9d5"
+        },
+        "FULL": {
+          "model_hash_after_loading_shared_initialization": "410f1ec5beae564f241d62a7a3630cba06657070f0d64f06b0104bca23aadec5",
+          "optimizer_hash_after_construction": "303dfc88384552ee65180297eee2929b9103e91ba38ee03e5a6c10ac4237b9d5"
+        }
+      },
+      "task_id": "981571dc"
+    },
+    {
+      "all_model_hashes_identical": true,
+      "all_optimizer_hashes_identical": true,
+      "conditions": [
+        "ALL_PAIRING_SWAP",
+        "FULL"
+      ],
+      "loaded_hashes": {
+        "ALL_PAIRING_SWAP": {
+          "model_hash_after_loading_shared_initialization": "db1ae833f4ac2d1705bfc6b5a824e8e804812ef7bcf0c6a0b0d2ed25cff28b89",
+          "optimizer_hash_after_construction": "303dfc88384552ee65180297eee2929b9103e91ba38ee03e5a6c10ac4237b9d5"
+        },
+        "FULL": {
+          "model_hash_after_loading_shared_initialization": "db1ae833f4ac2d1705bfc6b5a824e8e804812ef7bcf0c6a0b0d2ed25cff28b89",
+          "optimizer_hash_after_construction": "303dfc88384552ee65180297eee2929b9103e91ba38ee03e5a6c10ac4237b9d5"
+        }
+      },
+      "task_id": "aa4ec2a5"
+    }
+  ]
+}

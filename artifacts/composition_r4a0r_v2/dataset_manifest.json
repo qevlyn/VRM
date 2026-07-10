@@ -1,0 +1,199 @@
+{
+  "benchmark": "composition_r4a0r_v2",
+  "expected_split_episode_counts": {
+    "dev": 8640,
+    "sealed": 12960,
+    "train": 28800
+  },
+  "grid_size": 7,
+  "query_type_counts": {
+    "dev": 24,
+    "sealed": 24,
+    "train": 80
+  },
+  "query_type_split_audit": {
+    "catalog_count": 128,
+    "expected_split_counts": {
+      "dev": 24,
+      "sealed": 24,
+      "train": 80
+    },
+    "factor_complete": {
+      "dev": true,
+      "sealed": true,
+      "train": true
+    },
+    "factor_coverage": {
+      "dev": {
+        "anchor_regions": [
+          "interior_lower_left",
+          "interior_lower_right",
+          "interior_upper_left",
+          "interior_upper_right"
+        ],
+        "distractor_counts": [
+          1,
+          2
+        ],
+        "primary_colors": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "primary_shapes": [
+          "3_cell_L",
+          "3_cell_T",
+          "3_cell_zig_zag",
+          "asymmetric_4_cell_hook"
+        ]
+      },
+      "sealed": {
+        "anchor_regions": [
+          "interior_lower_left",
+          "interior_lower_right",
+          "interior_upper_left",
+          "interior_upper_right"
+        ],
+        "distractor_counts": [
+          1,
+          2
+        ],
+        "primary_colors": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "primary_shapes": [
+          "3_cell_L",
+          "3_cell_T",
+          "3_cell_zig_zag",
+          "asymmetric_4_cell_hook"
+        ]
+      },
+      "train": {
+        "anchor_regions": [
+          "interior_lower_left",
+          "interior_lower_right",
+          "interior_upper_left",
+          "interior_upper_right"
+        ],
+        "distractor_counts": [
+          1,
+          2
+        ],
+        "primary_colors": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "primary_shapes": [
+          "3_cell_L",
+          "3_cell_T",
+          "3_cell_zig_zag",
+          "asymmetric_4_cell_hook"
+        ]
+      }
+    },
+    "intersections": {
+      "dev_sealed": [],
+      "train_dev": [],
+      "train_sealed": []
+    },
+    "legacy_144_type_request_reintroduced": false,
+    "passed": true,
+    "split_counts": {
+      "dev": 24,
+      "sealed": 24,
+      "train": 80
+    },
+    "union_count": 128,
+    "uses_every_catalog_type_exactly_once": true
+  },
+  "sequence_balance_report": {
+    "dev": {
+      "all_query_types_balanced": true,
+      "episode_count": 8640,
+      "passed": true,
+      "per_query_type_sequence_count_expected": 60,
+      "query_type_count": 24,
+      "sequence_counts": {
+        "C": 1440,
+        "C->F": 1440,
+        "F": 1440,
+        "F->T": 1440,
+        "T": 1440,
+        "T->C": 1440
+      }
+    },
+    "sealed": {
+      "all_query_types_balanced": true,
+      "episode_count": 12960,
+      "passed": true,
+      "per_query_type_sequence_count_expected": 60,
+      "query_type_count": 24,
+      "sequence_counts": {
+        "C": 1440,
+        "C->F": 1440,
+        "C->T": 1440,
+        "F": 1440,
+        "F->C": 1440,
+        "F->T": 1440,
+        "T": 1440,
+        "T->C": 1440,
+        "T->F": 1440
+      }
+    },
+    "train": {
+      "all_query_types_balanced": true,
+      "episode_count": 28800,
+      "passed": true,
+      "per_query_type_sequence_count_expected": 60,
+      "query_type_count": 80,
+      "sequence_counts": {
+        "C": 4800,
+        "C->F": 4800,
+        "F": 4800,
+        "F->T": 4800,
+        "T": 4800,
+        "T->C": 4800
+      }
+    }
+  },
+  "sequence_counts": {
+    "dev": {
+      "C": 1440,
+      "C->F": 1440,
+      "F": 1440,
+      "F->T": 1440,
+      "T": 1440,
+      "T->C": 1440
+    },
+    "sealed": {
+      "C": 1440,
+      "C->F": 1440,
+      "C->T": 1440,
+      "F": 1440,
+      "F->C": 1440,
+      "F->T": 1440,
+      "T": 1440,
+      "T->C": 1440,
+      "T->F": 1440
+    },
+    "train": {
+      "C": 4800,
+      "C->F": 4800,
+      "F": 4800,
+      "F->T": 4800,
+      "T": 4800,
+      "T->C": 4800
+    }
+  },
+  "split_episode_counts": {
+    "dev": 8640,
+    "sealed": 12960,
+    "train": 28800
+  }
+}

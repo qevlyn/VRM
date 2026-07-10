@@ -1,0 +1,199 @@
+{
+  "accepted_count": 3,
+  "audit_version": "R5A3A_ARC_NATIVE_STRUCTURAL_CANDIDATE_MACHINE_V0",
+  "candidate_machine_spec": {
+    "K": [
+      1,
+      4,
+      16,
+      64,
+      128
+    ],
+    "contract": {
+      "grid_height": "1..30",
+      "grid_width": "1..30",
+      "input_output_shapes_may_differ": true,
+      "palette_values": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "query_count": "1..10",
+      "raw_grid_preprocessing_alters_cell_values": false,
+      "support_pair_count": "1..10"
+    },
+    "maximum_scene_hypothesis_count": 1,
+    "name": "R5A-3A ARC-Native Structural Candidate Machine v0",
+    "named_stages": [
+      "A. scene hypotheses",
+      "B. object/region extraction",
+      "C. support-pair delta extraction",
+      "D. structural program enumeration",
+      "E. program execution",
+      "F. visible-support consistency scoring",
+      "G. top-K deduplicated candidate output grids"
+    ],
+    "program_surface": {
+      "K": [
+        1,
+        4,
+        16,
+        64,
+        128
+      ],
+      "maximum_program_depth": 2,
+      "maximum_program_enumeration_count_before_ranking": 8,
+      "render_operator_family": [
+        "same_canvas",
+        "selected_object_bounding_box_canvas",
+        "union_of_selected_objects_bounding_box_canvas"
+      ],
+      "select_operator_family": [
+        "all_objects",
+        "objects_by_color",
+        "largest_object",
+        "smallest_object",
+        "unique_object_by_shape",
+        "unique_object_by_color",
+        "border_touching_objects",
+        "objects_nearest_to_marker"
+      ],
+      "surface_sha256": "28ff7ed9917d0b5c23e5a40cb4767e6fce256d13d889511e2a3c3d4bda61e736",
+      "transform_operator_family": [
+        "keep",
+        "delete",
+        "recolor",
+        "translate_by_inferred_vector",
+        "copy_by_inferred_vector",
+        "rotate_90_180_270",
+        "reflect_horizontal_vertical",
+        "fill_bounding_box",
+        "outline_bounding_box"
+      ]
+    },
+    "spec_sha256": "5e27510b58661f7a28721097e00dd30d5d07dfec0e10e376e81d824511e30e80"
+  },
+  "golden_cases": [
+    {
+      "accepted": true,
+      "candidate_count": 6,
+      "candidate_hashes": [
+        "c4f7c60485cbe4fc3061eae826a9aade29d5ff275d1d776a7a7d9c5cb4f52e4d",
+        "c47347ff14705a8959ada78f2ae9b3e34ec5ec7c1c355da06dc2d67e3767e7c3",
+        "2cfcd0b1c531e0827e7f8e2790aa943b5de53e257c31c3f3285587e8da484957",
+        "eb4b5b59d133755e58b6c505325f8a7a90b794de6af4a85ed512879ad6d9f599",
+        "97ec7a82fde7d551475abfcfab44fb129ee9930902acc4f06c450abd0f55bc84",
+        "4f787a275b5ee112e71de784ffc8550f662e422caf6708b0706bc5f1d8d6077b"
+      ],
+      "hit_at_128": true,
+      "name": "recolor_single_object",
+      "query_grid": [
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "target_grid": [
+        [
+          2,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "target_rank": 1
+    },
+    {
+      "accepted": true,
+      "candidate_count": 4,
+      "candidate_hashes": [
+        "1434ccc6b815f94392b6d6a7165a60cc19d8bbda04c1829fc9029583846f51f0",
+        "5aa84e183c7ddad331111eab67faeeb7998bac3f866fb6b13df07c42615d4686",
+        "31d4504e328a55114d1e96c4324156e5c859d635120a7c345d8f02dc90834a8d",
+        "4f787a275b5ee112e71de784ffc8550f662e422caf6708b0706bc5f1d8d6077b"
+      ],
+      "hit_at_128": true,
+      "name": "translate_single_object",
+      "query_grid": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "target_grid": [
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "target_rank": 1
+    },
+    {
+      "accepted": true,
+      "candidate_count": 5,
+      "candidate_hashes": [
+        "da2fb7938cd2d4862a7b18f7ce62acdc18b414b7bade9cc2bb7e123bd6b37212",
+        "d70410eea7d69942e44dcf315194174388efa6885f67927f0b83f38a7c4f2b34",
+        "3a4cfc4808d1fab9658ec172aa9f792aa560102042ffcb2776005cc1c726422f",
+        "6967b70445a10911efb26065a30035b1a34a17893bbe37f5d7cc6d65fffb7a4b",
+        "364da8b2c3b01dd639bd966b64d6a26211230acd442a65489c04d9f4b179dd86"
+      ],
+      "hit_at_128": true,
+      "name": "changed_shape_bbox_render",
+      "query_grid": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          3,
+          0
+        ]
+      ],
+      "target_grid": [
+        [
+          3
+        ],
+        [
+          3
+        ]
+      ],
+      "target_rank": 1
+    }
+  ],
+  "rejected_count": 0,
+  "report_sha256": "3e5f51fe48494470daf9d200ca3cf1357519131f35d4a36bdc59bc2ff4bba38a",
+  "synthetic_pass_is_not_arc_success": true
+}

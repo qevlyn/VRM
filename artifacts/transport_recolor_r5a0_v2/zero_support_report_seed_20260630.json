@@ -1,0 +1,75 @@
+{
+  "ablation": "zero_support",
+  "by_operation_class": {
+    "C": {
+      "episode_count": 1440,
+      "normal_to_zero_support_final_grid_change_rate": 1.0,
+      "zero_support_exact": 0.0
+    },
+    "C->K": {
+      "episode_count": 1440,
+      "normal_to_zero_support_final_grid_change_rate": 1.0,
+      "zero_support_exact": 0.0
+    },
+    "C->L": {
+      "episode_count": 1440,
+      "normal_to_zero_support_final_grid_change_rate": 1.0,
+      "zero_support_exact": 0.0
+    },
+    "H": {
+      "episode_count": 1440,
+      "normal_to_zero_support_final_grid_change_rate": 1.0,
+      "zero_support_exact": 0.0
+    },
+    "H->K": {
+      "episode_count": 1440,
+      "normal_to_zero_support_final_grid_change_rate": 1.0,
+      "zero_support_exact": 0.0
+    },
+    "H->L": {
+      "episode_count": 1440,
+      "normal_to_zero_support_final_grid_change_rate": 1.0,
+      "zero_support_exact": 0.0
+    },
+    "K": {
+      "episode_count": 1440,
+      "normal_to_zero_support_final_grid_change_rate": 1.0,
+      "zero_support_exact": 0.0
+    },
+    "K->C": {
+      "episode_count": 1440,
+      "normal_to_zero_support_final_grid_change_rate": 1.0,
+      "zero_support_exact": 0.0
+    },
+    "K->V": {
+      "episode_count": 1440,
+      "normal_to_zero_support_final_grid_change_rate": 1.0,
+      "zero_support_exact": 0.0
+    },
+    "L": {
+      "episode_count": 1440,
+      "normal_to_zero_support_final_grid_change_rate": 1.0,
+      "zero_support_exact": 0.0
+    },
+    "L->C": {
+      "episode_count": 1440,
+      "normal_to_zero_support_final_grid_change_rate": 1.0,
+      "zero_support_exact": 0.0
+    },
+    "L->H": {
+      "episode_count": 1440,
+      "normal_to_zero_support_final_grid_change_rate": 1.0,
+      "zero_support_exact": 0.0
+    },
+    "V": {
+      "episode_count": 1440,
+      "normal_to_zero_support_final_grid_change_rate": 1.0,
+      "zero_support_exact": 0.0
+    }
+  },
+  "overall": {
+    "episode_count": 18720,
+    "normal_to_zero_support_final_grid_change_rate": 1.0,
+    "zero_support_exact": 0.0
+  }
+}

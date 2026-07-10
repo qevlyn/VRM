@@ -1,0 +1,159 @@
+{
+  "ablation": "zero_support",
+  "by_visual_stratum_and_function": {
+    "SEALED_VISUAL_TYPES": {
+      "CCC": {
+        "episode_count": 576,
+        "normal_to_zero_support_final_grid_change_rate": 1.0,
+        "normal_to_zero_support_pointer_change_rate": 1.0,
+        "zero_support_exact": 0.0
+      },
+      "CCF": {
+        "episode_count": 576,
+        "normal_to_zero_support_final_grid_change_rate": 1.0,
+        "normal_to_zero_support_pointer_change_rate": 1.0,
+        "zero_support_exact": 0.0
+      },
+      "CCT": {
+        "episode_count": 576,
+        "normal_to_zero_support_final_grid_change_rate": 1.0,
+        "normal_to_zero_support_pointer_change_rate": 1.0,
+        "zero_support_exact": 0.0
+      },
+      "CTC": {
+        "episode_count": 576,
+        "normal_to_zero_support_final_grid_change_rate": 1.0,
+        "normal_to_zero_support_pointer_change_rate": 1.0,
+        "zero_support_exact": 0.0
+      },
+      "CTF": {
+        "episode_count": 576,
+        "normal_to_zero_support_final_grid_change_rate": 1.0,
+        "normal_to_zero_support_pointer_change_rate": 1.0,
+        "zero_support_exact": 0.0
+      },
+      "FCT": {
+        "episode_count": 576,
+        "normal_to_zero_support_final_grid_change_rate": 1.0,
+        "normal_to_zero_support_pointer_change_rate": 1.0,
+        "zero_support_exact": 0.0
+      },
+      "FTC": {
+        "episode_count": 576,
+        "normal_to_zero_support_final_grid_change_rate": 1.0,
+        "normal_to_zero_support_pointer_change_rate": 1.0,
+        "zero_support_exact": 0.0
+      },
+      "FTF": {
+        "episode_count": 576,
+        "normal_to_zero_support_final_grid_change_rate": 1.0,
+        "normal_to_zero_support_pointer_change_rate": 1.0,
+        "zero_support_exact": 0.0
+      },
+      "TCC": {
+        "episode_count": 576,
+        "normal_to_zero_support_final_grid_change_rate": 1.0,
+        "normal_to_zero_support_pointer_change_rate": 1.0,
+        "zero_support_exact": 0.0
+      },
+      "TCF": {
+        "episode_count": 576,
+        "normal_to_zero_support_final_grid_change_rate": 1.0,
+        "normal_to_zero_support_pointer_change_rate": 1.0,
+        "zero_support_exact": 0.0
+      },
+      "TCT": {
+        "episode_count": 576,
+        "normal_to_zero_support_final_grid_change_rate": 1.0,
+        "normal_to_zero_support_pointer_change_rate": 1.0,
+        "zero_support_exact": 0.0
+      },
+      "TFC": {
+        "episode_count": 576,
+        "normal_to_zero_support_final_grid_change_rate": 1.0,
+        "normal_to_zero_support_pointer_change_rate": 1.0,
+        "zero_support_exact": 0.0
+      }
+    },
+    "TRAIN_VISIBLE_VISUAL_TYPES": {
+      "CCC": {
+        "episode_count": 1920,
+        "normal_to_zero_support_final_grid_change_rate": 1.0,
+        "normal_to_zero_support_pointer_change_rate": 1.0,
+        "zero_support_exact": 0.0
+      },
+      "CCF": {
+        "episode_count": 1920,
+        "normal_to_zero_support_final_grid_change_rate": 1.0,
+        "normal_to_zero_support_pointer_change_rate": 1.0,
+        "zero_support_exact": 0.0
+      },
+      "CCT": {
+        "episode_count": 1920,
+        "normal_to_zero_support_final_grid_change_rate": 1.0,
+        "normal_to_zero_support_pointer_change_rate": 1.0,
+        "zero_support_exact": 0.0
+      },
+      "CTC": {
+        "episode_count": 1920,
+        "normal_to_zero_support_final_grid_change_rate": 1.0,
+        "normal_to_zero_support_pointer_change_rate": 1.0,
+        "zero_support_exact": 0.0
+      },
+      "CTF": {
+        "episode_count": 1920,
+        "normal_to_zero_support_final_grid_change_rate": 1.0,
+        "normal_to_zero_support_pointer_change_rate": 1.0,
+        "zero_support_exact": 0.0
+      },
+      "FCT": {
+        "episode_count": 1920,
+        "normal_to_zero_support_final_grid_change_rate": 1.0,
+        "normal_to_zero_support_pointer_change_rate": 1.0,
+        "zero_support_exact": 0.0
+      },
+      "FTC": {
+        "episode_count": 1920,
+        "normal_to_zero_support_final_grid_change_rate": 1.0,
+        "normal_to_zero_support_pointer_change_rate": 1.0,
+        "zero_support_exact": 0.0
+      },
+      "FTF": {
+        "episode_count": 1920,
+        "normal_to_zero_support_final_grid_change_rate": 1.0,
+        "normal_to_zero_support_pointer_change_rate": 1.0,
+        "zero_support_exact": 0.0
+      },
+      "TCC": {
+        "episode_count": 1920,
+        "normal_to_zero_support_final_grid_change_rate": 1.0,
+        "normal_to_zero_support_pointer_change_rate": 1.0,
+        "zero_support_exact": 0.0
+      },
+      "TCF": {
+        "episode_count": 1920,
+        "normal_to_zero_support_final_grid_change_rate": 1.0,
+        "normal_to_zero_support_pointer_change_rate": 1.0,
+        "zero_support_exact": 0.0
+      },
+      "TCT": {
+        "episode_count": 1920,
+        "normal_to_zero_support_final_grid_change_rate": 1.0,
+        "normal_to_zero_support_pointer_change_rate": 1.0,
+        "zero_support_exact": 0.0
+      },
+      "TFC": {
+        "episode_count": 1920,
+        "normal_to_zero_support_final_grid_change_rate": 1.0,
+        "normal_to_zero_support_pointer_change_rate": 1.0,
+        "zero_support_exact": 0.0
+      }
+    }
+  },
+  "overall": {
+    "episode_count": 29952,
+    "normal_to_zero_support_final_grid_change_rate": 1.0,
+    "normal_to_zero_support_pointer_change_rate": 1.0,
+    "zero_support_exact": 0.0
+  }
+}

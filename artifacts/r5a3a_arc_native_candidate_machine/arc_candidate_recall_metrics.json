@@ -1,0 +1,1291 @@
+{
+  "audit_version": "R5A3A_ARC_NATIVE_STRUCTURAL_CANDIDATE_MACHINE_V0",
+  "full_depth2_metrics": {
+    "accepted_fold_count": 4357,
+    "candidate_count_distribution": {
+      "count": 4357,
+      "histogram": {
+        "2": 21,
+        "3": 14,
+        "4": 97,
+        "5": 321,
+        "6": 436,
+        "7": 2063,
+        "8": 1405
+      },
+      "mean": 6.971310534771632,
+      "median": 7
+    },
+    "fold_count": 4357,
+    "recall": {
+      "recall_at_1": {
+        "denominator": 4357,
+        "numerator": 30,
+        "rate": 0.006885471654808354
+      },
+      "recall_at_128": {
+        "denominator": 4357,
+        "numerator": 37,
+        "rate": 0.008492081707596971
+      },
+      "recall_at_16": {
+        "denominator": 4357,
+        "numerator": 37,
+        "rate": 0.008492081707596971
+      },
+      "recall_at_4": {
+        "denominator": 4357,
+        "numerator": 37,
+        "rate": 0.008492081707596971
+      },
+      "recall_at_64": {
+        "denominator": 4357,
+        "numerator": 37,
+        "rate": 0.008492081707596971
+      }
+    },
+    "recall_splits": {
+      "change_signature": {
+        "multi_change": {
+          "recall_at_1": {
+            "denominator": 4303,
+            "numerator": 17,
+            "rate": 0.0039507320474087846
+          },
+          "recall_at_128": {
+            "denominator": 4303,
+            "numerator": 22,
+            "rate": 0.005112712061352545
+          },
+          "recall_at_16": {
+            "denominator": 4303,
+            "numerator": 22,
+            "rate": 0.005112712061352545
+          },
+          "recall_at_4": {
+            "denominator": 4303,
+            "numerator": 22,
+            "rate": 0.005112712061352545
+          },
+          "recall_at_64": {
+            "denominator": 4303,
+            "numerator": 22,
+            "rate": 0.005112712061352545
+          }
+        },
+        "one_step": {
+          "recall_at_1": {
+            "denominator": 54,
+            "numerator": 13,
+            "rate": 0.24074074074074073
+          },
+          "recall_at_128": {
+            "denominator": 54,
+            "numerator": 15,
+            "rate": 0.2777777777777778
+          },
+          "recall_at_16": {
+            "denominator": 54,
+            "numerator": 15,
+            "rate": 0.2777777777777778
+          },
+          "recall_at_4": {
+            "denominator": 54,
+            "numerator": 15,
+            "rate": 0.2777777777777778
+          },
+          "recall_at_64": {
+            "denominator": 54,
+            "numerator": 15,
+            "rate": 0.2777777777777778
+          }
+        }
+      },
+      "object_slice": {
+        "multi_object": {
+          "recall_at_1": {
+            "denominator": 4034,
+            "numerator": 13,
+            "rate": 0.0032226078334159644
+          },
+          "recall_at_128": {
+            "denominator": 4034,
+            "numerator": 17,
+            "rate": 0.00421417947446703
+          },
+          "recall_at_16": {
+            "denominator": 4034,
+            "numerator": 17,
+            "rate": 0.00421417947446703
+          },
+          "recall_at_4": {
+            "denominator": 4034,
+            "numerator": 17,
+            "rate": 0.00421417947446703
+          },
+          "recall_at_64": {
+            "denominator": 4034,
+            "numerator": 17,
+            "rate": 0.00421417947446703
+          }
+        },
+        "one_object": {
+          "recall_at_1": {
+            "denominator": 323,
+            "numerator": 17,
+            "rate": 0.05263157894736842
+          },
+          "recall_at_128": {
+            "denominator": 323,
+            "numerator": 20,
+            "rate": 0.06191950464396285
+          },
+          "recall_at_16": {
+            "denominator": 323,
+            "numerator": 20,
+            "rate": 0.06191950464396285
+          },
+          "recall_at_4": {
+            "denominator": 323,
+            "numerator": 20,
+            "rate": 0.06191950464396285
+          },
+          "recall_at_64": {
+            "denominator": 323,
+            "numerator": 20,
+            "rate": 0.06191950464396285
+          }
+        }
+      },
+      "same_shape": {
+        "changed_shape": {
+          "recall_at_1": {
+            "denominator": 1477,
+            "numerator": 6,
+            "rate": 0.004062288422477996
+          },
+          "recall_at_128": {
+            "denominator": 1477,
+            "numerator": 7,
+            "rate": 0.004739336492890996
+          },
+          "recall_at_16": {
+            "denominator": 1477,
+            "numerator": 7,
+            "rate": 0.004739336492890996
+          },
+          "recall_at_4": {
+            "denominator": 1477,
+            "numerator": 7,
+            "rate": 0.004739336492890996
+          },
+          "recall_at_64": {
+            "denominator": 1477,
+            "numerator": 7,
+            "rate": 0.004739336492890996
+          }
+        },
+        "same_shape": {
+          "recall_at_1": {
+            "denominator": 2880,
+            "numerator": 24,
+            "rate": 0.008333333333333333
+          },
+          "recall_at_128": {
+            "denominator": 2880,
+            "numerator": 30,
+            "rate": 0.010416666666666666
+          },
+          "recall_at_16": {
+            "denominator": 2880,
+            "numerator": 30,
+            "rate": 0.010416666666666666
+          },
+          "recall_at_4": {
+            "denominator": 2880,
+            "numerator": 30,
+            "rate": 0.010416666666666666
+          },
+          "recall_at_64": {
+            "denominator": 2880,
+            "numerator": 30,
+            "rate": 0.010416666666666666
+          }
+        }
+      }
+    }
+  },
+  "metrics_by_ablation": {
+    "A_full_depth2_structural_machine": {
+      "accepted_fold_count": 4357,
+      "candidate_count_distribution": {
+        "count": 4357,
+        "histogram": {
+          "2": 21,
+          "3": 14,
+          "4": 97,
+          "5": 321,
+          "6": 436,
+          "7": 2063,
+          "8": 1405
+        },
+        "mean": 6.971310534771632,
+        "median": 7
+      },
+      "fold_count": 4357,
+      "recall": {
+        "recall_at_1": {
+          "denominator": 4357,
+          "numerator": 30,
+          "rate": 0.006885471654808354
+        },
+        "recall_at_128": {
+          "denominator": 4357,
+          "numerator": 37,
+          "rate": 0.008492081707596971
+        },
+        "recall_at_16": {
+          "denominator": 4357,
+          "numerator": 37,
+          "rate": 0.008492081707596971
+        },
+        "recall_at_4": {
+          "denominator": 4357,
+          "numerator": 37,
+          "rate": 0.008492081707596971
+        },
+        "recall_at_64": {
+          "denominator": 4357,
+          "numerator": 37,
+          "rate": 0.008492081707596971
+        }
+      },
+      "recall_splits": {
+        "change_signature": {
+          "multi_change": {
+            "recall_at_1": {
+              "denominator": 4303,
+              "numerator": 17,
+              "rate": 0.0039507320474087846
+            },
+            "recall_at_128": {
+              "denominator": 4303,
+              "numerator": 22,
+              "rate": 0.005112712061352545
+            },
+            "recall_at_16": {
+              "denominator": 4303,
+              "numerator": 22,
+              "rate": 0.005112712061352545
+            },
+            "recall_at_4": {
+              "denominator": 4303,
+              "numerator": 22,
+              "rate": 0.005112712061352545
+            },
+            "recall_at_64": {
+              "denominator": 4303,
+              "numerator": 22,
+              "rate": 0.005112712061352545
+            }
+          },
+          "one_step": {
+            "recall_at_1": {
+              "denominator": 54,
+              "numerator": 13,
+              "rate": 0.24074074074074073
+            },
+            "recall_at_128": {
+              "denominator": 54,
+              "numerator": 15,
+              "rate": 0.2777777777777778
+            },
+            "recall_at_16": {
+              "denominator": 54,
+              "numerator": 15,
+              "rate": 0.2777777777777778
+            },
+            "recall_at_4": {
+              "denominator": 54,
+              "numerator": 15,
+              "rate": 0.2777777777777778
+            },
+            "recall_at_64": {
+              "denominator": 54,
+              "numerator": 15,
+              "rate": 0.2777777777777778
+            }
+          }
+        },
+        "object_slice": {
+          "multi_object": {
+            "recall_at_1": {
+              "denominator": 4034,
+              "numerator": 13,
+              "rate": 0.0032226078334159644
+            },
+            "recall_at_128": {
+              "denominator": 4034,
+              "numerator": 17,
+              "rate": 0.00421417947446703
+            },
+            "recall_at_16": {
+              "denominator": 4034,
+              "numerator": 17,
+              "rate": 0.00421417947446703
+            },
+            "recall_at_4": {
+              "denominator": 4034,
+              "numerator": 17,
+              "rate": 0.00421417947446703
+            },
+            "recall_at_64": {
+              "denominator": 4034,
+              "numerator": 17,
+              "rate": 0.00421417947446703
+            }
+          },
+          "one_object": {
+            "recall_at_1": {
+              "denominator": 323,
+              "numerator": 17,
+              "rate": 0.05263157894736842
+            },
+            "recall_at_128": {
+              "denominator": 323,
+              "numerator": 20,
+              "rate": 0.06191950464396285
+            },
+            "recall_at_16": {
+              "denominator": 323,
+              "numerator": 20,
+              "rate": 0.06191950464396285
+            },
+            "recall_at_4": {
+              "denominator": 323,
+              "numerator": 20,
+              "rate": 0.06191950464396285
+            },
+            "recall_at_64": {
+              "denominator": 323,
+              "numerator": 20,
+              "rate": 0.06191950464396285
+            }
+          }
+        },
+        "same_shape": {
+          "changed_shape": {
+            "recall_at_1": {
+              "denominator": 1477,
+              "numerator": 6,
+              "rate": 0.004062288422477996
+            },
+            "recall_at_128": {
+              "denominator": 1477,
+              "numerator": 7,
+              "rate": 0.004739336492890996
+            },
+            "recall_at_16": {
+              "denominator": 1477,
+              "numerator": 7,
+              "rate": 0.004739336492890996
+            },
+            "recall_at_4": {
+              "denominator": 1477,
+              "numerator": 7,
+              "rate": 0.004739336492890996
+            },
+            "recall_at_64": {
+              "denominator": 1477,
+              "numerator": 7,
+              "rate": 0.004739336492890996
+            }
+          },
+          "same_shape": {
+            "recall_at_1": {
+              "denominator": 2880,
+              "numerator": 24,
+              "rate": 0.008333333333333333
+            },
+            "recall_at_128": {
+              "denominator": 2880,
+              "numerator": 30,
+              "rate": 0.010416666666666666
+            },
+            "recall_at_16": {
+              "denominator": 2880,
+              "numerator": 30,
+              "rate": 0.010416666666666666
+            },
+            "recall_at_4": {
+              "denominator": 2880,
+              "numerator": 30,
+              "rate": 0.010416666666666666
+            },
+            "recall_at_64": {
+              "denominator": 2880,
+              "numerator": 30,
+              "rate": 0.010416666666666666
+            }
+          }
+        }
+      }
+    },
+    "B_depth1_only": {
+      "accepted_fold_count": 4357,
+      "candidate_count_distribution": {
+        "count": 4357,
+        "histogram": {
+          "2": 21,
+          "3": 9,
+          "4": 85,
+          "5": 258,
+          "6": 373,
+          "7": 2178,
+          "8": 1433
+        },
+        "mean": 7.033968326830388,
+        "median": 7
+      },
+      "fold_count": 4357,
+      "recall": {
+        "recall_at_1": {
+          "denominator": 4357,
+          "numerator": 30,
+          "rate": 0.006885471654808354
+        },
+        "recall_at_128": {
+          "denominator": 4357,
+          "numerator": 37,
+          "rate": 0.008492081707596971
+        },
+        "recall_at_16": {
+          "denominator": 4357,
+          "numerator": 37,
+          "rate": 0.008492081707596971
+        },
+        "recall_at_4": {
+          "denominator": 4357,
+          "numerator": 37,
+          "rate": 0.008492081707596971
+        },
+        "recall_at_64": {
+          "denominator": 4357,
+          "numerator": 37,
+          "rate": 0.008492081707596971
+        }
+      },
+      "recall_splits": {
+        "change_signature": {
+          "multi_change": {
+            "recall_at_1": {
+              "denominator": 4303,
+              "numerator": 17,
+              "rate": 0.0039507320474087846
+            },
+            "recall_at_128": {
+              "denominator": 4303,
+              "numerator": 22,
+              "rate": 0.005112712061352545
+            },
+            "recall_at_16": {
+              "denominator": 4303,
+              "numerator": 22,
+              "rate": 0.005112712061352545
+            },
+            "recall_at_4": {
+              "denominator": 4303,
+              "numerator": 22,
+              "rate": 0.005112712061352545
+            },
+            "recall_at_64": {
+              "denominator": 4303,
+              "numerator": 22,
+              "rate": 0.005112712061352545
+            }
+          },
+          "one_step": {
+            "recall_at_1": {
+              "denominator": 54,
+              "numerator": 13,
+              "rate": 0.24074074074074073
+            },
+            "recall_at_128": {
+              "denominator": 54,
+              "numerator": 15,
+              "rate": 0.2777777777777778
+            },
+            "recall_at_16": {
+              "denominator": 54,
+              "numerator": 15,
+              "rate": 0.2777777777777778
+            },
+            "recall_at_4": {
+              "denominator": 54,
+              "numerator": 15,
+              "rate": 0.2777777777777778
+            },
+            "recall_at_64": {
+              "denominator": 54,
+              "numerator": 15,
+              "rate": 0.2777777777777778
+            }
+          }
+        },
+        "object_slice": {
+          "multi_object": {
+            "recall_at_1": {
+              "denominator": 4034,
+              "numerator": 11,
+              "rate": 0.002726822012890431
+            },
+            "recall_at_128": {
+              "denominator": 4034,
+              "numerator": 17,
+              "rate": 0.00421417947446703
+            },
+            "recall_at_16": {
+              "denominator": 4034,
+              "numerator": 17,
+              "rate": 0.00421417947446703
+            },
+            "recall_at_4": {
+              "denominator": 4034,
+              "numerator": 17,
+              "rate": 0.00421417947446703
+            },
+            "recall_at_64": {
+              "denominator": 4034,
+              "numerator": 17,
+              "rate": 0.00421417947446703
+            }
+          },
+          "one_object": {
+            "recall_at_1": {
+              "denominator": 323,
+              "numerator": 19,
+              "rate": 0.058823529411764705
+            },
+            "recall_at_128": {
+              "denominator": 323,
+              "numerator": 20,
+              "rate": 0.06191950464396285
+            },
+            "recall_at_16": {
+              "denominator": 323,
+              "numerator": 20,
+              "rate": 0.06191950464396285
+            },
+            "recall_at_4": {
+              "denominator": 323,
+              "numerator": 20,
+              "rate": 0.06191950464396285
+            },
+            "recall_at_64": {
+              "denominator": 323,
+              "numerator": 20,
+              "rate": 0.06191950464396285
+            }
+          }
+        },
+        "same_shape": {
+          "changed_shape": {
+            "recall_at_1": {
+              "denominator": 1477,
+              "numerator": 6,
+              "rate": 0.004062288422477996
+            },
+            "recall_at_128": {
+              "denominator": 1477,
+              "numerator": 7,
+              "rate": 0.004739336492890996
+            },
+            "recall_at_16": {
+              "denominator": 1477,
+              "numerator": 7,
+              "rate": 0.004739336492890996
+            },
+            "recall_at_4": {
+              "denominator": 1477,
+              "numerator": 7,
+              "rate": 0.004739336492890996
+            },
+            "recall_at_64": {
+              "denominator": 1477,
+              "numerator": 7,
+              "rate": 0.004739336492890996
+            }
+          },
+          "same_shape": {
+            "recall_at_1": {
+              "denominator": 2880,
+              "numerator": 24,
+              "rate": 0.008333333333333333
+            },
+            "recall_at_128": {
+              "denominator": 2880,
+              "numerator": 30,
+              "rate": 0.010416666666666666
+            },
+            "recall_at_16": {
+              "denominator": 2880,
+              "numerator": 30,
+              "rate": 0.010416666666666666
+            },
+            "recall_at_4": {
+              "denominator": 2880,
+              "numerator": 30,
+              "rate": 0.010416666666666666
+            },
+            "recall_at_64": {
+              "denominator": 2880,
+              "numerator": 30,
+              "rate": 0.010416666666666666
+            }
+          }
+        }
+      }
+    },
+    "C_no_object_selection_relations": {
+      "accepted_fold_count": 4357,
+      "candidate_count_distribution": {
+        "count": 4357,
+        "histogram": {
+          "2": 21,
+          "3": 14,
+          "4": 97,
+          "5": 321,
+          "6": 436,
+          "7": 2063,
+          "8": 1405
+        },
+        "mean": 6.971310534771632,
+        "median": 7
+      },
+      "fold_count": 4357,
+      "recall": {
+        "recall_at_1": {
+          "denominator": 4357,
+          "numerator": 30,
+          "rate": 0.006885471654808354
+        },
+        "recall_at_128": {
+          "denominator": 4357,
+          "numerator": 37,
+          "rate": 0.008492081707596971
+        },
+        "recall_at_16": {
+          "denominator": 4357,
+          "numerator": 37,
+          "rate": 0.008492081707596971
+        },
+        "recall_at_4": {
+          "denominator": 4357,
+          "numerator": 37,
+          "rate": 0.008492081707596971
+        },
+        "recall_at_64": {
+          "denominator": 4357,
+          "numerator": 37,
+          "rate": 0.008492081707596971
+        }
+      },
+      "recall_splits": {
+        "change_signature": {
+          "multi_change": {
+            "recall_at_1": {
+              "denominator": 4303,
+              "numerator": 17,
+              "rate": 0.0039507320474087846
+            },
+            "recall_at_128": {
+              "denominator": 4303,
+              "numerator": 22,
+              "rate": 0.005112712061352545
+            },
+            "recall_at_16": {
+              "denominator": 4303,
+              "numerator": 22,
+              "rate": 0.005112712061352545
+            },
+            "recall_at_4": {
+              "denominator": 4303,
+              "numerator": 22,
+              "rate": 0.005112712061352545
+            },
+            "recall_at_64": {
+              "denominator": 4303,
+              "numerator": 22,
+              "rate": 0.005112712061352545
+            }
+          },
+          "one_step": {
+            "recall_at_1": {
+              "denominator": 54,
+              "numerator": 13,
+              "rate": 0.24074074074074073
+            },
+            "recall_at_128": {
+              "denominator": 54,
+              "numerator": 15,
+              "rate": 0.2777777777777778
+            },
+            "recall_at_16": {
+              "denominator": 54,
+              "numerator": 15,
+              "rate": 0.2777777777777778
+            },
+            "recall_at_4": {
+              "denominator": 54,
+              "numerator": 15,
+              "rate": 0.2777777777777778
+            },
+            "recall_at_64": {
+              "denominator": 54,
+              "numerator": 15,
+              "rate": 0.2777777777777778
+            }
+          }
+        },
+        "object_slice": {
+          "multi_object": {
+            "recall_at_1": {
+              "denominator": 4034,
+              "numerator": 13,
+              "rate": 0.0032226078334159644
+            },
+            "recall_at_128": {
+              "denominator": 4034,
+              "numerator": 17,
+              "rate": 0.00421417947446703
+            },
+            "recall_at_16": {
+              "denominator": 4034,
+              "numerator": 17,
+              "rate": 0.00421417947446703
+            },
+            "recall_at_4": {
+              "denominator": 4034,
+              "numerator": 17,
+              "rate": 0.00421417947446703
+            },
+            "recall_at_64": {
+              "denominator": 4034,
+              "numerator": 17,
+              "rate": 0.00421417947446703
+            }
+          },
+          "one_object": {
+            "recall_at_1": {
+              "denominator": 323,
+              "numerator": 17,
+              "rate": 0.05263157894736842
+            },
+            "recall_at_128": {
+              "denominator": 323,
+              "numerator": 20,
+              "rate": 0.06191950464396285
+            },
+            "recall_at_16": {
+              "denominator": 323,
+              "numerator": 20,
+              "rate": 0.06191950464396285
+            },
+            "recall_at_4": {
+              "denominator": 323,
+              "numerator": 20,
+              "rate": 0.06191950464396285
+            },
+            "recall_at_64": {
+              "denominator": 323,
+              "numerator": 20,
+              "rate": 0.06191950464396285
+            }
+          }
+        },
+        "same_shape": {
+          "changed_shape": {
+            "recall_at_1": {
+              "denominator": 1477,
+              "numerator": 6,
+              "rate": 0.004062288422477996
+            },
+            "recall_at_128": {
+              "denominator": 1477,
+              "numerator": 7,
+              "rate": 0.004739336492890996
+            },
+            "recall_at_16": {
+              "denominator": 1477,
+              "numerator": 7,
+              "rate": 0.004739336492890996
+            },
+            "recall_at_4": {
+              "denominator": 1477,
+              "numerator": 7,
+              "rate": 0.004739336492890996
+            },
+            "recall_at_64": {
+              "denominator": 1477,
+              "numerator": 7,
+              "rate": 0.004739336492890996
+            }
+          },
+          "same_shape": {
+            "recall_at_1": {
+              "denominator": 2880,
+              "numerator": 24,
+              "rate": 0.008333333333333333
+            },
+            "recall_at_128": {
+              "denominator": 2880,
+              "numerator": 30,
+              "rate": 0.010416666666666666
+            },
+            "recall_at_16": {
+              "denominator": 2880,
+              "numerator": 30,
+              "rate": 0.010416666666666666
+            },
+            "recall_at_4": {
+              "denominator": 2880,
+              "numerator": 30,
+              "rate": 0.010416666666666666
+            },
+            "recall_at_64": {
+              "denominator": 2880,
+              "numerator": 30,
+              "rate": 0.010416666666666666
+            }
+          }
+        }
+      }
+    },
+    "D_no_changed_shape_render_hypotheses": {
+      "accepted_fold_count": 4357,
+      "candidate_count_distribution": {
+        "count": 4357,
+        "histogram": {
+          "1": 20,
+          "2": 6,
+          "3": 39,
+          "4": 85,
+          "5": 293,
+          "6": 313,
+          "7": 349,
+          "8": 3252
+        },
+        "mean": 7.4112921735138855,
+        "median": 8
+      },
+      "fold_count": 4357,
+      "recall": {
+        "recall_at_1": {
+          "denominator": 4357,
+          "numerator": 22,
+          "rate": 0.005049345880192793
+        },
+        "recall_at_128": {
+          "denominator": 4357,
+          "numerator": 30,
+          "rate": 0.006885471654808354
+        },
+        "recall_at_16": {
+          "denominator": 4357,
+          "numerator": 30,
+          "rate": 0.006885471654808354
+        },
+        "recall_at_4": {
+          "denominator": 4357,
+          "numerator": 29,
+          "rate": 0.006655955932981409
+        },
+        "recall_at_64": {
+          "denominator": 4357,
+          "numerator": 30,
+          "rate": 0.006885471654808354
+        }
+      },
+      "recall_splits": {
+        "change_signature": {
+          "multi_change": {
+            "recall_at_1": {
+              "denominator": 4303,
+              "numerator": 9,
+              "rate": 0.0020915640250987683
+            },
+            "recall_at_128": {
+              "denominator": 4303,
+              "numerator": 15,
+              "rate": 0.0034859400418312805
+            },
+            "recall_at_16": {
+              "denominator": 4303,
+              "numerator": 15,
+              "rate": 0.0034859400418312805
+            },
+            "recall_at_4": {
+              "denominator": 4303,
+              "numerator": 15,
+              "rate": 0.0034859400418312805
+            },
+            "recall_at_64": {
+              "denominator": 4303,
+              "numerator": 15,
+              "rate": 0.0034859400418312805
+            }
+          },
+          "one_step": {
+            "recall_at_1": {
+              "denominator": 54,
+              "numerator": 13,
+              "rate": 0.24074074074074073
+            },
+            "recall_at_128": {
+              "denominator": 54,
+              "numerator": 15,
+              "rate": 0.2777777777777778
+            },
+            "recall_at_16": {
+              "denominator": 54,
+              "numerator": 15,
+              "rate": 0.2777777777777778
+            },
+            "recall_at_4": {
+              "denominator": 54,
+              "numerator": 14,
+              "rate": 0.25925925925925924
+            },
+            "recall_at_64": {
+              "denominator": 54,
+              "numerator": 15,
+              "rate": 0.2777777777777778
+            }
+          }
+        },
+        "object_slice": {
+          "multi_object": {
+            "recall_at_1": {
+              "denominator": 4034,
+              "numerator": 11,
+              "rate": 0.002726822012890431
+            },
+            "recall_at_128": {
+              "denominator": 4034,
+              "numerator": 17,
+              "rate": 0.00421417947446703
+            },
+            "recall_at_16": {
+              "denominator": 4034,
+              "numerator": 17,
+              "rate": 0.00421417947446703
+            },
+            "recall_at_4": {
+              "denominator": 4034,
+              "numerator": 16,
+              "rate": 0.0039662865642042635
+            },
+            "recall_at_64": {
+              "denominator": 4034,
+              "numerator": 17,
+              "rate": 0.00421417947446703
+            }
+          },
+          "one_object": {
+            "recall_at_1": {
+              "denominator": 323,
+              "numerator": 11,
+              "rate": 0.034055727554179564
+            },
+            "recall_at_128": {
+              "denominator": 323,
+              "numerator": 13,
+              "rate": 0.04024767801857585
+            },
+            "recall_at_16": {
+              "denominator": 323,
+              "numerator": 13,
+              "rate": 0.04024767801857585
+            },
+            "recall_at_4": {
+              "denominator": 323,
+              "numerator": 13,
+              "rate": 0.04024767801857585
+            },
+            "recall_at_64": {
+              "denominator": 323,
+              "numerator": 13,
+              "rate": 0.04024767801857585
+            }
+          }
+        },
+        "same_shape": {
+          "changed_shape": {
+            "recall_at_1": {
+              "denominator": 1477,
+              "numerator": 0,
+              "rate": 0.0
+            },
+            "recall_at_128": {
+              "denominator": 1477,
+              "numerator": 0,
+              "rate": 0.0
+            },
+            "recall_at_16": {
+              "denominator": 1477,
+              "numerator": 0,
+              "rate": 0.0
+            },
+            "recall_at_4": {
+              "denominator": 1477,
+              "numerator": 0,
+              "rate": 0.0
+            },
+            "recall_at_64": {
+              "denominator": 1477,
+              "numerator": 0,
+              "rate": 0.0
+            }
+          },
+          "same_shape": {
+            "recall_at_1": {
+              "denominator": 2880,
+              "numerator": 22,
+              "rate": 0.007638888888888889
+            },
+            "recall_at_128": {
+              "denominator": 2880,
+              "numerator": 30,
+              "rate": 0.010416666666666666
+            },
+            "recall_at_16": {
+              "denominator": 2880,
+              "numerator": 30,
+              "rate": 0.010416666666666666
+            },
+            "recall_at_4": {
+              "denominator": 2880,
+              "numerator": 29,
+              "rate": 0.010069444444444445
+            },
+            "recall_at_64": {
+              "denominator": 2880,
+              "numerator": 30,
+              "rate": 0.010416666666666666
+            }
+          }
+        }
+      }
+    },
+    "E_identity_only_baseline": {
+      "accepted_fold_count": 4357,
+      "candidate_count_distribution": {
+        "count": 4357,
+        "histogram": {
+          "1": 4357
+        },
+        "mean": 1.0,
+        "median": 1
+      },
+      "fold_count": 4357,
+      "recall": {
+        "recall_at_1": {
+          "denominator": 4357,
+          "numerator": 14,
+          "rate": 0.003213220105577232
+        },
+        "recall_at_128": {
+          "denominator": 4357,
+          "numerator": 14,
+          "rate": 0.003213220105577232
+        },
+        "recall_at_16": {
+          "denominator": 4357,
+          "numerator": 14,
+          "rate": 0.003213220105577232
+        },
+        "recall_at_4": {
+          "denominator": 4357,
+          "numerator": 14,
+          "rate": 0.003213220105577232
+        },
+        "recall_at_64": {
+          "denominator": 4357,
+          "numerator": 14,
+          "rate": 0.003213220105577232
+        }
+      },
+      "recall_splits": {
+        "change_signature": {
+          "multi_change": {
+            "recall_at_1": {
+              "denominator": 4303,
+              "numerator": 0,
+              "rate": 0.0
+            },
+            "recall_at_128": {
+              "denominator": 4303,
+              "numerator": 0,
+              "rate": 0.0
+            },
+            "recall_at_16": {
+              "denominator": 4303,
+              "numerator": 0,
+              "rate": 0.0
+            },
+            "recall_at_4": {
+              "denominator": 4303,
+              "numerator": 0,
+              "rate": 0.0
+            },
+            "recall_at_64": {
+              "denominator": 4303,
+              "numerator": 0,
+              "rate": 0.0
+            }
+          },
+          "one_step": {
+            "recall_at_1": {
+              "denominator": 54,
+              "numerator": 14,
+              "rate": 0.25925925925925924
+            },
+            "recall_at_128": {
+              "denominator": 54,
+              "numerator": 14,
+              "rate": 0.25925925925925924
+            },
+            "recall_at_16": {
+              "denominator": 54,
+              "numerator": 14,
+              "rate": 0.25925925925925924
+            },
+            "recall_at_4": {
+              "denominator": 54,
+              "numerator": 14,
+              "rate": 0.25925925925925924
+            },
+            "recall_at_64": {
+              "denominator": 54,
+              "numerator": 14,
+              "rate": 0.25925925925925924
+            }
+          }
+        },
+        "object_slice": {
+          "multi_object": {
+            "recall_at_1": {
+              "denominator": 4034,
+              "numerator": 9,
+              "rate": 0.0022310361923648984
+            },
+            "recall_at_128": {
+              "denominator": 4034,
+              "numerator": 9,
+              "rate": 0.0022310361923648984
+            },
+            "recall_at_16": {
+              "denominator": 4034,
+              "numerator": 9,
+              "rate": 0.0022310361923648984
+            },
+            "recall_at_4": {
+              "denominator": 4034,
+              "numerator": 9,
+              "rate": 0.0022310361923648984
+            },
+            "recall_at_64": {
+              "denominator": 4034,
+              "numerator": 9,
+              "rate": 0.0022310361923648984
+            }
+          },
+          "one_object": {
+            "recall_at_1": {
+              "denominator": 323,
+              "numerator": 5,
+              "rate": 0.015479876160990712
+            },
+            "recall_at_128": {
+              "denominator": 323,
+              "numerator": 5,
+              "rate": 0.015479876160990712
+            },
+            "recall_at_16": {
+              "denominator": 323,
+              "numerator": 5,
+              "rate": 0.015479876160990712
+            },
+            "recall_at_4": {
+              "denominator": 323,
+              "numerator": 5,
+              "rate": 0.015479876160990712
+            },
+            "recall_at_64": {
+              "denominator": 323,
+              "numerator": 5,
+              "rate": 0.015479876160990712
+            }
+          }
+        },
+        "same_shape": {
+          "changed_shape": {
+            "recall_at_1": {
+              "denominator": 1477,
+              "numerator": 0,
+              "rate": 0.0
+            },
+            "recall_at_128": {
+              "denominator": 1477,
+              "numerator": 0,
+              "rate": 0.0
+            },
+            "recall_at_16": {
+              "denominator": 1477,
+              "numerator": 0,
+              "rate": 0.0
+            },
+            "recall_at_4": {
+              "denominator": 1477,
+              "numerator": 0,
+              "rate": 0.0
+            },
+            "recall_at_64": {
+              "denominator": 1477,
+              "numerator": 0,
+              "rate": 0.0
+            }
+          },
+          "same_shape": {
+            "recall_at_1": {
+              "denominator": 2880,
+              "numerator": 14,
+              "rate": 0.004861111111111111
+            },
+            "recall_at_128": {
+              "denominator": 2880,
+              "numerator": 14,
+              "rate": 0.004861111111111111
+            },
+            "recall_at_16": {
+              "denominator": 2880,
+              "numerator": 14,
+              "rate": 0.004861111111111111
+            },
+            "recall_at_4": {
+              "denominator": 2880,
+              "numerator": 14,
+              "rate": 0.004861111111111111
+            },
+            "recall_at_64": {
+              "denominator": 2880,
+              "numerator": 14,
+              "rate": 0.004861111111111111
+            }
+          }
+        }
+      }
+    }
+  },
+  "primary_ablation": "A_full_depth2_structural_machine"
+}

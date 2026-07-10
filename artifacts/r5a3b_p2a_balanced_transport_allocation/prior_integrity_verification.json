@@ -1,0 +1,28 @@
+{
+  "audit_version": "R5A3B_P2A_BALANCED_RELATION_TRANSPORT_ALLOCATION_PILOT",
+  "protected_prior_hashes_after": {
+    "/mnt/d/VRM/artifacts/r5a3b_p1_exposure_audit/final_report.json": "5657b14a159fe1f74a8c3c275da011d7f74fc2d38fc0168f2a5eca76c6092ab9",
+    "/mnt/d/VRM/artifacts/r5a3b_relation_constraint_pilot/condition_candidate_ledgers.json": "3a447308e83cc4ff148c96b6389a12947bfd22705a62f7349f9421193b3888dc",
+    "/mnt/d/VRM/artifacts/r5a3b_relation_constraint_pilot/final_report.json": "49a6d573c0502fbdb344dec05584ef5d7bef210e2eb287e72ed70e409b1b737d",
+    "/mnt/d/VRM/artifacts/r5a3b_relation_constraint_pilot/raw_candidate_universe_ledger.json": "14aa74058182e1603cc5d58f6f2afd44eaa327e3e74a5cb4f81fd4f0b34bf984",
+    "/mnt/d/VRM/vrm/twin_tasks/r5a3b_constraint_acquisition.py": "12d0974fc3c33a3b25690ba911bfbaa0862981af97d0920eda11d17078f8d1a4",
+    "/mnt/d/VRM/vrm/twin_tasks/r5a3b_object_graph.py": "4abe15346e9855e02b78f4b7acaa44e9207b2b502669047212b29997bc4e0ed9",
+    "/mnt/d/VRM/vrm/twin_tasks/r5a3b_p1_exposure_audit.py": "2b9998d44b1dfb646040f4c6389cde2304d3ac5130b1857cbc22aaad3ae3fe06",
+    "/mnt/d/VRM/vrm/twin_tasks/r5a3b_parse_hypotheses.py": "a64b0428c1904e1409191e0c72c54a51f9d20895699ddfdd7cc6a2f798696f90",
+    "/mnt/d/VRM/vrm/twin_tasks/r5a3b_relation_constraint_pilot.py": "c0bd75c60aba6d0dcf21fe8477631faf80ca75ff2cad83f1c879522a13b0974a",
+    "/mnt/d/VRM/vrm/twin_tasks/r5a3b_relation_programs.py": "a7ea9228fca6d8ff3cbe7ca8afd3e26f36fdb93276f46d5c85fce9a7bf816c6f"
+  },
+  "protected_prior_hashes_before": {
+    "/mnt/d/VRM/artifacts/r5a3b_p1_exposure_audit/final_report.json": "5657b14a159fe1f74a8c3c275da011d7f74fc2d38fc0168f2a5eca76c6092ab9",
+    "/mnt/d/VRM/artifacts/r5a3b_relation_constraint_pilot/condition_candidate_ledgers.json": "3a447308e83cc4ff148c96b6389a12947bfd22705a62f7349f9421193b3888dc",
+    "/mnt/d/VRM/artifacts/r5a3b_relation_constraint_pilot/final_report.json": "49a6d573c0502fbdb344dec05584ef5d7bef210e2eb287e72ed70e409b1b737d",
+    "/mnt/d/VRM/artifacts/r5a3b_relation_constraint_pilot/raw_candidate_universe_ledger.json": "14aa74058182e1603cc5d58f6f2afd44eaa327e3e74a5cb4f81fd4f0b34bf984",
+    "/mnt/d/VRM/vrm/twin_tasks/r5a3b_constraint_acquisition.py": "12d0974fc3c33a3b25690ba911bfbaa0862981af97d0920eda11d17078f8d1a4",
+    "/mnt/d/VRM/vrm/twin_tasks/r5a3b_object_graph.py": "4abe15346e9855e02b78f4b7acaa44e9207b2b502669047212b29997bc4e0ed9",
+    "/mnt/d/VRM/vrm/twin_tasks/r5a3b_p1_exposure_audit.py": "2b9998d44b1dfb646040f4c6389cde2304d3ac5130b1857cbc22aaad3ae3fe06",
+    "/mnt/d/VRM/vrm/twin_tasks/r5a3b_parse_hypotheses.py": "a64b0428c1904e1409191e0c72c54a51f9d20895699ddfdd7cc6a2f798696f90",
+    "/mnt/d/VRM/vrm/twin_tasks/r5a3b_relation_constraint_pilot.py": "c0bd75c60aba6d0dcf21fe8477631faf80ca75ff2cad83f1c879522a13b0974a",
+    "/mnt/d/VRM/vrm/twin_tasks/r5a3b_relation_programs.py": "a7ea9228fca6d8ff3cbe7ca8afd3e26f36fdb93276f46d5c85fce9a7bf816c6f"
+  },
+  "protected_prior_hashes_unchanged": true
+}

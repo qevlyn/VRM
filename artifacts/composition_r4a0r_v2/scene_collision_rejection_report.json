@@ -1,0 +1,7 @@
+{
+  "all_generated_scenes_validated": true,
+  "generated_episode_count": 50400,
+  "passed": true,
+  "preflight_feasible_query_type_count": 128,
+  "scene_level_collision_rejections": 0
+}

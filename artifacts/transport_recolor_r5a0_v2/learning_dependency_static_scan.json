@@ -1,0 +1,792 @@
+{
+  "audit_version": "R5A0V2_LEARNING_DEPENDENCY_AUDIT_V1",
+  "model_contains_fixed_semantic_scaffold": true,
+  "model_forward_imports_or_calls_oracle_helpers": false,
+  "model_reused_immutable_oracle_constants": [
+    "COLOR_COUNT",
+    "GRID_SIZE"
+  ],
+  "rows": [
+    {
+      "calls_oracle_symbol": [],
+      "contains_coordinate_threshold_literals": true,
+      "contains_explicit_rule_dispatch": true,
+      "contains_operation_name_literals": true,
+      "contains_program_class_literals": false,
+      "contains_target_access_elsewhere": true,
+      "contains_target_access_in_forward_path": false,
+      "coordinate_threshold_literals": [
+        false,
+        true,
+        2,
+        3,
+        4,
+        5,
+        9
+      ],
+      "evidence_locations": [
+        {
+          "kind": "import_oracle_symbol",
+          "line": 11,
+          "text": "COLOR_COUNT"
+        },
+        {
+          "kind": "import_oracle_symbol",
+          "line": 11,
+          "text": "GRID_SIZE"
+        }
+      ],
+      "explicit_rule_dispatch_markers": [
+        "predicate_names",
+        "geometry_names",
+        "_predicate_grid",
+        "_infer_geometry_id"
+      ],
+      "imports_oracle_constants": [
+        "COLOR_COUNT",
+        "GRID_SIZE"
+      ],
+      "imports_oracle_helpers": [],
+      "imports_oracle_module": false,
+      "imports_oracle_symbol": [
+        "COLOR_COUNT",
+        "GRID_SIZE"
+      ],
+      "operation_name_literals": [
+        "C",
+        "H",
+        "V"
+      ],
+      "semantic_interpretation": "model forward source contains fixed semantic scaffold markers used to infer geometry/predicate structure from raw support grids; no operation label input is required",
+      "source_file": "/mnt/d/VRM/vrm/twin_tasks/transport_recolor_r5a0v2_model.py"
+    },
+    {
+      "calls_oracle_symbol": [
+        "apply_sequence_to_grid",
+        "empty_grid",
+        "foreground_coords",
+        "freeze_grid",
+        "grid_to_list",
+        "no_edge_foreground",
+        "parse_grid",
+        "parse_sequence"
+      ],
+      "contains_coordinate_threshold_literals": true,
+      "contains_explicit_rule_dispatch": true,
+      "contains_operation_name_literals": true,
+      "contains_program_class_literals": true,
+      "contains_target_access_elsewhere": true,
+      "contains_target_access_in_forward_path": false,
+      "coordinate_threshold_literals": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        9
+      ],
+      "evidence_locations": [
+        {
+          "kind": "import_oracle_symbol",
+          "line": 13,
+          "text": "BACKGROUND"
+        },
+        {
+          "kind": "import_oracle_symbol",
+          "line": 13,
+          "text": "COUNTERFACTUAL_CLASSES"
+        },
+        {
+          "kind": "import_oracle_symbol",
+          "line": 13,
+          "text": "GRID_SIZE"
+        },
+        {
+          "kind": "import_oracle_symbol",
+          "line": 13,
+          "text": "HELD_OUT_MIXED_CLASSES"
+        },
+        {
+          "kind": "import_oracle_symbol",
+          "line": 13,
+          "text": "INPUT_COLORS"
+        },
+        {
+          "kind": "import_oracle_symbol",
+          "line": 13,
+          "text": "MIXED_CLASSES"
+        },
+        {
+          "kind": "import_oracle_symbol",
+          "line": 13,
+          "text": "SEALED_CLASSES"
+        },
+        {
+          "kind": "import_oracle_symbol",
+          "line": 13,
+          "text": "SEEN_MIXED_CLASSES"
+        },
+        {
+          "kind": "import_oracle_symbol",
+          "line": 13,
+          "text": "SINGLE_CLASSES"
+        },
+        {
+          "kind": "import_oracle_symbol",
+          "line": 13,
+          "text": "TRAIN_VISIBLE_CLASSES"
+        },
+        {
+          "kind": "import_oracle_symbol",
+          "line": 13,
+          "text": "apply_sequence_to_grid"
+        },
+        {
+          "kind": "import_oracle_symbol",
+          "line": 13,
+          "text": "foreground_coords"
+        },
+        {
+          "kind": "import_oracle_symbol",
+          "line": 13,
+          "text": "grid_to_list"
+        },
+        {
+          "kind": "import_oracle_symbol",
+          "line": 13,
+          "text": "no_edge_foreground"
+        },
+        {
+          "kind": "import_oracle_symbol",
+          "line": 13,
+          "text": "parse_grid"
+        },
+        {
+          "kind": "import_oracle_symbol",
+          "line": 13,
+          "text": "parse_sequence"
+        },
+        {
+          "kind": "call_oracle_symbol",
+          "line": 202,
+          "text": "empty_grid"
+        },
+        {
+          "kind": "call_oracle_symbol",
+          "line": 206,
+          "text": "freeze_grid"
+        },
+        {
+          "kind": "call_oracle_symbol",
+          "line": 226,
+          "text": "empty_grid"
+        },
+        {
+          "kind": "call_oracle_symbol",
+          "line": 229,
+          "text": "freeze_grid"
+        },
+        {
+          "kind": "call_oracle_symbol",
+          "line": 238,
+          "text": "foreground_coords"
+        },
+        {
+          "kind": "call_oracle_symbol",
+          "line": 367,
+          "text": "apply_sequence_to_grid"
+        },
+        {
+          "kind": "call_oracle_symbol",
+          "line": 241,
+          "text": "no_edge_foreground"
+        },
+        {
+          "kind": "call_oracle_symbol",
+          "line": 483,
+          "text": "apply_sequence_to_grid"
+        },
+        {
+          "kind": "call_oracle_symbol",
+          "line": 540,
+          "text": "apply_sequence_to_grid"
+        },
+        {
+          "kind": "call_oracle_symbol",
+          "line": 81,
+          "text": "grid_to_list"
+        },
+        {
+          "kind": "call_oracle_symbol",
+          "line": 83,
+          "text": "grid_to_list"
+        },
+        {
+          "kind": "call_oracle_symbol",
+          "line": 253,
+          "text": "parse_sequence"
+        },
+        {
+          "kind": "call_oracle_symbol",
+          "line": 264,
+          "text": "apply_sequence_to_grid"
+        },
+        {
+          "kind": "call_oracle_symbol",
+          "line": 403,
+          "text": "parse_grid"
+        },
+        {
+          "kind": "call_oracle_symbol",
+          "line": 405,
+          "text": "parse_grid"
+        },
+        {
+          "kind": "call_oracle_symbol",
+          "line": 255,
+          "text": "apply_sequence_to_grid"
+        },
+        {
+          "kind": "call_oracle_symbol",
+          "line": 294,
+          "text": "apply_sequence_to_grid"
+        },
+        {
+          "kind": "call_oracle_symbol",
+          "line": 664,
+          "text": "grid_to_list"
+        },
+        {
+          "kind": "call_oracle_symbol",
+          "line": 664,
+          "text": "grid_to_list"
+        },
+        {
+          "kind": "call_oracle_symbol",
+          "line": 668,
+          "text": "grid_to_list"
+        },
+        {
+          "kind": "call_oracle_symbol",
+          "line": 672,
+          "text": "grid_to_list"
+        },
+        {
+          "kind": "call_oracle_symbol",
+          "line": 677,
+          "text": "grid_to_list"
+        },
+        {
+          "kind": "call_oracle_symbol",
+          "line": 680,
+          "text": "grid_to_list"
+        },
+        {
+          "kind": "call_oracle_symbol",
+          "line": 82,
+          "text": "grid_to_list"
+        },
+        {
+          "kind": "call_oracle_symbol",
+          "line": 82,
+          "text": "grid_to_list"
+        },
+        {
+          "kind": "call_oracle_symbol",
+          "line": 261,
+          "text": "no_edge_foreground"
+        },
+        {
+          "kind": "call_oracle_symbol",
+          "line": 359,
+          "text": "apply_sequence_to_grid"
+        },
+        {
+          "kind": "call_oracle_symbol",
+          "line": 484,
+          "text": "grid_to_list"
+        },
+        {
+          "kind": "call_oracle_symbol",
+          "line": 541,
+          "text": "grid_to_list"
+        },
+        {
+          "kind": "call_oracle_symbol",
+          "line": 678,
+          "text": "grid_to_list"
+        },
+        {
+          "kind": "call_oracle_symbol",
+          "line": 679,
+          "text": "grid_to_list"
+        },
+        {
+          "kind": "call_oracle_symbol",
+          "line": 258,
+          "text": "foreground_coords"
+        },
+        {
+          "kind": "call_oracle_symbol",
+          "line": 272,
+          "text": "grid_to_list"
+        },
+        {
+          "kind": "call_oracle_symbol",
+          "line": 582,
+          "text": "grid_to_list"
+        },
+        {
+          "kind": "call_oracle_symbol",
+          "line": 404,
+          "text": "parse_grid"
+        },
+        {
+          "kind": "call_oracle_symbol",
+          "line": 404,
+          "text": "parse_grid"
+        },
+        {
+          "kind": "call_oracle_symbol",
+          "line": 496,
+          "text": "apply_sequence_to_grid"
+        },
+        {
+          "kind": "call_oracle_symbol",
+          "line": 585,
+          "text": "grid_to_list"
+        },
+        {
+          "kind": "call_oracle_symbol",
+          "line": 555,
+          "text": "apply_sequence_to_grid"
+        }
+      ],
+      "explicit_rule_dispatch_markers": [
+        "apply_sequence_to_grid",
+        "parse_sequence"
+      ],
+      "imports_oracle_constants": [
+        "BACKGROUND",
+        "COUNTERFACTUAL_CLASSES",
+        "GRID_SIZE",
+        "HELD_OUT_MIXED_CLASSES",
+        "INPUT_COLORS",
+        "MIXED_CLASSES",
+        "SEALED_CLASSES",
+        "SEEN_MIXED_CLASSES",
+        "SINGLE_CLASSES",
+        "TRAIN_VISIBLE_CLASSES"
+      ],
+      "imports_oracle_helpers": [
+        "apply_sequence_to_grid",
+        "foreground_coords",
+        "grid_to_list",
+        "no_edge_foreground",
+        "parse_grid",
+        "parse_sequence"
+      ],
+      "imports_oracle_module": false,
+      "imports_oracle_symbol": [
+        "BACKGROUND",
+        "COUNTERFACTUAL_CLASSES",
+        "GRID_SIZE",
+        "HELD_OUT_MIXED_CLASSES",
+        "INPUT_COLORS",
+        "MIXED_CLASSES",
+        "SEALED_CLASSES",
+        "SEEN_MIXED_CLASSES",
+        "SINGLE_CLASSES",
+        "TRAIN_VISIBLE_CLASSES",
+        "apply_sequence_to_grid",
+        "foreground_coords",
+        "grid_to_list",
+        "no_edge_foreground",
+        "parse_grid",
+        "parse_sequence"
+      ],
+      "operation_name_literals": [
+        "C",
+        "C->K",
+        "C->L",
+        "H",
+        "H->K",
+        "H->L",
+        "K",
+        "K->C",
+        "K->V",
+        "L",
+        "L->C",
+        "L->H",
+        "V"
+      ],
+      "semantic_interpretation": "data/generator uses oracle helpers to create labels and frozen suites, outside model forward",
+      "source_file": "/mnt/d/VRM/vrm/twin_tasks/transport_recolor_r5a0v2_data.py"
+    },
+    {
+      "calls_oracle_symbol": [
+        "apply_primitive_to_cell",
+        "apply_sequence_to_cell",
+        "cell_signature",
+        "color_transition_table",
+        "coord_c",
+        "coord_h",
+        "coord_v",
+        "empty_grid",
+        "final_geometry_map",
+        "foreground_coords",
+        "freeze_grid",
+        "parse_sequence",
+        "predicate_formula_from_truth_set",
+        "predicate_truth_set",
+        "signature_hash",
+        "source_index_for_output"
+      ],
+      "contains_coordinate_threshold_literals": true,
+      "contains_explicit_rule_dispatch": true,
+      "contains_operation_name_literals": true,
+      "contains_program_class_literals": true,
+      "contains_target_access_elsewhere": false,
+      "contains_target_access_in_forward_path": false,
+      "coordinate_threshold_literals": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "evidence_locations": [
+        {
+          "kind": "call_oracle_symbol",
+          "line": 84,
+          "text": "parse_sequence"
+        },
+        {
+          "kind": "call_oracle_symbol",
+          "line": 104,
+          "text": "freeze_grid"
+        },
+        {
+          "kind": "call_oracle_symbol",
+          "line": 116,
+          "text": "empty_grid"
+        },
+        {
+          "kind": "call_oracle_symbol",
+          "line": 125,
+          "text": "freeze_grid"
+        },
+        {
+          "kind": "call_oracle_symbol",
+          "line": 138,
+          "text": "source_index_for_output"
+        },
+        {
+          "kind": "call_oracle_symbol",
+          "line": 63,
+          "text": "coord_c"
+        },
+        {
+          "kind": "call_oracle_symbol",
+          "line": 66,
+          "text": "coord_h"
+        },
+        {
+          "kind": "call_oracle_symbol",
+          "line": 69,
+          "text": "coord_v"
+        },
+        {
+          "kind": "call_oracle_symbol",
+          "line": 85,
+          "text": "apply_primitive_to_cell"
+        },
+        {
+          "kind": "call_oracle_symbol",
+          "line": 148,
+          "text": "apply_sequence_to_cell"
+        },
+        {
+          "kind": "call_oracle_symbol",
+          "line": 209,
+          "text": "signature_hash"
+        },
+        {
+          "kind": "call_oracle_symbol",
+          "line": 224,
+          "text": "predicate_formula_from_truth_set"
+        },
+        {
+          "kind": "call_oracle_symbol",
+          "line": 121,
+          "text": "apply_sequence_to_cell"
+        },
+        {
+          "kind": "call_oracle_symbol",
+          "line": 131,
+          "text": "apply_sequence_to_cell"
+        },
+        {
+          "kind": "call_oracle_symbol",
+          "line": 161,
+          "text": "apply_sequence_to_cell"
+        },
+        {
+          "kind": "call_oracle_symbol",
+          "line": 162,
+          "text": "coord_c"
+        },
+        {
+          "kind": "call_oracle_symbol",
+          "line": 164,
+          "text": "coord_h"
+        },
+        {
+          "kind": "call_oracle_symbol",
+          "line": 166,
+          "text": "coord_v"
+        },
+        {
+          "kind": "call_oracle_symbol",
+          "line": 224,
+          "text": "predicate_truth_set"
+        },
+        {
+          "kind": "call_oracle_symbol",
+          "line": 112,
+          "text": "foreground_coords"
+        },
+        {
+          "kind": "call_oracle_symbol",
+          "line": 156,
+          "text": "cell_signature"
+        },
+        {
+          "kind": "call_oracle_symbol",
+          "line": 203,
+          "text": "apply_sequence_to_cell"
+        },
+        {
+          "kind": "call_oracle_symbol",
+          "line": 231,
+          "text": "final_geometry_map"
+        },
+        {
+          "kind": "call_oracle_symbol",
+          "line": 235,
+          "text": "color_transition_table"
+        },
+        {
+          "kind": "call_oracle_symbol",
+          "line": 178,
+          "text": "apply_sequence_to_cell"
+        },
+        {
+          "kind": "call_oracle_symbol",
+          "line": 220,
+          "text": "cell_signature"
+        }
+      ],
+      "explicit_rule_dispatch_markers": [
+        "source_index_for_output",
+        "apply_sequence_to_grid",
+        "parse_sequence",
+        "if op =="
+      ],
+      "imports_oracle_constants": [],
+      "imports_oracle_helpers": [],
+      "imports_oracle_module": false,
+      "imports_oracle_symbol": [],
+      "operation_name_literals": [
+        "C",
+        "C->K",
+        "C->L",
+        "H",
+        "H->K",
+        "H->L",
+        "K",
+        "K->C",
+        "K->V",
+        "L",
+        "L->C",
+        "L->H",
+        "V"
+      ],
+      "semantic_interpretation": "oracle module defines grammar and label semantics",
+      "source_file": "/mnt/d/VRM/vrm/twin_tasks/transport_recolor_r5a0v2_oracles.py"
+    },
+    {
+      "calls_oracle_symbol": [
+        "apply_sequence_to_grid",
+        "grid_to_list",
+        "operation_function_audit",
+        "source_index_for_output"
+      ],
+      "contains_coordinate_threshold_literals": true,
+      "contains_explicit_rule_dispatch": true,
+      "contains_operation_name_literals": true,
+      "contains_program_class_literals": false,
+      "contains_target_access_elsewhere": true,
+      "contains_target_access_in_forward_path": false,
+      "coordinate_threshold_literals": [
+        false,
+        1,
+        2,
+        3,
+        4,
+        5,
+        8
+      ],
+      "evidence_locations": [
+        {
+          "kind": "import_oracle_symbol",
+          "line": 56,
+          "text": "COLOR_COUNT"
+        },
+        {
+          "kind": "import_oracle_symbol",
+          "line": 56,
+          "text": "GRID_SIZE"
+        },
+        {
+          "kind": "import_oracle_symbol",
+          "line": 56,
+          "text": "HELD_OUT_MIXED_CLASSES"
+        },
+        {
+          "kind": "import_oracle_symbol",
+          "line": 56,
+          "text": "MIXED_CLASSES"
+        },
+        {
+          "kind": "import_oracle_symbol",
+          "line": 56,
+          "text": "SEALED_CLASSES"
+        },
+        {
+          "kind": "import_oracle_symbol",
+          "line": 56,
+          "text": "SEEN_MIXED_CLASSES"
+        },
+        {
+          "kind": "import_oracle_symbol",
+          "line": 56,
+          "text": "SINGLE_CLASSES"
+        },
+        {
+          "kind": "import_oracle_symbol",
+          "line": 56,
+          "text": "TRAIN_VISIBLE_CLASSES"
+        },
+        {
+          "kind": "import_oracle_symbol",
+          "line": 56,
+          "text": "apply_sequence_to_grid"
+        },
+        {
+          "kind": "import_oracle_symbol",
+          "line": 56,
+          "text": "operation_function_audit"
+        },
+        {
+          "kind": "import_oracle_symbol",
+          "line": 56,
+          "text": "source_index_for_output"
+        },
+        {
+          "kind": "call_oracle_symbol",
+          "line": 1136,
+          "text": "operation_function_audit"
+        },
+        {
+          "kind": "call_oracle_symbol",
+          "line": 327,
+          "text": "source_index_for_output"
+        },
+        {
+          "kind": "call_oracle_symbol",
+          "line": 793,
+          "text": "grid_to_list"
+        },
+        {
+          "kind": "call_oracle_symbol",
+          "line": 795,
+          "text": "grid_to_list"
+        },
+        {
+          "kind": "call_oracle_symbol",
+          "line": 984,
+          "text": "grid_to_list"
+        },
+        {
+          "kind": "call_oracle_symbol",
+          "line": 985,
+          "text": "grid_to_list"
+        },
+        {
+          "kind": "call_oracle_symbol",
+          "line": 795,
+          "text": "apply_sequence_to_grid"
+        },
+        {
+          "kind": "call_oracle_symbol",
+          "line": 807,
+          "text": "apply_sequence_to_grid"
+        },
+        {
+          "kind": "call_oracle_symbol",
+          "line": 806,
+          "text": "apply_sequence_to_grid"
+        }
+      ],
+      "explicit_rule_dispatch_markers": [
+        "source_index_for_output",
+        "apply_sequence_to_grid"
+      ],
+      "imports_oracle_constants": [
+        "COLOR_COUNT",
+        "GRID_SIZE",
+        "HELD_OUT_MIXED_CLASSES",
+        "MIXED_CLASSES",
+        "SEALED_CLASSES",
+        "SEEN_MIXED_CLASSES",
+        "SINGLE_CLASSES",
+        "TRAIN_VISIBLE_CLASSES"
+      ],
+      "imports_oracle_helpers": [
+        "apply_sequence_to_grid",
+        "operation_function_audit",
+        "source_index_for_output"
+      ],
+      "imports_oracle_module": false,
+      "imports_oracle_symbol": [
+        "COLOR_COUNT",
+        "GRID_SIZE",
+        "HELD_OUT_MIXED_CLASSES",
+        "MIXED_CLASSES",
+        "SEALED_CLASSES",
+        "SEEN_MIXED_CLASSES",
+        "SINGLE_CLASSES",
+        "TRAIN_VISIBLE_CLASSES",
+        "apply_sequence_to_grid",
+        "operation_function_audit",
+        "source_index_for_output"
+      ],
+      "operation_name_literals": [
+        "C",
+        "H",
+        "K",
+        "L",
+        "V"
+      ],
+      "semantic_interpretation": "runner uses oracle helpers for metrics/interventions after forward, not as model forward inputs",
+      "source_file": "/mnt/d/VRM/vrm/twin_tasks/run_transport_recolor_r5a0v2.py"
+    }
+  ]
+}

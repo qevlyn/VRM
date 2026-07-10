@@ -1,0 +1,325 @@
+{
+  "add_residual_prenorm_dataflow": {
+    "down_affine_direct_parent": "raw_x",
+    "pre_norm_output_role": "observational_only",
+    "status": "ADD_RESIDUAL_PRENORM_DATAFLOW_VERIFIED"
+  },
+  "created_utc": "2026-07-04T06:28:47Z",
+  "events": [
+    {
+      "aggregates_across_examples": false,
+      "declared_semantic_parent_event_keys": [],
+      "expected_direction_argument": null,
+      "expected_logical_dims": "runtime multitensor dims where applicable",
+      "influences_later_discrete_decision": false,
+      "pinned_source_line_range": [
+        51,
+        123
+      ],
+      "reduces_over_any_axis": true,
+      "semantic_role": "posterior channel sample and KL",
+      "source_file": "layers.py",
+      "source_function": "channel_layer",
+      "stable_semantic_event_key": "channel_layer[declared]",
+      "uses_directional_geometry": false,
+      "uses_mask": false,
+      "uses_stochastic_values": true
+    },
+    {
+      "aggregates_across_examples": false,
+      "declared_semantic_parent_event_keys": [
+        "channel_layer[declared]"
+      ],
+      "expected_direction_argument": null,
+      "expected_logical_dims": "runtime multitensor dims where applicable",
+      "influences_later_discrete_decision": true,
+      "pinned_source_line_range": [
+        145,
+        152
+      ],
+      "reduces_over_any_axis": false,
+      "semantic_role": "decode affine",
+      "source_file": "layers.py",
+      "source_function": "decode_latents_/affine",
+      "stable_semantic_event_key": "decode_affine[declared]",
+      "uses_directional_geometry": false,
+      "uses_mask": false,
+      "uses_stochastic_values": false
+    },
+    {
+      "aggregates_across_examples": false,
+      "declared_semantic_parent_event_keys": [
+        "decode_affine[declared]"
+      ],
+      "expected_direction_argument": null,
+      "expected_logical_dims": "runtime multitensor dims where applicable",
+      "influences_later_discrete_decision": true,
+      "pinned_source_line_range": [
+        125,
+        155
+      ],
+      "reduces_over_any_axis": false,
+      "semantic_role": "decoded latent multitensor",
+      "source_file": "layers.py",
+      "source_function": "decode_latents",
+      "stable_semantic_event_key": "decode_latents[declared]",
+      "uses_directional_geometry": false,
+      "uses_mask": false,
+      "uses_stochastic_values": false
+    },
+    {
+      "aggregates_across_examples": false,
+      "declared_semantic_parent_event_keys": [
+        "decode_latents[declared]"
+      ],
+      "expected_direction_argument": null,
+      "expected_logical_dims": "runtime multitensor dims where applicable",
+      "influences_later_discrete_decision": true,
+      "pinned_source_line_range": [
+        236,
+        247
+      ],
+      "reduces_over_any_axis": false,
+      "semantic_role": "cross-tensor communication",
+      "source_file": "layers.py",
+      "source_function": "share_up",
+      "stable_semantic_event_key": "share_up[declared]",
+      "uses_directional_geometry": false,
+      "uses_mask": false,
+      "uses_stochastic_values": false
+    },
+    {
+      "aggregates_across_examples": false,
+      "declared_semantic_parent_event_keys": [
+        "share_up[declared]"
+      ],
+      "expected_direction_argument": null,
+      "expected_logical_dims": "runtime multitensor dims where applicable",
+      "influences_later_discrete_decision": true,
+      "pinned_source_line_range": [
+        285,
+        305
+      ],
+      "reduces_over_any_axis": true,
+      "semantic_role": "softmax residual block",
+      "source_file": "layers.py",
+      "source_function": "softmax",
+      "stable_semantic_event_key": "softmax[declared]",
+      "uses_directional_geometry": false,
+      "uses_mask": false,
+      "uses_stochastic_values": false
+    },
+    {
+      "aggregates_across_examples": false,
+      "declared_semantic_parent_event_keys": [
+        "softmax[declared]"
+      ],
+      "expected_direction_argument": null,
+      "expected_logical_dims": "runtime multitensor dims where applicable",
+      "influences_later_discrete_decision": true,
+      "pinned_source_line_range": [
+        418,
+        464
+      ],
+      "reduces_over_any_axis": true,
+      "semantic_role": "Cummax residual block",
+      "source_file": "layers.py",
+      "source_function": "cummax",
+      "stable_semantic_event_key": "cummax[declared]",
+      "uses_directional_geometry": true,
+      "uses_mask": true,
+      "uses_stochastic_values": false
+    },
+    {
+      "aggregates_across_examples": false,
+      "declared_semantic_parent_event_keys": [
+        "cummax[declared]"
+      ],
+      "expected_direction_argument": null,
+      "expected_logical_dims": "runtime multitensor dims where applicable",
+      "influences_later_discrete_decision": true,
+      "pinned_source_line_range": [
+        467,
+        488
+      ],
+      "reduces_over_any_axis": false,
+      "semantic_role": "shift residual block",
+      "source_file": "layers.py",
+      "source_function": "shift",
+      "stable_semantic_event_key": "shift[declared]",
+      "uses_directional_geometry": true,
+      "uses_mask": true,
+      "uses_stochastic_values": false
+    },
+    {
+      "aggregates_across_examples": false,
+      "declared_semantic_parent_event_keys": [
+        "shift[declared]"
+      ],
+      "expected_direction_argument": "direction runtime argument",
+      "expected_logical_dims": "runtime multitensor dims where applicable",
+      "influences_later_discrete_decision": true,
+      "pinned_source_line_range": [
+        491,
+        525
+      ],
+      "reduces_over_any_axis": false,
+      "semantic_role": "direction-share block",
+      "source_file": "layers.py",
+      "source_function": "direction_share",
+      "stable_semantic_event_key": "direction_share[declared]",
+      "uses_directional_geometry": true,
+      "uses_mask": false,
+      "uses_stochastic_values": false
+    },
+    {
+      "aggregates_across_examples": false,
+      "declared_semantic_parent_event_keys": [
+        "direction_share[declared]"
+      ],
+      "expected_direction_argument": null,
+      "expected_logical_dims": "runtime multitensor dims where applicable",
+      "influences_later_discrete_decision": true,
+      "pinned_source_line_range": [
+        528,
+        540
+      ],
+      "reduces_over_any_axis": false,
+      "semantic_role": "nonlinear residual block",
+      "source_file": "layers.py",
+      "source_function": "nonlinear",
+      "stable_semantic_event_key": "nonlinear[declared]",
+      "uses_directional_geometry": false,
+      "uses_mask": false,
+      "uses_stochastic_values": false
+    },
+    {
+      "aggregates_across_examples": false,
+      "declared_semantic_parent_event_keys": [
+        "nonlinear[declared]"
+      ],
+      "expected_direction_argument": null,
+      "expected_logical_dims": "runtime multitensor dims where applicable",
+      "influences_later_discrete_decision": true,
+      "pinned_source_line_range": [
+        249,
+        260
+      ],
+      "reduces_over_any_axis": false,
+      "semantic_role": "cross-tensor communication",
+      "source_file": "layers.py",
+      "source_function": "share_down",
+      "stable_semantic_event_key": "share_down[declared]",
+      "uses_directional_geometry": false,
+      "uses_mask": false,
+      "uses_stochastic_values": false
+    },
+    {
+      "aggregates_across_examples": true,
+      "declared_semantic_parent_event_keys": [
+        "share_down[declared]"
+      ],
+      "expected_direction_argument": null,
+      "expected_logical_dims": "runtime multitensor dims where applicable",
+      "influences_later_discrete_decision": true,
+      "pinned_source_line_range": [
+        14,
+        27
+      ],
+      "reduces_over_any_axis": true,
+      "semantic_role": "whole-multitensor normalization",
+      "source_file": "layers.py",
+      "source_function": "normalize",
+      "stable_semantic_event_key": "normalize[declared]",
+      "uses_directional_geometry": false,
+      "uses_mask": false,
+      "uses_stochastic_values": false
+    },
+    {
+      "aggregates_across_examples": false,
+      "declared_semantic_parent_event_keys": [
+        "normalize[declared]"
+      ],
+      "expected_direction_argument": null,
+      "expected_logical_dims": "runtime multitensor dims where applicable",
+      "influences_later_discrete_decision": true,
+      "pinned_source_line_range": [
+        111,
+        114
+      ],
+      "reduces_over_any_axis": false,
+      "semantic_role": "forward-scope output head",
+      "source_file": "arc_compressor.py",
+      "source_function": "ARCCompressor.forward",
+      "stable_semantic_event_key": "final_color_head[declared]",
+      "uses_directional_geometry": false,
+      "uses_mask": false,
+      "uses_stochastic_values": false
+    },
+    {
+      "aggregates_across_examples": false,
+      "declared_semantic_parent_event_keys": [
+        "final_color_head[declared]"
+      ],
+      "expected_direction_argument": null,
+      "expected_logical_dims": "runtime multitensor dims where applicable",
+      "influences_later_discrete_decision": true,
+      "pinned_source_line_range": [
+        115,
+        115
+      ],
+      "reduces_over_any_axis": false,
+      "semantic_role": "forward-scope output head",
+      "source_file": "arc_compressor.py",
+      "source_function": "ARCCompressor.forward",
+      "stable_semantic_event_key": "final_x_mask_head[declared]",
+      "uses_directional_geometry": false,
+      "uses_mask": false,
+      "uses_stochastic_values": false
+    },
+    {
+      "aggregates_across_examples": false,
+      "declared_semantic_parent_event_keys": [
+        "final_x_mask_head[declared]"
+      ],
+      "expected_direction_argument": null,
+      "expected_logical_dims": "runtime multitensor dims where applicable",
+      "influences_later_discrete_decision": true,
+      "pinned_source_line_range": [
+        116,
+        116
+      ],
+      "reduces_over_any_axis": false,
+      "semantic_role": "forward-scope output head",
+      "source_file": "arc_compressor.py",
+      "source_function": "ARCCompressor.forward",
+      "stable_semantic_event_key": "final_y_mask_head[declared]",
+      "uses_directional_geometry": false,
+      "uses_mask": false,
+      "uses_stochastic_values": false
+    },
+    {
+      "aggregates_across_examples": false,
+      "declared_semantic_parent_event_keys": [
+        "final_y_mask_head[declared]"
+      ],
+      "expected_direction_argument": null,
+      "expected_logical_dims": "runtime multitensor dims where applicable",
+      "influences_later_discrete_decision": true,
+      "pinned_source_line_range": [
+        542,
+        570
+      ],
+      "reduces_over_any_axis": true,
+      "semantic_role": "mask postprocess",
+      "source_file": "layers.py",
+      "source_function": "postprocess_mask",
+      "stable_semantic_event_key": "postprocess_mask[declared]",
+      "uses_directional_geometry": false,
+      "uses_mask": true,
+      "uses_stochastic_values": false
+    }
+  ],
+  "graph_type": "complete semantic-boundary provenance graph",
+  "pinned_commit": "83a22218024d46273eb32b769a906340202ffb4d"
+}

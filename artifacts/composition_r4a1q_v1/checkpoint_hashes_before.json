@@ -1,0 +1,20 @@
+{
+  "20260628": {
+    "mtime_ns": 1782706398953836900,
+    "path": "/mnt/d/VRM/checkpoints/composition_r4a0r_v2/composition_r4a0r_seed_20260628_best_dev.pt",
+    "sha256": "64f0102a991c1aee490aba76b64dd055a955774c080c5b47a8f7c1f50bc4afaa",
+    "size_bytes": 4775
+  },
+  "20260629": {
+    "mtime_ns": 1782706731696376600,
+    "path": "/mnt/d/VRM/checkpoints/composition_r4a0r_v2/composition_r4a0r_seed_20260629_best_dev.pt",
+    "sha256": "963dcbe83fbf3cf562e52295efecb16c0563ab5af3d9a63fa3cd68f987418958",
+    "size_bytes": 4775
+  },
+  "20260630": {
+    "mtime_ns": 1782707046897142900,
+    "path": "/mnt/d/VRM/checkpoints/composition_r4a0r_v2/composition_r4a0r_seed_20260630_best_dev.pt",
+    "sha256": "72ce27d8644bd9937363190787bea44979dc5cdde92247d7e9e781bbdc605287",
+    "size_bytes": 4775
+  }
+}

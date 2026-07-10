@@ -1,0 +1,28 @@
+{
+  "tasks": [
+    {
+      "alias_topology_preserved_by_path_counts": true,
+      "canonical_alias_path_count": 11038,
+      "canonical_unique_forward_reachable_tensors": 2806,
+      "example_axis_tensor_count": 232,
+      "non_example_axis_tensor_count": 2574,
+      "rebinding_used": false,
+      "restore_used_in_place_copy": true,
+      "task_id": "1f876c06",
+      "transformed_alias_path_count": 11038,
+      "transformed_unique_forward_reachable_tensors": 2806
+    },
+    {
+      "alias_topology_preserved_by_path_counts": true,
+      "canonical_alias_path_count": 11038,
+      "canonical_unique_forward_reachable_tensors": 2806,
+      "example_axis_tensor_count": 30,
+      "non_example_axis_tensor_count": 2776,
+      "rebinding_used": false,
+      "restore_used_in_place_copy": true,
+      "task_id": "604001fa",
+      "transformed_alias_path_count": 11038,
+      "transformed_unique_forward_reachable_tensors": 2806
+    }
+  ]
+}

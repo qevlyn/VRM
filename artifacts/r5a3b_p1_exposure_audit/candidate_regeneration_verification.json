@@ -1,0 +1,7 @@
+{
+  "audit_version": "R5A3B_P1_RELATION_EXPOSURE_CONSTRAINT_EFFICACY_AUDIT",
+  "candidate_output_hashes_compared": 0,
+  "p0_artifacts_overwritten": false,
+  "reason": "P0 retained all candidate output hashes and provenance fields needed for candidate-surface analysis. P1 recomputed only parse/object-graph/relation-program-count metadata and did not regenerate candidate grids.",
+  "status": "NOT_REQUIRED"
+}

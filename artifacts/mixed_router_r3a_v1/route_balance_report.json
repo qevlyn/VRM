@@ -1,0 +1,38 @@
+{
+  "dev": {
+    "episode_count": 9000,
+    "passed": true,
+    "query_type_count": 36,
+    "query_types_all_have_three_families": true,
+    "query_types_balanced_by_family": true,
+    "route_family_counts": {
+      "HARD_NEGATIVE_NO_MATCH": 3000,
+      "RETRIEVAL_ELIGIBLE": 3000,
+      "TRANSFORM_ONLY": 3000
+    }
+  },
+  "sealed": {
+    "episode_count": 9000,
+    "passed": true,
+    "query_type_count": 36,
+    "query_types_all_have_three_families": true,
+    "query_types_balanced_by_family": true,
+    "route_family_counts": {
+      "HARD_NEGATIVE_NO_MATCH": 3000,
+      "RETRIEVAL_ELIGIBLE": 3000,
+      "TRANSFORM_ONLY": 3000
+    }
+  },
+  "train": {
+    "episode_count": 36000,
+    "passed": true,
+    "query_type_count": 120,
+    "query_types_all_have_three_families": true,
+    "query_types_balanced_by_family": true,
+    "route_family_counts": {
+      "HARD_NEGATIVE_NO_MATCH": 12000,
+      "RETRIEVAL_ELIGIBLE": 12000,
+      "TRANSFORM_ONLY": 12000
+    }
+  }
+}

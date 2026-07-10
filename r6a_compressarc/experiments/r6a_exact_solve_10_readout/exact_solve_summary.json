@@ -1,0 +1,52 @@
+{
+  "all_fresh_reruns_passed_G1_G5": true,
+  "bounded_claim_only": true,
+  "created_utc": "2026-07-04T14:11:04Z",
+  "exact_full_grid_solves_out_of_ten": 3,
+  "exact_solved_ids": [
+    "0dfd9992",
+    "1f876c06",
+    "1c786137"
+  ],
+  "experiment": "R6A_EXACT_SOLVE_10_READOUT",
+  "final_interpretation_language": "This report measures exact decoded-query performance after a declared\nper-task adaptation protocol. It does not establish reasoning, a shared\nlatent rule z, cross-task pretraining, shortcut absence, or ARC benchmark\nperformance beyond the fixed ten-task readout.",
+  "fixed_ten_task_ids_in_order": [
+    "3ed85e70",
+    "929ab4e9",
+    "981571dc",
+    "604001fa",
+    "79fb03f4",
+    "aa4ec2a5",
+    "0dfd9992",
+    "1f876c06",
+    "1c786137",
+    "00576224"
+  ],
+  "fresh_frozen_rerun_count": 1,
+  "not_recoverable_or_invalid_ids": [],
+  "not_solved_ids": [
+    "3ed85e70",
+    "929ab4e9",
+    "981571dc",
+    "604001fa",
+    "79fb03f4",
+    "aa4ec2a5",
+    "00576224"
+  ],
+  "prediction_records": [
+    "/mnt/d/VRM/r6a_compressarc/experiments/r6a_exact_solve_10_readout/predictions/3ed85e70.json",
+    "/mnt/d/VRM/r6a_compressarc/experiments/r6a_exact_solve_10_readout/predictions/929ab4e9.json",
+    "/mnt/d/VRM/r6a_compressarc/experiments/r6a_exact_solve_10_readout/predictions/981571dc.json",
+    "/mnt/d/VRM/r6a_compressarc/experiments/r6a_exact_solve_10_readout/predictions/604001fa.json",
+    "/mnt/d/VRM/r6a_compressarc/experiments/r6a_exact_solve_10_readout/predictions/79fb03f4.json",
+    "/mnt/d/VRM/r6a_compressarc/experiments/r6a_exact_solve_10_readout/predictions/aa4ec2a5.json",
+    "/mnt/d/VRM/r6a_compressarc/experiments/r6a_exact_solve_10_readout/predictions/0dfd9992.json",
+    "/mnt/d/VRM/r6a_compressarc/experiments/r6a_exact_solve_10_readout/predictions/1f876c06.json",
+    "/mnt/d/VRM/r6a_compressarc/experiments/r6a_exact_solve_10_readout/predictions/1c786137.json",
+    "/mnt/d/VRM/r6a_compressarc/experiments/r6a_exact_solve_10_readout/predictions/00576224.json"
+  ],
+  "protected_scope_unchanged": true,
+  "protocol_valid_task_results_out_of_ten": 10,
+  "recovered_existing_full_run_count": 9,
+  "table_path": "/mnt/d/VRM/r6a_compressarc/experiments/r6a_exact_solve_10_readout/exact_solve_table.csv"
+}

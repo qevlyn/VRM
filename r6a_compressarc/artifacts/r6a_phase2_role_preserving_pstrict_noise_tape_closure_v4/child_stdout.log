@@ -1,0 +1,14 @@
+{
+  "created_utc": "2026-07-04T03:11:37Z",
+  "status": "CHILD_COMPLETE",
+  "tasks": [
+    {
+      "final_label": "P_STRICT_DETERMINISTIC_STEP0_MISMATCH",
+      "task_id": "1f876c06"
+    },
+    {
+      "final_label": "P_STRICT_DETERMINISTIC_STEP0_MISMATCH",
+      "task_id": "604001fa"
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "architecture": "VRM V1 - Spatial Evidence Rewrite",
+  "auxiliary_loss_weight": 0.0,
+  "average_seconds_per_optimizer_step": 1.4101057942146666,
+  "batch_size": 1,
+  "capacity_verdict": "RED_FLAG",
+  "checkpoint_path": "/mnt/d/VRM/checkpoints/vrm_v1_capacity50_step1500.pt",
+  "command": "python -m vrm.train --mode v1_capacity50 --steps 1500 --batch-size 1 --seed 20260627",
+  "cuda_available": false,
+  "cuda_device": null,
+  "data_root": "/mnt/d/VRM/arc-prize-2026-arc-agi-2",
+  "determinism": {
+    "cudnn_benchmark": false,
+    "cudnn_deterministic": true,
+    "python_random_seed": 20260627,
+    "torch_cuda_manual_seed_all": null,
+    "torch_deterministic_algorithms": "enabled_warn_only",
+    "torch_manual_seed": 20260627
+  },
+  "device": "cpu",
+  "eta_after_20_steps_seconds": 320.1813871480003,
+  "eval_steps": [
+    0,
+    50,
+    100,
+    250,
+    500,
+    1000,
+    1500
+  ],
+  "learning_rate": 0.001,
+  "mode": "v1_capacity50",
+  "model_config": {
+    "dropout": 0.0,
+    "hidden_size": 128,
+    "max_grid_height": 30,
+    "max_grid_tokens": 900,
+    "max_grid_width": 30,
+    "max_support_pairs": 16,
+    "num_heads": 4,
+    "pair_encoder_layers": 1,
+    "rewrite_layers": 2,
+    "rewrite_steps": 4,
+    "rule_slots": 32,
+    "vocab_size": 11
+  },
+  "optimizer": {
+    "amsgrad": false,
+    "betas": [
+      0.9,
+      0.999
+    ],
+    "capturable": false,
+    "differentiable": false,
+    "eps": 1e-08,
+    "foreach": null,
+    "fused": null,
+    "lr": 0.001,
+    "maximize": false,
+    "name": "AdamW",
+    "weight_decay": 0.01
+  },
+  "pad_loss_weight": 0.2,
+  "parameter_count": {
+    "total": 1608844,
+    "trainable": 1608844
+  },
+  "prediction_steps": [
+    0,
+    500,
+    1500
+  ],
+  "python_version": "3.14.4 (main, Apr  8 2026, 04:02:31) [GCC 15.2.0]",
+  "seed": 20260627,
+  "source_zip_path": "/mnt/d/VRM/artifacts/VRM_V1_source.zip",
+  "steps": 1500,
+  "torch_threads": 4,
+  "torch_version": "2.12.1+cpu",
+  "train_episode_count": 156,
+  "training_seconds": 2115.158691322,
+  "unseen_episode_count": 160,
+  "unseen_verdict": "SIGNAL_PRESENT",
+  "wall_clock_seconds": 2135.813859701
+}

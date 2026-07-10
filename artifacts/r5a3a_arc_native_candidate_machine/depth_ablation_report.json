@@ -1,0 +1,18 @@
+{
+  "audit_version": "R5A3A_ARC_NATIVE_STRUCTURAL_CANDIDATE_MACHINE_V0",
+  "delta_recall_depth2_minus_depth1": {
+    "recall_at_1": 0.0,
+    "recall_at_128": 0.0,
+    "recall_at_16": 0.0,
+    "recall_at_4": 0.0,
+    "recall_at_64": 0.0
+  },
+  "delta_recall_depth2_minus_depth1_on_multi_change_slice": {
+    "recall_at_1": 0.0,
+    "recall_at_128": 0.0,
+    "recall_at_16": 0.0,
+    "recall_at_4": 0.0,
+    "recall_at_64": 0.0
+  },
+  "interpretation_rule_triggered": true
+}

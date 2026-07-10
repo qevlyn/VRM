@@ -1,0 +1,204 @@
+{
+  "claim_boundaries": {
+    "explicit_factorization_not_necessary_does_not_mean": [
+      "modularity is generally unhelpful",
+      "explicit factorization can never help",
+      "the result transfers beyond this grammar and scale"
+    ],
+    "practical_factorization_advantage_supported_does_not_mean": [
+      "all monolithic architectures fail",
+      "hidden tools emerged",
+      "the result transfers to ARC"
+    ]
+  },
+  "fixed_benchmark_anchor": {
+    "benchmark": "transport_recolor_r5a0_v2",
+    "heldout_mixed_classes": [
+      "L->C",
+      "H->L",
+      "C->K",
+      "K->C"
+    ],
+    "metric_granularity": {
+      "dev_overall_exact": 7.716049382716049e-05,
+      "dev_visible_class_exact": 0.0006944444444444445,
+      "sealed_heldout_mixed_macro_episode_granularity": 0.00017361111111111112,
+      "sealed_overall_exact": 5.341880341880342e-05,
+      "sealed_per_class_exact": 0.0006944444444444445,
+      "train_overall_exact": 2.3148148148148147e-05,
+      "train_visible_class_exact": 0.00020833333333333335
+    },
+    "split_episode_counts": {
+      "dev": 12960,
+      "sealed": 18720,
+      "train": 43200
+    },
+    "train_visible_classes": [
+      "C",
+      "H",
+      "V",
+      "L",
+      "K",
+      "C->L",
+      "L->H",
+      "H->K",
+      "K->V"
+    ],
+    "v2_reference_heldout_mixed_exact_by_seed": {
+      "20260628": 1.0,
+      "20260629": 1.0,
+      "20260630": 1.0
+    },
+    "v2_trainable_parameter_count": 1257985
+  },
+  "future_outcome_classification_rules": {
+    "evaluation_order": [
+      {
+        "interpretation": "Do not interpret held-out mixed failure as evidence for factorization.",
+        "outcome": "CONTROL_UNDERFIT_OR_INVALID",
+        "rule": "Use if any shared variant in any seed fails the train-fit adequacy gate, violates allowed-interface constraints, uses a forbidden interface, or breaches sealed-data discipline."
+      },
+      {
+        "interpretation": "Do not collapse into either a modularity win or a monolithic win.",
+        "outcome": "CAPACITY_SENSITIVE_OR_INCONCLUSIVE",
+        "rule": "Use if train-fit passes but shared_matched and shared_large differ materially by the predeclared capacity criterion, seed spread exceeds the predeclared seed-consistency criterion, or neither practical-effect nor equivalence criteria hold."
+      },
+      {
+        "interpretation": "Supports a practical generalization advantage for explicit V2 factorization on this fixed grammar and training regime only.",
+        "outcome": "PRACTICAL_FACTORIZATION_ADVANTAGE_SUPPORTED",
+        "rule": "Use only if shared_matched and shared_large both pass train-fit adequacy and both underperform V2 held-out mixed exact by at least 0.03 in all three seeds without violating seed/capacity consistency rules."
+      },
+      {
+        "interpretation": "The current R5A-0 V2 grammar can be solved without the explicit transport/color factorization at the tested scale; this does not imply modularity is generally unhelpful.",
+        "outcome": "EXPLICIT_FACTORIZATION_NOT_NECESSARY_ON_CURRENT_GRAMMAR",
+        "rule": "Use if a train-adequate shared variant matches V2 within the 0.01 equivalence margin on held-out mixed exact across all three seeds without violating seed consistency."
+      }
+    ],
+    "notes": [
+      "Thresholds must not be tuned after seeing R5A-1A results.",
+      "V2 is a fixed reference for this preregistered comparison; sealed shared outcomes may be used only for final comparison.",
+      "Any post-sealed modification creates a new experiment version and a new sealed evaluation surface."
+    ]
+  },
+  "generic_attention_policy": "Generic attention is allowed and must not be classified as forbidden merely because it could internally learn correspondence. The prohibition is only against a hand-specified semantic transport/color interface or oracle-equivalent factor channel.",
+  "neutrality_statement": "This preregistration does not state or assume that a generic shared renderer is expected to pass or fail. It fixes allowed interfaces, forbidden interfaces, thresholds, seed consistency rules, and outcome categories before any R5A-1A shared-renderer training.",
+  "planned_shared_variants": {
+    "shared_large": {
+      "allowed_capacity_range_inclusive": [
+        4528746,
+        5535134
+      ],
+      "parameter_budget_rule": "predeclare before training; target approximately 4x V2 parameters with at most +/-10% deviation unless implementation arithmetic makes that impossible, in which case record the deviation before training",
+      "purpose": "larger generic shared-renderer capacity control",
+      "semantic_factor_interface_allowed": false,
+      "v2_parameter_anchor": 1257985
+    },
+    "shared_matched": {
+      "allowed_capacity_range_inclusive": [
+        1132186,
+        1383784
+      ],
+      "parameter_budget_rule": "predeclare before training; target V2 parameter count with at most +/-10% deviation unless implementation arithmetic makes that impossible, in which case record the deviation before training",
+      "purpose": "parameter-matched generic shared-renderer control",
+      "semantic_factor_interface_allowed": false,
+      "v2_parameter_anchor": 1257985
+    }
+  },
+  "pre_registered_outcome_categories": [
+    "CONTROL_UNDERFIT_OR_INVALID",
+    "PRACTICAL_FACTORIZATION_ADVANTAGE_SUPPORTED",
+    "EXPLICIT_FACTORIZATION_NOT_NECESSARY_ON_CURRENT_GRAMMAR",
+    "CAPACITY_SENSITIVE_OR_INCONCLUSIVE"
+  ],
+  "pre_registered_thresholds": {
+    "equivalence_margin": {
+      "absolute_exact_gap_vs_v2_max": 0.01,
+      "comparison_metric": "sealed held-out mixed macro exact",
+      "justification": "A 0.01 margin is roughly 58 held-out mixed examples, much larger than exact-metric granularity while still strict for this synthetic deterministic benchmark.",
+      "must_hold_for": "at least one train-adequate shared variant across all three shared seeds"
+    },
+    "material_capacity_difference": {
+      "failure_outcome": "CAPACITY_SENSITIVE_OR_INCONCLUSIVE",
+      "justification": "A material matched-vs-large gap indicates capacity sensitivity rather than a clean factorization or non-factorization result.",
+      "shared_large_minus_shared_matched_mean_heldout_mixed_exact_abs_min": 0.02
+    },
+    "practically_meaningful_heldout_mixed_effect_floor": {
+      "absolute_exact_gap_vs_v2_min": 0.03,
+      "comparison_metric": "sealed held-out mixed macro exact",
+      "justification": "Held-out mixed has 5,760 sealed examples across four classes, granularity about 1.74e-4. A 0.03 floor is roughly 173 held-out examples, far above metric granularity and deterministic evaluation noise.",
+      "must_hold_for": "both shared_matched and shared_large, all three shared seeds, after train-fit adequacy passes"
+    },
+    "seed_consistency_criterion": {
+      "condition_must_hold": "for any practical-advantage or equivalence interpretation",
+      "failure_outcome": "CAPACITY_SENSITIVE_OR_INCONCLUSIVE",
+      "justification": "A 0.02 seed spread is roughly 115 held-out mixed examples, larger than deterministic metric granularity. Larger seed sensitivity prevents collapsing the result into either a modularity or monolithic conclusion.",
+      "within_variant_max_minus_min_heldout_mixed_exact_max": 0.02
+    },
+    "train_fit_adequacy_gate": {
+      "applies_to": "each shared variant and each seed before interpreting held-out mixed results",
+      "failure_outcome": "CONTROL_UNDERFIT_OR_INVALID",
+      "justification": "The training split has 43,200 visible examples, so overall exact granularity is about 2.31e-5. Each visible operation has 4,800 train examples, granularity about 2.08e-4. The gate allows small optimization imperfections while excluding controls that have not learned the visible grammar well enough for held-out failure to be interpretable.",
+      "requirements": {
+        "each_train_visible_operation_exact_min": 0.99,
+        "train_visible_overall_exact_min": 0.995,
+        "train_visible_seen_mixed_macro_exact_min": 0.995
+      }
+    }
+  },
+  "preregistration_version": "R5A1A_SHARED_RENDERER_CONTROL_PREFLIGHT_V1",
+  "prohibited_actions_in_this_task": {
+    "historical_v2_verdict_changed": false,
+    "model_architecture_changed": false,
+    "training_started": false,
+    "v2_checkpoints_changed": false,
+    "v2_grammar_or_split_changed": false
+  },
+  "sealed_data_discipline": {
+    "allowed": "evaluate the fixed sealed split once for the pre-registered final comparison",
+    "forbidden_uses": [
+      "resize a shared variant",
+      "add a missing decoder component",
+      "alter optimizer or schedule",
+      "change train-fit threshold",
+      "change effect floor",
+      "change equivalence margin",
+      "select between architecture variants"
+    ],
+    "post_sealed_modification_rule": "Any post-sealed modification must create a new experiment version and a new sealed evaluation surface."
+  },
+  "shared_renderer_allowed_interfaces": [
+    "same raw grid tokenization and positional encoding as V2",
+    "generic support/query encoding",
+    "generic learned output-cell query tokens",
+    "generic cross-attention from output cells to support/query tokens",
+    "generic MLPs and final per-cell color logits",
+    "generic output-size prediction based only on raw support/query information allowed by the benchmark",
+    "generic attention, including attention that may internally learn correspondence without a hand-specified semantic transport/color interface"
+  ],
+  "shared_renderer_forbidden_interfaces": [
+    "explicit source-coordinate prediction",
+    "explicit pointer distribution or pointer supervision",
+    "copy gate",
+    "explicit transport representation",
+    "explicit color-transition representation",
+    "factor-labelled latent channels",
+    "auxiliary geometry/recolor losses",
+    "oracle/program/factor metadata or derived equivalents",
+    "sealed-outcome-driven resizing, decoder repair, optimizer changes, threshold changes, margin changes, or variant selection"
+  ],
+  "source_artifact_anchors": {
+    "aggregate_seed_summary": {
+      "path": "/mnt/d/VRM/artifacts/transport_recolor_r5a0_v2/aggregate_seed_summary.json",
+      "sha256": "8884da68805516525dfeea8dbf10ce20664d903e519b0de76de5dc816fff6a14"
+    },
+    "dataset_manifest": {
+      "path": "/mnt/d/VRM/artifacts/transport_recolor_r5a0_v2/dataset_manifest.json",
+      "sha256": "c054191e91b9a8df31de5fc092be41e96548a142041b4f6f76e8cbac1caa7c23"
+    },
+    "initialization_report": {
+      "path": "/mnt/d/VRM/artifacts/transport_recolor_r5a0_v2/initialization_report.json",
+      "sha256": "4401feab83143533ebfbd4450433bce280ff4df36593fec52c31edf66a3182f5"
+    }
+  },
+  "status": "CONTROL_DESIGN_AND_PREFLIGHT_ONLY"
+}

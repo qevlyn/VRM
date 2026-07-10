@@ -1,0 +1,9 @@
+{
+  "all_permutation_same_final_grid_rate": 1.0,
+  "all_permutation_same_logical_reader_pair_rate": 1.0,
+  "all_permutation_same_route_rate": 1.0,
+  "max_abs_alpha_difference_after_logical_unpermute": 1.1920928955078125e-07,
+  "max_abs_final_probability_difference_after_logical_unpermute": 1.1920928955078125e-07,
+  "max_abs_gate_difference_after_logical_unpermute": 0.0,
+  "permutation_presentation_count": 54000
+}

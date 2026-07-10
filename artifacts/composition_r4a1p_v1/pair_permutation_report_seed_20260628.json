@@ -1,0 +1,142 @@
+{
+  "by_visual_stratum_and_function": {
+    "SEALED_VISUAL_TYPES": {
+      "CCC": {
+        "presentations": 3456,
+        "same_final_grid_rate": 1.0
+      },
+      "CCF": {
+        "presentations": 3456,
+        "same_final_grid_rate": 1.0
+      },
+      "CCT": {
+        "presentations": 3456,
+        "same_final_grid_rate": 1.0
+      },
+      "CTC": {
+        "presentations": 3456,
+        "same_final_grid_rate": 1.0
+      },
+      "CTF": {
+        "presentations": 3456,
+        "same_final_grid_rate": 1.0
+      },
+      "FCT": {
+        "presentations": 3456,
+        "same_final_grid_rate": 1.0
+      },
+      "FTC": {
+        "presentations": 3456,
+        "same_final_grid_rate": 1.0
+      },
+      "FTF": {
+        "presentations": 3456,
+        "same_final_grid_rate": 1.0
+      },
+      "TCC": {
+        "presentations": 3456,
+        "same_final_grid_rate": 1.0
+      },
+      "TCF": {
+        "presentations": 3456,
+        "same_final_grid_rate": 1.0
+      },
+      "TCT": {
+        "presentations": 3456,
+        "same_final_grid_rate": 1.0
+      },
+      "TFC": {
+        "presentations": 3456,
+        "same_final_grid_rate": 1.0
+      }
+    },
+    "TRAIN_VISIBLE_VISUAL_TYPES": {
+      "CCC": {
+        "presentations": 11520,
+        "same_final_grid_rate": 1.0
+      },
+      "CCF": {
+        "presentations": 11520,
+        "same_final_grid_rate": 1.0
+      },
+      "CCT": {
+        "presentations": 11520,
+        "same_final_grid_rate": 1.0
+      },
+      "CTC": {
+        "presentations": 11520,
+        "same_final_grid_rate": 1.0
+      },
+      "CTF": {
+        "presentations": 11520,
+        "same_final_grid_rate": 1.0
+      },
+      "FCT": {
+        "presentations": 11520,
+        "same_final_grid_rate": 1.0
+      },
+      "FTC": {
+        "presentations": 11520,
+        "same_final_grid_rate": 1.0
+      },
+      "FTF": {
+        "presentations": 11520,
+        "same_final_grid_rate": 1.0
+      },
+      "TCC": {
+        "presentations": 11520,
+        "same_final_grid_rate": 1.0
+      },
+      "TCF": {
+        "presentations": 11520,
+        "same_final_grid_rate": 1.0
+      },
+      "TCT": {
+        "presentations": 11520,
+        "same_final_grid_rate": 1.0
+      },
+      "TFC": {
+        "presentations": 11520,
+        "same_final_grid_rate": 1.0
+      }
+    }
+  },
+  "max_output_probability_difference": 0.0,
+  "max_pointer_attention_difference": 0.0,
+  "max_task_context_difference": 0.0,
+  "passed": true,
+  "presentations": 179712,
+  "same_final_grid_rate": 1.0,
+  "support_pair_permutations": [
+    [
+      0,
+      1,
+      2
+    ],
+    [
+      0,
+      2,
+      1
+    ],
+    [
+      1,
+      0,
+      2
+    ],
+    [
+      1,
+      2,
+      0
+    ],
+    [
+      2,
+      0,
+      1
+    ],
+    [
+      2,
+      1,
+      0
+    ]
+  ]
+}

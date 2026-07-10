@@ -1,0 +1,3469 @@
+{
+  "changed": {
+    "copy_only_argmax_color_accuracy": 0.14872337032418936,
+    "final_mixed_argmax_color_accuracy": 0.20333973308965725,
+    "mean_copy_entropy": 0.6865998788729407,
+    "mean_copy_gate": 0.8500546224961243,
+    "mean_paint_entropy": 1.3362254731363894,
+    "paint_only_argmax_color_accuracy": 0.387247379003935
+  },
+  "condition": "TRAINED_FULL_SUPPORT_REPLAY",
+  "copy_gate_changed_minus_unchanged_macro_paired": {
+    "bootstrap_replicates": 10000,
+    "ci95_high": 0.0037642319168149033,
+    "ci95_low": -0.009802654136070206,
+    "confidence_level": 0.95,
+    "count": 146,
+    "mean": -0.0032363927222023737
+  },
+  "per_fold": [
+    {
+      "changed": {
+        "copy_only_argmax_color_accuracy": 0.0,
+        "final_mixed_argmax_color_accuracy": 0.0,
+        "mean_copy_entropy": 0.5338658541440964,
+        "mean_copy_gate": 0.8655792027711868,
+        "mean_paint_entropy": 1.3059569895267487,
+        "paint_only_argmax_color_accuracy": 0.5
+      },
+      "changed_cell_count": 8,
+      "query_pair_index": 0,
+      "task_id": "575b1a71",
+      "unchanged": {
+        "copy_only_argmax_color_accuracy": 1.0,
+        "final_mixed_argmax_color_accuracy": 1.0,
+        "mean_copy_entropy": 0.056432248417126095,
+        "mean_copy_gate": 0.8683142441770305,
+        "mean_paint_entropy": 1.208649328869322,
+        "paint_only_argmax_color_accuracy": 0.0
+      },
+      "unchanged_cell_count": 92
+    },
+    {
+      "changed": {
+        "copy_only_argmax_color_accuracy": 0.0,
+        "final_mixed_argmax_color_accuracy": 0.0,
+        "mean_copy_entropy": 0.5608335425456364,
+        "mean_copy_gate": 0.9112665772438049,
+        "mean_paint_entropy": 1.2996242721875508,
+        "paint_only_argmax_color_accuracy": 0.26666666666666666
+      },
+      "changed_cell_count": 15,
+      "query_pair_index": 1,
+      "task_id": "575b1a71",
+      "unchanged": {
+        "copy_only_argmax_color_accuracy": 1.0,
+        "final_mixed_argmax_color_accuracy": 1.0,
+        "mean_copy_entropy": 0.08996730591992246,
+        "mean_copy_gate": 0.9296769962591284,
+        "mean_paint_entropy": 1.3003649704596576,
+        "paint_only_argmax_color_accuracy": 0.011764705882352941
+      },
+      "unchanged_cell_count": 85
+    },
+    {
+      "changed": {
+        "copy_only_argmax_color_accuracy": 0.0,
+        "final_mixed_argmax_color_accuracy": 0.0,
+        "mean_copy_entropy": 0.506314393132925,
+        "mean_copy_gate": 0.9355672225356102,
+        "mean_paint_entropy": 1.1384123340249062,
+        "paint_only_argmax_color_accuracy": 0.25
+      },
+      "changed_cell_count": 8,
+      "query_pair_index": 2,
+      "task_id": "575b1a71",
+      "unchanged": {
+        "copy_only_argmax_color_accuracy": 1.0,
+        "final_mixed_argmax_color_accuracy": 1.0,
+        "mean_copy_entropy": 0.05284234655023876,
+        "mean_copy_gate": 0.905283299477204,
+        "mean_paint_entropy": 1.0214485020741173,
+        "paint_only_argmax_color_accuracy": 0.0
+      },
+      "unchanged_cell_count": 92
+    },
+    {
+      "changed": {
+        "copy_only_argmax_color_accuracy": 0.625,
+        "final_mixed_argmax_color_accuracy": 0.625,
+        "mean_copy_entropy": 0.4196500666439533,
+        "mean_copy_gate": 0.7704983875155449,
+        "mean_paint_entropy": 1.0159927364438772,
+        "paint_only_argmax_color_accuracy": 0.21875
+      },
+      "changed_cell_count": 32,
+      "query_pair_index": 0,
+      "task_id": "2072aba6",
+      "unchanged": {
+        "copy_only_argmax_color_accuracy": 1.0,
+        "final_mixed_argmax_color_accuracy": 1.0,
+        "mean_copy_entropy": 0.38809967786073685,
+        "mean_copy_gate": 0.7193339318037033,
+        "mean_paint_entropy": 0.9534367471933365,
+        "paint_only_argmax_color_accuracy": 0.0
+      },
+      "unchanged_cell_count": 4
+    },
+    {
+      "changed": {
+        "copy_only_argmax_color_accuracy": 0.34285714285714286,
+        "final_mixed_argmax_color_accuracy": 0.34285714285714286,
+        "mean_copy_entropy": 0.43035280342612947,
+        "mean_copy_gate": 0.7015078391347612,
+        "mean_paint_entropy": 1.045175622190748,
+        "paint_only_argmax_color_accuracy": 0.45714285714285713
+      },
+      "changed_cell_count": 35,
+      "query_pair_index": 1,
+      "task_id": "2072aba6",
+      "unchanged": {
+        "copy_only_argmax_color_accuracy": 1.0,
+        "final_mixed_argmax_color_accuracy": 1.0,
+        "mean_copy_entropy": 0.04399877041578293,
+        "mean_copy_gate": 0.5604289770126343,
+        "mean_paint_entropy": 1.049500823020935,
+        "paint_only_argmax_color_accuracy": 0.0
+      },
+      "unchanged_cell_count": 1
+    },
+    {
+      "changed": {
+        "copy_only_argmax_color_accuracy": 0.2647058823529412,
+        "final_mixed_argmax_color_accuracy": 0.3235294117647059,
+        "mean_copy_entropy": 0.5201233809485155,
+        "mean_copy_gate": 0.7236338818774504,
+        "mean_paint_entropy": 1.0902202252079458,
+        "paint_only_argmax_color_accuracy": 0.35294117647058826
+      },
+      "changed_cell_count": 34,
+      "query_pair_index": 2,
+      "task_id": "2072aba6",
+      "unchanged": {
+        "copy_only_argmax_color_accuracy": 1.0,
+        "final_mixed_argmax_color_accuracy": 1.0,
+        "mean_copy_entropy": 0.1524404063820839,
+        "mean_copy_gate": 0.6220509707927704,
+        "mean_paint_entropy": 1.073787271976471,
+        "paint_only_argmax_color_accuracy": 0.5
+      },
+      "unchanged_cell_count": 2
+    },
+    {
+      "changed": {
+        "copy_only_argmax_color_accuracy": 0.0,
+        "final_mixed_argmax_color_accuracy": 0.0,
+        "mean_copy_entropy": 0.3203222866762768,
+        "mean_copy_gate": 0.9758749983527444,
+        "mean_paint_entropy": 1.6141582835804333,
+        "paint_only_argmax_color_accuracy": 0.18181818181818182
+      },
+      "changed_cell_count": 11,
+      "query_pair_index": 0,
+      "task_id": "7e2bad24",
+      "unchanged": {
+        "copy_only_argmax_color_accuracy": 0.9755102040816327,
+        "final_mixed_argmax_color_accuracy": 0.9755102040816327,
+        "mean_copy_entropy": 0.25426626319863965,
+        "mean_copy_gate": 0.9809158033254195,
+        "mean_paint_entropy": 1.538275081284192,
+        "paint_only_argmax_color_accuracy": 0.4204081632653061
+      },
+      "unchanged_cell_count": 245
+    },
+    {
+      "changed": {
+        "copy_only_argmax_color_accuracy": 0.0,
+        "final_mixed_argmax_color_accuracy": 0.0,
+        "mean_copy_entropy": 0.19988262206315993,
+        "mean_copy_gate": 0.9730807662010192,
+        "mean_paint_entropy": 1.6711706399917603,
+        "paint_only_argmax_color_accuracy": 0.2
+      },
+      "changed_cell_count": 10,
+      "query_pair_index": 1,
+      "task_id": "7e2bad24",
+      "unchanged": {
+        "copy_only_argmax_color_accuracy": 0.975609756097561,
+        "final_mixed_argmax_color_accuracy": 0.9715447154471545,
+        "mean_copy_entropy": 0.18880266378959262,
+        "mean_copy_gate": 0.9771936596409092,
+        "mean_paint_entropy": 1.6530476038048907,
+        "paint_only_argmax_color_accuracy": 0.5853658536585366
+      },
+      "unchanged_cell_count": 246
+    },
+    {
+      "changed": {
+        "copy_only_argmax_color_accuracy": 0.0,
+        "final_mixed_argmax_color_accuracy": 0.0,
+        "mean_copy_entropy": 0.1516810655593872,
+        "mean_copy_gate": 0.970412188106113,
+        "mean_paint_entropy": 1.4208752579159207,
+        "paint_only_argmax_color_accuracy": 0.5555555555555556
+      },
+      "changed_cell_count": 9,
+      "query_pair_index": 2,
+      "task_id": "7e2bad24",
+      "unchanged": {
+        "copy_only_argmax_color_accuracy": 0.9919028340080972,
+        "final_mixed_argmax_color_accuracy": 0.9919028340080972,
+        "mean_copy_entropy": 0.22387712349293204,
+        "mean_copy_gate": 0.9794094994483207,
+        "mean_paint_entropy": 1.4418750890353431,
+        "paint_only_argmax_color_accuracy": 0.4979757085020243
+      },
+      "unchanged_cell_count": 247
+    },
+    {
+      "changed": {
+        "copy_only_argmax_color_accuracy": 0.0,
+        "final_mixed_argmax_color_accuracy": 0.0,
+        "mean_copy_entropy": 0.5054640576243401,
+        "mean_copy_gate": 0.9837110698223114,
+        "mean_paint_entropy": 1.815675675868988,
+        "paint_only_argmax_color_accuracy": 0.6
+      },
+      "changed_cell_count": 10,
+      "query_pair_index": 0,
+      "task_id": "230f2e48",
+      "unchanged": {
+        "copy_only_argmax_color_accuracy": 0.9888888888888889,
+        "final_mixed_argmax_color_accuracy": 0.9888888888888889,
+        "mean_copy_entropy": 0.3137768085528579,
+        "mean_copy_gate": 0.9876594463984172,
+        "mean_paint_entropy": 1.8596613261434767,
+        "paint_only_argmax_color_accuracy": 0.07777777777777778
+      },
+      "unchanged_cell_count": 90
+    },
+    {
+      "changed": {
+        "copy_only_argmax_color_accuracy": 0.0,
+        "final_mixed_argmax_color_accuracy": 0.0,
+        "mean_copy_entropy": 0.4872024618089199,
+        "mean_copy_gate": 0.9917066991329193,
+        "mean_paint_entropy": 1.5668664872646332,
+        "paint_only_argmax_color_accuracy": 0.5
+      },
+      "changed_cell_count": 4,
+      "query_pair_index": 1,
+      "task_id": "230f2e48",
+      "unchanged": {
+        "copy_only_argmax_color_accuracy": 1.0,
+        "final_mixed_argmax_color_accuracy": 1.0,
+        "mean_copy_entropy": 0.1927820072664569,
+        "mean_copy_gate": 0.9931259622176488,
+        "mean_paint_entropy": 1.690564266840617,
+        "paint_only_argmax_color_accuracy": 0.03333333333333333
+      },
+      "unchanged_cell_count": 60
+    },
+    {
+      "changed": {
+        "copy_only_argmax_color_accuracy": 0.25,
+        "final_mixed_argmax_color_accuracy": 0.25,
+        "mean_copy_entropy": 0.5183887560851872,
+        "mean_copy_gate": 0.9835751429200172,
+        "mean_paint_entropy": 1.5939804390072823,
+        "paint_only_argmax_color_accuracy": 0.5
+      },
+      "changed_cell_count": 16,
+      "query_pair_index": 2,
+      "task_id": "230f2e48",
+      "unchanged": {
+        "copy_only_argmax_color_accuracy": 0.9453125,
+        "final_mixed_argmax_color_accuracy": 0.9453125,
+        "mean_copy_entropy": 0.24953518545953557,
+        "mean_copy_gate": 0.9846556815318763,
+        "mean_paint_entropy": 1.6455428539775312,
+        "paint_only_argmax_color_accuracy": 0.015625
+      },
+      "unchanged_cell_count": 128
+    },
+    {
+      "changed": {
+        "copy_only_argmax_color_accuracy": 0.0,
+        "final_mixed_argmax_color_accuracy": 0.0,
+        "mean_copy_entropy": 1.6097326495430686,
+        "mean_copy_gate": 0.9331551519307223,
+        "mean_paint_entropy": 1.7248279723254116,
+        "paint_only_argmax_color_accuracy": 0.2727272727272727
+      },
+      "changed_cell_count": 11,
+      "query_pair_index": 0,
+      "task_id": "281123b4",
+      "unchanged": {
+        "copy_only_argmax_color_accuracy": 0.0,
+        "final_mixed_argmax_color_accuracy": 0.0,
+        "mean_copy_entropy": 1.6569920539855958,
+        "mean_copy_gate": 0.9623185157775879,
+        "mean_paint_entropy": 1.7335075616836548,
+        "paint_only_argmax_color_accuracy": 0.0
+      },
+      "unchanged_cell_count": 5
+    },
+    {
+      "changed": {
+        "copy_only_argmax_color_accuracy": 0.07692307692307693,
+        "final_mixed_argmax_color_accuracy": 0.07692307692307693,
+        "mean_copy_entropy": 1.6279655970059907,
+        "mean_copy_gate": 0.953648525934953,
+        "mean_paint_entropy": 1.7862325356556819,
+        "paint_only_argmax_color_accuracy": 0.15384615384615385
+      },
+      "changed_cell_count": 13,
+      "query_pair_index": 1,
+      "task_id": "281123b4",
+      "unchanged": {
+        "copy_only_argmax_color_accuracy": 0.3333333333333333,
+        "final_mixed_argmax_color_accuracy": 0.3333333333333333,
+        "mean_copy_entropy": 1.618344744046529,
+        "mean_copy_gate": 0.8848482370376587,
+        "mean_paint_entropy": 1.818837324778239,
+        "paint_only_argmax_color_accuracy": 0.0
+      },
+      "unchanged_cell_count": 3
+    },
+    {
+      "changed": {
+        "copy_only_argmax_color_accuracy": 0.09090909090909091,
+        "final_mixed_argmax_color_accuracy": 0.09090909090909091,
+        "mean_copy_entropy": 1.6107395779002796,
+        "mean_copy_gate": 0.9530625614252958,
+        "mean_paint_entropy": 1.7729747837240046,
+        "paint_only_argmax_color_accuracy": 0.2727272727272727
+      },
+      "changed_cell_count": 11,
+      "query_pair_index": 2,
+      "task_id": "281123b4",
+      "unchanged": {
+        "copy_only_argmax_color_accuracy": 0.4,
+        "final_mixed_argmax_color_accuracy": 0.4,
+        "mean_copy_entropy": 1.5727050304412842,
+        "mean_copy_gate": 0.9125396132469177,
+        "mean_paint_entropy": 1.7462300777435302,
+        "paint_only_argmax_color_accuracy": 0.2
+      },
+      "unchanged_cell_count": 5
+    },
+    {
+      "changed": {
+        "copy_only_argmax_color_accuracy": 0.2,
+        "final_mixed_argmax_color_accuracy": 0.2,
+        "mean_copy_entropy": 1.6386841058731079,
+        "mean_copy_gate": 0.956323754787445,
+        "mean_paint_entropy": 1.6544949531555175,
+        "paint_only_argmax_color_accuracy": 0.06666666666666667
+      },
+      "changed_cell_count": 15,
+      "query_pair_index": 3,
+      "task_id": "281123b4",
+      "unchanged": {
+        "copy_only_argmax_color_accuracy": 1.0,
+        "final_mixed_argmax_color_accuracy": 1.0,
+        "mean_copy_entropy": 1.5424343347549438,
+        "mean_copy_gate": 0.9891216158866882,
+        "mean_paint_entropy": 1.7030575275421143,
+        "paint_only_argmax_color_accuracy": 1.0
+      },
+      "unchanged_cell_count": 1
+    },
+    {
+      "changed": {
+        "copy_only_argmax_color_accuracy": 0.0,
+        "final_mixed_argmax_color_accuracy": 0.0,
+        "mean_copy_entropy": 1.5929567473275321,
+        "mean_copy_gate": 0.9551354561533246,
+        "mean_paint_entropy": 1.6933988332748413,
+        "paint_only_argmax_color_accuracy": 0.35714285714285715
+      },
+      "changed_cell_count": 14,
+      "query_pair_index": 4,
+      "task_id": "281123b4",
+      "unchanged": {
+        "copy_only_argmax_color_accuracy": 0.5,
+        "final_mixed_argmax_color_accuracy": 0.5,
+        "mean_copy_entropy": 1.5688129663467407,
+        "mean_copy_gate": 0.9784216582775116,
+        "mean_paint_entropy": 1.8414072394371033,
+        "paint_only_argmax_color_accuracy": 0.0
+      },
+      "unchanged_cell_count": 2
+    },
+    {
+      "changed": {
+        "copy_only_argmax_color_accuracy": 0.0,
+        "final_mixed_argmax_color_accuracy": 0.0,
+        "mean_copy_entropy": 1.5989884336789448,
+        "mean_copy_gate": 0.9842640509208044,
+        "mean_paint_entropy": 1.7423595587412517,
+        "paint_only_argmax_color_accuracy": 0.08333333333333333
+      },
+      "changed_cell_count": 12,
+      "query_pair_index": 5,
+      "task_id": "281123b4",
+      "unchanged": {
+        "copy_only_argmax_color_accuracy": 0.25,
+        "final_mixed_argmax_color_accuracy": 0.25,
+        "mean_copy_entropy": 1.6818758845329285,
+        "mean_copy_gate": 0.9750550389289856,
+        "mean_paint_entropy": 1.7059314846992493,
+        "paint_only_argmax_color_accuracy": 0.0
+      },
+      "unchanged_cell_count": 4
+    },
+    {
+      "changed": {
+        "copy_only_argmax_color_accuracy": 0.0,
+        "final_mixed_argmax_color_accuracy": 0.0,
+        "mean_copy_entropy": 0.24377519488334656,
+        "mean_copy_gate": 0.9048011124134063,
+        "mean_paint_entropy": 1.3638190984725953,
+        "paint_only_argmax_color_accuracy": 0.0
+      },
+      "changed_cell_count": 10,
+      "query_pair_index": 0,
+      "task_id": "496994bd",
+      "unchanged": {
+        "copy_only_argmax_color_accuracy": 1.0,
+        "final_mixed_argmax_color_accuracy": 1.0,
+        "mean_copy_entropy": 0.27183159701526166,
+        "mean_copy_gate": 0.9040921866893769,
+        "mean_paint_entropy": 1.31644596606493,
+        "paint_only_argmax_color_accuracy": 0.55
+      },
+      "unchanged_cell_count": 40
+    },
+    {
+      "changed": {
+        "copy_only_argmax_color_accuracy": 0.0,
+        "final_mixed_argmax_color_accuracy": 0.0,
+        "mean_copy_entropy": 0.33652525809076095,
+        "mean_copy_gate": 0.7709418601459928,
+        "mean_paint_entropy": 0.7755253778563606,
+        "paint_only_argmax_color_accuracy": 0.0
+      },
+      "changed_cell_count": 9,
+      "query_pair_index": 1,
+      "task_id": "496994bd",
+      "unchanged": {
+        "copy_only_argmax_color_accuracy": 1.0,
+        "final_mixed_argmax_color_accuracy": 0.9523809523809523,
+        "mean_copy_entropy": 0.37829298348653884,
+        "mean_copy_gate": 0.7730375301270258,
+        "mean_paint_entropy": 0.6478546318553743,
+        "paint_only_argmax_color_accuracy": 0.5714285714285714
+      },
+      "unchanged_cell_count": 21
+    },
+    {
+      "changed": {
+        "copy_only_argmax_color_accuracy": 0.0,
+        "final_mixed_argmax_color_accuracy": 0.0,
+        "mean_copy_entropy": 0.7963313034602574,
+        "mean_copy_gate": 0.9131125999348504,
+        "mean_paint_entropy": 2.060143564428602,
+        "paint_only_argmax_color_accuracy": 0.10714285714285714
+      },
+      "changed_cell_count": 28,
+      "query_pair_index": 0,
+      "task_id": "67a3c6ac",
+      "unchanged": {
+        "copy_only_argmax_color_accuracy": 1.0,
+        "final_mixed_argmax_color_accuracy": 1.0,
+        "mean_copy_entropy": 0.802162820384616,
+        "mean_copy_gate": 0.9208302441097441,
+        "mean_paint_entropy": 2.0231341123580933,
+        "paint_only_argmax_color_accuracy": 0.14285714285714285
+      },
+      "unchanged_cell_count": 21
+    },
+    {
+      "changed": {
+        "copy_only_argmax_color_accuracy": 0.0,
+        "final_mixed_argmax_color_accuracy": 0.0,
+        "mean_copy_entropy": 0.736037335225514,
+        "mean_copy_gate": 0.894587618964059,
+        "mean_paint_entropy": 2.0979229637554715,
+        "paint_only_argmax_color_accuracy": 0.0
+      },
+      "changed_cell_count": 14,
+      "query_pair_index": 1,
+      "task_id": "67a3c6ac",
+      "unchanged": {
+        "copy_only_argmax_color_accuracy": 1.0,
+        "final_mixed_argmax_color_accuracy": 1.0,
+        "mean_copy_entropy": 0.9905730485916138,
+        "mean_copy_gate": 0.8891242742538452,
+        "mean_paint_entropy": 2.0983883142471313,
+        "paint_only_argmax_color_accuracy": 0.0
+      },
+      "unchanged_cell_count": 2
+    },
+    {
+      "changed": {
+        "copy_only_argmax_color_accuracy": 0.0,
+        "final_mixed_argmax_color_accuracy": 0.0,
+        "mean_copy_entropy": 0.9564112504323323,
+        "mean_copy_gate": 0.8911877950032552,
+        "mean_paint_entropy": 2.143492563565572,
+        "paint_only_argmax_color_accuracy": 0.06666666666666667
+      },
+      "changed_cell_count": 30,
+      "query_pair_index": 2,
+      "task_id": "67a3c6ac",
+      "unchanged": {
+        "copy_only_argmax_color_accuracy": 1.0,
+        "final_mixed_argmax_color_accuracy": 1.0,
+        "mean_copy_entropy": 0.7141678084929785,
+        "mean_copy_gate": 0.8382049600283304,
+        "mean_paint_entropy": 2.1623778343200684,
+        "paint_only_argmax_color_accuracy": 0.16666666666666666
+      },
+      "unchanged_cell_count": 6
+    },
+    {
+      "changed": {
+        "copy_only_argmax_color_accuracy": 0.30952380952380953,
+        "final_mixed_argmax_color_accuracy": 0.34523809523809523,
+        "mean_copy_entropy": 1.0426536748806636,
+        "mean_copy_gate": 0.9326918848923275,
+        "mean_paint_entropy": 1.4959839752742223,
+        "paint_only_argmax_color_accuracy": 0.0
+      },
+      "changed_cell_count": 84,
+      "query_pair_index": 0,
+      "task_id": "539a4f51",
+      "unchanged": {
+        "copy_only_argmax_color_accuracy": 1.0,
+        "final_mixed_argmax_color_accuracy": 1.0,
+        "mean_copy_entropy": 0.5380467167124152,
+        "mean_copy_gate": 0.9505507498979568,
+        "mean_paint_entropy": 1.3743931427598,
+        "paint_only_argmax_color_accuracy": 0.0
+      },
+      "unchanged_cell_count": 16
+    },
+    {
+      "changed": {
+        "copy_only_argmax_color_accuracy": 0.6428571428571429,
+        "final_mixed_argmax_color_accuracy": 0.6190476190476191,
+        "mean_copy_entropy": 0.7622777826729275,
+        "mean_copy_gate": 0.8909172727948144,
+        "mean_paint_entropy": 1.082876103974524,
+        "paint_only_argmax_color_accuracy": 0.0
+      },
+      "changed_cell_count": 84,
+      "query_pair_index": 1,
+      "task_id": "539a4f51",
+      "unchanged": {
+        "copy_only_argmax_color_accuracy": 1.0,
+        "final_mixed_argmax_color_accuracy": 1.0,
+        "mean_copy_entropy": 0.4878713204525411,
+        "mean_copy_gate": 0.9039788357913494,
+        "mean_paint_entropy": 0.9257264100015163,
+        "paint_only_argmax_color_accuracy": 0.0
+      },
+      "unchanged_cell_count": 16
+    },
+    {
+      "changed": {
+        "copy_only_argmax_color_accuracy": 0.10666666666666667,
+        "final_mixed_argmax_color_accuracy": 0.13333333333333333,
+        "mean_copy_entropy": 1.1087131277720133,
+        "mean_copy_gate": 0.843473203976949,
+        "mean_paint_entropy": 1.5592095518112183,
+        "paint_only_argmax_color_accuracy": 0.17333333333333334
+      },
+      "changed_cell_count": 75,
+      "query_pair_index": 2,
+      "task_id": "539a4f51",
+      "unchanged": {
+        "copy_only_argmax_color_accuracy": 1.0,
+        "final_mixed_argmax_color_accuracy": 1.0,
+        "mean_copy_entropy": 0.6239596588909626,
+        "mean_copy_gate": 0.8629924011230469,
+        "mean_paint_entropy": 1.4465318536758422,
+        "paint_only_argmax_color_accuracy": 0.28
+      },
+      "unchanged_cell_count": 25
+    },
+    {
+      "changed": {
+        "copy_only_argmax_color_accuracy": 0.0,
+        "final_mixed_argmax_color_accuracy": 0.047619047619047616,
+        "mean_copy_entropy": 0.2877678094165666,
+        "mean_copy_gate": 0.6589825621673039,
+        "mean_paint_entropy": 0.9139476035322461,
+        "paint_only_argmax_color_accuracy": 1.0
+      },
+      "changed_cell_count": 21,
+      "query_pair_index": 0,
+      "task_id": "aa18de87",
+      "unchanged": {
+        "copy_only_argmax_color_accuracy": 0.7948717948717948,
+        "final_mixed_argmax_color_accuracy": 0.6666666666666666,
+        "mean_copy_entropy": 0.27143028025061655,
+        "mean_copy_gate": 0.5873836286557026,
+        "mean_paint_entropy": 1.0149077757810936,
+        "paint_only_argmax_color_accuracy": 0.0
+      },
+      "unchanged_cell_count": 39
+    },
+    {
+      "changed": {
+        "copy_only_argmax_color_accuracy": 0.0,
+        "final_mixed_argmax_color_accuracy": 0.0,
+        "mean_copy_entropy": 0.49700087308883667,
+        "mean_copy_gate": 0.7216900438070297,
+        "mean_paint_entropy": 0.9110362529754639,
+        "paint_only_argmax_color_accuracy": 1.0
+      },
+      "changed_cell_count": 4,
+      "query_pair_index": 1,
+      "task_id": "aa18de87",
+      "unchanged": {
+        "copy_only_argmax_color_accuracy": 1.0,
+        "final_mixed_argmax_color_accuracy": 0.8,
+        "mean_copy_entropy": 0.4268705449998379,
+        "mean_copy_gate": 0.5700710535049438,
+        "mean_paint_entropy": 0.9081779614090919,
+        "paint_only_argmax_color_accuracy": 0.0
+      },
+      "unchanged_cell_count": 20
+    },
+    {
+      "changed": {
+        "copy_only_argmax_color_accuracy": 0.0,
+        "final_mixed_argmax_color_accuracy": 0.1111111111111111,
+        "mean_copy_entropy": 0.37946248882346684,
+        "mean_copy_gate": 0.4952297574943966,
+        "mean_paint_entropy": 0.886910080909729,
+        "paint_only_argmax_color_accuracy": 1.0
+      },
+      "changed_cell_count": 9,
+      "query_pair_index": 2,
+      "task_id": "aa18de87",
+      "unchanged": {
+        "copy_only_argmax_color_accuracy": 1.0,
+        "final_mixed_argmax_color_accuracy": 0.6774193548387096,
+        "mean_copy_entropy": 0.37518466528384914,
+        "mean_copy_gate": 0.5160300871056895,
+        "mean_paint_entropy": 0.9752183768057054,
+        "paint_only_argmax_color_accuracy": 0.06451612903225806
+      },
+      "unchanged_cell_count": 31
+    },
+    {
+      "changed": {
+        "copy_only_argmax_color_accuracy": 0.0,
+        "final_mixed_argmax_color_accuracy": 0.0,
+        "mean_copy_entropy": 0.404335144493315,
+        "mean_copy_gate": 0.5165781444973416,
+        "mean_paint_entropy": 1.1982724600368075,
+        "paint_only_argmax_color_accuracy": 1.0
+      },
+      "changed_cell_count": 9,
+      "query_pair_index": 3,
+      "task_id": "aa18de87",
+      "unchanged": {
+        "copy_only_argmax_color_accuracy": 0.9565217391304348,
+        "final_mixed_argmax_color_accuracy": 0.9565217391304348,
+        "mean_copy_entropy": 0.3739100723810818,
+        "mean_copy_gate": 0.6910831695017607,
+        "mean_paint_entropy": 1.025648376216059,
+        "paint_only_argmax_color_accuracy": 0.0
+      },
+      "unchanged_cell_count": 23
+    },
+    {
+      "changed": {
+        "copy_only_argmax_color_accuracy": 0.0,
+        "final_mixed_argmax_color_accuracy": 0.0,
+        "mean_copy_entropy": 0.328845925014466,
+        "mean_copy_gate": 0.8058413797616959,
+        "mean_paint_entropy": 1.840559847354889,
+        "paint_only_argmax_color_accuracy": 0.48
+      },
+      "changed_cell_count": 50,
+      "query_pair_index": 0,
+      "task_id": "d968ffd4",
+      "unchanged": {
+        "copy_only_argmax_color_accuracy": 0.8,
+        "final_mixed_argmax_color_accuracy": 0.8,
+        "mean_copy_entropy": 0.6157634360094865,
+        "mean_copy_gate": 0.8519273539384206,
+        "mean_paint_entropy": 1.7985191464424133,
+        "paint_only_argmax_color_accuracy": 0.2
+      },
+      "unchanged_cell_count": 30
+    },
+    {
+      "changed": {
+        "copy_only_argmax_color_accuracy": 0.0,
+        "final_mixed_argmax_color_accuracy": 0.0,
+        "mean_copy_entropy": 0.4253317492082715,
+        "mean_copy_gate": 0.7946226552128792,
+        "mean_paint_entropy": 1.1985415264964103,
+        "paint_only_argmax_color_accuracy": 0.5
+      },
+      "changed_cell_count": 40,
+      "query_pair_index": 1,
+      "task_id": "d968ffd4",
+      "unchanged": {
+        "copy_only_argmax_color_accuracy": 0.9642857142857143,
+        "final_mixed_argmax_color_accuracy": 0.8928571428571429,
+        "mean_copy_entropy": 0.6140476664794343,
+        "mean_copy_gate": 0.8134965534721103,
+        "mean_paint_entropy": 1.1582895261900765,
+        "paint_only_argmax_color_accuracy": 0.14285714285714285
+      },
+      "unchanged_cell_count": 28
+    },
+    {
+      "changed": {
+        "copy_only_argmax_color_accuracy": 0.0,
+        "final_mixed_argmax_color_accuracy": 0.0,
+        "mean_copy_entropy": 0.13822907315463656,
+        "mean_copy_gate": 0.9061311119132571,
+        "mean_paint_entropy": 1.779480477174123,
+        "paint_only_argmax_color_accuracy": 0.4444444444444444
+      },
+      "changed_cell_count": 36,
+      "query_pair_index": 2,
+      "task_id": "d968ffd4",
+      "unchanged": {
+        "copy_only_argmax_color_accuracy": 0.8571428571428571,
+        "final_mixed_argmax_color_accuracy": 0.8571428571428571,
+        "mean_copy_entropy": 0.21412739698730765,
+        "mean_copy_gate": 0.9282459616661072,
+        "mean_paint_entropy": 1.8216551882880074,
+        "paint_only_argmax_color_accuracy": 0.09523809523809523
+      },
+      "unchanged_cell_count": 21
+    },
+    {
+      "changed": {
+        "copy_only_argmax_color_accuracy": 0.0,
+        "final_mixed_argmax_color_accuracy": 0.0,
+        "mean_copy_entropy": 0.8211746740341187,
+        "mean_copy_gate": 0.8690099263191223,
+        "mean_paint_entropy": 0.9067351686954498,
+        "paint_only_argmax_color_accuracy": 0.28
+      },
+      "changed_cell_count": 25,
+      "query_pair_index": 0,
+      "task_id": "9f27f097",
+      "unchanged": {
+        "copy_only_argmax_color_accuracy": 0.9747899159663865,
+        "final_mixed_argmax_color_accuracy": 0.9747899159663865,
+        "mean_copy_entropy": 0.5837104472668231,
+        "mean_copy_gate": 0.8698054987843297,
+        "mean_paint_entropy": 0.9488720140036415,
+        "paint_only_argmax_color_accuracy": 0.058823529411764705
+      },
+      "unchanged_cell_count": 119
+    },
+    {
+      "changed": {
+        "copy_only_argmax_color_accuracy": 0.0,
+        "final_mixed_argmax_color_accuracy": 0.0,
+        "mean_copy_entropy": 0.7662574984133244,
+        "mean_copy_gate": 0.9184235036373138,
+        "mean_paint_entropy": 1.3499208390712738,
+        "paint_only_argmax_color_accuracy": 0.5625
+      },
+      "changed_cell_count": 16,
+      "query_pair_index": 1,
+      "task_id": "9f27f097",
+      "unchanged": {
+        "copy_only_argmax_color_accuracy": 1.0,
+        "final_mixed_argmax_color_accuracy": 1.0,
+        "mean_copy_entropy": 0.4098921822733246,
+        "mean_copy_gate": 0.9293507011607289,
+        "mean_paint_entropy": 1.091112907975912,
+        "paint_only_argmax_color_accuracy": 0.078125
+      },
+      "unchanged_cell_count": 128
+    },
+    {
+      "changed": {
+        "copy_only_argmax_color_accuracy": 0.0,
+        "final_mixed_argmax_color_accuracy": 0.0,
+        "mean_copy_entropy": 0.7595454640686512,
+        "mean_copy_gate": 0.9203903302550316,
+        "mean_paint_entropy": 1.4439305712779362,
+        "paint_only_argmax_color_accuracy": 0.25
+      },
+      "changed_cell_count": 24,
+      "query_pair_index": 2,
+      "task_id": "9f27f097",
+      "unchanged": {
+        "copy_only_argmax_color_accuracy": 1.0,
+        "final_mixed_argmax_color_accuracy": 1.0,
+        "mean_copy_entropy": 0.40953319910137603,
+        "mean_copy_gate": 0.9363224764664968,
+        "mean_paint_entropy": 1.29868934849898,
+        "paint_only_argmax_color_accuracy": 0.05
+      },
+      "unchanged_cell_count": 120
+    },
+    {
+      "changed": {
+        "copy_only_argmax_color_accuracy": 0.0,
+        "final_mixed_argmax_color_accuracy": 0.0,
+        "mean_copy_entropy": 0.707607239484787,
+        "mean_copy_gate": 0.7294192016124725,
+        "mean_paint_entropy": 1.4665583968162537,
+        "paint_only_argmax_color_accuracy": 0.0
+      },
+      "changed_cell_count": 2,
+      "query_pair_index": 0,
+      "task_id": "22425bda",
+      "unchanged": {
+        "copy_only_argmax_color_accuracy": null,
+        "final_mixed_argmax_color_accuracy": null,
+        "mean_copy_entropy": null,
+        "mean_copy_gate": null,
+        "mean_paint_entropy": null,
+        "paint_only_argmax_color_accuracy": null
+      },
+      "unchanged_cell_count": 0
+    },
+    {
+      "changed": {
+        "copy_only_argmax_color_accuracy": 0.0,
+        "final_mixed_argmax_color_accuracy": 0.0,
+        "mean_copy_entropy": 0.9151469866434733,
+        "mean_copy_gate": 0.8716473579406738,
+        "mean_paint_entropy": 1.333160678545634,
+        "paint_only_argmax_color_accuracy": 0.0
+      },
+      "changed_cell_count": 3,
+      "query_pair_index": 1,
+      "task_id": "22425bda",
+      "unchanged": {
+        "copy_only_argmax_color_accuracy": null,
+        "final_mixed_argmax_color_accuracy": null,
+        "mean_copy_entropy": null,
+        "mean_copy_gate": null,
+        "mean_paint_entropy": null,
+        "paint_only_argmax_color_accuracy": null
+      },
+      "unchanged_cell_count": 0
+    },
+    {
+      "changed": {
+        "copy_only_argmax_color_accuracy": 0.25,
+        "final_mixed_argmax_color_accuracy": 0.25,
+        "mean_copy_entropy": 0.9995981156826019,
+        "mean_copy_gate": 0.9045914113521576,
+        "mean_paint_entropy": 1.4060373306274414,
+        "paint_only_argmax_color_accuracy": 0.25
+      },
+      "changed_cell_count": 4,
+      "query_pair_index": 2,
+      "task_id": "22425bda",
+      "unchanged": {
+        "copy_only_argmax_color_accuracy": null,
+        "final_mixed_argmax_color_accuracy": null,
+        "mean_copy_entropy": null,
+        "mean_copy_gate": null,
+        "mean_paint_entropy": null,
+        "paint_only_argmax_color_accuracy": null
+      },
+      "unchanged_cell_count": 0
+    },
+    {
+      "changed": {
+        "copy_only_argmax_color_accuracy": 0.0,
+        "final_mixed_argmax_color_accuracy": 0.0,
+        "mean_copy_entropy": 1.2773354530334473,
+        "mean_copy_gate": 0.8495741009712219,
+        "mean_paint_entropy": 1.384063196182251,
+        "paint_only_argmax_color_accuracy": 0.2
+      },
+      "changed_cell_count": 5,
+      "query_pair_index": 3,
+      "task_id": "22425bda",
+      "unchanged": {
+        "copy_only_argmax_color_accuracy": null,
+        "final_mixed_argmax_color_accuracy": null,
+        "mean_copy_entropy": null,
+        "mean_copy_gate": null,
+        "mean_paint_entropy": null,
+        "paint_only_argmax_color_accuracy": null
+      },
+      "unchanged_cell_count": 0
+    },
+    {
+      "changed": {
+        "copy_only_argmax_color_accuracy": 0.0,
+        "final_mixed_argmax_color_accuracy": 0.0,
+        "mean_copy_entropy": 0.6425047504901886,
+        "mean_copy_gate": 0.9450381064414978,
+        "mean_paint_entropy": 1.8030484787623087,
+        "paint_only_argmax_color_accuracy": 0.18666666666666668
+      },
+      "changed_cell_count": 75,
+      "query_pair_index": 0,
+      "task_id": "d94c3b52",
+      "unchanged": {
+        "copy_only_argmax_color_accuracy": 0.88,
+        "final_mixed_argmax_color_accuracy": 0.8771428571428571,
+        "mean_copy_entropy": 0.4663968136853405,
+        "mean_copy_gate": 0.9471990159579686,
+        "mean_paint_entropy": 1.871811753170831,
+        "paint_only_argmax_color_accuracy": 0.38
+      },
+      "unchanged_cell_count": 350
+    },
+    {
+      "changed": {
+        "copy_only_argmax_color_accuracy": 0.0,
+        "final_mixed_argmax_color_accuracy": 0.0,
+        "mean_copy_entropy": 0.6473821579520382,
+        "mean_copy_gate": 0.9635716294174763,
+        "mean_paint_entropy": 1.7027250688467452,
+        "paint_only_argmax_color_accuracy": 0.417910447761194
+      },
+      "changed_cell_count": 67,
+      "query_pair_index": 1,
+      "task_id": "d94c3b52",
+      "unchanged": {
+        "copy_only_argmax_color_accuracy": 0.8687150837988827,
+        "final_mixed_argmax_color_accuracy": 0.8687150837988827,
+        "mean_copy_entropy": 0.45124033699072275,
+        "mean_copy_gate": 0.9639847280259904,
+        "mean_paint_entropy": 1.7212543107943827,
+        "paint_only_argmax_color_accuracy": 0.39664804469273746
+      },
+      "unchanged_cell_count": 358
+    },
+    {
+      "changed": {
+        "copy_only_argmax_color_accuracy": 0.0,
+        "final_mixed_argmax_color_accuracy": 0.0,
+        "mean_copy_entropy": 0.7278069651552609,
+        "mean_copy_gate": 0.9391072605337415,
+        "mean_paint_entropy": 1.575036768402372,
+        "paint_only_argmax_color_accuracy": 0.4642857142857143
+      },
+      "changed_cell_count": 28,
+      "query_pair_index": 2,
+      "task_id": "d94c3b52",
+      "unchanged": {
+        "copy_only_argmax_color_accuracy": 0.8136020151133502,
+        "final_mixed_argmax_color_accuracy": 0.8136020151133502,
+        "mean_copy_entropy": 0.5015710468734768,
+        "mean_copy_gate": 0.9463851159105373,
+        "mean_paint_entropy": 1.5728456531123491,
+        "paint_only_argmax_color_accuracy": 0.16624685138539042
+      },
+      "unchanged_cell_count": 397
+    },
+    {
+      "changed": {
+        "copy_only_argmax_color_accuracy": 0.0,
+        "final_mixed_argmax_color_accuracy": 0.0,
+        "mean_copy_entropy": 0.8212781171003978,
+        "mean_copy_gate": 0.8799668272336324,
+        "mean_paint_entropy": 1.5102866252263387,
+        "paint_only_argmax_color_accuracy": 0.13333333333333333
+      },
+      "changed_cell_count": 15,
+      "query_pair_index": 0,
+      "task_id": "c59eb873",
+      "unchanged": {
+        "copy_only_argmax_color_accuracy": 1.0,
+        "final_mixed_argmax_color_accuracy": 1.0,
+        "mean_copy_entropy": 0.23431101441383362,
+        "mean_copy_gate": 0.8730815649032593,
+        "mean_paint_entropy": 1.6122581958770752,
+        "paint_only_argmax_color_accuracy": 0.0
+      },
+      "unchanged_cell_count": 1
+    },
+    {
+      "changed": {
+        "copy_only_argmax_color_accuracy": 0.30303030303030304,
+        "final_mixed_argmax_color_accuracy": 0.30303030303030304,
+        "mean_copy_entropy": 1.072774679371805,
+        "mean_copy_gate": 0.7103589095852592,
+        "mean_paint_entropy": 1.189736960512219,
+        "paint_only_argmax_color_accuracy": 0.21212121212121213
+      },
+      "changed_cell_count": 33,
+      "query_pair_index": 1,
+      "task_id": "c59eb873",
+      "unchanged": {
+        "copy_only_argmax_color_accuracy": 1.0,
+        "final_mixed_argmax_color_accuracy": 1.0,
+        "mean_copy_entropy": 0.6753538548946381,
+        "mean_copy_gate": 0.7263812025388082,
+        "mean_paint_entropy": 1.2902683019638062,
+        "paint_only_argmax_color_accuracy": 0.3333333333333333
+      },
+      "unchanged_cell_count": 3
+    },
+    {
+      "changed": {
+        "copy_only_argmax_color_accuracy": 0.31666666666666665,
+        "final_mixed_argmax_color_accuracy": 0.25,
+        "mean_copy_entropy": 1.0113253151377042,
+        "mean_copy_gate": 0.8900858362515768,
+        "mean_paint_entropy": 1.4801704247792562,
+        "paint_only_argmax_color_accuracy": 0.3333333333333333
+      },
+      "changed_cell_count": 60,
+      "query_pair_index": 2,
+      "task_id": "c59eb873",
+      "unchanged": {
+        "copy_only_argmax_color_accuracy": 1.0,
+        "final_mixed_argmax_color_accuracy": 1.0,
+        "mean_copy_entropy": 0.7258004248142242,
+        "mean_copy_gate": 0.8972038626670837,
+        "mean_paint_entropy": 1.339162603020668,
+        "paint_only_argmax_color_accuracy": 0.0
+      },
+      "unchanged_cell_count": 4
+    },
+    {
+      "changed": {
+        "copy_only_argmax_color_accuracy": 0.0,
+        "final_mixed_argmax_color_accuracy": 0.0,
+        "mean_copy_entropy": 0.13649180345237255,
+        "mean_copy_gate": 0.7278535664081573,
+        "mean_paint_entropy": 0.9461164176464081,
+        "paint_only_argmax_color_accuracy": 1.0
+      },
+      "changed_cell_count": 6,
+      "query_pair_index": 0,
+      "task_id": "a699fb00",
+      "unchanged": {
+        "copy_only_argmax_color_accuracy": 0.9680851063829787,
+        "final_mixed_argmax_color_accuracy": 0.9680851063829787,
+        "mean_copy_entropy": 0.10120849282062176,
+        "mean_copy_gate": 0.8343617916107178,
+        "mean_paint_entropy": 1.1027607099807009,
+        "paint_only_argmax_color_accuracy": 0.031914893617021274
+      },
+      "unchanged_cell_count": 94
+    },
+    {
+      "changed": {
+        "copy_only_argmax_color_accuracy": 0.0,
+        "final_mixed_argmax_color_accuracy": 0.0,
+        "mean_copy_entropy": 0.25540509819984436,
+        "mean_copy_gate": 0.7629126608371735,
+        "mean_paint_entropy": 0.8317904472351074,
+        "paint_only_argmax_color_accuracy": 1.0
+      },
+      "changed_cell_count": 2,
+      "query_pair_index": 1,
+      "task_id": "a699fb00",
+      "unchanged": {
+        "copy_only_argmax_color_accuracy": 0.9565217391304348,
+        "final_mixed_argmax_color_accuracy": 0.9565217391304348,
+        "mean_copy_entropy": 0.20006213005146253,
+        "mean_copy_gate": 0.8259451648463374,
+        "mean_paint_entropy": 0.6890235439590786,
+        "paint_only_argmax_color_accuracy": 0.2608695652173913
+      },
+      "unchanged_cell_count": 23
+    },
+    {
+      "changed": {
+        "copy_only_argmax_color_accuracy": 0.0,
+        "final_mixed_argmax_color_accuracy": 0.0,
+        "mean_copy_entropy": 0.29058540736635524,
+        "mean_copy_gate": 0.8599198857943217,
+        "mean_paint_entropy": 0.6926399767398834,
+        "paint_only_argmax_color_accuracy": 1.0
+      },
+      "changed_cell_count": 6,
+      "query_pair_index": 2,
+      "task_id": "a699fb00",
+      "unchanged": {
+        "copy_only_argmax_color_accuracy": 0.9787234042553191,
+        "final_mixed_argmax_color_accuracy": 0.9787234042553191,
+        "mean_copy_entropy": 0.13614942299628116,
+        "mean_copy_gate": 0.8994977131802985,
+        "mean_paint_entropy": 0.8473921021882523,
+        "paint_only_argmax_color_accuracy": 0.0
+      },
+      "unchanged_cell_count": 94
+    },
+    {
+      "changed": {
+        "copy_only_argmax_color_accuracy": 0.0,
+        "final_mixed_argmax_color_accuracy": 0.0,
+        "mean_copy_entropy": 0.6585319785551093,
+        "mean_copy_gate": 0.8591700755773376,
+        "mean_paint_entropy": 1.2014944516836,
+        "paint_only_argmax_color_accuracy": 0.9042145593869731
+      },
+      "changed_cell_count": 261,
+      "query_pair_index": 0,
+      "task_id": "a64e4611",
+      "unchanged": {
+        "copy_only_argmax_color_accuracy": 0.5383411580594679,
+        "final_mixed_argmax_color_accuracy": 0.539906103286385,
+        "mean_copy_entropy": 0.6361242156819745,
+        "mean_copy_gate": 0.8956318714995526,
+        "mean_paint_entropy": 1.0725773232457037,
+        "paint_only_argmax_color_accuracy": 0.0
+      },
+      "unchanged_cell_count": 639
+    },
+    {
+      "changed": {
+        "copy_only_argmax_color_accuracy": 0.0,
+        "final_mixed_argmax_color_accuracy": 0.0,
+        "mean_copy_entropy": 0.6621576960270221,
+        "mean_copy_gate": 0.8823391174838554,
+        "mean_paint_entropy": 1.172720477322108,
+        "paint_only_argmax_color_accuracy": 1.0
+      },
+      "changed_cell_count": 221,
+      "query_pair_index": 1,
+      "task_id": "a64e4611",
+      "unchanged": {
+        "copy_only_argmax_color_accuracy": 0.48748159057437407,
+        "final_mixed_argmax_color_accuracy": 0.48748159057437407,
+        "mean_copy_entropy": 0.6085847117588341,
+        "mean_copy_gate": 0.8973327471335611,
+        "mean_paint_entropy": 1.0555972250203145,
+        "paint_only_argmax_color_accuracy": 0.0
+      },
+      "unchanged_cell_count": 679
+    },
+    {
+      "changed": {
+        "copy_only_argmax_color_accuracy": 0.0,
+        "final_mixed_argmax_color_accuracy": 0.0,
+        "mean_copy_entropy": 0.6627445131540298,
+        "mean_copy_gate": 0.8275066131725908,
+        "mean_paint_entropy": 1.56502021625638,
+        "paint_only_argmax_color_accuracy": 0.5875
+      },
+      "changed_cell_count": 320,
+      "query_pair_index": 2,
+      "task_id": "a64e4611",
+      "unchanged": {
+        "copy_only_argmax_color_accuracy": 0.4241379310344828,
+        "final_mixed_argmax_color_accuracy": 0.41724137931034483,
+        "mean_copy_entropy": 0.6475133045994003,
+        "mean_copy_gate": 0.8430734666257069,
+        "mean_paint_entropy": 1.492548754502987,
+        "paint_only_argmax_color_accuracy": 0.0
+      },
+      "unchanged_cell_count": 580
+    },
+    {
+      "changed": {
+        "copy_only_argmax_color_accuracy": 0.0,
+        "final_mixed_argmax_color_accuracy": 0.0,
+        "mean_copy_entropy": 0.6724138214037969,
+        "mean_copy_gate": 0.9895642124689542,
+        "mean_paint_entropy": 2.076667253787701,
+        "paint_only_argmax_color_accuracy": 0.7692307692307693
+      },
+      "changed_cell_count": 13,
+      "query_pair_index": 0,
+      "task_id": "b2862040",
+      "unchanged": {
+        "copy_only_argmax_color_accuracy": 0.951048951048951,
+        "final_mixed_argmax_color_accuracy": 0.951048951048951,
+        "mean_copy_entropy": 0.4538618459568157,
+        "mean_copy_gate": 0.9894993184329747,
+        "mean_paint_entropy": 1.9533362230220874,
+        "paint_only_argmax_color_accuracy": 0.0
+      },
+      "unchanged_cell_count": 143
+    },
+    {
+      "changed": {
+        "copy_only_argmax_color_accuracy": 0.0,
+        "final_mixed_argmax_color_accuracy": 0.0,
+        "mean_copy_entropy": 0.6506322430026147,
+        "mean_copy_gate": 0.9896708957610592,
+        "mean_paint_entropy": 1.9739549583004368,
+        "paint_only_argmax_color_accuracy": 0.9032258064516129
+      },
+      "changed_cell_count": 31,
+      "query_pair_index": 1,
+      "task_id": "b2862040",
+      "unchanged": {
+        "copy_only_argmax_color_accuracy": 0.9702970297029703,
+        "final_mixed_argmax_color_accuracy": 0.9702970297029703,
+        "mean_copy_entropy": 0.42711719914828195,
+        "mean_copy_gate": 0.9909356437107124,
+        "mean_paint_entropy": 1.9776427580578493,
+        "paint_only_argmax_color_accuracy": 0.019801980198019802
+      },
+      "unchanged_cell_count": 101
+    },
+    {
+      "changed": {
+        "copy_only_argmax_color_accuracy": 0.0,
+        "final_mixed_argmax_color_accuracy": 0.0,
+        "mean_copy_entropy": 0.6675968915224075,
+        "mean_copy_gate": 0.9889525969823202,
+        "mean_paint_entropy": 1.8581672112147014,
+        "paint_only_argmax_color_accuracy": 0.4722222222222222
+      },
+      "changed_cell_count": 36,
+      "query_pair_index": 2,
+      "task_id": "b2862040",
+      "unchanged": {
+        "copy_only_argmax_color_accuracy": 0.8735632183908046,
+        "final_mixed_argmax_color_accuracy": 0.8735632183908046,
+        "mean_copy_entropy": 0.42584374238704814,
+        "mean_copy_gate": 0.9886392437178513,
+        "mean_paint_entropy": 1.7690491395435115,
+        "paint_only_argmax_color_accuracy": 0.028735632183908046
+      },
+      "unchanged_cell_count": 174
+    },
+    {
+      "changed": {
+        "copy_only_argmax_color_accuracy": 0.0,
+        "final_mixed_argmax_color_accuracy": 0.0,
+        "mean_copy_entropy": 0.6849609375,
+        "mean_copy_gate": 0.9893937468528747,
+        "mean_paint_entropy": 1.8978569269180299,
+        "paint_only_argmax_color_accuracy": 0.6
+      },
+      "changed_cell_count": 10,
+      "query_pair_index": 3,
+      "task_id": "b2862040",
+      "unchanged": {
+        "copy_only_argmax_color_accuracy": 0.9101123595505618,
+        "final_mixed_argmax_color_accuracy": 0.9101123595505618,
+        "mean_copy_entropy": 0.2032048621874177,
+        "mean_copy_gate": 0.9895330158512244,
+        "mean_paint_entropy": 1.8152008967453175,
+        "paint_only_argmax_color_accuracy": 0.011235955056179775
+      },
+      "unchanged_cell_count": 89
+    },
+    {
+      "changed": {
+        "copy_only_argmax_color_accuracy": 0.8857142857142857,
+        "final_mixed_argmax_color_accuracy": 0.8571428571428571,
+        "mean_copy_entropy": 0.3614679594657251,
+        "mean_copy_gate": 0.9211003950663975,
+        "mean_paint_entropy": 1.4094149129731315,
+        "paint_only_argmax_color_accuracy": 0.6571428571428571
+      },
+      "changed_cell_count": 35,
+      "query_pair_index": 0,
+      "task_id": "963e52fc",
+      "unchanged": {
+        "copy_only_argmax_color_accuracy": 1.0,
+        "final_mixed_argmax_color_accuracy": 1.0,
+        "mean_copy_entropy": 0.38269780970045497,
+        "mean_copy_gate": 0.9187466519219535,
+        "mean_paint_entropy": 1.3693876573017665,
+        "paint_only_argmax_color_accuracy": 0.5714285714285714
+      },
+      "unchanged_cell_count": 35
+    },
+    {
+      "changed": {
+        "copy_only_argmax_color_accuracy": 0.8666666666666667,
+        "final_mixed_argmax_color_accuracy": 0.8666666666666667,
+        "mean_copy_entropy": 0.46235842344661554,
+        "mean_copy_gate": 0.895602285861969,
+        "mean_paint_entropy": 1.3669027547041575,
+        "paint_only_argmax_color_accuracy": 0.7666666666666667
+      },
+      "changed_cell_count": 30,
+      "query_pair_index": 1,
+      "task_id": "963e52fc",
+      "unchanged": {
+        "copy_only_argmax_color_accuracy": 1.0,
+        "final_mixed_argmax_color_accuracy": 1.0,
+        "mean_copy_entropy": 0.3795105996231238,
+        "mean_copy_gate": 0.8987690726915996,
+        "mean_paint_entropy": 1.2466051737467447,
+        "paint_only_argmax_color_accuracy": 0.6666666666666666
+      },
+      "unchanged_cell_count": 30
+    },
+    {
+      "changed": {
+        "copy_only_argmax_color_accuracy": 0.8,
+        "final_mixed_argmax_color_accuracy": 0.8,
+        "mean_copy_entropy": 0.5092784485314041,
+        "mean_copy_gate": 0.8994384050369263,
+        "mean_paint_entropy": 1.466547890007496,
+        "paint_only_argmax_color_accuracy": 0.575
+      },
+      "changed_cell_count": 40,
+      "query_pair_index": 2,
+      "task_id": "963e52fc",
+      "unchanged": {
+        "copy_only_argmax_color_accuracy": 1.0,
+        "final_mixed_argmax_color_accuracy": 1.0,
+        "mean_copy_entropy": 0.42818691143766047,
+        "mean_copy_gate": 0.8881617560982704,
+        "mean_paint_entropy": 1.398203831911087,
+        "paint_only_argmax_color_accuracy": 0.5
+      },
+      "unchanged_cell_count": 40
+    },
+    {
+      "changed": {
+        "copy_only_argmax_color_accuracy": 0.4444444444444444,
+        "final_mixed_argmax_color_accuracy": 0.4444444444444444,
+        "mean_copy_entropy": 1.4925639231999714,
+        "mean_copy_gate": 0.8940067158805,
+        "mean_paint_entropy": 0.8169541160265604,
+        "paint_only_argmax_color_accuracy": 0.2222222222222222
+      },
+      "changed_cell_count": 9,
+      "query_pair_index": 0,
+      "task_id": "137eaa0f",
+      "unchanged": {
+        "copy_only_argmax_color_accuracy": null,
+        "final_mixed_argmax_color_accuracy": null,
+        "mean_copy_entropy": null,
+        "mean_copy_gate": null,
+        "mean_paint_entropy": null,
+        "paint_only_argmax_color_accuracy": null
+      },
+      "unchanged_cell_count": 0
+    },
+    {
+      "changed": {
+        "copy_only_argmax_color_accuracy": 0.2857142857142857,
+        "final_mixed_argmax_color_accuracy": 0.2857142857142857,
+        "mean_copy_entropy": 1.2741493497576033,
+        "mean_copy_gate": 0.9597375733511788,
+        "mean_paint_entropy": 1.379833562033517,
+        "paint_only_argmax_color_accuracy": 0.0
+      },
+      "changed_cell_count": 7,
+      "query_pair_index": 1,
+      "task_id": "137eaa0f",
+      "unchanged": {
+        "copy_only_argmax_color_accuracy": 0.0,
+        "final_mixed_argmax_color_accuracy": 0.0,
+        "mean_copy_entropy": 1.1737269759178162,
+        "mean_copy_gate": 0.9529415965080261,
+        "mean_paint_entropy": 1.3969590663909912,
+        "paint_only_argmax_color_accuracy": 0.0
+      },
+      "unchanged_cell_count": 2
+    },
+    {
+      "changed": {
+        "copy_only_argmax_color_accuracy": 0.25,
+        "final_mixed_argmax_color_accuracy": 0.375,
+        "mean_copy_entropy": 1.4773545861244202,
+        "mean_copy_gate": 0.9604151248931885,
+        "mean_paint_entropy": 1.3540563583374023,
+        "paint_only_argmax_color_accuracy": 0.25
+      },
+      "changed_cell_count": 8,
+      "query_pair_index": 2,
+      "task_id": "137eaa0f",
+      "unchanged": {
+        "copy_only_argmax_color_accuracy": 0.0,
+        "final_mixed_argmax_color_accuracy": 0.0,
+        "mean_copy_entropy": 1.507188320159912,
+        "mean_copy_gate": 0.9450210928916931,
+        "mean_paint_entropy": 1.2845141887664795,
+        "paint_only_argmax_color_accuracy": 0.0
+      },
+      "unchanged_cell_count": 1
+    },
+    {
+      "changed": {
+        "copy_only_argmax_color_accuracy": 0.9596412556053812,
+        "final_mixed_argmax_color_accuracy": 0.9596412556053812,
+        "mean_copy_entropy": 0.08831780266764286,
+        "mean_copy_gate": 0.9839718090579114,
+        "mean_paint_entropy": 1.919977381624983,
+        "paint_only_argmax_color_accuracy": 0.004484304932735426
+      },
+      "changed_cell_count": 223,
+      "query_pair_index": 0,
+      "task_id": "e3f79277",
+      "unchanged": {
+        "copy_only_argmax_color_accuracy": 1.0,
+        "final_mixed_argmax_color_accuracy": 1.0,
+        "mean_copy_entropy": 0.05730375682116684,
+        "mean_copy_gate": 0.9868597460515571,
+        "mean_paint_entropy": 1.9977756016182178,
+        "paint_only_argmax_color_accuracy": 0.0
+      },
+      "unchanged_cell_count": 33
+    },
+    {
+      "changed": {
+        "copy_only_argmax_color_accuracy": 0.9333333333333333,
+        "final_mixed_argmax_color_accuracy": 0.9333333333333333,
+        "mean_copy_entropy": 0.19013720978258383,
+        "mean_copy_gate": 0.9908694643444486,
+        "mean_paint_entropy": 1.8470579809612697,
+        "paint_only_argmax_color_accuracy": 0.0
+      },
+      "changed_cell_count": 225,
+      "query_pair_index": 1,
+      "task_id": "e3f79277",
+      "unchanged": {
+        "copy_only_argmax_color_accuracy": 1.0,
+        "final_mixed_argmax_color_accuracy": 1.0,
+        "mean_copy_entropy": 0.15513402783882715,
+        "mean_copy_gate": 0.9929950045001122,
+        "mean_paint_entropy": 1.9126858941970333,
+        "paint_only_argmax_color_accuracy": 0.0
+      },
+      "unchanged_cell_count": 31
+    },
+    {
+      "changed": {
+        "copy_only_argmax_color_accuracy": 0.23529411764705882,
+        "final_mixed_argmax_color_accuracy": 0.23529411764705882,
+        "mean_copy_entropy": 0.5531518731047126,
+        "mean_copy_gate": 0.9566563823643852,
+        "mean_paint_entropy": 1.0083516064812155,
+        "paint_only_argmax_color_accuracy": 0.5882352941176471
+      },
+      "changed_cell_count": 17,
+      "query_pair_index": 0,
+      "task_id": "0e206a2e",
+      "unchanged": {
+        "copy_only_argmax_color_accuracy": 0.9844559585492227,
+        "final_mixed_argmax_color_accuracy": 0.9844559585492227,
+        "mean_copy_entropy": 0.10471183473456631,
+        "mean_copy_gate": 0.9667945902582278,
+        "mean_paint_entropy": 0.91634609152616,
+        "paint_only_argmax_color_accuracy": 0.9844559585492227
+      },
+      "unchanged_cell_count": 193
+    },
+    {
+      "changed": {
+        "copy_only_argmax_color_accuracy": 0.4230769230769231,
+        "final_mixed_argmax_color_accuracy": 0.4230769230769231,
+        "mean_copy_entropy": 0.577630973707598,
+        "mean_copy_gate": 0.9703790155740885,
+        "mean_paint_entropy": 0.9994080490790881,
+        "paint_only_argmax_color_accuracy": 0.6153846153846154
+      },
+      "changed_cell_count": 26,
+      "query_pair_index": 1,
+      "task_id": "0e206a2e",
+      "unchanged": {
+        "copy_only_argmax_color_accuracy": 0.9734513274336283,
+        "final_mixed_argmax_color_accuracy": 0.9734513274336283,
+        "mean_copy_entropy": 0.11709621926332799,
+        "mean_copy_gate": 0.9735527937918638,
+        "mean_paint_entropy": 0.8121410914886315,
+        "paint_only_argmax_color_accuracy": 0.9734513274336283
+      },
+      "unchanged_cell_count": 226
+    },
+    {
+      "changed": {
+        "copy_only_argmax_color_accuracy": 0.058823529411764705,
+        "final_mixed_argmax_color_accuracy": 0.058823529411764705,
+        "mean_copy_entropy": 0.579689572839176,
+        "mean_copy_gate": 0.9616888936828164,
+        "mean_paint_entropy": 1.0346704546143026,
+        "paint_only_argmax_color_accuracy": 0.5882352941176471
+      },
+      "changed_cell_count": 17,
+      "query_pair_index": 2,
+      "task_id": "0e206a2e",
+      "unchanged": {
+        "copy_only_argmax_color_accuracy": 0.9855072463768116,
+        "final_mixed_argmax_color_accuracy": 0.9855072463768116,
+        "mean_copy_entropy": 0.15253992524596408,
+        "mean_copy_gate": 0.967932066767688,
+        "mean_paint_entropy": 0.8367687904316446,
+        "paint_only_argmax_color_accuracy": 0.9855072463768116
+      },
+      "unchanged_cell_count": 207
+    },
+    {
+      "changed": {
+        "copy_only_argmax_color_accuracy": 0.1111111111111111,
+        "final_mixed_argmax_color_accuracy": 0.1111111111111111,
+        "mean_copy_entropy": 0.6503750350740221,
+        "mean_copy_gate": 0.8943310578664144,
+        "mean_paint_entropy": 1.5052896738052368,
+        "paint_only_argmax_color_accuracy": 0.0
+      },
+      "changed_cell_count": 9,
+      "query_pair_index": 0,
+      "task_id": "b94a9452",
+      "unchanged": {
+        "copy_only_argmax_color_accuracy": null,
+        "final_mixed_argmax_color_accuracy": null,
+        "mean_copy_entropy": null,
+        "mean_copy_gate": null,
+        "mean_paint_entropy": null,
+        "paint_only_argmax_color_accuracy": null
+      },
+      "unchanged_cell_count": 0
+    },
+    {
+      "changed": {
+        "copy_only_argmax_color_accuracy": 0.25,
+        "final_mixed_argmax_color_accuracy": 0.25,
+        "mean_copy_entropy": 0.7073263227939606,
+        "mean_copy_gate": 0.9217514917254448,
+        "mean_paint_entropy": 1.4588981494307518,
+        "paint_only_argmax_color_accuracy": 0.25
+      },
+      "changed_cell_count": 16,
+      "query_pair_index": 1,
+      "task_id": "b94a9452",
+      "unchanged": {
+        "copy_only_argmax_color_accuracy": null,
+        "final_mixed_argmax_color_accuracy": null,
+        "mean_copy_entropy": null,
+        "mean_copy_gate": null,
+        "mean_paint_entropy": null,
+        "paint_only_argmax_color_accuracy": null
+      },
+      "unchanged_cell_count": 0
+    },
+    {
+      "changed": {
+        "copy_only_argmax_color_accuracy": 0.04,
+        "final_mixed_argmax_color_accuracy": 0.04,
+        "mean_copy_entropy": 0.3917493951320648,
+        "mean_copy_gate": 0.8926173257827759,
+        "mean_paint_entropy": 1.1786908674240113,
+        "paint_only_argmax_color_accuracy": 0.0
+      },
+      "changed_cell_count": 25,
+      "query_pair_index": 2,
+      "task_id": "b94a9452",
+      "unchanged": {
+        "copy_only_argmax_color_accuracy": null,
+        "final_mixed_argmax_color_accuracy": null,
+        "mean_copy_entropy": null,
+        "mean_copy_gate": null,
+        "mean_paint_entropy": null,
+        "paint_only_argmax_color_accuracy": null
+      },
+      "unchanged_cell_count": 0
+    },
+    {
+      "changed": {
+        "copy_only_argmax_color_accuracy": 0.0,
+        "final_mixed_argmax_color_accuracy": 0.8683035714285714,
+        "mean_copy_entropy": 0.30292244443470345,
+        "mean_copy_gate": 0.2963748714454206,
+        "mean_paint_entropy": 0.5406388712248632,
+        "paint_only_argmax_color_accuracy": 0.8816964285714286
+      },
+      "changed_cell_count": 448,
+      "query_pair_index": 0,
+      "task_id": "7b6016b9",
+      "unchanged": {
+        "copy_only_argmax_color_accuracy": 1.0,
+        "final_mixed_argmax_color_accuracy": 0.0392156862745098,
+        "mean_copy_entropy": 0.17702407437358417,
+        "mean_copy_gate": 0.3258129441562821,
+        "mean_paint_entropy": 0.5596860068685868,
+        "paint_only_argmax_color_accuracy": 0.0
+      },
+      "unchanged_cell_count": 102
+    },
+    {
+      "changed": {
+        "copy_only_argmax_color_accuracy": 0.0,
+        "final_mixed_argmax_color_accuracy": 0.828978622327791,
+        "mean_copy_entropy": 0.37375567775582474,
+        "mean_copy_gate": 0.2549470201700997,
+        "mean_paint_entropy": 0.4702698193720571,
+        "paint_only_argmax_color_accuracy": 0.8408551068883611
+      },
+      "changed_cell_count": 421,
+      "query_pair_index": 1,
+      "task_id": "7b6016b9",
+      "unchanged": {
+        "copy_only_argmax_color_accuracy": 1.0,
+        "final_mixed_argmax_color_accuracy": 0.0,
+        "mean_copy_entropy": 0.24813357119758925,
+        "mean_copy_gate": 0.22948127495193923,
+        "mean_paint_entropy": 0.5121854854126772,
+        "paint_only_argmax_color_accuracy": 0.0
+      },
+      "unchanged_cell_count": 108
+    },
+    {
+      "changed": {
+        "copy_only_argmax_color_accuracy": 0.0,
+        "final_mixed_argmax_color_accuracy": 0.7964376590330788,
+        "mean_copy_entropy": 0.40168188808073524,
+        "mean_copy_gate": 0.21503780274142442,
+        "mean_paint_entropy": 0.6282512324532783,
+        "paint_only_argmax_color_accuracy": 0.7964376590330788
+      },
+      "changed_cell_count": 393,
+      "query_pair_index": 2,
+      "task_id": "7b6016b9",
+      "unchanged": {
+        "copy_only_argmax_color_accuracy": 1.0,
+        "final_mixed_argmax_color_accuracy": 0.0,
+        "mean_copy_entropy": 0.29110711128325073,
+        "mean_copy_gate": 0.22291874805012266,
+        "mean_paint_entropy": 0.6139291251027906,
+        "paint_only_argmax_color_accuracy": 0.0
+      },
+      "unchanged_cell_count": 111
+    },
+    {
+      "changed": {
+        "copy_only_argmax_color_accuracy": 0.0,
+        "final_mixed_argmax_color_accuracy": 0.0,
+        "mean_copy_entropy": 0.5243195109069347,
+        "mean_copy_gate": 0.9755671471357346,
+        "mean_paint_entropy": 1.4868805259466171,
+        "paint_only_argmax_color_accuracy": 0.75
+      },
+      "changed_cell_count": 8,
+      "query_pair_index": 0,
+      "task_id": "50cb2852",
+      "unchanged": {
+        "copy_only_argmax_color_accuracy": 1.0,
+        "final_mixed_argmax_color_accuracy": 1.0,
+        "mean_copy_entropy": 0.43994071315823785,
+        "mean_copy_gate": 0.9795402274016412,
+        "mean_paint_entropy": 1.3675555125359566,
+        "paint_only_argmax_color_accuracy": 0.16129032258064516
+      },
+      "unchanged_cell_count": 124
+    },
+    {
+      "changed": {
+        "copy_only_argmax_color_accuracy": 0.0,
+        "final_mixed_argmax_color_accuracy": 0.0,
+        "mean_copy_entropy": 0.6091530163373265,
+        "mean_copy_gate": 0.9572847208806446,
+        "mean_paint_entropy": 1.7255588812487466,
+        "paint_only_argmax_color_accuracy": 0.0
+      },
+      "changed_cell_count": 28,
+      "query_pair_index": 1,
+      "task_id": "50cb2852",
+      "unchanged": {
+        "copy_only_argmax_color_accuracy": 0.9580838323353293,
+        "final_mixed_argmax_color_accuracy": 0.9580838323353293,
+        "mean_copy_entropy": 0.5369229727051037,
+        "mean_copy_gate": 0.9616100124256339,
+        "mean_paint_entropy": 1.5974441598989293,
+        "paint_only_argmax_color_accuracy": 0.5029940119760479
+      },
+      "unchanged_cell_count": 167
+    },
+    {
+      "changed": {
+        "copy_only_argmax_color_accuracy": 0.0,
+        "final_mixed_argmax_color_accuracy": 0.0,
+        "mean_copy_entropy": 0.753096250196298,
+        "mean_copy_gate": 0.9551385790109634,
+        "mean_paint_entropy": 1.6574774632851283,
+        "paint_only_argmax_color_accuracy": 0.75
+      },
+      "changed_cell_count": 24,
+      "query_pair_index": 2,
+      "task_id": "50cb2852",
+      "unchanged": {
+        "copy_only_argmax_color_accuracy": 0.9848484848484849,
+        "final_mixed_argmax_color_accuracy": 0.9772727272727273,
+        "mean_copy_entropy": 0.6086939606730911,
+        "mean_copy_gate": 0.9641357195196729,
+        "mean_paint_entropy": 1.4979907770951588,
+        "paint_only_argmax_color_accuracy": 0.18181818181818182
+      },
+      "unchanged_cell_count": 132
+    },
+    {
+      "changed": {
+        "copy_only_argmax_color_accuracy": 0.02127659574468085,
+        "final_mixed_argmax_color_accuracy": 0.02127659574468085,
+        "mean_copy_entropy": 0.9145394836334472,
+        "mean_copy_gate": 0.967757892101369,
+        "mean_paint_entropy": 1.9320935366001535,
+        "paint_only_argmax_color_accuracy": 0.1702127659574468
+      },
+      "changed_cell_count": 47,
+      "query_pair_index": 0,
+      "task_id": "e9bb6954",
+      "unchanged": {
+        "copy_only_argmax_color_accuracy": 0.9219512195121952,
+        "final_mixed_argmax_color_accuracy": 0.9219512195121952,
+        "mean_copy_entropy": 0.7968896111700593,
+        "mean_copy_gate": 0.9694518368418624,
+        "mean_paint_entropy": 1.868123311531253,
+        "paint_only_argmax_color_accuracy": 0.44390243902439025
+      },
+      "unchanged_cell_count": 205
+    },
+    {
+      "changed": {
+        "copy_only_argmax_color_accuracy": 0.0,
+        "final_mixed_argmax_color_accuracy": 0.0,
+        "mean_copy_entropy": 0.9528426499593825,
+        "mean_copy_gate": 0.9723525359517052,
+        "mean_paint_entropy": 1.9005089089983986,
+        "paint_only_argmax_color_accuracy": 0.0
+      },
+      "changed_cell_count": 21,
+      "query_pair_index": 1,
+      "task_id": "e9bb6954",
+      "unchanged": {
+        "copy_only_argmax_color_accuracy": 0.9751552795031055,
+        "final_mixed_argmax_color_accuracy": 0.9751552795031055,
+        "mean_copy_entropy": 0.7672395284131447,
+        "mean_copy_gate": 0.9752634171373356,
+        "mean_paint_entropy": 1.888472304581115,
+        "paint_only_argmax_color_accuracy": 0.14906832298136646
+      },
+      "unchanged_cell_count": 161
+    },
+    {
+      "changed": {
+        "copy_only_argmax_color_accuracy": 0.038461538461538464,
+        "final_mixed_argmax_color_accuracy": 0.038461538461538464,
+        "mean_copy_entropy": 0.7563057569548105,
+        "mean_copy_gate": 0.9766376698628451,
+        "mean_paint_entropy": 1.8714372775493524,
+        "paint_only_argmax_color_accuracy": 0.01282051282051282
+      },
+      "changed_cell_count": 78,
+      "query_pair_index": 2,
+      "task_id": "e9bb6954",
+      "unchanged": {
+        "copy_only_argmax_color_accuracy": 0.8902439024390244,
+        "final_mixed_argmax_color_accuracy": 0.8902439024390244,
+        "mean_copy_entropy": 0.7198670323241533,
+        "mean_copy_gate": 0.9758429478823654,
+        "mean_paint_entropy": 1.855423524127743,
+        "paint_only_argmax_color_accuracy": 0.22764227642276422
+      },
+      "unchanged_cell_count": 246
+    },
+    {
+      "changed": {
+        "copy_only_argmax_color_accuracy": 0.07547169811320754,
+        "final_mixed_argmax_color_accuracy": 0.07547169811320754,
+        "mean_copy_entropy": 0.7383643217244238,
+        "mean_copy_gate": 0.972718524483015,
+        "mean_paint_entropy": 1.8960125176411755,
+        "paint_only_argmax_color_accuracy": 0.0
+      },
+      "changed_cell_count": 53,
+      "query_pair_index": 3,
+      "task_id": "e9bb6954",
+      "unchanged": {
+        "copy_only_argmax_color_accuracy": 0.9565217391304348,
+        "final_mixed_argmax_color_accuracy": 0.9565217391304348,
+        "mean_copy_entropy": 0.6012265351803406,
+        "mean_copy_gate": 0.9737001850670977,
+        "mean_paint_entropy": 1.8987198983256526,
+        "paint_only_argmax_color_accuracy": 0.09090909090909091
+      },
+      "unchanged_cell_count": 253
+    },
+    {
+      "changed": {
+        "copy_only_argmax_color_accuracy": 0.4166666666666667,
+        "final_mixed_argmax_color_accuracy": 0.4166666666666667,
+        "mean_copy_entropy": 0.4442335643495123,
+        "mean_copy_gate": 0.977692519625028,
+        "mean_paint_entropy": 1.783530980348587,
+        "paint_only_argmax_color_accuracy": 0.5416666666666666
+      },
+      "changed_cell_count": 24,
+      "query_pair_index": 0,
+      "task_id": "df8cc377",
+      "unchanged": {
+        "copy_only_argmax_color_accuracy": 0.9388297872340425,
+        "final_mixed_argmax_color_accuracy": 0.9414893617021277,
+        "mean_copy_entropy": 0.35266492827894524,
+        "mean_copy_gate": 0.9792589194914127,
+        "mean_paint_entropy": 1.6465388785334343,
+        "paint_only_argmax_color_accuracy": 0.7792553191489362
+      },
+      "unchanged_cell_count": 376
+    },
+    {
+      "changed": {
+        "copy_only_argmax_color_accuracy": 0.45,
+        "final_mixed_argmax_color_accuracy": 0.45,
+        "mean_copy_entropy": 0.521212188899517,
+        "mean_copy_gate": 0.9757093608379364,
+        "mean_paint_entropy": 1.1120211593806744,
+        "paint_only_argmax_color_accuracy": 0.5
+      },
+      "changed_cell_count": 40,
+      "query_pair_index": 1,
+      "task_id": "df8cc377",
+      "unchanged": {
+        "copy_only_argmax_color_accuracy": 0.9197860962566845,
+        "final_mixed_argmax_color_accuracy": 0.9197860962566845,
+        "mean_copy_entropy": 0.3851410027663099,
+        "mean_copy_gate": 0.9765078364846541,
+        "mean_paint_entropy": 1.0803930209202564,
+        "paint_only_argmax_color_accuracy": 0.8850267379679144
+      },
+      "unchanged_cell_count": 374
+    },
+    {
+      "changed": {
+        "copy_only_argmax_color_accuracy": 0.3333333333333333,
+        "final_mixed_argmax_color_accuracy": 0.3333333333333333,
+        "mean_copy_entropy": 0.4341556057333946,
+        "mean_copy_gate": 0.9699310759703318,
+        "mean_paint_entropy": 1.4072759946187336,
+        "paint_only_argmax_color_accuracy": 0.5
+      },
+      "changed_cell_count": 6,
+      "query_pair_index": 2,
+      "task_id": "df8cc377",
+      "unchanged": {
+        "copy_only_argmax_color_accuracy": 0.9786324786324786,
+        "final_mixed_argmax_color_accuracy": 0.9786324786324786,
+        "mean_copy_entropy": 0.2048010640284126,
+        "mean_copy_gate": 0.9699660740856432,
+        "mean_paint_entropy": 1.2646914860631666,
+        "paint_only_argmax_color_accuracy": 0.8974358974358975
+      },
+      "unchanged_cell_count": 234
+    },
+    {
+      "changed": {
+        "copy_only_argmax_color_accuracy": 0.0,
+        "final_mixed_argmax_color_accuracy": 0.0,
+        "mean_copy_entropy": 0.6317336509625117,
+        "mean_copy_gate": 0.6780803297404889,
+        "mean_paint_entropy": 1.4833207196659512,
+        "paint_only_argmax_color_accuracy": 0.3333333333333333
+      },
+      "changed_cell_count": 54,
+      "query_pair_index": 0,
+      "task_id": "b6afb2da",
+      "unchanged": {
+        "copy_only_argmax_color_accuracy": 1.0,
+        "final_mixed_argmax_color_accuracy": 1.0,
+        "mean_copy_entropy": 0.2115850745011931,
+        "mean_copy_gate": 0.7620498797167903,
+        "mean_paint_entropy": 1.459330825702004,
+        "paint_only_argmax_color_accuracy": 0.08695652173913043
+      },
+      "unchanged_cell_count": 46
+    },
+    {
+      "changed": {
+        "copy_only_argmax_color_accuracy": 0.0,
+        "final_mixed_argmax_color_accuracy": 0.05555555555555555,
+        "mean_copy_entropy": 0.5934806317090988,
+        "mean_copy_gate": 0.6192218239108721,
+        "mean_paint_entropy": 1.4033524725172255,
+        "paint_only_argmax_color_accuracy": 0.2777777777777778
+      },
+      "changed_cell_count": 36,
+      "query_pair_index": 1,
+      "task_id": "b6afb2da",
+      "unchanged": {
+        "copy_only_argmax_color_accuracy": 1.0,
+        "final_mixed_argmax_color_accuracy": 1.0,
+        "mean_copy_entropy": 0.11020978343731258,
+        "mean_copy_gate": 0.6660787248983979,
+        "mean_paint_entropy": 1.4914324916899204,
+        "paint_only_argmax_color_accuracy": 0.0
+      },
+      "unchanged_cell_count": 64
+    },
+    {
+      "changed": {
+        "copy_only_argmax_color_accuracy": 0.0,
+        "final_mixed_argmax_color_accuracy": 0.0,
+        "mean_copy_entropy": 1.0242735619346302,
+        "mean_copy_gate": 0.9478695591290792,
+        "mean_paint_entropy": 1.6464313218990962,
+        "paint_only_argmax_color_accuracy": 0.5
+      },
+      "changed_cell_count": 24,
+      "query_pair_index": 0,
+      "task_id": "d93c6891",
+      "unchanged": {
+        "copy_only_argmax_color_accuracy": 0.8577586206896551,
+        "final_mixed_argmax_color_accuracy": 0.8706896551724138,
+        "mean_copy_entropy": 0.6202790237047935,
+        "mean_copy_gate": 0.963343975872829,
+        "mean_paint_entropy": 1.5824258479064908,
+        "paint_only_argmax_color_accuracy": 0.5129310344827587
+      },
+      "unchanged_cell_count": 232
+    },
+    {
+      "changed": {
+        "copy_only_argmax_color_accuracy": 0.08333333333333333,
+        "final_mixed_argmax_color_accuracy": 0.08333333333333333,
+        "mean_copy_entropy": 0.9316514035065969,
+        "mean_copy_gate": 0.9602946043014526,
+        "mean_paint_entropy": 1.5249915818373363,
+        "paint_only_argmax_color_accuracy": 0.5
+      },
+      "changed_cell_count": 12,
+      "query_pair_index": 1,
+      "task_id": "d93c6891",
+      "unchanged": {
+        "copy_only_argmax_color_accuracy": 1.0,
+        "final_mixed_argmax_color_accuracy": 1.0,
+        "mean_copy_entropy": 0.49305189558072016,
+        "mean_copy_gate": 0.978144243825227,
+        "mean_paint_entropy": 1.49129908811301,
+        "paint_only_argmax_color_accuracy": 0.4453125
+      },
+      "unchanged_cell_count": 128
+    },
+    {
+      "changed": {
+        "copy_only_argmax_color_accuracy": 0.0,
+        "final_mixed_argmax_color_accuracy": 0.05,
+        "mean_copy_entropy": 1.0186375319957732,
+        "mean_copy_gate": 0.9677115827798843,
+        "mean_paint_entropy": 1.4022099763154983,
+        "paint_only_argmax_color_accuracy": 0.5
+      },
+      "changed_cell_count": 20,
+      "query_pair_index": 2,
+      "task_id": "d93c6891",
+      "unchanged": {
+        "copy_only_argmax_color_accuracy": 0.9152542372881356,
+        "final_mixed_argmax_color_accuracy": 0.9110169491525424,
+        "mean_copy_entropy": 0.6678071012246912,
+        "mean_copy_gate": 0.9726051688194275,
+        "mean_paint_entropy": 1.4116444741770373,
+        "paint_only_argmax_color_accuracy": 0.3983050847457627
+      },
+      "unchanged_cell_count": 236
+    },
+    {
+      "changed": {
+        "copy_only_argmax_color_accuracy": 0.6956521739130435,
+        "final_mixed_argmax_color_accuracy": 0.6521739130434783,
+        "mean_copy_entropy": 1.4487165108970974,
+        "mean_copy_gate": 0.9311418351919755,
+        "mean_paint_entropy": 1.325660861056784,
+        "paint_only_argmax_color_accuracy": 0.13043478260869565
+      },
+      "changed_cell_count": 23,
+      "query_pair_index": 0,
+      "task_id": "e9b4f6fc",
+      "unchanged": {
+        "copy_only_argmax_color_accuracy": 1.0,
+        "final_mixed_argmax_color_accuracy": 1.0,
+        "mean_copy_entropy": 1.4442257404327392,
+        "mean_copy_gate": 0.9424949407577514,
+        "mean_paint_entropy": 1.2498833894729615,
+        "paint_only_argmax_color_accuracy": 0.4
+      },
+      "unchanged_cell_count": 5
+    },
+    {
+      "changed": {
+        "copy_only_argmax_color_accuracy": 0.6744186046511628,
+        "final_mixed_argmax_color_accuracy": 0.6744186046511628,
+        "mean_copy_entropy": 1.4344949666843858,
+        "mean_copy_gate": 0.9132551911265351,
+        "mean_paint_entropy": 0.6306857750859372,
+        "paint_only_argmax_color_accuracy": 0.0
+      },
+      "changed_cell_count": 43,
+      "query_pair_index": 1,
+      "task_id": "e9b4f6fc",
+      "unchanged": {
+        "copy_only_argmax_color_accuracy": 1.0,
+        "final_mixed_argmax_color_accuracy": 1.0,
+        "mean_copy_entropy": 1.4051569104194641,
+        "mean_copy_gate": 0.9270684023698171,
+        "mean_paint_entropy": 0.6428968459367752,
+        "paint_only_argmax_color_accuracy": 0.0
+      },
+      "unchanged_cell_count": 6
+    },
+    {
+      "changed": {
+        "copy_only_argmax_color_accuracy": 0.5625,
+        "final_mixed_argmax_color_accuracy": 0.5625,
+        "mean_copy_entropy": 1.4455239102244377,
+        "mean_copy_gate": 0.9139216877520084,
+        "mean_paint_entropy": 1.1301193200051785,
+        "paint_only_argmax_color_accuracy": 0.0
+      },
+      "changed_cell_count": 16,
+      "query_pair_index": 2,
+      "task_id": "e9b4f6fc",
+      "unchanged": {
+        "copy_only_argmax_color_accuracy": null,
+        "final_mixed_argmax_color_accuracy": null,
+        "mean_copy_entropy": null,
+        "mean_copy_gate": null,
+        "mean_paint_entropy": null,
+        "paint_only_argmax_color_accuracy": null
+      },
+      "unchanged_cell_count": 0
+    },
+    {
+      "changed": {
+        "copy_only_argmax_color_accuracy": 0.7222222222222222,
+        "final_mixed_argmax_color_accuracy": 0.7222222222222222,
+        "mean_copy_entropy": 1.1868064403533936,
+        "mean_copy_gate": 0.952496725651953,
+        "mean_paint_entropy": 1.3014069828722212,
+        "paint_only_argmax_color_accuracy": 0.6666666666666666
+      },
+      "changed_cell_count": 36,
+      "query_pair_index": 3,
+      "task_id": "e9b4f6fc",
+      "unchanged": {
+        "copy_only_argmax_color_accuracy": null,
+        "final_mixed_argmax_color_accuracy": null,
+        "mean_copy_entropy": null,
+        "mean_copy_gate": null,
+        "mean_paint_entropy": null,
+        "paint_only_argmax_color_accuracy": null
+      },
+      "unchanged_cell_count": 0
+    },
+    {
+      "changed": {
+        "copy_only_argmax_color_accuracy": 0.0,
+        "final_mixed_argmax_color_accuracy": 1.0,
+        "mean_copy_entropy": 0.7237342172547391,
+        "mean_copy_gate": 0.4648150738916899,
+        "mean_paint_entropy": 0.1240804877720381,
+        "paint_only_argmax_color_accuracy": 1.0
+      },
+      "changed_cell_count": 19,
+      "query_pair_index": 0,
+      "task_id": "5d2a5c43",
+      "unchanged": {
+        "copy_only_argmax_color_accuracy": 0.4,
+        "final_mixed_argmax_color_accuracy": 0.0,
+        "mean_copy_entropy": 0.7318371415138245,
+        "mean_copy_gate": 0.4835807681083679,
+        "mean_paint_entropy": 0.12864913046360016,
+        "paint_only_argmax_color_accuracy": 0.0
+      },
+      "unchanged_cell_count": 5
+    },
+    {
+      "changed": {
+        "copy_only_argmax_color_accuracy": 0.0,
+        "final_mixed_argmax_color_accuracy": 1.0,
+        "mean_copy_entropy": 0.7676916778087616,
+        "mean_copy_gate": 0.3862757936120033,
+        "mean_paint_entropy": 0.15998563058674337,
+        "paint_only_argmax_color_accuracy": 1.0
+      },
+      "changed_cell_count": 20,
+      "query_pair_index": 1,
+      "task_id": "5d2a5c43",
+      "unchanged": {
+        "copy_only_argmax_color_accuracy": 0.75,
+        "final_mixed_argmax_color_accuracy": 0.0,
+        "mean_copy_entropy": 0.7556148022413254,
+        "mean_copy_gate": 0.365568570792675,
+        "mean_paint_entropy": 0.14851541630923748,
+        "paint_only_argmax_color_accuracy": 0.0
+      },
+      "unchanged_cell_count": 4
+    },
+    {
+      "changed": {
+        "copy_only_argmax_color_accuracy": 0.0,
+        "final_mixed_argmax_color_accuracy": 1.0,
+        "mean_copy_entropy": 0.7323129653930665,
+        "mean_copy_gate": 0.4025528386235237,
+        "mean_paint_entropy": 0.15014648549258708,
+        "paint_only_argmax_color_accuracy": 1.0
+      },
+      "changed_cell_count": 20,
+      "query_pair_index": 2,
+      "task_id": "5d2a5c43",
+      "unchanged": {
+        "copy_only_argmax_color_accuracy": 1.0,
+        "final_mixed_argmax_color_accuracy": 0.0,
+        "mean_copy_entropy": 0.7762948423624039,
+        "mean_copy_gate": 0.4469698593020439,
+        "mean_paint_entropy": 0.15285763144493103,
+        "paint_only_argmax_color_accuracy": 0.0
+      },
+      "unchanged_cell_count": 4
+    },
+    {
+      "changed": {
+        "copy_only_argmax_color_accuracy": 0.0,
+        "final_mixed_argmax_color_accuracy": 0.95,
+        "mean_copy_entropy": 0.7323796153068542,
+        "mean_copy_gate": 0.494375641644001,
+        "mean_paint_entropy": 0.14729062803089618,
+        "paint_only_argmax_color_accuracy": 1.0
+      },
+      "changed_cell_count": 20,
+      "query_pair_index": 3,
+      "task_id": "5d2a5c43",
+      "unchanged": {
+        "copy_only_argmax_color_accuracy": 0.5,
+        "final_mixed_argmax_color_accuracy": 0.0,
+        "mean_copy_entropy": 0.6973274201154709,
+        "mean_copy_gate": 0.4752591475844383,
+        "mean_paint_entropy": 0.16540529765188694,
+        "paint_only_argmax_color_accuracy": 0.0
+      },
+      "unchanged_cell_count": 4
+    },
+    {
+      "changed": {
+        "copy_only_argmax_color_accuracy": 0.0,
+        "final_mixed_argmax_color_accuracy": 1.0,
+        "mean_copy_entropy": 0.7624491817421384,
+        "mean_copy_gate": 0.4399089482095506,
+        "mean_paint_entropy": 0.13078113231394026,
+        "paint_only_argmax_color_accuracy": 1.0
+      },
+      "changed_cell_count": 18,
+      "query_pair_index": 4,
+      "task_id": "5d2a5c43",
+      "unchanged": {
+        "copy_only_argmax_color_accuracy": 1.0,
+        "final_mixed_argmax_color_accuracy": 0.0,
+        "mean_copy_entropy": 0.7649341821670532,
+        "mean_copy_gate": 0.39031267166137695,
+        "mean_paint_entropy": 0.13820149128635725,
+        "paint_only_argmax_color_accuracy": 0.0
+      },
+      "unchanged_cell_count": 6
+    },
+    {
+      "changed": {
+        "copy_only_argmax_color_accuracy": 0.0,
+        "final_mixed_argmax_color_accuracy": 0.0,
+        "mean_copy_entropy": 0.05257589809286098,
+        "mean_copy_gate": 0.935506796836853,
+        "mean_paint_entropy": 1.5706973950068155,
+        "paint_only_argmax_color_accuracy": 0.2
+      },
+      "changed_cell_count": 15,
+      "query_pair_index": 0,
+      "task_id": "ac605cbb",
+      "unchanged": {
+        "copy_only_argmax_color_accuracy": 1.0,
+        "final_mixed_argmax_color_accuracy": 1.0,
+        "mean_copy_entropy": 0.07653671269426408,
+        "mean_copy_gate": 0.9303547391351664,
+        "mean_paint_entropy": 1.5364674959542617,
+        "paint_only_argmax_color_accuracy": 0.6226415094339622
+      },
+      "unchanged_cell_count": 106
+    },
+    {
+      "changed": {
+        "copy_only_argmax_color_accuracy": 0.0,
+        "final_mixed_argmax_color_accuracy": 0.0,
+        "mean_copy_entropy": 0.2155544071768721,
+        "mean_copy_gate": 0.9160454968611399,
+        "mean_paint_entropy": 1.7829025785128276,
+        "paint_only_argmax_color_accuracy": 0.0
+      },
+      "changed_cell_count": 6,
+      "query_pair_index": 1,
+      "task_id": "ac605cbb",
+      "unchanged": {
+        "copy_only_argmax_color_accuracy": 1.0,
+        "final_mixed_argmax_color_accuracy": 1.0,
+        "mean_copy_entropy": 0.09101887490419842,
+        "mean_copy_gate": 0.9405186651869023,
+        "mean_paint_entropy": 1.5839036037313177,
+        "paint_only_argmax_color_accuracy": 0.43617021276595747
+      },
+      "unchanged_cell_count": 94
+    },
+    {
+      "changed": {
+        "copy_only_argmax_color_accuracy": 0.0,
+        "final_mixed_argmax_color_accuracy": 0.0,
+        "mean_copy_entropy": 0.14374934332445263,
+        "mean_copy_gate": 0.9238960981369019,
+        "mean_paint_entropy": 1.6635981321334838,
+        "paint_only_argmax_color_accuracy": 0.2
+      },
+      "changed_cell_count": 10,
+      "query_pair_index": 2,
+      "task_id": "ac605cbb",
+      "unchanged": {
+        "copy_only_argmax_color_accuracy": 1.0,
+        "final_mixed_argmax_color_accuracy": 1.0,
+        "mean_copy_entropy": 0.06695995890800582,
+        "mean_copy_gate": 0.9342138124836816,
+        "mean_paint_entropy": 1.5828668422169156,
+        "paint_only_argmax_color_accuracy": 0.4666666666666667
+      },
+      "unchanged_cell_count": 90
+    },
+    {
+      "changed": {
+        "copy_only_argmax_color_accuracy": 0.0,
+        "final_mixed_argmax_color_accuracy": 0.0,
+        "mean_copy_entropy": 0.16698545590043068,
+        "mean_copy_gate": 0.9179791271686554,
+        "mean_paint_entropy": 1.6858823776245118,
+        "paint_only_argmax_color_accuracy": 0.2
+      },
+      "changed_cell_count": 10,
+      "query_pair_index": 3,
+      "task_id": "ac605cbb",
+      "unchanged": {
+        "copy_only_argmax_color_accuracy": 1.0,
+        "final_mixed_argmax_color_accuracy": 1.0,
+        "mean_copy_entropy": 0.07915919411889182,
+        "mean_copy_gate": 0.9311017984742517,
+        "mean_paint_entropy": 1.6360713007213834,
+        "paint_only_argmax_color_accuracy": 0.43243243243243246
+      },
+      "unchanged_cell_count": 111
+    },
+    {
+      "changed": {
+        "copy_only_argmax_color_accuracy": 0.0,
+        "final_mixed_argmax_color_accuracy": 0.0,
+        "mean_copy_entropy": 0.30091459171048235,
+        "mean_copy_gate": 0.9310833641460964,
+        "mean_paint_entropy": 1.7752311740602766,
+        "paint_only_argmax_color_accuracy": 0.2857142857142857
+      },
+      "changed_cell_count": 7,
+      "query_pair_index": 4,
+      "task_id": "ac605cbb",
+      "unchanged": {
+        "copy_only_argmax_color_accuracy": 1.0,
+        "final_mixed_argmax_color_accuracy": 1.0,
+        "mean_copy_entropy": 0.07726141010789433,
+        "mean_copy_gate": 0.9437521106453353,
+        "mean_paint_entropy": 1.6836153352132408,
+        "paint_only_argmax_color_accuracy": 0.4731182795698925
+      },
+      "unchanged_cell_count": 93
+    },
+    {
+      "changed": {
+        "copy_only_argmax_color_accuracy": 0.0,
+        "final_mixed_argmax_color_accuracy": 0.0,
+        "mean_copy_entropy": 0.38581028829018277,
+        "mean_copy_gate": 0.9412213365236918,
+        "mean_paint_entropy": 1.7754122018814087,
+        "paint_only_argmax_color_accuracy": 0.5
+      },
+      "changed_cell_count": 6,
+      "query_pair_index": 5,
+      "task_id": "ac605cbb",
+      "unchanged": {
+        "copy_only_argmax_color_accuracy": 1.0,
+        "final_mixed_argmax_color_accuracy": 1.0,
+        "mean_copy_entropy": 0.05841600566142006,
+        "mean_copy_gate": 0.9488966592152913,
+        "mean_paint_entropy": 1.8192414871851603,
+        "paint_only_argmax_color_accuracy": 0.25333333333333335
+      },
+      "unchanged_cell_count": 75
+    },
+    {
+      "changed": {
+        "copy_only_argmax_color_accuracy": 0.0,
+        "final_mixed_argmax_color_accuracy": 0.0,
+        "mean_copy_entropy": 0.5012576778729757,
+        "mean_copy_gate": 0.8747157454490662,
+        "mean_paint_entropy": 1.2631761365466647,
+        "paint_only_argmax_color_accuracy": 0.0
+      },
+      "changed_cell_count": 9,
+      "query_pair_index": 0,
+      "task_id": "9b30e358",
+      "unchanged": {
+        "copy_only_argmax_color_accuracy": 0.8780487804878049,
+        "final_mixed_argmax_color_accuracy": 0.8780487804878049,
+        "mean_copy_entropy": 0.557847887005021,
+        "mean_copy_gate": 0.9199034484421335,
+        "mean_paint_entropy": 1.3828815061871598,
+        "paint_only_argmax_color_accuracy": 0.04878048780487805
+      },
+      "unchanged_cell_count": 41
+    },
+    {
+      "changed": {
+        "copy_only_argmax_color_accuracy": 0.0,
+        "final_mixed_argmax_color_accuracy": 0.0,
+        "mean_copy_entropy": 0.31076669107590404,
+        "mean_copy_gate": 0.9668730241911752,
+        "mean_paint_entropy": 1.4874049254826136,
+        "paint_only_argmax_color_accuracy": 0.0
+      },
+      "changed_cell_count": 14,
+      "query_pair_index": 1,
+      "task_id": "9b30e358",
+      "unchanged": {
+        "copy_only_argmax_color_accuracy": 1.0,
+        "final_mixed_argmax_color_accuracy": 1.0,
+        "mean_copy_entropy": 0.35187058629734175,
+        "mean_copy_gate": 0.9690993630460331,
+        "mean_paint_entropy": 1.5485604937587465,
+        "paint_only_argmax_color_accuracy": 0.0
+      },
+      "unchanged_cell_count": 56
+    },
+    {
+      "changed": {
+        "copy_only_argmax_color_accuracy": 1.0,
+        "final_mixed_argmax_color_accuracy": 1.0,
+        "mean_copy_entropy": 0.8727603554725647,
+        "mean_copy_gate": 0.9939286112785339,
+        "mean_paint_entropy": 0.8821923732757568,
+        "paint_only_argmax_color_accuracy": 1.0
+      },
+      "changed_cell_count": 2,
+      "query_pair_index": 0,
+      "task_id": "fbf15a0b",
+      "unchanged": {
+        "copy_only_argmax_color_accuracy": 0.8080808080808081,
+        "final_mixed_argmax_color_accuracy": 0.8080808080808081,
+        "mean_copy_entropy": 0.4900147272932409,
+        "mean_copy_gate": 0.988642130837296,
+        "mean_paint_entropy": 0.738008283379704,
+        "paint_only_argmax_color_accuracy": 0.7474747474747475
+      },
+      "unchanged_cell_count": 198
+    },
+    {
+      "changed": {
+        "copy_only_argmax_color_accuracy": 1.0,
+        "final_mixed_argmax_color_accuracy": 1.0,
+        "mean_copy_entropy": 0.7417580485343933,
+        "mean_copy_gate": 0.981061726808548,
+        "mean_paint_entropy": 0.6735473871231079,
+        "paint_only_argmax_color_accuracy": 1.0
+      },
+      "changed_cell_count": 2,
+      "query_pair_index": 1,
+      "task_id": "fbf15a0b",
+      "unchanged": {
+        "copy_only_argmax_color_accuracy": 0.8775510204081632,
+        "final_mixed_argmax_color_accuracy": 0.8673469387755102,
+        "mean_copy_entropy": 0.34921636622475116,
+        "mean_copy_gate": 0.975854539141363,
+        "mean_paint_entropy": 0.620888947832341,
+        "paint_only_argmax_color_accuracy": 0.8367346938775511
+      },
+      "unchanged_cell_count": 98
+    },
+    {
+      "changed": {
+        "copy_only_argmax_color_accuracy": 0.6333333333333333,
+        "final_mixed_argmax_color_accuracy": 0.6333333333333333,
+        "mean_copy_entropy": 0.41910912717382115,
+        "mean_copy_gate": 0.9329861919085185,
+        "mean_paint_entropy": 0.4237800781925519,
+        "paint_only_argmax_color_accuracy": 0.6333333333333333
+      },
+      "changed_cell_count": 30,
+      "query_pair_index": 2,
+      "task_id": "fbf15a0b",
+      "unchanged": {
+        "copy_only_argmax_color_accuracy": 0.9380952380952381,
+        "final_mixed_argmax_color_accuracy": 0.9333333333333333,
+        "mean_copy_entropy": 0.3424870355320828,
+        "mean_copy_gate": 0.9372178827013288,
+        "mean_paint_entropy": 0.49550641966717585,
+        "paint_only_argmax_color_accuracy": 0.9333333333333333
+      },
+      "unchanged_cell_count": 210
+    },
+    {
+      "changed": {
+        "copy_only_argmax_color_accuracy": 0.5,
+        "final_mixed_argmax_color_accuracy": 0.5,
+        "mean_copy_entropy": 0.8871239721775055,
+        "mean_copy_gate": 0.9800324440002441,
+        "mean_paint_entropy": 0.5572606027126312,
+        "paint_only_argmax_color_accuracy": 1.0
+      },
+      "changed_cell_count": 2,
+      "query_pair_index": 3,
+      "task_id": "fbf15a0b",
+      "unchanged": {
+        "copy_only_argmax_color_accuracy": 0.9444444444444444,
+        "final_mixed_argmax_color_accuracy": 0.9444444444444444,
+        "mean_copy_entropy": 0.3252259407330442,
+        "mean_copy_gate": 0.9731987024898883,
+        "mean_paint_entropy": 0.8050395360699406,
+        "paint_only_argmax_color_accuracy": 0.9166666666666666
+      },
+      "unchanged_cell_count": 108
+    },
+    {
+      "changed": {
+        "copy_only_argmax_color_accuracy": 0.0,
+        "final_mixed_argmax_color_accuracy": 0.0,
+        "mean_copy_entropy": 0.6992734601864448,
+        "mean_copy_gate": 0.9187089250637934,
+        "mean_paint_entropy": 1.5757650824693532,
+        "paint_only_argmax_color_accuracy": 0.0
+      },
+      "changed_cell_count": 26,
+      "query_pair_index": 0,
+      "task_id": "d492a647",
+      "unchanged": {
+        "copy_only_argmax_color_accuracy": 0.8461538461538461,
+        "final_mixed_argmax_color_accuracy": 0.8111888111888111,
+        "mean_copy_entropy": 0.5535669443490622,
+        "mean_copy_gate": 0.933395052706445,
+        "mean_paint_entropy": 1.650977124701013,
+        "paint_only_argmax_color_accuracy": 0.36363636363636365
+      },
+      "unchanged_cell_count": 143
+    },
+    {
+      "changed": {
+        "copy_only_argmax_color_accuracy": 0.0,
+        "final_mixed_argmax_color_accuracy": 0.0,
+        "mean_copy_entropy": 0.5843481512173362,
+        "mean_copy_gate": 0.856581361397453,
+        "mean_paint_entropy": 1.0556915972543799,
+        "paint_only_argmax_color_accuracy": 0.0
+      },
+      "changed_cell_count": 23,
+      "query_pair_index": 1,
+      "task_id": "d492a647",
+      "unchanged": {
+        "copy_only_argmax_color_accuracy": 0.8486486486486486,
+        "final_mixed_argmax_color_accuracy": 0.8378378378378378,
+        "mean_copy_entropy": 0.5897221885017446,
+        "mean_copy_gate": 0.8535901839668686,
+        "mean_paint_entropy": 1.1320052950768857,
+        "paint_only_argmax_color_accuracy": 0.043243243243243246
+      },
+      "unchanged_cell_count": 185
+    },
+    {
+      "changed": {
+        "copy_only_argmax_color_accuracy": 0.0,
+        "final_mixed_argmax_color_accuracy": 0.0,
+        "mean_copy_entropy": 0.586505780617396,
+        "mean_copy_gate": 0.9150030546718173,
+        "mean_paint_entropy": 1.9424484570821126,
+        "paint_only_argmax_color_accuracy": 0.2777777777777778
+      },
+      "changed_cell_count": 18,
+      "query_pair_index": 0,
+      "task_id": "e21a174a",
+      "unchanged": {
+        "copy_only_argmax_color_accuracy": 1.0,
+        "final_mixed_argmax_color_accuracy": 1.0,
+        "mean_copy_entropy": 0.23006809327465993,
+        "mean_copy_gate": 0.9370045681153575,
+        "mean_paint_entropy": 1.4167821243886025,
+        "paint_only_argmax_color_accuracy": 0.9032258064516129
+      },
+      "unchanged_cell_count": 31
+    },
+    {
+      "changed": {
+        "copy_only_argmax_color_accuracy": 0.0945945945945946,
+        "final_mixed_argmax_color_accuracy": 0.0945945945945946,
+        "mean_copy_entropy": 0.8500410298237929,
+        "mean_copy_gate": 0.9536706410549782,
+        "mean_paint_entropy": 1.792705336132565,
+        "paint_only_argmax_color_accuracy": 0.20270270270270271
+      },
+      "changed_cell_count": 74,
+      "query_pair_index": 1,
+      "task_id": "e21a174a",
+      "unchanged": {
+        "copy_only_argmax_color_accuracy": 1.0,
+        "final_mixed_argmax_color_accuracy": 1.0,
+        "mean_copy_entropy": 0.34626045298125396,
+        "mean_copy_gate": 0.967127201431676,
+        "mean_paint_entropy": 1.6037796541264182,
+        "paint_only_argmax_color_accuracy": 0.6947368421052632
+      },
+      "unchanged_cell_count": 95
+    },
+    {
+      "changed": {
+        "copy_only_argmax_color_accuracy": 0.0,
+        "final_mixed_argmax_color_accuracy": 0.0,
+        "mean_copy_entropy": 0.7896978675194506,
+        "mean_copy_gate": 0.9493113688702853,
+        "mean_paint_entropy": 1.926955740406828,
+        "paint_only_argmax_color_accuracy": 0.07547169811320754
+      },
+      "changed_cell_count": 53,
+      "query_pair_index": 2,
+      "task_id": "e21a174a",
+      "unchanged": {
+        "copy_only_argmax_color_accuracy": 1.0,
+        "final_mixed_argmax_color_accuracy": 1.0,
+        "mean_copy_entropy": 0.35879600735919165,
+        "mean_copy_gate": 0.9624078129899913,
+        "mean_paint_entropy": 1.781609662647905,
+        "paint_only_argmax_color_accuracy": 0.46551724137931033
+      },
+      "unchanged_cell_count": 116
+    },
+    {
+      "changed": {
+        "copy_only_argmax_color_accuracy": 0.7333333333333333,
+        "final_mixed_argmax_color_accuracy": 0.7333333333333333,
+        "mean_copy_entropy": 0.48028125961621604,
+        "mean_copy_gate": 0.9885380645593007,
+        "mean_paint_entropy": 0.49584389726320904,
+        "paint_only_argmax_color_accuracy": 0.7333333333333333
+      },
+      "changed_cell_count": 30,
+      "query_pair_index": 0,
+      "task_id": "97a05b5b",
+      "unchanged": {
+        "copy_only_argmax_color_accuracy": 1.0,
+        "final_mixed_argmax_color_accuracy": 1.0,
+        "mean_copy_entropy": 0.4017907836857964,
+        "mean_copy_gate": 0.988019569831736,
+        "mean_paint_entropy": 0.5134286880493164,
+        "paint_only_argmax_color_accuracy": 1.0
+      },
+      "unchanged_cell_count": 34
+    },
+    {
+      "changed": {
+        "copy_only_argmax_color_accuracy": 0.6756756756756757,
+        "final_mixed_argmax_color_accuracy": 0.6756756756756757,
+        "mean_copy_entropy": 1.0074884827072557,
+        "mean_copy_gate": 0.9027305438711837,
+        "mean_paint_entropy": 1.1243546806477211,
+        "paint_only_argmax_color_accuracy": 0.6756756756756757
+      },
+      "changed_cell_count": 74,
+      "query_pair_index": 1,
+      "task_id": "97a05b5b",
+      "unchanged": {
+        "copy_only_argmax_color_accuracy": 1.0,
+        "final_mixed_argmax_color_accuracy": 1.0,
+        "mean_copy_entropy": 0.9282241086416607,
+        "mean_copy_gate": 0.9115614521352551,
+        "mean_paint_entropy": 1.118445513369162,
+        "paint_only_argmax_color_accuracy": 1.0
+      },
+      "unchanged_cell_count": 79
+    },
+    {
+      "changed": {
+        "copy_only_argmax_color_accuracy": 0.9245283018867925,
+        "final_mixed_argmax_color_accuracy": 0.9245283018867925,
+        "mean_copy_entropy": 0.2244485120447177,
+        "mean_copy_gate": 0.9890179982725179,
+        "mean_paint_entropy": 0.5823074011307843,
+        "paint_only_argmax_color_accuracy": 0.9245283018867925
+      },
+      "changed_cell_count": 53,
+      "query_pair_index": 2,
+      "task_id": "97a05b5b",
+      "unchanged": {
+        "copy_only_argmax_color_accuracy": 1.0,
+        "final_mixed_argmax_color_accuracy": 1.0,
+        "mean_copy_entropy": 0.1275374045861619,
+        "mean_copy_gate": 0.9884661968265261,
+        "mean_paint_entropy": 0.6341943591833115,
+        "paint_only_argmax_color_accuracy": 1.0
+      },
+      "unchanged_cell_count": 28
+    },
+    {
+      "changed": {
+        "copy_only_argmax_color_accuracy": 0.25,
+        "final_mixed_argmax_color_accuracy": 0.25,
+        "mean_copy_entropy": 0.7719258964061737,
+        "mean_copy_gate": 0.34826500713825226,
+        "mean_paint_entropy": 1.0532137751579285,
+        "paint_only_argmax_color_accuracy": 0.0
+      },
+      "changed_cell_count": 4,
+      "query_pair_index": 0,
+      "task_id": "3618c87e",
+      "unchanged": {
+        "copy_only_argmax_color_accuracy": 1.0,
+        "final_mixed_argmax_color_accuracy": 0.8571428571428571,
+        "mean_copy_entropy": 0.3070191868713924,
+        "mean_copy_gate": 0.32312520699841635,
+        "mean_paint_entropy": 0.8346519335394814,
+        "paint_only_argmax_color_accuracy": 0.8095238095238095
+      },
+      "unchanged_cell_count": 21
+    },
+    {
+      "changed": {
+        "copy_only_argmax_color_accuracy": 0.0,
+        "final_mixed_argmax_color_accuracy": 0.5,
+        "mean_copy_entropy": 0.9134711623191833,
+        "mean_copy_gate": 0.23548173159360886,
+        "mean_paint_entropy": 1.290992796421051,
+        "paint_only_argmax_color_accuracy": 0.5
+      },
+      "changed_cell_count": 2,
+      "query_pair_index": 1,
+      "task_id": "3618c87e",
+      "unchanged": {
+        "copy_only_argmax_color_accuracy": 1.0,
+        "final_mixed_argmax_color_accuracy": 0.9130434782608695,
+        "mean_copy_entropy": 0.36627705929719884,
+        "mean_copy_gate": 0.2974711442771165,
+        "mean_paint_entropy": 0.8213243299852246,
+        "paint_only_argmax_color_accuracy": 0.8260869565217391
+      },
+      "unchanged_cell_count": 23
+    },
+    {
+      "changed": {
+        "copy_only_argmax_color_accuracy": 0.5,
+        "final_mixed_argmax_color_accuracy": 0.25,
+        "mean_copy_entropy": 0.7586341202259064,
+        "mean_copy_gate": 0.41255611181259155,
+        "mean_paint_entropy": 1.0479946434497833,
+        "paint_only_argmax_color_accuracy": 0.0
+      },
+      "changed_cell_count": 4,
+      "query_pair_index": 2,
+      "task_id": "3618c87e",
+      "unchanged": {
+        "copy_only_argmax_color_accuracy": 0.9523809523809523,
+        "final_mixed_argmax_color_accuracy": 0.8095238095238095,
+        "mean_copy_entropy": 0.3828902633062431,
+        "mean_copy_gate": 0.2712442115658805,
+        "mean_paint_entropy": 0.8697230546247392,
+        "paint_only_argmax_color_accuracy": 0.8095238095238095
+      },
+      "unchanged_cell_count": 21
+    },
+    {
+      "changed": {
+        "copy_only_argmax_color_accuracy": 0.10606060606060606,
+        "final_mixed_argmax_color_accuracy": 0.10606060606060606,
+        "mean_copy_entropy": 0.8558601163553469,
+        "mean_copy_gate": 0.9530925732670408,
+        "mean_paint_entropy": 1.9780082323334434,
+        "paint_only_argmax_color_accuracy": 0.2727272727272727
+      },
+      "changed_cell_count": 66,
+      "query_pair_index": 0,
+      "task_id": "4b6b68e5",
+      "unchanged": {
+        "copy_only_argmax_color_accuracy": 0.8514492753623188,
+        "final_mixed_argmax_color_accuracy": 0.8514492753623188,
+        "mean_copy_entropy": 0.703351145569721,
+        "mean_copy_gate": 0.9616952233988306,
+        "mean_paint_entropy": 1.9463788322780444,
+        "paint_only_argmax_color_accuracy": 0.32971014492753625
+      },
+      "unchanged_cell_count": 276
+    },
+    {
+      "changed": {
+        "copy_only_argmax_color_accuracy": 0.022727272727272728,
+        "final_mixed_argmax_color_accuracy": 0.022727272727272728,
+        "mean_copy_entropy": 0.8782026171684265,
+        "mean_copy_gate": 0.9002088308334351,
+        "mean_paint_entropy": 1.9329867904836482,
+        "paint_only_argmax_color_accuracy": 0.0
+      },
+      "changed_cell_count": 44,
+      "query_pair_index": 1,
+      "task_id": "4b6b68e5",
+      "unchanged": {
+        "copy_only_argmax_color_accuracy": 0.9118387909319899,
+        "final_mixed_argmax_color_accuracy": 0.9118387909319899,
+        "mean_copy_entropy": 0.6098681030471244,
+        "mean_copy_gate": 0.9429671115779156,
+        "mean_paint_entropy": 1.877750093900887,
+        "paint_only_argmax_color_accuracy": 0.44080604534005036
+      },
+      "unchanged_cell_count": 397
+    },
+    {
+      "changed": {
+        "copy_only_argmax_color_accuracy": 0.0,
+        "final_mixed_argmax_color_accuracy": 0.0,
+        "mean_copy_entropy": 0.6259816920056063,
+        "mean_copy_gate": 0.9293085108785069,
+        "mean_paint_entropy": 1.8555042358005749,
+        "paint_only_argmax_color_accuracy": 0.0
+      },
+      "changed_cell_count": 68,
+      "query_pair_index": 2,
+      "task_id": "4b6b68e5",
+      "unchanged": {
+        "copy_only_argmax_color_accuracy": 0.9743589743589743,
+        "final_mixed_argmax_color_accuracy": 0.9743589743589743,
+        "mean_copy_entropy": 0.5142582294005805,
+        "mean_copy_gate": 0.9624286874746665,
+        "mean_paint_entropy": 1.608729064464569,
+        "paint_only_argmax_color_accuracy": 0.3717948717948718
+      },
+      "unchanged_cell_count": 156
+    },
+    {
+      "changed": {
+        "copy_only_argmax_color_accuracy": 0.0,
+        "final_mixed_argmax_color_accuracy": 0.023255813953488372,
+        "mean_copy_entropy": 1.021371464396632,
+        "mean_copy_gate": 0.7623735430628754,
+        "mean_paint_entropy": 1.2602708921876065,
+        "paint_only_argmax_color_accuracy": 0.627906976744186
+      },
+      "changed_cell_count": 43,
+      "query_pair_index": 0,
+      "task_id": "84db8fc4",
+      "unchanged": {
+        "copy_only_argmax_color_accuracy": 0.9824561403508771,
+        "final_mixed_argmax_color_accuracy": 0.9473684210526315,
+        "mean_copy_entropy": 0.6002771587748277,
+        "mean_copy_gate": 0.7405624483761034,
+        "mean_paint_entropy": 1.1408868954892744,
+        "paint_only_argmax_color_accuracy": 0.0
+      },
+      "unchanged_cell_count": 57
+    },
+    {
+      "changed": {
+        "copy_only_argmax_color_accuracy": 0.0,
+        "final_mixed_argmax_color_accuracy": 0.02702702702702703,
+        "mean_copy_entropy": 0.9658483556798987,
+        "mean_copy_gate": 0.7632909610464766,
+        "mean_paint_entropy": 1.053092043142061,
+        "paint_only_argmax_color_accuracy": 0.5405405405405406
+      },
+      "changed_cell_count": 37,
+      "query_pair_index": 1,
+      "task_id": "84db8fc4",
+      "unchanged": {
+        "copy_only_argmax_color_accuracy": 1.0,
+        "final_mixed_argmax_color_accuracy": 0.9682539682539683,
+        "mean_copy_entropy": 0.5761971771717072,
+        "mean_copy_gate": 0.7799488599338229,
+        "mean_paint_entropy": 1.098995099938105,
+        "paint_only_argmax_color_accuracy": 0.0
+      },
+      "unchanged_cell_count": 63
+    },
+    {
+      "changed": {
+        "copy_only_argmax_color_accuracy": 0.0,
+        "final_mixed_argmax_color_accuracy": 0.0,
+        "mean_copy_entropy": 0.9876992365588313,
+        "mean_copy_gate": 0.7305932446666386,
+        "mean_paint_entropy": 1.2308334410190582,
+        "paint_only_argmax_color_accuracy": 0.4782608695652174
+      },
+      "changed_cell_count": 46,
+      "query_pair_index": 2,
+      "task_id": "84db8fc4",
+      "unchanged": {
+        "copy_only_argmax_color_accuracy": 0.9814814814814815,
+        "final_mixed_argmax_color_accuracy": 0.9259259259259259,
+        "mean_copy_entropy": 0.6192811926205953,
+        "mean_copy_gate": 0.7150669793287913,
+        "mean_paint_entropy": 1.2477130095163982,
+        "paint_only_argmax_color_accuracy": 0.05555555555555555
+      },
+      "unchanged_cell_count": 54
+    },
+    {
+      "changed": {
+        "copy_only_argmax_color_accuracy": 0.0,
+        "final_mixed_argmax_color_accuracy": 0.05128205128205128,
+        "mean_copy_entropy": 0.9883102591221149,
+        "mean_copy_gate": 0.717341157870415,
+        "mean_paint_entropy": 1.3359542076404278,
+        "paint_only_argmax_color_accuracy": 0.5641025641025641
+      },
+      "changed_cell_count": 39,
+      "query_pair_index": 3,
+      "task_id": "84db8fc4",
+      "unchanged": {
+        "copy_only_argmax_color_accuracy": 0.9672131147540983,
+        "final_mixed_argmax_color_accuracy": 0.9672131147540983,
+        "mean_copy_entropy": 0.5939881904203383,
+        "mean_copy_gate": 0.7442672237998149,
+        "mean_paint_entropy": 1.3802181570256342,
+        "paint_only_argmax_color_accuracy": 0.04918032786885246
+      },
+      "unchanged_cell_count": 61
+    },
+    {
+      "changed": {
+        "copy_only_argmax_color_accuracy": 0.0,
+        "final_mixed_argmax_color_accuracy": 0.0,
+        "mean_copy_entropy": 0.19575470685958862,
+        "mean_copy_gate": 0.7357271760702133,
+        "mean_paint_entropy": 0.882892832159996,
+        "paint_only_argmax_color_accuracy": 0.5
+      },
+      "changed_cell_count": 4,
+      "query_pair_index": 0,
+      "task_id": "d47aa2ff",
+      "unchanged": {
+        "copy_only_argmax_color_accuracy": 0.9375,
+        "final_mixed_argmax_color_accuracy": 0.9375,
+        "mean_copy_entropy": 0.13003805487339073,
+        "mean_copy_gate": 0.827530120809873,
+        "mean_paint_entropy": 0.9285929581771294,
+        "paint_only_argmax_color_accuracy": 0.0625
+      },
+      "unchanged_cell_count": 96
+    },
+    {
+      "changed": {
+        "copy_only_argmax_color_accuracy": 0.0,
+        "final_mixed_argmax_color_accuracy": 0.0,
+        "mean_copy_entropy": 0.40874724835157394,
+        "mean_copy_gate": 0.8876597881317139,
+        "mean_paint_entropy": 0.9257296323776245,
+        "paint_only_argmax_color_accuracy": 0.5
+      },
+      "changed_cell_count": 2,
+      "query_pair_index": 1,
+      "task_id": "d47aa2ff",
+      "unchanged": {
+        "copy_only_argmax_color_accuracy": 0.9489795918367347,
+        "final_mixed_argmax_color_accuracy": 0.9489795918367347,
+        "mean_copy_entropy": 0.16952194801854845,
+        "mean_copy_gate": 0.9144528599417939,
+        "mean_paint_entropy": 0.9489695648757779,
+        "paint_only_argmax_color_accuracy": 0.11224489795918367
+      },
+      "unchanged_cell_count": 98
+    },
+    {
+      "changed": {
+        "copy_only_argmax_color_accuracy": 0.0,
+        "final_mixed_argmax_color_accuracy": 0.0,
+        "mean_copy_entropy": 0.40503980964422226,
+        "mean_copy_gate": 0.8746628016233444,
+        "mean_paint_entropy": 1.0334606915712357,
+        "paint_only_argmax_color_accuracy": 0.5
+      },
+      "changed_cell_count": 4,
+      "query_pair_index": 2,
+      "task_id": "d47aa2ff",
+      "unchanged": {
+        "copy_only_argmax_color_accuracy": 0.9375,
+        "final_mixed_argmax_color_accuracy": 0.9375,
+        "mean_copy_entropy": 0.14819519452673072,
+        "mean_copy_gate": 0.8968560695648193,
+        "mean_paint_entropy": 1.0901324016352494,
+        "paint_only_argmax_color_accuracy": 0.1875
+      },
+      "unchanged_cell_count": 96
+    },
+    {
+      "changed": {
+        "copy_only_argmax_color_accuracy": 0.0,
+        "final_mixed_argmax_color_accuracy": 0.0,
+        "mean_copy_entropy": 0.46395611638824147,
+        "mean_copy_gate": 0.8404516379038492,
+        "mean_paint_entropy": 1.0466705709695816,
+        "paint_only_argmax_color_accuracy": 0.0
+      },
+      "changed_cell_count": 6,
+      "query_pair_index": 0,
+      "task_id": "c074846d",
+      "unchanged": {
+        "copy_only_argmax_color_accuracy": 1.0,
+        "final_mixed_argmax_color_accuracy": 1.0,
+        "mean_copy_entropy": 0.15049677476054057,
+        "mean_copy_gate": 0.8224810179736879,
+        "mean_paint_entropy": 0.8515548337664869,
+        "paint_only_argmax_color_accuracy": 0.9444444444444444
+      },
+      "unchanged_cell_count": 36
+    },
+    {
+      "changed": {
+        "copy_only_argmax_color_accuracy": 0.0,
+        "final_mixed_argmax_color_accuracy": 0.0,
+        "mean_copy_entropy": 0.46993621438741684,
+        "mean_copy_gate": 0.5326851457357407,
+        "mean_paint_entropy": 0.2457542046904564,
+        "paint_only_argmax_color_accuracy": 0.0
+      },
+      "changed_cell_count": 2,
+      "query_pair_index": 1,
+      "task_id": "c074846d",
+      "unchanged": {
+        "copy_only_argmax_color_accuracy": 1.0,
+        "final_mixed_argmax_color_accuracy": 0.8571428571428571,
+        "mean_copy_entropy": 0.1598697554187051,
+        "mean_copy_gate": 0.29944427204983576,
+        "mean_paint_entropy": 0.232638775237969,
+        "paint_only_argmax_color_accuracy": 0.8571428571428571
+      },
+      "unchanged_cell_count": 7
+    },
+    {
+      "changed": {
+        "copy_only_argmax_color_accuracy": 0.0,
+        "final_mixed_argmax_color_accuracy": 0.0,
+        "mean_copy_entropy": 0.3472302909940481,
+        "mean_copy_gate": 0.6920976787805557,
+        "mean_paint_entropy": 0.6416240260004997,
+        "paint_only_argmax_color_accuracy": 0.0
+      },
+      "changed_cell_count": 4,
+      "query_pair_index": 2,
+      "task_id": "c074846d",
+      "unchanged": {
+        "copy_only_argmax_color_accuracy": 0.9777777777777777,
+        "final_mixed_argmax_color_accuracy": 0.9777777777777777,
+        "mean_copy_entropy": 0.06706150541366596,
+        "mean_copy_gate": 0.6587887512312995,
+        "mean_paint_entropy": 0.7369322299957275,
+        "paint_only_argmax_color_accuracy": 0.9777777777777777
+      },
+      "unchanged_cell_count": 45
+    },
+    {
+      "changed": {
+        "copy_only_argmax_color_accuracy": 0.0,
+        "final_mixed_argmax_color_accuracy": 0.0,
+        "mean_copy_entropy": 0.49524669721722603,
+        "mean_copy_gate": 0.758814662694931,
+        "mean_paint_entropy": 1.1096033453941345,
+        "paint_only_argmax_color_accuracy": 0.5
+      },
+      "changed_cell_count": 2,
+      "query_pair_index": 3,
+      "task_id": "c074846d",
+      "unchanged": {
+        "copy_only_argmax_color_accuracy": 1.0,
+        "final_mixed_argmax_color_accuracy": 1.0,
+        "mean_copy_entropy": 0.06899935199799849,
+        "mean_copy_gate": 0.7954087092521342,
+        "mean_paint_entropy": 0.7711482815285946,
+        "paint_only_argmax_color_accuracy": 0.9787234042553191
+      },
+      "unchanged_cell_count": 47
+    },
+    {
+      "changed": {
+        "copy_only_argmax_color_accuracy": 0.0,
+        "final_mixed_argmax_color_accuracy": 0.0,
+        "mean_copy_entropy": 0.42285607662051916,
+        "mean_copy_gate": 0.692779928445816,
+        "mean_paint_entropy": 0.7850834876298904,
+        "paint_only_argmax_color_accuracy": 0.0
+      },
+      "changed_cell_count": 4,
+      "query_pair_index": 4,
+      "task_id": "c074846d",
+      "unchanged": {
+        "copy_only_argmax_color_accuracy": 1.0,
+        "final_mixed_argmax_color_accuracy": 0.967741935483871,
+        "mean_copy_entropy": 0.11384913175096435,
+        "mean_copy_gate": 0.7333185134395477,
+        "mean_paint_entropy": 0.6363634717079901,
+        "paint_only_argmax_color_accuracy": 0.967741935483871
+      },
+      "unchanged_cell_count": 31
+    },
+    {
+      "changed": {
+        "copy_only_argmax_color_accuracy": 0.01818181818181818,
+        "final_mixed_argmax_color_accuracy": 0.01818181818181818,
+        "mean_copy_entropy": 0.6406740389086983,
+        "mean_copy_gate": 0.9598713397979737,
+        "mean_paint_entropy": 1.6058899120850996,
+        "paint_only_argmax_color_accuracy": 0.18181818181818182
+      },
+      "changed_cell_count": 55,
+      "query_pair_index": 0,
+      "task_id": "782b5218",
+      "unchanged": {
+        "copy_only_argmax_color_accuracy": 1.0,
+        "final_mixed_argmax_color_accuracy": 1.0,
+        "mean_copy_entropy": 0.5576559828387366,
+        "mean_copy_gate": 0.9670973618825277,
+        "mean_paint_entropy": 1.6391688519053988,
+        "paint_only_argmax_color_accuracy": 0.08888888888888889
+      },
+      "unchanged_cell_count": 45
+    },
+    {
+      "changed": {
+        "copy_only_argmax_color_accuracy": 0.075,
+        "final_mixed_argmax_color_accuracy": 0.075,
+        "mean_copy_entropy": 0.8250254146754742,
+        "mean_copy_gate": 0.9286111056804657,
+        "mean_paint_entropy": 1.1675311490893363,
+        "paint_only_argmax_color_accuracy": 0.125
+      },
+      "changed_cell_count": 40,
+      "query_pair_index": 1,
+      "task_id": "782b5218",
+      "unchanged": {
+        "copy_only_argmax_color_accuracy": 0.9333333333333333,
+        "final_mixed_argmax_color_accuracy": 0.9333333333333333,
+        "mean_copy_entropy": 0.69901872848471,
+        "mean_copy_gate": 0.9275949666897456,
+        "mean_paint_entropy": 1.1677591343720755,
+        "paint_only_argmax_color_accuracy": 0.05
+      },
+      "unchanged_cell_count": 60
+    },
+    {
+      "changed": {
+        "copy_only_argmax_color_accuracy": 0.05405405405405406,
+        "final_mixed_argmax_color_accuracy": 0.05405405405405406,
+        "mean_copy_entropy": 0.7180841114069965,
+        "mean_copy_gate": 0.9655753970146179,
+        "mean_paint_entropy": 1.5022661782599784,
+        "paint_only_argmax_color_accuracy": 0.08108108108108109
+      },
+      "changed_cell_count": 37,
+      "query_pair_index": 2,
+      "task_id": "782b5218",
+      "unchanged": {
+        "copy_only_argmax_color_accuracy": 0.9523809523809523,
+        "final_mixed_argmax_color_accuracy": 0.9523809523809523,
+        "mean_copy_entropy": 0.6978533200564838,
+        "mean_copy_gate": 0.9620820321733989,
+        "mean_paint_entropy": 1.421697870133415,
+        "paint_only_argmax_color_accuracy": 0.15873015873015872
+      },
+      "unchanged_cell_count": 63
+    },
+    {
+      "changed": {
+        "copy_only_argmax_color_accuracy": 0.0,
+        "final_mixed_argmax_color_accuracy": 0.0,
+        "mean_copy_entropy": 0.800782303015391,
+        "mean_copy_gate": 0.9917855660120646,
+        "mean_paint_entropy": 1.9758013884226482,
+        "paint_only_argmax_color_accuracy": 0.0
+      },
+      "changed_cell_count": 3,
+      "query_pair_index": 0,
+      "task_id": "2f767503",
+      "unchanged": {
+        "copy_only_argmax_color_accuracy": 0.979381443298969,
+        "final_mixed_argmax_color_accuracy": 0.979381443298969,
+        "mean_copy_entropy": 0.4326927522101353,
+        "mean_copy_gate": 0.9943824680810122,
+        "mean_paint_entropy": 1.8442023771325338,
+        "paint_only_argmax_color_accuracy": 0.0
+      },
+      "unchanged_cell_count": 97
+    },
+    {
+      "changed": {
+        "copy_only_argmax_color_accuracy": 0.14285714285714285,
+        "final_mixed_argmax_color_accuracy": 0.14285714285714285,
+        "mean_copy_entropy": 0.7568773456982204,
+        "mean_copy_gate": 0.992754944733211,
+        "mean_paint_entropy": 1.8132760524749756,
+        "paint_only_argmax_color_accuracy": 0.0
+      },
+      "changed_cell_count": 7,
+      "query_pair_index": 1,
+      "task_id": "2f767503",
+      "unchanged": {
+        "copy_only_argmax_color_accuracy": 0.9006211180124224,
+        "final_mixed_argmax_color_accuracy": 0.9006211180124224,
+        "mean_copy_entropy": 0.4274272827535683,
+        "mean_copy_gate": 0.9928986215443345,
+        "mean_paint_entropy": 1.848084389052776,
+        "paint_only_argmax_color_accuracy": 0.0
+      },
+      "unchanged_cell_count": 161
+    },
+    {
+      "changed": {
+        "copy_only_argmax_color_accuracy": 0.0,
+        "final_mixed_argmax_color_accuracy": 0.0,
+        "mean_copy_entropy": 0.6481892704963684,
+        "mean_copy_gate": 0.9916819274425507,
+        "mean_paint_entropy": 1.9169593930244446,
+        "paint_only_argmax_color_accuracy": 0.0
+      },
+      "changed_cell_count": 10,
+      "query_pair_index": 2,
+      "task_id": "2f767503",
+      "unchanged": {
+        "copy_only_argmax_color_accuracy": 0.9666666666666667,
+        "final_mixed_argmax_color_accuracy": 0.9666666666666667,
+        "mean_copy_entropy": 0.34305916757633287,
+        "mean_copy_gate": 0.9920605748891831,
+        "mean_paint_entropy": 1.9097665280103684,
+        "paint_only_argmax_color_accuracy": 0.0
+      },
+      "unchanged_cell_count": 120
+    },
+    {
+      "changed": {
+        "copy_only_argmax_color_accuracy": 0.2807017543859649,
+        "final_mixed_argmax_color_accuracy": 0.2982456140350877,
+        "mean_copy_entropy": 1.446031641541866,
+        "mean_copy_gate": 0.9650432875281886,
+        "mean_paint_entropy": 1.6894469344825076,
+        "paint_only_argmax_color_accuracy": 0.017543859649122806
+      },
+      "changed_cell_count": 57,
+      "query_pair_index": 0,
+      "task_id": "5a719d11",
+      "unchanged": {
+        "copy_only_argmax_color_accuracy": 0.6820652173913043,
+        "final_mixed_argmax_color_accuracy": 0.6847826086956522,
+        "mean_copy_entropy": 1.3197110772294842,
+        "mean_copy_gate": 0.9658337113973887,
+        "mean_paint_entropy": 1.7055324785735295,
+        "paint_only_argmax_color_accuracy": 0.051630434782608696
+      },
+      "unchanged_cell_count": 368
+    },
+    {
+      "changed": {
+        "copy_only_argmax_color_accuracy": 0.15254237288135594,
+        "final_mixed_argmax_color_accuracy": 0.1694915254237288,
+        "mean_copy_entropy": 1.2835096292576547,
+        "mean_copy_gate": 0.959894943035255,
+        "mean_paint_entropy": 1.9070136122784371,
+        "paint_only_argmax_color_accuracy": 0.2542372881355932
+      },
+      "changed_cell_count": 59,
+      "query_pair_index": 1,
+      "task_id": "5a719d11",
+      "unchanged": {
+        "copy_only_argmax_color_accuracy": 0.7377049180327869,
+        "final_mixed_argmax_color_accuracy": 0.7377049180327869,
+        "mean_copy_entropy": 1.0963668982839323,
+        "mean_copy_gate": 0.9617730569644053,
+        "mean_paint_entropy": 1.9067810822705753,
+        "paint_only_argmax_color_accuracy": 0.14207650273224043
+      },
+      "unchanged_cell_count": 366
+    },
+    {
+      "changed": {
+        "copy_only_argmax_color_accuracy": 0.04285714285714286,
+        "final_mixed_argmax_color_accuracy": 0.05714285714285714,
+        "mean_copy_entropy": 1.3348165835653032,
+        "mean_copy_gate": 0.9595899224281311,
+        "mean_paint_entropy": 1.7901305385998316,
+        "paint_only_argmax_color_accuracy": 0.38571428571428573
+      },
+      "changed_cell_count": 70,
+      "query_pair_index": 2,
+      "task_id": "5a719d11",
+      "unchanged": {
+        "copy_only_argmax_color_accuracy": 0.8940677966101694,
+        "final_mixed_argmax_color_accuracy": 0.885593220338983,
+        "mean_copy_entropy": 1.2943199196104276,
+        "mean_copy_gate": 0.9637982731653472,
+        "mean_paint_entropy": 1.7994173477261752,
+        "paint_only_argmax_color_accuracy": 0.25
+      },
+      "unchanged_cell_count": 236
+    },
+    {
+      "changed": {
+        "copy_only_argmax_color_accuracy": 0.0,
+        "final_mixed_argmax_color_accuracy": 0.0,
+        "mean_copy_entropy": 0.2802868683636188,
+        "mean_copy_gate": 0.9676814067363739,
+        "mean_paint_entropy": 1.7811740136146545,
+        "paint_only_argmax_color_accuracy": 0.0
+      },
+      "changed_cell_count": 50,
+      "query_pair_index": 0,
+      "task_id": "7df24a62",
+      "unchanged": {
+        "copy_only_argmax_color_accuracy": 0.8851774530271399,
+        "final_mixed_argmax_color_accuracy": 0.8851774530271399,
+        "mean_copy_entropy": 0.2691574642018635,
+        "mean_copy_gate": 0.9668193662340805,
+        "mean_paint_entropy": 1.7657527950959813,
+        "paint_only_argmax_color_accuracy": 0.40292275574112735
+      },
+      "unchanged_cell_count": 479
+    },
+    {
+      "changed": {
+        "copy_only_argmax_color_accuracy": 0.0,
+        "final_mixed_argmax_color_accuracy": 0.0,
+        "mean_copy_entropy": 0.24231528810092381,
+        "mean_copy_gate": 0.9653090792042869,
+        "mean_paint_entropy": 1.6238823703357153,
+        "paint_only_argmax_color_accuracy": 0.0
+      },
+      "changed_cell_count": 14,
+      "query_pair_index": 1,
+      "task_id": "7df24a62",
+      "unchanged": {
+        "copy_only_argmax_color_accuracy": 0.9281553398058252,
+        "final_mixed_argmax_color_accuracy": 0.9281553398058252,
+        "mean_copy_entropy": 0.2925500595092195,
+        "mean_copy_gate": 0.9540340030077592,
+        "mean_paint_entropy": 1.8294689603222227,
+        "paint_only_argmax_color_accuracy": 0.32427184466019415
+      },
+      "unchanged_cell_count": 515
+    },
+    {
+      "changed": {
+        "copy_only_argmax_color_accuracy": 0.0,
+        "final_mixed_argmax_color_accuracy": 0.0,
+        "mean_copy_entropy": 0.23027027321272883,
+        "mean_copy_gate": 0.9503766997107144,
+        "mean_paint_entropy": 1.8852680469381398,
+        "paint_only_argmax_color_accuracy": 0.034482758620689655
+      },
+      "changed_cell_count": 29,
+      "query_pair_index": 2,
+      "task_id": "7df24a62",
+      "unchanged": {
+        "copy_only_argmax_color_accuracy": 0.92,
+        "final_mixed_argmax_color_accuracy": 0.918,
+        "mean_copy_entropy": 0.3268697149157524,
+        "mean_copy_gate": 0.953089368224144,
+        "mean_paint_entropy": 1.8175986566543578,
+        "paint_only_argmax_color_accuracy": 0.446
+      },
+      "unchanged_cell_count": 500
+    },
+    {
+      "changed": {
+        "copy_only_argmax_color_accuracy": 0.0,
+        "final_mixed_argmax_color_accuracy": 0.0,
+        "mean_copy_entropy": 0.17337087270888416,
+        "mean_copy_gate": 0.9693663038990714,
+        "mean_paint_entropy": 1.7769525863907554,
+        "paint_only_argmax_color_accuracy": 0.0
+      },
+      "changed_cell_count": 22,
+      "query_pair_index": 3,
+      "task_id": "7df24a62",
+      "unchanged": {
+        "copy_only_argmax_color_accuracy": 0.9684418145956607,
+        "final_mixed_argmax_color_accuracy": 0.9684418145956607,
+        "mean_copy_entropy": 0.261047983853444,
+        "mean_copy_gate": 0.9665094042670798,
+        "mean_paint_entropy": 1.8638299785892405,
+        "paint_only_argmax_color_accuracy": 0.35700197238658776
+      },
+      "unchanged_cell_count": 507
+    },
+    {
+      "changed": {
+        "copy_only_argmax_color_accuracy": 0.6,
+        "final_mixed_argmax_color_accuracy": 0.6133333333333333,
+        "mean_copy_entropy": 0.9372796789805095,
+        "mean_copy_gate": 0.8202828884124755,
+        "mean_paint_entropy": 0.4485764427979787,
+        "paint_only_argmax_color_accuracy": 0.64
+      },
+      "changed_cell_count": 75,
+      "query_pair_index": 0,
+      "task_id": "ac0a08a4",
+      "unchanged": {
+        "copy_only_argmax_color_accuracy": 1.0,
+        "final_mixed_argmax_color_accuracy": 1.0,
+        "mean_copy_entropy": 0.7204638719558716,
+        "mean_copy_gate": 0.8651833732922872,
+        "mean_paint_entropy": 0.5482360372940699,
+        "paint_only_argmax_color_accuracy": 1.0
+      },
+      "unchanged_cell_count": 6
+    },
+    {
+      "changed": {
+        "copy_only_argmax_color_accuracy": 0.6451612903225806,
+        "final_mixed_argmax_color_accuracy": 0.7419354838709677,
+        "mean_copy_entropy": 0.6826667929849317,
+        "mean_copy_gate": 0.81261186445913,
+        "mean_paint_entropy": 0.416106419217202,
+        "paint_only_argmax_color_accuracy": 0.7741935483870968
+      },
+      "changed_cell_count": 31,
+      "query_pair_index": 1,
+      "task_id": "ac0a08a4",
+      "unchanged": {
+        "copy_only_argmax_color_accuracy": 1.0,
+        "final_mixed_argmax_color_accuracy": 1.0,
+        "mean_copy_entropy": 0.6125030755996704,
+        "mean_copy_gate": 0.8323764085769654,
+        "mean_paint_entropy": 0.4748683154582977,
+        "paint_only_argmax_color_accuracy": 0.8
+      },
+      "unchanged_cell_count": 5
+    },
+    {
+      "changed": {
+        "copy_only_argmax_color_accuracy": 0.35294117647058826,
+        "final_mixed_argmax_color_accuracy": 0.3891402714932127,
+        "mean_copy_entropy": 1.2903087319831503,
+        "mean_copy_gate": 0.7054977434522965,
+        "mean_paint_entropy": 0.21063969881016745,
+        "paint_only_argmax_color_accuracy": 0.4343891402714932
+      },
+      "changed_cell_count": 221,
+      "query_pair_index": 2,
+      "task_id": "ac0a08a4",
+      "unchanged": {
+        "copy_only_argmax_color_accuracy": 1.0,
+        "final_mixed_argmax_color_accuracy": 1.0,
+        "mean_copy_entropy": 0.6610077396035194,
+        "mean_copy_gate": 0.7396519929170609,
+        "mean_paint_entropy": 0.2571159303188324,
+        "paint_only_argmax_color_accuracy": 1.0
+      },
+      "unchanged_cell_count": 4
+    },
+    {
+      "changed": {
+        "copy_only_argmax_color_accuracy": 0.0,
+        "final_mixed_argmax_color_accuracy": 0.18181818181818182,
+        "mean_copy_entropy": 0.4747904159805991,
+        "mean_copy_gate": 0.6073730398308147,
+        "mean_paint_entropy": 0.6742372458631342,
+        "paint_only_argmax_color_accuracy": 1.0
+      },
+      "changed_cell_count": 11,
+      "query_pair_index": 0,
+      "task_id": "b1948b0a",
+      "unchanged": {
+        "copy_only_argmax_color_accuracy": 1.0,
+        "final_mixed_argmax_color_accuracy": 0.6153846153846154,
+        "mean_copy_entropy": 0.4854421392083168,
+        "mean_copy_gate": 0.5740701349881979,
+        "mean_paint_entropy": 0.7979970161731427,
+        "paint_only_argmax_color_accuracy": 0.0
+      },
+      "unchanged_cell_count": 13
+    },
+    {
+      "changed": {
+        "copy_only_argmax_color_accuracy": 0.0,
+        "final_mixed_argmax_color_accuracy": 0.0,
+        "mean_copy_entropy": 0.409345140059789,
+        "mean_copy_gate": 0.7688640058040619,
+        "mean_paint_entropy": 1.0506374736626942,
+        "paint_only_argmax_color_accuracy": 1.0
+      },
+      "changed_cell_count": 6,
+      "query_pair_index": 1,
+      "task_id": "b1948b0a",
+      "unchanged": {
+        "copy_only_argmax_color_accuracy": 1.0,
+        "final_mixed_argmax_color_accuracy": 1.0,
+        "mean_copy_entropy": 0.3963642716407776,
+        "mean_copy_gate": 0.7672538657983144,
+        "mean_paint_entropy": 1.0844452281792958,
+        "paint_only_argmax_color_accuracy": 0.0
+      },
+      "unchanged_cell_count": 6
+    },
+    {
+      "changed": {
+        "copy_only_argmax_color_accuracy": 0.0,
+        "final_mixed_argmax_color_accuracy": 0.0,
+        "mean_copy_entropy": 0.523653969168663,
+        "mean_copy_gate": 0.6725265756249428,
+        "mean_paint_entropy": 1.6661157608032227,
+        "paint_only_argmax_color_accuracy": 1.0
+      },
+      "changed_cell_count": 8,
+      "query_pair_index": 2,
+      "task_id": "b1948b0a",
+      "unchanged": {
+        "copy_only_argmax_color_accuracy": 1.0,
+        "final_mixed_argmax_color_accuracy": 1.0,
+        "mean_copy_entropy": 0.35928570181131364,
+        "mean_copy_gate": 0.6640777468681336,
+        "mean_paint_entropy": 1.647067129611969,
+        "paint_only_argmax_color_accuracy": 0.0
+      },
+      "unchanged_cell_count": 10
+    },
+    {
+      "changed": {
+        "copy_only_argmax_color_accuracy": 0.0,
+        "final_mixed_argmax_color_accuracy": 0.0,
+        "mean_copy_entropy": 0.47431712845961255,
+        "mean_copy_gate": 0.8383752107620239,
+        "mean_paint_entropy": 2.0383863846460977,
+        "paint_only_argmax_color_accuracy": 0.3333333333333333
+      },
+      "changed_cell_count": 6,
+      "query_pair_index": 0,
+      "task_id": "1e5d6875",
+      "unchanged": {
+        "copy_only_argmax_color_accuracy": 1.0,
+        "final_mixed_argmax_color_accuracy": 1.0,
+        "mean_copy_entropy": 0.3009987700537875,
+        "mean_copy_gate": 0.8805437314099279,
+        "mean_paint_entropy": 2.0565943224676726,
+        "paint_only_argmax_color_accuracy": 0.10344827586206896
+      },
+      "unchanged_cell_count": 58
+    },
+    {
+      "changed": {
+        "copy_only_argmax_color_accuracy": 0.0,
+        "final_mixed_argmax_color_accuracy": 0.0,
+        "mean_copy_entropy": 0.4763394246498744,
+        "mean_copy_gate": 0.9062678962945938,
+        "mean_paint_entropy": 2.0176226099332175,
+        "paint_only_argmax_color_accuracy": 0.0
+      },
+      "changed_cell_count": 12,
+      "query_pair_index": 1,
+      "task_id": "1e5d6875",
+      "unchanged": {
+        "copy_only_argmax_color_accuracy": 1.0,
+        "final_mixed_argmax_color_accuracy": 1.0,
+        "mean_copy_entropy": 0.42799135071870226,
+        "mean_copy_gate": 0.9198564543173864,
+        "mean_paint_entropy": 1.9934519941990192,
+        "paint_only_argmax_color_accuracy": 0.19230769230769232
+      },
+      "unchanged_cell_count": 52
+    }
+  ],
+  "unchanged": {
+    "copy_only_argmax_color_accuracy": 0.9077481799574514,
+    "final_mixed_argmax_color_accuracy": 0.8494441823130408,
+    "mean_copy_entropy": 0.49160948539689325,
+    "mean_copy_gate": 0.8510731326732967,
+    "mean_paint_entropy": 1.306675981882742,
+    "paint_only_argmax_color_accuracy": 0.3013777658333507
+  },
+  "uses_unmodified_model_returned_tensors": [
+    "copy_distribution",
+    "paint_distribution",
+    "copy_gate",
+    "color_probabilities",
+    "copy_entropy",
+    "paint_entropy"
+  ]
+}

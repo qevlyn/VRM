@@ -1,0 +1,706 @@
+{
+  "created_utc": "2026-07-04T13:43:02Z",
+  "documented_canary_task_ids_found": [],
+  "documented_phase2_synthetic_non_arc_task_ids_excluded": [
+    "synthetic_uniform_shape_oracle"
+  ],
+  "documented_sealed_arc_task_ids_found": [],
+  "excluded_task_ids_with_reasons": {
+    "09629e4f": [
+      "documented_top_level_validation_dev_split"
+    ],
+    "09c534e7": [
+      "documented_top_level_validation_dev_split"
+    ],
+    "0a2355a6": [
+      "documented_top_level_validation_dev_split"
+    ],
+    "0b148d64": [
+      "documented_top_level_validation_dev_split"
+    ],
+    "0dfd9992": [
+      "fixed_first_nine_readout_task",
+      "documented_phase1_multirepeat_task"
+    ],
+    "103eff5b": [
+      "documented_top_level_validation_dev_split"
+    ],
+    "12eac192": [
+      "documented_top_level_validation_dev_split"
+    ],
+    "137eaa0f": [
+      "documented_top_level_validation_dev_split"
+    ],
+    "140c817e": [
+      "documented_top_level_validation_dev_split"
+    ],
+    "14754a24": [
+      "documented_top_level_validation_dev_split"
+    ],
+    "15113be4": [
+      "documented_top_level_validation_dev_split"
+    ],
+    "178fcbfb": [
+      "documented_top_level_validation_dev_split"
+    ],
+    "18286ef8": [
+      "documented_top_level_validation_dev_split"
+    ],
+    "1c786137": [
+      "fixed_first_nine_readout_task",
+      "documented_phase1_multirepeat_task",
+      "documented_top_level_validation_dev_split"
+    ],
+    "1caeab9d": [
+      "documented_top_level_validation_dev_split"
+    ],
+    "1d61978c": [
+      "documented_top_level_validation_dev_split"
+    ],
+    "1e5d6875": [
+      "documented_top_level_validation_dev_split"
+    ],
+    "1e81d6f9": [
+      "documented_top_level_validation_dev_split"
+    ],
+    "1efba499": [
+      "documented_top_level_validation_dev_split"
+    ],
+    "1f85a75f": [
+      "documented_top_level_validation_dev_split"
+    ],
+    "1f876c06": [
+      "fixed_first_nine_readout_task",
+      "documented_phase1_multirepeat_task",
+      "documented_r6a_phase2_arc_task"
+    ],
+    "20981f0e": [
+      "documented_top_level_validation_dev_split"
+    ],
+    "22208ba4": [
+      "documented_top_level_validation_dev_split"
+    ],
+    "253bf280": [
+      "documented_top_level_validation_dev_split"
+    ],
+    "256b0a75": [
+      "documented_top_level_validation_dev_split"
+    ],
+    "2685904e": [
+      "documented_top_level_validation_dev_split"
+    ],
+    "2697da3f": [
+      "documented_top_level_validation_dev_split"
+    ],
+    "29700607": [
+      "documented_top_level_validation_dev_split"
+    ],
+    "2dee498d": [
+      "documented_top_level_validation_dev_split"
+    ],
+    "30f42897": [
+      "documented_top_level_validation_dev_split"
+    ],
+    "31adaf00": [
+      "documented_top_level_validation_dev_split"
+    ],
+    "32e9702f": [
+      "documented_top_level_validation_dev_split"
+    ],
+    "3428a4f5": [
+      "documented_top_level_validation_dev_split"
+    ],
+    "3490cc26": [
+      "documented_top_level_validation_dev_split"
+    ],
+    "34b99a2b": [
+      "documented_top_level_validation_dev_split"
+    ],
+    "3618c87e": [
+      "documented_top_level_validation_dev_split"
+    ],
+    "37d3e8b2": [
+      "documented_top_level_validation_dev_split"
+    ],
+    "3906de3d": [
+      "documented_top_level_validation_dev_split"
+    ],
+    "3d588dc9": [
+      "documented_top_level_validation_dev_split"
+    ],
+    "3ed85e70": [
+      "fixed_first_nine_readout_task",
+      "documented_phase1_pilot_selected_task",
+      "documented_phase1_multirepeat_task"
+    ],
+    "412b6263": [
+      "documented_top_level_validation_dev_split"
+    ],
+    "41ace6b5": [
+      "documented_top_level_validation_dev_split"
+    ],
+    "423a55dc": [
+      "documented_top_level_validation_dev_split"
+    ],
+    "42918530": [
+      "documented_top_level_validation_dev_split"
+    ],
+    "447fd412": [
+      "documented_top_level_validation_dev_split"
+    ],
+    "44d8ac46": [
+      "documented_top_level_validation_dev_split"
+    ],
+    "4612dd53": [
+      "documented_top_level_validation_dev_split"
+    ],
+    "465b7d93": [
+      "documented_top_level_validation_dev_split"
+    ],
+    "48131b3c": [
+      "documented_top_level_validation_dev_split"
+    ],
+    "4852f2fa": [
+      "documented_top_level_validation_dev_split"
+    ],
+    "496994bd": [
+      "documented_top_level_validation_dev_split"
+    ],
+    "4a1cacc2": [
+      "documented_top_level_validation_dev_split"
+    ],
+    "4c4377d9": [
+      "documented_top_level_validation_dev_split"
+    ],
+    "4cd1b7b2": [
+      "documented_top_level_validation_dev_split"
+    ],
+    "4ff4c9da": [
+      "documented_top_level_validation_dev_split"
+    ],
+    "506d28a5": [
+      "documented_top_level_validation_dev_split"
+    ],
+    "50846271": [
+      "documented_top_level_validation_dev_split"
+    ],
+    "50f325b5": [
+      "documented_top_level_validation_dev_split"
+    ],
+    "52364a65": [
+      "documented_top_level_validation_dev_split"
+    ],
+    "54d82841": [
+      "documented_top_level_validation_dev_split"
+    ],
+    "5521c0d9": [
+      "documented_top_level_validation_dev_split"
+    ],
+    "5614dbcf": [
+      "documented_top_level_validation_dev_split"
+    ],
+    "56ff96f3": [
+      "documented_top_level_validation_dev_split"
+    ],
+    "5783df64": [
+      "documented_top_level_validation_dev_split"
+    ],
+    "57edb29d": [
+      "documented_top_level_validation_dev_split"
+    ],
+    "5ad4f10b": [
+      "documented_top_level_validation_dev_split"
+    ],
+    "5adee1b2": [
+      "documented_top_level_validation_dev_split"
+    ],
+    "5b37cb25": [
+      "documented_top_level_validation_dev_split"
+    ],
+    "5b526a93": [
+      "documented_top_level_validation_dev_split"
+    ],
+    "5c2c9af4": [
+      "documented_top_level_validation_dev_split"
+    ],
+    "5ecac7f7": [
+      "documented_top_level_validation_dev_split"
+    ],
+    "5ffb2104": [
+      "documented_top_level_validation_dev_split"
+    ],
+    "604001fa": [
+      "fixed_first_nine_readout_task",
+      "documented_phase1_pilot_selected_task",
+      "documented_phase1_multirepeat_task",
+      "documented_r6a_phase2_arc_task"
+    ],
+    "60c09cac": [
+      "documented_top_level_validation_dev_split"
+    ],
+    "6165ea8f": [
+      "documented_top_level_validation_dev_split"
+    ],
+    "623ea044": [
+      "documented_top_level_validation_dev_split"
+    ],
+    "642d658d": [
+      "documented_top_level_validation_dev_split"
+    ],
+    "662c240a": [
+      "documented_top_level_validation_dev_split"
+    ],
+    "66ac4c3b": [
+      "documented_top_level_validation_dev_split"
+    ],
+    "6773b310": [
+      "documented_top_level_validation_dev_split"
+    ],
+    "67a3c6ac": [
+      "documented_top_level_validation_dev_split"
+    ],
+    "67b4a34d": [
+      "documented_phase0_smoke_selected_task"
+    ],
+    "68bc2e87": [
+      "documented_top_level_validation_dev_split"
+    ],
+    "694f12f3": [
+      "documented_top_level_validation_dev_split"
+    ],
+    "6b9890af": [
+      "documented_top_level_validation_dev_split"
+    ],
+    "6d58a25d": [
+      "documented_top_level_validation_dev_split"
+    ],
+    "6e02f1e3": [
+      "documented_top_level_validation_dev_split"
+    ],
+    "6ea4a07e": [
+      "documented_top_level_validation_dev_split"
+    ],
+    "6ffe8f07": [
+      "documented_top_level_validation_dev_split"
+    ],
+    "7039b2d7": [
+      "documented_top_level_validation_dev_split"
+    ],
+    "7447852a": [
+      "documented_top_level_validation_dev_split"
+    ],
+    "75b8110e": [
+      "documented_top_level_validation_dev_split"
+    ],
+    "760b3cac": [
+      "documented_top_level_validation_dev_split"
+    ],
+    "7953d61e": [
+      "documented_top_level_validation_dev_split"
+    ],
+    "79fb03f4": [
+      "fixed_first_nine_readout_task",
+      "documented_phase1_pilot_selected_task",
+      "documented_phase1_multirepeat_task"
+    ],
+    "7b7f7511": [
+      "documented_top_level_validation_dev_split"
+    ],
+    "7d18a6fb": [
+      "documented_top_level_validation_dev_split"
+    ],
+    "7e576d6e": [
+      "documented_top_level_validation_dev_split"
+    ],
+    "7fe24cdd": [
+      "documented_top_level_validation_dev_split"
+    ],
+    "80214e03": [
+      "documented_top_level_validation_dev_split"
+    ],
+    "817e6c09": [
+      "documented_top_level_validation_dev_split"
+    ],
+    "81c0276b": [
+      "documented_top_level_validation_dev_split"
+    ],
+    "82819916": [
+      "documented_top_level_validation_dev_split"
+    ],
+    "83b6b474": [
+      "documented_top_level_validation_dev_split"
+    ],
+    "845d6e51": [
+      "documented_top_level_validation_dev_split"
+    ],
+    "8618d23e": [
+      "documented_top_level_validation_dev_split"
+    ],
+    "8719f442": [
+      "documented_top_level_validation_dev_split"
+    ],
+    "8886d717": [
+      "documented_top_level_validation_dev_split"
+    ],
+    "88a10436": [
+      "documented_top_level_validation_dev_split"
+    ],
+    "8a371977": [
+      "documented_top_level_validation_dev_split"
+    ],
+    "8be77c9e": [
+      "documented_top_level_validation_dev_split"
+    ],
+    "8eb1be9a": [
+      "documented_top_level_validation_dev_split"
+    ],
+    "8fbca751": [
+      "documented_top_level_validation_dev_split"
+    ],
+    "903d1b4a": [
+      "documented_phase0_smoke_selected_task"
+    ],
+    "91413438": [
+      "documented_top_level_validation_dev_split"
+    ],
+    "928ad970": [
+      "documented_top_level_validation_dev_split"
+    ],
+    "929ab4e9": [
+      "fixed_first_nine_readout_task",
+      "documented_phase1_pilot_selected_task",
+      "documented_phase1_multirepeat_task"
+    ],
+    "941d9a10": [
+      "documented_top_level_validation_dev_split"
+    ],
+    "952a094c": [
+      "documented_top_level_validation_dev_split"
+    ],
+    "963f59bc": [
+      "documented_top_level_validation_dev_split"
+    ],
+    "97239e3d": [
+      "documented_top_level_validation_dev_split"
+    ],
+    "973e499e": [
+      "documented_top_level_validation_dev_split"
+    ],
+    "97c75046": [
+      "documented_top_level_validation_dev_split"
+    ],
+    "981571dc": [
+      "fixed_first_nine_readout_task",
+      "documented_phase1_pilot_selected_task",
+      "documented_phase1_multirepeat_task"
+    ],
+    "985ae207": [
+      "documented_top_level_validation_dev_split"
+    ],
+    "98cf29f8": [
+      "documented_top_level_validation_dev_split"
+    ],
+    "99306f82": [
+      "documented_top_level_validation_dev_split"
+    ],
+    "995c5fa3": [
+      "documented_top_level_validation_dev_split"
+    ],
+    "9b2a60aa": [
+      "documented_top_level_validation_dev_split"
+    ],
+    "9bebae7a": [
+      "documented_top_level_validation_dev_split"
+    ],
+    "9caf5b84": [
+      "documented_top_level_validation_dev_split"
+    ],
+    "9ddd00f0": [
+      "documented_top_level_validation_dev_split"
+    ],
+    "9dfd6313": [
+      "documented_top_level_validation_dev_split"
+    ],
+    "9f27f097": [
+      "documented_top_level_validation_dev_split"
+    ],
+    "a2d730bd": [
+      "documented_top_level_validation_dev_split"
+    ],
+    "a416b8f3": [
+      "documented_top_level_validation_dev_split"
+    ],
+    "a416fc5b": [
+      "documented_top_level_validation_dev_split"
+    ],
+    "a5f85a15": [
+      "documented_top_level_validation_dev_split"
+    ],
+    "a680ac02": [
+      "documented_top_level_validation_dev_split"
+    ],
+    "a699fb00": [
+      "documented_top_level_validation_dev_split"
+    ],
+    "a78176bb": [
+      "documented_top_level_validation_dev_split"
+    ],
+    "a87f7484": [
+      "documented_top_level_validation_dev_split"
+    ],
+    "aa300dc3": [
+      "documented_top_level_validation_dev_split"
+    ],
+    "aa4ec2a5": [
+      "fixed_first_nine_readout_task",
+      "documented_phase1_pilot_selected_task",
+      "documented_phase1_multirepeat_task"
+    ],
+    "aa62e3f4": [
+      "documented_top_level_validation_dev_split"
+    ],
+    "aba27056": [
+      "documented_top_level_validation_dev_split"
+    ],
+    "ac0c2ac3": [
+      "documented_top_level_validation_dev_split"
+    ],
+    "ac2e8ecf": [
+      "documented_top_level_validation_dev_split"
+    ],
+    "ad173014": [
+      "documented_top_level_validation_dev_split"
+    ],
+    "b190f7f5": [
+      "documented_top_level_validation_dev_split"
+    ],
+    "b1fc8b8e": [
+      "documented_top_level_validation_dev_split"
+    ],
+    "b457fec5": [
+      "documented_top_level_validation_dev_split"
+    ],
+    "b527c5c6": [
+      "documented_top_level_validation_dev_split"
+    ],
+    "b5bb5719": [
+      "documented_top_level_validation_dev_split"
+    ],
+    "b60334d2": [
+      "documented_top_level_validation_dev_split"
+    ],
+    "b6afb2da": [
+      "documented_top_level_validation_dev_split"
+    ],
+    "b7fb29bc": [
+      "documented_top_level_validation_dev_split"
+    ],
+    "b942fd60": [
+      "documented_top_level_validation_dev_split"
+    ],
+    "baf41dbf": [
+      "documented_top_level_validation_dev_split"
+    ],
+    "bb52a14b": [
+      "documented_top_level_validation_dev_split"
+    ],
+    "bc4146bd": [
+      "documented_top_level_validation_dev_split"
+    ],
+    "bc93ec48": [
+      "documented_top_level_validation_dev_split"
+    ],
+    "bdad9b1f": [
+      "documented_top_level_validation_dev_split"
+    ],
+    "be03b35f": [
+      "documented_top_level_validation_dev_split"
+    ],
+    "be94b721": [
+      "documented_top_level_validation_dev_split"
+    ],
+    "c3fa4749": [
+      "documented_top_level_validation_dev_split"
+    ],
+    "c803e39c": [
+      "documented_top_level_validation_dev_split"
+    ],
+    "c8f0f002": [
+      "documented_top_level_validation_dev_split"
+    ],
+    "c920a713": [
+      "documented_top_level_validation_dev_split"
+    ],
+    "ca8de6ea": [
+      "documented_top_level_validation_dev_split"
+    ],
+    "ce039d91": [
+      "documented_top_level_validation_dev_split"
+    ],
+    "ce22a75a": [
+      "documented_top_level_validation_dev_split"
+    ],
+    "ce4f8723": [
+      "documented_top_level_validation_dev_split"
+    ],
+    "ce8d95cc": [
+      "documented_top_level_validation_dev_split"
+    ],
+    "cfb2ce5a": [
+      "documented_top_level_validation_dev_split"
+    ],
+    "d06dbe63": [
+      "documented_top_level_validation_dev_split"
+    ],
+    "d255d7a7": [
+      "documented_top_level_validation_dev_split"
+    ],
+    "d43fd935": [
+      "documented_top_level_validation_dev_split"
+    ],
+    "d4469b4b": [
+      "documented_top_level_validation_dev_split"
+    ],
+    "d4f3cd78": [
+      "documented_top_level_validation_dev_split"
+    ],
+    "d6542281": [
+      "documented_top_level_validation_dev_split"
+    ],
+    "dc2aa30b": [
+      "documented_top_level_validation_dev_split"
+    ],
+    "dc2e9a9d": [
+      "documented_top_level_validation_dev_split"
+    ],
+    "dc46ea44": [
+      "documented_top_level_validation_dev_split"
+    ],
+    "dce56571": [
+      "documented_top_level_validation_dev_split"
+    ],
+    "dd2401ed": [
+      "documented_top_level_validation_dev_split"
+    ],
+    "e1baa8a4": [
+      "documented_top_level_validation_dev_split"
+    ],
+    "e21d9049": [
+      "documented_top_level_validation_dev_split"
+    ],
+    "e3f79277": [
+      "documented_top_level_validation_dev_split"
+    ],
+    "e50d258f": [
+      "documented_top_level_validation_dev_split"
+    ],
+    "e633a9e5": [
+      "documented_top_level_validation_dev_split"
+    ],
+    "e66aafb8": [
+      "documented_phase0_smoke_selected_task"
+    ],
+    "e7a25a18": [
+      "documented_top_level_validation_dev_split"
+    ],
+    "e8593010": [
+      "documented_top_level_validation_dev_split"
+    ],
+    "e88171ec": [
+      "documented_top_level_validation_dev_split"
+    ],
+    "e99362f0": [
+      "documented_top_level_validation_dev_split"
+    ],
+    "e9ac8c9e": [
+      "documented_top_level_validation_dev_split"
+    ],
+    "e9afcf9a": [
+      "documented_top_level_validation_dev_split"
+    ],
+    "e9bb6954": [
+      "documented_top_level_validation_dev_split"
+    ],
+    "ea32f347": [
+      "documented_top_level_validation_dev_split"
+    ],
+    "ef135b50": [
+      "documented_top_level_validation_dev_split"
+    ],
+    "ef26cbf6": [
+      "documented_top_level_validation_dev_split"
+    ],
+    "f0df5ff0": [
+      "documented_top_level_validation_dev_split"
+    ],
+    "f15e1fac": [
+      "documented_top_level_validation_dev_split"
+    ],
+    "f25ffba3": [
+      "documented_top_level_validation_dev_split"
+    ],
+    "f5b8619d": [
+      "documented_top_level_validation_dev_split"
+    ],
+    "f83cb3f6": [
+      "documented_top_level_validation_dev_split"
+    ],
+    "fb791726": [
+      "documented_top_level_validation_dev_split"
+    ],
+    "fc754716": [
+      "documented_top_level_validation_dev_split"
+    ],
+    "fcc82909": [
+      "documented_top_level_validation_dev_split"
+    ],
+    "feca6190": [
+      "documented_top_level_validation_dev_split"
+    ]
+  },
+  "experiment": "R6A_EXACT_SOLVE_10_READOUT",
+  "first_eligible_candidate_trace": [
+    "00576224",
+    "007bbfb7",
+    "009d5c81",
+    "00d62c1b",
+    "00dbd492",
+    "017c7c7b",
+    "025d127b",
+    "03560426",
+    "045e512c",
+    "0520fde7",
+    "05269061",
+    "05a7bcf2",
+    "05f2a901",
+    "0607ce86",
+    "0692e18c",
+    "06df4c85",
+    "070dd51e",
+    "08573cc6",
+    "08ed6ac7",
+    "0934a4d8"
+  ],
+  "fixed_first_nine_task_ids": [
+    "3ed85e70",
+    "929ab4e9",
+    "981571dc",
+    "604001fa",
+    "79fb03f4",
+    "aa4ec2a5",
+    "0dfd9992",
+    "1f876c06",
+    "1c786137"
+  ],
+  "known_answer_dataset_root": "D:\\VRM\\third_party\\compressarc_reference\\dataset",
+  "known_answer_task_count": 800,
+  "notes": "Historical mentions of the selected ID were treated only as reservation checks; the selection is the first lexicographic eligible task and is not chosen from FULL-condition outcomes.",
+  "outcome_based_selection": false,
+  "selected_tenth_task_id": "00576224",
+  "selected_tenth_task_source_challenges": "D:\\VRM\\third_party\\compressarc_reference\\dataset\\arc-agi_evaluation_challenges.json",
+  "selected_tenth_task_source_solutions": "D:\\VRM\\third_party\\compressarc_reference\\dataset\\arc-agi_evaluation_solutions.json",
+  "selected_tenth_task_split": "ARC_AGI_1_EVALUATION_SPLIT",
+  "selection_rule": "Search known-answer ARC-AGI training+evaluation tasks in the local CompressARC reference dataset, exclude fixed nine plus documented dev/validation/reserved/Phase2 tasks, sort lexicographically, select first eligible.",
+  "selection_written_before_task_ten_decode_or_run": true,
+  "top_level_validation_dev_split_count": 200
+}

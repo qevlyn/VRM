@@ -1,0 +1,110 @@
+{
+  "P1_QUERY_ONLY": {
+    "expected_result": "chance",
+    "input_view": "query + candidates",
+    "parameter_count": 1,
+    "pass": true,
+    "probe": "P1_QUERY_ONLY",
+    "sealed_accuracies": [
+      0.5,
+      0.5,
+      0.5
+    ],
+    "sealed_binomial_ci95": [
+      0.487352302703989,
+      0.512647697296011
+    ],
+    "sealed_mean_accuracy": 0.5,
+    "sealed_std_accuracy": 0.0
+  },
+  "P2_SUPPORT_INPUT_BAG_ONLY": {
+    "expected_result": "chance",
+    "input_view": "query + candidates + canonical support input bag",
+    "parameter_count": 1,
+    "pass": true,
+    "probe": "P2_SUPPORT_INPUT_BAG_ONLY",
+    "sealed_accuracies": [
+      0.5,
+      0.5,
+      0.5
+    ],
+    "sealed_binomial_ci95": [
+      0.487352302703989,
+      0.512647697296011
+    ],
+    "sealed_mean_accuracy": 0.5,
+    "sealed_std_accuracy": 0.0
+  },
+  "P3_SUPPORT_OUTPUT_BAG_ONLY": {
+    "expected_result": "chance",
+    "input_view": "query + candidates + canonical support output bag",
+    "parameter_count": 1,
+    "pass": true,
+    "probe": "P3_SUPPORT_OUTPUT_BAG_ONLY",
+    "sealed_accuracies": [
+      0.5,
+      0.5,
+      0.5
+    ],
+    "sealed_binomial_ci95": [
+      0.487352302703989,
+      0.512647697296011
+    ],
+    "sealed_mean_accuracy": 0.5,
+    "sealed_std_accuracy": 0.0
+  },
+  "P4_UNPAIRED_SUPPORT_BAG": {
+    "expected_result": "chance",
+    "input_view": "query + candidates + canonical input/output bags",
+    "parameter_count": 1,
+    "pass": true,
+    "probe": "P4_UNPAIRED_SUPPORT_BAG",
+    "sealed_accuracies": [
+      0.5,
+      0.5,
+      0.5
+    ],
+    "sealed_binomial_ci95": [
+      0.487352302703989,
+      0.512647697296011
+    ],
+    "sealed_mean_accuracy": 0.5,
+    "sealed_std_accuracy": 0.0
+  },
+  "P5_RELATION_AWARE_PAIRED": {
+    "expected_result": "above_chance",
+    "input_view": "query + candidates + coherent support pairs",
+    "parameter_count": 1,
+    "pass": true,
+    "probe": "P5_RELATION_AWARE_PAIRED",
+    "sealed_accuracies": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "sealed_binomial_ci95": [
+      0.9993601430124339,
+      1.0
+    ],
+    "sealed_mean_accuracy": 1.0,
+    "sealed_std_accuracy": 0.0
+  },
+  "P6_RELATION_AWARE_DERANGED": {
+    "expected_result": "deranged_control_le_55",
+    "input_view": "query + candidates + deranged support pairs",
+    "parameter_count": 1,
+    "pass": true,
+    "probe": "P6_RELATION_AWARE_DERANGED",
+    "sealed_accuracies": [
+      0.2554999887943268,
+      0.2370000034570694,
+      0.2619999945163727
+    ],
+    "sealed_binomial_ci95": [
+      0.24068280654729418,
+      0.2626352023755261
+    ],
+    "sealed_mean_accuracy": 0.2514999955892563,
+    "sealed_std_accuracy": 0.010590871776259926
+  }
+}

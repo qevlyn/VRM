@@ -1,0 +1,119 @@
+{
+  "created_utc": "2026-07-04T05:04:13Z",
+  "record_count": 14,
+  "records": [
+    {
+      "constructor_role": "head_weights",
+      "evidence_source": "v8 forward_reachable_state_inventory.csv plus v8 restore_transformed_from_canonical uses transformed_rec['has_real_example_axis']",
+      "leaf_dims": "[]",
+      "physical_shape": "[16",
+      "structural_path": "head_weights/0",
+      "v8_applied_permutation": true
+    },
+    {
+      "constructor_role": "mask_weights",
+      "evidence_source": "v8 forward_reachable_state_inventory.csv plus v8 restore_transformed_from_canonical uses transformed_rec['has_real_example_axis']",
+      "leaf_dims": "[]",
+      "physical_shape": "[16",
+      "structural_path": "mask_weights/0",
+      "v8_applied_permutation": true
+    },
+    {
+      "constructor_role": "head_weights",
+      "evidence_source": "v8 forward_reachable_state_inventory.csv plus v8 restore_transformed_from_canonical uses transformed_rec['has_real_example_axis']",
+      "leaf_dims": "[]",
+      "physical_shape": "[16",
+      "structural_path": "head_weights/0",
+      "v8_applied_permutation": true
+    },
+    {
+      "constructor_role": "mask_weights",
+      "evidence_source": "v8 forward_reachable_state_inventory.csv plus v8 restore_transformed_from_canonical uses transformed_rec['has_real_example_axis']",
+      "leaf_dims": "[]",
+      "physical_shape": "[16",
+      "structural_path": "mask_weights/0",
+      "v8_applied_permutation": true
+    },
+    {
+      "constructor_role": "head_weights",
+      "evidence_source": "v8 forward_reachable_state_inventory.csv plus v8 restore_transformed_from_canonical uses transformed_rec['has_real_example_axis']",
+      "leaf_dims": "[]",
+      "physical_shape": "[16",
+      "structural_path": "head_weights/0",
+      "v8_applied_permutation": true
+    },
+    {
+      "constructor_role": "mask_weights",
+      "evidence_source": "v8 forward_reachable_state_inventory.csv plus v8 restore_transformed_from_canonical uses transformed_rec['has_real_example_axis']",
+      "leaf_dims": "[]",
+      "physical_shape": "[16",
+      "structural_path": "mask_weights/0",
+      "v8_applied_permutation": true
+    },
+    {
+      "constructor_role": "head_weights",
+      "evidence_source": "v8 forward_reachable_state_inventory.csv plus v8 restore_transformed_from_canonical uses transformed_rec['has_real_example_axis']",
+      "leaf_dims": "[]",
+      "physical_shape": "[16",
+      "structural_path": "head_weights/0",
+      "v8_applied_permutation": true
+    },
+    {
+      "constructor_role": "mask_weights",
+      "evidence_source": "v8 forward_reachable_state_inventory.csv plus v8 restore_transformed_from_canonical uses transformed_rec['has_real_example_axis']",
+      "leaf_dims": "[]",
+      "physical_shape": "[16",
+      "structural_path": "mask_weights/0",
+      "v8_applied_permutation": true
+    },
+    {
+      "constructor_role": "head_weights",
+      "evidence_source": "v8 forward_reachable_state_inventory.csv plus v8 restore_transformed_from_canonical uses transformed_rec['has_real_example_axis']",
+      "leaf_dims": "[]",
+      "physical_shape": "[16",
+      "structural_path": "head_weights/0",
+      "v8_applied_permutation": true
+    },
+    {
+      "constructor_role": "mask_weights",
+      "evidence_source": "v8 forward_reachable_state_inventory.csv plus v8 restore_transformed_from_canonical uses transformed_rec['has_real_example_axis']",
+      "leaf_dims": "[]",
+      "physical_shape": "[16",
+      "structural_path": "mask_weights/0",
+      "v8_applied_permutation": true
+    },
+    {
+      "constructor_role": "head_weights",
+      "evidence_source": "v8 forward_reachable_state_inventory.csv plus v8 restore_transformed_from_canonical uses transformed_rec['has_real_example_axis']",
+      "leaf_dims": "[]",
+      "physical_shape": "[16",
+      "structural_path": "head_weights/0",
+      "v8_applied_permutation": true
+    },
+    {
+      "constructor_role": "mask_weights",
+      "evidence_source": "v8 forward_reachable_state_inventory.csv plus v8 restore_transformed_from_canonical uses transformed_rec['has_real_example_axis']",
+      "leaf_dims": "[]",
+      "physical_shape": "[16",
+      "structural_path": "mask_weights/0",
+      "v8_applied_permutation": true
+    },
+    {
+      "constructor_role": "head_weights",
+      "evidence_source": "v8 forward_reachable_state_inventory.csv plus v8 restore_transformed_from_canonical uses transformed_rec['has_real_example_axis']",
+      "leaf_dims": "[]",
+      "physical_shape": "[16",
+      "structural_path": "head_weights/0",
+      "v8_applied_permutation": true
+    },
+    {
+      "constructor_role": "mask_weights",
+      "evidence_source": "v8 forward_reachable_state_inventory.csv plus v8 restore_transformed_from_canonical uses transformed_rec['has_real_example_axis']",
+      "leaf_dims": "[]",
+      "physical_shape": "[16",
+      "structural_path": "mask_weights/0",
+      "v8_applied_permutation": true
+    }
+  ],
+  "status": "V8_NONPOSTERIOR_PERMUTATION_OBSERVED"
+}

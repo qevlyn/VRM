@@ -1,0 +1,41 @@
+{
+  "differing_files": [],
+  "first_report_next_action": "B",
+  "pilot_version": "R5A3B_P0_RELATION_OBJECT_GRAPH_CONSTRAINT_CAUSAL_PILOT",
+  "run1": {
+    "causal_comparison_report.json": "d3d3993ee7dc16076585beff98bb6309b1cc8d9e66cc8aa2d60b73b4cbea960b",
+    "condition_candidate_ledgers.json": "c316058722cddf47661740db53aae35cca6dfa973877c61c9d21fb6ab3a5e0c6",
+    "constraint_acquisition_report.json": "aed7cccf90209f3584a03b3f4c4156f7bbd9e4041f1cdbb9623d9496a018f2e8",
+    "final_report.json": "bb7cb1a05637f91801c3c0d3040c030dc64f63c2da0349d9b1e858e1fa0805f1",
+    "matched_random_prune_report.json": "84d9b19f12cd45829abf7a5168fb78a22162d6875aa7c0cc83a16ed8455446be",
+    "mechanism_preflight_report.json": "a9b6da3a4701fe6627f25741dae3f538cf687aa5b7e78f365621d3a702e4d691",
+    "object_graph_report.json": "230b55868f9f750fb1901c3c123a341d6420a86921aee7ee5bb031235a9e0dde",
+    "parse_hypothesis_report.json": "dbebde14632a4406da419076e27bc7875fe58d58e84a91afe57cd55effc55286",
+    "pilot_manifest.json": "50d5d116485eb18906f81f0841214c16212b77ecfd12863f899db8f710542bcb",
+    "pilot_recall_metrics.json": "a7cef509378cf8bd14541a65e1db8a1e72053283e945b06eb74ba8c356bf2a5f",
+    "pilot_selection_spec.json": "649118834fdce90d31ce8d2be16a4ff439d208488b96374132c9528f27d3695e",
+    "pre_hidden_pilot_commitment.json": "333987f3f9f8fac89411d20be399121de6cdc298ab539084cf4dac74e6009269",
+    "prior_integrity_verification.json": "afadb2a18efb37c41aa1f65991e64b001e05cda08675deb91e13ba6efd84d151",
+    "property_test_report.json": "487199a0657f5489cb2df1ea46487c16d151e6e3d4b59720d09b915107bbef37",
+    "raw_candidate_universe_ledger.json": "f1de266111d0a114d651d051d933e3f0a24e210e3873556bba1f7d8667b050e4"
+  },
+  "run2": {
+    "causal_comparison_report.json": "d3d3993ee7dc16076585beff98bb6309b1cc8d9e66cc8aa2d60b73b4cbea960b",
+    "condition_candidate_ledgers.json": "c316058722cddf47661740db53aae35cca6dfa973877c61c9d21fb6ab3a5e0c6",
+    "constraint_acquisition_report.json": "aed7cccf90209f3584a03b3f4c4156f7bbd9e4041f1cdbb9623d9496a018f2e8",
+    "final_report.json": "bb7cb1a05637f91801c3c0d3040c030dc64f63c2da0349d9b1e858e1fa0805f1",
+    "matched_random_prune_report.json": "84d9b19f12cd45829abf7a5168fb78a22162d6875aa7c0cc83a16ed8455446be",
+    "mechanism_preflight_report.json": "a9b6da3a4701fe6627f25741dae3f538cf687aa5b7e78f365621d3a702e4d691",
+    "object_graph_report.json": "230b55868f9f750fb1901c3c123a341d6420a86921aee7ee5bb031235a9e0dde",
+    "parse_hypothesis_report.json": "dbebde14632a4406da419076e27bc7875fe58d58e84a91afe57cd55effc55286",
+    "pilot_manifest.json": "50d5d116485eb18906f81f0841214c16212b77ecfd12863f899db8f710542bcb",
+    "pilot_recall_metrics.json": "a7cef509378cf8bd14541a65e1db8a1e72053283e945b06eb74ba8c356bf2a5f",
+    "pilot_selection_spec.json": "649118834fdce90d31ce8d2be16a4ff439d208488b96374132c9528f27d3695e",
+    "pre_hidden_pilot_commitment.json": "333987f3f9f8fac89411d20be399121de6cdc298ab539084cf4dac74e6009269",
+    "prior_integrity_verification.json": "afadb2a18efb37c41aa1f65991e64b001e05cda08675deb91e13ba6efd84d151",
+    "property_test_report.json": "487199a0657f5489cb2df1ea46487c16d151e6e3d4b59720d09b915107bbef37",
+    "raw_candidate_universe_ledger.json": "f1de266111d0a114d651d051d933e3f0a24e210e3873556bba1f7d8667b050e4"
+  },
+  "second_report_next_action": "B",
+  "two_identical_runs_stable": true
+}

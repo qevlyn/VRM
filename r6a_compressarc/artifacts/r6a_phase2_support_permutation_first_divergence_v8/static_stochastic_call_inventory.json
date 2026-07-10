@@ -1,0 +1,45 @@
+{
+  "all_static_calls_represented_by_runtime_schedule": false,
+  "created_utc": "2026-07-04T04:11:51Z",
+  "runtime_wrappers": [
+    "layers.torch.randn"
+  ],
+  "searched_files": [
+    "arc_compressor.py",
+    "layers.py",
+    "multitensor_systems.py",
+    "train.py"
+  ],
+  "stochastic_calls": [
+    {
+      "callable": "np.random.seed",
+      "line": 8,
+      "source_file": "arc_compressor.py",
+      "source_line": "np.random.seed(0)"
+    },
+    {
+      "callable": "np.random.seed",
+      "line": 13,
+      "source_file": "layers.py",
+      "source_line": "np.random.seed(0)"
+    },
+    {
+      "callable": "torch.randn",
+      "line": 124,
+      "source_file": "layers.py",
+      "source_line": "z = signal_std*normalized_mean + noise_std*torch.randn(normalized_mean.shape)"
+    },
+    {
+      "callable": "np.random.seed",
+      "line": 5,
+      "source_file": "multitensor_systems.py",
+      "source_line": "np.random.seed(0)"
+    },
+    {
+      "callable": "np.random.seed",
+      "line": 19,
+      "source_file": "train.py",
+      "source_line": "np.random.seed(0)"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+Pair Reader R1B prediction examples are summarized from metrics rather than full per-episode dumps.
+
+seed 20260628:
+  normal exact: 1.000000
+  swap rate: 1.000000
+  all permutation same grid: 1.000000
+  forced alpha exact route: 1.000000
+seed 20260629:
+  normal exact: 1.000000
+  swap rate: 1.000000
+  all permutation same grid: 1.000000
+  forced alpha exact route: 1.000000
+seed 20260630:
+  normal exact: 1.000000
+  swap rate: 1.000000
+  all permutation same grid: 1.000000
+  forced alpha exact route: 1.000000
+seed 20260701:
+  normal exact: 1.000000
+  swap rate: 1.000000
+  all permutation same grid: 1.000000
+  forced alpha exact route: 1.000000
+seed 20260702:
+  normal exact: 1.000000
+  swap rate: 1.000000
+  all permutation same grid: 1.000000
+  forced alpha exact route: 1.000000

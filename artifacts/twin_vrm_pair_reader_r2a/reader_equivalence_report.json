@@ -1,0 +1,17 @@
+{
+  "20260628": {
+    "decoded_grids_exactly_equal": true,
+    "max_abs_difference": 0.0,
+    "passed": true
+  },
+  "20260629": {
+    "decoded_grids_exactly_equal": true,
+    "max_abs_difference": 0.0,
+    "passed": true
+  },
+  "20260630": {
+    "decoded_grids_exactly_equal": true,
+    "max_abs_difference": 0.0,
+    "passed": true
+  }
+}

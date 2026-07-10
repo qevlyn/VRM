@@ -1,0 +1,22 @@
+{
+  "batch_size": 32,
+  "betas": [
+    0.9,
+    0.95
+  ],
+  "epochs": 3,
+  "experiment": "VRM Pair Reader R2A - Frozen Reader + Frozen Legacy Decoder-Route Integration",
+  "grad_clip_norm": 1.0,
+  "learning_rate": 0.0003,
+  "mode": "full",
+  "reader_checkpoints": "/mnt/d/VRM/checkpoints/twin_pair_reader_r1b",
+  "seeds": [
+    20260628,
+    20260629,
+    20260630
+  ],
+  "steps_per_epoch": 500,
+  "total_steps_per_seed": 1500,
+  "trainable_component": "gate_head_only",
+  "weight_decay": 0.01
+}

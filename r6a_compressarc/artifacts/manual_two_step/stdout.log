@@ -1,0 +1,252 @@
+{
+  "KL_curves": {
+    "[0, 0, 1, 0, 0]": [
+      10000.4970703125,
+      9048.8740234375
+    ],
+    "[0, 1, 0, 0, 0]": [
+      10000.498046875,
+      9048.875
+    ],
+    "[0, 1, 1, 0, 0]": [
+      10000.48828125,
+      9048.869140625
+    ],
+    "[1, 0, 0, 0, 1]": [
+      10000.49609375,
+      9048.873046875
+    ],
+    "[1, 0, 0, 1, 0]": [
+      10000.494140625,
+      9048.873046875
+    ],
+    "[1, 0, 0, 1, 1]": [
+      10000.478515625,
+      9048.8642578125
+    ],
+    "[1, 0, 1, 0, 0]": [
+      10000.49609375,
+      9048.873046875
+    ],
+    "[1, 0, 1, 0, 1]": [
+      10000.46875,
+      9048.8759765625
+    ],
+    "[1, 0, 1, 1, 0]": [
+      10000.4716796875,
+      9048.873046875
+    ],
+    "[1, 0, 1, 1, 1]": [
+      10000.3232421875,
+      9049.138671875
+    ],
+    "[1, 1, 0, 0, 0]": [
+      10000.49609375,
+      9048.873046875
+    ],
+    "[1, 1, 0, 0, 1]": [
+      10000.4765625,
+      9048.865234375
+    ],
+    "[1, 1, 0, 1, 0]": [
+      10000.474609375,
+      9048.86328125
+    ],
+    "[1, 1, 0, 1, 1]": [
+      10000.349609375,
+      9049.234375
+    ],
+    "[1, 1, 1, 0, 0]": [
+      10000.462890625,
+      9049.2333984375
+    ],
+    "[1, 1, 1, 0, 1]": [
+      10000.296875,
+      9049.078125
+    ],
+    "[1, 1, 1, 1, 0]": [
+      10000.2998046875,
+      9049.078125
+    ],
+    "[1, 1, 1, 1, 1]": [
+      9999.826171875,
+      9033.669921875
+    ]
+  },
+  "actual_step_count": 2,
+  "condition": "FULL",
+  "experiment": "R6A_COMPRESSARC_REFERENCE_SEMANTICS_AUDIT",
+  "final_KL_term": 162865.890625,
+  "final_MDL_or_code_length_term": 162865.890625,
+  "final_objective": 165898.640625,
+  "final_reconstruction_term": 303.2742614746094,
+  "final_regularization_terms": {},
+  "learning_rate": 0.01,
+  "optimizer": {
+    "betas": [
+      0.5,
+      0.9
+    ],
+    "name": "Adam"
+  },
+  "peak_gpu_memory_bytes": 81641472,
+  "predictions": [
+    {
+      "attempt_1": [
+        [
+          8,
+          8,
+          8,
+          8,
+          4,
+          8
+        ],
+        [
+          8,
+          4,
+          9,
+          8,
+          2,
+          8
+        ],
+        [
+          8,
+          8,
+          4,
+          2,
+          2,
+          8
+        ],
+        [
+          4,
+          8,
+          8,
+          8,
+          8,
+          8
+        ],
+        [
+          4,
+          8,
+          8,
+          2,
+          8,
+          4
+        ],
+        [
+          8,
+          8,
+          8,
+          8,
+          8,
+          8
+        ]
+      ],
+      "attempt_2": [
+        [
+          8,
+          8,
+          8,
+          8,
+          4,
+          8
+        ],
+        [
+          8,
+          4,
+          9,
+          8,
+          2,
+          8
+        ],
+        [
+          8,
+          8,
+          4,
+          2,
+          2,
+          8
+        ],
+        [
+          4,
+          8,
+          8,
+          8,
+          8,
+          8
+        ],
+        [
+          4,
+          8,
+          8,
+          2,
+          8,
+          4
+        ],
+        [
+          8,
+          8,
+          8,
+          8,
+          8,
+          8
+        ]
+      ]
+    }
+  ],
+  "runtime_seconds": 2.565102619000001,
+  "seed": 0,
+  "solver_process_firewall": {
+    "challenge_json_only": true,
+    "denied_solution_paths": [],
+    "solution_argument_present": false
+  },
+  "solver_side_log_digest": "65976d035ae841d0712e2bfc93b1426141beaac2a33f79cb35c6901a8de7e609",
+  "steps_requested": 2,
+  "stopping_reason": "budget_exhausted",
+  "support_reconstruction": {
+    "per_grid": [
+      {
+        "cell_accuracy": 0.0,
+        "exact_match": false,
+        "mode": "input",
+        "train_pair_index": 0
+      },
+      {
+        "cell_accuracy": 0.5,
+        "exact_match": false,
+        "mode": "output",
+        "train_pair_index": 0
+      },
+      {
+        "cell_accuracy": 0.0,
+        "exact_match": false,
+        "mode": "input",
+        "train_pair_index": 1
+      },
+      {
+        "cell_accuracy": 0.6388888888888888,
+        "exact_match": false,
+        "mode": "output",
+        "train_pair_index": 1
+      }
+    ],
+    "support_cell_accuracy": 0.5125,
+    "support_grid_exact_match_rate": 0.0
+  },
+  "task_id": "00576224",
+  "trajectory": [
+    {
+      "loss": 184459.515625,
+      "reconstruction_error": 445.21307373046875,
+      "step": 1,
+      "total_KL": 180007.390625
+    },
+    {
+      "loss": 165898.640625,
+      "reconstruction_error": 303.2742614746094,
+      "step": 2,
+      "total_KL": 162865.890625
+    }
+  ]
+}

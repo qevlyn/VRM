@@ -1,0 +1,42 @@
+{
+  "a0_reuse_pass_fail": [
+    3,
+    0
+  ],
+  "affine_certificate_pass_fail": [
+    7,
+    0
+  ],
+  "case_count": 7,
+  "child_returncode": 0,
+  "child_stdout_tail": "{\n  \"a0_reuse_pass_fail\": [\n    3,\n    0\n  ],\n  \"affine_certificate_pass_fail\": [\n    7,\n    0\n  ],\n  \"case_count\": 7,\n  \"collision_witness_pass_fail\": [\n    1024,\n    0\n  ],\n  \"cpu_only_no_gpu\": true,\n  \"created_utc\": \"2026-07-04T05:04:40Z\",\n  \"decoder_boundary_result_per_case\": {\n    \"1f876c06_adjacent_0_1\": \"FORWARD_ROLE_PRESERVING_SUPPORT_PERMUTATION_CERTIFIED\",\n    \"1f876c06_adjacent_1_2\": \"FORWARD_ROLE_PRESERVING_SUPPORT_PERMUTATION_CERTIFIED\",\n    \"604001fa_adjacent_0_1\": \"FIRST_DIVERGENCE_CUMMAX\",\n    \"604001fa_adjacent_1_2\": \"FIRST_DIVERGENCE_CUMMAX\",\n    \"604001fa_adjacent_2_3\": \"FIRST_DIVERGENCE_CUMMAX\",\n    \"synthetic_uniform_shape_oracle_adjacent_0_1\": \"FORWARD_ROLE_PRESERVING_SUPPORT_PERMUTATION_CERTIFIED\",\n    \"synthetic_uniform_shape_oracle_adjacent_1_2\": \"FORWARD_ROLE_PRESERVING_SUPPORT_PERMUTATION_CERTIFIED\"\n  },\n  \"outcome\": {\n    \"outcome\": \"Outcome D\",\n    \"statement\": \"A deterministic mismatch remains after semantic parameter-action repair at the reported source boundary. It is not yet evidence that a shortcut carrier, architectural route, or reasoning mechanism has been identified.\"\n  },\n  \"semantic_state_action_pass_fail\": [\n    7,\n    0\n  ],\n  \"status\": \"CHILD_COMPLETE\",\n  \"task_action_pass_fail\": [\n    7,\n    0\n  ],\n  \"v8_action_behavior_status\": \"V8_NONPOSTERIOR_PERMUTATION_OBSERVED\"\n}\n",
+  "collision_witness_pass_fail": [
+    1024,
+    0
+  ],
+  "cpu_only_no_gpu": true,
+  "created_utc": "2026-07-04T05:04:40Z",
+  "decoder_boundary_result_per_case": {
+    "1f876c06_adjacent_0_1": "FORWARD_ROLE_PRESERVING_SUPPORT_PERMUTATION_CERTIFIED",
+    "1f876c06_adjacent_1_2": "FORWARD_ROLE_PRESERVING_SUPPORT_PERMUTATION_CERTIFIED",
+    "604001fa_adjacent_0_1": "FIRST_DIVERGENCE_CUMMAX",
+    "604001fa_adjacent_1_2": "FIRST_DIVERGENCE_CUMMAX",
+    "604001fa_adjacent_2_3": "FIRST_DIVERGENCE_CUMMAX",
+    "synthetic_uniform_shape_oracle_adjacent_0_1": "FORWARD_ROLE_PRESERVING_SUPPORT_PERMUTATION_CERTIFIED",
+    "synthetic_uniform_shape_oracle_adjacent_1_2": "FORWARD_ROLE_PRESERVING_SUPPORT_PERMUTATION_CERTIFIED"
+  },
+  "outcome": {
+    "outcome": "Outcome D",
+    "statement": "A deterministic mismatch remains after semantic parameter-action repair at the reported source boundary. It is not yet evidence that a shortcut carrier, architectural route, or reasoning mechanism has been identified."
+  },
+  "semantic_state_action_pass_fail": [
+    7,
+    0
+  ],
+  "status": "CHILD_COMPLETE",
+  "task_action_pass_fail": [
+    7,
+    0
+  ],
+  "v8_action_behavior_status": "V8_NONPOSTERIOR_PERMUTATION_OBSERVED"
+}

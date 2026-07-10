@@ -1,0 +1,558 @@
+{
+  "audit_version": "R5A2A_CAPABILITY_FRONTIER_PREFLIGHT_V1",
+  "created_utc": "2026-06-30T06:41:46+00:00",
+  "declared_closure_summary": {
+    "limitations": [
+      "bounded to the declared class tables audited in R5A-0 V2, not all syntactic strings accepted by a parser",
+      "closure membership is exact only for the finite state/grid domain reported here",
+      "whole-grid lifting requires destination-coordinate bijection and no foreground collision"
+    ],
+    "number_of_programs": 13,
+    "semantic_collision_count": 0,
+    "whether_bounded_complete": true,
+    "whether_exhaustive": true
+  },
+  "family_classification_summary": {
+    "border_relation_select_then_v2_transform": {
+      "classification": "GENERATOR_INVALID",
+      "classification_reasons": [
+        "generator, support, closure, or shortcut validity gate failed"
+      ],
+      "closure_status": {
+        "episode_count": 24,
+        "full_scene_closure_representable_count": 0,
+        "outside_declared_closure_within_audit_domain": true
+      },
+      "full_scene_v2_result": {
+        "fresh_checkpoint_same_output_rate_min": 1.0,
+        "held_out_exact_min_across_sources": 0.0,
+        "max_macro_exact_across_sources": 0.0,
+        "min_macro_exact_across_sources": 0.0
+      },
+      "generator_validity": false,
+      "held_out_composition_result": {
+        "fresh_checkpoint_same_output_rate_min": 1.0,
+        "full_scene_held_out_exact_min_across_sources": 0.0,
+        "isolated_target_held_out_exact_min_across_sources": 0.0
+      },
+      "isolated_target_v2_result": {
+        "fresh_checkpoint_same_output_rate_min": 1.0,
+        "held_out_exact_min_across_sources": 0.0,
+        "max_macro_exact_across_sources": 0.041666666666666664,
+        "min_macro_exact_across_sources": 0.041666666666666664
+      },
+      "probe_family": "border_relation_select_then_v2_transform",
+      "shortcut_results": {
+        "max_shortcut_exact": 0.75,
+        "passes_threshold": false,
+        "shortcut_scores": {
+          "always_choose_fixed_position": {
+            "episode_count": 24,
+            "exact": 0.375,
+            "exact_count": 9
+          },
+          "always_choose_largest": {
+            "episode_count": 24,
+            "exact": 0.20833333333333334,
+            "exact_count": 5
+          },
+          "always_choose_nearest_corner": {
+            "episode_count": 24,
+            "exact": 0.75,
+            "exact_count": 18
+          },
+          "always_choose_rarest_color": {
+            "episode_count": 24,
+            "exact": 0.20833333333333334,
+            "exact_count": 5
+          },
+          "always_choose_smallest": {
+            "episode_count": 24,
+            "exact": 0.2916666666666667,
+            "exact_count": 7
+          },
+          "always_transform_all_objects": {
+            "episode_count": 24,
+            "exact": 0.0,
+            "exact_count": 0
+          }
+        },
+        "threshold": 0.6
+      }
+    },
+    "largest_component_select_then_v2_transform": {
+      "classification": "GENERATOR_INVALID",
+      "classification_reasons": [
+        "generator, support, closure, or shortcut validity gate failed"
+      ],
+      "closure_status": {
+        "episode_count": 24,
+        "full_scene_closure_representable_count": 0,
+        "outside_declared_closure_within_audit_domain": true
+      },
+      "full_scene_v2_result": {
+        "fresh_checkpoint_same_output_rate_min": 1.0,
+        "held_out_exact_min_across_sources": 0.0,
+        "max_macro_exact_across_sources": 0.0,
+        "min_macro_exact_across_sources": 0.0
+      },
+      "generator_validity": false,
+      "held_out_composition_result": {
+        "fresh_checkpoint_same_output_rate_min": 1.0,
+        "full_scene_held_out_exact_min_across_sources": 0.0,
+        "isolated_target_held_out_exact_min_across_sources": 0.0
+      },
+      "isolated_target_v2_result": {
+        "fresh_checkpoint_same_output_rate_min": 1.0,
+        "held_out_exact_min_across_sources": 0.0,
+        "max_macro_exact_across_sources": 0.0,
+        "min_macro_exact_across_sources": 0.0
+      },
+      "probe_family": "largest_component_select_then_v2_transform",
+      "shortcut_results": {
+        "max_shortcut_exact": 1.0,
+        "passes_threshold": false,
+        "shortcut_scores": {
+          "always_choose_fixed_position": {
+            "episode_count": 24,
+            "exact": 0.4166666666666667,
+            "exact_count": 10
+          },
+          "always_choose_largest": {
+            "episode_count": 24,
+            "exact": 1.0,
+            "exact_count": 24
+          },
+          "always_choose_nearest_corner": {
+            "episode_count": 24,
+            "exact": 0.16666666666666666,
+            "exact_count": 4
+          },
+          "always_choose_rarest_color": {
+            "episode_count": 24,
+            "exact": 0.4583333333333333,
+            "exact_count": 11
+          },
+          "always_choose_smallest": {
+            "episode_count": 24,
+            "exact": 0.0,
+            "exact_count": 0
+          },
+          "always_transform_all_objects": {
+            "episode_count": 24,
+            "exact": 0.0,
+            "exact_count": 0
+          }
+        },
+        "threshold": 0.6
+      }
+    },
+    "nearest_marker_select_then_v2_transform": {
+      "classification": "OUT_OF_CLOSURE_V2_NOT_USEFUL",
+      "classification_reasons": [
+        "isolated-target V2 fails materially"
+      ],
+      "closure_status": {
+        "episode_count": 24,
+        "full_scene_closure_representable_count": 0,
+        "outside_declared_closure_within_audit_domain": true
+      },
+      "full_scene_v2_result": {
+        "fresh_checkpoint_same_output_rate_min": 1.0,
+        "held_out_exact_min_across_sources": 0.0,
+        "max_macro_exact_across_sources": 0.0,
+        "min_macro_exact_across_sources": 0.0
+      },
+      "generator_validity": true,
+      "held_out_composition_result": {
+        "fresh_checkpoint_same_output_rate_min": 1.0,
+        "full_scene_held_out_exact_min_across_sources": 0.0,
+        "isolated_target_held_out_exact_min_across_sources": 0.08333333333333333
+      },
+      "isolated_target_v2_result": {
+        "fresh_checkpoint_same_output_rate_min": 1.0,
+        "held_out_exact_min_across_sources": 0.08333333333333333,
+        "max_macro_exact_across_sources": 0.08333333333333333,
+        "min_macro_exact_across_sources": 0.08333333333333333
+      },
+      "probe_family": "nearest_marker_select_then_v2_transform",
+      "shortcut_results": {
+        "max_shortcut_exact": 0.4166666666666667,
+        "passes_threshold": true,
+        "shortcut_scores": {
+          "always_choose_fixed_position": {
+            "episode_count": 24,
+            "exact": 0.16666666666666666,
+            "exact_count": 4
+          },
+          "always_choose_largest": {
+            "episode_count": 24,
+            "exact": 0.16666666666666666,
+            "exact_count": 4
+          },
+          "always_choose_nearest_corner": {
+            "episode_count": 24,
+            "exact": 0.2916666666666667,
+            "exact_count": 7
+          },
+          "always_choose_rarest_color": {
+            "episode_count": 24,
+            "exact": 0.4166666666666667,
+            "exact_count": 10
+          },
+          "always_choose_smallest": {
+            "episode_count": 24,
+            "exact": 0.16666666666666666,
+            "exact_count": 4
+          },
+          "always_transform_all_objects": {
+            "episode_count": 24,
+            "exact": 0.0,
+            "exact_count": 0
+          }
+        },
+        "threshold": 0.6
+      }
+    },
+    "unique_shape_select_then_v2_transform": {
+      "classification": "OUT_OF_CLOSURE_V2_NOT_USEFUL",
+      "classification_reasons": [
+        "isolated-target V2 fails materially"
+      ],
+      "closure_status": {
+        "episode_count": 24,
+        "full_scene_closure_representable_count": 0,
+        "outside_declared_closure_within_audit_domain": true
+      },
+      "full_scene_v2_result": {
+        "fresh_checkpoint_same_output_rate_min": 1.0,
+        "held_out_exact_min_across_sources": 0.0,
+        "max_macro_exact_across_sources": 0.0,
+        "min_macro_exact_across_sources": 0.0
+      },
+      "generator_validity": true,
+      "held_out_composition_result": {
+        "fresh_checkpoint_same_output_rate_min": 1.0,
+        "full_scene_held_out_exact_min_across_sources": 0.0,
+        "isolated_target_held_out_exact_min_across_sources": 0.0
+      },
+      "isolated_target_v2_result": {
+        "fresh_checkpoint_same_output_rate_min": 1.0,
+        "held_out_exact_min_across_sources": 0.0,
+        "max_macro_exact_across_sources": 0.041666666666666664,
+        "min_macro_exact_across_sources": 0.041666666666666664
+      },
+      "probe_family": "unique_shape_select_then_v2_transform",
+      "shortcut_results": {
+        "max_shortcut_exact": 0.5,
+        "passes_threshold": true,
+        "shortcut_scores": {
+          "always_choose_fixed_position": {
+            "episode_count": 24,
+            "exact": 0.25,
+            "exact_count": 6
+          },
+          "always_choose_largest": {
+            "episode_count": 24,
+            "exact": 0.2916666666666667,
+            "exact_count": 7
+          },
+          "always_choose_nearest_corner": {
+            "episode_count": 24,
+            "exact": 0.5,
+            "exact_count": 12
+          },
+          "always_choose_rarest_color": {
+            "episode_count": 24,
+            "exact": 0.3333333333333333,
+            "exact_count": 8
+          },
+          "always_choose_smallest": {
+            "episode_count": 24,
+            "exact": 0.2916666666666667,
+            "exact_count": 7
+          },
+          "always_transform_all_objects": {
+            "episode_count": 24,
+            "exact": 0.0,
+            "exact_count": 0
+          }
+        },
+        "threshold": 0.6
+      }
+    }
+  },
+  "fresh_versus_checkpoint_agreement": {
+    "border_relation_select_then_v2_transform": {
+      "full_scene": 1.0,
+      "isolated_target_scene": 1.0
+    },
+    "largest_component_select_then_v2_transform": {
+      "full_scene": 1.0,
+      "isolated_target_scene": 1.0
+    },
+    "nearest_marker_select_then_v2_transform": {
+      "full_scene": 1.0,
+      "isolated_target_scene": 1.0
+    },
+    "unique_shape_select_then_v2_transform": {
+      "full_scene": 1.0,
+      "isolated_target_scene": 1.0
+    }
+  },
+  "generated_artifact_hashes": {
+    "declared_closure_report.json": "e8466bc8e9aa8df0282bddd745bba7c99837ab4cfae80e530d5c12b579996fab",
+    "family_classification.json": "57b22f1f44f299fa5138c981be4e299469e0a2541f3da074f483e1bce6c5a52b",
+    "generator_audit.json": "e27bb1e2f4946a9532a12d72a4d23a3112a73ebf4c9e383fc6217e929e1b461d",
+    "probe_spec.json": "7246da81c112553f16ede404b84f4160893f3036a881f242d06e04aff68d9a9d",
+    "v2_probe_evaluation.json": "a90bde79479b979a8b1c1276dfe210160ee009daf38a3099ac61a911d271d4d2"
+  },
+  "hard_gates": {
+    "declared_closure_bounded_complete": true,
+    "no_training_or_checkpoint_artifacts": true,
+    "protected_v2_and_prior_audit_hashes_unchanged": true,
+    "pytest_passed_if_provided": true,
+    "source_independence_passed": true,
+    "split_and_generator_checkers_passed_for_any_candidate": true,
+    "v2_forward_ordinary_raw_fields_only": true
+  },
+  "minimal_v2_structural_contract_map": [
+    {
+      "candidate_semantic_role_from_dataflow": "raw grid serialization and tensor utility",
+      "evidence_location": "R5A-0 V2 L0 and learning-dependency provenance reports",
+      "input_tensor_names_and_shapes": [
+        "support input/output/query grids as 7x7 integer grids"
+      ],
+      "observed_weight_causal_relevance_from_prior_audits": "not applicable",
+      "output_tensor_names_and_shapes": [
+        "query_grids [B,7,7]",
+        "support_input_grids [B,3,7,7]",
+        "support_output_grids [B,3,7,7]"
+      ],
+      "parameter_free_or_parameterized": "parameter_free",
+      "source_module_or_helper": "frontier audit tensor builder / normal V2 raw-grid interface",
+      "stage_id": "raw_grid_tensor_interface",
+      "uses_colors": true,
+      "uses_coordinates": false,
+      "uses_pair_correspondence": false,
+      "uses_query_inputs": true,
+      "uses_support_inputs": true
+    },
+    {
+      "candidate_semantic_role_from_dataflow": "deterministic support-pair correspondence evidence plus output-irrelevant context features",
+      "evidence_location": "transport_recolor_r5a0v2_model.py::encode_pairs; learning_dependency_interventions.json",
+      "input_tensor_names_and_shapes": [
+        "support_input_grids [B,3,7,7]",
+        "support_output_grids [B,3,7,7]"
+      ],
+      "observed_weight_causal_relevance_from_prior_audits": "summary_pair_projector reset/perturbation had no output-grid effect",
+      "output_tensor_names_and_shapes": [
+        "relation_scores [B,49,49]",
+        "changed_scores [B,49,49]",
+        "same_scores [B,49,49]",
+        "pair_representations [B,3,128]"
+      ],
+      "parameter_free_or_parameterized": "mixed: score tensors are fixed comparisons; pair_representations pass through summary_pair_projector",
+      "source_module_or_helper": "SupportConditionedTransportRecolorR5A0V2.encode_pairs",
+      "stage_id": "support_pair_relation_scores",
+      "uses_colors": true,
+      "uses_coordinates": false,
+      "uses_pair_correspondence": true,
+      "uses_query_inputs": false,
+      "uses_support_inputs": true
+    },
+    {
+      "candidate_semantic_role_from_dataflow": "returned context only; not consumed by output logits",
+      "evidence_location": "transport_recolor_r5a0v2_model.py::forward; learning_dependency_interventions.json",
+      "input_tensor_names_and_shapes": [
+        "pair_representations [B,3,128]"
+      ],
+      "observed_weight_causal_relevance_from_prior_audits": "task_context_mlp reset/perturbation had no output-grid effect",
+      "output_tensor_names_and_shapes": [
+        "task_context [B,128]"
+      ],
+      "parameter_free_or_parameterized": "parameterized",
+      "source_module_or_helper": "task_context_mlp(pair_representations.mean(dim=1))",
+      "stage_id": "task_context_return_path",
+      "uses_colors": true,
+      "uses_coordinates": false,
+      "uses_pair_correspondence": true,
+      "uses_query_inputs": false,
+      "uses_support_inputs": true
+    },
+    {
+      "candidate_semantic_role_from_dataflow": "fixed predicate/geometry logic",
+      "evidence_location": "transport_recolor_r5a0v2_model.py::_infer_geometry_id",
+      "input_tensor_names_and_shapes": [
+        "relation_scores [B,49,49]",
+        "changed_scores/same_scores [B,49,49]"
+      ],
+      "observed_weight_causal_relevance_from_prior_audits": "fixed scaffold marker; not learned by checkpoint state",
+      "output_tensor_names_and_shapes": [
+        "geometry_id [B]"
+      ],
+      "parameter_free_or_parameterized": "parameter_free",
+      "source_module_or_helper": "_infer_geometry_id and geometry_inverse_indices buffer",
+      "stage_id": "fixed_geometry_inference",
+      "uses_colors": true,
+      "uses_coordinates": true,
+      "uses_pair_correspondence": true,
+      "uses_query_inputs": false,
+      "uses_support_inputs": true
+    },
+    {
+      "candidate_semantic_role_from_dataflow": "output-decoding/gating logic over support-derived correspondences",
+      "evidence_location": "transport_recolor_r5a0v2_model.py::forward; learning_dependency_interventions.json",
+      "input_tensor_names_and_shapes": [
+        "relation_scores [B,49,49]"
+      ],
+      "observed_weight_causal_relevance_from_prior_audits": "zeroing logit_scale destroys argmax behavior; declared fresh reinit restores it",
+      "output_tensor_names_and_shapes": [
+        "transport_attention [B,49,49]"
+      ],
+      "parameter_free_or_parameterized": "parameterized scalar gate",
+      "source_module_or_helper": "softmax(relation_scores * exp(logit_scale).clamp(1,120))",
+      "stage_id": "transport_attention",
+      "uses_colors": true,
+      "uses_coordinates": false,
+      "uses_pair_correspondence": true,
+      "uses_query_inputs": false,
+      "uses_support_inputs": true
+    },
+    {
+      "candidate_semantic_role_from_dataflow": "fixed predicate/geometry logic",
+      "evidence_location": "transport_recolor_r5a0v2_model.py::_fit_recolor_predicate and _predicate_grid",
+      "input_tensor_names_and_shapes": [
+        "relation_scores/changed_scores/same_scores [B,49,49]"
+      ],
+      "observed_weight_causal_relevance_from_prior_audits": "fixed scaffold marker; not learned by checkpoint state",
+      "output_tensor_names_and_shapes": [
+        "predicate_id [B]",
+        "recolor_flags [B,49,49]"
+      ],
+      "parameter_free_or_parameterized": "parameter_free",
+      "source_module_or_helper": "_fit_recolor_predicate and _predicate_grid",
+      "stage_id": "fixed_recolor_predicate",
+      "uses_colors": true,
+      "uses_coordinates": true,
+      "uses_pair_correspondence": true,
+      "uses_query_inputs": false,
+      "uses_support_inputs": true
+    },
+    {
+      "candidate_semantic_role_from_dataflow": "deterministic semantic candidate generation for source color transitions",
+      "evidence_location": "transport_recolor_r5a0v2_model.py::color_transition_from_flags",
+      "input_tensor_names_and_shapes": [
+        "query_grids [B,7,7]",
+        "recolor_flags [B,49,49]"
+      ],
+      "observed_weight_causal_relevance_from_prior_audits": "fixed scaffold marker; no learned recolor module exists",
+      "output_tensor_names_and_shapes": [
+        "color_transition_probs [B,49,49,9]"
+      ],
+      "parameter_free_or_parameterized": "parameter_free",
+      "source_module_or_helper": "color_transition_from_flags",
+      "stage_id": "query_color_transition",
+      "uses_colors": true,
+      "uses_coordinates": true,
+      "uses_pair_correspondence": false,
+      "uses_query_inputs": true,
+      "uses_support_inputs": false
+    },
+    {
+      "candidate_semantic_role_from_dataflow": "output decoding/gating logic",
+      "evidence_location": "transport_recolor_r5a0v2_model.py::forward",
+      "input_tensor_names_and_shapes": [
+        "transport_attention [B,49,49]",
+        "color_transition_probs [B,49,49,9]"
+      ],
+      "observed_weight_causal_relevance_from_prior_audits": "same outputs for fresh/checkpoint and declared full reinit",
+      "output_tensor_names_and_shapes": [
+        "output_probs [B,7,7,9]",
+        "decoded_grid [B,7,7]"
+      ],
+      "parameter_free_or_parameterized": "parameter_free after upstream scalar gate",
+      "source_module_or_helper": "einsum transport_attention x color_transition_probs, then argmax",
+      "stage_id": "factorized_output_decode",
+      "uses_colors": true,
+      "uses_coordinates": true,
+      "uses_pair_correspondence": true,
+      "uses_query_inputs": true,
+      "uses_support_inputs": true
+    }
+  ],
+  "no_training_artifact_audit": {
+    "checkpoint_or_weight_files_created": [],
+    "forbidden_training_or_checkpoint_terms_found": [],
+    "passed": true
+  },
+  "permitted_next_step": "do not build the outer learner yet",
+  "protected_hashes_after": {
+    "/mnt/d/VRM/artifacts/transport_recolor_r5a0_v2/init_reproduction_audit_report.json": "7a67591f3580a97a3528f280abd3490fd52e36a8d24efd7fc83e294f7f61611c",
+    "/mnt/d/VRM/artifacts/transport_recolor_r5a0_v2/learning_dependency_audit_report.json": "8fd126b338c8f45f9bfd7a51e38b857aa6c53d6387cc982ff78a343fcca47969",
+    "/mnt/d/VRM/artifacts/transport_recolor_r5a0_v2/order_audit_report.json": "1b7b5047e56d7a92983e976cdefbe1ea7705c5b7fbd2800c9ec7871529c2828b",
+    "/mnt/d/VRM/docs/TRANSPORT_RECOLOR_R5A0V2.md": "715909827c421dbcfa81ab485b231813f200fec149c98edfd4ae3b5d5fdf5800",
+    "/mnt/d/VRM/docs/TRANSPORT_RECOLOR_R5A0V2_INIT_REPRODUCTION_AUDIT.md": "a576cf7c318e1322ae3342c26e1e7e610f33e7ec1961f2e8fa56d1705da9a1c1",
+    "/mnt/d/VRM/docs/TRANSPORT_RECOLOR_R5A0V2_LEARNING_DEPENDENCY_AUDIT.md": "92d3f160ac05fbce07c652fb9753d0d70911709e2f0aded19ebb1a1d53b8bb53",
+    "/mnt/d/VRM/docs/TRANSPORT_RECOLOR_R5A0V2_ORDER_AUDIT.md": "f8803512704386086fd37600ad1c7ffc0220ca0b15066ef6ae3b1f493ec6531c",
+    "/mnt/d/VRM/tests/test_transport_recolor_r5a0v2.py": "7e342221e22e9cbfe6517e7e0b1b99125cff102138fd8272b74c0a228680b9f3",
+    "/mnt/d/VRM/tests/test_transport_recolor_r5a0v2_init_reproduction_audit.py": "01484b416e39267223c5db27b4dde62f09b81e90e38d83ca5f912ce9f1df8482",
+    "/mnt/d/VRM/tests/test_transport_recolor_r5a0v2_learning_dependency_audit.py": "34a1aa6cffcb9469ae4761cc87ee51d927659f105f730dd4d6cce51485ba57e8",
+    "/mnt/d/VRM/tests/test_transport_recolor_r5a0v2_order_audit.py": "08772f26bc0ea7347a27a3cddf5b9805755068fb01ae2483164ad09430c472e5",
+    "/mnt/d/VRM/vrm/twin_tasks/run_transport_recolor_r5a0v2.py": "46bef01b4f545c36df8ede5087269515fd80377f2540f9a382bf5c8bd71ebf39",
+    "/mnt/d/VRM/vrm/twin_tasks/transport_recolor_r5a0v2_data.py": "8ba05be9b30f10eeaf17ec368a5b6482f28e769e8f81098a082cd581e8488279",
+    "/mnt/d/VRM/vrm/twin_tasks/transport_recolor_r5a0v2_init_reproduction_audit.py": "8ab3e072c8267d36d59e5bf06973f085bdc7574eea09017dc9e25f9148705e58",
+    "/mnt/d/VRM/vrm/twin_tasks/transport_recolor_r5a0v2_learning_dependency_audit.py": "6642c21eea84110cb3fd25b2c3e9e7c15e82b7549944b4443c1145e07f7c5b6e",
+    "/mnt/d/VRM/vrm/twin_tasks/transport_recolor_r5a0v2_model.py": "1ba3582f80fbf59b3eab142dde4d651e92e761ccb4c907835a421b1e13bc473e",
+    "/mnt/d/VRM/vrm/twin_tasks/transport_recolor_r5a0v2_oracles.py": "2e427a417e31e88ba6106a23d42e964989508d003677bc6a400c0a7730293de4",
+    "/mnt/d/VRM/vrm/twin_tasks/transport_recolor_r5a0v2_order_audit.py": "93a27725eb63ce2233ccbe583f26d9b1cce875a22cceb31355087f0b36d52aec"
+  },
+  "protected_hashes_before": {
+    "/mnt/d/VRM/artifacts/transport_recolor_r5a0_v2/init_reproduction_audit_report.json": "7a67591f3580a97a3528f280abd3490fd52e36a8d24efd7fc83e294f7f61611c",
+    "/mnt/d/VRM/artifacts/transport_recolor_r5a0_v2/learning_dependency_audit_report.json": "8fd126b338c8f45f9bfd7a51e38b857aa6c53d6387cc982ff78a343fcca47969",
+    "/mnt/d/VRM/artifacts/transport_recolor_r5a0_v2/order_audit_report.json": "1b7b5047e56d7a92983e976cdefbe1ea7705c5b7fbd2800c9ec7871529c2828b",
+    "/mnt/d/VRM/docs/TRANSPORT_RECOLOR_R5A0V2.md": "715909827c421dbcfa81ab485b231813f200fec149c98edfd4ae3b5d5fdf5800",
+    "/mnt/d/VRM/docs/TRANSPORT_RECOLOR_R5A0V2_INIT_REPRODUCTION_AUDIT.md": "a576cf7c318e1322ae3342c26e1e7e610f33e7ec1961f2e8fa56d1705da9a1c1",
+    "/mnt/d/VRM/docs/TRANSPORT_RECOLOR_R5A0V2_LEARNING_DEPENDENCY_AUDIT.md": "92d3f160ac05fbce07c652fb9753d0d70911709e2f0aded19ebb1a1d53b8bb53",
+    "/mnt/d/VRM/docs/TRANSPORT_RECOLOR_R5A0V2_ORDER_AUDIT.md": "f8803512704386086fd37600ad1c7ffc0220ca0b15066ef6ae3b1f493ec6531c",
+    "/mnt/d/VRM/tests/test_transport_recolor_r5a0v2.py": "7e342221e22e9cbfe6517e7e0b1b99125cff102138fd8272b74c0a228680b9f3",
+    "/mnt/d/VRM/tests/test_transport_recolor_r5a0v2_init_reproduction_audit.py": "01484b416e39267223c5db27b4dde62f09b81e90e38d83ca5f912ce9f1df8482",
+    "/mnt/d/VRM/tests/test_transport_recolor_r5a0v2_learning_dependency_audit.py": "34a1aa6cffcb9469ae4761cc87ee51d927659f105f730dd4d6cce51485ba57e8",
+    "/mnt/d/VRM/tests/test_transport_recolor_r5a0v2_order_audit.py": "08772f26bc0ea7347a27a3cddf5b9805755068fb01ae2483164ad09430c472e5",
+    "/mnt/d/VRM/vrm/twin_tasks/run_transport_recolor_r5a0v2.py": "46bef01b4f545c36df8ede5087269515fd80377f2540f9a382bf5c8bd71ebf39",
+    "/mnt/d/VRM/vrm/twin_tasks/transport_recolor_r5a0v2_data.py": "8ba05be9b30f10eeaf17ec368a5b6482f28e769e8f81098a082cd581e8488279",
+    "/mnt/d/VRM/vrm/twin_tasks/transport_recolor_r5a0v2_init_reproduction_audit.py": "8ab3e072c8267d36d59e5bf06973f085bdc7574eea09017dc9e25f9148705e58",
+    "/mnt/d/VRM/vrm/twin_tasks/transport_recolor_r5a0v2_learning_dependency_audit.py": "6642c21eea84110cb3fd25b2c3e9e7c15e82b7549944b4443c1145e07f7c5b6e",
+    "/mnt/d/VRM/vrm/twin_tasks/transport_recolor_r5a0v2_model.py": "1ba3582f80fbf59b3eab142dde4d651e92e761ccb4c907835a421b1e13bc473e",
+    "/mnt/d/VRM/vrm/twin_tasks/transport_recolor_r5a0v2_oracles.py": "2e427a417e31e88ba6106a23d42e964989508d003677bc6a400c0a7730293de4",
+    "/mnt/d/VRM/vrm/twin_tasks/transport_recolor_r5a0v2_order_audit.py": "93a27725eb63ce2233ccbe583f26d9b1cce875a22cceb31355087f0b36d52aec"
+  },
+  "pytest_result": {
+    "passed": true,
+    "path": "artifacts/transport_recolor_r5a2a_frontier/pytest_result.txt",
+    "provided": true,
+    "sha256": "2832d3394e9a80c1ddb19130507e92f9e6fe58c2400878ad202d41109ee7ee06",
+    "summary": "329 passed, 9 warnings in 615.77s (0:10:15)"
+  },
+  "recommended_first_family": null,
+  "report_body_sha256_excluding_timestamp": "5ad8c93a8cb8d50999905147b55ccee14db4aa4d7b0f81be128de396ccdd242f",
+  "source_independence_report": {
+    "declared_closure_imports_or_calls_v2_model_or_production_oracle": false,
+    "forbidden_tokens_in_declared_closure": [],
+    "forbidden_tokens_in_probe_generators": [],
+    "frontier_probe_generators_import_or_call_v2_model_or_production_oracle": false,
+    "passed": true
+  },
+  "status": "R5A2A_FRONTIER_NO_CLEAN_V2_EXTENSION_CANDIDATE",
+  "v2_forward_field_report": {
+    "fields_passed_to_v2_forward": [
+      "query_grids",
+      "support_input_grids",
+      "support_output_grids"
+    ],
+    "forbidden_metadata_fields_passed": [],
+    "operation_or_selector_metadata_used_only_for_grouping": true,
+    "passed": true,
+    "target_grid_used_only_for_metrics": true
+  }
+}

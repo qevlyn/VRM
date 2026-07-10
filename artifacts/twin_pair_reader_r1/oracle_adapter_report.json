@@ -1,0 +1,46 @@
+{
+  "adapter": "exact query grid equals exactly one support input grid",
+  "dev": {
+    "all_cell_color_accuracy": 1.0,
+    "direct_grid_exact_accuracy": 1.0,
+    "episode_count": 2000,
+    "foreground_cell_count_per_episode": {
+      "expected_informative_foreground_count_verified": true,
+      "unique": [
+        5
+      ]
+    },
+    "foreground_color_accuracy": 1.0,
+    "passed": true,
+    "target_rectangle_hamming_error": 0.0
+  },
+  "passed": true,
+  "sealed": {
+    "all_cell_color_accuracy": 1.0,
+    "direct_grid_exact_accuracy": 1.0,
+    "episode_count": 2000,
+    "foreground_cell_count_per_episode": {
+      "expected_informative_foreground_count_verified": true,
+      "unique": [
+        5
+      ]
+    },
+    "foreground_color_accuracy": 1.0,
+    "passed": true,
+    "target_rectangle_hamming_error": 0.0
+  },
+  "train": {
+    "all_cell_color_accuracy": 1.0,
+    "direct_grid_exact_accuracy": 1.0,
+    "episode_count": 16000,
+    "foreground_cell_count_per_episode": {
+      "expected_informative_foreground_count_verified": true,
+      "unique": [
+        5
+      ]
+    },
+    "foreground_color_accuracy": 1.0,
+    "passed": true,
+    "target_rectangle_hamming_error": 0.0
+  }
+}

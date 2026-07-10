@@ -1,0 +1,2553 @@
+{
+  "by_visual_query_type": {
+    "SEALED_VISUAL_TYPES": {
+      "3_cell_L|color=1|anchor=interior_lower_left|distractors=1": {
+        "all_cell_accuracy": 1.0,
+        "direct_grid_exact_accuracy": 1.0,
+        "episode_count": 288,
+        "foreground_accuracy": 1.0,
+        "foreground_exact_argmax_source_coordinate_accuracy": 1.0,
+        "foreground_mean_pointer_mass_on_unique_oracle_coordinate": 1.0,
+        "foreground_same_color_but_wrong_coordinate_rate": 0.0,
+        "hamming_error": 0.0,
+        "mean_max_pointer_probability": 0.2603082060813904,
+        "mean_pointer_entropy": 2.9387238025665283,
+        "task_context_mean": 0.0033319450449198484,
+        "task_context_norm": 2.3094012637933097,
+        "task_context_std": 0.04701271001249552
+      },
+      "3_cell_L|color=1|anchor=interior_upper_left|distractors=1": {
+        "all_cell_accuracy": 1.0,
+        "direct_grid_exact_accuracy": 1.0,
+        "episode_count": 288,
+        "foreground_accuracy": 1.0,
+        "foreground_exact_argmax_source_coordinate_accuracy": 1.0,
+        "foreground_mean_pointer_mass_on_unique_oracle_coordinate": 1.0,
+        "foreground_same_color_but_wrong_coordinate_rate": 0.0,
+        "hamming_error": 0.0,
+        "mean_max_pointer_probability": 0.2603082060813904,
+        "mean_pointer_entropy": 2.9387238025665283,
+        "task_context_mean": 0.0033319450449198484,
+        "task_context_norm": 2.3094012637933097,
+        "task_context_std": 0.04701271001249552
+      },
+      "3_cell_L|color=2|anchor=interior_upper_left|distractors=2": {
+        "all_cell_accuracy": 1.0,
+        "direct_grid_exact_accuracy": 1.0,
+        "episode_count": 288,
+        "foreground_accuracy": 1.0,
+        "foreground_exact_argmax_source_coordinate_accuracy": 1.0,
+        "foreground_mean_pointer_mass_on_unique_oracle_coordinate": 1.0,
+        "foreground_same_color_but_wrong_coordinate_rate": 0.0,
+        "hamming_error": 0.0,
+        "mean_max_pointer_probability": 0.2603082060813904,
+        "mean_pointer_entropy": 2.9387238025665283,
+        "task_context_mean": 0.0033319450449198484,
+        "task_context_norm": 2.3094012637933097,
+        "task_context_std": 0.04701271001249552
+      },
+      "3_cell_L|color=3|anchor=interior_lower_right|distractors=2": {
+        "all_cell_accuracy": 1.0,
+        "direct_grid_exact_accuracy": 1.0,
+        "episode_count": 288,
+        "foreground_accuracy": 1.0,
+        "foreground_exact_argmax_source_coordinate_accuracy": 1.0,
+        "foreground_mean_pointer_mass_on_unique_oracle_coordinate": 1.0,
+        "foreground_same_color_but_wrong_coordinate_rate": 0.0,
+        "hamming_error": 0.0,
+        "mean_max_pointer_probability": 0.2603082060813904,
+        "mean_pointer_entropy": 2.9387238025665283,
+        "task_context_mean": 0.0033319450449198484,
+        "task_context_norm": 2.3094012637933097,
+        "task_context_std": 0.04701271001249552
+      },
+      "3_cell_L|color=3|anchor=interior_upper_right|distractors=2": {
+        "all_cell_accuracy": 1.0,
+        "direct_grid_exact_accuracy": 1.0,
+        "episode_count": 288,
+        "foreground_accuracy": 1.0,
+        "foreground_exact_argmax_source_coordinate_accuracy": 1.0,
+        "foreground_mean_pointer_mass_on_unique_oracle_coordinate": 1.0,
+        "foreground_same_color_but_wrong_coordinate_rate": 0.0,
+        "hamming_error": 0.0,
+        "mean_max_pointer_probability": 0.2603082060813904,
+        "mean_pointer_entropy": 2.9387238025665283,
+        "task_context_mean": 0.0033319450449198484,
+        "task_context_norm": 2.3094012637933097,
+        "task_context_std": 0.04701271001249552
+      },
+      "3_cell_L|color=4|anchor=interior_lower_right|distractors=2": {
+        "all_cell_accuracy": 1.0,
+        "direct_grid_exact_accuracy": 1.0,
+        "episode_count": 288,
+        "foreground_accuracy": 1.0,
+        "foreground_exact_argmax_source_coordinate_accuracy": 1.0,
+        "foreground_mean_pointer_mass_on_unique_oracle_coordinate": 1.0,
+        "foreground_same_color_but_wrong_coordinate_rate": 0.0,
+        "hamming_error": 0.0,
+        "mean_max_pointer_probability": 0.2603082060813904,
+        "mean_pointer_entropy": 2.9387238025665283,
+        "task_context_mean": 0.0033319450449198484,
+        "task_context_norm": 2.3094012637933097,
+        "task_context_std": 0.04701271001249552
+      },
+      "3_cell_T|color=1|anchor=interior_lower_right|distractors=2": {
+        "all_cell_accuracy": 1.0,
+        "direct_grid_exact_accuracy": 1.0,
+        "episode_count": 288,
+        "foreground_accuracy": 1.0,
+        "foreground_exact_argmax_source_coordinate_accuracy": 1.0,
+        "foreground_mean_pointer_mass_on_unique_oracle_coordinate": 1.0,
+        "foreground_same_color_but_wrong_coordinate_rate": 0.0,
+        "hamming_error": 0.0,
+        "mean_max_pointer_probability": 0.2603082060813904,
+        "mean_pointer_entropy": 2.9387238025665283,
+        "task_context_mean": 0.0033319450449198484,
+        "task_context_norm": 2.3094012637933097,
+        "task_context_std": 0.04701271001249552
+      },
+      "3_cell_T|color=1|anchor=interior_upper_right|distractors=1": {
+        "all_cell_accuracy": 1.0,
+        "direct_grid_exact_accuracy": 1.0,
+        "episode_count": 288,
+        "foreground_accuracy": 1.0,
+        "foreground_exact_argmax_source_coordinate_accuracy": 1.0,
+        "foreground_mean_pointer_mass_on_unique_oracle_coordinate": 1.0,
+        "foreground_same_color_but_wrong_coordinate_rate": 0.0,
+        "hamming_error": 0.0,
+        "mean_max_pointer_probability": 0.2603082060813904,
+        "mean_pointer_entropy": 2.9387238025665283,
+        "task_context_mean": 0.0033319450449198484,
+        "task_context_norm": 2.3094012637933097,
+        "task_context_std": 0.04701271001249552
+      },
+      "3_cell_T|color=2|anchor=interior_lower_left|distractors=2": {
+        "all_cell_accuracy": 1.0,
+        "direct_grid_exact_accuracy": 1.0,
+        "episode_count": 288,
+        "foreground_accuracy": 1.0,
+        "foreground_exact_argmax_source_coordinate_accuracy": 1.0,
+        "foreground_mean_pointer_mass_on_unique_oracle_coordinate": 1.0,
+        "foreground_same_color_but_wrong_coordinate_rate": 0.0,
+        "hamming_error": 0.0,
+        "mean_max_pointer_probability": 0.2603082060813904,
+        "mean_pointer_entropy": 2.9387238025665283,
+        "task_context_mean": 0.0033319450449198484,
+        "task_context_norm": 2.3094012637933097,
+        "task_context_std": 0.04701271001249552
+      },
+      "3_cell_T|color=3|anchor=interior_lower_left|distractors=2": {
+        "all_cell_accuracy": 1.0,
+        "direct_grid_exact_accuracy": 1.0,
+        "episode_count": 288,
+        "foreground_accuracy": 1.0,
+        "foreground_exact_argmax_source_coordinate_accuracy": 1.0,
+        "foreground_mean_pointer_mass_on_unique_oracle_coordinate": 1.0,
+        "foreground_same_color_but_wrong_coordinate_rate": 0.0,
+        "hamming_error": 0.0,
+        "mean_max_pointer_probability": 0.2603082060813904,
+        "mean_pointer_entropy": 2.9387238025665283,
+        "task_context_mean": 0.0033319450449198484,
+        "task_context_norm": 2.3094012637933097,
+        "task_context_std": 0.04701271001249552
+      },
+      "3_cell_T|color=3|anchor=interior_upper_left|distractors=2": {
+        "all_cell_accuracy": 1.0,
+        "direct_grid_exact_accuracy": 1.0,
+        "episode_count": 288,
+        "foreground_accuracy": 1.0,
+        "foreground_exact_argmax_source_coordinate_accuracy": 1.0,
+        "foreground_mean_pointer_mass_on_unique_oracle_coordinate": 1.0,
+        "foreground_same_color_but_wrong_coordinate_rate": 0.0,
+        "hamming_error": 0.0,
+        "mean_max_pointer_probability": 0.2603082060813904,
+        "mean_pointer_entropy": 2.9387238025665283,
+        "task_context_mean": 0.0033319450449198484,
+        "task_context_norm": 2.3094012637933097,
+        "task_context_std": 0.04701271001249552
+      },
+      "3_cell_T|color=4|anchor=interior_upper_left|distractors=2": {
+        "all_cell_accuracy": 1.0,
+        "direct_grid_exact_accuracy": 1.0,
+        "episode_count": 288,
+        "foreground_accuracy": 1.0,
+        "foreground_exact_argmax_source_coordinate_accuracy": 1.0,
+        "foreground_mean_pointer_mass_on_unique_oracle_coordinate": 1.0,
+        "foreground_same_color_but_wrong_coordinate_rate": 0.0,
+        "hamming_error": 0.0,
+        "mean_max_pointer_probability": 0.2603082060813904,
+        "mean_pointer_entropy": 2.9387238025665283,
+        "task_context_mean": 0.0033319450449198484,
+        "task_context_norm": 2.3094012637933097,
+        "task_context_std": 0.04701271001249552
+      },
+      "3_cell_zig_zag|color=1|anchor=interior_lower_left|distractors=1": {
+        "all_cell_accuracy": 1.0,
+        "direct_grid_exact_accuracy": 1.0,
+        "episode_count": 288,
+        "foreground_accuracy": 1.0,
+        "foreground_exact_argmax_source_coordinate_accuracy": 1.0,
+        "foreground_mean_pointer_mass_on_unique_oracle_coordinate": 1.0,
+        "foreground_same_color_but_wrong_coordinate_rate": 0.0,
+        "hamming_error": 0.0,
+        "mean_max_pointer_probability": 0.2603082060813904,
+        "mean_pointer_entropy": 2.9387238025665283,
+        "task_context_mean": 0.0033319450449198484,
+        "task_context_norm": 2.3094012637933097,
+        "task_context_std": 0.04701271001249552
+      },
+      "3_cell_zig_zag|color=1|anchor=interior_lower_left|distractors=2": {
+        "all_cell_accuracy": 1.0,
+        "direct_grid_exact_accuracy": 1.0,
+        "episode_count": 288,
+        "foreground_accuracy": 1.0,
+        "foreground_exact_argmax_source_coordinate_accuracy": 1.0,
+        "foreground_mean_pointer_mass_on_unique_oracle_coordinate": 1.0,
+        "foreground_same_color_but_wrong_coordinate_rate": 0.0,
+        "hamming_error": 0.0,
+        "mean_max_pointer_probability": 0.2603082060813904,
+        "mean_pointer_entropy": 2.9387238025665283,
+        "task_context_mean": 0.0033319450449198484,
+        "task_context_norm": 2.3094012637933097,
+        "task_context_std": 0.04701271001249552
+      },
+      "3_cell_zig_zag|color=1|anchor=interior_upper_right|distractors=1": {
+        "all_cell_accuracy": 1.0,
+        "direct_grid_exact_accuracy": 1.0,
+        "episode_count": 288,
+        "foreground_accuracy": 1.0,
+        "foreground_exact_argmax_source_coordinate_accuracy": 1.0,
+        "foreground_mean_pointer_mass_on_unique_oracle_coordinate": 1.0,
+        "foreground_same_color_but_wrong_coordinate_rate": 0.0,
+        "hamming_error": 0.0,
+        "mean_max_pointer_probability": 0.2603082060813904,
+        "mean_pointer_entropy": 2.9387238025665283,
+        "task_context_mean": 0.0033319450449198484,
+        "task_context_norm": 2.3094012637933097,
+        "task_context_std": 0.04701271001249552
+      },
+      "3_cell_zig_zag|color=1|anchor=interior_upper_right|distractors=2": {
+        "all_cell_accuracy": 1.0,
+        "direct_grid_exact_accuracy": 1.0,
+        "episode_count": 288,
+        "foreground_accuracy": 1.0,
+        "foreground_exact_argmax_source_coordinate_accuracy": 1.0,
+        "foreground_mean_pointer_mass_on_unique_oracle_coordinate": 1.0,
+        "foreground_same_color_but_wrong_coordinate_rate": 0.0,
+        "hamming_error": 0.0,
+        "mean_max_pointer_probability": 0.2603082060813904,
+        "mean_pointer_entropy": 2.9387238025665283,
+        "task_context_mean": 0.0033319450449198484,
+        "task_context_norm": 2.3094012637933097,
+        "task_context_std": 0.04701271001249552
+      },
+      "3_cell_zig_zag|color=2|anchor=interior_lower_left|distractors=1": {
+        "all_cell_accuracy": 1.0,
+        "direct_grid_exact_accuracy": 1.0,
+        "episode_count": 288,
+        "foreground_accuracy": 1.0,
+        "foreground_exact_argmax_source_coordinate_accuracy": 1.0,
+        "foreground_mean_pointer_mass_on_unique_oracle_coordinate": 1.0,
+        "foreground_same_color_but_wrong_coordinate_rate": 0.0,
+        "hamming_error": 0.0,
+        "mean_max_pointer_probability": 0.2603082060813904,
+        "mean_pointer_entropy": 2.9387238025665283,
+        "task_context_mean": 0.0033319450449198484,
+        "task_context_norm": 2.3094012637933097,
+        "task_context_std": 0.04701271001249552
+      },
+      "3_cell_zig_zag|color=3|anchor=interior_lower_right|distractors=1": {
+        "all_cell_accuracy": 1.0,
+        "direct_grid_exact_accuracy": 1.0,
+        "episode_count": 288,
+        "foreground_accuracy": 1.0,
+        "foreground_exact_argmax_source_coordinate_accuracy": 1.0,
+        "foreground_mean_pointer_mass_on_unique_oracle_coordinate": 1.0,
+        "foreground_same_color_but_wrong_coordinate_rate": 0.0,
+        "hamming_error": 0.0,
+        "mean_max_pointer_probability": 0.2603082060813904,
+        "mean_pointer_entropy": 2.9387238025665283,
+        "task_context_mean": 0.0033319450449198484,
+        "task_context_norm": 2.3094012637933097,
+        "task_context_std": 0.04701271001249552
+      },
+      "asymmetric_4_cell_hook|color=1|anchor=interior_lower_left|distractors=2": {
+        "all_cell_accuracy": 1.0,
+        "direct_grid_exact_accuracy": 1.0,
+        "episode_count": 288,
+        "foreground_accuracy": 1.0,
+        "foreground_exact_argmax_source_coordinate_accuracy": 1.0,
+        "foreground_mean_pointer_mass_on_unique_oracle_coordinate": 1.0,
+        "foreground_same_color_but_wrong_coordinate_rate": 0.0,
+        "hamming_error": 0.0,
+        "mean_max_pointer_probability": 0.2603082060813904,
+        "mean_pointer_entropy": 2.9387238025665283,
+        "task_context_mean": 0.0033319450449198484,
+        "task_context_norm": 2.3094012637933097,
+        "task_context_std": 0.04701271001249552
+      },
+      "asymmetric_4_cell_hook|color=1|anchor=interior_lower_right|distractors=1": {
+        "all_cell_accuracy": 1.0,
+        "direct_grid_exact_accuracy": 1.0,
+        "episode_count": 288,
+        "foreground_accuracy": 1.0,
+        "foreground_exact_argmax_source_coordinate_accuracy": 1.0,
+        "foreground_mean_pointer_mass_on_unique_oracle_coordinate": 1.0,
+        "foreground_same_color_but_wrong_coordinate_rate": 0.0,
+        "hamming_error": 0.0,
+        "mean_max_pointer_probability": 0.2603082060813904,
+        "mean_pointer_entropy": 2.9387238025665283,
+        "task_context_mean": 0.0033319450449198484,
+        "task_context_norm": 2.3094012637933097,
+        "task_context_std": 0.04701271001249552
+      },
+      "asymmetric_4_cell_hook|color=1|anchor=interior_upper_left|distractors=2": {
+        "all_cell_accuracy": 1.0,
+        "direct_grid_exact_accuracy": 1.0,
+        "episode_count": 288,
+        "foreground_accuracy": 1.0,
+        "foreground_exact_argmax_source_coordinate_accuracy": 1.0,
+        "foreground_mean_pointer_mass_on_unique_oracle_coordinate": 1.0,
+        "foreground_same_color_but_wrong_coordinate_rate": 0.0,
+        "hamming_error": 0.0,
+        "mean_max_pointer_probability": 0.2603082060813904,
+        "mean_pointer_entropy": 2.9387238025665283,
+        "task_context_mean": 0.0033319450449198484,
+        "task_context_norm": 2.3094012637933097,
+        "task_context_std": 0.04701271001249552
+      },
+      "asymmetric_4_cell_hook|color=2|anchor=interior_lower_right|distractors=2": {
+        "all_cell_accuracy": 1.0,
+        "direct_grid_exact_accuracy": 1.0,
+        "episode_count": 288,
+        "foreground_accuracy": 1.0,
+        "foreground_exact_argmax_source_coordinate_accuracy": 1.0,
+        "foreground_mean_pointer_mass_on_unique_oracle_coordinate": 1.0,
+        "foreground_same_color_but_wrong_coordinate_rate": 0.0,
+        "hamming_error": 0.0,
+        "mean_max_pointer_probability": 0.2603082060813904,
+        "mean_pointer_entropy": 2.9387238025665283,
+        "task_context_mean": 0.0033319450449198484,
+        "task_context_norm": 2.3094012637933097,
+        "task_context_std": 0.04701271001249552
+      },
+      "asymmetric_4_cell_hook|color=3|anchor=interior_upper_left|distractors=2": {
+        "all_cell_accuracy": 1.0,
+        "direct_grid_exact_accuracy": 1.0,
+        "episode_count": 288,
+        "foreground_accuracy": 1.0,
+        "foreground_exact_argmax_source_coordinate_accuracy": 1.0,
+        "foreground_mean_pointer_mass_on_unique_oracle_coordinate": 1.0,
+        "foreground_same_color_but_wrong_coordinate_rate": 0.0,
+        "hamming_error": 0.0,
+        "mean_max_pointer_probability": 0.2603082060813904,
+        "mean_pointer_entropy": 2.9387238025665283,
+        "task_context_mean": 0.0033319450449198484,
+        "task_context_norm": 2.3094012637933097,
+        "task_context_std": 0.04701271001249552
+      },
+      "asymmetric_4_cell_hook|color=3|anchor=interior_upper_right|distractors=2": {
+        "all_cell_accuracy": 1.0,
+        "direct_grid_exact_accuracy": 1.0,
+        "episode_count": 288,
+        "foreground_accuracy": 1.0,
+        "foreground_exact_argmax_source_coordinate_accuracy": 1.0,
+        "foreground_mean_pointer_mass_on_unique_oracle_coordinate": 1.0,
+        "foreground_same_color_but_wrong_coordinate_rate": 0.0,
+        "hamming_error": 0.0,
+        "mean_max_pointer_probability": 0.2603082060813904,
+        "mean_pointer_entropy": 2.9387238025665283,
+        "task_context_mean": 0.0033319450449198484,
+        "task_context_norm": 2.3094012637933097,
+        "task_context_std": 0.04701271001249552
+      }
+    },
+    "TRAIN_VISIBLE_VISUAL_TYPES": {
+      "3_cell_L|color=1|anchor=interior_lower_right|distractors=1": {
+        "all_cell_accuracy": 1.0,
+        "direct_grid_exact_accuracy": 1.0,
+        "episode_count": 288,
+        "foreground_accuracy": 1.0,
+        "foreground_exact_argmax_source_coordinate_accuracy": 1.0,
+        "foreground_mean_pointer_mass_on_unique_oracle_coordinate": 1.0,
+        "foreground_same_color_but_wrong_coordinate_rate": 0.0,
+        "hamming_error": 0.0,
+        "mean_max_pointer_probability": 0.2603082060813904,
+        "mean_pointer_entropy": 2.9387238025665283,
+        "task_context_mean": 0.0033319450449198484,
+        "task_context_norm": 2.3094012637933097,
+        "task_context_std": 0.04701271001249552
+      },
+      "3_cell_L|color=1|anchor=interior_lower_right|distractors=2": {
+        "all_cell_accuracy": 1.0,
+        "direct_grid_exact_accuracy": 1.0,
+        "episode_count": 288,
+        "foreground_accuracy": 1.0,
+        "foreground_exact_argmax_source_coordinate_accuracy": 1.0,
+        "foreground_mean_pointer_mass_on_unique_oracle_coordinate": 1.0,
+        "foreground_same_color_but_wrong_coordinate_rate": 0.0,
+        "hamming_error": 0.0,
+        "mean_max_pointer_probability": 0.2603082060813904,
+        "mean_pointer_entropy": 2.9387238025665283,
+        "task_context_mean": 0.0033319450449198484,
+        "task_context_norm": 2.3094012637933097,
+        "task_context_std": 0.04701271001249552
+      },
+      "3_cell_L|color=1|anchor=interior_upper_left|distractors=2": {
+        "all_cell_accuracy": 1.0,
+        "direct_grid_exact_accuracy": 1.0,
+        "episode_count": 288,
+        "foreground_accuracy": 1.0,
+        "foreground_exact_argmax_source_coordinate_accuracy": 1.0,
+        "foreground_mean_pointer_mass_on_unique_oracle_coordinate": 1.0,
+        "foreground_same_color_but_wrong_coordinate_rate": 0.0,
+        "hamming_error": 0.0,
+        "mean_max_pointer_probability": 0.2603082060813904,
+        "mean_pointer_entropy": 2.9387238025665283,
+        "task_context_mean": 0.0033319450449198484,
+        "task_context_norm": 2.3094012637933097,
+        "task_context_std": 0.04701271001249552
+      },
+      "3_cell_L|color=1|anchor=interior_upper_right|distractors=2": {
+        "all_cell_accuracy": 1.0,
+        "direct_grid_exact_accuracy": 1.0,
+        "episode_count": 288,
+        "foreground_accuracy": 1.0,
+        "foreground_exact_argmax_source_coordinate_accuracy": 1.0,
+        "foreground_mean_pointer_mass_on_unique_oracle_coordinate": 1.0,
+        "foreground_same_color_but_wrong_coordinate_rate": 0.0,
+        "hamming_error": 0.0,
+        "mean_max_pointer_probability": 0.2603082060813904,
+        "mean_pointer_entropy": 2.9387238025665283,
+        "task_context_mean": 0.0033319450449198484,
+        "task_context_norm": 2.3094012637933097,
+        "task_context_std": 0.04701271001249552
+      },
+      "3_cell_L|color=2|anchor=interior_lower_left|distractors=2": {
+        "all_cell_accuracy": 1.0,
+        "direct_grid_exact_accuracy": 1.0,
+        "episode_count": 288,
+        "foreground_accuracy": 1.0,
+        "foreground_exact_argmax_source_coordinate_accuracy": 1.0,
+        "foreground_mean_pointer_mass_on_unique_oracle_coordinate": 1.0,
+        "foreground_same_color_but_wrong_coordinate_rate": 0.0,
+        "hamming_error": 0.0,
+        "mean_max_pointer_probability": 0.2603082060813904,
+        "mean_pointer_entropy": 2.9387238025665283,
+        "task_context_mean": 0.0033319450449198484,
+        "task_context_norm": 2.3094012637933097,
+        "task_context_std": 0.04701271001249552
+      },
+      "3_cell_L|color=2|anchor=interior_lower_right|distractors=2": {
+        "all_cell_accuracy": 1.0,
+        "direct_grid_exact_accuracy": 1.0,
+        "episode_count": 288,
+        "foreground_accuracy": 1.0,
+        "foreground_exact_argmax_source_coordinate_accuracy": 1.0,
+        "foreground_mean_pointer_mass_on_unique_oracle_coordinate": 1.0,
+        "foreground_same_color_but_wrong_coordinate_rate": 0.0,
+        "hamming_error": 0.0,
+        "mean_max_pointer_probability": 0.2603082060813904,
+        "mean_pointer_entropy": 2.9387238025665283,
+        "task_context_mean": 0.0033319450449198484,
+        "task_context_norm": 2.3094012637933097,
+        "task_context_std": 0.04701271001249552
+      },
+      "3_cell_L|color=2|anchor=interior_upper_left|distractors=1": {
+        "all_cell_accuracy": 1.0,
+        "direct_grid_exact_accuracy": 1.0,
+        "episode_count": 288,
+        "foreground_accuracy": 1.0,
+        "foreground_exact_argmax_source_coordinate_accuracy": 1.0,
+        "foreground_mean_pointer_mass_on_unique_oracle_coordinate": 1.0,
+        "foreground_same_color_but_wrong_coordinate_rate": 0.0,
+        "hamming_error": 0.0,
+        "mean_max_pointer_probability": 0.2603082060813904,
+        "mean_pointer_entropy": 2.9387238025665283,
+        "task_context_mean": 0.0033319450449198484,
+        "task_context_norm": 2.3094012637933097,
+        "task_context_std": 0.04701271001249552
+      },
+      "3_cell_L|color=2|anchor=interior_upper_right|distractors=2": {
+        "all_cell_accuracy": 1.0,
+        "direct_grid_exact_accuracy": 1.0,
+        "episode_count": 288,
+        "foreground_accuracy": 1.0,
+        "foreground_exact_argmax_source_coordinate_accuracy": 1.0,
+        "foreground_mean_pointer_mass_on_unique_oracle_coordinate": 1.0,
+        "foreground_same_color_but_wrong_coordinate_rate": 0.0,
+        "hamming_error": 0.0,
+        "mean_max_pointer_probability": 0.2603082060813904,
+        "mean_pointer_entropy": 2.9387238025665283,
+        "task_context_mean": 0.0033319450449198484,
+        "task_context_norm": 2.3094012637933097,
+        "task_context_std": 0.04701271001249552
+      },
+      "3_cell_L|color=3|anchor=interior_lower_left|distractors=2": {
+        "all_cell_accuracy": 1.0,
+        "direct_grid_exact_accuracy": 1.0,
+        "episode_count": 288,
+        "foreground_accuracy": 1.0,
+        "foreground_exact_argmax_source_coordinate_accuracy": 1.0,
+        "foreground_mean_pointer_mass_on_unique_oracle_coordinate": 1.0,
+        "foreground_same_color_but_wrong_coordinate_rate": 0.0,
+        "hamming_error": 0.0,
+        "mean_max_pointer_probability": 0.2603082060813904,
+        "mean_pointer_entropy": 2.9387238025665283,
+        "task_context_mean": 0.0033319450449198484,
+        "task_context_norm": 2.3094012637933097,
+        "task_context_std": 0.04701271001249552
+      },
+      "3_cell_L|color=3|anchor=interior_lower_right|distractors=1": {
+        "all_cell_accuracy": 1.0,
+        "direct_grid_exact_accuracy": 1.0,
+        "episode_count": 288,
+        "foreground_accuracy": 1.0,
+        "foreground_exact_argmax_source_coordinate_accuracy": 1.0,
+        "foreground_mean_pointer_mass_on_unique_oracle_coordinate": 1.0,
+        "foreground_same_color_but_wrong_coordinate_rate": 0.0,
+        "hamming_error": 0.0,
+        "mean_max_pointer_probability": 0.2603082060813904,
+        "mean_pointer_entropy": 2.9387238025665283,
+        "task_context_mean": 0.0033319450449198484,
+        "task_context_norm": 2.3094012637933097,
+        "task_context_std": 0.04701271001249552
+      },
+      "3_cell_L|color=3|anchor=interior_upper_left|distractors=1": {
+        "all_cell_accuracy": 1.0,
+        "direct_grid_exact_accuracy": 1.0,
+        "episode_count": 288,
+        "foreground_accuracy": 1.0,
+        "foreground_exact_argmax_source_coordinate_accuracy": 1.0,
+        "foreground_mean_pointer_mass_on_unique_oracle_coordinate": 1.0,
+        "foreground_same_color_but_wrong_coordinate_rate": 0.0,
+        "hamming_error": 0.0,
+        "mean_max_pointer_probability": 0.2603082060813904,
+        "mean_pointer_entropy": 2.9387238025665283,
+        "task_context_mean": 0.0033319450449198484,
+        "task_context_norm": 2.3094012637933097,
+        "task_context_std": 0.04701271001249552
+      },
+      "3_cell_L|color=3|anchor=interior_upper_right|distractors=1": {
+        "all_cell_accuracy": 1.0,
+        "direct_grid_exact_accuracy": 1.0,
+        "episode_count": 288,
+        "foreground_accuracy": 1.0,
+        "foreground_exact_argmax_source_coordinate_accuracy": 1.0,
+        "foreground_mean_pointer_mass_on_unique_oracle_coordinate": 1.0,
+        "foreground_same_color_but_wrong_coordinate_rate": 0.0,
+        "hamming_error": 0.0,
+        "mean_max_pointer_probability": 0.2603082060813904,
+        "mean_pointer_entropy": 2.9387238025665283,
+        "task_context_mean": 0.0033319450449198484,
+        "task_context_norm": 2.3094012637933097,
+        "task_context_std": 0.04701271001249552
+      },
+      "3_cell_L|color=4|anchor=interior_lower_left|distractors=1": {
+        "all_cell_accuracy": 1.0,
+        "direct_grid_exact_accuracy": 1.0,
+        "episode_count": 288,
+        "foreground_accuracy": 1.0,
+        "foreground_exact_argmax_source_coordinate_accuracy": 1.0,
+        "foreground_mean_pointer_mass_on_unique_oracle_coordinate": 1.0,
+        "foreground_same_color_but_wrong_coordinate_rate": 0.0,
+        "hamming_error": 0.0,
+        "mean_max_pointer_probability": 0.2603082060813904,
+        "mean_pointer_entropy": 2.9387238025665283,
+        "task_context_mean": 0.0033319450449198484,
+        "task_context_norm": 2.3094012637933097,
+        "task_context_std": 0.04701271001249552
+      },
+      "3_cell_L|color=4|anchor=interior_lower_right|distractors=1": {
+        "all_cell_accuracy": 1.0,
+        "direct_grid_exact_accuracy": 1.0,
+        "episode_count": 288,
+        "foreground_accuracy": 1.0,
+        "foreground_exact_argmax_source_coordinate_accuracy": 1.0,
+        "foreground_mean_pointer_mass_on_unique_oracle_coordinate": 1.0,
+        "foreground_same_color_but_wrong_coordinate_rate": 0.0,
+        "hamming_error": 0.0,
+        "mean_max_pointer_probability": 0.2603082060813904,
+        "mean_pointer_entropy": 2.9387238025665283,
+        "task_context_mean": 0.0033319450449198484,
+        "task_context_norm": 2.3094012637933097,
+        "task_context_std": 0.04701271001249552
+      },
+      "3_cell_L|color=4|anchor=interior_upper_left|distractors=1": {
+        "all_cell_accuracy": 1.0,
+        "direct_grid_exact_accuracy": 1.0,
+        "episode_count": 288,
+        "foreground_accuracy": 1.0,
+        "foreground_exact_argmax_source_coordinate_accuracy": 1.0,
+        "foreground_mean_pointer_mass_on_unique_oracle_coordinate": 1.0,
+        "foreground_same_color_but_wrong_coordinate_rate": 0.0,
+        "hamming_error": 0.0,
+        "mean_max_pointer_probability": 0.2603082060813904,
+        "mean_pointer_entropy": 2.9387238025665283,
+        "task_context_mean": 0.0033319450449198484,
+        "task_context_norm": 2.3094012637933097,
+        "task_context_std": 0.04701271001249552
+      },
+      "3_cell_L|color=4|anchor=interior_upper_left|distractors=2": {
+        "all_cell_accuracy": 1.0,
+        "direct_grid_exact_accuracy": 1.0,
+        "episode_count": 288,
+        "foreground_accuracy": 1.0,
+        "foreground_exact_argmax_source_coordinate_accuracy": 1.0,
+        "foreground_mean_pointer_mass_on_unique_oracle_coordinate": 1.0,
+        "foreground_same_color_but_wrong_coordinate_rate": 0.0,
+        "hamming_error": 0.0,
+        "mean_max_pointer_probability": 0.2603082060813904,
+        "mean_pointer_entropy": 2.9387238025665283,
+        "task_context_mean": 0.0033319450449198484,
+        "task_context_norm": 2.3094012637933097,
+        "task_context_std": 0.04701271001249552
+      },
+      "3_cell_T|color=1|anchor=interior_lower_left|distractors=1": {
+        "all_cell_accuracy": 1.0,
+        "direct_grid_exact_accuracy": 1.0,
+        "episode_count": 288,
+        "foreground_accuracy": 1.0,
+        "foreground_exact_argmax_source_coordinate_accuracy": 1.0,
+        "foreground_mean_pointer_mass_on_unique_oracle_coordinate": 1.0,
+        "foreground_same_color_but_wrong_coordinate_rate": 0.0,
+        "hamming_error": 0.0,
+        "mean_max_pointer_probability": 0.2603082060813904,
+        "mean_pointer_entropy": 2.9387238025665283,
+        "task_context_mean": 0.0033319450449198484,
+        "task_context_norm": 2.3094012637933097,
+        "task_context_std": 0.04701271001249552
+      },
+      "3_cell_T|color=1|anchor=interior_lower_left|distractors=2": {
+        "all_cell_accuracy": 1.0,
+        "direct_grid_exact_accuracy": 1.0,
+        "episode_count": 288,
+        "foreground_accuracy": 1.0,
+        "foreground_exact_argmax_source_coordinate_accuracy": 1.0,
+        "foreground_mean_pointer_mass_on_unique_oracle_coordinate": 1.0,
+        "foreground_same_color_but_wrong_coordinate_rate": 0.0,
+        "hamming_error": 0.0,
+        "mean_max_pointer_probability": 0.2603082060813904,
+        "mean_pointer_entropy": 2.9387238025665283,
+        "task_context_mean": 0.0033319450449198484,
+        "task_context_norm": 2.3094012637933097,
+        "task_context_std": 0.04701271001249552
+      },
+      "3_cell_T|color=1|anchor=interior_lower_right|distractors=1": {
+        "all_cell_accuracy": 1.0,
+        "direct_grid_exact_accuracy": 1.0,
+        "episode_count": 288,
+        "foreground_accuracy": 1.0,
+        "foreground_exact_argmax_source_coordinate_accuracy": 1.0,
+        "foreground_mean_pointer_mass_on_unique_oracle_coordinate": 1.0,
+        "foreground_same_color_but_wrong_coordinate_rate": 0.0,
+        "hamming_error": 0.0,
+        "mean_max_pointer_probability": 0.2603082060813904,
+        "mean_pointer_entropy": 2.9387238025665283,
+        "task_context_mean": 0.0033319450449198484,
+        "task_context_norm": 2.3094012637933097,
+        "task_context_std": 0.04701271001249552
+      },
+      "3_cell_T|color=1|anchor=interior_upper_left|distractors=1": {
+        "all_cell_accuracy": 1.0,
+        "direct_grid_exact_accuracy": 1.0,
+        "episode_count": 288,
+        "foreground_accuracy": 1.0,
+        "foreground_exact_argmax_source_coordinate_accuracy": 1.0,
+        "foreground_mean_pointer_mass_on_unique_oracle_coordinate": 1.0,
+        "foreground_same_color_but_wrong_coordinate_rate": 0.0,
+        "hamming_error": 0.0,
+        "mean_max_pointer_probability": 0.2603082060813904,
+        "mean_pointer_entropy": 2.9387238025665283,
+        "task_context_mean": 0.0033319450449198484,
+        "task_context_norm": 2.3094012637933097,
+        "task_context_std": 0.04701271001249552
+      },
+      "3_cell_T|color=1|anchor=interior_upper_right|distractors=2": {
+        "all_cell_accuracy": 1.0,
+        "direct_grid_exact_accuracy": 1.0,
+        "episode_count": 288,
+        "foreground_accuracy": 1.0,
+        "foreground_exact_argmax_source_coordinate_accuracy": 1.0,
+        "foreground_mean_pointer_mass_on_unique_oracle_coordinate": 1.0,
+        "foreground_same_color_but_wrong_coordinate_rate": 0.0,
+        "hamming_error": 0.0,
+        "mean_max_pointer_probability": 0.2603082060813904,
+        "mean_pointer_entropy": 2.9387238025665283,
+        "task_context_mean": 0.0033319450449198484,
+        "task_context_norm": 2.3094012637933097,
+        "task_context_std": 0.04701271001249552
+      },
+      "3_cell_T|color=2|anchor=interior_lower_left|distractors=1": {
+        "all_cell_accuracy": 1.0,
+        "direct_grid_exact_accuracy": 1.0,
+        "episode_count": 288,
+        "foreground_accuracy": 1.0,
+        "foreground_exact_argmax_source_coordinate_accuracy": 1.0,
+        "foreground_mean_pointer_mass_on_unique_oracle_coordinate": 1.0,
+        "foreground_same_color_but_wrong_coordinate_rate": 0.0,
+        "hamming_error": 0.0,
+        "mean_max_pointer_probability": 0.2603082060813904,
+        "mean_pointer_entropy": 2.9387238025665283,
+        "task_context_mean": 0.0033319450449198484,
+        "task_context_norm": 2.3094012637933097,
+        "task_context_std": 0.04701271001249552
+      },
+      "3_cell_T|color=2|anchor=interior_lower_right|distractors=1": {
+        "all_cell_accuracy": 1.0,
+        "direct_grid_exact_accuracy": 1.0,
+        "episode_count": 288,
+        "foreground_accuracy": 1.0,
+        "foreground_exact_argmax_source_coordinate_accuracy": 1.0,
+        "foreground_mean_pointer_mass_on_unique_oracle_coordinate": 1.0,
+        "foreground_same_color_but_wrong_coordinate_rate": 0.0,
+        "hamming_error": 0.0,
+        "mean_max_pointer_probability": 0.2603082060813904,
+        "mean_pointer_entropy": 2.9387238025665283,
+        "task_context_mean": 0.0033319450449198484,
+        "task_context_norm": 2.3094012637933097,
+        "task_context_std": 0.04701271001249552
+      },
+      "3_cell_T|color=2|anchor=interior_lower_right|distractors=2": {
+        "all_cell_accuracy": 1.0,
+        "direct_grid_exact_accuracy": 1.0,
+        "episode_count": 288,
+        "foreground_accuracy": 1.0,
+        "foreground_exact_argmax_source_coordinate_accuracy": 1.0,
+        "foreground_mean_pointer_mass_on_unique_oracle_coordinate": 1.0,
+        "foreground_same_color_but_wrong_coordinate_rate": 0.0,
+        "hamming_error": 0.0,
+        "mean_max_pointer_probability": 0.2603082060813904,
+        "mean_pointer_entropy": 2.9387238025665283,
+        "task_context_mean": 0.0033319450449198484,
+        "task_context_norm": 2.3094012637933097,
+        "task_context_std": 0.04701271001249552
+      },
+      "3_cell_T|color=2|anchor=interior_upper_left|distractors=2": {
+        "all_cell_accuracy": 1.0,
+        "direct_grid_exact_accuracy": 1.0,
+        "episode_count": 288,
+        "foreground_accuracy": 1.0,
+        "foreground_exact_argmax_source_coordinate_accuracy": 1.0,
+        "foreground_mean_pointer_mass_on_unique_oracle_coordinate": 1.0,
+        "foreground_same_color_but_wrong_coordinate_rate": 0.0,
+        "hamming_error": 0.0,
+        "mean_max_pointer_probability": 0.2603082060813904,
+        "mean_pointer_entropy": 2.9387238025665283,
+        "task_context_mean": 0.0033319450449198484,
+        "task_context_norm": 2.3094012637933097,
+        "task_context_std": 0.04701271001249552
+      },
+      "3_cell_T|color=2|anchor=interior_upper_right|distractors=1": {
+        "all_cell_accuracy": 1.0,
+        "direct_grid_exact_accuracy": 1.0,
+        "episode_count": 288,
+        "foreground_accuracy": 1.0,
+        "foreground_exact_argmax_source_coordinate_accuracy": 1.0,
+        "foreground_mean_pointer_mass_on_unique_oracle_coordinate": 1.0,
+        "foreground_same_color_but_wrong_coordinate_rate": 0.0,
+        "hamming_error": 0.0,
+        "mean_max_pointer_probability": 0.2603082060813904,
+        "mean_pointer_entropy": 2.9387238025665283,
+        "task_context_mean": 0.0033319450449198484,
+        "task_context_norm": 2.3094012637933097,
+        "task_context_std": 0.04701271001249552
+      },
+      "3_cell_T|color=2|anchor=interior_upper_right|distractors=2": {
+        "all_cell_accuracy": 1.0,
+        "direct_grid_exact_accuracy": 1.0,
+        "episode_count": 288,
+        "foreground_accuracy": 1.0,
+        "foreground_exact_argmax_source_coordinate_accuracy": 1.0,
+        "foreground_mean_pointer_mass_on_unique_oracle_coordinate": 1.0,
+        "foreground_same_color_but_wrong_coordinate_rate": 0.0,
+        "hamming_error": 0.0,
+        "mean_max_pointer_probability": 0.2603082060813904,
+        "mean_pointer_entropy": 2.9387238025665283,
+        "task_context_mean": 0.0033319450449198484,
+        "task_context_norm": 2.3094012637933097,
+        "task_context_std": 0.04701271001249552
+      },
+      "3_cell_T|color=3|anchor=interior_lower_left|distractors=1": {
+        "all_cell_accuracy": 1.0,
+        "direct_grid_exact_accuracy": 1.0,
+        "episode_count": 288,
+        "foreground_accuracy": 1.0,
+        "foreground_exact_argmax_source_coordinate_accuracy": 1.0,
+        "foreground_mean_pointer_mass_on_unique_oracle_coordinate": 1.0,
+        "foreground_same_color_but_wrong_coordinate_rate": 0.0,
+        "hamming_error": 0.0,
+        "mean_max_pointer_probability": 0.2603082060813904,
+        "mean_pointer_entropy": 2.9387238025665283,
+        "task_context_mean": 0.0033319450449198484,
+        "task_context_norm": 2.3094012637933097,
+        "task_context_std": 0.04701271001249552
+      },
+      "3_cell_T|color=3|anchor=interior_lower_right|distractors=1": {
+        "all_cell_accuracy": 1.0,
+        "direct_grid_exact_accuracy": 1.0,
+        "episode_count": 288,
+        "foreground_accuracy": 1.0,
+        "foreground_exact_argmax_source_coordinate_accuracy": 1.0,
+        "foreground_mean_pointer_mass_on_unique_oracle_coordinate": 1.0,
+        "foreground_same_color_but_wrong_coordinate_rate": 0.0,
+        "hamming_error": 0.0,
+        "mean_max_pointer_probability": 0.2603082060813904,
+        "mean_pointer_entropy": 2.9387238025665283,
+        "task_context_mean": 0.0033319450449198484,
+        "task_context_norm": 2.3094012637933097,
+        "task_context_std": 0.04701271001249552
+      },
+      "3_cell_T|color=3|anchor=interior_upper_left|distractors=1": {
+        "all_cell_accuracy": 1.0,
+        "direct_grid_exact_accuracy": 1.0,
+        "episode_count": 288,
+        "foreground_accuracy": 1.0,
+        "foreground_exact_argmax_source_coordinate_accuracy": 1.0,
+        "foreground_mean_pointer_mass_on_unique_oracle_coordinate": 1.0,
+        "foreground_same_color_but_wrong_coordinate_rate": 0.0,
+        "hamming_error": 0.0,
+        "mean_max_pointer_probability": 0.2603082060813904,
+        "mean_pointer_entropy": 2.9387238025665283,
+        "task_context_mean": 0.0033319450449198484,
+        "task_context_norm": 2.3094012637933097,
+        "task_context_std": 0.04701271001249552
+      },
+      "3_cell_T|color=3|anchor=interior_upper_right|distractors=1": {
+        "all_cell_accuracy": 1.0,
+        "direct_grid_exact_accuracy": 1.0,
+        "episode_count": 288,
+        "foreground_accuracy": 1.0,
+        "foreground_exact_argmax_source_coordinate_accuracy": 1.0,
+        "foreground_mean_pointer_mass_on_unique_oracle_coordinate": 1.0,
+        "foreground_same_color_but_wrong_coordinate_rate": 0.0,
+        "hamming_error": 0.0,
+        "mean_max_pointer_probability": 0.2603082060813904,
+        "mean_pointer_entropy": 2.9387238025665283,
+        "task_context_mean": 0.0033319450449198484,
+        "task_context_norm": 2.3094012637933097,
+        "task_context_std": 0.04701271001249552
+      },
+      "3_cell_T|color=3|anchor=interior_upper_right|distractors=2": {
+        "all_cell_accuracy": 1.0,
+        "direct_grid_exact_accuracy": 1.0,
+        "episode_count": 288,
+        "foreground_accuracy": 1.0,
+        "foreground_exact_argmax_source_coordinate_accuracy": 1.0,
+        "foreground_mean_pointer_mass_on_unique_oracle_coordinate": 1.0,
+        "foreground_same_color_but_wrong_coordinate_rate": 0.0,
+        "hamming_error": 0.0,
+        "mean_max_pointer_probability": 0.2603082060813904,
+        "mean_pointer_entropy": 2.9387238025665283,
+        "task_context_mean": 0.0033319450449198484,
+        "task_context_norm": 2.3094012637933097,
+        "task_context_std": 0.04701271001249552
+      },
+      "3_cell_T|color=4|anchor=interior_lower_left|distractors=2": {
+        "all_cell_accuracy": 1.0,
+        "direct_grid_exact_accuracy": 1.0,
+        "episode_count": 288,
+        "foreground_accuracy": 1.0,
+        "foreground_exact_argmax_source_coordinate_accuracy": 1.0,
+        "foreground_mean_pointer_mass_on_unique_oracle_coordinate": 1.0,
+        "foreground_same_color_but_wrong_coordinate_rate": 0.0,
+        "hamming_error": 0.0,
+        "mean_max_pointer_probability": 0.2603082060813904,
+        "mean_pointer_entropy": 2.9387238025665283,
+        "task_context_mean": 0.0033319450449198484,
+        "task_context_norm": 2.3094012637933097,
+        "task_context_std": 0.04701271001249552
+      },
+      "3_cell_T|color=4|anchor=interior_lower_right|distractors=1": {
+        "all_cell_accuracy": 1.0,
+        "direct_grid_exact_accuracy": 1.0,
+        "episode_count": 288,
+        "foreground_accuracy": 1.0,
+        "foreground_exact_argmax_source_coordinate_accuracy": 1.0,
+        "foreground_mean_pointer_mass_on_unique_oracle_coordinate": 1.0,
+        "foreground_same_color_but_wrong_coordinate_rate": 0.0,
+        "hamming_error": 0.0,
+        "mean_max_pointer_probability": 0.2603082060813904,
+        "mean_pointer_entropy": 2.9387238025665283,
+        "task_context_mean": 0.0033319450449198484,
+        "task_context_norm": 2.3094012637933097,
+        "task_context_std": 0.04701271001249552
+      },
+      "3_cell_T|color=4|anchor=interior_upper_left|distractors=1": {
+        "all_cell_accuracy": 1.0,
+        "direct_grid_exact_accuracy": 1.0,
+        "episode_count": 288,
+        "foreground_accuracy": 1.0,
+        "foreground_exact_argmax_source_coordinate_accuracy": 1.0,
+        "foreground_mean_pointer_mass_on_unique_oracle_coordinate": 1.0,
+        "foreground_same_color_but_wrong_coordinate_rate": 0.0,
+        "hamming_error": 0.0,
+        "mean_max_pointer_probability": 0.2603082060813904,
+        "mean_pointer_entropy": 2.9387238025665283,
+        "task_context_mean": 0.0033319450449198484,
+        "task_context_norm": 2.3094012637933097,
+        "task_context_std": 0.04701271001249552
+      },
+      "3_cell_T|color=4|anchor=interior_upper_right|distractors=1": {
+        "all_cell_accuracy": 1.0,
+        "direct_grid_exact_accuracy": 1.0,
+        "episode_count": 288,
+        "foreground_accuracy": 1.0,
+        "foreground_exact_argmax_source_coordinate_accuracy": 1.0,
+        "foreground_mean_pointer_mass_on_unique_oracle_coordinate": 1.0,
+        "foreground_same_color_but_wrong_coordinate_rate": 0.0,
+        "hamming_error": 0.0,
+        "mean_max_pointer_probability": 0.2603082060813904,
+        "mean_pointer_entropy": 2.9387238025665283,
+        "task_context_mean": 0.0033319450449198484,
+        "task_context_norm": 2.3094012637933097,
+        "task_context_std": 0.04701271001249552
+      },
+      "3_cell_zig_zag|color=1|anchor=interior_lower_right|distractors=1": {
+        "all_cell_accuracy": 1.0,
+        "direct_grid_exact_accuracy": 1.0,
+        "episode_count": 288,
+        "foreground_accuracy": 1.0,
+        "foreground_exact_argmax_source_coordinate_accuracy": 1.0,
+        "foreground_mean_pointer_mass_on_unique_oracle_coordinate": 1.0,
+        "foreground_same_color_but_wrong_coordinate_rate": 0.0,
+        "hamming_error": 0.0,
+        "mean_max_pointer_probability": 0.2603082060813904,
+        "mean_pointer_entropy": 2.9387238025665283,
+        "task_context_mean": 0.0033319450449198484,
+        "task_context_norm": 2.3094012637933097,
+        "task_context_std": 0.04701271001249552
+      },
+      "3_cell_zig_zag|color=1|anchor=interior_lower_right|distractors=2": {
+        "all_cell_accuracy": 1.0,
+        "direct_grid_exact_accuracy": 1.0,
+        "episode_count": 288,
+        "foreground_accuracy": 1.0,
+        "foreground_exact_argmax_source_coordinate_accuracy": 1.0,
+        "foreground_mean_pointer_mass_on_unique_oracle_coordinate": 1.0,
+        "foreground_same_color_but_wrong_coordinate_rate": 0.0,
+        "hamming_error": 0.0,
+        "mean_max_pointer_probability": 0.2603082060813904,
+        "mean_pointer_entropy": 2.9387238025665283,
+        "task_context_mean": 0.0033319450449198484,
+        "task_context_norm": 2.3094012637933097,
+        "task_context_std": 0.04701271001249552
+      },
+      "3_cell_zig_zag|color=1|anchor=interior_upper_left|distractors=1": {
+        "all_cell_accuracy": 1.0,
+        "direct_grid_exact_accuracy": 1.0,
+        "episode_count": 288,
+        "foreground_accuracy": 1.0,
+        "foreground_exact_argmax_source_coordinate_accuracy": 1.0,
+        "foreground_mean_pointer_mass_on_unique_oracle_coordinate": 1.0,
+        "foreground_same_color_but_wrong_coordinate_rate": 0.0,
+        "hamming_error": 0.0,
+        "mean_max_pointer_probability": 0.2603082060813904,
+        "mean_pointer_entropy": 2.9387238025665283,
+        "task_context_mean": 0.0033319450449198484,
+        "task_context_norm": 2.3094012637933097,
+        "task_context_std": 0.04701271001249552
+      },
+      "3_cell_zig_zag|color=1|anchor=interior_upper_left|distractors=2": {
+        "all_cell_accuracy": 1.0,
+        "direct_grid_exact_accuracy": 1.0,
+        "episode_count": 288,
+        "foreground_accuracy": 1.0,
+        "foreground_exact_argmax_source_coordinate_accuracy": 1.0,
+        "foreground_mean_pointer_mass_on_unique_oracle_coordinate": 1.0,
+        "foreground_same_color_but_wrong_coordinate_rate": 0.0,
+        "hamming_error": 0.0,
+        "mean_max_pointer_probability": 0.2603082060813904,
+        "mean_pointer_entropy": 2.9387238025665283,
+        "task_context_mean": 0.0033319450449198484,
+        "task_context_norm": 2.3094012637933097,
+        "task_context_std": 0.04701271001249552
+      },
+      "3_cell_zig_zag|color=2|anchor=interior_lower_left|distractors=2": {
+        "all_cell_accuracy": 1.0,
+        "direct_grid_exact_accuracy": 1.0,
+        "episode_count": 288,
+        "foreground_accuracy": 1.0,
+        "foreground_exact_argmax_source_coordinate_accuracy": 1.0,
+        "foreground_mean_pointer_mass_on_unique_oracle_coordinate": 1.0,
+        "foreground_same_color_but_wrong_coordinate_rate": 0.0,
+        "hamming_error": 0.0,
+        "mean_max_pointer_probability": 0.2603082060813904,
+        "mean_pointer_entropy": 2.9387238025665283,
+        "task_context_mean": 0.0033319450449198484,
+        "task_context_norm": 2.3094012637933097,
+        "task_context_std": 0.04701271001249552
+      },
+      "3_cell_zig_zag|color=2|anchor=interior_lower_right|distractors=1": {
+        "all_cell_accuracy": 1.0,
+        "direct_grid_exact_accuracy": 1.0,
+        "episode_count": 288,
+        "foreground_accuracy": 1.0,
+        "foreground_exact_argmax_source_coordinate_accuracy": 1.0,
+        "foreground_mean_pointer_mass_on_unique_oracle_coordinate": 1.0,
+        "foreground_same_color_but_wrong_coordinate_rate": 0.0,
+        "hamming_error": 0.0,
+        "mean_max_pointer_probability": 0.2603082060813904,
+        "mean_pointer_entropy": 2.9387238025665283,
+        "task_context_mean": 0.0033319450449198484,
+        "task_context_norm": 2.3094012637933097,
+        "task_context_std": 0.04701271001249552
+      },
+      "3_cell_zig_zag|color=2|anchor=interior_lower_right|distractors=2": {
+        "all_cell_accuracy": 1.0,
+        "direct_grid_exact_accuracy": 1.0,
+        "episode_count": 288,
+        "foreground_accuracy": 1.0,
+        "foreground_exact_argmax_source_coordinate_accuracy": 1.0,
+        "foreground_mean_pointer_mass_on_unique_oracle_coordinate": 1.0,
+        "foreground_same_color_but_wrong_coordinate_rate": 0.0,
+        "hamming_error": 0.0,
+        "mean_max_pointer_probability": 0.2603082060813904,
+        "mean_pointer_entropy": 2.9387238025665283,
+        "task_context_mean": 0.0033319450449198484,
+        "task_context_norm": 2.3094012637933097,
+        "task_context_std": 0.04701271001249552
+      },
+      "3_cell_zig_zag|color=2|anchor=interior_upper_left|distractors=1": {
+        "all_cell_accuracy": 1.0,
+        "direct_grid_exact_accuracy": 1.0,
+        "episode_count": 288,
+        "foreground_accuracy": 1.0,
+        "foreground_exact_argmax_source_coordinate_accuracy": 1.0,
+        "foreground_mean_pointer_mass_on_unique_oracle_coordinate": 1.0,
+        "foreground_same_color_but_wrong_coordinate_rate": 0.0,
+        "hamming_error": 0.0,
+        "mean_max_pointer_probability": 0.2603082060813904,
+        "mean_pointer_entropy": 2.9387238025665283,
+        "task_context_mean": 0.0033319450449198484,
+        "task_context_norm": 2.3094012637933097,
+        "task_context_std": 0.04701271001249552
+      },
+      "3_cell_zig_zag|color=2|anchor=interior_upper_left|distractors=2": {
+        "all_cell_accuracy": 1.0,
+        "direct_grid_exact_accuracy": 1.0,
+        "episode_count": 288,
+        "foreground_accuracy": 1.0,
+        "foreground_exact_argmax_source_coordinate_accuracy": 1.0,
+        "foreground_mean_pointer_mass_on_unique_oracle_coordinate": 1.0,
+        "foreground_same_color_but_wrong_coordinate_rate": 0.0,
+        "hamming_error": 0.0,
+        "mean_max_pointer_probability": 0.2603082060813904,
+        "mean_pointer_entropy": 2.9387238025665283,
+        "task_context_mean": 0.0033319450449198484,
+        "task_context_norm": 2.3094012637933097,
+        "task_context_std": 0.04701271001249552
+      },
+      "3_cell_zig_zag|color=2|anchor=interior_upper_right|distractors=2": {
+        "all_cell_accuracy": 1.0,
+        "direct_grid_exact_accuracy": 1.0,
+        "episode_count": 288,
+        "foreground_accuracy": 1.0,
+        "foreground_exact_argmax_source_coordinate_accuracy": 1.0,
+        "foreground_mean_pointer_mass_on_unique_oracle_coordinate": 1.0,
+        "foreground_same_color_but_wrong_coordinate_rate": 0.0,
+        "hamming_error": 0.0,
+        "mean_max_pointer_probability": 0.2603082060813904,
+        "mean_pointer_entropy": 2.9387238025665283,
+        "task_context_mean": 0.0033319450449198484,
+        "task_context_norm": 2.3094012637933097,
+        "task_context_std": 0.04701271001249552
+      },
+      "3_cell_zig_zag|color=3|anchor=interior_lower_left|distractors=1": {
+        "all_cell_accuracy": 1.0,
+        "direct_grid_exact_accuracy": 1.0,
+        "episode_count": 288,
+        "foreground_accuracy": 1.0,
+        "foreground_exact_argmax_source_coordinate_accuracy": 1.0,
+        "foreground_mean_pointer_mass_on_unique_oracle_coordinate": 1.0,
+        "foreground_same_color_but_wrong_coordinate_rate": 0.0,
+        "hamming_error": 0.0,
+        "mean_max_pointer_probability": 0.2603082060813904,
+        "mean_pointer_entropy": 2.9387238025665283,
+        "task_context_mean": 0.0033319450449198484,
+        "task_context_norm": 2.3094012637933097,
+        "task_context_std": 0.04701271001249552
+      },
+      "3_cell_zig_zag|color=3|anchor=interior_lower_left|distractors=2": {
+        "all_cell_accuracy": 1.0,
+        "direct_grid_exact_accuracy": 1.0,
+        "episode_count": 288,
+        "foreground_accuracy": 1.0,
+        "foreground_exact_argmax_source_coordinate_accuracy": 1.0,
+        "foreground_mean_pointer_mass_on_unique_oracle_coordinate": 1.0,
+        "foreground_same_color_but_wrong_coordinate_rate": 0.0,
+        "hamming_error": 0.0,
+        "mean_max_pointer_probability": 0.2603082060813904,
+        "mean_pointer_entropy": 2.9387238025665283,
+        "task_context_mean": 0.0033319450449198484,
+        "task_context_norm": 2.3094012637933097,
+        "task_context_std": 0.04701271001249552
+      },
+      "3_cell_zig_zag|color=3|anchor=interior_lower_right|distractors=2": {
+        "all_cell_accuracy": 1.0,
+        "direct_grid_exact_accuracy": 1.0,
+        "episode_count": 288,
+        "foreground_accuracy": 1.0,
+        "foreground_exact_argmax_source_coordinate_accuracy": 1.0,
+        "foreground_mean_pointer_mass_on_unique_oracle_coordinate": 1.0,
+        "foreground_same_color_but_wrong_coordinate_rate": 0.0,
+        "hamming_error": 0.0,
+        "mean_max_pointer_probability": 0.2603082060813904,
+        "mean_pointer_entropy": 2.9387238025665283,
+        "task_context_mean": 0.0033319450449198484,
+        "task_context_norm": 2.3094012637933097,
+        "task_context_std": 0.04701271001249552
+      },
+      "3_cell_zig_zag|color=3|anchor=interior_upper_left|distractors=1": {
+        "all_cell_accuracy": 1.0,
+        "direct_grid_exact_accuracy": 1.0,
+        "episode_count": 288,
+        "foreground_accuracy": 1.0,
+        "foreground_exact_argmax_source_coordinate_accuracy": 1.0,
+        "foreground_mean_pointer_mass_on_unique_oracle_coordinate": 1.0,
+        "foreground_same_color_but_wrong_coordinate_rate": 0.0,
+        "hamming_error": 0.0,
+        "mean_max_pointer_probability": 0.2603082060813904,
+        "mean_pointer_entropy": 2.9387238025665283,
+        "task_context_mean": 0.0033319450449198484,
+        "task_context_norm": 2.3094012637933097,
+        "task_context_std": 0.04701271001249552
+      },
+      "3_cell_zig_zag|color=3|anchor=interior_upper_left|distractors=2": {
+        "all_cell_accuracy": 1.0,
+        "direct_grid_exact_accuracy": 1.0,
+        "episode_count": 288,
+        "foreground_accuracy": 1.0,
+        "foreground_exact_argmax_source_coordinate_accuracy": 1.0,
+        "foreground_mean_pointer_mass_on_unique_oracle_coordinate": 1.0,
+        "foreground_same_color_but_wrong_coordinate_rate": 0.0,
+        "hamming_error": 0.0,
+        "mean_max_pointer_probability": 0.2603082060813904,
+        "mean_pointer_entropy": 2.9387238025665283,
+        "task_context_mean": 0.0033319450449198484,
+        "task_context_norm": 2.3094012637933097,
+        "task_context_std": 0.04701271001249552
+      },
+      "3_cell_zig_zag|color=4|anchor=interior_lower_left|distractors=1": {
+        "all_cell_accuracy": 1.0,
+        "direct_grid_exact_accuracy": 1.0,
+        "episode_count": 288,
+        "foreground_accuracy": 1.0,
+        "foreground_exact_argmax_source_coordinate_accuracy": 1.0,
+        "foreground_mean_pointer_mass_on_unique_oracle_coordinate": 1.0,
+        "foreground_same_color_but_wrong_coordinate_rate": 0.0,
+        "hamming_error": 0.0,
+        "mean_max_pointer_probability": 0.2603082060813904,
+        "mean_pointer_entropy": 2.9387238025665283,
+        "task_context_mean": 0.0033319450449198484,
+        "task_context_norm": 2.3094012637933097,
+        "task_context_std": 0.04701271001249552
+      },
+      "3_cell_zig_zag|color=4|anchor=interior_lower_left|distractors=2": {
+        "all_cell_accuracy": 1.0,
+        "direct_grid_exact_accuracy": 1.0,
+        "episode_count": 288,
+        "foreground_accuracy": 1.0,
+        "foreground_exact_argmax_source_coordinate_accuracy": 1.0,
+        "foreground_mean_pointer_mass_on_unique_oracle_coordinate": 1.0,
+        "foreground_same_color_but_wrong_coordinate_rate": 0.0,
+        "hamming_error": 0.0,
+        "mean_max_pointer_probability": 0.2603082060813904,
+        "mean_pointer_entropy": 2.9387238025665283,
+        "task_context_mean": 0.0033319450449198484,
+        "task_context_norm": 2.3094012637933097,
+        "task_context_std": 0.04701271001249552
+      },
+      "3_cell_zig_zag|color=4|anchor=interior_lower_right|distractors=1": {
+        "all_cell_accuracy": 1.0,
+        "direct_grid_exact_accuracy": 1.0,
+        "episode_count": 288,
+        "foreground_accuracy": 1.0,
+        "foreground_exact_argmax_source_coordinate_accuracy": 1.0,
+        "foreground_mean_pointer_mass_on_unique_oracle_coordinate": 1.0,
+        "foreground_same_color_but_wrong_coordinate_rate": 0.0,
+        "hamming_error": 0.0,
+        "mean_max_pointer_probability": 0.2603082060813904,
+        "mean_pointer_entropy": 2.9387238025665283,
+        "task_context_mean": 0.0033319450449198484,
+        "task_context_norm": 2.3094012637933097,
+        "task_context_std": 0.04701271001249552
+      },
+      "3_cell_zig_zag|color=4|anchor=interior_lower_right|distractors=2": {
+        "all_cell_accuracy": 1.0,
+        "direct_grid_exact_accuracy": 1.0,
+        "episode_count": 288,
+        "foreground_accuracy": 1.0,
+        "foreground_exact_argmax_source_coordinate_accuracy": 1.0,
+        "foreground_mean_pointer_mass_on_unique_oracle_coordinate": 1.0,
+        "foreground_same_color_but_wrong_coordinate_rate": 0.0,
+        "hamming_error": 0.0,
+        "mean_max_pointer_probability": 0.2603082060813904,
+        "mean_pointer_entropy": 2.9387238025665283,
+        "task_context_mean": 0.0033319450449198484,
+        "task_context_norm": 2.3094012637933097,
+        "task_context_std": 0.04701271001249552
+      },
+      "3_cell_zig_zag|color=4|anchor=interior_upper_left|distractors=1": {
+        "all_cell_accuracy": 1.0,
+        "direct_grid_exact_accuracy": 1.0,
+        "episode_count": 288,
+        "foreground_accuracy": 1.0,
+        "foreground_exact_argmax_source_coordinate_accuracy": 1.0,
+        "foreground_mean_pointer_mass_on_unique_oracle_coordinate": 1.0,
+        "foreground_same_color_but_wrong_coordinate_rate": 0.0,
+        "hamming_error": 0.0,
+        "mean_max_pointer_probability": 0.2603082060813904,
+        "mean_pointer_entropy": 2.9387238025665283,
+        "task_context_mean": 0.0033319450449198484,
+        "task_context_norm": 2.3094012637933097,
+        "task_context_std": 0.04701271001249552
+      },
+      "3_cell_zig_zag|color=4|anchor=interior_upper_left|distractors=2": {
+        "all_cell_accuracy": 1.0,
+        "direct_grid_exact_accuracy": 1.0,
+        "episode_count": 288,
+        "foreground_accuracy": 1.0,
+        "foreground_exact_argmax_source_coordinate_accuracy": 1.0,
+        "foreground_mean_pointer_mass_on_unique_oracle_coordinate": 1.0,
+        "foreground_same_color_but_wrong_coordinate_rate": 0.0,
+        "hamming_error": 0.0,
+        "mean_max_pointer_probability": 0.2603082060813904,
+        "mean_pointer_entropy": 2.9387238025665283,
+        "task_context_mean": 0.0033319450449198484,
+        "task_context_norm": 2.3094012637933097,
+        "task_context_std": 0.04701271001249552
+      },
+      "3_cell_zig_zag|color=4|anchor=interior_upper_right|distractors=1": {
+        "all_cell_accuracy": 1.0,
+        "direct_grid_exact_accuracy": 1.0,
+        "episode_count": 288,
+        "foreground_accuracy": 1.0,
+        "foreground_exact_argmax_source_coordinate_accuracy": 1.0,
+        "foreground_mean_pointer_mass_on_unique_oracle_coordinate": 1.0,
+        "foreground_same_color_but_wrong_coordinate_rate": 0.0,
+        "hamming_error": 0.0,
+        "mean_max_pointer_probability": 0.2603082060813904,
+        "mean_pointer_entropy": 2.9387238025665283,
+        "task_context_mean": 0.0033319450449198484,
+        "task_context_norm": 2.3094012637933097,
+        "task_context_std": 0.04701271001249552
+      },
+      "3_cell_zig_zag|color=4|anchor=interior_upper_right|distractors=2": {
+        "all_cell_accuracy": 1.0,
+        "direct_grid_exact_accuracy": 1.0,
+        "episode_count": 288,
+        "foreground_accuracy": 1.0,
+        "foreground_exact_argmax_source_coordinate_accuracy": 1.0,
+        "foreground_mean_pointer_mass_on_unique_oracle_coordinate": 1.0,
+        "foreground_same_color_but_wrong_coordinate_rate": 0.0,
+        "hamming_error": 0.0,
+        "mean_max_pointer_probability": 0.2603082060813904,
+        "mean_pointer_entropy": 2.9387238025665283,
+        "task_context_mean": 0.0033319450449198484,
+        "task_context_norm": 2.3094012637933097,
+        "task_context_std": 0.04701271001249552
+      },
+      "asymmetric_4_cell_hook|color=1|anchor=interior_lower_left|distractors=1": {
+        "all_cell_accuracy": 1.0,
+        "direct_grid_exact_accuracy": 1.0,
+        "episode_count": 288,
+        "foreground_accuracy": 1.0,
+        "foreground_exact_argmax_source_coordinate_accuracy": 1.0,
+        "foreground_mean_pointer_mass_on_unique_oracle_coordinate": 1.0,
+        "foreground_same_color_but_wrong_coordinate_rate": 0.0,
+        "hamming_error": 0.0,
+        "mean_max_pointer_probability": 0.2603082060813904,
+        "mean_pointer_entropy": 2.9387238025665283,
+        "task_context_mean": 0.0033319450449198484,
+        "task_context_norm": 2.3094012637933097,
+        "task_context_std": 0.04701271001249552
+      },
+      "asymmetric_4_cell_hook|color=1|anchor=interior_lower_right|distractors=2": {
+        "all_cell_accuracy": 1.0,
+        "direct_grid_exact_accuracy": 1.0,
+        "episode_count": 288,
+        "foreground_accuracy": 1.0,
+        "foreground_exact_argmax_source_coordinate_accuracy": 1.0,
+        "foreground_mean_pointer_mass_on_unique_oracle_coordinate": 1.0,
+        "foreground_same_color_but_wrong_coordinate_rate": 0.0,
+        "hamming_error": 0.0,
+        "mean_max_pointer_probability": 0.2603082060813904,
+        "mean_pointer_entropy": 2.9387238025665283,
+        "task_context_mean": 0.0033319450449198484,
+        "task_context_norm": 2.3094012637933097,
+        "task_context_std": 0.04701271001249552
+      },
+      "asymmetric_4_cell_hook|color=1|anchor=interior_upper_left|distractors=1": {
+        "all_cell_accuracy": 1.0,
+        "direct_grid_exact_accuracy": 1.0,
+        "episode_count": 288,
+        "foreground_accuracy": 1.0,
+        "foreground_exact_argmax_source_coordinate_accuracy": 1.0,
+        "foreground_mean_pointer_mass_on_unique_oracle_coordinate": 1.0,
+        "foreground_same_color_but_wrong_coordinate_rate": 0.0,
+        "hamming_error": 0.0,
+        "mean_max_pointer_probability": 0.2603082060813904,
+        "mean_pointer_entropy": 2.9387238025665283,
+        "task_context_mean": 0.0033319450449198484,
+        "task_context_norm": 2.3094012637933097,
+        "task_context_std": 0.04701271001249552
+      },
+      "asymmetric_4_cell_hook|color=1|anchor=interior_upper_right|distractors=2": {
+        "all_cell_accuracy": 1.0,
+        "direct_grid_exact_accuracy": 1.0,
+        "episode_count": 288,
+        "foreground_accuracy": 1.0,
+        "foreground_exact_argmax_source_coordinate_accuracy": 1.0,
+        "foreground_mean_pointer_mass_on_unique_oracle_coordinate": 1.0,
+        "foreground_same_color_but_wrong_coordinate_rate": 0.0,
+        "hamming_error": 0.0,
+        "mean_max_pointer_probability": 0.2603082060813904,
+        "mean_pointer_entropy": 2.9387238025665283,
+        "task_context_mean": 0.0033319450449198484,
+        "task_context_norm": 2.3094012637933097,
+        "task_context_std": 0.04701271001249552
+      },
+      "asymmetric_4_cell_hook|color=2|anchor=interior_lower_left|distractors=1": {
+        "all_cell_accuracy": 1.0,
+        "direct_grid_exact_accuracy": 1.0,
+        "episode_count": 288,
+        "foreground_accuracy": 1.0,
+        "foreground_exact_argmax_source_coordinate_accuracy": 1.0,
+        "foreground_mean_pointer_mass_on_unique_oracle_coordinate": 1.0,
+        "foreground_same_color_but_wrong_coordinate_rate": 0.0,
+        "hamming_error": 0.0,
+        "mean_max_pointer_probability": 0.2603082060813904,
+        "mean_pointer_entropy": 2.9387238025665283,
+        "task_context_mean": 0.0033319450449198484,
+        "task_context_norm": 2.3094012637933097,
+        "task_context_std": 0.04701271001249552
+      },
+      "asymmetric_4_cell_hook|color=2|anchor=interior_lower_left|distractors=2": {
+        "all_cell_accuracy": 1.0,
+        "direct_grid_exact_accuracy": 1.0,
+        "episode_count": 288,
+        "foreground_accuracy": 1.0,
+        "foreground_exact_argmax_source_coordinate_accuracy": 1.0,
+        "foreground_mean_pointer_mass_on_unique_oracle_coordinate": 1.0,
+        "foreground_same_color_but_wrong_coordinate_rate": 0.0,
+        "hamming_error": 0.0,
+        "mean_max_pointer_probability": 0.2603082060813904,
+        "mean_pointer_entropy": 2.9387238025665283,
+        "task_context_mean": 0.0033319450449198484,
+        "task_context_norm": 2.3094012637933097,
+        "task_context_std": 0.04701271001249552
+      },
+      "asymmetric_4_cell_hook|color=2|anchor=interior_lower_right|distractors=1": {
+        "all_cell_accuracy": 1.0,
+        "direct_grid_exact_accuracy": 1.0,
+        "episode_count": 288,
+        "foreground_accuracy": 1.0,
+        "foreground_exact_argmax_source_coordinate_accuracy": 1.0,
+        "foreground_mean_pointer_mass_on_unique_oracle_coordinate": 1.0,
+        "foreground_same_color_but_wrong_coordinate_rate": 0.0,
+        "hamming_error": 0.0,
+        "mean_max_pointer_probability": 0.2603082060813904,
+        "mean_pointer_entropy": 2.9387238025665283,
+        "task_context_mean": 0.0033319450449198484,
+        "task_context_norm": 2.3094012637933097,
+        "task_context_std": 0.04701271001249552
+      },
+      "asymmetric_4_cell_hook|color=2|anchor=interior_upper_left|distractors=1": {
+        "all_cell_accuracy": 1.0,
+        "direct_grid_exact_accuracy": 1.0,
+        "episode_count": 288,
+        "foreground_accuracy": 1.0,
+        "foreground_exact_argmax_source_coordinate_accuracy": 1.0,
+        "foreground_mean_pointer_mass_on_unique_oracle_coordinate": 1.0,
+        "foreground_same_color_but_wrong_coordinate_rate": 0.0,
+        "hamming_error": 0.0,
+        "mean_max_pointer_probability": 0.2603082060813904,
+        "mean_pointer_entropy": 2.9387238025665283,
+        "task_context_mean": 0.0033319450449198484,
+        "task_context_norm": 2.3094012637933097,
+        "task_context_std": 0.04701271001249552
+      },
+      "asymmetric_4_cell_hook|color=2|anchor=interior_upper_left|distractors=2": {
+        "all_cell_accuracy": 1.0,
+        "direct_grid_exact_accuracy": 1.0,
+        "episode_count": 288,
+        "foreground_accuracy": 1.0,
+        "foreground_exact_argmax_source_coordinate_accuracy": 1.0,
+        "foreground_mean_pointer_mass_on_unique_oracle_coordinate": 1.0,
+        "foreground_same_color_but_wrong_coordinate_rate": 0.0,
+        "hamming_error": 0.0,
+        "mean_max_pointer_probability": 0.2603082060813904,
+        "mean_pointer_entropy": 2.9387238025665283,
+        "task_context_mean": 0.0033319450449198484,
+        "task_context_norm": 2.3094012637933097,
+        "task_context_std": 0.04701271001249552
+      },
+      "asymmetric_4_cell_hook|color=2|anchor=interior_upper_right|distractors=1": {
+        "all_cell_accuracy": 1.0,
+        "direct_grid_exact_accuracy": 1.0,
+        "episode_count": 288,
+        "foreground_accuracy": 1.0,
+        "foreground_exact_argmax_source_coordinate_accuracy": 1.0,
+        "foreground_mean_pointer_mass_on_unique_oracle_coordinate": 1.0,
+        "foreground_same_color_but_wrong_coordinate_rate": 0.0,
+        "hamming_error": 0.0,
+        "mean_max_pointer_probability": 0.2603082060813904,
+        "mean_pointer_entropy": 2.9387238025665283,
+        "task_context_mean": 0.0033319450449198484,
+        "task_context_norm": 2.3094012637933097,
+        "task_context_std": 0.04701271001249552
+      },
+      "asymmetric_4_cell_hook|color=2|anchor=interior_upper_right|distractors=2": {
+        "all_cell_accuracy": 1.0,
+        "direct_grid_exact_accuracy": 1.0,
+        "episode_count": 288,
+        "foreground_accuracy": 1.0,
+        "foreground_exact_argmax_source_coordinate_accuracy": 1.0,
+        "foreground_mean_pointer_mass_on_unique_oracle_coordinate": 1.0,
+        "foreground_same_color_but_wrong_coordinate_rate": 0.0,
+        "hamming_error": 0.0,
+        "mean_max_pointer_probability": 0.2603082060813904,
+        "mean_pointer_entropy": 2.9387238025665283,
+        "task_context_mean": 0.0033319450449198484,
+        "task_context_norm": 2.3094012637933097,
+        "task_context_std": 0.04701271001249552
+      },
+      "asymmetric_4_cell_hook|color=3|anchor=interior_lower_left|distractors=1": {
+        "all_cell_accuracy": 1.0,
+        "direct_grid_exact_accuracy": 1.0,
+        "episode_count": 288,
+        "foreground_accuracy": 1.0,
+        "foreground_exact_argmax_source_coordinate_accuracy": 1.0,
+        "foreground_mean_pointer_mass_on_unique_oracle_coordinate": 1.0,
+        "foreground_same_color_but_wrong_coordinate_rate": 0.0,
+        "hamming_error": 0.0,
+        "mean_max_pointer_probability": 0.2603082060813904,
+        "mean_pointer_entropy": 2.9387238025665283,
+        "task_context_mean": 0.0033319450449198484,
+        "task_context_norm": 2.3094012637933097,
+        "task_context_std": 0.04701271001249552
+      },
+      "asymmetric_4_cell_hook|color=3|anchor=interior_lower_left|distractors=2": {
+        "all_cell_accuracy": 1.0,
+        "direct_grid_exact_accuracy": 1.0,
+        "episode_count": 288,
+        "foreground_accuracy": 1.0,
+        "foreground_exact_argmax_source_coordinate_accuracy": 1.0,
+        "foreground_mean_pointer_mass_on_unique_oracle_coordinate": 1.0,
+        "foreground_same_color_but_wrong_coordinate_rate": 0.0,
+        "hamming_error": 0.0,
+        "mean_max_pointer_probability": 0.2603082060813904,
+        "mean_pointer_entropy": 2.9387238025665283,
+        "task_context_mean": 0.0033319450449198484,
+        "task_context_norm": 2.3094012637933097,
+        "task_context_std": 0.04701271001249552
+      },
+      "asymmetric_4_cell_hook|color=3|anchor=interior_lower_right|distractors=1": {
+        "all_cell_accuracy": 1.0,
+        "direct_grid_exact_accuracy": 1.0,
+        "episode_count": 288,
+        "foreground_accuracy": 1.0,
+        "foreground_exact_argmax_source_coordinate_accuracy": 1.0,
+        "foreground_mean_pointer_mass_on_unique_oracle_coordinate": 1.0,
+        "foreground_same_color_but_wrong_coordinate_rate": 0.0,
+        "hamming_error": 0.0,
+        "mean_max_pointer_probability": 0.2603082060813904,
+        "mean_pointer_entropy": 2.9387238025665283,
+        "task_context_mean": 0.0033319450449198484,
+        "task_context_norm": 2.3094012637933097,
+        "task_context_std": 0.04701271001249552
+      },
+      "asymmetric_4_cell_hook|color=3|anchor=interior_upper_left|distractors=1": {
+        "all_cell_accuracy": 1.0,
+        "direct_grid_exact_accuracy": 1.0,
+        "episode_count": 288,
+        "foreground_accuracy": 1.0,
+        "foreground_exact_argmax_source_coordinate_accuracy": 1.0,
+        "foreground_mean_pointer_mass_on_unique_oracle_coordinate": 1.0,
+        "foreground_same_color_but_wrong_coordinate_rate": 0.0,
+        "hamming_error": 0.0,
+        "mean_max_pointer_probability": 0.2603082060813904,
+        "mean_pointer_entropy": 2.9387238025665283,
+        "task_context_mean": 0.0033319450449198484,
+        "task_context_norm": 2.3094012637933097,
+        "task_context_std": 0.04701271001249552
+      },
+      "asymmetric_4_cell_hook|color=3|anchor=interior_upper_right|distractors=1": {
+        "all_cell_accuracy": 1.0,
+        "direct_grid_exact_accuracy": 1.0,
+        "episode_count": 288,
+        "foreground_accuracy": 1.0,
+        "foreground_exact_argmax_source_coordinate_accuracy": 1.0,
+        "foreground_mean_pointer_mass_on_unique_oracle_coordinate": 1.0,
+        "foreground_same_color_but_wrong_coordinate_rate": 0.0,
+        "hamming_error": 0.0,
+        "mean_max_pointer_probability": 0.2603082060813904,
+        "mean_pointer_entropy": 2.9387238025665283,
+        "task_context_mean": 0.0033319450449198484,
+        "task_context_norm": 2.3094012637933097,
+        "task_context_std": 0.04701271001249552
+      },
+      "asymmetric_4_cell_hook|color=4|anchor=interior_lower_left|distractors=1": {
+        "all_cell_accuracy": 1.0,
+        "direct_grid_exact_accuracy": 1.0,
+        "episode_count": 288,
+        "foreground_accuracy": 1.0,
+        "foreground_exact_argmax_source_coordinate_accuracy": 1.0,
+        "foreground_mean_pointer_mass_on_unique_oracle_coordinate": 1.0,
+        "foreground_same_color_but_wrong_coordinate_rate": 0.0,
+        "hamming_error": 0.0,
+        "mean_max_pointer_probability": 0.2603082060813904,
+        "mean_pointer_entropy": 2.9387238025665283,
+        "task_context_mean": 0.0033319450449198484,
+        "task_context_norm": 2.3094012637933097,
+        "task_context_std": 0.04701271001249552
+      },
+      "asymmetric_4_cell_hook|color=4|anchor=interior_lower_right|distractors=2": {
+        "all_cell_accuracy": 1.0,
+        "direct_grid_exact_accuracy": 1.0,
+        "episode_count": 288,
+        "foreground_accuracy": 1.0,
+        "foreground_exact_argmax_source_coordinate_accuracy": 1.0,
+        "foreground_mean_pointer_mass_on_unique_oracle_coordinate": 1.0,
+        "foreground_same_color_but_wrong_coordinate_rate": 0.0,
+        "hamming_error": 0.0,
+        "mean_max_pointer_probability": 0.2603082060813904,
+        "mean_pointer_entropy": 2.9387238025665283,
+        "task_context_mean": 0.0033319450449198484,
+        "task_context_norm": 2.3094012637933097,
+        "task_context_std": 0.04701271001249552
+      },
+      "asymmetric_4_cell_hook|color=4|anchor=interior_upper_left|distractors=1": {
+        "all_cell_accuracy": 1.0,
+        "direct_grid_exact_accuracy": 1.0,
+        "episode_count": 288,
+        "foreground_accuracy": 1.0,
+        "foreground_exact_argmax_source_coordinate_accuracy": 1.0,
+        "foreground_mean_pointer_mass_on_unique_oracle_coordinate": 1.0,
+        "foreground_same_color_but_wrong_coordinate_rate": 0.0,
+        "hamming_error": 0.0,
+        "mean_max_pointer_probability": 0.2603082060813904,
+        "mean_pointer_entropy": 2.9387238025665283,
+        "task_context_mean": 0.0033319450449198484,
+        "task_context_norm": 2.3094012637933097,
+        "task_context_std": 0.04701271001249552
+      },
+      "asymmetric_4_cell_hook|color=4|anchor=interior_upper_left|distractors=2": {
+        "all_cell_accuracy": 1.0,
+        "direct_grid_exact_accuracy": 1.0,
+        "episode_count": 288,
+        "foreground_accuracy": 1.0,
+        "foreground_exact_argmax_source_coordinate_accuracy": 1.0,
+        "foreground_mean_pointer_mass_on_unique_oracle_coordinate": 1.0,
+        "foreground_same_color_but_wrong_coordinate_rate": 0.0,
+        "hamming_error": 0.0,
+        "mean_max_pointer_probability": 0.2603082060813904,
+        "mean_pointer_entropy": 2.9387238025665283,
+        "task_context_mean": 0.0033319450449198484,
+        "task_context_norm": 2.3094012637933097,
+        "task_context_std": 0.04701271001249552
+      },
+      "asymmetric_4_cell_hook|color=4|anchor=interior_upper_right|distractors=2": {
+        "all_cell_accuracy": 1.0,
+        "direct_grid_exact_accuracy": 1.0,
+        "episode_count": 288,
+        "foreground_accuracy": 1.0,
+        "foreground_exact_argmax_source_coordinate_accuracy": 1.0,
+        "foreground_mean_pointer_mass_on_unique_oracle_coordinate": 1.0,
+        "foreground_same_color_but_wrong_coordinate_rate": 0.0,
+        "hamming_error": 0.0,
+        "mean_max_pointer_probability": 0.2603082060813904,
+        "mean_pointer_entropy": 2.9387238025665283,
+        "task_context_mean": 0.0033319450449198484,
+        "task_context_norm": 2.3094012637933097,
+        "task_context_std": 0.04701271001249552
+      }
+    }
+  },
+  "by_visual_stratum": {
+    "SEALED_VISUAL_TYPES": {
+      "all_cell_accuracy": 1.0,
+      "direct_grid_exact_accuracy": 1.0,
+      "episode_count": 6912,
+      "foreground_accuracy": 1.0,
+      "foreground_exact_argmax_source_coordinate_accuracy": 1.0,
+      "foreground_mean_pointer_mass_on_unique_oracle_coordinate": 1.0,
+      "foreground_same_color_but_wrong_coordinate_rate": 0.0,
+      "hamming_error": 0.0,
+      "mean_max_pointer_probability": 0.2603082060813904,
+      "mean_pointer_entropy": 2.9387238025665283,
+      "task_context_mean": 0.0033319450449198484,
+      "task_context_norm": 2.3094012637933097,
+      "task_context_std": 0.04701271001249552
+    },
+    "TRAIN_VISIBLE_VISUAL_TYPES": {
+      "all_cell_accuracy": 1.0,
+      "direct_grid_exact_accuracy": 1.0,
+      "episode_count": 23040,
+      "foreground_accuracy": 1.0,
+      "foreground_exact_argmax_source_coordinate_accuracy": 1.0,
+      "foreground_mean_pointer_mass_on_unique_oracle_coordinate": 1.0,
+      "foreground_same_color_but_wrong_coordinate_rate": 0.0,
+      "hamming_error": 0.0,
+      "mean_max_pointer_probability": 0.2603082060813904,
+      "mean_pointer_entropy": 2.9387238025665283,
+      "task_context_mean": 0.0033319450449198484,
+      "task_context_norm": 2.3094012637933097,
+      "task_context_std": 0.04701271001249552
+    }
+  },
+  "by_visual_stratum_and_T_count": {
+    "SEALED_VISUAL_TYPES": {
+      "0": {
+        "all_cell_accuracy": 1.0,
+        "direct_grid_exact_accuracy": 1.0,
+        "episode_count": 1152,
+        "foreground_accuracy": 1.0,
+        "foreground_exact_argmax_source_coordinate_accuracy": 1.0,
+        "foreground_mean_pointer_mass_on_unique_oracle_coordinate": 1.0,
+        "foreground_same_color_but_wrong_coordinate_rate": 0.0,
+        "hamming_error": 0.0,
+        "mean_max_pointer_probability": 0.2603082060813904,
+        "mean_pointer_entropy": 2.9387238025665283,
+        "task_context_mean": 0.0033319450449198484,
+        "task_context_norm": 2.309401273727417,
+        "task_context_std": 0.04701271001249552
+      },
+      "1": {
+        "all_cell_accuracy": 1.0,
+        "direct_grid_exact_accuracy": 1.0,
+        "episode_count": 5184,
+        "foreground_accuracy": 1.0,
+        "foreground_exact_argmax_source_coordinate_accuracy": 1.0,
+        "foreground_mean_pointer_mass_on_unique_oracle_coordinate": 1.0,
+        "foreground_same_color_but_wrong_coordinate_rate": 0.0,
+        "hamming_error": 0.0,
+        "mean_max_pointer_probability": 0.2603082060813904,
+        "mean_pointer_entropy": 2.9387238025665283,
+        "task_context_mean": 0.0033319450449198484,
+        "task_context_norm": 2.3094012604819403,
+        "task_context_std": 0.04701270990901523
+      },
+      "2": {
+        "all_cell_accuracy": 1.0,
+        "direct_grid_exact_accuracy": 1.0,
+        "episode_count": 576,
+        "foreground_accuracy": 1.0,
+        "foreground_exact_argmax_source_coordinate_accuracy": 1.0,
+        "foreground_mean_pointer_mass_on_unique_oracle_coordinate": 1.0,
+        "foreground_same_color_but_wrong_coordinate_rate": 0.0,
+        "hamming_error": 0.0,
+        "mean_max_pointer_probability": 0.2603082060813904,
+        "mean_pointer_entropy": 2.9387238025665283,
+        "task_context_mean": 0.0033319450449198484,
+        "task_context_norm": 2.309401273727417,
+        "task_context_std": 0.04701271094381809
+      }
+    },
+    "TRAIN_VISIBLE_VISUAL_TYPES": {
+      "0": {
+        "all_cell_accuracy": 1.0,
+        "direct_grid_exact_accuracy": 1.0,
+        "episode_count": 3840,
+        "foreground_accuracy": 1.0,
+        "foreground_exact_argmax_source_coordinate_accuracy": 1.0,
+        "foreground_mean_pointer_mass_on_unique_oracle_coordinate": 1.0,
+        "foreground_same_color_but_wrong_coordinate_rate": 0.0,
+        "hamming_error": 0.0,
+        "mean_max_pointer_probability": 0.2603082060813904,
+        "mean_pointer_entropy": 2.9387238025665283,
+        "task_context_mean": 0.0033319450449198484,
+        "task_context_norm": 2.309401273727417,
+        "task_context_std": 0.04701271001249552
+      },
+      "1": {
+        "all_cell_accuracy": 1.0,
+        "direct_grid_exact_accuracy": 1.0,
+        "episode_count": 17280,
+        "foreground_accuracy": 1.0,
+        "foreground_exact_argmax_source_coordinate_accuracy": 1.0,
+        "foreground_mean_pointer_mass_on_unique_oracle_coordinate": 1.0,
+        "foreground_same_color_but_wrong_coordinate_rate": 0.0,
+        "hamming_error": 0.0,
+        "mean_max_pointer_probability": 0.2603082060813904,
+        "mean_pointer_entropy": 2.9387238025665283,
+        "task_context_mean": 0.0033319450449198484,
+        "task_context_norm": 2.3094012604819403,
+        "task_context_std": 0.04701270990901523
+      },
+      "2": {
+        "all_cell_accuracy": 1.0,
+        "direct_grid_exact_accuracy": 1.0,
+        "episode_count": 1920,
+        "foreground_accuracy": 1.0,
+        "foreground_exact_argmax_source_coordinate_accuracy": 1.0,
+        "foreground_mean_pointer_mass_on_unique_oracle_coordinate": 1.0,
+        "foreground_same_color_but_wrong_coordinate_rate": 0.0,
+        "hamming_error": 0.0,
+        "mean_max_pointer_probability": 0.2603082060813904,
+        "mean_pointer_entropy": 2.9387238025665283,
+        "task_context_mean": 0.0033319450449198484,
+        "task_context_norm": 2.309401273727417,
+        "task_context_std": 0.04701271094381809
+      }
+    }
+  },
+  "by_visual_stratum_and_canonical_function": {
+    "SEALED_VISUAL_TYPES": {
+      "CCC": {
+        "affine_signature": {
+          "A": [
+            [
+              0,
+              1
+            ],
+            [
+              -1,
+              0
+            ]
+          ],
+          "affine_key": "{\"A\":[[0,1],[-1,0]],\"b\":[0,6]}",
+          "b": [
+            0,
+            6
+          ],
+          "number_of_T_applications": 0,
+          "sequence_class": "C->C->C",
+          "word": "CCC"
+        },
+        "all_cell_accuracy": 1.0,
+        "direct_grid_exact_accuracy": 1.0,
+        "episode_count": 576,
+        "foreground_accuracy": 1.0,
+        "foreground_exact_argmax_source_coordinate_accuracy": 1.0,
+        "foreground_mean_pointer_mass_on_unique_oracle_coordinate": 1.0,
+        "foreground_same_color_but_wrong_coordinate_rate": 0.0,
+        "hamming_error": 0.0,
+        "mean_max_pointer_probability": 0.2603082060813904,
+        "mean_pointer_entropy": 2.9387238025665283,
+        "task_context_mean": 0.0033319450449198484,
+        "task_context_norm": 2.309401273727417,
+        "task_context_std": 0.04701271094381809
+      },
+      "CCF": {
+        "affine_signature": {
+          "A": [
+            [
+              1,
+              0
+            ],
+            [
+              0,
+              -1
+            ]
+          ],
+          "affine_key": "{\"A\":[[1,0],[0,-1]],\"b\":[0,6]}",
+          "b": [
+            0,
+            6
+          ],
+          "number_of_T_applications": 0,
+          "sequence_class": "C->C->F",
+          "word": "CCF"
+        },
+        "all_cell_accuracy": 1.0,
+        "direct_grid_exact_accuracy": 1.0,
+        "episode_count": 576,
+        "foreground_accuracy": 1.0,
+        "foreground_exact_argmax_source_coordinate_accuracy": 1.0,
+        "foreground_mean_pointer_mass_on_unique_oracle_coordinate": 1.0,
+        "foreground_same_color_but_wrong_coordinate_rate": 0.0,
+        "hamming_error": 0.0,
+        "mean_max_pointer_probability": 0.2603082060813904,
+        "mean_pointer_entropy": 2.9387238025665283,
+        "task_context_mean": 0.0033319450449198484,
+        "task_context_norm": 2.309401273727417,
+        "task_context_std": 0.04701270908117294
+      },
+      "CCT": {
+        "affine_signature": {
+          "A": [
+            [
+              -1,
+              0
+            ],
+            [
+              0,
+              -1
+            ]
+          ],
+          "affine_key": "{\"A\":[[-1,0],[0,-1]],\"b\":[7,6]}",
+          "b": [
+            7,
+            6
+          ],
+          "number_of_T_applications": 1,
+          "sequence_class": "C->C->T",
+          "word": "CCT"
+        },
+        "all_cell_accuracy": 1.0,
+        "direct_grid_exact_accuracy": 1.0,
+        "episode_count": 576,
+        "foreground_accuracy": 1.0,
+        "foreground_exact_argmax_source_coordinate_accuracy": 1.0,
+        "foreground_mean_pointer_mass_on_unique_oracle_coordinate": 1.0,
+        "foreground_same_color_but_wrong_coordinate_rate": 0.0,
+        "hamming_error": 0.0,
+        "mean_max_pointer_probability": 0.2603082060813904,
+        "mean_pointer_entropy": 2.9387238025665283,
+        "task_context_mean": 0.0033319450449198484,
+        "task_context_norm": 2.309401273727417,
+        "task_context_std": 0.04701270908117294
+      },
+      "CTC": {
+        "affine_signature": {
+          "A": [
+            [
+              -1,
+              0
+            ],
+            [
+              0,
+              -1
+            ]
+          ],
+          "affine_key": "{\"A\":[[-1,0],[0,-1]],\"b\":[6,7]}",
+          "b": [
+            6,
+            7
+          ],
+          "number_of_T_applications": 1,
+          "sequence_class": "C->T->C",
+          "word": "CTC"
+        },
+        "all_cell_accuracy": 1.0,
+        "direct_grid_exact_accuracy": 1.0,
+        "episode_count": 576,
+        "foreground_accuracy": 1.0,
+        "foreground_exact_argmax_source_coordinate_accuracy": 1.0,
+        "foreground_mean_pointer_mass_on_unique_oracle_coordinate": 1.0,
+        "foreground_same_color_but_wrong_coordinate_rate": 0.0,
+        "hamming_error": 0.0,
+        "mean_max_pointer_probability": 0.2603082060813904,
+        "mean_pointer_entropy": 2.9387238025665283,
+        "task_context_mean": 0.0033319450449198484,
+        "task_context_norm": 2.309401273727417,
+        "task_context_std": 0.04701270908117294
+      },
+      "CTF": {
+        "affine_signature": {
+          "A": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "affine_key": "{\"A\":[[0,1],[1,0]],\"b\":[-1,0]}",
+          "b": [
+            -1,
+            0
+          ],
+          "number_of_T_applications": 1,
+          "sequence_class": "C->T->F",
+          "word": "CTF"
+        },
+        "all_cell_accuracy": 1.0,
+        "direct_grid_exact_accuracy": 1.0,
+        "episode_count": 576,
+        "foreground_accuracy": 1.0,
+        "foreground_exact_argmax_source_coordinate_accuracy": 1.0,
+        "foreground_mean_pointer_mass_on_unique_oracle_coordinate": 1.0,
+        "foreground_same_color_but_wrong_coordinate_rate": 0.0,
+        "hamming_error": 0.0,
+        "mean_max_pointer_probability": 0.2603082060813904,
+        "mean_pointer_entropy": 2.9387238025665283,
+        "task_context_mean": 0.0033319450449198484,
+        "task_context_norm": 2.309401273727417,
+        "task_context_std": 0.04701270908117294
+      },
+      "FCT": {
+        "affine_signature": {
+          "A": [
+            [
+              0,
+              -1
+            ],
+            [
+              -1,
+              0
+            ]
+          ],
+          "affine_key": "{\"A\":[[0,-1],[-1,0]],\"b\":[7,6]}",
+          "b": [
+            7,
+            6
+          ],
+          "number_of_T_applications": 1,
+          "sequence_class": "F->C->T",
+          "word": "FCT"
+        },
+        "all_cell_accuracy": 1.0,
+        "direct_grid_exact_accuracy": 1.0,
+        "episode_count": 576,
+        "foreground_accuracy": 1.0,
+        "foreground_exact_argmax_source_coordinate_accuracy": 1.0,
+        "foreground_mean_pointer_mass_on_unique_oracle_coordinate": 1.0,
+        "foreground_same_color_but_wrong_coordinate_rate": 0.0,
+        "hamming_error": 0.0,
+        "mean_max_pointer_probability": 0.2603082060813904,
+        "mean_pointer_entropy": 2.9387238025665283,
+        "task_context_mean": 0.0033319450449198484,
+        "task_context_norm": 2.309401273727417,
+        "task_context_std": 0.04701271094381809
+      },
+      "FTC": {
+        "affine_signature": {
+          "A": [
+            [
+              0,
+              -1
+            ],
+            [
+              -1,
+              0
+            ]
+          ],
+          "affine_key": "{\"A\":[[0,-1],[-1,0]],\"b\":[6,7]}",
+          "b": [
+            6,
+            7
+          ],
+          "number_of_T_applications": 1,
+          "sequence_class": "F->T->C",
+          "word": "FTC"
+        },
+        "all_cell_accuracy": 1.0,
+        "direct_grid_exact_accuracy": 1.0,
+        "episode_count": 576,
+        "foreground_accuracy": 1.0,
+        "foreground_exact_argmax_source_coordinate_accuracy": 1.0,
+        "foreground_mean_pointer_mass_on_unique_oracle_coordinate": 1.0,
+        "foreground_same_color_but_wrong_coordinate_rate": 0.0,
+        "hamming_error": 0.0,
+        "mean_max_pointer_probability": 0.2603082060813904,
+        "mean_pointer_entropy": 2.9387238025665283,
+        "task_context_mean": 0.0033319450449198484,
+        "task_context_norm": 2.309401273727417,
+        "task_context_std": 0.04701271094381809
+      },
+      "FTF": {
+        "affine_signature": {
+          "A": [
+            [
+              1,
+              0
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "affine_key": "{\"A\":[[1,0],[0,1]],\"b\":[-1,0]}",
+          "b": [
+            -1,
+            0
+          ],
+          "number_of_T_applications": 1,
+          "sequence_class": "F->T->F",
+          "word": "FTF"
+        },
+        "all_cell_accuracy": 1.0,
+        "direct_grid_exact_accuracy": 1.0,
+        "episode_count": 576,
+        "foreground_accuracy": 1.0,
+        "foreground_exact_argmax_source_coordinate_accuracy": 1.0,
+        "foreground_mean_pointer_mass_on_unique_oracle_coordinate": 1.0,
+        "foreground_same_color_but_wrong_coordinate_rate": 0.0,
+        "hamming_error": 0.0,
+        "mean_max_pointer_probability": 0.2603082060813904,
+        "mean_pointer_entropy": 2.9387238025665283,
+        "task_context_mean": 0.0033319450449198484,
+        "task_context_norm": 2.3094011545181274,
+        "task_context_std": 0.04701271094381809
+      },
+      "TCC": {
+        "affine_signature": {
+          "A": [
+            [
+              -1,
+              0
+            ],
+            [
+              0,
+              -1
+            ]
+          ],
+          "affine_key": "{\"A\":[[-1,0],[0,-1]],\"b\":[5,6]}",
+          "b": [
+            5,
+            6
+          ],
+          "number_of_T_applications": 1,
+          "sequence_class": "T->C->C",
+          "word": "TCC"
+        },
+        "all_cell_accuracy": 1.0,
+        "direct_grid_exact_accuracy": 1.0,
+        "episode_count": 576,
+        "foreground_accuracy": 1.0,
+        "foreground_exact_argmax_source_coordinate_accuracy": 1.0,
+        "foreground_mean_pointer_mass_on_unique_oracle_coordinate": 1.0,
+        "foreground_same_color_but_wrong_coordinate_rate": 0.0,
+        "hamming_error": 0.0,
+        "mean_max_pointer_probability": 0.2603082060813904,
+        "mean_pointer_entropy": 2.9387238025665283,
+        "task_context_mean": 0.0033319450449198484,
+        "task_context_norm": 2.309401273727417,
+        "task_context_std": 0.04701270908117294
+      },
+      "TCF": {
+        "affine_signature": {
+          "A": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "affine_key": "{\"A\":[[0,1],[1,0]],\"b\":[0,1]}",
+          "b": [
+            0,
+            1
+          ],
+          "number_of_T_applications": 1,
+          "sequence_class": "T->C->F",
+          "word": "TCF"
+        },
+        "all_cell_accuracy": 1.0,
+        "direct_grid_exact_accuracy": 1.0,
+        "episode_count": 576,
+        "foreground_accuracy": 1.0,
+        "foreground_exact_argmax_source_coordinate_accuracy": 1.0,
+        "foreground_mean_pointer_mass_on_unique_oracle_coordinate": 1.0,
+        "foreground_same_color_but_wrong_coordinate_rate": 0.0,
+        "hamming_error": 0.0,
+        "mean_max_pointer_probability": 0.2603082060813904,
+        "mean_pointer_entropy": 2.9387238025665283,
+        "task_context_mean": 0.0033319450449198484,
+        "task_context_norm": 2.309401273727417,
+        "task_context_std": 0.04701270908117294
+      },
+      "TCT": {
+        "affine_signature": {
+          "A": [
+            [
+              0,
+              -1
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "affine_key": "{\"A\":[[0,-1],[1,0]],\"b\":[7,1]}",
+          "b": [
+            7,
+            1
+          ],
+          "number_of_T_applications": 2,
+          "sequence_class": "T->C->T",
+          "word": "TCT"
+        },
+        "all_cell_accuracy": 1.0,
+        "direct_grid_exact_accuracy": 1.0,
+        "episode_count": 576,
+        "foreground_accuracy": 1.0,
+        "foreground_exact_argmax_source_coordinate_accuracy": 1.0,
+        "foreground_mean_pointer_mass_on_unique_oracle_coordinate": 1.0,
+        "foreground_same_color_but_wrong_coordinate_rate": 0.0,
+        "hamming_error": 0.0,
+        "mean_max_pointer_probability": 0.2603082060813904,
+        "mean_pointer_entropy": 2.9387238025665283,
+        "task_context_mean": 0.0033319450449198484,
+        "task_context_norm": 2.309401273727417,
+        "task_context_std": 0.04701271094381809
+      },
+      "TFC": {
+        "affine_signature": {
+          "A": [
+            [
+              0,
+              -1
+            ],
+            [
+              -1,
+              0
+            ]
+          ],
+          "affine_key": "{\"A\":[[0,-1],[-1,0]],\"b\":[6,5]}",
+          "b": [
+            6,
+            5
+          ],
+          "number_of_T_applications": 1,
+          "sequence_class": "T->F->C",
+          "word": "TFC"
+        },
+        "all_cell_accuracy": 1.0,
+        "direct_grid_exact_accuracy": 1.0,
+        "episode_count": 576,
+        "foreground_accuracy": 1.0,
+        "foreground_exact_argmax_source_coordinate_accuracy": 1.0,
+        "foreground_mean_pointer_mass_on_unique_oracle_coordinate": 1.0,
+        "foreground_same_color_but_wrong_coordinate_rate": 0.0,
+        "hamming_error": 0.0,
+        "mean_max_pointer_probability": 0.2603082060813904,
+        "mean_pointer_entropy": 2.9387238025665283,
+        "task_context_mean": 0.0033319450449198484,
+        "task_context_norm": 2.309401273727417,
+        "task_context_std": 0.04701271094381809
+      }
+    },
+    "TRAIN_VISIBLE_VISUAL_TYPES": {
+      "CCC": {
+        "affine_signature": {
+          "A": [
+            [
+              0,
+              1
+            ],
+            [
+              -1,
+              0
+            ]
+          ],
+          "affine_key": "{\"A\":[[0,1],[-1,0]],\"b\":[0,6]}",
+          "b": [
+            0,
+            6
+          ],
+          "number_of_T_applications": 0,
+          "sequence_class": "C->C->C",
+          "word": "CCC"
+        },
+        "all_cell_accuracy": 1.0,
+        "direct_grid_exact_accuracy": 1.0,
+        "episode_count": 1920,
+        "foreground_accuracy": 1.0,
+        "foreground_exact_argmax_source_coordinate_accuracy": 1.0,
+        "foreground_mean_pointer_mass_on_unique_oracle_coordinate": 1.0,
+        "foreground_same_color_but_wrong_coordinate_rate": 0.0,
+        "hamming_error": 0.0,
+        "mean_max_pointer_probability": 0.2603082060813904,
+        "mean_pointer_entropy": 2.9387238025665283,
+        "task_context_mean": 0.0033319450449198484,
+        "task_context_norm": 2.309401273727417,
+        "task_context_std": 0.04701271094381809
+      },
+      "CCF": {
+        "affine_signature": {
+          "A": [
+            [
+              1,
+              0
+            ],
+            [
+              0,
+              -1
+            ]
+          ],
+          "affine_key": "{\"A\":[[1,0],[0,-1]],\"b\":[0,6]}",
+          "b": [
+            0,
+            6
+          ],
+          "number_of_T_applications": 0,
+          "sequence_class": "C->C->F",
+          "word": "CCF"
+        },
+        "all_cell_accuracy": 1.0,
+        "direct_grid_exact_accuracy": 1.0,
+        "episode_count": 1920,
+        "foreground_accuracy": 1.0,
+        "foreground_exact_argmax_source_coordinate_accuracy": 1.0,
+        "foreground_mean_pointer_mass_on_unique_oracle_coordinate": 1.0,
+        "foreground_same_color_but_wrong_coordinate_rate": 0.0,
+        "hamming_error": 0.0,
+        "mean_max_pointer_probability": 0.2603082060813904,
+        "mean_pointer_entropy": 2.9387238025665283,
+        "task_context_mean": 0.0033319450449198484,
+        "task_context_norm": 2.309401273727417,
+        "task_context_std": 0.04701270908117294
+      },
+      "CCT": {
+        "affine_signature": {
+          "A": [
+            [
+              -1,
+              0
+            ],
+            [
+              0,
+              -1
+            ]
+          ],
+          "affine_key": "{\"A\":[[-1,0],[0,-1]],\"b\":[7,6]}",
+          "b": [
+            7,
+            6
+          ],
+          "number_of_T_applications": 1,
+          "sequence_class": "C->C->T",
+          "word": "CCT"
+        },
+        "all_cell_accuracy": 1.0,
+        "direct_grid_exact_accuracy": 1.0,
+        "episode_count": 1920,
+        "foreground_accuracy": 1.0,
+        "foreground_exact_argmax_source_coordinate_accuracy": 1.0,
+        "foreground_mean_pointer_mass_on_unique_oracle_coordinate": 1.0,
+        "foreground_same_color_but_wrong_coordinate_rate": 0.0,
+        "hamming_error": 0.0,
+        "mean_max_pointer_probability": 0.2603082060813904,
+        "mean_pointer_entropy": 2.9387238025665283,
+        "task_context_mean": 0.0033319450449198484,
+        "task_context_norm": 2.309401273727417,
+        "task_context_std": 0.04701270908117294
+      },
+      "CTC": {
+        "affine_signature": {
+          "A": [
+            [
+              -1,
+              0
+            ],
+            [
+              0,
+              -1
+            ]
+          ],
+          "affine_key": "{\"A\":[[-1,0],[0,-1]],\"b\":[6,7]}",
+          "b": [
+            6,
+            7
+          ],
+          "number_of_T_applications": 1,
+          "sequence_class": "C->T->C",
+          "word": "CTC"
+        },
+        "all_cell_accuracy": 1.0,
+        "direct_grid_exact_accuracy": 1.0,
+        "episode_count": 1920,
+        "foreground_accuracy": 1.0,
+        "foreground_exact_argmax_source_coordinate_accuracy": 1.0,
+        "foreground_mean_pointer_mass_on_unique_oracle_coordinate": 1.0,
+        "foreground_same_color_but_wrong_coordinate_rate": 0.0,
+        "hamming_error": 0.0,
+        "mean_max_pointer_probability": 0.2603082060813904,
+        "mean_pointer_entropy": 2.9387238025665283,
+        "task_context_mean": 0.0033319450449198484,
+        "task_context_norm": 2.309401273727417,
+        "task_context_std": 0.04701270908117294
+      },
+      "CTF": {
+        "affine_signature": {
+          "A": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "affine_key": "{\"A\":[[0,1],[1,0]],\"b\":[-1,0]}",
+          "b": [
+            -1,
+            0
+          ],
+          "number_of_T_applications": 1,
+          "sequence_class": "C->T->F",
+          "word": "CTF"
+        },
+        "all_cell_accuracy": 1.0,
+        "direct_grid_exact_accuracy": 1.0,
+        "episode_count": 1920,
+        "foreground_accuracy": 1.0,
+        "foreground_exact_argmax_source_coordinate_accuracy": 1.0,
+        "foreground_mean_pointer_mass_on_unique_oracle_coordinate": 1.0,
+        "foreground_same_color_but_wrong_coordinate_rate": 0.0,
+        "hamming_error": 0.0,
+        "mean_max_pointer_probability": 0.2603082060813904,
+        "mean_pointer_entropy": 2.9387238025665283,
+        "task_context_mean": 0.0033319450449198484,
+        "task_context_norm": 2.309401273727417,
+        "task_context_std": 0.04701270908117294
+      },
+      "FCT": {
+        "affine_signature": {
+          "A": [
+            [
+              0,
+              -1
+            ],
+            [
+              -1,
+              0
+            ]
+          ],
+          "affine_key": "{\"A\":[[0,-1],[-1,0]],\"b\":[7,6]}",
+          "b": [
+            7,
+            6
+          ],
+          "number_of_T_applications": 1,
+          "sequence_class": "F->C->T",
+          "word": "FCT"
+        },
+        "all_cell_accuracy": 1.0,
+        "direct_grid_exact_accuracy": 1.0,
+        "episode_count": 1920,
+        "foreground_accuracy": 1.0,
+        "foreground_exact_argmax_source_coordinate_accuracy": 1.0,
+        "foreground_mean_pointer_mass_on_unique_oracle_coordinate": 1.0,
+        "foreground_same_color_but_wrong_coordinate_rate": 0.0,
+        "hamming_error": 0.0,
+        "mean_max_pointer_probability": 0.2603082060813904,
+        "mean_pointer_entropy": 2.9387238025665283,
+        "task_context_mean": 0.0033319450449198484,
+        "task_context_norm": 2.309401273727417,
+        "task_context_std": 0.04701271094381809
+      },
+      "FTC": {
+        "affine_signature": {
+          "A": [
+            [
+              0,
+              -1
+            ],
+            [
+              -1,
+              0
+            ]
+          ],
+          "affine_key": "{\"A\":[[0,-1],[-1,0]],\"b\":[6,7]}",
+          "b": [
+            6,
+            7
+          ],
+          "number_of_T_applications": 1,
+          "sequence_class": "F->T->C",
+          "word": "FTC"
+        },
+        "all_cell_accuracy": 1.0,
+        "direct_grid_exact_accuracy": 1.0,
+        "episode_count": 1920,
+        "foreground_accuracy": 1.0,
+        "foreground_exact_argmax_source_coordinate_accuracy": 1.0,
+        "foreground_mean_pointer_mass_on_unique_oracle_coordinate": 1.0,
+        "foreground_same_color_but_wrong_coordinate_rate": 0.0,
+        "hamming_error": 0.0,
+        "mean_max_pointer_probability": 0.2603082060813904,
+        "mean_pointer_entropy": 2.9387238025665283,
+        "task_context_mean": 0.0033319450449198484,
+        "task_context_norm": 2.309401273727417,
+        "task_context_std": 0.04701271094381809
+      },
+      "FTF": {
+        "affine_signature": {
+          "A": [
+            [
+              1,
+              0
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "affine_key": "{\"A\":[[1,0],[0,1]],\"b\":[-1,0]}",
+          "b": [
+            -1,
+            0
+          ],
+          "number_of_T_applications": 1,
+          "sequence_class": "F->T->F",
+          "word": "FTF"
+        },
+        "all_cell_accuracy": 1.0,
+        "direct_grid_exact_accuracy": 1.0,
+        "episode_count": 1920,
+        "foreground_accuracy": 1.0,
+        "foreground_exact_argmax_source_coordinate_accuracy": 1.0,
+        "foreground_mean_pointer_mass_on_unique_oracle_coordinate": 1.0,
+        "foreground_same_color_but_wrong_coordinate_rate": 0.0,
+        "hamming_error": 0.0,
+        "mean_max_pointer_probability": 0.2603082060813904,
+        "mean_pointer_entropy": 2.9387238025665283,
+        "task_context_mean": 0.0033319450449198484,
+        "task_context_norm": 2.3094011545181274,
+        "task_context_std": 0.04701271094381809
+      },
+      "TCC": {
+        "affine_signature": {
+          "A": [
+            [
+              -1,
+              0
+            ],
+            [
+              0,
+              -1
+            ]
+          ],
+          "affine_key": "{\"A\":[[-1,0],[0,-1]],\"b\":[5,6]}",
+          "b": [
+            5,
+            6
+          ],
+          "number_of_T_applications": 1,
+          "sequence_class": "T->C->C",
+          "word": "TCC"
+        },
+        "all_cell_accuracy": 1.0,
+        "direct_grid_exact_accuracy": 1.0,
+        "episode_count": 1920,
+        "foreground_accuracy": 1.0,
+        "foreground_exact_argmax_source_coordinate_accuracy": 1.0,
+        "foreground_mean_pointer_mass_on_unique_oracle_coordinate": 1.0,
+        "foreground_same_color_but_wrong_coordinate_rate": 0.0,
+        "hamming_error": 0.0,
+        "mean_max_pointer_probability": 0.2603082060813904,
+        "mean_pointer_entropy": 2.9387238025665283,
+        "task_context_mean": 0.0033319450449198484,
+        "task_context_norm": 2.309401273727417,
+        "task_context_std": 0.04701270908117294
+      },
+      "TCF": {
+        "affine_signature": {
+          "A": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "affine_key": "{\"A\":[[0,1],[1,0]],\"b\":[0,1]}",
+          "b": [
+            0,
+            1
+          ],
+          "number_of_T_applications": 1,
+          "sequence_class": "T->C->F",
+          "word": "TCF"
+        },
+        "all_cell_accuracy": 1.0,
+        "direct_grid_exact_accuracy": 1.0,
+        "episode_count": 1920,
+        "foreground_accuracy": 1.0,
+        "foreground_exact_argmax_source_coordinate_accuracy": 1.0,
+        "foreground_mean_pointer_mass_on_unique_oracle_coordinate": 1.0,
+        "foreground_same_color_but_wrong_coordinate_rate": 0.0,
+        "hamming_error": 0.0,
+        "mean_max_pointer_probability": 0.2603082060813904,
+        "mean_pointer_entropy": 2.9387238025665283,
+        "task_context_mean": 0.0033319450449198484,
+        "task_context_norm": 2.309401273727417,
+        "task_context_std": 0.04701270908117294
+      },
+      "TCT": {
+        "affine_signature": {
+          "A": [
+            [
+              0,
+              -1
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "affine_key": "{\"A\":[[0,-1],[1,0]],\"b\":[7,1]}",
+          "b": [
+            7,
+            1
+          ],
+          "number_of_T_applications": 2,
+          "sequence_class": "T->C->T",
+          "word": "TCT"
+        },
+        "all_cell_accuracy": 1.0,
+        "direct_grid_exact_accuracy": 1.0,
+        "episode_count": 1920,
+        "foreground_accuracy": 1.0,
+        "foreground_exact_argmax_source_coordinate_accuracy": 1.0,
+        "foreground_mean_pointer_mass_on_unique_oracle_coordinate": 1.0,
+        "foreground_same_color_but_wrong_coordinate_rate": 0.0,
+        "hamming_error": 0.0,
+        "mean_max_pointer_probability": 0.2603082060813904,
+        "mean_pointer_entropy": 2.9387238025665283,
+        "task_context_mean": 0.0033319450449198484,
+        "task_context_norm": 2.309401273727417,
+        "task_context_std": 0.04701271094381809
+      },
+      "TFC": {
+        "affine_signature": {
+          "A": [
+            [
+              0,
+              -1
+            ],
+            [
+              -1,
+              0
+            ]
+          ],
+          "affine_key": "{\"A\":[[0,-1],[-1,0]],\"b\":[6,5]}",
+          "b": [
+            6,
+            5
+          ],
+          "number_of_T_applications": 1,
+          "sequence_class": "T->F->C",
+          "word": "TFC"
+        },
+        "all_cell_accuracy": 1.0,
+        "direct_grid_exact_accuracy": 1.0,
+        "episode_count": 1920,
+        "foreground_accuracy": 1.0,
+        "foreground_exact_argmax_source_coordinate_accuracy": 1.0,
+        "foreground_mean_pointer_mass_on_unique_oracle_coordinate": 1.0,
+        "foreground_same_color_but_wrong_coordinate_rate": 0.0,
+        "hamming_error": 0.0,
+        "mean_max_pointer_probability": 0.2603082060813904,
+        "mean_pointer_entropy": 2.9387238025665283,
+        "task_context_mean": 0.0033319450449198484,
+        "task_context_norm": 2.309401273727417,
+        "task_context_std": 0.04701271094381809
+      }
+    }
+  },
+  "grad_enabled_inside_no_grad_inference": false,
+  "macro_exact_by_visual_stratum": {
+    "SEALED_VISUAL_TYPES": 1.0,
+    "TRAIN_VISIBLE_VISUAL_TYPES": 1.0
+  },
+  "record_count": 29952,
+  "requires_grad_false_during_inference": true,
+  "worst_visual_query_type_exact_by_stratum": {
+    "SEALED_VISUAL_TYPES": 1.0,
+    "TRAIN_VISIBLE_VISUAL_TYPES": 1.0
+  }
+}

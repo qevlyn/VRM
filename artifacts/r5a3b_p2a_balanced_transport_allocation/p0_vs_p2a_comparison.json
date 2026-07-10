@@ -1,0 +1,191 @@
+{
+  "allocation_exposure_gate_status": "PASS",
+  "audit_version": "R5A3B_P2A_BALANCED_RELATION_TRANSPORT_ALLOCATION_PILOT",
+  "object_branch_equivalence_status": "PASS",
+  "p0_replay": {
+    "all": {
+      "Recall@1": {
+        "denominator": 100,
+        "numerator": 2,
+        "rate": 0.02
+      },
+      "Recall@128": {
+        "denominator": 100,
+        "numerator": 2,
+        "rate": 0.02
+      },
+      "Recall@16": {
+        "denominator": 100,
+        "numerator": 2,
+        "rate": 0.02
+      },
+      "Recall@4": {
+        "denominator": 100,
+        "numerator": 2,
+        "rate": 0.02
+      },
+      "Recall@64": {
+        "denominator": 100,
+        "numerator": 2,
+        "rate": 0.02
+      },
+      "mean_target_rank_when_target_exists": 1.0,
+      "median_target_rank_when_target_exists": 1.0
+    },
+    "multi_object": {
+      "Recall@1": {
+        "denominator": 82,
+        "numerator": 2,
+        "rate": 0.024390243902439025
+      },
+      "Recall@128": {
+        "denominator": 82,
+        "numerator": 2,
+        "rate": 0.024390243902439025
+      },
+      "Recall@16": {
+        "denominator": 82,
+        "numerator": 2,
+        "rate": 0.024390243902439025
+      },
+      "Recall@4": {
+        "denominator": 82,
+        "numerator": 2,
+        "rate": 0.024390243902439025
+      },
+      "Recall@64": {
+        "denominator": 82,
+        "numerator": 2,
+        "rate": 0.024390243902439025
+      },
+      "mean_target_rank_when_target_exists": 1.0,
+      "median_target_rank_when_target_exists": 1.0
+    },
+    "one_object": {
+      "Recall@1": {
+        "denominator": 18,
+        "numerator": 0,
+        "rate": 0.0
+      },
+      "Recall@128": {
+        "denominator": 18,
+        "numerator": 0,
+        "rate": 0.0
+      },
+      "Recall@16": {
+        "denominator": 18,
+        "numerator": 0,
+        "rate": 0.0
+      },
+      "Recall@4": {
+        "denominator": 18,
+        "numerator": 0,
+        "rate": 0.0
+      },
+      "Recall@64": {
+        "denominator": 18,
+        "numerator": 0,
+        "rate": 0.0
+      },
+      "mean_target_rank_when_target_exists": null,
+      "median_target_rank_when_target_exists": null
+    }
+  },
+  "p2a": {
+    "all": {
+      "Recall@1": {
+        "denominator": 100,
+        "numerator": 2,
+        "rate": 0.02
+      },
+      "Recall@128": {
+        "denominator": 100,
+        "numerator": 2,
+        "rate": 0.02
+      },
+      "Recall@16": {
+        "denominator": 100,
+        "numerator": 2,
+        "rate": 0.02
+      },
+      "Recall@4": {
+        "denominator": 100,
+        "numerator": 2,
+        "rate": 0.02
+      },
+      "Recall@64": {
+        "denominator": 100,
+        "numerator": 2,
+        "rate": 0.02
+      },
+      "mean_target_rank_when_target_exists": 1.0,
+      "median_target_rank_when_target_exists": 1.0
+    },
+    "multi_object": {
+      "Recall@1": {
+        "denominator": 82,
+        "numerator": 2,
+        "rate": 0.024390243902439025
+      },
+      "Recall@128": {
+        "denominator": 82,
+        "numerator": 2,
+        "rate": 0.024390243902439025
+      },
+      "Recall@16": {
+        "denominator": 82,
+        "numerator": 2,
+        "rate": 0.024390243902439025
+      },
+      "Recall@4": {
+        "denominator": 82,
+        "numerator": 2,
+        "rate": 0.024390243902439025
+      },
+      "Recall@64": {
+        "denominator": 82,
+        "numerator": 2,
+        "rate": 0.024390243902439025
+      },
+      "mean_target_rank_when_target_exists": 1.0,
+      "median_target_rank_when_target_exists": 1.0
+    },
+    "one_object": {
+      "Recall@1": {
+        "denominator": 18,
+        "numerator": 0,
+        "rate": 0.0
+      },
+      "Recall@128": {
+        "denominator": 18,
+        "numerator": 0,
+        "rate": 0.0
+      },
+      "Recall@16": {
+        "denominator": 18,
+        "numerator": 0,
+        "rate": 0.0
+      },
+      "Recall@4": {
+        "denominator": 18,
+        "numerator": 0,
+        "rate": 0.0
+      },
+      "Recall@64": {
+        "denominator": 18,
+        "numerator": 0,
+        "rate": 0.0
+      },
+      "mean_target_rank_when_target_exists": null,
+      "median_target_rank_when_target_exists": null
+    }
+  },
+  "primary_metrics": {
+    "delta_recall_at_128_all": 0.0,
+    "delta_recall_at_128_multi_object": 0.0,
+    "delta_relation_only_hits": 0,
+    "top_16_hit_change": 0.0,
+    "top_1_hit_change": 0.0,
+    "top_4_hit_change": 0.0
+  }
+}

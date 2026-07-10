@@ -1,0 +1,856 @@
+{
+  "cell_accuracy": 1.0,
+  "condition_name": "FULL",
+  "decoded_shape": [
+    8,
+    9
+  ],
+  "decoder_source_hash": "e4e9275cb0c5279640338b254b23c27f0349d83fa38e9d978c2d7ede884d8e43",
+  "decoder_source_path": "/mnt/d/VRM/r6a_compressarc/scripts/phase1_condition_solver.py",
+  "evaluator_source_hash": "ca77ec9bfc8fa4c02d6c090a0fa61cf87730b0cdff1d3c905ce8ab1f797a4fe4",
+  "evaluator_source_path": "/mnt/d/VRM/r6a_compressarc/scripts/r6a_common.py",
+  "exact_grid_correct": true,
+  "exact_mismatch_count": 0,
+  "gold_target_grid": [
+    [
+      2,
+      0,
+      8,
+      1,
+      1,
+      1,
+      0,
+      1,
+      0
+    ],
+    [
+      8,
+      1,
+      0,
+      8,
+      2,
+      8,
+      1,
+      2,
+      8
+    ],
+    [
+      8,
+      2,
+      0,
+      2,
+      0,
+      1,
+      1,
+      8,
+      1
+    ],
+    [
+      0,
+      1,
+      8,
+      8,
+      1,
+      1,
+      8,
+      1,
+      8
+    ],
+    [
+      0,
+      1,
+      8,
+      8,
+      0,
+      8,
+      0,
+      2,
+      0
+    ],
+    [
+      0,
+      8,
+      8,
+      2,
+      8,
+      8,
+      8,
+      8,
+      8
+    ],
+    [
+      8,
+      0,
+      2,
+      0,
+      0,
+      0,
+      0,
+      8,
+      8
+    ],
+    [
+      0,
+      2,
+      8,
+      8,
+      1,
+      2,
+      0,
+      0,
+      2
+    ]
+  ],
+  "metrics": {
+    "all_cell_accuracy": 1.0,
+    "changed_cell_macro_accuracy": 1.0,
+    "changed_cell_pooled_accuracy": 1.0,
+    "exact_grid_match": true,
+    "output_shape_exact_match": true,
+    "rows": [
+      {
+        "all_cell_accuracy": 1.0,
+        "changed_cell_accuracy": 1.0,
+        "changed_cell_count": 54,
+        "changed_cell_entries": [
+          {
+            "col": 0,
+            "correct": true,
+            "predicted_color": 2,
+            "query_color": 0,
+            "row": 0,
+            "target_color": 2
+          },
+          {
+            "col": 2,
+            "correct": true,
+            "predicted_color": 8,
+            "query_color": 0,
+            "row": 0,
+            "target_color": 8
+          },
+          {
+            "col": 3,
+            "correct": true,
+            "predicted_color": 1,
+            "query_color": 8,
+            "row": 0,
+            "target_color": 1
+          },
+          {
+            "col": 6,
+            "correct": true,
+            "predicted_color": 0,
+            "query_color": 8,
+            "row": 0,
+            "target_color": 0
+          },
+          {
+            "col": 7,
+            "correct": true,
+            "predicted_color": 1,
+            "query_color": 0,
+            "row": 0,
+            "target_color": 1
+          },
+          {
+            "col": 0,
+            "correct": true,
+            "predicted_color": 8,
+            "query_color": 0,
+            "row": 1,
+            "target_color": 8
+          },
+          {
+            "col": 4,
+            "correct": true,
+            "predicted_color": 2,
+            "query_color": 8,
+            "row": 1,
+            "target_color": 2
+          },
+          {
+            "col": 5,
+            "correct": true,
+            "predicted_color": 8,
+            "query_color": 1,
+            "row": 1,
+            "target_color": 8
+          },
+          {
+            "col": 6,
+            "correct": true,
+            "predicted_color": 1,
+            "query_color": 0,
+            "row": 1,
+            "target_color": 1
+          },
+          {
+            "col": 7,
+            "correct": true,
+            "predicted_color": 2,
+            "query_color": 1,
+            "row": 1,
+            "target_color": 2
+          },
+          {
+            "col": 8,
+            "correct": true,
+            "predicted_color": 8,
+            "query_color": 1,
+            "row": 1,
+            "target_color": 8
+          },
+          {
+            "col": 0,
+            "correct": true,
+            "predicted_color": 8,
+            "query_color": 0,
+            "row": 2,
+            "target_color": 8
+          },
+          {
+            "col": 1,
+            "correct": true,
+            "predicted_color": 2,
+            "query_color": 0,
+            "row": 2,
+            "target_color": 2
+          },
+          {
+            "col": 2,
+            "correct": true,
+            "predicted_color": 0,
+            "query_color": 8,
+            "row": 2,
+            "target_color": 0
+          },
+          {
+            "col": 3,
+            "correct": true,
+            "predicted_color": 2,
+            "query_color": 8,
+            "row": 2,
+            "target_color": 2
+          },
+          {
+            "col": 4,
+            "correct": true,
+            "predicted_color": 0,
+            "query_color": 1,
+            "row": 2,
+            "target_color": 0
+          },
+          {
+            "col": 6,
+            "correct": true,
+            "predicted_color": 1,
+            "query_color": 8,
+            "row": 2,
+            "target_color": 1
+          },
+          {
+            "col": 0,
+            "correct": true,
+            "predicted_color": 0,
+            "query_color": 1,
+            "row": 3,
+            "target_color": 0
+          },
+          {
+            "col": 1,
+            "correct": true,
+            "predicted_color": 1,
+            "query_color": 0,
+            "row": 3,
+            "target_color": 1
+          },
+          {
+            "col": 2,
+            "correct": true,
+            "predicted_color": 8,
+            "query_color": 1,
+            "row": 3,
+            "target_color": 8
+          },
+          {
+            "col": 3,
+            "correct": true,
+            "predicted_color": 8,
+            "query_color": 0,
+            "row": 3,
+            "target_color": 8
+          },
+          {
+            "col": 4,
+            "correct": true,
+            "predicted_color": 1,
+            "query_color": 8,
+            "row": 3,
+            "target_color": 1
+          },
+          {
+            "col": 5,
+            "correct": true,
+            "predicted_color": 1,
+            "query_color": 0,
+            "row": 3,
+            "target_color": 1
+          },
+          {
+            "col": 6,
+            "correct": true,
+            "predicted_color": 8,
+            "query_color": 1,
+            "row": 3,
+            "target_color": 8
+          },
+          {
+            "col": 7,
+            "correct": true,
+            "predicted_color": 1,
+            "query_color": 8,
+            "row": 3,
+            "target_color": 1
+          },
+          {
+            "col": 8,
+            "correct": true,
+            "predicted_color": 8,
+            "query_color": 1,
+            "row": 3,
+            "target_color": 8
+          },
+          {
+            "col": 0,
+            "correct": true,
+            "predicted_color": 0,
+            "query_color": 8,
+            "row": 4,
+            "target_color": 0
+          },
+          {
+            "col": 1,
+            "correct": true,
+            "predicted_color": 1,
+            "query_color": 0,
+            "row": 4,
+            "target_color": 1
+          },
+          {
+            "col": 3,
+            "correct": true,
+            "predicted_color": 8,
+            "query_color": 3,
+            "row": 4,
+            "target_color": 8
+          },
+          {
+            "col": 4,
+            "correct": true,
+            "predicted_color": 0,
+            "query_color": 3,
+            "row": 4,
+            "target_color": 0
+          },
+          {
+            "col": 5,
+            "correct": true,
+            "predicted_color": 8,
+            "query_color": 3,
+            "row": 4,
+            "target_color": 8
+          },
+          {
+            "col": 6,
+            "correct": true,
+            "predicted_color": 0,
+            "query_color": 3,
+            "row": 4,
+            "target_color": 0
+          },
+          {
+            "col": 7,
+            "correct": true,
+            "predicted_color": 2,
+            "query_color": 3,
+            "row": 4,
+            "target_color": 2
+          },
+          {
+            "col": 8,
+            "correct": true,
+            "predicted_color": 0,
+            "query_color": 3,
+            "row": 4,
+            "target_color": 0
+          },
+          {
+            "col": 0,
+            "correct": true,
+            "predicted_color": 0,
+            "query_color": 1,
+            "row": 5,
+            "target_color": 0
+          },
+          {
+            "col": 1,
+            "correct": true,
+            "predicted_color": 8,
+            "query_color": 0,
+            "row": 5,
+            "target_color": 8
+          },
+          {
+            "col": 3,
+            "correct": true,
+            "predicted_color": 2,
+            "query_color": 3,
+            "row": 5,
+            "target_color": 2
+          },
+          {
+            "col": 4,
+            "correct": true,
+            "predicted_color": 8,
+            "query_color": 2,
+            "row": 5,
+            "target_color": 8
+          },
+          {
+            "col": 5,
+            "correct": true,
+            "predicted_color": 8,
+            "query_color": 0,
+            "row": 5,
+            "target_color": 8
+          },
+          {
+            "col": 7,
+            "correct": true,
+            "predicted_color": 8,
+            "query_color": 1,
+            "row": 5,
+            "target_color": 8
+          },
+          {
+            "col": 8,
+            "correct": true,
+            "predicted_color": 8,
+            "query_color": 1,
+            "row": 5,
+            "target_color": 8
+          },
+          {
+            "col": 0,
+            "correct": true,
+            "predicted_color": 8,
+            "query_color": 0,
+            "row": 6,
+            "target_color": 8
+          },
+          {
+            "col": 1,
+            "correct": true,
+            "predicted_color": 0,
+            "query_color": 8,
+            "row": 6,
+            "target_color": 0
+          },
+          {
+            "col": 2,
+            "correct": true,
+            "predicted_color": 2,
+            "query_color": 8,
+            "row": 6,
+            "target_color": 2
+          },
+          {
+            "col": 3,
+            "correct": true,
+            "predicted_color": 0,
+            "query_color": 3,
+            "row": 6,
+            "target_color": 0
+          },
+          {
+            "col": 4,
+            "correct": true,
+            "predicted_color": 0,
+            "query_color": 8,
+            "row": 6,
+            "target_color": 0
+          },
+          {
+            "col": 5,
+            "correct": true,
+            "predicted_color": 0,
+            "query_color": 1,
+            "row": 6,
+            "target_color": 0
+          },
+          {
+            "col": 8,
+            "correct": true,
+            "predicted_color": 8,
+            "query_color": 2,
+            "row": 6,
+            "target_color": 8
+          },
+          {
+            "col": 0,
+            "correct": true,
+            "predicted_color": 0,
+            "query_color": 1,
+            "row": 7,
+            "target_color": 0
+          },
+          {
+            "col": 1,
+            "correct": true,
+            "predicted_color": 2,
+            "query_color": 0,
+            "row": 7,
+            "target_color": 2
+          },
+          {
+            "col": 3,
+            "correct": true,
+            "predicted_color": 8,
+            "query_color": 3,
+            "row": 7,
+            "target_color": 8
+          },
+          {
+            "col": 4,
+            "correct": true,
+            "predicted_color": 1,
+            "query_color": 8,
+            "row": 7,
+            "target_color": 1
+          },
+          {
+            "col": 7,
+            "correct": true,
+            "predicted_color": 0,
+            "query_color": 2,
+            "row": 7,
+            "target_color": 0
+          },
+          {
+            "col": 8,
+            "correct": true,
+            "predicted_color": 2,
+            "query_color": 0,
+            "row": 7,
+            "target_color": 2
+          }
+        ],
+        "changed_cell_loss_or_nll": null,
+        "exact_grid_match": true,
+        "output_shape_exact_match": true,
+        "predicted_grid": [
+          [
+            2,
+            0,
+            8,
+            1,
+            1,
+            1,
+            0,
+            1,
+            0
+          ],
+          [
+            8,
+            1,
+            0,
+            8,
+            2,
+            8,
+            1,
+            2,
+            8
+          ],
+          [
+            8,
+            2,
+            0,
+            2,
+            0,
+            1,
+            1,
+            8,
+            1
+          ],
+          [
+            0,
+            1,
+            8,
+            8,
+            1,
+            1,
+            8,
+            1,
+            8
+          ],
+          [
+            0,
+            1,
+            8,
+            8,
+            0,
+            8,
+            0,
+            2,
+            0
+          ],
+          [
+            0,
+            8,
+            8,
+            2,
+            8,
+            8,
+            8,
+            8,
+            8
+          ],
+          [
+            8,
+            0,
+            2,
+            0,
+            0,
+            0,
+            0,
+            8,
+            8
+          ],
+          [
+            0,
+            2,
+            8,
+            8,
+            1,
+            2,
+            0,
+            0,
+            2
+          ]
+        ],
+        "target_grid": [
+          [
+            2,
+            0,
+            8,
+            1,
+            1,
+            1,
+            0,
+            1,
+            0
+          ],
+          [
+            8,
+            1,
+            0,
+            8,
+            2,
+            8,
+            1,
+            2,
+            8
+          ],
+          [
+            8,
+            2,
+            0,
+            2,
+            0,
+            1,
+            1,
+            8,
+            1
+          ],
+          [
+            0,
+            1,
+            8,
+            8,
+            1,
+            1,
+            8,
+            1,
+            8
+          ],
+          [
+            0,
+            1,
+            8,
+            8,
+            0,
+            8,
+            0,
+            2,
+            0
+          ],
+          [
+            0,
+            8,
+            8,
+            2,
+            8,
+            8,
+            8,
+            8,
+            8
+          ],
+          [
+            8,
+            0,
+            2,
+            0,
+            0,
+            0,
+            0,
+            8,
+            8
+          ],
+          [
+            0,
+            2,
+            8,
+            8,
+            1,
+            2,
+            0,
+            0,
+            2
+          ]
+        ],
+        "test_index": 0
+      }
+    ],
+    "total_changed_cells": 54
+  },
+  "mismatch_list_truncated": false,
+  "mismatches": [],
+  "mode": "RECOVERED_EXISTING_FULL_RUN",
+  "phase1_condition_label": "F1",
+  "predicted_grid": [
+    [
+      2,
+      0,
+      8,
+      1,
+      1,
+      1,
+      0,
+      1,
+      0
+    ],
+    [
+      8,
+      1,
+      0,
+      8,
+      2,
+      8,
+      1,
+      2,
+      8
+    ],
+    [
+      8,
+      2,
+      0,
+      2,
+      0,
+      1,
+      1,
+      8,
+      1
+    ],
+    [
+      0,
+      1,
+      8,
+      8,
+      1,
+      1,
+      8,
+      1,
+      8
+    ],
+    [
+      0,
+      1,
+      8,
+      8,
+      0,
+      8,
+      0,
+      2,
+      0
+    ],
+    [
+      0,
+      8,
+      8,
+      2,
+      8,
+      8,
+      8,
+      8,
+      8
+    ],
+    [
+      8,
+      0,
+      2,
+      0,
+      0,
+      0,
+      0,
+      8,
+      8
+    ],
+    [
+      0,
+      2,
+      8,
+      8,
+      1,
+      2,
+      0,
+      0,
+      2
+    ]
+  ],
+  "probability_checkpoint_count": 100,
+  "query_index": 0,
+  "query_nll": 2.1453373937314297,
+  "seed": 20260702,
+  "source_probability_npz": "/mnt/d/VRM/r6a_compressarc/artifacts/phase1_runs/B/1c786137/20260702/F1/probability.npz",
+  "source_solver_json": "/mnt/d/VRM/r6a_compressarc/artifacts/phase1_runs/B/1c786137/20260702/F1/solver.json",
+  "status": "EXACT",
+  "target_isolation_checks": {
+    "challenge_json": "/mnt/d/VRM/r6a_compressarc/artifacts/phase1_runs/B/1c786137/20260702/F1/challenge.json",
+    "solution_argument_present": false,
+    "solution_file_path": "/mnt/d/VRM/third_party/compressarc_reference/dataset/arc-agi_training_solutions.json",
+    "solution_file_path_in_solver_command": false,
+    "solver_firewall": {
+      "challenge_json_only": true,
+      "denied_solution_paths": [],
+      "solution_argument_present": false
+    },
+    "test_outputs_present": false
+  },
+  "target_shape": [
+    8,
+    9
+  ],
+  "target_was_solver_visible": false,
+  "task_id": "1c786137"
+}

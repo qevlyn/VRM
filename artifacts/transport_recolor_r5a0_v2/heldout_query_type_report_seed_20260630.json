@@ -1,0 +1,9 @@
+{
+  "aggregate_exact": 1.0,
+  "note": "Worst query type is computed over the evaluated sealed records for this seed.",
+  "query_type_count": 24,
+  "worst_visual_query_type": {
+    "exact": 1.0,
+    "query_type_key": "3_cell_L|color=1|anchor=interior_lower_left|distractors=1"
+  }
+}

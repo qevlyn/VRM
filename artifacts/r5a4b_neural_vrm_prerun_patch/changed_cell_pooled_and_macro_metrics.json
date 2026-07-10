@@ -1,0 +1,648 @@
+{
+  "by_condition": {
+    "FRESH_INIT": {
+      "eligible_changed_cell_fold_count": 156,
+      "macro_per_fold": {
+        "changed_cell_color_accuracy": {
+          "eligible_fold_count": 156,
+          "mean": 0.18092308415882302,
+          "median": 0.0,
+          "primary_inferential_statistic": true
+        },
+        "changed_cell_color_nll": {
+          "eligible_fold_count": 156,
+          "mean": 2.5487719402139057,
+          "median": 2.6585062804014603,
+          "primary_inferential_statistic": true
+        },
+        "correct_changed_color_rate": {
+          "eligible_fold_count": 156,
+          "mean": 0.18092308415882302,
+          "median": 0.0,
+          "primary_inferential_statistic": true
+        },
+        "predicted_change_f1": {
+          "eligible_fold_count": 156,
+          "mean": 0.37975853736832965,
+          "median": 0.33433133732534925,
+          "primary_inferential_statistic": true
+        },
+        "predicted_change_precision": {
+          "eligible_fold_count": 156,
+          "mean": 0.38754284083547325,
+          "median": 0.26785714285714285,
+          "primary_inferential_statistic": true
+        },
+        "predicted_change_recall": {
+          "eligible_fold_count": 156,
+          "mean": 0.48191922227179884,
+          "median": 0.5,
+          "primary_inferential_statistic": true
+        }
+      },
+      "maximum_changed_cells_per_eligible_fold": 448,
+      "median_changed_cells_per_eligible_fold": 20.0,
+      "minimum_changed_cells_per_eligible_fold": 2,
+      "pooled": {
+        "changed_cell_color_accuracy": 0.19145245229459076,
+        "changed_cell_color_nll": 2.774216714400193,
+        "correct_changed_color_rate": 0.19145245229459076,
+        "descriptive_only": true,
+        "predicted_change_f1": 0.39112693820016325,
+        "predicted_change_precision": 0.36929111796021297,
+        "predicted_change_recall": 0.41570730168743103
+      },
+      "total_changed_cell_count": 6341
+    },
+    "TRAINED_FULL_SUPPORT_REPLAY": {
+      "eligible_changed_cell_fold_count": 156,
+      "macro_per_fold": {
+        "changed_cell_color_accuracy": {
+          "eligible_fold_count": 156,
+          "mean": 0.20333973308965725,
+          "median": 0.0,
+          "primary_inferential_statistic": true
+        },
+        "changed_cell_color_nll": {
+          "eligible_fold_count": 156,
+          "mean": 2.619701565593687,
+          "median": 2.4132064631896246,
+          "primary_inferential_statistic": true
+        },
+        "correct_changed_color_rate": {
+          "eligible_fold_count": 156,
+          "mean": 0.20333973308965725,
+          "median": 0.0,
+          "primary_inferential_statistic": true
+        },
+        "predicted_change_f1": {
+          "eligible_fold_count": 156,
+          "mean": 0.43511299124442776,
+          "median": 0.3333333333333333,
+          "primary_inferential_statistic": true
+        },
+        "predicted_change_precision": {
+          "eligible_fold_count": 156,
+          "mean": 0.4968528610977576,
+          "median": 0.4483417650365374,
+          "primary_inferential_statistic": true
+        },
+        "predicted_change_recall": {
+          "eligible_fold_count": 156,
+          "mean": 0.44786361653591283,
+          "median": 0.458041958041958,
+          "primary_inferential_statistic": true
+        }
+      },
+      "maximum_changed_cells_per_eligible_fold": 448,
+      "median_changed_cells_per_eligible_fold": 20.0,
+      "minimum_changed_cells_per_eligible_fold": 2,
+      "pooled": {
+        "changed_cell_color_accuracy": 0.36965778268411925,
+        "changed_cell_color_nll": 2.1173394699767747,
+        "correct_changed_color_rate": 0.36965778268411925,
+        "descriptive_only": true,
+        "predicted_change_f1": 0.6467157765500307,
+        "predicted_change_precision": 0.629801225526827,
+        "predicted_change_recall": 0.6645639489039583
+      },
+      "total_changed_cell_count": 6341
+    },
+    "TRAINED_OUTPUT_PAIRING_BROKEN": {
+      "eligible_changed_cell_fold_count": 156,
+      "macro_per_fold": {
+        "changed_cell_color_accuracy": {
+          "eligible_fold_count": 156,
+          "mean": 0.20547347411792652,
+          "median": 0.0,
+          "primary_inferential_statistic": true
+        },
+        "changed_cell_color_nll": {
+          "eligible_fold_count": 156,
+          "mean": 2.6250583140766417,
+          "median": 2.4468393444969374,
+          "primary_inferential_statistic": true
+        },
+        "correct_changed_color_rate": {
+          "eligible_fold_count": 156,
+          "mean": 0.20547347411792652,
+          "median": 0.0,
+          "primary_inferential_statistic": true
+        },
+        "predicted_change_f1": {
+          "eligible_fold_count": 156,
+          "mean": 0.4400922587476765,
+          "median": 0.37192454893384364,
+          "primary_inferential_statistic": true
+        },
+        "predicted_change_precision": {
+          "eligible_fold_count": 156,
+          "mean": 0.4914231469757286,
+          "median": 0.5,
+          "primary_inferential_statistic": true
+        },
+        "predicted_change_recall": {
+          "eligible_fold_count": 156,
+          "mean": 0.4473148306256606,
+          "median": 0.47916666666666663,
+          "primary_inferential_statistic": true
+        }
+      },
+      "maximum_changed_cells_per_eligible_fold": 448,
+      "median_changed_cells_per_eligible_fold": 20.0,
+      "minimum_changed_cells_per_eligible_fold": 2,
+      "pooled": {
+        "changed_cell_color_accuracy": 0.37044630184513483,
+        "changed_cell_color_nll": 2.0802944549568476,
+        "correct_changed_color_rate": 0.37044630184513483,
+        "descriptive_only": true,
+        "predicted_change_f1": 0.6335209505941213,
+        "predicted_change_precision": 0.62811967136878,
+        "predicted_change_recall": 0.6390159280870525
+      },
+      "total_changed_cell_count": 6341
+    },
+    "TRAINED_QUERY_ONLY": {
+      "eligible_changed_cell_fold_count": 0,
+      "macro_per_fold": {
+        "changed_cell_color_accuracy": {
+          "eligible_fold_count": 0,
+          "mean": null,
+          "median": null,
+          "primary_inferential_statistic": true
+        },
+        "changed_cell_color_nll": {
+          "eligible_fold_count": 0,
+          "mean": null,
+          "median": null,
+          "primary_inferential_statistic": true
+        },
+        "correct_changed_color_rate": {
+          "eligible_fold_count": 0,
+          "mean": null,
+          "median": null,
+          "primary_inferential_statistic": true
+        },
+        "predicted_change_f1": {
+          "eligible_fold_count": 0,
+          "mean": null,
+          "median": null,
+          "primary_inferential_statistic": true
+        },
+        "predicted_change_precision": {
+          "eligible_fold_count": 0,
+          "mean": null,
+          "median": null,
+          "primary_inferential_statistic": true
+        },
+        "predicted_change_recall": {
+          "eligible_fold_count": 0,
+          "mean": null,
+          "median": null,
+          "primary_inferential_statistic": true
+        }
+      },
+      "maximum_changed_cells_per_eligible_fold": null,
+      "median_changed_cells_per_eligible_fold": null,
+      "minimum_changed_cells_per_eligible_fold": null,
+      "pooled": {
+        "changed_cell_color_accuracy": null,
+        "changed_cell_color_nll": null,
+        "correct_changed_color_rate": null,
+        "descriptive_only": true,
+        "predicted_change_f1": null,
+        "predicted_change_precision": 0.0,
+        "predicted_change_recall": null
+      },
+      "total_changed_cell_count": 0
+    },
+    "TRAINED_SUPPORT_PAIR_ORDER_PERMUTED": {
+      "eligible_changed_cell_fold_count": 156,
+      "macro_per_fold": {
+        "changed_cell_color_accuracy": {
+          "eligible_fold_count": 156,
+          "mean": 0.2015449166625004,
+          "median": 0.0,
+          "primary_inferential_statistic": true
+        },
+        "changed_cell_color_nll": {
+          "eligible_fold_count": 156,
+          "mean": 2.610685811804583,
+          "median": 2.3877279166790943,
+          "primary_inferential_statistic": true
+        },
+        "correct_changed_color_rate": {
+          "eligible_fold_count": 156,
+          "mean": 0.2015449166625004,
+          "median": 0.0,
+          "primary_inferential_statistic": true
+        },
+        "predicted_change_f1": {
+          "eligible_fold_count": 156,
+          "mean": 0.43437385375877713,
+          "median": 0.34848484848484845,
+          "primary_inferential_statistic": true
+        },
+        "predicted_change_precision": {
+          "eligible_fold_count": 156,
+          "mean": 0.4994054621079404,
+          "median": 0.46085271317829457,
+          "primary_inferential_statistic": true
+        },
+        "predicted_change_recall": {
+          "eligible_fold_count": 156,
+          "mean": 0.4457810195116963,
+          "median": 0.43653846153846154,
+          "primary_inferential_statistic": true
+        }
+      },
+      "maximum_changed_cells_per_eligible_fold": 448,
+      "median_changed_cells_per_eligible_fold": 20.0,
+      "minimum_changed_cells_per_eligible_fold": 2,
+      "pooled": {
+        "changed_cell_color_accuracy": 0.36697681753666617,
+        "changed_cell_color_nll": 2.0808947893992906,
+        "correct_changed_color_rate": 0.36697681753666617,
+        "descriptive_only": true,
+        "predicted_change_f1": 0.6407508799374266,
+        "predicted_change_precision": 0.6356300434512725,
+        "predicted_change_recall": 0.6459548967039899
+      },
+      "total_changed_cell_count": 6341
+    },
+    "TRAINED_ZEROED_SUPPORT_OUTPUTS": {
+      "eligible_changed_cell_fold_count": 156,
+      "macro_per_fold": {
+        "changed_cell_color_accuracy": {
+          "eligible_fold_count": 156,
+          "mean": 0.09891000794927796,
+          "median": 0.0,
+          "primary_inferential_statistic": true
+        },
+        "changed_cell_color_nll": {
+          "eligible_fold_count": 156,
+          "mean": 6.008540985997373,
+          "median": 6.81728506268986,
+          "primary_inferential_statistic": true
+        },
+        "correct_changed_color_rate": {
+          "eligible_fold_count": 156,
+          "mean": 0.09891000794927796,
+          "median": 0.0,
+          "primary_inferential_statistic": true
+        },
+        "predicted_change_f1": {
+          "eligible_fold_count": 156,
+          "mean": 0.39184714917589647,
+          "median": 0.3157894736842105,
+          "primary_inferential_statistic": true
+        },
+        "predicted_change_precision": {
+          "eligible_fold_count": 156,
+          "mean": 0.39001801036649664,
+          "median": 0.245,
+          "primary_inferential_statistic": true
+        },
+        "predicted_change_recall": {
+          "eligible_fold_count": 156,
+          "mean": 0.539175293258432,
+          "median": 0.5914149443561209,
+          "primary_inferential_statistic": true
+        }
+      },
+      "maximum_changed_cells_per_eligible_fold": 448,
+      "median_changed_cells_per_eligible_fold": 20.0,
+      "minimum_changed_cells_per_eligible_fold": 2,
+      "pooled": {
+        "changed_cell_color_accuracy": 0.1406718183251853,
+        "changed_cell_color_nll": 6.053267675442639,
+        "correct_changed_color_rate": 0.1406718183251853,
+        "descriptive_only": true,
+        "predicted_change_f1": 0.36065573770491804,
+        "predicted_change_precision": 0.30780379041248607,
+        "predicted_change_recall": 0.4354202807128213
+      },
+      "total_changed_cell_count": 6341
+    }
+  },
+  "changed_cell_metric_note": "Pooled values are descriptive only; macro per-fold values are primary for fold-paired inference.",
+  "paired_bootstrap_comparisons": {
+    "FRESH_INIT": {
+      "delta_definition": "TRAINED_FULL_SUPPORT_REPLAY macro per-fold metric minus FRESH_INIT macro per-fold metric",
+      "metric_deltas": {
+        "TRAINED_FULL_SUPPORT_REPLAY_minus_FRESH_INIT_changed_cell_color_accuracy": {
+          "bootstrap_replicates": 10000,
+          "ci95_high": 0.07704966026114028,
+          "ci95_low": -0.0307012324709084,
+          "confidence_level": 0.95,
+          "count": 156,
+          "mean": 0.02241664893083424
+        },
+        "TRAINED_FULL_SUPPORT_REPLAY_minus_FRESH_INIT_changed_cell_color_nll": {
+          "bootstrap_replicates": 10000,
+          "ci95_high": 0.2747993505851841,
+          "ci95_low": -0.13568874149687898,
+          "confidence_level": 0.95,
+          "count": 156,
+          "mean": 0.07092962537978098
+        },
+        "TRAINED_FULL_SUPPORT_REPLAY_minus_FRESH_INIT_correct_changed_color_rate": {
+          "bootstrap_replicates": 10000,
+          "ci95_high": 0.07676946945117634,
+          "ci95_low": -0.0293345732917006,
+          "confidence_level": 0.95,
+          "count": 156,
+          "mean": 0.02241664893083424
+        },
+        "TRAINED_FULL_SUPPORT_REPLAY_minus_FRESH_INIT_predicted_change_f1": {
+          "bootstrap_replicates": 10000,
+          "ci95_high": 0.11395265496905324,
+          "ci95_low": -0.0013071509516499901,
+          "confidence_level": 0.95,
+          "count": 156,
+          "mean": 0.055354453876098136
+        },
+        "TRAINED_FULL_SUPPORT_REPLAY_minus_FRESH_INIT_predicted_change_precision": {
+          "bootstrap_replicates": 10000,
+          "ci95_high": 0.16193499126815214,
+          "ci95_low": 0.05821554501358257,
+          "confidence_level": 0.95,
+          "count": 156,
+          "mean": 0.10931002026228444
+        },
+        "TRAINED_FULL_SUPPORT_REPLAY_minus_FRESH_INIT_predicted_change_recall": {
+          "bootstrap_replicates": 10000,
+          "ci95_high": 0.03965996336399972,
+          "ci95_low": -0.10697879209948567,
+          "confidence_level": 0.95,
+          "count": 156,
+          "mean": -0.034055605735886
+        }
+      },
+      "paired_fold_count": 156
+    },
+    "TRAINED_OUTPUT_PAIRING_BROKEN": {
+      "delta_definition": "TRAINED_FULL_SUPPORT_REPLAY macro per-fold metric minus TRAINED_OUTPUT_PAIRING_BROKEN macro per-fold metric",
+      "metric_deltas": {
+        "TRAINED_FULL_SUPPORT_REPLAY_minus_TRAINED_OUTPUT_PAIRING_BROKEN_changed_cell_color_accuracy": {
+          "bootstrap_replicates": 10000,
+          "ci95_high": 0.014016756104985434,
+          "ci95_low": -0.02072182353470358,
+          "confidence_level": 0.95,
+          "count": 156,
+          "mean": -0.002133741028269275
+        },
+        "TRAINED_FULL_SUPPORT_REPLAY_minus_TRAINED_OUTPUT_PAIRING_BROKEN_changed_cell_color_nll": {
+          "bootstrap_replicates": 10000,
+          "ci95_high": 0.040652838145493274,
+          "ci95_low": -0.05095561052767877,
+          "confidence_level": 0.95,
+          "count": 156,
+          "mean": -0.005356748482954545
+        },
+        "TRAINED_FULL_SUPPORT_REPLAY_minus_TRAINED_OUTPUT_PAIRING_BROKEN_correct_changed_color_rate": {
+          "bootstrap_replicates": 10000,
+          "ci95_high": 0.013908681152859401,
+          "ci95_low": -0.020840101669715828,
+          "confidence_level": 0.95,
+          "count": 156,
+          "mean": -0.002133741028269275
+        },
+        "TRAINED_FULL_SUPPORT_REPLAY_minus_TRAINED_OUTPUT_PAIRING_BROKEN_predicted_change_f1": {
+          "bootstrap_replicates": 10000,
+          "ci95_high": 0.005398707813389438,
+          "ci95_low": -0.016131790799446256,
+          "confidence_level": 0.95,
+          "count": 156,
+          "mean": -0.0049792675032487585
+        },
+        "TRAINED_FULL_SUPPORT_REPLAY_minus_TRAINED_OUTPUT_PAIRING_BROKEN_predicted_change_precision": {
+          "bootstrap_replicates": 10000,
+          "ci95_high": 0.028948415843400663,
+          "ci95_low": -0.017514656954912246,
+          "confidence_level": 0.95,
+          "count": 156,
+          "mean": 0.0054297141220291095
+        },
+        "TRAINED_FULL_SUPPORT_REPLAY_minus_TRAINED_OUTPUT_PAIRING_BROKEN_predicted_change_recall": {
+          "bootstrap_replicates": 10000,
+          "ci95_high": 0.017056375096655047,
+          "ci95_low": -0.01617809754270484,
+          "confidence_level": 0.95,
+          "count": 156,
+          "mean": 0.0005487859102522097
+        }
+      },
+      "paired_fold_count": 156
+    },
+    "TRAINED_QUERY_ONLY": {
+      "delta_definition": "TRAINED_FULL_SUPPORT_REPLAY macro per-fold metric minus TRAINED_QUERY_ONLY macro per-fold metric",
+      "metric_deltas": {
+        "TRAINED_FULL_SUPPORT_REPLAY_minus_TRAINED_QUERY_ONLY_changed_cell_color_accuracy": {
+          "bootstrap_replicates": 10000,
+          "ci95_high": null,
+          "ci95_low": null,
+          "count": 0,
+          "mean": null
+        },
+        "TRAINED_FULL_SUPPORT_REPLAY_minus_TRAINED_QUERY_ONLY_changed_cell_color_nll": {
+          "bootstrap_replicates": 10000,
+          "ci95_high": null,
+          "ci95_low": null,
+          "count": 0,
+          "mean": null
+        },
+        "TRAINED_FULL_SUPPORT_REPLAY_minus_TRAINED_QUERY_ONLY_correct_changed_color_rate": {
+          "bootstrap_replicates": 10000,
+          "ci95_high": null,
+          "ci95_low": null,
+          "count": 0,
+          "mean": null
+        },
+        "TRAINED_FULL_SUPPORT_REPLAY_minus_TRAINED_QUERY_ONLY_predicted_change_f1": {
+          "bootstrap_replicates": 10000,
+          "ci95_high": null,
+          "ci95_low": null,
+          "count": 0,
+          "mean": null
+        },
+        "TRAINED_FULL_SUPPORT_REPLAY_minus_TRAINED_QUERY_ONLY_predicted_change_precision": {
+          "bootstrap_replicates": 10000,
+          "ci95_high": null,
+          "ci95_low": null,
+          "count": 0,
+          "mean": null
+        },
+        "TRAINED_FULL_SUPPORT_REPLAY_minus_TRAINED_QUERY_ONLY_predicted_change_recall": {
+          "bootstrap_replicates": 10000,
+          "ci95_high": null,
+          "ci95_low": null,
+          "count": 0,
+          "mean": null
+        }
+      },
+      "paired_fold_count": 0
+    },
+    "TRAINED_SUPPORT_PAIR_ORDER_PERMUTED": {
+      "delta_definition": "TRAINED_FULL_SUPPORT_REPLAY macro per-fold metric minus TRAINED_SUPPORT_PAIR_ORDER_PERMUTED macro per-fold metric",
+      "metric_deltas": {
+        "TRAINED_FULL_SUPPORT_REPLAY_minus_TRAINED_SUPPORT_PAIR_ORDER_PERMUTED_changed_cell_color_accuracy": {
+          "bootstrap_replicates": 10000,
+          "ci95_high": 0.013551103220297187,
+          "ci95_low": -0.010121175529392998,
+          "confidence_level": 0.95,
+          "count": 156,
+          "mean": 0.0017948164271568488
+        },
+        "TRAINED_FULL_SUPPORT_REPLAY_minus_TRAINED_SUPPORT_PAIR_ORDER_PERMUTED_changed_cell_color_nll": {
+          "bootstrap_replicates": 10000,
+          "ci95_high": 0.046712574729867964,
+          "ci95_low": -0.02989653698331666,
+          "confidence_level": 0.95,
+          "count": 156,
+          "mean": 0.009015753789104096
+        },
+        "TRAINED_FULL_SUPPORT_REPLAY_minus_TRAINED_SUPPORT_PAIR_ORDER_PERMUTED_correct_changed_color_rate": {
+          "bootstrap_replicates": 10000,
+          "ci95_high": 0.013718822943477668,
+          "ci95_low": -0.009908891024772385,
+          "confidence_level": 0.95,
+          "count": 156,
+          "mean": 0.0017948164271568488
+        },
+        "TRAINED_FULL_SUPPORT_REPLAY_minus_TRAINED_SUPPORT_PAIR_ORDER_PERMUTED_predicted_change_f1": {
+          "bootstrap_replicates": 10000,
+          "ci95_high": 0.012219607561392355,
+          "ci95_low": -0.009862222579245478,
+          "confidence_level": 0.95,
+          "count": 156,
+          "mean": 0.000739137485650648
+        },
+        "TRAINED_FULL_SUPPORT_REPLAY_minus_TRAINED_SUPPORT_PAIR_ORDER_PERMUTED_predicted_change_precision": {
+          "bootstrap_replicates": 10000,
+          "ci95_high": 0.018631484048378076,
+          "ci95_low": -0.024063668604758462,
+          "confidence_level": 0.95,
+          "count": 156,
+          "mean": -0.002552601010182771
+        },
+        "TRAINED_FULL_SUPPORT_REPLAY_minus_TRAINED_SUPPORT_PAIR_ORDER_PERMUTED_predicted_change_recall": {
+          "bootstrap_replicates": 10000,
+          "ci95_high": 0.017383385469852703,
+          "ci95_low": -0.012472658240323864,
+          "confidence_level": 0.95,
+          "count": 156,
+          "mean": 0.0020825970242164837
+        }
+      },
+      "paired_fold_count": 156
+    },
+    "TRAINED_ZEROED_SUPPORT_OUTPUTS": {
+      "delta_definition": "TRAINED_FULL_SUPPORT_REPLAY macro per-fold metric minus TRAINED_ZEROED_SUPPORT_OUTPUTS macro per-fold metric",
+      "metric_deltas": {
+        "TRAINED_FULL_SUPPORT_REPLAY_minus_TRAINED_ZEROED_SUPPORT_OUTPUTS_changed_cell_color_accuracy": {
+          "bootstrap_replicates": 10000,
+          "ci95_high": 0.15390724269794356,
+          "ci95_low": 0.05816731774906231,
+          "confidence_level": 0.95,
+          "count": 156,
+          "mean": 0.1044297251403793
+        },
+        "TRAINED_FULL_SUPPORT_REPLAY_minus_TRAINED_ZEROED_SUPPORT_OUTPUTS_changed_cell_color_nll": {
+          "bootstrap_replicates": 10000,
+          "ci95_high": -3.0835150853615594,
+          "ci95_low": -3.705139047975939,
+          "confidence_level": 0.95,
+          "count": 156,
+          "mean": -3.3888394204036856
+        },
+        "TRAINED_FULL_SUPPORT_REPLAY_minus_TRAINED_ZEROED_SUPPORT_OUTPUTS_correct_changed_color_rate": {
+          "bootstrap_replicates": 10000,
+          "ci95_high": 0.15404742027520285,
+          "ci95_low": 0.05774746195017012,
+          "confidence_level": 0.95,
+          "count": 156,
+          "mean": 0.1044297251403793
+        },
+        "TRAINED_FULL_SUPPORT_REPLAY_minus_TRAINED_ZEROED_SUPPORT_OUTPUTS_predicted_change_f1": {
+          "bootstrap_replicates": 10000,
+          "ci95_high": 0.11275747347347675,
+          "ci95_low": -0.025668340024209462,
+          "confidence_level": 0.95,
+          "count": 156,
+          "mean": 0.04326584206853129
+        },
+        "TRAINED_FULL_SUPPORT_REPLAY_minus_TRAINED_ZEROED_SUPPORT_OUTPUTS_predicted_change_precision": {
+          "bootstrap_replicates": 10000,
+          "ci95_high": 0.17094575377115803,
+          "ci95_low": 0.044045884281618784,
+          "confidence_level": 0.95,
+          "count": 156,
+          "mean": 0.106834850731261
+        },
+        "TRAINED_FULL_SUPPORT_REPLAY_minus_TRAINED_ZEROED_SUPPORT_OUTPUTS_predicted_change_recall": {
+          "bootstrap_replicates": 10000,
+          "ci95_high": -0.0025248929184021017,
+          "ci95_low": -0.18008870099757934,
+          "confidence_level": 0.95,
+          "count": 156,
+          "mean": -0.09131167672251927
+        }
+      },
+      "paired_fold_count": 156
+    }
+  },
+  "trained_minus_fresh_macro_per_fold": {
+    "metric_deltas": {
+      "trained_minus_fresh_changed_cell_color_accuracy": {
+        "bootstrap_replicates": 10000,
+        "ci95_high": 0.0766741703328596,
+        "ci95_low": -0.029450605732443683,
+        "confidence_level": 0.95,
+        "count": 156,
+        "mean": 0.02241664893083424
+      },
+      "trained_minus_fresh_changed_cell_color_nll": {
+        "bootstrap_replicates": 10000,
+        "ci95_high": 0.26550653141962616,
+        "ci95_low": -0.13871381875957514,
+        "confidence_level": 0.95,
+        "count": 156,
+        "mean": 0.07092962537978098
+      },
+      "trained_minus_fresh_correct_changed_color_rate": {
+        "bootstrap_replicates": 10000,
+        "ci95_high": 0.07785233258538057,
+        "ci95_low": -0.029859374843764767,
+        "confidence_level": 0.95,
+        "count": 156,
+        "mean": 0.02241664893083424
+      },
+      "trained_minus_fresh_predicted_change_f1": {
+        "bootstrap_replicates": 10000,
+        "ci95_high": 0.11264861020691597,
+        "ci95_low": -0.0016947361389158349,
+        "confidence_level": 0.95,
+        "count": 156,
+        "mean": 0.055354453876098136
+      },
+      "trained_minus_fresh_predicted_change_precision": {
+        "bootstrap_replicates": 10000,
+        "ci95_high": 0.1624402928478575,
+        "ci95_low": 0.05671007065515768,
+        "confidence_level": 0.95,
+        "count": 156,
+        "mean": 0.10931002026228444
+      },
+      "trained_minus_fresh_predicted_change_recall": {
+        "bootstrap_replicates": 10000,
+        "ci95_high": 0.03947161735451196,
+        "ci95_low": -0.10735521340321601,
+        "confidence_level": 0.95,
+        "count": 156,
+        "mean": -0.034055605735886
+      }
+    },
+    "paired_fold_count": 156
+  }
+}

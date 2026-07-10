@@ -1,0 +1,159 @@
+{
+  "ablation": "deranged_pairing",
+  "by_visual_stratum_and_function": {
+    "SEALED_VISUAL_TYPES": {
+      "CCC": {
+        "deranged_pairing_exact": 0.0,
+        "episode_count": 1152,
+        "normal_to_deranged_pairing_final_grid_change_rate": 1.0,
+        "normal_to_deranged_pairing_pointer_change_rate": 1.0
+      },
+      "CCF": {
+        "deranged_pairing_exact": 0.0,
+        "episode_count": 1152,
+        "normal_to_deranged_pairing_final_grid_change_rate": 1.0,
+        "normal_to_deranged_pairing_pointer_change_rate": 1.0
+      },
+      "CCT": {
+        "deranged_pairing_exact": 0.0,
+        "episode_count": 1152,
+        "normal_to_deranged_pairing_final_grid_change_rate": 1.0,
+        "normal_to_deranged_pairing_pointer_change_rate": 1.0
+      },
+      "CTC": {
+        "deranged_pairing_exact": 0.0,
+        "episode_count": 1152,
+        "normal_to_deranged_pairing_final_grid_change_rate": 1.0,
+        "normal_to_deranged_pairing_pointer_change_rate": 1.0
+      },
+      "CTF": {
+        "deranged_pairing_exact": 0.0,
+        "episode_count": 1152,
+        "normal_to_deranged_pairing_final_grid_change_rate": 1.0,
+        "normal_to_deranged_pairing_pointer_change_rate": 1.0
+      },
+      "FCT": {
+        "deranged_pairing_exact": 0.0,
+        "episode_count": 1152,
+        "normal_to_deranged_pairing_final_grid_change_rate": 1.0,
+        "normal_to_deranged_pairing_pointer_change_rate": 1.0
+      },
+      "FTC": {
+        "deranged_pairing_exact": 0.0,
+        "episode_count": 1152,
+        "normal_to_deranged_pairing_final_grid_change_rate": 1.0,
+        "normal_to_deranged_pairing_pointer_change_rate": 1.0
+      },
+      "FTF": {
+        "deranged_pairing_exact": 0.0,
+        "episode_count": 1152,
+        "normal_to_deranged_pairing_final_grid_change_rate": 1.0,
+        "normal_to_deranged_pairing_pointer_change_rate": 1.0
+      },
+      "TCC": {
+        "deranged_pairing_exact": 0.0,
+        "episode_count": 1152,
+        "normal_to_deranged_pairing_final_grid_change_rate": 1.0,
+        "normal_to_deranged_pairing_pointer_change_rate": 1.0
+      },
+      "TCF": {
+        "deranged_pairing_exact": 0.0,
+        "episode_count": 1152,
+        "normal_to_deranged_pairing_final_grid_change_rate": 1.0,
+        "normal_to_deranged_pairing_pointer_change_rate": 1.0
+      },
+      "TCT": {
+        "deranged_pairing_exact": 0.0,
+        "episode_count": 1152,
+        "normal_to_deranged_pairing_final_grid_change_rate": 1.0,
+        "normal_to_deranged_pairing_pointer_change_rate": 1.0
+      },
+      "TFC": {
+        "deranged_pairing_exact": 0.0,
+        "episode_count": 1152,
+        "normal_to_deranged_pairing_final_grid_change_rate": 1.0,
+        "normal_to_deranged_pairing_pointer_change_rate": 1.0
+      }
+    },
+    "TRAIN_VISIBLE_VISUAL_TYPES": {
+      "CCC": {
+        "deranged_pairing_exact": 0.0,
+        "episode_count": 3840,
+        "normal_to_deranged_pairing_final_grid_change_rate": 1.0,
+        "normal_to_deranged_pairing_pointer_change_rate": 1.0
+      },
+      "CCF": {
+        "deranged_pairing_exact": 0.0,
+        "episode_count": 3840,
+        "normal_to_deranged_pairing_final_grid_change_rate": 1.0,
+        "normal_to_deranged_pairing_pointer_change_rate": 1.0
+      },
+      "CCT": {
+        "deranged_pairing_exact": 0.0,
+        "episode_count": 3840,
+        "normal_to_deranged_pairing_final_grid_change_rate": 1.0,
+        "normal_to_deranged_pairing_pointer_change_rate": 1.0
+      },
+      "CTC": {
+        "deranged_pairing_exact": 0.0,
+        "episode_count": 3840,
+        "normal_to_deranged_pairing_final_grid_change_rate": 1.0,
+        "normal_to_deranged_pairing_pointer_change_rate": 1.0
+      },
+      "CTF": {
+        "deranged_pairing_exact": 0.0,
+        "episode_count": 3840,
+        "normal_to_deranged_pairing_final_grid_change_rate": 1.0,
+        "normal_to_deranged_pairing_pointer_change_rate": 1.0
+      },
+      "FCT": {
+        "deranged_pairing_exact": 0.0,
+        "episode_count": 3840,
+        "normal_to_deranged_pairing_final_grid_change_rate": 1.0,
+        "normal_to_deranged_pairing_pointer_change_rate": 1.0
+      },
+      "FTC": {
+        "deranged_pairing_exact": 0.0,
+        "episode_count": 3840,
+        "normal_to_deranged_pairing_final_grid_change_rate": 1.0,
+        "normal_to_deranged_pairing_pointer_change_rate": 1.0
+      },
+      "FTF": {
+        "deranged_pairing_exact": 0.0,
+        "episode_count": 3840,
+        "normal_to_deranged_pairing_final_grid_change_rate": 1.0,
+        "normal_to_deranged_pairing_pointer_change_rate": 1.0
+      },
+      "TCC": {
+        "deranged_pairing_exact": 0.0,
+        "episode_count": 3840,
+        "normal_to_deranged_pairing_final_grid_change_rate": 1.0,
+        "normal_to_deranged_pairing_pointer_change_rate": 1.0
+      },
+      "TCF": {
+        "deranged_pairing_exact": 0.0,
+        "episode_count": 3840,
+        "normal_to_deranged_pairing_final_grid_change_rate": 1.0,
+        "normal_to_deranged_pairing_pointer_change_rate": 1.0
+      },
+      "TCT": {
+        "deranged_pairing_exact": 0.0,
+        "episode_count": 3840,
+        "normal_to_deranged_pairing_final_grid_change_rate": 1.0,
+        "normal_to_deranged_pairing_pointer_change_rate": 1.0
+      },
+      "TFC": {
+        "deranged_pairing_exact": 0.0,
+        "episode_count": 3840,
+        "normal_to_deranged_pairing_final_grid_change_rate": 1.0,
+        "normal_to_deranged_pairing_pointer_change_rate": 1.0
+      }
+    }
+  },
+  "overall": {
+    "deranged_pairing_exact": 0.0,
+    "episode_count": 59904,
+    "normal_to_deranged_pairing_final_grid_change_rate": 1.0,
+    "normal_to_deranged_pairing_pointer_change_rate": 1.0
+  }
+}

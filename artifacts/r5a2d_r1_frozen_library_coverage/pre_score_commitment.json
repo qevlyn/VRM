@@ -1,0 +1,38 @@
+{
+  "audit_version": "R5A2D_R1_FROZEN_LIBRARY_ARC_NATIVE_COVERAGE_AUDIT",
+  "commitment_phase": "before_optional_sealed_test_scoring",
+  "corpus_manifest_sha256": "a712951a54f0d1c6701024e0c9298d04a6a04a0c8770afc997be61aef8f5c911",
+  "corpus_name": "arc-prize-2026-arc-agi-2",
+  "files": [
+    {
+      "byte_size": 2088,
+      "file": "corpus_manifest_precommit.json",
+      "sha256": "c68a4fc2ba30984d8813f0c21ff4cd3db9588be101ccd49ecb52bcd48ef549be"
+    },
+    {
+      "byte_size": 2682,
+      "file": "library_contract_report.json",
+      "sha256": "9c9cf302cc7d9080fbe447a54682a01202f8c8c73d5f9427d1736d80d580a7a9"
+    },
+    {
+      "byte_size": 17891267,
+      "file": "task_ledger.json",
+      "sha256": "8e9493032afca74a18135da1bc3aad0f1119ef18c9a4e175cf1b8379cc510c45"
+    },
+    {
+      "byte_size": 6807,
+      "file": "coverage_profile.json",
+      "sha256": "f72421922fe1be48f8bdf90400ffb7ed053468e4536bbaf13b30c5a4f525d324"
+    },
+    {
+      "byte_size": 4162,
+      "file": "domain_attrition_report.json",
+      "sha256": "18d6a102eda681d69292a4197ea15133d5c3d1f51c908e73f6b1e56696bacd50"
+    },
+    {
+      "byte_size": 252,
+      "file": "strict_coverage_examples.md",
+      "sha256": "220d0844085b6c0075602e358b013fb7b45fc7c220e2d983fec7f250132c3a1e"
+    }
+  ]
+}

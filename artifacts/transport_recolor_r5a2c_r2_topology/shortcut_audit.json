@@ -1,0 +1,1498 @@
+{
+  "best_conjunctive_rule_exact": 0.17006802721088435,
+  "best_lexicographic_rule_exact": 0.17006802721088435,
+  "best_shortcut_exact": 0.3333333333333333,
+  "best_shortcut_name": "one_step_only",
+  "best_single_rule_exact": 0.3333333333333333,
+  "by_convention": {
+    "border_reachable_recolor": {
+      "best_conjunctive_rule_exact": 0.0,
+      "best_lexicographic_rule_exact": 0.0,
+      "best_shortcut_exact": 1.0,
+      "best_shortcut_name": "always_border_reachable",
+      "best_single_rule_exact": 1.0
+    },
+    "enclosed_region_recolor": {
+      "best_conjunctive_rule_exact": 0.42857142857142855,
+      "best_lexicographic_rule_exact": 0.42857142857142855,
+      "best_shortcut_exact": 1.0,
+      "best_shortcut_name": "always_enclosed",
+      "best_single_rule_exact": 1.0
+    },
+    "seed_reachable_recolor": {
+      "best_conjunctive_rule_exact": 0.08163265306122448,
+      "best_lexicographic_rule_exact": 0.08163265306122448,
+      "best_shortcut_exact": 1.0,
+      "best_shortcut_name": "one_step_only",
+      "best_single_rule_exact": 1.0
+    }
+  },
+  "lexicographic_rule_count": 90,
+  "pairwise_conjunction_count": 45,
+  "passes_threshold": true,
+  "rows": [
+    {
+      "exact_by_convention": {
+        "border_reachable_recolor": 1.0,
+        "enclosed_region_recolor": 0.0,
+        "seed_reachable_recolor": 0.0
+      },
+      "kind": "single",
+      "overall_exact": 0.3333333333333333,
+      "rule_name": "always_border_reachable"
+    },
+    {
+      "exact_by_convention": {
+        "border_reachable_recolor": 0.0,
+        "enclosed_region_recolor": 1.0,
+        "seed_reachable_recolor": 0.0
+      },
+      "kind": "single",
+      "overall_exact": 0.3333333333333333,
+      "rule_name": "always_enclosed"
+    },
+    {
+      "exact_by_convention": {
+        "border_reachable_recolor": 0.0,
+        "enclosed_region_recolor": 0.42857142857142855,
+        "seed_reachable_recolor": 0.0
+      },
+      "kind": "single",
+      "overall_exact": 0.14285714285714285,
+      "rule_name": "always_largest_passable_component"
+    },
+    {
+      "exact_by_convention": {
+        "border_reachable_recolor": 0.0,
+        "enclosed_region_recolor": 0.0,
+        "seed_reachable_recolor": 0.08163265306122448
+      },
+      "kind": "single",
+      "overall_exact": 0.027210884353741496,
+      "rule_name": "always_marker_adjacent_component"
+    },
+    {
+      "exact_by_convention": {
+        "border_reachable_recolor": 0.0,
+        "enclosed_region_recolor": 0.42857142857142855,
+        "seed_reachable_recolor": 0.0
+      },
+      "kind": "single",
+      "overall_exact": 0.14285714285714285,
+      "rule_name": "always_non_border_component"
+    },
+    {
+      "exact_by_convention": {
+        "border_reachable_recolor": 0.0,
+        "enclosed_region_recolor": 0.0,
+        "seed_reachable_recolor": 1.0
+      },
+      "kind": "single",
+      "overall_exact": 0.3333333333333333,
+      "rule_name": "always_seed_reachable"
+    },
+    {
+      "exact_by_convention": {
+        "border_reachable_recolor": 0.0,
+        "enclosed_region_recolor": 0.0,
+        "seed_reachable_recolor": 0.0
+      },
+      "kind": "single",
+      "overall_exact": 0.0,
+      "rule_name": "barrier_ignored"
+    },
+    {
+      "exact_by_convention": {
+        "border_reachable_recolor": 0.0,
+        "enclosed_region_recolor": 0.0,
+        "seed_reachable_recolor": 0.0
+      },
+      "kind": "pairwise_conjunction",
+      "overall_exact": 0.0,
+      "rule_name": "conjunction::does_not_touch_border__AND__has_barrier_density_above_median"
+    },
+    {
+      "exact_by_convention": {
+        "border_reachable_recolor": 0.0,
+        "enclosed_region_recolor": 0.24489795918367346,
+        "seed_reachable_recolor": 0.0
+      },
+      "kind": "pairwise_conjunction",
+      "overall_exact": 0.08163265306122448,
+      "rule_name": "conjunction::does_not_touch_border__AND__has_region_size_above_median"
+    },
+    {
+      "exact_by_convention": {
+        "border_reachable_recolor": 0.0,
+        "enclosed_region_recolor": 0.0,
+        "seed_reachable_recolor": 0.0
+      },
+      "kind": "pairwise_conjunction",
+      "overall_exact": 0.0,
+      "rule_name": "conjunction::does_not_touch_border__AND__has_region_size_below_median"
+    },
+    {
+      "exact_by_convention": {
+        "border_reachable_recolor": 0.0,
+        "enclosed_region_recolor": 0.42857142857142855,
+        "seed_reachable_recolor": 0.08163265306122448
+      },
+      "kind": "pairwise_conjunction",
+      "overall_exact": 0.17006802721088435,
+      "rule_name": "conjunction::does_not_touch_border__AND__has_seed_distance_above_median"
+    },
+    {
+      "exact_by_convention": {
+        "border_reachable_recolor": 0.0,
+        "enclosed_region_recolor": 0.0,
+        "seed_reachable_recolor": 0.08163265306122448
+      },
+      "kind": "pairwise_conjunction",
+      "overall_exact": 0.027210884353741496,
+      "rule_name": "conjunction::does_not_touch_border__AND__is_marker_adjacent"
+    },
+    {
+      "exact_by_convention": {
+        "border_reachable_recolor": 0.0,
+        "enclosed_region_recolor": 0.42857142857142855,
+        "seed_reachable_recolor": 0.0
+      },
+      "kind": "pairwise_conjunction",
+      "overall_exact": 0.14285714285714285,
+      "rule_name": "conjunction::does_not_touch_border__AND__is_not_marker_adjacent"
+    },
+    {
+      "exact_by_convention": {
+        "border_reachable_recolor": 0.0,
+        "enclosed_region_recolor": 0.0,
+        "seed_reachable_recolor": 0.0
+      },
+      "kind": "pairwise_conjunction",
+      "overall_exact": 0.0,
+      "rule_name": "conjunction::has_barrier_density_above_median__AND__has_seed_distance_above_median"
+    },
+    {
+      "exact_by_convention": {
+        "border_reachable_recolor": 0.0,
+        "enclosed_region_recolor": 0.0,
+        "seed_reachable_recolor": 0.0
+      },
+      "kind": "pairwise_conjunction",
+      "overall_exact": 0.0,
+      "rule_name": "conjunction::has_region_size_above_median__AND__has_barrier_density_above_median"
+    },
+    {
+      "exact_by_convention": {
+        "border_reachable_recolor": 0.0,
+        "enclosed_region_recolor": 0.0,
+        "seed_reachable_recolor": 0.0
+      },
+      "kind": "pairwise_conjunction",
+      "overall_exact": 0.0,
+      "rule_name": "conjunction::has_region_size_above_median__AND__has_region_size_below_median"
+    },
+    {
+      "exact_by_convention": {
+        "border_reachable_recolor": 0.0,
+        "enclosed_region_recolor": 0.24489795918367346,
+        "seed_reachable_recolor": 0.0
+      },
+      "kind": "pairwise_conjunction",
+      "overall_exact": 0.08163265306122448,
+      "rule_name": "conjunction::has_region_size_above_median__AND__has_seed_distance_above_median"
+    },
+    {
+      "exact_by_convention": {
+        "border_reachable_recolor": 0.0,
+        "enclosed_region_recolor": 0.0,
+        "seed_reachable_recolor": 0.0
+      },
+      "kind": "pairwise_conjunction",
+      "overall_exact": 0.0,
+      "rule_name": "conjunction::has_region_size_below_median__AND__has_barrier_density_above_median"
+    },
+    {
+      "exact_by_convention": {
+        "border_reachable_recolor": 0.0,
+        "enclosed_region_recolor": 0.0,
+        "seed_reachable_recolor": 0.0
+      },
+      "kind": "pairwise_conjunction",
+      "overall_exact": 0.0,
+      "rule_name": "conjunction::has_region_size_below_median__AND__has_seed_distance_above_median"
+    },
+    {
+      "exact_by_convention": {
+        "border_reachable_recolor": 0.0,
+        "enclosed_region_recolor": 0.42857142857142855,
+        "seed_reachable_recolor": 0.0
+      },
+      "kind": "pairwise_conjunction",
+      "overall_exact": 0.14285714285714285,
+      "rule_name": "conjunction::is_largest_component__AND__does_not_touch_border"
+    },
+    {
+      "exact_by_convention": {
+        "border_reachable_recolor": 0.0,
+        "enclosed_region_recolor": 0.0,
+        "seed_reachable_recolor": 0.0
+      },
+      "kind": "pairwise_conjunction",
+      "overall_exact": 0.0,
+      "rule_name": "conjunction::is_largest_component__AND__has_barrier_density_above_median"
+    },
+    {
+      "exact_by_convention": {
+        "border_reachable_recolor": 0.0,
+        "enclosed_region_recolor": 0.24489795918367346,
+        "seed_reachable_recolor": 0.0
+      },
+      "kind": "pairwise_conjunction",
+      "overall_exact": 0.08163265306122448,
+      "rule_name": "conjunction::is_largest_component__AND__has_region_size_above_median"
+    },
+    {
+      "exact_by_convention": {
+        "border_reachable_recolor": 0.0,
+        "enclosed_region_recolor": 0.0,
+        "seed_reachable_recolor": 0.0
+      },
+      "kind": "pairwise_conjunction",
+      "overall_exact": 0.0,
+      "rule_name": "conjunction::is_largest_component__AND__has_region_size_below_median"
+    },
+    {
+      "exact_by_convention": {
+        "border_reachable_recolor": 0.0,
+        "enclosed_region_recolor": 0.42857142857142855,
+        "seed_reachable_recolor": 0.0
+      },
+      "kind": "pairwise_conjunction",
+      "overall_exact": 0.14285714285714285,
+      "rule_name": "conjunction::is_largest_component__AND__has_seed_distance_above_median"
+    },
+    {
+      "exact_by_convention": {
+        "border_reachable_recolor": 0.0,
+        "enclosed_region_recolor": 0.0,
+        "seed_reachable_recolor": 0.0
+      },
+      "kind": "pairwise_conjunction",
+      "overall_exact": 0.0,
+      "rule_name": "conjunction::is_largest_component__AND__is_marker_adjacent"
+    },
+    {
+      "exact_by_convention": {
+        "border_reachable_recolor": 0.0,
+        "enclosed_region_recolor": 0.24489795918367346,
+        "seed_reachable_recolor": 0.0
+      },
+      "kind": "pairwise_conjunction",
+      "overall_exact": 0.08163265306122448,
+      "rule_name": "conjunction::is_largest_component__AND__is_not_marker_adjacent"
+    },
+    {
+      "exact_by_convention": {
+        "border_reachable_recolor": 0.0,
+        "enclosed_region_recolor": 0.0,
+        "seed_reachable_recolor": 0.0
+      },
+      "kind": "pairwise_conjunction",
+      "overall_exact": 0.0,
+      "rule_name": "conjunction::is_largest_component__AND__is_smallest_component"
+    },
+    {
+      "exact_by_convention": {
+        "border_reachable_recolor": 0.0,
+        "enclosed_region_recolor": 0.0,
+        "seed_reachable_recolor": 0.0
+      },
+      "kind": "pairwise_conjunction",
+      "overall_exact": 0.0,
+      "rule_name": "conjunction::is_largest_component__AND__touches_border"
+    },
+    {
+      "exact_by_convention": {
+        "border_reachable_recolor": 0.0,
+        "enclosed_region_recolor": 0.0,
+        "seed_reachable_recolor": 0.0
+      },
+      "kind": "pairwise_conjunction",
+      "overall_exact": 0.0,
+      "rule_name": "conjunction::is_marker_adjacent__AND__has_barrier_density_above_median"
+    },
+    {
+      "exact_by_convention": {
+        "border_reachable_recolor": 0.0,
+        "enclosed_region_recolor": 0.0,
+        "seed_reachable_recolor": 0.0
+      },
+      "kind": "pairwise_conjunction",
+      "overall_exact": 0.0,
+      "rule_name": "conjunction::is_marker_adjacent__AND__has_region_size_above_median"
+    },
+    {
+      "exact_by_convention": {
+        "border_reachable_recolor": 0.0,
+        "enclosed_region_recolor": 0.0,
+        "seed_reachable_recolor": 0.0
+      },
+      "kind": "pairwise_conjunction",
+      "overall_exact": 0.0,
+      "rule_name": "conjunction::is_marker_adjacent__AND__has_region_size_below_median"
+    },
+    {
+      "exact_by_convention": {
+        "border_reachable_recolor": 0.0,
+        "enclosed_region_recolor": 0.0,
+        "seed_reachable_recolor": 0.08163265306122448
+      },
+      "kind": "pairwise_conjunction",
+      "overall_exact": 0.027210884353741496,
+      "rule_name": "conjunction::is_marker_adjacent__AND__has_seed_distance_above_median"
+    },
+    {
+      "exact_by_convention": {
+        "border_reachable_recolor": 0.0,
+        "enclosed_region_recolor": 0.0,
+        "seed_reachable_recolor": 0.0
+      },
+      "kind": "pairwise_conjunction",
+      "overall_exact": 0.0,
+      "rule_name": "conjunction::is_marker_adjacent__AND__is_not_marker_adjacent"
+    },
+    {
+      "exact_by_convention": {
+        "border_reachable_recolor": 0.0,
+        "enclosed_region_recolor": 0.0,
+        "seed_reachable_recolor": 0.0
+      },
+      "kind": "pairwise_conjunction",
+      "overall_exact": 0.0,
+      "rule_name": "conjunction::is_not_marker_adjacent__AND__has_barrier_density_above_median"
+    },
+    {
+      "exact_by_convention": {
+        "border_reachable_recolor": 0.0,
+        "enclosed_region_recolor": 0.24489795918367346,
+        "seed_reachable_recolor": 0.0
+      },
+      "kind": "pairwise_conjunction",
+      "overall_exact": 0.08163265306122448,
+      "rule_name": "conjunction::is_not_marker_adjacent__AND__has_region_size_above_median"
+    },
+    {
+      "exact_by_convention": {
+        "border_reachable_recolor": 0.0,
+        "enclosed_region_recolor": 0.0,
+        "seed_reachable_recolor": 0.0
+      },
+      "kind": "pairwise_conjunction",
+      "overall_exact": 0.0,
+      "rule_name": "conjunction::is_not_marker_adjacent__AND__has_region_size_below_median"
+    },
+    {
+      "exact_by_convention": {
+        "border_reachable_recolor": 0.0,
+        "enclosed_region_recolor": 0.42857142857142855,
+        "seed_reachable_recolor": 0.0
+      },
+      "kind": "pairwise_conjunction",
+      "overall_exact": 0.14285714285714285,
+      "rule_name": "conjunction::is_not_marker_adjacent__AND__has_seed_distance_above_median"
+    },
+    {
+      "exact_by_convention": {
+        "border_reachable_recolor": 0.0,
+        "enclosed_region_recolor": 0.0,
+        "seed_reachable_recolor": 0.0
+      },
+      "kind": "pairwise_conjunction",
+      "overall_exact": 0.0,
+      "rule_name": "conjunction::is_smallest_component__AND__does_not_touch_border"
+    },
+    {
+      "exact_by_convention": {
+        "border_reachable_recolor": 0.0,
+        "enclosed_region_recolor": 0.0,
+        "seed_reachable_recolor": 0.0
+      },
+      "kind": "pairwise_conjunction",
+      "overall_exact": 0.0,
+      "rule_name": "conjunction::is_smallest_component__AND__has_barrier_density_above_median"
+    },
+    {
+      "exact_by_convention": {
+        "border_reachable_recolor": 0.0,
+        "enclosed_region_recolor": 0.0,
+        "seed_reachable_recolor": 0.0
+      },
+      "kind": "pairwise_conjunction",
+      "overall_exact": 0.0,
+      "rule_name": "conjunction::is_smallest_component__AND__has_region_size_above_median"
+    },
+    {
+      "exact_by_convention": {
+        "border_reachable_recolor": 0.0,
+        "enclosed_region_recolor": 0.0,
+        "seed_reachable_recolor": 0.0
+      },
+      "kind": "pairwise_conjunction",
+      "overall_exact": 0.0,
+      "rule_name": "conjunction::is_smallest_component__AND__has_region_size_below_median"
+    },
+    {
+      "exact_by_convention": {
+        "border_reachable_recolor": 0.0,
+        "enclosed_region_recolor": 0.0,
+        "seed_reachable_recolor": 0.0
+      },
+      "kind": "pairwise_conjunction",
+      "overall_exact": 0.0,
+      "rule_name": "conjunction::is_smallest_component__AND__has_seed_distance_above_median"
+    },
+    {
+      "exact_by_convention": {
+        "border_reachable_recolor": 0.0,
+        "enclosed_region_recolor": 0.0,
+        "seed_reachable_recolor": 0.0
+      },
+      "kind": "pairwise_conjunction",
+      "overall_exact": 0.0,
+      "rule_name": "conjunction::is_smallest_component__AND__is_marker_adjacent"
+    },
+    {
+      "exact_by_convention": {
+        "border_reachable_recolor": 0.0,
+        "enclosed_region_recolor": 0.0,
+        "seed_reachable_recolor": 0.0
+      },
+      "kind": "pairwise_conjunction",
+      "overall_exact": 0.0,
+      "rule_name": "conjunction::is_smallest_component__AND__is_not_marker_adjacent"
+    },
+    {
+      "exact_by_convention": {
+        "border_reachable_recolor": 0.0,
+        "enclosed_region_recolor": 0.0,
+        "seed_reachable_recolor": 0.0
+      },
+      "kind": "pairwise_conjunction",
+      "overall_exact": 0.0,
+      "rule_name": "conjunction::is_smallest_component__AND__touches_border"
+    },
+    {
+      "exact_by_convention": {
+        "border_reachable_recolor": 0.0,
+        "enclosed_region_recolor": 0.0,
+        "seed_reachable_recolor": 0.0
+      },
+      "kind": "pairwise_conjunction",
+      "overall_exact": 0.0,
+      "rule_name": "conjunction::touches_border__AND__does_not_touch_border"
+    },
+    {
+      "exact_by_convention": {
+        "border_reachable_recolor": 0.0,
+        "enclosed_region_recolor": 0.0,
+        "seed_reachable_recolor": 0.0
+      },
+      "kind": "pairwise_conjunction",
+      "overall_exact": 0.0,
+      "rule_name": "conjunction::touches_border__AND__has_barrier_density_above_median"
+    },
+    {
+      "exact_by_convention": {
+        "border_reachable_recolor": 0.0,
+        "enclosed_region_recolor": 0.0,
+        "seed_reachable_recolor": 0.0
+      },
+      "kind": "pairwise_conjunction",
+      "overall_exact": 0.0,
+      "rule_name": "conjunction::touches_border__AND__has_region_size_above_median"
+    },
+    {
+      "exact_by_convention": {
+        "border_reachable_recolor": 0.0,
+        "enclosed_region_recolor": 0.0,
+        "seed_reachable_recolor": 0.0
+      },
+      "kind": "pairwise_conjunction",
+      "overall_exact": 0.0,
+      "rule_name": "conjunction::touches_border__AND__has_region_size_below_median"
+    },
+    {
+      "exact_by_convention": {
+        "border_reachable_recolor": 0.0,
+        "enclosed_region_recolor": 0.0,
+        "seed_reachable_recolor": 0.0
+      },
+      "kind": "pairwise_conjunction",
+      "overall_exact": 0.0,
+      "rule_name": "conjunction::touches_border__AND__has_seed_distance_above_median"
+    },
+    {
+      "exact_by_convention": {
+        "border_reachable_recolor": 0.0,
+        "enclosed_region_recolor": 0.0,
+        "seed_reachable_recolor": 0.0
+      },
+      "kind": "pairwise_conjunction",
+      "overall_exact": 0.0,
+      "rule_name": "conjunction::touches_border__AND__is_marker_adjacent"
+    },
+    {
+      "exact_by_convention": {
+        "border_reachable_recolor": 0.0,
+        "enclosed_region_recolor": 0.0,
+        "seed_reachable_recolor": 0.0
+      },
+      "kind": "pairwise_conjunction",
+      "overall_exact": 0.0,
+      "rule_name": "conjunction::touches_border__AND__is_not_marker_adjacent"
+    },
+    {
+      "exact_by_convention": {
+        "border_reachable_recolor": 0.0,
+        "enclosed_region_recolor": 0.0,
+        "seed_reachable_recolor": 0.0
+      },
+      "kind": "single",
+      "overall_exact": 0.0,
+      "rule_name": "identity_output"
+    },
+    {
+      "exact_by_convention": {
+        "border_reachable_recolor": 0.0,
+        "enclosed_region_recolor": 0.42857142857142855,
+        "seed_reachable_recolor": 0.0
+      },
+      "kind": "ordered_lexicographic",
+      "overall_exact": 0.14285714285714285,
+      "rule_name": "lexicographic::does_not_touch_border__THEN__has_barrier_density_above_median"
+    },
+    {
+      "exact_by_convention": {
+        "border_reachable_recolor": 0.0,
+        "enclosed_region_recolor": 0.42857142857142855,
+        "seed_reachable_recolor": 0.0
+      },
+      "kind": "ordered_lexicographic",
+      "overall_exact": 0.14285714285714285,
+      "rule_name": "lexicographic::does_not_touch_border__THEN__has_region_size_above_median"
+    },
+    {
+      "exact_by_convention": {
+        "border_reachable_recolor": 0.0,
+        "enclosed_region_recolor": 0.42857142857142855,
+        "seed_reachable_recolor": 0.0
+      },
+      "kind": "ordered_lexicographic",
+      "overall_exact": 0.14285714285714285,
+      "rule_name": "lexicographic::does_not_touch_border__THEN__has_region_size_below_median"
+    },
+    {
+      "exact_by_convention": {
+        "border_reachable_recolor": 0.0,
+        "enclosed_region_recolor": 0.42857142857142855,
+        "seed_reachable_recolor": 0.08163265306122448
+      },
+      "kind": "ordered_lexicographic",
+      "overall_exact": 0.17006802721088435,
+      "rule_name": "lexicographic::does_not_touch_border__THEN__has_seed_distance_above_median"
+    },
+    {
+      "exact_by_convention": {
+        "border_reachable_recolor": 0.0,
+        "enclosed_region_recolor": 0.42857142857142855,
+        "seed_reachable_recolor": 0.0
+      },
+      "kind": "ordered_lexicographic",
+      "overall_exact": 0.14285714285714285,
+      "rule_name": "lexicographic::does_not_touch_border__THEN__is_largest_component"
+    },
+    {
+      "exact_by_convention": {
+        "border_reachable_recolor": 0.0,
+        "enclosed_region_recolor": 0.42857142857142855,
+        "seed_reachable_recolor": 0.08163265306122448
+      },
+      "kind": "ordered_lexicographic",
+      "overall_exact": 0.17006802721088435,
+      "rule_name": "lexicographic::does_not_touch_border__THEN__is_marker_adjacent"
+    },
+    {
+      "exact_by_convention": {
+        "border_reachable_recolor": 0.0,
+        "enclosed_region_recolor": 0.42857142857142855,
+        "seed_reachable_recolor": 0.0
+      },
+      "kind": "ordered_lexicographic",
+      "overall_exact": 0.14285714285714285,
+      "rule_name": "lexicographic::does_not_touch_border__THEN__is_not_marker_adjacent"
+    },
+    {
+      "exact_by_convention": {
+        "border_reachable_recolor": 0.0,
+        "enclosed_region_recolor": 0.42857142857142855,
+        "seed_reachable_recolor": 0.0
+      },
+      "kind": "ordered_lexicographic",
+      "overall_exact": 0.14285714285714285,
+      "rule_name": "lexicographic::does_not_touch_border__THEN__is_smallest_component"
+    },
+    {
+      "exact_by_convention": {
+        "border_reachable_recolor": 0.0,
+        "enclosed_region_recolor": 0.42857142857142855,
+        "seed_reachable_recolor": 0.0
+      },
+      "kind": "ordered_lexicographic",
+      "overall_exact": 0.14285714285714285,
+      "rule_name": "lexicographic::does_not_touch_border__THEN__touches_border"
+    },
+    {
+      "exact_by_convention": {
+        "border_reachable_recolor": 0.0,
+        "enclosed_region_recolor": 0.0,
+        "seed_reachable_recolor": 0.0
+      },
+      "kind": "ordered_lexicographic",
+      "overall_exact": 0.0,
+      "rule_name": "lexicographic::has_barrier_density_above_median__THEN__does_not_touch_border"
+    },
+    {
+      "exact_by_convention": {
+        "border_reachable_recolor": 0.0,
+        "enclosed_region_recolor": 0.0,
+        "seed_reachable_recolor": 0.0
+      },
+      "kind": "ordered_lexicographic",
+      "overall_exact": 0.0,
+      "rule_name": "lexicographic::has_barrier_density_above_median__THEN__has_region_size_above_median"
+    },
+    {
+      "exact_by_convention": {
+        "border_reachable_recolor": 0.0,
+        "enclosed_region_recolor": 0.0,
+        "seed_reachable_recolor": 0.0
+      },
+      "kind": "ordered_lexicographic",
+      "overall_exact": 0.0,
+      "rule_name": "lexicographic::has_barrier_density_above_median__THEN__has_region_size_below_median"
+    },
+    {
+      "exact_by_convention": {
+        "border_reachable_recolor": 0.0,
+        "enclosed_region_recolor": 0.0,
+        "seed_reachable_recolor": 0.0
+      },
+      "kind": "ordered_lexicographic",
+      "overall_exact": 0.0,
+      "rule_name": "lexicographic::has_barrier_density_above_median__THEN__has_seed_distance_above_median"
+    },
+    {
+      "exact_by_convention": {
+        "border_reachable_recolor": 0.0,
+        "enclosed_region_recolor": 0.0,
+        "seed_reachable_recolor": 0.0
+      },
+      "kind": "ordered_lexicographic",
+      "overall_exact": 0.0,
+      "rule_name": "lexicographic::has_barrier_density_above_median__THEN__is_largest_component"
+    },
+    {
+      "exact_by_convention": {
+        "border_reachable_recolor": 0.0,
+        "enclosed_region_recolor": 0.0,
+        "seed_reachable_recolor": 0.0
+      },
+      "kind": "ordered_lexicographic",
+      "overall_exact": 0.0,
+      "rule_name": "lexicographic::has_barrier_density_above_median__THEN__is_marker_adjacent"
+    },
+    {
+      "exact_by_convention": {
+        "border_reachable_recolor": 0.0,
+        "enclosed_region_recolor": 0.0,
+        "seed_reachable_recolor": 0.0
+      },
+      "kind": "ordered_lexicographic",
+      "overall_exact": 0.0,
+      "rule_name": "lexicographic::has_barrier_density_above_median__THEN__is_not_marker_adjacent"
+    },
+    {
+      "exact_by_convention": {
+        "border_reachable_recolor": 0.0,
+        "enclosed_region_recolor": 0.0,
+        "seed_reachable_recolor": 0.0
+      },
+      "kind": "ordered_lexicographic",
+      "overall_exact": 0.0,
+      "rule_name": "lexicographic::has_barrier_density_above_median__THEN__is_smallest_component"
+    },
+    {
+      "exact_by_convention": {
+        "border_reachable_recolor": 0.0,
+        "enclosed_region_recolor": 0.0,
+        "seed_reachable_recolor": 0.0
+      },
+      "kind": "ordered_lexicographic",
+      "overall_exact": 0.0,
+      "rule_name": "lexicographic::has_barrier_density_above_median__THEN__touches_border"
+    },
+    {
+      "exact_by_convention": {
+        "border_reachable_recolor": 0.0,
+        "enclosed_region_recolor": 0.24489795918367346,
+        "seed_reachable_recolor": 0.0
+      },
+      "kind": "ordered_lexicographic",
+      "overall_exact": 0.08163265306122448,
+      "rule_name": "lexicographic::has_region_size_above_median__THEN__does_not_touch_border"
+    },
+    {
+      "exact_by_convention": {
+        "border_reachable_recolor": 0.0,
+        "enclosed_region_recolor": 0.24489795918367346,
+        "seed_reachable_recolor": 0.0
+      },
+      "kind": "ordered_lexicographic",
+      "overall_exact": 0.08163265306122448,
+      "rule_name": "lexicographic::has_region_size_above_median__THEN__has_barrier_density_above_median"
+    },
+    {
+      "exact_by_convention": {
+        "border_reachable_recolor": 0.0,
+        "enclosed_region_recolor": 0.24489795918367346,
+        "seed_reachable_recolor": 0.0
+      },
+      "kind": "ordered_lexicographic",
+      "overall_exact": 0.08163265306122448,
+      "rule_name": "lexicographic::has_region_size_above_median__THEN__has_region_size_below_median"
+    },
+    {
+      "exact_by_convention": {
+        "border_reachable_recolor": 0.0,
+        "enclosed_region_recolor": 0.24489795918367346,
+        "seed_reachable_recolor": 0.0
+      },
+      "kind": "ordered_lexicographic",
+      "overall_exact": 0.08163265306122448,
+      "rule_name": "lexicographic::has_region_size_above_median__THEN__has_seed_distance_above_median"
+    },
+    {
+      "exact_by_convention": {
+        "border_reachable_recolor": 0.0,
+        "enclosed_region_recolor": 0.24489795918367346,
+        "seed_reachable_recolor": 0.0
+      },
+      "kind": "ordered_lexicographic",
+      "overall_exact": 0.08163265306122448,
+      "rule_name": "lexicographic::has_region_size_above_median__THEN__is_largest_component"
+    },
+    {
+      "exact_by_convention": {
+        "border_reachable_recolor": 0.0,
+        "enclosed_region_recolor": 0.24489795918367346,
+        "seed_reachable_recolor": 0.0
+      },
+      "kind": "ordered_lexicographic",
+      "overall_exact": 0.08163265306122448,
+      "rule_name": "lexicographic::has_region_size_above_median__THEN__is_marker_adjacent"
+    },
+    {
+      "exact_by_convention": {
+        "border_reachable_recolor": 0.0,
+        "enclosed_region_recolor": 0.24489795918367346,
+        "seed_reachable_recolor": 0.0
+      },
+      "kind": "ordered_lexicographic",
+      "overall_exact": 0.08163265306122448,
+      "rule_name": "lexicographic::has_region_size_above_median__THEN__is_not_marker_adjacent"
+    },
+    {
+      "exact_by_convention": {
+        "border_reachable_recolor": 0.0,
+        "enclosed_region_recolor": 0.24489795918367346,
+        "seed_reachable_recolor": 0.0
+      },
+      "kind": "ordered_lexicographic",
+      "overall_exact": 0.08163265306122448,
+      "rule_name": "lexicographic::has_region_size_above_median__THEN__is_smallest_component"
+    },
+    {
+      "exact_by_convention": {
+        "border_reachable_recolor": 0.0,
+        "enclosed_region_recolor": 0.24489795918367346,
+        "seed_reachable_recolor": 0.0
+      },
+      "kind": "ordered_lexicographic",
+      "overall_exact": 0.08163265306122448,
+      "rule_name": "lexicographic::has_region_size_above_median__THEN__touches_border"
+    },
+    {
+      "exact_by_convention": {
+        "border_reachable_recolor": 0.0,
+        "enclosed_region_recolor": 0.0,
+        "seed_reachable_recolor": 0.0
+      },
+      "kind": "ordered_lexicographic",
+      "overall_exact": 0.0,
+      "rule_name": "lexicographic::has_region_size_below_median__THEN__does_not_touch_border"
+    },
+    {
+      "exact_by_convention": {
+        "border_reachable_recolor": 0.0,
+        "enclosed_region_recolor": 0.0,
+        "seed_reachable_recolor": 0.0
+      },
+      "kind": "ordered_lexicographic",
+      "overall_exact": 0.0,
+      "rule_name": "lexicographic::has_region_size_below_median__THEN__has_barrier_density_above_median"
+    },
+    {
+      "exact_by_convention": {
+        "border_reachable_recolor": 0.0,
+        "enclosed_region_recolor": 0.0,
+        "seed_reachable_recolor": 0.0
+      },
+      "kind": "ordered_lexicographic",
+      "overall_exact": 0.0,
+      "rule_name": "lexicographic::has_region_size_below_median__THEN__has_region_size_above_median"
+    },
+    {
+      "exact_by_convention": {
+        "border_reachable_recolor": 0.0,
+        "enclosed_region_recolor": 0.0,
+        "seed_reachable_recolor": 0.0
+      },
+      "kind": "ordered_lexicographic",
+      "overall_exact": 0.0,
+      "rule_name": "lexicographic::has_region_size_below_median__THEN__has_seed_distance_above_median"
+    },
+    {
+      "exact_by_convention": {
+        "border_reachable_recolor": 0.0,
+        "enclosed_region_recolor": 0.0,
+        "seed_reachable_recolor": 0.0
+      },
+      "kind": "ordered_lexicographic",
+      "overall_exact": 0.0,
+      "rule_name": "lexicographic::has_region_size_below_median__THEN__is_largest_component"
+    },
+    {
+      "exact_by_convention": {
+        "border_reachable_recolor": 0.0,
+        "enclosed_region_recolor": 0.0,
+        "seed_reachable_recolor": 0.0
+      },
+      "kind": "ordered_lexicographic",
+      "overall_exact": 0.0,
+      "rule_name": "lexicographic::has_region_size_below_median__THEN__is_marker_adjacent"
+    },
+    {
+      "exact_by_convention": {
+        "border_reachable_recolor": 0.0,
+        "enclosed_region_recolor": 0.0,
+        "seed_reachable_recolor": 0.0
+      },
+      "kind": "ordered_lexicographic",
+      "overall_exact": 0.0,
+      "rule_name": "lexicographic::has_region_size_below_median__THEN__is_not_marker_adjacent"
+    },
+    {
+      "exact_by_convention": {
+        "border_reachable_recolor": 0.0,
+        "enclosed_region_recolor": 0.0,
+        "seed_reachable_recolor": 0.0
+      },
+      "kind": "ordered_lexicographic",
+      "overall_exact": 0.0,
+      "rule_name": "lexicographic::has_region_size_below_median__THEN__is_smallest_component"
+    },
+    {
+      "exact_by_convention": {
+        "border_reachable_recolor": 0.0,
+        "enclosed_region_recolor": 0.0,
+        "seed_reachable_recolor": 0.0
+      },
+      "kind": "ordered_lexicographic",
+      "overall_exact": 0.0,
+      "rule_name": "lexicographic::has_region_size_below_median__THEN__touches_border"
+    },
+    {
+      "exact_by_convention": {
+        "border_reachable_recolor": 0.0,
+        "enclosed_region_recolor": 0.42857142857142855,
+        "seed_reachable_recolor": 0.08163265306122448
+      },
+      "kind": "ordered_lexicographic",
+      "overall_exact": 0.17006802721088435,
+      "rule_name": "lexicographic::has_seed_distance_above_median__THEN__does_not_touch_border"
+    },
+    {
+      "exact_by_convention": {
+        "border_reachable_recolor": 0.0,
+        "enclosed_region_recolor": 0.42857142857142855,
+        "seed_reachable_recolor": 0.08163265306122448
+      },
+      "kind": "ordered_lexicographic",
+      "overall_exact": 0.17006802721088435,
+      "rule_name": "lexicographic::has_seed_distance_above_median__THEN__has_barrier_density_above_median"
+    },
+    {
+      "exact_by_convention": {
+        "border_reachable_recolor": 0.0,
+        "enclosed_region_recolor": 0.42857142857142855,
+        "seed_reachable_recolor": 0.08163265306122448
+      },
+      "kind": "ordered_lexicographic",
+      "overall_exact": 0.17006802721088435,
+      "rule_name": "lexicographic::has_seed_distance_above_median__THEN__has_region_size_above_median"
+    },
+    {
+      "exact_by_convention": {
+        "border_reachable_recolor": 0.0,
+        "enclosed_region_recolor": 0.42857142857142855,
+        "seed_reachable_recolor": 0.08163265306122448
+      },
+      "kind": "ordered_lexicographic",
+      "overall_exact": 0.17006802721088435,
+      "rule_name": "lexicographic::has_seed_distance_above_median__THEN__has_region_size_below_median"
+    },
+    {
+      "exact_by_convention": {
+        "border_reachable_recolor": 0.0,
+        "enclosed_region_recolor": 0.42857142857142855,
+        "seed_reachable_recolor": 0.08163265306122448
+      },
+      "kind": "ordered_lexicographic",
+      "overall_exact": 0.17006802721088435,
+      "rule_name": "lexicographic::has_seed_distance_above_median__THEN__is_largest_component"
+    },
+    {
+      "exact_by_convention": {
+        "border_reachable_recolor": 0.0,
+        "enclosed_region_recolor": 0.42857142857142855,
+        "seed_reachable_recolor": 0.08163265306122448
+      },
+      "kind": "ordered_lexicographic",
+      "overall_exact": 0.17006802721088435,
+      "rule_name": "lexicographic::has_seed_distance_above_median__THEN__is_marker_adjacent"
+    },
+    {
+      "exact_by_convention": {
+        "border_reachable_recolor": 0.0,
+        "enclosed_region_recolor": 0.42857142857142855,
+        "seed_reachable_recolor": 0.08163265306122448
+      },
+      "kind": "ordered_lexicographic",
+      "overall_exact": 0.17006802721088435,
+      "rule_name": "lexicographic::has_seed_distance_above_median__THEN__is_not_marker_adjacent"
+    },
+    {
+      "exact_by_convention": {
+        "border_reachable_recolor": 0.0,
+        "enclosed_region_recolor": 0.42857142857142855,
+        "seed_reachable_recolor": 0.08163265306122448
+      },
+      "kind": "ordered_lexicographic",
+      "overall_exact": 0.17006802721088435,
+      "rule_name": "lexicographic::has_seed_distance_above_median__THEN__is_smallest_component"
+    },
+    {
+      "exact_by_convention": {
+        "border_reachable_recolor": 0.0,
+        "enclosed_region_recolor": 0.42857142857142855,
+        "seed_reachable_recolor": 0.08163265306122448
+      },
+      "kind": "ordered_lexicographic",
+      "overall_exact": 0.17006802721088435,
+      "rule_name": "lexicographic::has_seed_distance_above_median__THEN__touches_border"
+    },
+    {
+      "exact_by_convention": {
+        "border_reachable_recolor": 0.0,
+        "enclosed_region_recolor": 0.42857142857142855,
+        "seed_reachable_recolor": 0.0
+      },
+      "kind": "ordered_lexicographic",
+      "overall_exact": 0.14285714285714285,
+      "rule_name": "lexicographic::is_largest_component__THEN__does_not_touch_border"
+    },
+    {
+      "exact_by_convention": {
+        "border_reachable_recolor": 0.0,
+        "enclosed_region_recolor": 0.24489795918367346,
+        "seed_reachable_recolor": 0.0
+      },
+      "kind": "ordered_lexicographic",
+      "overall_exact": 0.08163265306122448,
+      "rule_name": "lexicographic::is_largest_component__THEN__has_barrier_density_above_median"
+    },
+    {
+      "exact_by_convention": {
+        "border_reachable_recolor": 0.0,
+        "enclosed_region_recolor": 0.24489795918367346,
+        "seed_reachable_recolor": 0.0
+      },
+      "kind": "ordered_lexicographic",
+      "overall_exact": 0.08163265306122448,
+      "rule_name": "lexicographic::is_largest_component__THEN__has_region_size_above_median"
+    },
+    {
+      "exact_by_convention": {
+        "border_reachable_recolor": 0.0,
+        "enclosed_region_recolor": 0.24489795918367346,
+        "seed_reachable_recolor": 0.0
+      },
+      "kind": "ordered_lexicographic",
+      "overall_exact": 0.08163265306122448,
+      "rule_name": "lexicographic::is_largest_component__THEN__has_region_size_below_median"
+    },
+    {
+      "exact_by_convention": {
+        "border_reachable_recolor": 0.0,
+        "enclosed_region_recolor": 0.42857142857142855,
+        "seed_reachable_recolor": 0.0
+      },
+      "kind": "ordered_lexicographic",
+      "overall_exact": 0.14285714285714285,
+      "rule_name": "lexicographic::is_largest_component__THEN__has_seed_distance_above_median"
+    },
+    {
+      "exact_by_convention": {
+        "border_reachable_recolor": 0.0,
+        "enclosed_region_recolor": 0.24489795918367346,
+        "seed_reachable_recolor": 0.0
+      },
+      "kind": "ordered_lexicographic",
+      "overall_exact": 0.08163265306122448,
+      "rule_name": "lexicographic::is_largest_component__THEN__is_marker_adjacent"
+    },
+    {
+      "exact_by_convention": {
+        "border_reachable_recolor": 0.0,
+        "enclosed_region_recolor": 0.24489795918367346,
+        "seed_reachable_recolor": 0.0
+      },
+      "kind": "ordered_lexicographic",
+      "overall_exact": 0.08163265306122448,
+      "rule_name": "lexicographic::is_largest_component__THEN__is_not_marker_adjacent"
+    },
+    {
+      "exact_by_convention": {
+        "border_reachable_recolor": 0.0,
+        "enclosed_region_recolor": 0.24489795918367346,
+        "seed_reachable_recolor": 0.0
+      },
+      "kind": "ordered_lexicographic",
+      "overall_exact": 0.08163265306122448,
+      "rule_name": "lexicographic::is_largest_component__THEN__is_smallest_component"
+    },
+    {
+      "exact_by_convention": {
+        "border_reachable_recolor": 0.0,
+        "enclosed_region_recolor": 0.24489795918367346,
+        "seed_reachable_recolor": 0.0
+      },
+      "kind": "ordered_lexicographic",
+      "overall_exact": 0.08163265306122448,
+      "rule_name": "lexicographic::is_largest_component__THEN__touches_border"
+    },
+    {
+      "exact_by_convention": {
+        "border_reachable_recolor": 0.0,
+        "enclosed_region_recolor": 0.0,
+        "seed_reachable_recolor": 0.08163265306122448
+      },
+      "kind": "ordered_lexicographic",
+      "overall_exact": 0.027210884353741496,
+      "rule_name": "lexicographic::is_marker_adjacent__THEN__does_not_touch_border"
+    },
+    {
+      "exact_by_convention": {
+        "border_reachable_recolor": 0.0,
+        "enclosed_region_recolor": 0.0,
+        "seed_reachable_recolor": 0.08163265306122448
+      },
+      "kind": "ordered_lexicographic",
+      "overall_exact": 0.027210884353741496,
+      "rule_name": "lexicographic::is_marker_adjacent__THEN__has_barrier_density_above_median"
+    },
+    {
+      "exact_by_convention": {
+        "border_reachable_recolor": 0.0,
+        "enclosed_region_recolor": 0.0,
+        "seed_reachable_recolor": 0.08163265306122448
+      },
+      "kind": "ordered_lexicographic",
+      "overall_exact": 0.027210884353741496,
+      "rule_name": "lexicographic::is_marker_adjacent__THEN__has_region_size_above_median"
+    },
+    {
+      "exact_by_convention": {
+        "border_reachable_recolor": 0.0,
+        "enclosed_region_recolor": 0.0,
+        "seed_reachable_recolor": 0.08163265306122448
+      },
+      "kind": "ordered_lexicographic",
+      "overall_exact": 0.027210884353741496,
+      "rule_name": "lexicographic::is_marker_adjacent__THEN__has_region_size_below_median"
+    },
+    {
+      "exact_by_convention": {
+        "border_reachable_recolor": 0.0,
+        "enclosed_region_recolor": 0.0,
+        "seed_reachable_recolor": 0.08163265306122448
+      },
+      "kind": "ordered_lexicographic",
+      "overall_exact": 0.027210884353741496,
+      "rule_name": "lexicographic::is_marker_adjacent__THEN__has_seed_distance_above_median"
+    },
+    {
+      "exact_by_convention": {
+        "border_reachable_recolor": 0.0,
+        "enclosed_region_recolor": 0.0,
+        "seed_reachable_recolor": 0.08163265306122448
+      },
+      "kind": "ordered_lexicographic",
+      "overall_exact": 0.027210884353741496,
+      "rule_name": "lexicographic::is_marker_adjacent__THEN__is_largest_component"
+    },
+    {
+      "exact_by_convention": {
+        "border_reachable_recolor": 0.0,
+        "enclosed_region_recolor": 0.0,
+        "seed_reachable_recolor": 0.08163265306122448
+      },
+      "kind": "ordered_lexicographic",
+      "overall_exact": 0.027210884353741496,
+      "rule_name": "lexicographic::is_marker_adjacent__THEN__is_not_marker_adjacent"
+    },
+    {
+      "exact_by_convention": {
+        "border_reachable_recolor": 0.0,
+        "enclosed_region_recolor": 0.0,
+        "seed_reachable_recolor": 0.08163265306122448
+      },
+      "kind": "ordered_lexicographic",
+      "overall_exact": 0.027210884353741496,
+      "rule_name": "lexicographic::is_marker_adjacent__THEN__is_smallest_component"
+    },
+    {
+      "exact_by_convention": {
+        "border_reachable_recolor": 0.0,
+        "enclosed_region_recolor": 0.0,
+        "seed_reachable_recolor": 0.08163265306122448
+      },
+      "kind": "ordered_lexicographic",
+      "overall_exact": 0.027210884353741496,
+      "rule_name": "lexicographic::is_marker_adjacent__THEN__touches_border"
+    },
+    {
+      "exact_by_convention": {
+        "border_reachable_recolor": 0.0,
+        "enclosed_region_recolor": 0.42857142857142855,
+        "seed_reachable_recolor": 0.0
+      },
+      "kind": "ordered_lexicographic",
+      "overall_exact": 0.14285714285714285,
+      "rule_name": "lexicographic::is_not_marker_adjacent__THEN__does_not_touch_border"
+    },
+    {
+      "exact_by_convention": {
+        "border_reachable_recolor": 0.0,
+        "enclosed_region_recolor": 0.0,
+        "seed_reachable_recolor": 0.0
+      },
+      "kind": "ordered_lexicographic",
+      "overall_exact": 0.0,
+      "rule_name": "lexicographic::is_not_marker_adjacent__THEN__has_barrier_density_above_median"
+    },
+    {
+      "exact_by_convention": {
+        "border_reachable_recolor": 0.0,
+        "enclosed_region_recolor": 0.24489795918367346,
+        "seed_reachable_recolor": 0.0
+      },
+      "kind": "ordered_lexicographic",
+      "overall_exact": 0.08163265306122448,
+      "rule_name": "lexicographic::is_not_marker_adjacent__THEN__has_region_size_above_median"
+    },
+    {
+      "exact_by_convention": {
+        "border_reachable_recolor": 0.0,
+        "enclosed_region_recolor": 0.0,
+        "seed_reachable_recolor": 0.0
+      },
+      "kind": "ordered_lexicographic",
+      "overall_exact": 0.0,
+      "rule_name": "lexicographic::is_not_marker_adjacent__THEN__has_region_size_below_median"
+    },
+    {
+      "exact_by_convention": {
+        "border_reachable_recolor": 0.0,
+        "enclosed_region_recolor": 0.42857142857142855,
+        "seed_reachable_recolor": 0.0
+      },
+      "kind": "ordered_lexicographic",
+      "overall_exact": 0.14285714285714285,
+      "rule_name": "lexicographic::is_not_marker_adjacent__THEN__has_seed_distance_above_median"
+    },
+    {
+      "exact_by_convention": {
+        "border_reachable_recolor": 0.0,
+        "enclosed_region_recolor": 0.24489795918367346,
+        "seed_reachable_recolor": 0.0
+      },
+      "kind": "ordered_lexicographic",
+      "overall_exact": 0.08163265306122448,
+      "rule_name": "lexicographic::is_not_marker_adjacent__THEN__is_largest_component"
+    },
+    {
+      "exact_by_convention": {
+        "border_reachable_recolor": 0.0,
+        "enclosed_region_recolor": 0.0,
+        "seed_reachable_recolor": 0.0
+      },
+      "kind": "ordered_lexicographic",
+      "overall_exact": 0.0,
+      "rule_name": "lexicographic::is_not_marker_adjacent__THEN__is_marker_adjacent"
+    },
+    {
+      "exact_by_convention": {
+        "border_reachable_recolor": 0.0,
+        "enclosed_region_recolor": 0.0,
+        "seed_reachable_recolor": 0.0
+      },
+      "kind": "ordered_lexicographic",
+      "overall_exact": 0.0,
+      "rule_name": "lexicographic::is_not_marker_adjacent__THEN__is_smallest_component"
+    },
+    {
+      "exact_by_convention": {
+        "border_reachable_recolor": 0.0,
+        "enclosed_region_recolor": 0.0,
+        "seed_reachable_recolor": 0.0
+      },
+      "kind": "ordered_lexicographic",
+      "overall_exact": 0.0,
+      "rule_name": "lexicographic::is_not_marker_adjacent__THEN__touches_border"
+    },
+    {
+      "exact_by_convention": {
+        "border_reachable_recolor": 0.0,
+        "enclosed_region_recolor": 0.0,
+        "seed_reachable_recolor": 0.0
+      },
+      "kind": "ordered_lexicographic",
+      "overall_exact": 0.0,
+      "rule_name": "lexicographic::is_smallest_component__THEN__does_not_touch_border"
+    },
+    {
+      "exact_by_convention": {
+        "border_reachable_recolor": 0.0,
+        "enclosed_region_recolor": 0.0,
+        "seed_reachable_recolor": 0.0
+      },
+      "kind": "ordered_lexicographic",
+      "overall_exact": 0.0,
+      "rule_name": "lexicographic::is_smallest_component__THEN__has_barrier_density_above_median"
+    },
+    {
+      "exact_by_convention": {
+        "border_reachable_recolor": 0.0,
+        "enclosed_region_recolor": 0.0,
+        "seed_reachable_recolor": 0.0
+      },
+      "kind": "ordered_lexicographic",
+      "overall_exact": 0.0,
+      "rule_name": "lexicographic::is_smallest_component__THEN__has_region_size_above_median"
+    },
+    {
+      "exact_by_convention": {
+        "border_reachable_recolor": 0.0,
+        "enclosed_region_recolor": 0.0,
+        "seed_reachable_recolor": 0.0
+      },
+      "kind": "ordered_lexicographic",
+      "overall_exact": 0.0,
+      "rule_name": "lexicographic::is_smallest_component__THEN__has_region_size_below_median"
+    },
+    {
+      "exact_by_convention": {
+        "border_reachable_recolor": 0.0,
+        "enclosed_region_recolor": 0.0,
+        "seed_reachable_recolor": 0.0
+      },
+      "kind": "ordered_lexicographic",
+      "overall_exact": 0.0,
+      "rule_name": "lexicographic::is_smallest_component__THEN__has_seed_distance_above_median"
+    },
+    {
+      "exact_by_convention": {
+        "border_reachable_recolor": 0.0,
+        "enclosed_region_recolor": 0.0,
+        "seed_reachable_recolor": 0.0
+      },
+      "kind": "ordered_lexicographic",
+      "overall_exact": 0.0,
+      "rule_name": "lexicographic::is_smallest_component__THEN__is_largest_component"
+    },
+    {
+      "exact_by_convention": {
+        "border_reachable_recolor": 0.0,
+        "enclosed_region_recolor": 0.0,
+        "seed_reachable_recolor": 0.0
+      },
+      "kind": "ordered_lexicographic",
+      "overall_exact": 0.0,
+      "rule_name": "lexicographic::is_smallest_component__THEN__is_marker_adjacent"
+    },
+    {
+      "exact_by_convention": {
+        "border_reachable_recolor": 0.0,
+        "enclosed_region_recolor": 0.0,
+        "seed_reachable_recolor": 0.0
+      },
+      "kind": "ordered_lexicographic",
+      "overall_exact": 0.0,
+      "rule_name": "lexicographic::is_smallest_component__THEN__is_not_marker_adjacent"
+    },
+    {
+      "exact_by_convention": {
+        "border_reachable_recolor": 0.0,
+        "enclosed_region_recolor": 0.0,
+        "seed_reachable_recolor": 0.0
+      },
+      "kind": "ordered_lexicographic",
+      "overall_exact": 0.0,
+      "rule_name": "lexicographic::is_smallest_component__THEN__touches_border"
+    },
+    {
+      "exact_by_convention": {
+        "border_reachable_recolor": 0.0,
+        "enclosed_region_recolor": 0.0,
+        "seed_reachable_recolor": 0.0
+      },
+      "kind": "ordered_lexicographic",
+      "overall_exact": 0.0,
+      "rule_name": "lexicographic::touches_border__THEN__does_not_touch_border"
+    },
+    {
+      "exact_by_convention": {
+        "border_reachable_recolor": 0.0,
+        "enclosed_region_recolor": 0.0,
+        "seed_reachable_recolor": 0.0
+      },
+      "kind": "ordered_lexicographic",
+      "overall_exact": 0.0,
+      "rule_name": "lexicographic::touches_border__THEN__has_barrier_density_above_median"
+    },
+    {
+      "exact_by_convention": {
+        "border_reachable_recolor": 0.0,
+        "enclosed_region_recolor": 0.0,
+        "seed_reachable_recolor": 0.0
+      },
+      "kind": "ordered_lexicographic",
+      "overall_exact": 0.0,
+      "rule_name": "lexicographic::touches_border__THEN__has_region_size_above_median"
+    },
+    {
+      "exact_by_convention": {
+        "border_reachable_recolor": 0.0,
+        "enclosed_region_recolor": 0.0,
+        "seed_reachable_recolor": 0.0
+      },
+      "kind": "ordered_lexicographic",
+      "overall_exact": 0.0,
+      "rule_name": "lexicographic::touches_border__THEN__has_region_size_below_median"
+    },
+    {
+      "exact_by_convention": {
+        "border_reachable_recolor": 0.0,
+        "enclosed_region_recolor": 0.0,
+        "seed_reachable_recolor": 0.0
+      },
+      "kind": "ordered_lexicographic",
+      "overall_exact": 0.0,
+      "rule_name": "lexicographic::touches_border__THEN__has_seed_distance_above_median"
+    },
+    {
+      "exact_by_convention": {
+        "border_reachable_recolor": 0.0,
+        "enclosed_region_recolor": 0.0,
+        "seed_reachable_recolor": 0.0
+      },
+      "kind": "ordered_lexicographic",
+      "overall_exact": 0.0,
+      "rule_name": "lexicographic::touches_border__THEN__is_largest_component"
+    },
+    {
+      "exact_by_convention": {
+        "border_reachable_recolor": 0.0,
+        "enclosed_region_recolor": 0.0,
+        "seed_reachable_recolor": 0.0
+      },
+      "kind": "ordered_lexicographic",
+      "overall_exact": 0.0,
+      "rule_name": "lexicographic::touches_border__THEN__is_marker_adjacent"
+    },
+    {
+      "exact_by_convention": {
+        "border_reachable_recolor": 0.0,
+        "enclosed_region_recolor": 0.0,
+        "seed_reachable_recolor": 0.0
+      },
+      "kind": "ordered_lexicographic",
+      "overall_exact": 0.0,
+      "rule_name": "lexicographic::touches_border__THEN__is_not_marker_adjacent"
+    },
+    {
+      "exact_by_convention": {
+        "border_reachable_recolor": 0.0,
+        "enclosed_region_recolor": 0.0,
+        "seed_reachable_recolor": 0.0
+      },
+      "kind": "ordered_lexicographic",
+      "overall_exact": 0.0,
+      "rule_name": "lexicographic::touches_border__THEN__is_smallest_component"
+    },
+    {
+      "exact_by_convention": {
+        "border_reachable_recolor": 0.0,
+        "enclosed_region_recolor": 0.0,
+        "seed_reachable_recolor": 1.0
+      },
+      "kind": "single",
+      "overall_exact": 0.3333333333333333,
+      "rule_name": "one_step_only"
+    },
+    {
+      "exact_by_convention": {
+        "border_reachable_recolor": 0.0,
+        "enclosed_region_recolor": 0.0,
+        "seed_reachable_recolor": 0.0
+      },
+      "kind": "single",
+      "overall_exact": 0.0,
+      "rule_name": "paint_all_passable"
+    },
+    {
+      "exact_by_convention": {
+        "border_reachable_recolor": 0.0,
+        "enclosed_region_recolor": 0.0,
+        "seed_reachable_recolor": 0.08163265306122448
+      },
+      "kind": "single",
+      "overall_exact": 0.027210884353741496,
+      "rule_name": "wrong_adjacency_8_connected"
+    }
+  ],
+  "shortcut_catalog_sha256": "3bf2a8d64a6b1b0ab989750c2023d84b792b65cd6986888c1934d4af346abf2a",
+  "single_rule_count": 11,
+  "total_rule_count": 146
+}

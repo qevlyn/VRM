@@ -1,0 +1,42 @@
+{
+  "by_seed": {
+    "20260628": {
+      "checkpoint_payload_epoch_index": 0,
+      "checkpoint_payload_global_step": 225,
+      "checkpoint_semantics": "post-training after the first fully completed training epoch",
+      "checkpoint_was_random_initialization": false,
+      "completed_batches_before_checkpoint_save": 225,
+      "full_epoch_coverage_before_checkpoint_save": true,
+      "observed_examples_before_checkpoint_save": 28800,
+      "optimizer_updates_before_checkpoint_save": 225,
+      "selected_epoch": 0,
+      "unique_examples_before_checkpoint_save": 28800
+    },
+    "20260629": {
+      "checkpoint_payload_epoch_index": 0,
+      "checkpoint_payload_global_step": 225,
+      "checkpoint_semantics": "post-training after the first fully completed training epoch",
+      "checkpoint_was_random_initialization": false,
+      "completed_batches_before_checkpoint_save": 225,
+      "full_epoch_coverage_before_checkpoint_save": true,
+      "observed_examples_before_checkpoint_save": 28800,
+      "optimizer_updates_before_checkpoint_save": 225,
+      "selected_epoch": 0,
+      "unique_examples_before_checkpoint_save": 28800
+    },
+    "20260630": {
+      "checkpoint_payload_epoch_index": 0,
+      "checkpoint_payload_global_step": 225,
+      "checkpoint_semantics": "post-training after the first fully completed training epoch",
+      "checkpoint_was_random_initialization": false,
+      "completed_batches_before_checkpoint_save": 225,
+      "full_epoch_coverage_before_checkpoint_save": true,
+      "observed_examples_before_checkpoint_save": 28800,
+      "optimizer_updates_before_checkpoint_save": 225,
+      "selected_epoch": 0,
+      "unique_examples_before_checkpoint_save": 28800
+    }
+  },
+  "conclusion": "selected checkpoint epoch 0 means after the first fully completed training epoch, not random initialization",
+  "passed": true
+}

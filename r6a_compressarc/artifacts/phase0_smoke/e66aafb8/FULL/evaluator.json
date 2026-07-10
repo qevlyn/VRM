@@ -1,0 +1,130 @@
+{
+  "condition": "FULL",
+  "evaluator_process_loaded_solution": true,
+  "metrics": {
+    "all_cell_accuracy": 0.0,
+    "changed_cell_macro_accuracy": 0.0,
+    "changed_cell_pooled_accuracy": 0.0,
+    "exact_grid_match": false,
+    "output_shape_exact_match": false,
+    "rows": [
+      {
+        "all_cell_accuracy": 0.0,
+        "changed_cell_accuracy": 0.0,
+        "changed_cell_count": 8,
+        "changed_cell_entries": [
+          {
+            "col": 0,
+            "correct": false,
+            "predicted_color": 5,
+            "query_color": 8,
+            "row": 0,
+            "target_color": 6
+          },
+          {
+            "col": 1,
+            "correct": false,
+            "predicted_color": 3,
+            "query_color": 4,
+            "row": 0,
+            "target_color": 8
+          },
+          {
+            "col": 2,
+            "correct": false,
+            "predicted_color": 6,
+            "query_color": 9,
+            "row": 0,
+            "target_color": 4
+          },
+          {
+            "col": 0,
+            "correct": false,
+            "predicted_color": 6,
+            "query_color": 4,
+            "row": 1,
+            "target_color": 5
+          },
+          {
+            "col": 2,
+            "correct": false,
+            "predicted_color": 7,
+            "query_color": 3,
+            "row": 1,
+            "target_color": 4
+          },
+          {
+            "col": 0,
+            "correct": false,
+            "predicted_color": 3,
+            "query_color": 9,
+            "row": 2,
+            "target_color": 8
+          },
+          {
+            "col": 1,
+            "correct": false,
+            "predicted_color": 3,
+            "query_color": 3,
+            "row": 2,
+            "target_color": 9
+          },
+          {
+            "col": 2,
+            "correct": false,
+            "predicted_color": 6,
+            "query_color": 1,
+            "row": 2,
+            "target_color": 4
+          }
+        ],
+        "changed_cell_loss_or_nll": null,
+        "exact_grid_match": false,
+        "output_shape_exact_match": false,
+        "predicted_grid": [
+          [
+            5,
+            3,
+            6
+          ],
+          [
+            6,
+            6,
+            7
+          ],
+          [
+            3,
+            3,
+            6
+          ],
+          [
+            7,
+            3,
+            6
+          ]
+        ],
+        "target_grid": [
+          [
+            6,
+            8,
+            4
+          ],
+          [
+            5,
+            9,
+            4
+          ],
+          [
+            8,
+            9,
+            4
+          ]
+        ],
+        "test_index": 0
+      }
+    ],
+    "total_changed_cells": 8
+  },
+  "solver_process_loaded_solution": false,
+  "task_id": "e66aafb8"
+}

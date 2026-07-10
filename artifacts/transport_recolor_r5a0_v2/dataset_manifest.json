@@ -1,0 +1,218 @@
+{
+  "benchmark": "transport_recolor_r5a0_v2",
+  "expected_split_episode_counts": {
+    "dev": 12960,
+    "sealed": 18720,
+    "train": 43200
+  },
+  "grid_size": 7,
+  "operation_balance_report": {
+    "dev": {
+      "all_query_types_balanced": true,
+      "episode_count": 12960,
+      "operation_counts": {
+        "C": 1440,
+        "C->L": 1440,
+        "H": 1440,
+        "H->K": 1440,
+        "K": 1440,
+        "K->V": 1440,
+        "L": 1440,
+        "L->H": 1440,
+        "V": 1440
+      },
+      "passed": true,
+      "per_query_type_operation_count_expected": 60,
+      "query_type_count": 24
+    },
+    "sealed": {
+      "all_query_types_balanced": true,
+      "episode_count": 18720,
+      "operation_counts": {
+        "C": 1440,
+        "C->K": 1440,
+        "C->L": 1440,
+        "H": 1440,
+        "H->K": 1440,
+        "H->L": 1440,
+        "K": 1440,
+        "K->C": 1440,
+        "K->V": 1440,
+        "L": 1440,
+        "L->C": 1440,
+        "L->H": 1440,
+        "V": 1440
+      },
+      "passed": true,
+      "per_query_type_operation_count_expected": 60,
+      "query_type_count": 24
+    },
+    "train": {
+      "all_query_types_balanced": true,
+      "episode_count": 43200,
+      "operation_counts": {
+        "C": 4800,
+        "C->L": 4800,
+        "H": 4800,
+        "H->K": 4800,
+        "K": 4800,
+        "K->V": 4800,
+        "L": 4800,
+        "L->H": 4800,
+        "V": 4800
+      },
+      "passed": true,
+      "per_query_type_operation_count_expected": 60,
+      "query_type_count": 80
+    }
+  },
+  "operation_counts": {
+    "dev": {
+      "C": 1440,
+      "C->L": 1440,
+      "H": 1440,
+      "H->K": 1440,
+      "K": 1440,
+      "K->V": 1440,
+      "L": 1440,
+      "L->H": 1440,
+      "V": 1440
+    },
+    "sealed": {
+      "C": 1440,
+      "C->K": 1440,
+      "C->L": 1440,
+      "H": 1440,
+      "H->K": 1440,
+      "H->L": 1440,
+      "K": 1440,
+      "K->C": 1440,
+      "K->V": 1440,
+      "L": 1440,
+      "L->C": 1440,
+      "L->H": 1440,
+      "V": 1440
+    },
+    "train": {
+      "C": 4800,
+      "C->L": 4800,
+      "H": 4800,
+      "H->K": 4800,
+      "K": 4800,
+      "K->V": 4800,
+      "L": 4800,
+      "L->H": 4800,
+      "V": 4800
+    }
+  },
+  "query_type_counts": {
+    "dev": 24,
+    "sealed": 24,
+    "train": 80
+  },
+  "query_type_split_audit": {
+    "catalog_count": 128,
+    "expected_split_counts": {
+      "dev": 24,
+      "sealed": 24,
+      "train": 80
+    },
+    "factor_complete": {
+      "dev": true,
+      "sealed": true,
+      "train": true
+    },
+    "factor_coverage": {
+      "dev": {
+        "anchor_regions": [
+          "interior_lower_left",
+          "interior_lower_right",
+          "interior_upper_left",
+          "interior_upper_right"
+        ],
+        "distractor_counts": [
+          1,
+          2
+        ],
+        "primary_colors": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "primary_shapes": [
+          "3_cell_L",
+          "3_cell_T",
+          "3_cell_zig_zag",
+          "asymmetric_4_cell_hook"
+        ]
+      },
+      "sealed": {
+        "anchor_regions": [
+          "interior_lower_left",
+          "interior_lower_right",
+          "interior_upper_left",
+          "interior_upper_right"
+        ],
+        "distractor_counts": [
+          1,
+          2
+        ],
+        "primary_colors": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "primary_shapes": [
+          "3_cell_L",
+          "3_cell_T",
+          "3_cell_zig_zag",
+          "asymmetric_4_cell_hook"
+        ]
+      },
+      "train": {
+        "anchor_regions": [
+          "interior_lower_left",
+          "interior_lower_right",
+          "interior_upper_left",
+          "interior_upper_right"
+        ],
+        "distractor_counts": [
+          1,
+          2
+        ],
+        "primary_colors": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "primary_shapes": [
+          "3_cell_L",
+          "3_cell_T",
+          "3_cell_zig_zag",
+          "asymmetric_4_cell_hook"
+        ]
+      }
+    },
+    "intersections": {
+      "dev_sealed": [],
+      "train_dev": [],
+      "train_sealed": []
+    },
+    "passed": true,
+    "split_counts": {
+      "dev": 24,
+      "sealed": 24,
+      "train": 80
+    },
+    "union_count": 128,
+    "uses_every_catalog_type_exactly_once": true
+  },
+  "split_episode_counts": {
+    "dev": 12960,
+    "sealed": 18720,
+    "train": 43200
+  }
+}

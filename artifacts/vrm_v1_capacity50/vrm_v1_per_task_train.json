@@ -1,0 +1,504 @@
+{
+  "tasks": [
+    {
+      "episode_count": 3,
+      "exact_decoded_grid_count": 0,
+      "exact_decoded_grid_rate": 0.0,
+      "mean_loss": 18.32034746805827,
+      "mean_nonpad_hamming_error": 79.66666666666667,
+      "minimum_nonpad_hamming_error": 79,
+      "shape_match_rate": 0.0,
+      "task_id": "0ca9ddb6"
+    },
+    {
+      "episode_count": 3,
+      "exact_decoded_grid_count": 0,
+      "exact_decoded_grid_rate": 0.0,
+      "mean_loss": 17.734534581502277,
+      "mean_nonpad_hamming_error": 241.66666666666666,
+      "minimum_nonpad_hamming_error": 216,
+      "shape_match_rate": 0.0,
+      "task_id": "22806e14"
+    },
+    {
+      "episode_count": 3,
+      "exact_decoded_grid_count": 0,
+      "exact_decoded_grid_rate": 0.0,
+      "mean_loss": 18.39336395263672,
+      "mean_nonpad_hamming_error": 53.666666666666664,
+      "minimum_nonpad_hamming_error": 25,
+      "shape_match_rate": 0.0,
+      "task_id": "2f0c5170"
+    },
+    {
+      "episode_count": 2,
+      "exact_decoded_grid_count": 0,
+      "exact_decoded_grid_rate": 0.0,
+      "mean_loss": 17.63587474822998,
+      "mean_nonpad_hamming_error": 484.0,
+      "minimum_nonpad_hamming_error": 380,
+      "shape_match_rate": 0.0,
+      "task_id": "34cfa167"
+    },
+    {
+      "episode_count": 3,
+      "exact_decoded_grid_count": 0,
+      "exact_decoded_grid_rate": 0.0,
+      "mean_loss": 18.420679092407227,
+      "mean_nonpad_hamming_error": 57.333333333333336,
+      "minimum_nonpad_hamming_error": 42,
+      "shape_match_rate": 0.0,
+      "task_id": "37ce87bb"
+    },
+    {
+      "episode_count": 5,
+      "exact_decoded_grid_count": 0,
+      "exact_decoded_grid_rate": 0.0,
+      "mean_loss": 18.243552017211915,
+      "mean_nonpad_hamming_error": 7.2,
+      "minimum_nonpad_hamming_error": 6,
+      "shape_match_rate": 0.0,
+      "task_id": "3b4c2228"
+    },
+    {
+      "episode_count": 3,
+      "exact_decoded_grid_count": 0,
+      "exact_decoded_grid_rate": 0.0,
+      "mean_loss": 18.42068099975586,
+      "mean_nonpad_hamming_error": 196.0,
+      "minimum_nonpad_hamming_error": 196,
+      "shape_match_rate": 0.0,
+      "task_id": "4093f84a"
+    },
+    {
+      "episode_count": 3,
+      "exact_decoded_grid_count": 0,
+      "exact_decoded_grid_rate": 0.0,
+      "mean_loss": 16.932856877644856,
+      "mean_nonpad_hamming_error": 79.0,
+      "minimum_nonpad_hamming_error": 76,
+      "shape_match_rate": 0.0,
+      "task_id": "444801d8"
+    },
+    {
+      "episode_count": 3,
+      "exact_decoded_grid_count": 0,
+      "exact_decoded_grid_rate": 0.0,
+      "mean_loss": 18.004676818847656,
+      "mean_nonpad_hamming_error": 172.0,
+      "minimum_nonpad_hamming_error": 124,
+      "shape_match_rate": 0.0,
+      "task_id": "4c5c2cf0"
+    },
+    {
+      "episode_count": 4,
+      "exact_decoded_grid_count": 0,
+      "exact_decoded_grid_rate": 0.0,
+      "mean_loss": 17.905245780944824,
+      "mean_nonpad_hamming_error": 164.5,
+      "minimum_nonpad_hamming_error": 63,
+      "shape_match_rate": 0.0,
+      "task_id": "4e7e0eb9"
+    },
+    {
+      "episode_count": 3,
+      "exact_decoded_grid_count": 0,
+      "exact_decoded_grid_rate": 0.0,
+      "mean_loss": 18.42068036397298,
+      "mean_nonpad_hamming_error": 77.0,
+      "minimum_nonpad_hamming_error": 49,
+      "shape_match_rate": 0.0,
+      "task_id": "5168d44c"
+    },
+    {
+      "episode_count": 3,
+      "exact_decoded_grid_count": 0,
+      "exact_decoded_grid_rate": 0.0,
+      "mean_loss": 17.120399792989094,
+      "mean_nonpad_hamming_error": 577.0,
+      "minimum_nonpad_hamming_error": 502,
+      "shape_match_rate": 0.0,
+      "task_id": "52fd389e"
+    },
+    {
+      "episode_count": 3,
+      "exact_decoded_grid_count": 0,
+      "exact_decoded_grid_rate": 0.0,
+      "mean_loss": 18.420685450236004,
+      "mean_nonpad_hamming_error": 414.3333333333333,
+      "minimum_nonpad_hamming_error": 391,
+      "shape_match_rate": 0.0,
+      "task_id": "58e15b12"
+    },
+    {
+      "episode_count": 3,
+      "exact_decoded_grid_count": 0,
+      "exact_decoded_grid_rate": 0.0,
+      "mean_loss": 18.366817474365234,
+      "mean_nonpad_hamming_error": 54.333333333333336,
+      "minimum_nonpad_hamming_error": 50,
+      "shape_match_rate": 0.0,
+      "task_id": "6ad5bdfd"
+    },
+    {
+      "episode_count": 2,
+      "exact_decoded_grid_count": 0,
+      "exact_decoded_grid_rate": 0.0,
+      "mean_loss": 17.53507137298584,
+      "mean_nonpad_hamming_error": 87.5,
+      "minimum_nonpad_hamming_error": 87,
+      "shape_match_rate": 0.0,
+      "task_id": "6c434453"
+    },
+    {
+      "episode_count": 3,
+      "exact_decoded_grid_count": 0,
+      "exact_decoded_grid_rate": 0.0,
+      "mean_loss": 18.420682271321613,
+      "mean_nonpad_hamming_error": 89.33333333333333,
+      "minimum_nonpad_hamming_error": 56,
+      "shape_match_rate": 0.0,
+      "task_id": "6d75e8bb"
+    },
+    {
+      "episode_count": 4,
+      "exact_decoded_grid_count": 0,
+      "exact_decoded_grid_rate": 0.0,
+      "mean_loss": 17.64527702331543,
+      "mean_nonpad_hamming_error": 73.25,
+      "minimum_nonpad_hamming_error": 47,
+      "shape_match_rate": 0.0,
+      "task_id": "72a961c9"
+    },
+    {
+      "episode_count": 3,
+      "exact_decoded_grid_count": 0,
+      "exact_decoded_grid_rate": 0.0,
+      "mean_loss": 18.42068099975586,
+      "mean_nonpad_hamming_error": 900.0,
+      "minimum_nonpad_hamming_error": 900,
+      "shape_match_rate": 1.0,
+      "task_id": "753ea09b"
+    },
+    {
+      "episode_count": 4,
+      "exact_decoded_grid_count": 0,
+      "exact_decoded_grid_rate": 0.0,
+      "mean_loss": 18.301578998565674,
+      "mean_nonpad_hamming_error": 59.5,
+      "minimum_nonpad_hamming_error": 36,
+      "shape_match_rate": 0.0,
+      "task_id": "770cc55f"
+    },
+    {
+      "episode_count": 3,
+      "exact_decoded_grid_count": 0,
+      "exact_decoded_grid_rate": 0.0,
+      "mean_loss": 18.42067591349284,
+      "mean_nonpad_hamming_error": 12.0,
+      "minimum_nonpad_hamming_error": 4,
+      "shape_match_rate": 0.0,
+      "task_id": "77fdfe62"
+    },
+    {
+      "episode_count": 4,
+      "exact_decoded_grid_count": 0,
+      "exact_decoded_grid_rate": 0.0,
+      "mean_loss": 17.061731338500977,
+      "mean_nonpad_hamming_error": 484.5,
+      "minimum_nonpad_hamming_error": 469,
+      "shape_match_rate": 0.0,
+      "task_id": "7df24a62"
+    },
+    {
+      "episode_count": 3,
+      "exact_decoded_grid_count": 0,
+      "exact_decoded_grid_rate": 0.0,
+      "mean_loss": 18.420677185058594,
+      "mean_nonpad_hamming_error": 16.0,
+      "minimum_nonpad_hamming_error": 16,
+      "shape_match_rate": 0.0,
+      "task_id": "87ab05b8"
+    },
+    {
+      "episode_count": 4,
+      "exact_decoded_grid_count": 0,
+      "exact_decoded_grid_rate": 0.0,
+      "mean_loss": 18.248477935791016,
+      "mean_nonpad_hamming_error": 117.25,
+      "minimum_nonpad_hamming_error": 2,
+      "shape_match_rate": 0.0,
+      "task_id": "9720b24f"
+    },
+    {
+      "episode_count": 3,
+      "exact_decoded_grid_count": 0,
+      "exact_decoded_grid_rate": 0.0,
+      "mean_loss": 18.184518178304035,
+      "mean_nonpad_hamming_error": 96.66666666666667,
+      "minimum_nonpad_hamming_error": 94,
+      "shape_match_rate": 0.0,
+      "task_id": "9f669b64"
+    },
+    {
+      "episode_count": 4,
+      "exact_decoded_grid_count": 0,
+      "exact_decoded_grid_rate": 0.0,
+      "mean_loss": 18.42068099975586,
+      "mean_nonpad_hamming_error": 196.0,
+      "minimum_nonpad_hamming_error": 196,
+      "shape_match_rate": 0.0,
+      "task_id": "9f8de559"
+    },
+    {
+      "episode_count": 2,
+      "exact_decoded_grid_count": 0,
+      "exact_decoded_grid_rate": 0.0,
+      "mean_loss": 18.420677185058594,
+      "mean_nonpad_hamming_error": 81.0,
+      "minimum_nonpad_hamming_error": 81,
+      "shape_match_rate": 0.0,
+      "task_id": "ad38a9d0"
+    },
+    {
+      "episode_count": 3,
+      "exact_decoded_grid_count": 0,
+      "exact_decoded_grid_rate": 0.0,
+      "mean_loss": 18.42068099975586,
+      "mean_nonpad_hamming_error": 176.0,
+      "minimum_nonpad_hamming_error": 144,
+      "shape_match_rate": 0.0,
+      "task_id": "af726779"
+    },
+    {
+      "episode_count": 2,
+      "exact_decoded_grid_count": 0,
+      "exact_decoded_grid_rate": 0.0,
+      "mean_loss": 18.420676231384277,
+      "mean_nonpad_hamming_error": 19.0,
+      "minimum_nonpad_hamming_error": 16,
+      "shape_match_rate": 0.0,
+      "task_id": "b0722778"
+    },
+    {
+      "episode_count": 5,
+      "exact_decoded_grid_count": 0,
+      "exact_decoded_grid_rate": 0.0,
+      "mean_loss": 18.279523849487305,
+      "mean_nonpad_hamming_error": 74.0,
+      "minimum_nonpad_hamming_error": 28,
+      "shape_match_rate": 0.0,
+      "task_id": "b91ae062"
+    },
+    {
+      "episode_count": 5,
+      "exact_decoded_grid_count": 0,
+      "exact_decoded_grid_rate": 0.0,
+      "mean_loss": 18.250115966796876,
+      "mean_nonpad_hamming_error": 25.4,
+      "minimum_nonpad_hamming_error": 9,
+      "shape_match_rate": 0.0,
+      "task_id": "bbc9ae5d"
+    },
+    {
+      "episode_count": 3,
+      "exact_decoded_grid_count": 0,
+      "exact_decoded_grid_rate": 0.0,
+      "mean_loss": 15.009431838989258,
+      "mean_nonpad_hamming_error": 107.0,
+      "minimum_nonpad_hamming_error": 56,
+      "shape_match_rate": 0.0,
+      "task_id": "bcb3040b"
+    },
+    {
+      "episode_count": 2,
+      "exact_decoded_grid_count": 0,
+      "exact_decoded_grid_rate": 0.0,
+      "mean_loss": 18.42068099975586,
+      "mean_nonpad_hamming_error": 100.0,
+      "minimum_nonpad_hamming_error": 100,
+      "shape_match_rate": 0.0,
+      "task_id": "bd283c4a"
+    },
+    {
+      "episode_count": 3,
+      "exact_decoded_grid_count": 0,
+      "exact_decoded_grid_rate": 0.0,
+      "mean_loss": 18.420678456624348,
+      "mean_nonpad_hamming_error": 57.333333333333336,
+      "minimum_nonpad_hamming_error": 36,
+      "shape_match_rate": 0.0,
+      "task_id": "bf32578f"
+    },
+    {
+      "episode_count": 3,
+      "exact_decoded_grid_count": 0,
+      "exact_decoded_grid_rate": 0.0,
+      "mean_loss": 17.704193751017254,
+      "mean_nonpad_hamming_error": 70.0,
+      "minimum_nonpad_hamming_error": 23,
+      "shape_match_rate": 0.0,
+      "task_id": "c1990cce"
+    },
+    {
+      "episode_count": 2,
+      "exact_decoded_grid_count": 0,
+      "exact_decoded_grid_rate": 0.0,
+      "mean_loss": 18.420682907104492,
+      "mean_nonpad_hamming_error": 80.0,
+      "minimum_nonpad_hamming_error": 80,
+      "shape_match_rate": 0.0,
+      "task_id": "c4d1a9ae"
+    },
+    {
+      "episode_count": 3,
+      "exact_decoded_grid_count": 0,
+      "exact_decoded_grid_rate": 0.0,
+      "mean_loss": 18.150514602661133,
+      "mean_nonpad_hamming_error": 392.6666666666667,
+      "minimum_nonpad_hamming_error": 378,
+      "shape_match_rate": 0.0,
+      "task_id": "c6e1b8da"
+    },
+    {
+      "episode_count": 2,
+      "exact_decoded_grid_count": 0,
+      "exact_decoded_grid_rate": 0.0,
+      "mean_loss": 18.42068099975586,
+      "mean_nonpad_hamming_error": 100.0,
+      "minimum_nonpad_hamming_error": 100,
+      "shape_match_rate": 0.0,
+      "task_id": "c7d4e6ad"
+    },
+    {
+      "episode_count": 3,
+      "exact_decoded_grid_count": 0,
+      "exact_decoded_grid_rate": 0.0,
+      "mean_loss": 18.42067527770996,
+      "mean_nonpad_hamming_error": 9.666666666666666,
+      "minimum_nonpad_hamming_error": 4,
+      "shape_match_rate": 0.0,
+      "task_id": "d0f5fe59"
+    },
+    {
+      "episode_count": 3,
+      "exact_decoded_grid_count": 0,
+      "exact_decoded_grid_rate": 0.0,
+      "mean_loss": 18.359028498331707,
+      "mean_nonpad_hamming_error": 18.0,
+      "minimum_nonpad_hamming_error": 8,
+      "shape_match_rate": 0.0,
+      "task_id": "d4c90558"
+    },
+    {
+      "episode_count": 3,
+      "exact_decoded_grid_count": 0,
+      "exact_decoded_grid_rate": 0.0,
+      "mean_loss": 18.373448689778645,
+      "mean_nonpad_hamming_error": 99.33333333333333,
+      "minimum_nonpad_hamming_error": 99,
+      "shape_match_rate": 0.0,
+      "task_id": "d89b689b"
+    },
+    {
+      "episode_count": 4,
+      "exact_decoded_grid_count": 0,
+      "exact_decoded_grid_rate": 0.0,
+      "mean_loss": 18.395205974578857,
+      "mean_nonpad_hamming_error": 0.75,
+      "minimum_nonpad_hamming_error": 0,
+      "shape_match_rate": 0.0,
+      "task_id": "d9fac9be"
+    },
+    {
+      "episode_count": 3,
+      "exact_decoded_grid_count": 0,
+      "exact_decoded_grid_rate": 0.0,
+      "mean_loss": 17.995588302612305,
+      "mean_nonpad_hamming_error": 94.0,
+      "minimum_nonpad_hamming_error": 82,
+      "shape_match_rate": 0.0,
+      "task_id": "da2b0fe3"
+    },
+    {
+      "episode_count": 3,
+      "exact_decoded_grid_count": 0,
+      "exact_decoded_grid_rate": 0.0,
+      "mean_loss": 16.948835690816242,
+      "mean_nonpad_hamming_error": 570.6666666666666,
+      "minimum_nonpad_hamming_error": 511,
+      "shape_match_rate": 0.0,
+      "task_id": "db615bd4"
+    },
+    {
+      "episode_count": 4,
+      "exact_decoded_grid_count": 0,
+      "exact_decoded_grid_rate": 0.0,
+      "mean_loss": 16.28561568260193,
+      "mean_nonpad_hamming_error": 231.0,
+      "minimum_nonpad_hamming_error": 86,
+      "shape_match_rate": 0.0,
+      "task_id": "db93a21d"
+    },
+    {
+      "episode_count": 3,
+      "exact_decoded_grid_count": 0,
+      "exact_decoded_grid_rate": 0.0,
+      "mean_loss": 18.42067527770996,
+      "mean_nonpad_hamming_error": 40.0,
+      "minimum_nonpad_hamming_error": 40,
+      "shape_match_rate": 0.0,
+      "task_id": "e3497940"
+    },
+    {
+      "episode_count": 3,
+      "exact_decoded_grid_count": 0,
+      "exact_decoded_grid_rate": 0.0,
+      "mean_loss": 18.42067527770996,
+      "mean_nonpad_hamming_error": 9.0,
+      "minimum_nonpad_hamming_error": 9,
+      "shape_match_rate": 0.0,
+      "task_id": "e57337a4"
+    },
+    {
+      "episode_count": 3,
+      "exact_decoded_grid_count": 0,
+      "exact_decoded_grid_rate": 0.0,
+      "mean_loss": 17.204980850219727,
+      "mean_nonpad_hamming_error": 241.66666666666666,
+      "minimum_nonpad_hamming_error": 201,
+      "shape_match_rate": 0.0,
+      "task_id": "e729b7be"
+    },
+    {
+      "episode_count": 3,
+      "exact_decoded_grid_count": 0,
+      "exact_decoded_grid_rate": 0.0,
+      "mean_loss": 18.420678456624348,
+      "mean_nonpad_hamming_error": 44.0,
+      "minimum_nonpad_hamming_error": 36,
+      "shape_match_rate": 0.0,
+      "task_id": "f25fbde4"
+    },
+    {
+      "episode_count": 2,
+      "exact_decoded_grid_count": 0,
+      "exact_decoded_grid_rate": 0.0,
+      "mean_loss": 18.420681953430176,
+      "mean_nonpad_hamming_error": 168.0,
+      "minimum_nonpad_hamming_error": 120,
+      "shape_match_rate": 0.0,
+      "task_id": "fafd9572"
+    },
+    {
+      "episode_count": 3,
+      "exact_decoded_grid_count": 0,
+      "exact_decoded_grid_rate": 0.0,
+      "mean_loss": 18.420679092407227,
+      "mean_nonpad_hamming_error": 46.666666666666664,
+      "minimum_nonpad_hamming_error": 42,
+      "shape_match_rate": 0.0,
+      "task_id": "fcb5c309"
+    }
+  ]
+}

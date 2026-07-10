@@ -1,0 +1,196 @@
+{
+  "support_ablations": {
+    "ablations": {
+      "TRAINED_PERMUTED_SUPPORT_PAIR_ORDER": {
+        "condition": "TRAINED_PERMUTED_SUPPORT_PAIR_ORDER",
+        "decoded_grid_change_rate": {
+          "bootstrap_replicates": 10000,
+          "ci95_high": 0.9102564102564102,
+          "ci95_low": 0.8012820512820513,
+          "confidence_level": 0.95,
+          "count": 156,
+          "mean": 0.8589743589743589
+        },
+        "delta_cell_accuracy_full_minus_condition": {
+          "bootstrap_replicates": 10000,
+          "ci95_high": 0.006539361534933823,
+          "ci95_low": -0.007525604342170321,
+          "confidence_level": 0.95,
+          "count": 156,
+          "mean": -0.0006713165758976064
+        },
+        "delta_color_nll_condition_minus_full": {
+          "bootstrap_replicates": 10000,
+          "ci95_high": 0.009795697931295786,
+          "ci95_low": -0.007732897423780882,
+          "confidence_level": 0.95,
+          "count": 156,
+          "mean": 0.0010934570469917394
+        },
+        "delta_exact_grid_accuracy_full_minus_condition": {
+          "bootstrap_replicates": 10000,
+          "ci95_high": 0.0,
+          "ci95_low": 0.0,
+          "confidence_level": 0.95,
+          "count": 156,
+          "mean": 0.0
+        },
+        "delta_shape_accuracy_full_minus_condition": {
+          "bootstrap_replicates": 10000,
+          "ci95_high": 0.00641025641025641,
+          "ci95_low": -0.05128205128205128,
+          "confidence_level": 0.95,
+          "count": 156,
+          "mean": -0.019230769230769232
+        },
+        "delta_total_loss_condition_minus_full": {
+          "bootstrap_replicates": 10000,
+          "ci95_high": 0.04633477253791613,
+          "ci95_low": -0.012199736845034819,
+          "confidence_level": 0.95,
+          "count": 156,
+          "mean": 0.01582479925873952
+        },
+        "mean_js_divergence_color_distributions": {
+          "bootstrap_replicates": 10000,
+          "ci95_high": 0.004869504471995415,
+          "ci95_low": 0.002882808659271669,
+          "confidence_level": 0.95,
+          "count": 156,
+          "mean": 0.0037709015461327364
+        },
+        "paired_fold_count": 156,
+        "positive_values_favor": "TRAINED_FULL_SUPPORT",
+        "shape_prediction_change_rate": {
+          "bootstrap_replicates": 10000,
+          "ci95_high": 0.14743589743589744,
+          "ci95_low": 0.05128205128205128,
+          "confidence_level": 0.95,
+          "count": 156,
+          "mean": 0.09615384615384616
+        }
+      },
+      "TRAINED_QUERY_ONLY": {
+        "condition": "TRAINED_QUERY_ONLY",
+        "failure_reason": "QUERY_ONLY_ABLATION_UNSUPPORTED_BY_CURRENT_ARCHITECTURE",
+        "supported": false
+      },
+      "TRAINED_ZEROED_SUPPORT_OUTPUTS": {
+        "condition": "TRAINED_ZEROED_SUPPORT_OUTPUTS",
+        "decoded_grid_change_rate": {
+          "bootstrap_replicates": 10000,
+          "ci95_high": 1.0,
+          "ci95_low": 0.967948717948718,
+          "confidence_level": 0.95,
+          "count": 156,
+          "mean": 0.9871794871794872
+        },
+        "delta_cell_accuracy_full_minus_condition": {
+          "bootstrap_replicates": 10000,
+          "ci95_high": 0.31553748527267456,
+          "ci95_low": 0.21931069172607282,
+          "confidence_level": 0.95,
+          "count": 156,
+          "mean": 0.26614148407188903
+        },
+        "delta_color_nll_condition_minus_full": {
+          "bootstrap_replicates": 10000,
+          "ci95_high": 2.3420728766001186,
+          "ci95_low": 1.7904083352440443,
+          "confidence_level": 0.95,
+          "count": 156,
+          "mean": 2.067577115809306
+        },
+        "delta_exact_grid_accuracy_full_minus_condition": {
+          "bootstrap_replicates": 10000,
+          "ci95_high": 0.0,
+          "ci95_low": 0.0,
+          "confidence_level": 0.95,
+          "count": 156,
+          "mean": 0.0
+        },
+        "delta_shape_accuracy_full_minus_condition": {
+          "bootstrap_replicates": 10000,
+          "ci95_high": 0.14743589743589744,
+          "ci95_low": 0.038461538461538464,
+          "confidence_level": 0.95,
+          "count": 156,
+          "mean": 0.08974358974358974
+        },
+        "delta_total_loss_condition_minus_full": {
+          "bootstrap_replicates": 10000,
+          "ci95_high": 2.45925915069305,
+          "ci95_low": 1.898378375153511,
+          "confidence_level": 0.95,
+          "count": 156,
+          "mean": 2.172638851003005
+        },
+        "mean_js_divergence_color_distributions": {
+          "bootstrap_replicates": 10000,
+          "ci95_high": 0.30869505989268065,
+          "ci95_low": 0.24569513986853025,
+          "confidence_level": 0.95,
+          "count": 156,
+          "mean": 0.27760229596395164
+        },
+        "paired_fold_count": 156,
+        "positive_values_favor": "TRAINED_FULL_SUPPORT",
+        "shape_prediction_change_rate": {
+          "bootstrap_replicates": 10000,
+          "ci95_high": 0.3974358974358974,
+          "ci95_low": 0.25,
+          "confidence_level": 0.95,
+          "count": 156,
+          "mean": 0.32051282051282054
+        }
+      }
+    },
+    "baseline_condition": "TRAINED_FULL_SUPPORT",
+    "bootstrap_replicates": 10000,
+    "positive_values_favor": "TRAINED_FULL_SUPPORT"
+  },
+  "trained_vs_fresh": {
+    "cell_accuracy_improvement_trained_minus_fresh": {
+      "bootstrap_replicates": 10000,
+      "ci95_high": 0.19753759409677593,
+      "ci95_low": 0.11911124529900557,
+      "confidence_level": 0.95,
+      "count": 156,
+      "mean": 0.15751995313476577
+    },
+    "color_nll_improvement_fresh_minus_trained": {
+      "bootstrap_replicates": 10000,
+      "ci95_high": 0.7250722191081598,
+      "ci95_low": 0.5473421207414224,
+      "confidence_level": 0.95,
+      "count": 156,
+      "mean": 0.6326693275418037
+    },
+    "exact_grid_improvement_trained_minus_fresh": {
+      "bootstrap_replicates": 10000,
+      "ci95_high": 0.0,
+      "ci95_low": 0.0,
+      "confidence_level": 0.95,
+      "count": 156,
+      "mean": 0.0
+    },
+    "paired_fold_count": 156,
+    "positive_values_favor": "TRAINED_FULL_SUPPORT over FRESH_INIT",
+    "shape_accuracy_improvement_trained_minus_fresh": {
+      "bootstrap_replicates": 10000,
+      "ci95_high": 0.7371794871794872,
+      "ci95_low": 0.5897435897435898,
+      "confidence_level": 0.95,
+      "count": 156,
+      "mean": 0.6666666666666666
+    },
+    "total_loss_improvement_fresh_minus_trained": {
+      "bootstrap_replicates": 10000,
+      "ci95_high": 2.089262945147661,
+      "ci95_low": 1.79964857452955,
+      "confidence_level": 0.95,
+      "count": 156,
+      "mean": 1.9473817840409584
+    }
+  }
+}

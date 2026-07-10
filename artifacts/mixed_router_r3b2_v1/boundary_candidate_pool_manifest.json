@@ -1,0 +1,18 @@
+{
+  "audit_only": true,
+  "boundary_kind_counts": {
+    "BOUNDARY_BOTH_BAD": 2000,
+    "BOUNDARY_BOTH_GOOD": 2000,
+    "BOUNDARY_EXACT_RETRIEVAL": 2000,
+    "BOUNDARY_HARD_NEGATIVE": 4000,
+    "BOUNDARY_TRANSFORM": 2000
+  },
+  "contributes_to_training": false,
+  "episode_count": 12000,
+  "hard_negative_hamming_level_counts": {
+    "1": 1000,
+    "2": 1000,
+    "3": 1000,
+    "4": 1000
+  }
+}

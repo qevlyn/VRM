@@ -1,0 +1,2951 @@
+{
+  "all_128_feasible": true,
+  "declared_query_type_count": 128,
+  "entries": [
+    {
+      "deterministic_preflight_seed": 20260628,
+      "feasible": true,
+      "query_type": {
+        "anchor_region": "interior_upper_left",
+        "distractor_count": 1,
+        "primary_color": 1,
+        "primary_shape": "3_cell_L",
+        "query_type_key": "3_cell_L|color=1|anchor=interior_upper_left|distractors=1"
+      },
+      "rejection_reasons": [],
+      "valid_scene_counts_by_sequence_class": {
+        "C": 12,
+        "C->F": 12,
+        "C->T": 12,
+        "F": 12,
+        "F->C": 12,
+        "F->T": 12,
+        "T": 12,
+        "T->C": 12,
+        "T->F": 12
+      }
+    },
+    {
+      "deterministic_preflight_seed": 20260629,
+      "feasible": true,
+      "query_type": {
+        "anchor_region": "interior_upper_left",
+        "distractor_count": 2,
+        "primary_color": 1,
+        "primary_shape": "3_cell_L",
+        "query_type_key": "3_cell_L|color=1|anchor=interior_upper_left|distractors=2"
+      },
+      "rejection_reasons": [],
+      "valid_scene_counts_by_sequence_class": {
+        "C": 12,
+        "C->F": 12,
+        "C->T": 12,
+        "F": 12,
+        "F->C": 12,
+        "F->T": 12,
+        "T": 12,
+        "T->C": 12,
+        "T->F": 12
+      }
+    },
+    {
+      "deterministic_preflight_seed": 20260630,
+      "feasible": true,
+      "query_type": {
+        "anchor_region": "interior_upper_right",
+        "distractor_count": 1,
+        "primary_color": 1,
+        "primary_shape": "3_cell_L",
+        "query_type_key": "3_cell_L|color=1|anchor=interior_upper_right|distractors=1"
+      },
+      "rejection_reasons": [],
+      "valid_scene_counts_by_sequence_class": {
+        "C": 12,
+        "C->F": 12,
+        "C->T": 12,
+        "F": 12,
+        "F->C": 12,
+        "F->T": 12,
+        "T": 12,
+        "T->C": 12,
+        "T->F": 12
+      }
+    },
+    {
+      "deterministic_preflight_seed": 20260631,
+      "feasible": true,
+      "query_type": {
+        "anchor_region": "interior_upper_right",
+        "distractor_count": 2,
+        "primary_color": 1,
+        "primary_shape": "3_cell_L",
+        "query_type_key": "3_cell_L|color=1|anchor=interior_upper_right|distractors=2"
+      },
+      "rejection_reasons": [],
+      "valid_scene_counts_by_sequence_class": {
+        "C": 12,
+        "C->F": 12,
+        "C->T": 12,
+        "F": 12,
+        "F->C": 12,
+        "F->T": 12,
+        "T": 12,
+        "T->C": 12,
+        "T->F": 12
+      }
+    },
+    {
+      "deterministic_preflight_seed": 20260632,
+      "feasible": true,
+      "query_type": {
+        "anchor_region": "interior_lower_left",
+        "distractor_count": 1,
+        "primary_color": 1,
+        "primary_shape": "3_cell_L",
+        "query_type_key": "3_cell_L|color=1|anchor=interior_lower_left|distractors=1"
+      },
+      "rejection_reasons": [],
+      "valid_scene_counts_by_sequence_class": {
+        "C": 12,
+        "C->F": 12,
+        "C->T": 12,
+        "F": 12,
+        "F->C": 12,
+        "F->T": 12,
+        "T": 12,
+        "T->C": 12,
+        "T->F": 12
+      }
+    },
+    {
+      "deterministic_preflight_seed": 20260633,
+      "feasible": true,
+      "query_type": {
+        "anchor_region": "interior_lower_left",
+        "distractor_count": 2,
+        "primary_color": 1,
+        "primary_shape": "3_cell_L",
+        "query_type_key": "3_cell_L|color=1|anchor=interior_lower_left|distractors=2"
+      },
+      "rejection_reasons": [],
+      "valid_scene_counts_by_sequence_class": {
+        "C": 12,
+        "C->F": 12,
+        "C->T": 12,
+        "F": 12,
+        "F->C": 12,
+        "F->T": 12,
+        "T": 12,
+        "T->C": 12,
+        "T->F": 12
+      }
+    },
+    {
+      "deterministic_preflight_seed": 20260634,
+      "feasible": true,
+      "query_type": {
+        "anchor_region": "interior_lower_right",
+        "distractor_count": 1,
+        "primary_color": 1,
+        "primary_shape": "3_cell_L",
+        "query_type_key": "3_cell_L|color=1|anchor=interior_lower_right|distractors=1"
+      },
+      "rejection_reasons": [],
+      "valid_scene_counts_by_sequence_class": {
+        "C": 12,
+        "C->F": 12,
+        "C->T": 12,
+        "F": 12,
+        "F->C": 12,
+        "F->T": 12,
+        "T": 12,
+        "T->C": 12,
+        "T->F": 12
+      }
+    },
+    {
+      "deterministic_preflight_seed": 20260635,
+      "feasible": true,
+      "query_type": {
+        "anchor_region": "interior_lower_right",
+        "distractor_count": 2,
+        "primary_color": 1,
+        "primary_shape": "3_cell_L",
+        "query_type_key": "3_cell_L|color=1|anchor=interior_lower_right|distractors=2"
+      },
+      "rejection_reasons": [],
+      "valid_scene_counts_by_sequence_class": {
+        "C": 12,
+        "C->F": 12,
+        "C->T": 12,
+        "F": 12,
+        "F->C": 12,
+        "F->T": 12,
+        "T": 12,
+        "T->C": 12,
+        "T->F": 12
+      }
+    },
+    {
+      "deterministic_preflight_seed": 20260636,
+      "feasible": true,
+      "query_type": {
+        "anchor_region": "interior_upper_left",
+        "distractor_count": 1,
+        "primary_color": 2,
+        "primary_shape": "3_cell_L",
+        "query_type_key": "3_cell_L|color=2|anchor=interior_upper_left|distractors=1"
+      },
+      "rejection_reasons": [],
+      "valid_scene_counts_by_sequence_class": {
+        "C": 12,
+        "C->F": 12,
+        "C->T": 12,
+        "F": 12,
+        "F->C": 12,
+        "F->T": 12,
+        "T": 12,
+        "T->C": 12,
+        "T->F": 12
+      }
+    },
+    {
+      "deterministic_preflight_seed": 20260637,
+      "feasible": true,
+      "query_type": {
+        "anchor_region": "interior_upper_left",
+        "distractor_count": 2,
+        "primary_color": 2,
+        "primary_shape": "3_cell_L",
+        "query_type_key": "3_cell_L|color=2|anchor=interior_upper_left|distractors=2"
+      },
+      "rejection_reasons": [],
+      "valid_scene_counts_by_sequence_class": {
+        "C": 12,
+        "C->F": 12,
+        "C->T": 12,
+        "F": 12,
+        "F->C": 12,
+        "F->T": 12,
+        "T": 12,
+        "T->C": 12,
+        "T->F": 12
+      }
+    },
+    {
+      "deterministic_preflight_seed": 20260638,
+      "feasible": true,
+      "query_type": {
+        "anchor_region": "interior_upper_right",
+        "distractor_count": 1,
+        "primary_color": 2,
+        "primary_shape": "3_cell_L",
+        "query_type_key": "3_cell_L|color=2|anchor=interior_upper_right|distractors=1"
+      },
+      "rejection_reasons": [],
+      "valid_scene_counts_by_sequence_class": {
+        "C": 12,
+        "C->F": 12,
+        "C->T": 12,
+        "F": 12,
+        "F->C": 12,
+        "F->T": 12,
+        "T": 12,
+        "T->C": 12,
+        "T->F": 12
+      }
+    },
+    {
+      "deterministic_preflight_seed": 20260639,
+      "feasible": true,
+      "query_type": {
+        "anchor_region": "interior_upper_right",
+        "distractor_count": 2,
+        "primary_color": 2,
+        "primary_shape": "3_cell_L",
+        "query_type_key": "3_cell_L|color=2|anchor=interior_upper_right|distractors=2"
+      },
+      "rejection_reasons": [],
+      "valid_scene_counts_by_sequence_class": {
+        "C": 12,
+        "C->F": 12,
+        "C->T": 12,
+        "F": 12,
+        "F->C": 12,
+        "F->T": 12,
+        "T": 12,
+        "T->C": 12,
+        "T->F": 12
+      }
+    },
+    {
+      "deterministic_preflight_seed": 20260640,
+      "feasible": true,
+      "query_type": {
+        "anchor_region": "interior_lower_left",
+        "distractor_count": 1,
+        "primary_color": 2,
+        "primary_shape": "3_cell_L",
+        "query_type_key": "3_cell_L|color=2|anchor=interior_lower_left|distractors=1"
+      },
+      "rejection_reasons": [],
+      "valid_scene_counts_by_sequence_class": {
+        "C": 12,
+        "C->F": 12,
+        "C->T": 12,
+        "F": 12,
+        "F->C": 12,
+        "F->T": 12,
+        "T": 12,
+        "T->C": 12,
+        "T->F": 12
+      }
+    },
+    {
+      "deterministic_preflight_seed": 20260641,
+      "feasible": true,
+      "query_type": {
+        "anchor_region": "interior_lower_left",
+        "distractor_count": 2,
+        "primary_color": 2,
+        "primary_shape": "3_cell_L",
+        "query_type_key": "3_cell_L|color=2|anchor=interior_lower_left|distractors=2"
+      },
+      "rejection_reasons": [],
+      "valid_scene_counts_by_sequence_class": {
+        "C": 12,
+        "C->F": 12,
+        "C->T": 12,
+        "F": 12,
+        "F->C": 12,
+        "F->T": 12,
+        "T": 12,
+        "T->C": 12,
+        "T->F": 12
+      }
+    },
+    {
+      "deterministic_preflight_seed": 20260642,
+      "feasible": true,
+      "query_type": {
+        "anchor_region": "interior_lower_right",
+        "distractor_count": 1,
+        "primary_color": 2,
+        "primary_shape": "3_cell_L",
+        "query_type_key": "3_cell_L|color=2|anchor=interior_lower_right|distractors=1"
+      },
+      "rejection_reasons": [],
+      "valid_scene_counts_by_sequence_class": {
+        "C": 12,
+        "C->F": 12,
+        "C->T": 12,
+        "F": 12,
+        "F->C": 12,
+        "F->T": 12,
+        "T": 12,
+        "T->C": 12,
+        "T->F": 12
+      }
+    },
+    {
+      "deterministic_preflight_seed": 20260643,
+      "feasible": true,
+      "query_type": {
+        "anchor_region": "interior_lower_right",
+        "distractor_count": 2,
+        "primary_color": 2,
+        "primary_shape": "3_cell_L",
+        "query_type_key": "3_cell_L|color=2|anchor=interior_lower_right|distractors=2"
+      },
+      "rejection_reasons": [],
+      "valid_scene_counts_by_sequence_class": {
+        "C": 12,
+        "C->F": 12,
+        "C->T": 12,
+        "F": 12,
+        "F->C": 12,
+        "F->T": 12,
+        "T": 12,
+        "T->C": 12,
+        "T->F": 12
+      }
+    },
+    {
+      "deterministic_preflight_seed": 20260644,
+      "feasible": true,
+      "query_type": {
+        "anchor_region": "interior_upper_left",
+        "distractor_count": 1,
+        "primary_color": 3,
+        "primary_shape": "3_cell_L",
+        "query_type_key": "3_cell_L|color=3|anchor=interior_upper_left|distractors=1"
+      },
+      "rejection_reasons": [],
+      "valid_scene_counts_by_sequence_class": {
+        "C": 12,
+        "C->F": 12,
+        "C->T": 12,
+        "F": 12,
+        "F->C": 12,
+        "F->T": 12,
+        "T": 12,
+        "T->C": 12,
+        "T->F": 12
+      }
+    },
+    {
+      "deterministic_preflight_seed": 20260645,
+      "feasible": true,
+      "query_type": {
+        "anchor_region": "interior_upper_left",
+        "distractor_count": 2,
+        "primary_color": 3,
+        "primary_shape": "3_cell_L",
+        "query_type_key": "3_cell_L|color=3|anchor=interior_upper_left|distractors=2"
+      },
+      "rejection_reasons": [],
+      "valid_scene_counts_by_sequence_class": {
+        "C": 12,
+        "C->F": 12,
+        "C->T": 12,
+        "F": 12,
+        "F->C": 12,
+        "F->T": 12,
+        "T": 12,
+        "T->C": 12,
+        "T->F": 12
+      }
+    },
+    {
+      "deterministic_preflight_seed": 20260646,
+      "feasible": true,
+      "query_type": {
+        "anchor_region": "interior_upper_right",
+        "distractor_count": 1,
+        "primary_color": 3,
+        "primary_shape": "3_cell_L",
+        "query_type_key": "3_cell_L|color=3|anchor=interior_upper_right|distractors=1"
+      },
+      "rejection_reasons": [],
+      "valid_scene_counts_by_sequence_class": {
+        "C": 12,
+        "C->F": 12,
+        "C->T": 12,
+        "F": 12,
+        "F->C": 12,
+        "F->T": 12,
+        "T": 12,
+        "T->C": 12,
+        "T->F": 12
+      }
+    },
+    {
+      "deterministic_preflight_seed": 20260647,
+      "feasible": true,
+      "query_type": {
+        "anchor_region": "interior_upper_right",
+        "distractor_count": 2,
+        "primary_color": 3,
+        "primary_shape": "3_cell_L",
+        "query_type_key": "3_cell_L|color=3|anchor=interior_upper_right|distractors=2"
+      },
+      "rejection_reasons": [],
+      "valid_scene_counts_by_sequence_class": {
+        "C": 12,
+        "C->F": 12,
+        "C->T": 12,
+        "F": 12,
+        "F->C": 12,
+        "F->T": 12,
+        "T": 12,
+        "T->C": 12,
+        "T->F": 12
+      }
+    },
+    {
+      "deterministic_preflight_seed": 20260648,
+      "feasible": true,
+      "query_type": {
+        "anchor_region": "interior_lower_left",
+        "distractor_count": 1,
+        "primary_color": 3,
+        "primary_shape": "3_cell_L",
+        "query_type_key": "3_cell_L|color=3|anchor=interior_lower_left|distractors=1"
+      },
+      "rejection_reasons": [],
+      "valid_scene_counts_by_sequence_class": {
+        "C": 12,
+        "C->F": 12,
+        "C->T": 12,
+        "F": 12,
+        "F->C": 12,
+        "F->T": 12,
+        "T": 12,
+        "T->C": 12,
+        "T->F": 12
+      }
+    },
+    {
+      "deterministic_preflight_seed": 20260649,
+      "feasible": true,
+      "query_type": {
+        "anchor_region": "interior_lower_left",
+        "distractor_count": 2,
+        "primary_color": 3,
+        "primary_shape": "3_cell_L",
+        "query_type_key": "3_cell_L|color=3|anchor=interior_lower_left|distractors=2"
+      },
+      "rejection_reasons": [],
+      "valid_scene_counts_by_sequence_class": {
+        "C": 12,
+        "C->F": 12,
+        "C->T": 12,
+        "F": 12,
+        "F->C": 12,
+        "F->T": 12,
+        "T": 12,
+        "T->C": 12,
+        "T->F": 12
+      }
+    },
+    {
+      "deterministic_preflight_seed": 20260650,
+      "feasible": true,
+      "query_type": {
+        "anchor_region": "interior_lower_right",
+        "distractor_count": 1,
+        "primary_color": 3,
+        "primary_shape": "3_cell_L",
+        "query_type_key": "3_cell_L|color=3|anchor=interior_lower_right|distractors=1"
+      },
+      "rejection_reasons": [],
+      "valid_scene_counts_by_sequence_class": {
+        "C": 12,
+        "C->F": 12,
+        "C->T": 12,
+        "F": 12,
+        "F->C": 12,
+        "F->T": 12,
+        "T": 12,
+        "T->C": 12,
+        "T->F": 12
+      }
+    },
+    {
+      "deterministic_preflight_seed": 20260651,
+      "feasible": true,
+      "query_type": {
+        "anchor_region": "interior_lower_right",
+        "distractor_count": 2,
+        "primary_color": 3,
+        "primary_shape": "3_cell_L",
+        "query_type_key": "3_cell_L|color=3|anchor=interior_lower_right|distractors=2"
+      },
+      "rejection_reasons": [],
+      "valid_scene_counts_by_sequence_class": {
+        "C": 12,
+        "C->F": 12,
+        "C->T": 12,
+        "F": 12,
+        "F->C": 12,
+        "F->T": 12,
+        "T": 12,
+        "T->C": 12,
+        "T->F": 12
+      }
+    },
+    {
+      "deterministic_preflight_seed": 20260652,
+      "feasible": true,
+      "query_type": {
+        "anchor_region": "interior_upper_left",
+        "distractor_count": 1,
+        "primary_color": 4,
+        "primary_shape": "3_cell_L",
+        "query_type_key": "3_cell_L|color=4|anchor=interior_upper_left|distractors=1"
+      },
+      "rejection_reasons": [],
+      "valid_scene_counts_by_sequence_class": {
+        "C": 12,
+        "C->F": 12,
+        "C->T": 12,
+        "F": 12,
+        "F->C": 12,
+        "F->T": 12,
+        "T": 12,
+        "T->C": 12,
+        "T->F": 12
+      }
+    },
+    {
+      "deterministic_preflight_seed": 20260653,
+      "feasible": true,
+      "query_type": {
+        "anchor_region": "interior_upper_left",
+        "distractor_count": 2,
+        "primary_color": 4,
+        "primary_shape": "3_cell_L",
+        "query_type_key": "3_cell_L|color=4|anchor=interior_upper_left|distractors=2"
+      },
+      "rejection_reasons": [],
+      "valid_scene_counts_by_sequence_class": {
+        "C": 12,
+        "C->F": 12,
+        "C->T": 12,
+        "F": 12,
+        "F->C": 12,
+        "F->T": 12,
+        "T": 12,
+        "T->C": 12,
+        "T->F": 12
+      }
+    },
+    {
+      "deterministic_preflight_seed": 20260654,
+      "feasible": true,
+      "query_type": {
+        "anchor_region": "interior_upper_right",
+        "distractor_count": 1,
+        "primary_color": 4,
+        "primary_shape": "3_cell_L",
+        "query_type_key": "3_cell_L|color=4|anchor=interior_upper_right|distractors=1"
+      },
+      "rejection_reasons": [],
+      "valid_scene_counts_by_sequence_class": {
+        "C": 12,
+        "C->F": 12,
+        "C->T": 12,
+        "F": 12,
+        "F->C": 12,
+        "F->T": 12,
+        "T": 12,
+        "T->C": 12,
+        "T->F": 12
+      }
+    },
+    {
+      "deterministic_preflight_seed": 20260655,
+      "feasible": true,
+      "query_type": {
+        "anchor_region": "interior_upper_right",
+        "distractor_count": 2,
+        "primary_color": 4,
+        "primary_shape": "3_cell_L",
+        "query_type_key": "3_cell_L|color=4|anchor=interior_upper_right|distractors=2"
+      },
+      "rejection_reasons": [],
+      "valid_scene_counts_by_sequence_class": {
+        "C": 12,
+        "C->F": 12,
+        "C->T": 12,
+        "F": 12,
+        "F->C": 12,
+        "F->T": 12,
+        "T": 12,
+        "T->C": 12,
+        "T->F": 12
+      }
+    },
+    {
+      "deterministic_preflight_seed": 20260656,
+      "feasible": true,
+      "query_type": {
+        "anchor_region": "interior_lower_left",
+        "distractor_count": 1,
+        "primary_color": 4,
+        "primary_shape": "3_cell_L",
+        "query_type_key": "3_cell_L|color=4|anchor=interior_lower_left|distractors=1"
+      },
+      "rejection_reasons": [],
+      "valid_scene_counts_by_sequence_class": {
+        "C": 12,
+        "C->F": 12,
+        "C->T": 12,
+        "F": 12,
+        "F->C": 12,
+        "F->T": 12,
+        "T": 12,
+        "T->C": 12,
+        "T->F": 12
+      }
+    },
+    {
+      "deterministic_preflight_seed": 20260657,
+      "feasible": true,
+      "query_type": {
+        "anchor_region": "interior_lower_left",
+        "distractor_count": 2,
+        "primary_color": 4,
+        "primary_shape": "3_cell_L",
+        "query_type_key": "3_cell_L|color=4|anchor=interior_lower_left|distractors=2"
+      },
+      "rejection_reasons": [],
+      "valid_scene_counts_by_sequence_class": {
+        "C": 12,
+        "C->F": 12,
+        "C->T": 12,
+        "F": 12,
+        "F->C": 12,
+        "F->T": 12,
+        "T": 12,
+        "T->C": 12,
+        "T->F": 12
+      }
+    },
+    {
+      "deterministic_preflight_seed": 20260658,
+      "feasible": true,
+      "query_type": {
+        "anchor_region": "interior_lower_right",
+        "distractor_count": 1,
+        "primary_color": 4,
+        "primary_shape": "3_cell_L",
+        "query_type_key": "3_cell_L|color=4|anchor=interior_lower_right|distractors=1"
+      },
+      "rejection_reasons": [],
+      "valid_scene_counts_by_sequence_class": {
+        "C": 12,
+        "C->F": 12,
+        "C->T": 12,
+        "F": 12,
+        "F->C": 12,
+        "F->T": 12,
+        "T": 12,
+        "T->C": 12,
+        "T->F": 12
+      }
+    },
+    {
+      "deterministic_preflight_seed": 20260659,
+      "feasible": true,
+      "query_type": {
+        "anchor_region": "interior_lower_right",
+        "distractor_count": 2,
+        "primary_color": 4,
+        "primary_shape": "3_cell_L",
+        "query_type_key": "3_cell_L|color=4|anchor=interior_lower_right|distractors=2"
+      },
+      "rejection_reasons": [],
+      "valid_scene_counts_by_sequence_class": {
+        "C": 12,
+        "C->F": 12,
+        "C->T": 12,
+        "F": 12,
+        "F->C": 12,
+        "F->T": 12,
+        "T": 12,
+        "T->C": 12,
+        "T->F": 12
+      }
+    },
+    {
+      "deterministic_preflight_seed": 20260660,
+      "feasible": true,
+      "query_type": {
+        "anchor_region": "interior_upper_left",
+        "distractor_count": 1,
+        "primary_color": 1,
+        "primary_shape": "3_cell_T",
+        "query_type_key": "3_cell_T|color=1|anchor=interior_upper_left|distractors=1"
+      },
+      "rejection_reasons": [],
+      "valid_scene_counts_by_sequence_class": {
+        "C": 12,
+        "C->F": 12,
+        "C->T": 12,
+        "F": 12,
+        "F->C": 12,
+        "F->T": 12,
+        "T": 12,
+        "T->C": 12,
+        "T->F": 12
+      }
+    },
+    {
+      "deterministic_preflight_seed": 20260661,
+      "feasible": true,
+      "query_type": {
+        "anchor_region": "interior_upper_left",
+        "distractor_count": 2,
+        "primary_color": 1,
+        "primary_shape": "3_cell_T",
+        "query_type_key": "3_cell_T|color=1|anchor=interior_upper_left|distractors=2"
+      },
+      "rejection_reasons": [],
+      "valid_scene_counts_by_sequence_class": {
+        "C": 12,
+        "C->F": 12,
+        "C->T": 12,
+        "F": 12,
+        "F->C": 12,
+        "F->T": 12,
+        "T": 12,
+        "T->C": 12,
+        "T->F": 12
+      }
+    },
+    {
+      "deterministic_preflight_seed": 20260662,
+      "feasible": true,
+      "query_type": {
+        "anchor_region": "interior_upper_right",
+        "distractor_count": 1,
+        "primary_color": 1,
+        "primary_shape": "3_cell_T",
+        "query_type_key": "3_cell_T|color=1|anchor=interior_upper_right|distractors=1"
+      },
+      "rejection_reasons": [],
+      "valid_scene_counts_by_sequence_class": {
+        "C": 12,
+        "C->F": 12,
+        "C->T": 12,
+        "F": 12,
+        "F->C": 12,
+        "F->T": 12,
+        "T": 12,
+        "T->C": 12,
+        "T->F": 12
+      }
+    },
+    {
+      "deterministic_preflight_seed": 20260663,
+      "feasible": true,
+      "query_type": {
+        "anchor_region": "interior_upper_right",
+        "distractor_count": 2,
+        "primary_color": 1,
+        "primary_shape": "3_cell_T",
+        "query_type_key": "3_cell_T|color=1|anchor=interior_upper_right|distractors=2"
+      },
+      "rejection_reasons": [],
+      "valid_scene_counts_by_sequence_class": {
+        "C": 12,
+        "C->F": 12,
+        "C->T": 12,
+        "F": 12,
+        "F->C": 12,
+        "F->T": 12,
+        "T": 12,
+        "T->C": 12,
+        "T->F": 12
+      }
+    },
+    {
+      "deterministic_preflight_seed": 20260664,
+      "feasible": true,
+      "query_type": {
+        "anchor_region": "interior_lower_left",
+        "distractor_count": 1,
+        "primary_color": 1,
+        "primary_shape": "3_cell_T",
+        "query_type_key": "3_cell_T|color=1|anchor=interior_lower_left|distractors=1"
+      },
+      "rejection_reasons": [],
+      "valid_scene_counts_by_sequence_class": {
+        "C": 12,
+        "C->F": 12,
+        "C->T": 12,
+        "F": 12,
+        "F->C": 12,
+        "F->T": 12,
+        "T": 12,
+        "T->C": 12,
+        "T->F": 12
+      }
+    },
+    {
+      "deterministic_preflight_seed": 20260665,
+      "feasible": true,
+      "query_type": {
+        "anchor_region": "interior_lower_left",
+        "distractor_count": 2,
+        "primary_color": 1,
+        "primary_shape": "3_cell_T",
+        "query_type_key": "3_cell_T|color=1|anchor=interior_lower_left|distractors=2"
+      },
+      "rejection_reasons": [],
+      "valid_scene_counts_by_sequence_class": {
+        "C": 12,
+        "C->F": 12,
+        "C->T": 12,
+        "F": 12,
+        "F->C": 12,
+        "F->T": 12,
+        "T": 12,
+        "T->C": 12,
+        "T->F": 12
+      }
+    },
+    {
+      "deterministic_preflight_seed": 20260666,
+      "feasible": true,
+      "query_type": {
+        "anchor_region": "interior_lower_right",
+        "distractor_count": 1,
+        "primary_color": 1,
+        "primary_shape": "3_cell_T",
+        "query_type_key": "3_cell_T|color=1|anchor=interior_lower_right|distractors=1"
+      },
+      "rejection_reasons": [],
+      "valid_scene_counts_by_sequence_class": {
+        "C": 12,
+        "C->F": 12,
+        "C->T": 12,
+        "F": 12,
+        "F->C": 12,
+        "F->T": 12,
+        "T": 12,
+        "T->C": 12,
+        "T->F": 12
+      }
+    },
+    {
+      "deterministic_preflight_seed": 20260667,
+      "feasible": true,
+      "query_type": {
+        "anchor_region": "interior_lower_right",
+        "distractor_count": 2,
+        "primary_color": 1,
+        "primary_shape": "3_cell_T",
+        "query_type_key": "3_cell_T|color=1|anchor=interior_lower_right|distractors=2"
+      },
+      "rejection_reasons": [],
+      "valid_scene_counts_by_sequence_class": {
+        "C": 12,
+        "C->F": 12,
+        "C->T": 12,
+        "F": 12,
+        "F->C": 12,
+        "F->T": 12,
+        "T": 12,
+        "T->C": 12,
+        "T->F": 12
+      }
+    },
+    {
+      "deterministic_preflight_seed": 20260668,
+      "feasible": true,
+      "query_type": {
+        "anchor_region": "interior_upper_left",
+        "distractor_count": 1,
+        "primary_color": 2,
+        "primary_shape": "3_cell_T",
+        "query_type_key": "3_cell_T|color=2|anchor=interior_upper_left|distractors=1"
+      },
+      "rejection_reasons": [],
+      "valid_scene_counts_by_sequence_class": {
+        "C": 12,
+        "C->F": 12,
+        "C->T": 12,
+        "F": 12,
+        "F->C": 12,
+        "F->T": 12,
+        "T": 12,
+        "T->C": 12,
+        "T->F": 12
+      }
+    },
+    {
+      "deterministic_preflight_seed": 20260669,
+      "feasible": true,
+      "query_type": {
+        "anchor_region": "interior_upper_left",
+        "distractor_count": 2,
+        "primary_color": 2,
+        "primary_shape": "3_cell_T",
+        "query_type_key": "3_cell_T|color=2|anchor=interior_upper_left|distractors=2"
+      },
+      "rejection_reasons": [],
+      "valid_scene_counts_by_sequence_class": {
+        "C": 12,
+        "C->F": 12,
+        "C->T": 12,
+        "F": 12,
+        "F->C": 12,
+        "F->T": 12,
+        "T": 12,
+        "T->C": 12,
+        "T->F": 12
+      }
+    },
+    {
+      "deterministic_preflight_seed": 20260670,
+      "feasible": true,
+      "query_type": {
+        "anchor_region": "interior_upper_right",
+        "distractor_count": 1,
+        "primary_color": 2,
+        "primary_shape": "3_cell_T",
+        "query_type_key": "3_cell_T|color=2|anchor=interior_upper_right|distractors=1"
+      },
+      "rejection_reasons": [],
+      "valid_scene_counts_by_sequence_class": {
+        "C": 12,
+        "C->F": 12,
+        "C->T": 12,
+        "F": 12,
+        "F->C": 12,
+        "F->T": 12,
+        "T": 12,
+        "T->C": 12,
+        "T->F": 12
+      }
+    },
+    {
+      "deterministic_preflight_seed": 20260671,
+      "feasible": true,
+      "query_type": {
+        "anchor_region": "interior_upper_right",
+        "distractor_count": 2,
+        "primary_color": 2,
+        "primary_shape": "3_cell_T",
+        "query_type_key": "3_cell_T|color=2|anchor=interior_upper_right|distractors=2"
+      },
+      "rejection_reasons": [],
+      "valid_scene_counts_by_sequence_class": {
+        "C": 12,
+        "C->F": 12,
+        "C->T": 12,
+        "F": 12,
+        "F->C": 12,
+        "F->T": 12,
+        "T": 12,
+        "T->C": 12,
+        "T->F": 12
+      }
+    },
+    {
+      "deterministic_preflight_seed": 20260672,
+      "feasible": true,
+      "query_type": {
+        "anchor_region": "interior_lower_left",
+        "distractor_count": 1,
+        "primary_color": 2,
+        "primary_shape": "3_cell_T",
+        "query_type_key": "3_cell_T|color=2|anchor=interior_lower_left|distractors=1"
+      },
+      "rejection_reasons": [],
+      "valid_scene_counts_by_sequence_class": {
+        "C": 12,
+        "C->F": 12,
+        "C->T": 12,
+        "F": 12,
+        "F->C": 12,
+        "F->T": 12,
+        "T": 12,
+        "T->C": 12,
+        "T->F": 12
+      }
+    },
+    {
+      "deterministic_preflight_seed": 20260673,
+      "feasible": true,
+      "query_type": {
+        "anchor_region": "interior_lower_left",
+        "distractor_count": 2,
+        "primary_color": 2,
+        "primary_shape": "3_cell_T",
+        "query_type_key": "3_cell_T|color=2|anchor=interior_lower_left|distractors=2"
+      },
+      "rejection_reasons": [],
+      "valid_scene_counts_by_sequence_class": {
+        "C": 12,
+        "C->F": 12,
+        "C->T": 12,
+        "F": 12,
+        "F->C": 12,
+        "F->T": 12,
+        "T": 12,
+        "T->C": 12,
+        "T->F": 12
+      }
+    },
+    {
+      "deterministic_preflight_seed": 20260674,
+      "feasible": true,
+      "query_type": {
+        "anchor_region": "interior_lower_right",
+        "distractor_count": 1,
+        "primary_color": 2,
+        "primary_shape": "3_cell_T",
+        "query_type_key": "3_cell_T|color=2|anchor=interior_lower_right|distractors=1"
+      },
+      "rejection_reasons": [],
+      "valid_scene_counts_by_sequence_class": {
+        "C": 12,
+        "C->F": 12,
+        "C->T": 12,
+        "F": 12,
+        "F->C": 12,
+        "F->T": 12,
+        "T": 12,
+        "T->C": 12,
+        "T->F": 12
+      }
+    },
+    {
+      "deterministic_preflight_seed": 20260675,
+      "feasible": true,
+      "query_type": {
+        "anchor_region": "interior_lower_right",
+        "distractor_count": 2,
+        "primary_color": 2,
+        "primary_shape": "3_cell_T",
+        "query_type_key": "3_cell_T|color=2|anchor=interior_lower_right|distractors=2"
+      },
+      "rejection_reasons": [],
+      "valid_scene_counts_by_sequence_class": {
+        "C": 12,
+        "C->F": 12,
+        "C->T": 12,
+        "F": 12,
+        "F->C": 12,
+        "F->T": 12,
+        "T": 12,
+        "T->C": 12,
+        "T->F": 12
+      }
+    },
+    {
+      "deterministic_preflight_seed": 20260676,
+      "feasible": true,
+      "query_type": {
+        "anchor_region": "interior_upper_left",
+        "distractor_count": 1,
+        "primary_color": 3,
+        "primary_shape": "3_cell_T",
+        "query_type_key": "3_cell_T|color=3|anchor=interior_upper_left|distractors=1"
+      },
+      "rejection_reasons": [],
+      "valid_scene_counts_by_sequence_class": {
+        "C": 12,
+        "C->F": 12,
+        "C->T": 12,
+        "F": 12,
+        "F->C": 12,
+        "F->T": 12,
+        "T": 12,
+        "T->C": 12,
+        "T->F": 12
+      }
+    },
+    {
+      "deterministic_preflight_seed": 20260677,
+      "feasible": true,
+      "query_type": {
+        "anchor_region": "interior_upper_left",
+        "distractor_count": 2,
+        "primary_color": 3,
+        "primary_shape": "3_cell_T",
+        "query_type_key": "3_cell_T|color=3|anchor=interior_upper_left|distractors=2"
+      },
+      "rejection_reasons": [],
+      "valid_scene_counts_by_sequence_class": {
+        "C": 12,
+        "C->F": 12,
+        "C->T": 12,
+        "F": 12,
+        "F->C": 12,
+        "F->T": 12,
+        "T": 12,
+        "T->C": 12,
+        "T->F": 12
+      }
+    },
+    {
+      "deterministic_preflight_seed": 20260678,
+      "feasible": true,
+      "query_type": {
+        "anchor_region": "interior_upper_right",
+        "distractor_count": 1,
+        "primary_color": 3,
+        "primary_shape": "3_cell_T",
+        "query_type_key": "3_cell_T|color=3|anchor=interior_upper_right|distractors=1"
+      },
+      "rejection_reasons": [],
+      "valid_scene_counts_by_sequence_class": {
+        "C": 12,
+        "C->F": 12,
+        "C->T": 12,
+        "F": 12,
+        "F->C": 12,
+        "F->T": 12,
+        "T": 12,
+        "T->C": 12,
+        "T->F": 12
+      }
+    },
+    {
+      "deterministic_preflight_seed": 20260679,
+      "feasible": true,
+      "query_type": {
+        "anchor_region": "interior_upper_right",
+        "distractor_count": 2,
+        "primary_color": 3,
+        "primary_shape": "3_cell_T",
+        "query_type_key": "3_cell_T|color=3|anchor=interior_upper_right|distractors=2"
+      },
+      "rejection_reasons": [],
+      "valid_scene_counts_by_sequence_class": {
+        "C": 12,
+        "C->F": 12,
+        "C->T": 12,
+        "F": 12,
+        "F->C": 12,
+        "F->T": 12,
+        "T": 12,
+        "T->C": 12,
+        "T->F": 12
+      }
+    },
+    {
+      "deterministic_preflight_seed": 20260680,
+      "feasible": true,
+      "query_type": {
+        "anchor_region": "interior_lower_left",
+        "distractor_count": 1,
+        "primary_color": 3,
+        "primary_shape": "3_cell_T",
+        "query_type_key": "3_cell_T|color=3|anchor=interior_lower_left|distractors=1"
+      },
+      "rejection_reasons": [],
+      "valid_scene_counts_by_sequence_class": {
+        "C": 12,
+        "C->F": 12,
+        "C->T": 12,
+        "F": 12,
+        "F->C": 12,
+        "F->T": 12,
+        "T": 12,
+        "T->C": 12,
+        "T->F": 12
+      }
+    },
+    {
+      "deterministic_preflight_seed": 20260681,
+      "feasible": true,
+      "query_type": {
+        "anchor_region": "interior_lower_left",
+        "distractor_count": 2,
+        "primary_color": 3,
+        "primary_shape": "3_cell_T",
+        "query_type_key": "3_cell_T|color=3|anchor=interior_lower_left|distractors=2"
+      },
+      "rejection_reasons": [],
+      "valid_scene_counts_by_sequence_class": {
+        "C": 12,
+        "C->F": 12,
+        "C->T": 12,
+        "F": 12,
+        "F->C": 12,
+        "F->T": 12,
+        "T": 12,
+        "T->C": 12,
+        "T->F": 12
+      }
+    },
+    {
+      "deterministic_preflight_seed": 20260682,
+      "feasible": true,
+      "query_type": {
+        "anchor_region": "interior_lower_right",
+        "distractor_count": 1,
+        "primary_color": 3,
+        "primary_shape": "3_cell_T",
+        "query_type_key": "3_cell_T|color=3|anchor=interior_lower_right|distractors=1"
+      },
+      "rejection_reasons": [],
+      "valid_scene_counts_by_sequence_class": {
+        "C": 12,
+        "C->F": 12,
+        "C->T": 12,
+        "F": 12,
+        "F->C": 12,
+        "F->T": 12,
+        "T": 12,
+        "T->C": 12,
+        "T->F": 12
+      }
+    },
+    {
+      "deterministic_preflight_seed": 20260683,
+      "feasible": true,
+      "query_type": {
+        "anchor_region": "interior_lower_right",
+        "distractor_count": 2,
+        "primary_color": 3,
+        "primary_shape": "3_cell_T",
+        "query_type_key": "3_cell_T|color=3|anchor=interior_lower_right|distractors=2"
+      },
+      "rejection_reasons": [],
+      "valid_scene_counts_by_sequence_class": {
+        "C": 12,
+        "C->F": 12,
+        "C->T": 12,
+        "F": 12,
+        "F->C": 12,
+        "F->T": 12,
+        "T": 12,
+        "T->C": 12,
+        "T->F": 12
+      }
+    },
+    {
+      "deterministic_preflight_seed": 20260684,
+      "feasible": true,
+      "query_type": {
+        "anchor_region": "interior_upper_left",
+        "distractor_count": 1,
+        "primary_color": 4,
+        "primary_shape": "3_cell_T",
+        "query_type_key": "3_cell_T|color=4|anchor=interior_upper_left|distractors=1"
+      },
+      "rejection_reasons": [],
+      "valid_scene_counts_by_sequence_class": {
+        "C": 12,
+        "C->F": 12,
+        "C->T": 12,
+        "F": 12,
+        "F->C": 12,
+        "F->T": 12,
+        "T": 12,
+        "T->C": 12,
+        "T->F": 12
+      }
+    },
+    {
+      "deterministic_preflight_seed": 20260685,
+      "feasible": true,
+      "query_type": {
+        "anchor_region": "interior_upper_left",
+        "distractor_count": 2,
+        "primary_color": 4,
+        "primary_shape": "3_cell_T",
+        "query_type_key": "3_cell_T|color=4|anchor=interior_upper_left|distractors=2"
+      },
+      "rejection_reasons": [],
+      "valid_scene_counts_by_sequence_class": {
+        "C": 12,
+        "C->F": 12,
+        "C->T": 12,
+        "F": 12,
+        "F->C": 12,
+        "F->T": 12,
+        "T": 12,
+        "T->C": 12,
+        "T->F": 12
+      }
+    },
+    {
+      "deterministic_preflight_seed": 20260686,
+      "feasible": true,
+      "query_type": {
+        "anchor_region": "interior_upper_right",
+        "distractor_count": 1,
+        "primary_color": 4,
+        "primary_shape": "3_cell_T",
+        "query_type_key": "3_cell_T|color=4|anchor=interior_upper_right|distractors=1"
+      },
+      "rejection_reasons": [],
+      "valid_scene_counts_by_sequence_class": {
+        "C": 12,
+        "C->F": 12,
+        "C->T": 12,
+        "F": 12,
+        "F->C": 12,
+        "F->T": 12,
+        "T": 12,
+        "T->C": 12,
+        "T->F": 12
+      }
+    },
+    {
+      "deterministic_preflight_seed": 20260687,
+      "feasible": true,
+      "query_type": {
+        "anchor_region": "interior_upper_right",
+        "distractor_count": 2,
+        "primary_color": 4,
+        "primary_shape": "3_cell_T",
+        "query_type_key": "3_cell_T|color=4|anchor=interior_upper_right|distractors=2"
+      },
+      "rejection_reasons": [],
+      "valid_scene_counts_by_sequence_class": {
+        "C": 12,
+        "C->F": 12,
+        "C->T": 12,
+        "F": 12,
+        "F->C": 12,
+        "F->T": 12,
+        "T": 12,
+        "T->C": 12,
+        "T->F": 12
+      }
+    },
+    {
+      "deterministic_preflight_seed": 20260688,
+      "feasible": true,
+      "query_type": {
+        "anchor_region": "interior_lower_left",
+        "distractor_count": 1,
+        "primary_color": 4,
+        "primary_shape": "3_cell_T",
+        "query_type_key": "3_cell_T|color=4|anchor=interior_lower_left|distractors=1"
+      },
+      "rejection_reasons": [],
+      "valid_scene_counts_by_sequence_class": {
+        "C": 12,
+        "C->F": 12,
+        "C->T": 12,
+        "F": 12,
+        "F->C": 12,
+        "F->T": 12,
+        "T": 12,
+        "T->C": 12,
+        "T->F": 12
+      }
+    },
+    {
+      "deterministic_preflight_seed": 20260689,
+      "feasible": true,
+      "query_type": {
+        "anchor_region": "interior_lower_left",
+        "distractor_count": 2,
+        "primary_color": 4,
+        "primary_shape": "3_cell_T",
+        "query_type_key": "3_cell_T|color=4|anchor=interior_lower_left|distractors=2"
+      },
+      "rejection_reasons": [],
+      "valid_scene_counts_by_sequence_class": {
+        "C": 12,
+        "C->F": 12,
+        "C->T": 12,
+        "F": 12,
+        "F->C": 12,
+        "F->T": 12,
+        "T": 12,
+        "T->C": 12,
+        "T->F": 12
+      }
+    },
+    {
+      "deterministic_preflight_seed": 20260690,
+      "feasible": true,
+      "query_type": {
+        "anchor_region": "interior_lower_right",
+        "distractor_count": 1,
+        "primary_color": 4,
+        "primary_shape": "3_cell_T",
+        "query_type_key": "3_cell_T|color=4|anchor=interior_lower_right|distractors=1"
+      },
+      "rejection_reasons": [],
+      "valid_scene_counts_by_sequence_class": {
+        "C": 12,
+        "C->F": 12,
+        "C->T": 12,
+        "F": 12,
+        "F->C": 12,
+        "F->T": 12,
+        "T": 12,
+        "T->C": 12,
+        "T->F": 12
+      }
+    },
+    {
+      "deterministic_preflight_seed": 20260691,
+      "feasible": true,
+      "query_type": {
+        "anchor_region": "interior_lower_right",
+        "distractor_count": 2,
+        "primary_color": 4,
+        "primary_shape": "3_cell_T",
+        "query_type_key": "3_cell_T|color=4|anchor=interior_lower_right|distractors=2"
+      },
+      "rejection_reasons": [],
+      "valid_scene_counts_by_sequence_class": {
+        "C": 12,
+        "C->F": 12,
+        "C->T": 12,
+        "F": 12,
+        "F->C": 12,
+        "F->T": 12,
+        "T": 12,
+        "T->C": 12,
+        "T->F": 12
+      }
+    },
+    {
+      "deterministic_preflight_seed": 20260692,
+      "feasible": true,
+      "query_type": {
+        "anchor_region": "interior_upper_left",
+        "distractor_count": 1,
+        "primary_color": 1,
+        "primary_shape": "3_cell_zig_zag",
+        "query_type_key": "3_cell_zig_zag|color=1|anchor=interior_upper_left|distractors=1"
+      },
+      "rejection_reasons": [],
+      "valid_scene_counts_by_sequence_class": {
+        "C": 12,
+        "C->F": 12,
+        "C->T": 12,
+        "F": 12,
+        "F->C": 12,
+        "F->T": 12,
+        "T": 12,
+        "T->C": 12,
+        "T->F": 12
+      }
+    },
+    {
+      "deterministic_preflight_seed": 20260693,
+      "feasible": true,
+      "query_type": {
+        "anchor_region": "interior_upper_left",
+        "distractor_count": 2,
+        "primary_color": 1,
+        "primary_shape": "3_cell_zig_zag",
+        "query_type_key": "3_cell_zig_zag|color=1|anchor=interior_upper_left|distractors=2"
+      },
+      "rejection_reasons": [],
+      "valid_scene_counts_by_sequence_class": {
+        "C": 12,
+        "C->F": 12,
+        "C->T": 12,
+        "F": 12,
+        "F->C": 12,
+        "F->T": 12,
+        "T": 12,
+        "T->C": 12,
+        "T->F": 12
+      }
+    },
+    {
+      "deterministic_preflight_seed": 20260694,
+      "feasible": true,
+      "query_type": {
+        "anchor_region": "interior_upper_right",
+        "distractor_count": 1,
+        "primary_color": 1,
+        "primary_shape": "3_cell_zig_zag",
+        "query_type_key": "3_cell_zig_zag|color=1|anchor=interior_upper_right|distractors=1"
+      },
+      "rejection_reasons": [],
+      "valid_scene_counts_by_sequence_class": {
+        "C": 12,
+        "C->F": 12,
+        "C->T": 12,
+        "F": 12,
+        "F->C": 12,
+        "F->T": 12,
+        "T": 12,
+        "T->C": 12,
+        "T->F": 12
+      }
+    },
+    {
+      "deterministic_preflight_seed": 20260695,
+      "feasible": true,
+      "query_type": {
+        "anchor_region": "interior_upper_right",
+        "distractor_count": 2,
+        "primary_color": 1,
+        "primary_shape": "3_cell_zig_zag",
+        "query_type_key": "3_cell_zig_zag|color=1|anchor=interior_upper_right|distractors=2"
+      },
+      "rejection_reasons": [],
+      "valid_scene_counts_by_sequence_class": {
+        "C": 12,
+        "C->F": 12,
+        "C->T": 12,
+        "F": 12,
+        "F->C": 12,
+        "F->T": 12,
+        "T": 12,
+        "T->C": 12,
+        "T->F": 12
+      }
+    },
+    {
+      "deterministic_preflight_seed": 20260696,
+      "feasible": true,
+      "query_type": {
+        "anchor_region": "interior_lower_left",
+        "distractor_count": 1,
+        "primary_color": 1,
+        "primary_shape": "3_cell_zig_zag",
+        "query_type_key": "3_cell_zig_zag|color=1|anchor=interior_lower_left|distractors=1"
+      },
+      "rejection_reasons": [],
+      "valid_scene_counts_by_sequence_class": {
+        "C": 12,
+        "C->F": 12,
+        "C->T": 12,
+        "F": 12,
+        "F->C": 12,
+        "F->T": 12,
+        "T": 12,
+        "T->C": 12,
+        "T->F": 12
+      }
+    },
+    {
+      "deterministic_preflight_seed": 20260697,
+      "feasible": true,
+      "query_type": {
+        "anchor_region": "interior_lower_left",
+        "distractor_count": 2,
+        "primary_color": 1,
+        "primary_shape": "3_cell_zig_zag",
+        "query_type_key": "3_cell_zig_zag|color=1|anchor=interior_lower_left|distractors=2"
+      },
+      "rejection_reasons": [],
+      "valid_scene_counts_by_sequence_class": {
+        "C": 12,
+        "C->F": 12,
+        "C->T": 12,
+        "F": 12,
+        "F->C": 12,
+        "F->T": 12,
+        "T": 12,
+        "T->C": 12,
+        "T->F": 12
+      }
+    },
+    {
+      "deterministic_preflight_seed": 20260698,
+      "feasible": true,
+      "query_type": {
+        "anchor_region": "interior_lower_right",
+        "distractor_count": 1,
+        "primary_color": 1,
+        "primary_shape": "3_cell_zig_zag",
+        "query_type_key": "3_cell_zig_zag|color=1|anchor=interior_lower_right|distractors=1"
+      },
+      "rejection_reasons": [],
+      "valid_scene_counts_by_sequence_class": {
+        "C": 12,
+        "C->F": 12,
+        "C->T": 12,
+        "F": 12,
+        "F->C": 12,
+        "F->T": 12,
+        "T": 12,
+        "T->C": 12,
+        "T->F": 12
+      }
+    },
+    {
+      "deterministic_preflight_seed": 20260699,
+      "feasible": true,
+      "query_type": {
+        "anchor_region": "interior_lower_right",
+        "distractor_count": 2,
+        "primary_color": 1,
+        "primary_shape": "3_cell_zig_zag",
+        "query_type_key": "3_cell_zig_zag|color=1|anchor=interior_lower_right|distractors=2"
+      },
+      "rejection_reasons": [],
+      "valid_scene_counts_by_sequence_class": {
+        "C": 12,
+        "C->F": 12,
+        "C->T": 12,
+        "F": 12,
+        "F->C": 12,
+        "F->T": 12,
+        "T": 12,
+        "T->C": 12,
+        "T->F": 12
+      }
+    },
+    {
+      "deterministic_preflight_seed": 20260700,
+      "feasible": true,
+      "query_type": {
+        "anchor_region": "interior_upper_left",
+        "distractor_count": 1,
+        "primary_color": 2,
+        "primary_shape": "3_cell_zig_zag",
+        "query_type_key": "3_cell_zig_zag|color=2|anchor=interior_upper_left|distractors=1"
+      },
+      "rejection_reasons": [],
+      "valid_scene_counts_by_sequence_class": {
+        "C": 12,
+        "C->F": 12,
+        "C->T": 12,
+        "F": 12,
+        "F->C": 12,
+        "F->T": 12,
+        "T": 12,
+        "T->C": 12,
+        "T->F": 12
+      }
+    },
+    {
+      "deterministic_preflight_seed": 20260701,
+      "feasible": true,
+      "query_type": {
+        "anchor_region": "interior_upper_left",
+        "distractor_count": 2,
+        "primary_color": 2,
+        "primary_shape": "3_cell_zig_zag",
+        "query_type_key": "3_cell_zig_zag|color=2|anchor=interior_upper_left|distractors=2"
+      },
+      "rejection_reasons": [],
+      "valid_scene_counts_by_sequence_class": {
+        "C": 12,
+        "C->F": 12,
+        "C->T": 12,
+        "F": 12,
+        "F->C": 12,
+        "F->T": 12,
+        "T": 12,
+        "T->C": 12,
+        "T->F": 12
+      }
+    },
+    {
+      "deterministic_preflight_seed": 20260702,
+      "feasible": true,
+      "query_type": {
+        "anchor_region": "interior_upper_right",
+        "distractor_count": 1,
+        "primary_color": 2,
+        "primary_shape": "3_cell_zig_zag",
+        "query_type_key": "3_cell_zig_zag|color=2|anchor=interior_upper_right|distractors=1"
+      },
+      "rejection_reasons": [],
+      "valid_scene_counts_by_sequence_class": {
+        "C": 12,
+        "C->F": 12,
+        "C->T": 12,
+        "F": 12,
+        "F->C": 12,
+        "F->T": 12,
+        "T": 12,
+        "T->C": 12,
+        "T->F": 12
+      }
+    },
+    {
+      "deterministic_preflight_seed": 20260703,
+      "feasible": true,
+      "query_type": {
+        "anchor_region": "interior_upper_right",
+        "distractor_count": 2,
+        "primary_color": 2,
+        "primary_shape": "3_cell_zig_zag",
+        "query_type_key": "3_cell_zig_zag|color=2|anchor=interior_upper_right|distractors=2"
+      },
+      "rejection_reasons": [],
+      "valid_scene_counts_by_sequence_class": {
+        "C": 12,
+        "C->F": 12,
+        "C->T": 12,
+        "F": 12,
+        "F->C": 12,
+        "F->T": 12,
+        "T": 12,
+        "T->C": 12,
+        "T->F": 12
+      }
+    },
+    {
+      "deterministic_preflight_seed": 20260704,
+      "feasible": true,
+      "query_type": {
+        "anchor_region": "interior_lower_left",
+        "distractor_count": 1,
+        "primary_color": 2,
+        "primary_shape": "3_cell_zig_zag",
+        "query_type_key": "3_cell_zig_zag|color=2|anchor=interior_lower_left|distractors=1"
+      },
+      "rejection_reasons": [],
+      "valid_scene_counts_by_sequence_class": {
+        "C": 12,
+        "C->F": 12,
+        "C->T": 12,
+        "F": 12,
+        "F->C": 12,
+        "F->T": 12,
+        "T": 12,
+        "T->C": 12,
+        "T->F": 12
+      }
+    },
+    {
+      "deterministic_preflight_seed": 20260705,
+      "feasible": true,
+      "query_type": {
+        "anchor_region": "interior_lower_left",
+        "distractor_count": 2,
+        "primary_color": 2,
+        "primary_shape": "3_cell_zig_zag",
+        "query_type_key": "3_cell_zig_zag|color=2|anchor=interior_lower_left|distractors=2"
+      },
+      "rejection_reasons": [],
+      "valid_scene_counts_by_sequence_class": {
+        "C": 12,
+        "C->F": 12,
+        "C->T": 12,
+        "F": 12,
+        "F->C": 12,
+        "F->T": 12,
+        "T": 12,
+        "T->C": 12,
+        "T->F": 12
+      }
+    },
+    {
+      "deterministic_preflight_seed": 20260706,
+      "feasible": true,
+      "query_type": {
+        "anchor_region": "interior_lower_right",
+        "distractor_count": 1,
+        "primary_color": 2,
+        "primary_shape": "3_cell_zig_zag",
+        "query_type_key": "3_cell_zig_zag|color=2|anchor=interior_lower_right|distractors=1"
+      },
+      "rejection_reasons": [],
+      "valid_scene_counts_by_sequence_class": {
+        "C": 12,
+        "C->F": 12,
+        "C->T": 12,
+        "F": 12,
+        "F->C": 12,
+        "F->T": 12,
+        "T": 12,
+        "T->C": 12,
+        "T->F": 12
+      }
+    },
+    {
+      "deterministic_preflight_seed": 20260707,
+      "feasible": true,
+      "query_type": {
+        "anchor_region": "interior_lower_right",
+        "distractor_count": 2,
+        "primary_color": 2,
+        "primary_shape": "3_cell_zig_zag",
+        "query_type_key": "3_cell_zig_zag|color=2|anchor=interior_lower_right|distractors=2"
+      },
+      "rejection_reasons": [],
+      "valid_scene_counts_by_sequence_class": {
+        "C": 12,
+        "C->F": 12,
+        "C->T": 12,
+        "F": 12,
+        "F->C": 12,
+        "F->T": 12,
+        "T": 12,
+        "T->C": 12,
+        "T->F": 12
+      }
+    },
+    {
+      "deterministic_preflight_seed": 20260708,
+      "feasible": true,
+      "query_type": {
+        "anchor_region": "interior_upper_left",
+        "distractor_count": 1,
+        "primary_color": 3,
+        "primary_shape": "3_cell_zig_zag",
+        "query_type_key": "3_cell_zig_zag|color=3|anchor=interior_upper_left|distractors=1"
+      },
+      "rejection_reasons": [],
+      "valid_scene_counts_by_sequence_class": {
+        "C": 12,
+        "C->F": 12,
+        "C->T": 12,
+        "F": 12,
+        "F->C": 12,
+        "F->T": 12,
+        "T": 12,
+        "T->C": 12,
+        "T->F": 12
+      }
+    },
+    {
+      "deterministic_preflight_seed": 20260709,
+      "feasible": true,
+      "query_type": {
+        "anchor_region": "interior_upper_left",
+        "distractor_count": 2,
+        "primary_color": 3,
+        "primary_shape": "3_cell_zig_zag",
+        "query_type_key": "3_cell_zig_zag|color=3|anchor=interior_upper_left|distractors=2"
+      },
+      "rejection_reasons": [],
+      "valid_scene_counts_by_sequence_class": {
+        "C": 12,
+        "C->F": 12,
+        "C->T": 12,
+        "F": 12,
+        "F->C": 12,
+        "F->T": 12,
+        "T": 12,
+        "T->C": 12,
+        "T->F": 12
+      }
+    },
+    {
+      "deterministic_preflight_seed": 20260710,
+      "feasible": true,
+      "query_type": {
+        "anchor_region": "interior_upper_right",
+        "distractor_count": 1,
+        "primary_color": 3,
+        "primary_shape": "3_cell_zig_zag",
+        "query_type_key": "3_cell_zig_zag|color=3|anchor=interior_upper_right|distractors=1"
+      },
+      "rejection_reasons": [],
+      "valid_scene_counts_by_sequence_class": {
+        "C": 12,
+        "C->F": 12,
+        "C->T": 12,
+        "F": 12,
+        "F->C": 12,
+        "F->T": 12,
+        "T": 12,
+        "T->C": 12,
+        "T->F": 12
+      }
+    },
+    {
+      "deterministic_preflight_seed": 20260711,
+      "feasible": true,
+      "query_type": {
+        "anchor_region": "interior_upper_right",
+        "distractor_count": 2,
+        "primary_color": 3,
+        "primary_shape": "3_cell_zig_zag",
+        "query_type_key": "3_cell_zig_zag|color=3|anchor=interior_upper_right|distractors=2"
+      },
+      "rejection_reasons": [],
+      "valid_scene_counts_by_sequence_class": {
+        "C": 12,
+        "C->F": 12,
+        "C->T": 12,
+        "F": 12,
+        "F->C": 12,
+        "F->T": 12,
+        "T": 12,
+        "T->C": 12,
+        "T->F": 12
+      }
+    },
+    {
+      "deterministic_preflight_seed": 20260712,
+      "feasible": true,
+      "query_type": {
+        "anchor_region": "interior_lower_left",
+        "distractor_count": 1,
+        "primary_color": 3,
+        "primary_shape": "3_cell_zig_zag",
+        "query_type_key": "3_cell_zig_zag|color=3|anchor=interior_lower_left|distractors=1"
+      },
+      "rejection_reasons": [],
+      "valid_scene_counts_by_sequence_class": {
+        "C": 12,
+        "C->F": 12,
+        "C->T": 12,
+        "F": 12,
+        "F->C": 12,
+        "F->T": 12,
+        "T": 12,
+        "T->C": 12,
+        "T->F": 12
+      }
+    },
+    {
+      "deterministic_preflight_seed": 20260713,
+      "feasible": true,
+      "query_type": {
+        "anchor_region": "interior_lower_left",
+        "distractor_count": 2,
+        "primary_color": 3,
+        "primary_shape": "3_cell_zig_zag",
+        "query_type_key": "3_cell_zig_zag|color=3|anchor=interior_lower_left|distractors=2"
+      },
+      "rejection_reasons": [],
+      "valid_scene_counts_by_sequence_class": {
+        "C": 12,
+        "C->F": 12,
+        "C->T": 12,
+        "F": 12,
+        "F->C": 12,
+        "F->T": 12,
+        "T": 12,
+        "T->C": 12,
+        "T->F": 12
+      }
+    },
+    {
+      "deterministic_preflight_seed": 20260714,
+      "feasible": true,
+      "query_type": {
+        "anchor_region": "interior_lower_right",
+        "distractor_count": 1,
+        "primary_color": 3,
+        "primary_shape": "3_cell_zig_zag",
+        "query_type_key": "3_cell_zig_zag|color=3|anchor=interior_lower_right|distractors=1"
+      },
+      "rejection_reasons": [],
+      "valid_scene_counts_by_sequence_class": {
+        "C": 12,
+        "C->F": 12,
+        "C->T": 12,
+        "F": 12,
+        "F->C": 12,
+        "F->T": 12,
+        "T": 12,
+        "T->C": 12,
+        "T->F": 12
+      }
+    },
+    {
+      "deterministic_preflight_seed": 20260715,
+      "feasible": true,
+      "query_type": {
+        "anchor_region": "interior_lower_right",
+        "distractor_count": 2,
+        "primary_color": 3,
+        "primary_shape": "3_cell_zig_zag",
+        "query_type_key": "3_cell_zig_zag|color=3|anchor=interior_lower_right|distractors=2"
+      },
+      "rejection_reasons": [],
+      "valid_scene_counts_by_sequence_class": {
+        "C": 12,
+        "C->F": 12,
+        "C->T": 12,
+        "F": 12,
+        "F->C": 12,
+        "F->T": 12,
+        "T": 12,
+        "T->C": 12,
+        "T->F": 12
+      }
+    },
+    {
+      "deterministic_preflight_seed": 20260716,
+      "feasible": true,
+      "query_type": {
+        "anchor_region": "interior_upper_left",
+        "distractor_count": 1,
+        "primary_color": 4,
+        "primary_shape": "3_cell_zig_zag",
+        "query_type_key": "3_cell_zig_zag|color=4|anchor=interior_upper_left|distractors=1"
+      },
+      "rejection_reasons": [],
+      "valid_scene_counts_by_sequence_class": {
+        "C": 12,
+        "C->F": 12,
+        "C->T": 12,
+        "F": 12,
+        "F->C": 12,
+        "F->T": 12,
+        "T": 12,
+        "T->C": 12,
+        "T->F": 12
+      }
+    },
+    {
+      "deterministic_preflight_seed": 20260717,
+      "feasible": true,
+      "query_type": {
+        "anchor_region": "interior_upper_left",
+        "distractor_count": 2,
+        "primary_color": 4,
+        "primary_shape": "3_cell_zig_zag",
+        "query_type_key": "3_cell_zig_zag|color=4|anchor=interior_upper_left|distractors=2"
+      },
+      "rejection_reasons": [],
+      "valid_scene_counts_by_sequence_class": {
+        "C": 12,
+        "C->F": 12,
+        "C->T": 12,
+        "F": 12,
+        "F->C": 12,
+        "F->T": 12,
+        "T": 12,
+        "T->C": 12,
+        "T->F": 12
+      }
+    },
+    {
+      "deterministic_preflight_seed": 20260718,
+      "feasible": true,
+      "query_type": {
+        "anchor_region": "interior_upper_right",
+        "distractor_count": 1,
+        "primary_color": 4,
+        "primary_shape": "3_cell_zig_zag",
+        "query_type_key": "3_cell_zig_zag|color=4|anchor=interior_upper_right|distractors=1"
+      },
+      "rejection_reasons": [],
+      "valid_scene_counts_by_sequence_class": {
+        "C": 12,
+        "C->F": 12,
+        "C->T": 12,
+        "F": 12,
+        "F->C": 12,
+        "F->T": 12,
+        "T": 12,
+        "T->C": 12,
+        "T->F": 12
+      }
+    },
+    {
+      "deterministic_preflight_seed": 20260719,
+      "feasible": true,
+      "query_type": {
+        "anchor_region": "interior_upper_right",
+        "distractor_count": 2,
+        "primary_color": 4,
+        "primary_shape": "3_cell_zig_zag",
+        "query_type_key": "3_cell_zig_zag|color=4|anchor=interior_upper_right|distractors=2"
+      },
+      "rejection_reasons": [],
+      "valid_scene_counts_by_sequence_class": {
+        "C": 12,
+        "C->F": 12,
+        "C->T": 12,
+        "F": 12,
+        "F->C": 12,
+        "F->T": 12,
+        "T": 12,
+        "T->C": 12,
+        "T->F": 12
+      }
+    },
+    {
+      "deterministic_preflight_seed": 20260720,
+      "feasible": true,
+      "query_type": {
+        "anchor_region": "interior_lower_left",
+        "distractor_count": 1,
+        "primary_color": 4,
+        "primary_shape": "3_cell_zig_zag",
+        "query_type_key": "3_cell_zig_zag|color=4|anchor=interior_lower_left|distractors=1"
+      },
+      "rejection_reasons": [],
+      "valid_scene_counts_by_sequence_class": {
+        "C": 12,
+        "C->F": 12,
+        "C->T": 12,
+        "F": 12,
+        "F->C": 12,
+        "F->T": 12,
+        "T": 12,
+        "T->C": 12,
+        "T->F": 12
+      }
+    },
+    {
+      "deterministic_preflight_seed": 20260721,
+      "feasible": true,
+      "query_type": {
+        "anchor_region": "interior_lower_left",
+        "distractor_count": 2,
+        "primary_color": 4,
+        "primary_shape": "3_cell_zig_zag",
+        "query_type_key": "3_cell_zig_zag|color=4|anchor=interior_lower_left|distractors=2"
+      },
+      "rejection_reasons": [],
+      "valid_scene_counts_by_sequence_class": {
+        "C": 12,
+        "C->F": 12,
+        "C->T": 12,
+        "F": 12,
+        "F->C": 12,
+        "F->T": 12,
+        "T": 12,
+        "T->C": 12,
+        "T->F": 12
+      }
+    },
+    {
+      "deterministic_preflight_seed": 20260722,
+      "feasible": true,
+      "query_type": {
+        "anchor_region": "interior_lower_right",
+        "distractor_count": 1,
+        "primary_color": 4,
+        "primary_shape": "3_cell_zig_zag",
+        "query_type_key": "3_cell_zig_zag|color=4|anchor=interior_lower_right|distractors=1"
+      },
+      "rejection_reasons": [],
+      "valid_scene_counts_by_sequence_class": {
+        "C": 12,
+        "C->F": 12,
+        "C->T": 12,
+        "F": 12,
+        "F->C": 12,
+        "F->T": 12,
+        "T": 12,
+        "T->C": 12,
+        "T->F": 12
+      }
+    },
+    {
+      "deterministic_preflight_seed": 20260723,
+      "feasible": true,
+      "query_type": {
+        "anchor_region": "interior_lower_right",
+        "distractor_count": 2,
+        "primary_color": 4,
+        "primary_shape": "3_cell_zig_zag",
+        "query_type_key": "3_cell_zig_zag|color=4|anchor=interior_lower_right|distractors=2"
+      },
+      "rejection_reasons": [],
+      "valid_scene_counts_by_sequence_class": {
+        "C": 12,
+        "C->F": 12,
+        "C->T": 12,
+        "F": 12,
+        "F->C": 12,
+        "F->T": 12,
+        "T": 12,
+        "T->C": 12,
+        "T->F": 12
+      }
+    },
+    {
+      "deterministic_preflight_seed": 20260724,
+      "feasible": true,
+      "query_type": {
+        "anchor_region": "interior_upper_left",
+        "distractor_count": 1,
+        "primary_color": 1,
+        "primary_shape": "asymmetric_4_cell_hook",
+        "query_type_key": "asymmetric_4_cell_hook|color=1|anchor=interior_upper_left|distractors=1"
+      },
+      "rejection_reasons": [],
+      "valid_scene_counts_by_sequence_class": {
+        "C": 12,
+        "C->F": 12,
+        "C->T": 12,
+        "F": 12,
+        "F->C": 12,
+        "F->T": 12,
+        "T": 12,
+        "T->C": 12,
+        "T->F": 12
+      }
+    },
+    {
+      "deterministic_preflight_seed": 20260725,
+      "feasible": true,
+      "query_type": {
+        "anchor_region": "interior_upper_left",
+        "distractor_count": 2,
+        "primary_color": 1,
+        "primary_shape": "asymmetric_4_cell_hook",
+        "query_type_key": "asymmetric_4_cell_hook|color=1|anchor=interior_upper_left|distractors=2"
+      },
+      "rejection_reasons": [],
+      "valid_scene_counts_by_sequence_class": {
+        "C": 12,
+        "C->F": 12,
+        "C->T": 12,
+        "F": 12,
+        "F->C": 12,
+        "F->T": 12,
+        "T": 12,
+        "T->C": 12,
+        "T->F": 12
+      }
+    },
+    {
+      "deterministic_preflight_seed": 20260726,
+      "feasible": true,
+      "query_type": {
+        "anchor_region": "interior_upper_right",
+        "distractor_count": 1,
+        "primary_color": 1,
+        "primary_shape": "asymmetric_4_cell_hook",
+        "query_type_key": "asymmetric_4_cell_hook|color=1|anchor=interior_upper_right|distractors=1"
+      },
+      "rejection_reasons": [],
+      "valid_scene_counts_by_sequence_class": {
+        "C": 12,
+        "C->F": 12,
+        "C->T": 12,
+        "F": 12,
+        "F->C": 12,
+        "F->T": 12,
+        "T": 12,
+        "T->C": 12,
+        "T->F": 12
+      }
+    },
+    {
+      "deterministic_preflight_seed": 20260727,
+      "feasible": true,
+      "query_type": {
+        "anchor_region": "interior_upper_right",
+        "distractor_count": 2,
+        "primary_color": 1,
+        "primary_shape": "asymmetric_4_cell_hook",
+        "query_type_key": "asymmetric_4_cell_hook|color=1|anchor=interior_upper_right|distractors=2"
+      },
+      "rejection_reasons": [],
+      "valid_scene_counts_by_sequence_class": {
+        "C": 12,
+        "C->F": 12,
+        "C->T": 12,
+        "F": 12,
+        "F->C": 12,
+        "F->T": 12,
+        "T": 12,
+        "T->C": 12,
+        "T->F": 12
+      }
+    },
+    {
+      "deterministic_preflight_seed": 20260728,
+      "feasible": true,
+      "query_type": {
+        "anchor_region": "interior_lower_left",
+        "distractor_count": 1,
+        "primary_color": 1,
+        "primary_shape": "asymmetric_4_cell_hook",
+        "query_type_key": "asymmetric_4_cell_hook|color=1|anchor=interior_lower_left|distractors=1"
+      },
+      "rejection_reasons": [],
+      "valid_scene_counts_by_sequence_class": {
+        "C": 12,
+        "C->F": 12,
+        "C->T": 12,
+        "F": 12,
+        "F->C": 12,
+        "F->T": 12,
+        "T": 12,
+        "T->C": 12,
+        "T->F": 12
+      }
+    },
+    {
+      "deterministic_preflight_seed": 20260729,
+      "feasible": true,
+      "query_type": {
+        "anchor_region": "interior_lower_left",
+        "distractor_count": 2,
+        "primary_color": 1,
+        "primary_shape": "asymmetric_4_cell_hook",
+        "query_type_key": "asymmetric_4_cell_hook|color=1|anchor=interior_lower_left|distractors=2"
+      },
+      "rejection_reasons": [],
+      "valid_scene_counts_by_sequence_class": {
+        "C": 12,
+        "C->F": 12,
+        "C->T": 12,
+        "F": 12,
+        "F->C": 12,
+        "F->T": 12,
+        "T": 12,
+        "T->C": 12,
+        "T->F": 12
+      }
+    },
+    {
+      "deterministic_preflight_seed": 20260730,
+      "feasible": true,
+      "query_type": {
+        "anchor_region": "interior_lower_right",
+        "distractor_count": 1,
+        "primary_color": 1,
+        "primary_shape": "asymmetric_4_cell_hook",
+        "query_type_key": "asymmetric_4_cell_hook|color=1|anchor=interior_lower_right|distractors=1"
+      },
+      "rejection_reasons": [],
+      "valid_scene_counts_by_sequence_class": {
+        "C": 12,
+        "C->F": 12,
+        "C->T": 12,
+        "F": 12,
+        "F->C": 12,
+        "F->T": 12,
+        "T": 12,
+        "T->C": 12,
+        "T->F": 12
+      }
+    },
+    {
+      "deterministic_preflight_seed": 20260731,
+      "feasible": true,
+      "query_type": {
+        "anchor_region": "interior_lower_right",
+        "distractor_count": 2,
+        "primary_color": 1,
+        "primary_shape": "asymmetric_4_cell_hook",
+        "query_type_key": "asymmetric_4_cell_hook|color=1|anchor=interior_lower_right|distractors=2"
+      },
+      "rejection_reasons": [],
+      "valid_scene_counts_by_sequence_class": {
+        "C": 12,
+        "C->F": 12,
+        "C->T": 12,
+        "F": 12,
+        "F->C": 12,
+        "F->T": 12,
+        "T": 12,
+        "T->C": 12,
+        "T->F": 12
+      }
+    },
+    {
+      "deterministic_preflight_seed": 20260732,
+      "feasible": true,
+      "query_type": {
+        "anchor_region": "interior_upper_left",
+        "distractor_count": 1,
+        "primary_color": 2,
+        "primary_shape": "asymmetric_4_cell_hook",
+        "query_type_key": "asymmetric_4_cell_hook|color=2|anchor=interior_upper_left|distractors=1"
+      },
+      "rejection_reasons": [],
+      "valid_scene_counts_by_sequence_class": {
+        "C": 12,
+        "C->F": 12,
+        "C->T": 12,
+        "F": 12,
+        "F->C": 12,
+        "F->T": 12,
+        "T": 12,
+        "T->C": 12,
+        "T->F": 12
+      }
+    },
+    {
+      "deterministic_preflight_seed": 20260733,
+      "feasible": true,
+      "query_type": {
+        "anchor_region": "interior_upper_left",
+        "distractor_count": 2,
+        "primary_color": 2,
+        "primary_shape": "asymmetric_4_cell_hook",
+        "query_type_key": "asymmetric_4_cell_hook|color=2|anchor=interior_upper_left|distractors=2"
+      },
+      "rejection_reasons": [],
+      "valid_scene_counts_by_sequence_class": {
+        "C": 12,
+        "C->F": 12,
+        "C->T": 12,
+        "F": 12,
+        "F->C": 12,
+        "F->T": 12,
+        "T": 12,
+        "T->C": 12,
+        "T->F": 12
+      }
+    },
+    {
+      "deterministic_preflight_seed": 20260734,
+      "feasible": true,
+      "query_type": {
+        "anchor_region": "interior_upper_right",
+        "distractor_count": 1,
+        "primary_color": 2,
+        "primary_shape": "asymmetric_4_cell_hook",
+        "query_type_key": "asymmetric_4_cell_hook|color=2|anchor=interior_upper_right|distractors=1"
+      },
+      "rejection_reasons": [],
+      "valid_scene_counts_by_sequence_class": {
+        "C": 12,
+        "C->F": 12,
+        "C->T": 12,
+        "F": 12,
+        "F->C": 12,
+        "F->T": 12,
+        "T": 12,
+        "T->C": 12,
+        "T->F": 12
+      }
+    },
+    {
+      "deterministic_preflight_seed": 20260735,
+      "feasible": true,
+      "query_type": {
+        "anchor_region": "interior_upper_right",
+        "distractor_count": 2,
+        "primary_color": 2,
+        "primary_shape": "asymmetric_4_cell_hook",
+        "query_type_key": "asymmetric_4_cell_hook|color=2|anchor=interior_upper_right|distractors=2"
+      },
+      "rejection_reasons": [],
+      "valid_scene_counts_by_sequence_class": {
+        "C": 12,
+        "C->F": 12,
+        "C->T": 12,
+        "F": 12,
+        "F->C": 12,
+        "F->T": 12,
+        "T": 12,
+        "T->C": 12,
+        "T->F": 12
+      }
+    },
+    {
+      "deterministic_preflight_seed": 20260736,
+      "feasible": true,
+      "query_type": {
+        "anchor_region": "interior_lower_left",
+        "distractor_count": 1,
+        "primary_color": 2,
+        "primary_shape": "asymmetric_4_cell_hook",
+        "query_type_key": "asymmetric_4_cell_hook|color=2|anchor=interior_lower_left|distractors=1"
+      },
+      "rejection_reasons": [],
+      "valid_scene_counts_by_sequence_class": {
+        "C": 12,
+        "C->F": 12,
+        "C->T": 12,
+        "F": 12,
+        "F->C": 12,
+        "F->T": 12,
+        "T": 12,
+        "T->C": 12,
+        "T->F": 12
+      }
+    },
+    {
+      "deterministic_preflight_seed": 20260737,
+      "feasible": true,
+      "query_type": {
+        "anchor_region": "interior_lower_left",
+        "distractor_count": 2,
+        "primary_color": 2,
+        "primary_shape": "asymmetric_4_cell_hook",
+        "query_type_key": "asymmetric_4_cell_hook|color=2|anchor=interior_lower_left|distractors=2"
+      },
+      "rejection_reasons": [],
+      "valid_scene_counts_by_sequence_class": {
+        "C": 12,
+        "C->F": 12,
+        "C->T": 12,
+        "F": 12,
+        "F->C": 12,
+        "F->T": 12,
+        "T": 12,
+        "T->C": 12,
+        "T->F": 12
+      }
+    },
+    {
+      "deterministic_preflight_seed": 20260738,
+      "feasible": true,
+      "query_type": {
+        "anchor_region": "interior_lower_right",
+        "distractor_count": 1,
+        "primary_color": 2,
+        "primary_shape": "asymmetric_4_cell_hook",
+        "query_type_key": "asymmetric_4_cell_hook|color=2|anchor=interior_lower_right|distractors=1"
+      },
+      "rejection_reasons": [],
+      "valid_scene_counts_by_sequence_class": {
+        "C": 12,
+        "C->F": 12,
+        "C->T": 12,
+        "F": 12,
+        "F->C": 12,
+        "F->T": 12,
+        "T": 12,
+        "T->C": 12,
+        "T->F": 12
+      }
+    },
+    {
+      "deterministic_preflight_seed": 20260739,
+      "feasible": true,
+      "query_type": {
+        "anchor_region": "interior_lower_right",
+        "distractor_count": 2,
+        "primary_color": 2,
+        "primary_shape": "asymmetric_4_cell_hook",
+        "query_type_key": "asymmetric_4_cell_hook|color=2|anchor=interior_lower_right|distractors=2"
+      },
+      "rejection_reasons": [],
+      "valid_scene_counts_by_sequence_class": {
+        "C": 12,
+        "C->F": 12,
+        "C->T": 12,
+        "F": 12,
+        "F->C": 12,
+        "F->T": 12,
+        "T": 12,
+        "T->C": 12,
+        "T->F": 12
+      }
+    },
+    {
+      "deterministic_preflight_seed": 20260740,
+      "feasible": true,
+      "query_type": {
+        "anchor_region": "interior_upper_left",
+        "distractor_count": 1,
+        "primary_color": 3,
+        "primary_shape": "asymmetric_4_cell_hook",
+        "query_type_key": "asymmetric_4_cell_hook|color=3|anchor=interior_upper_left|distractors=1"
+      },
+      "rejection_reasons": [],
+      "valid_scene_counts_by_sequence_class": {
+        "C": 12,
+        "C->F": 12,
+        "C->T": 12,
+        "F": 12,
+        "F->C": 12,
+        "F->T": 12,
+        "T": 12,
+        "T->C": 12,
+        "T->F": 12
+      }
+    },
+    {
+      "deterministic_preflight_seed": 20260741,
+      "feasible": true,
+      "query_type": {
+        "anchor_region": "interior_upper_left",
+        "distractor_count": 2,
+        "primary_color": 3,
+        "primary_shape": "asymmetric_4_cell_hook",
+        "query_type_key": "asymmetric_4_cell_hook|color=3|anchor=interior_upper_left|distractors=2"
+      },
+      "rejection_reasons": [],
+      "valid_scene_counts_by_sequence_class": {
+        "C": 12,
+        "C->F": 12,
+        "C->T": 12,
+        "F": 12,
+        "F->C": 12,
+        "F->T": 12,
+        "T": 12,
+        "T->C": 12,
+        "T->F": 12
+      }
+    },
+    {
+      "deterministic_preflight_seed": 20260742,
+      "feasible": true,
+      "query_type": {
+        "anchor_region": "interior_upper_right",
+        "distractor_count": 1,
+        "primary_color": 3,
+        "primary_shape": "asymmetric_4_cell_hook",
+        "query_type_key": "asymmetric_4_cell_hook|color=3|anchor=interior_upper_right|distractors=1"
+      },
+      "rejection_reasons": [],
+      "valid_scene_counts_by_sequence_class": {
+        "C": 12,
+        "C->F": 12,
+        "C->T": 12,
+        "F": 12,
+        "F->C": 12,
+        "F->T": 12,
+        "T": 12,
+        "T->C": 12,
+        "T->F": 12
+      }
+    },
+    {
+      "deterministic_preflight_seed": 20260743,
+      "feasible": true,
+      "query_type": {
+        "anchor_region": "interior_upper_right",
+        "distractor_count": 2,
+        "primary_color": 3,
+        "primary_shape": "asymmetric_4_cell_hook",
+        "query_type_key": "asymmetric_4_cell_hook|color=3|anchor=interior_upper_right|distractors=2"
+      },
+      "rejection_reasons": [],
+      "valid_scene_counts_by_sequence_class": {
+        "C": 12,
+        "C->F": 12,
+        "C->T": 12,
+        "F": 12,
+        "F->C": 12,
+        "F->T": 12,
+        "T": 12,
+        "T->C": 12,
+        "T->F": 12
+      }
+    },
+    {
+      "deterministic_preflight_seed": 20260744,
+      "feasible": true,
+      "query_type": {
+        "anchor_region": "interior_lower_left",
+        "distractor_count": 1,
+        "primary_color": 3,
+        "primary_shape": "asymmetric_4_cell_hook",
+        "query_type_key": "asymmetric_4_cell_hook|color=3|anchor=interior_lower_left|distractors=1"
+      },
+      "rejection_reasons": [],
+      "valid_scene_counts_by_sequence_class": {
+        "C": 12,
+        "C->F": 12,
+        "C->T": 12,
+        "F": 12,
+        "F->C": 12,
+        "F->T": 12,
+        "T": 12,
+        "T->C": 12,
+        "T->F": 12
+      }
+    },
+    {
+      "deterministic_preflight_seed": 20260745,
+      "feasible": true,
+      "query_type": {
+        "anchor_region": "interior_lower_left",
+        "distractor_count": 2,
+        "primary_color": 3,
+        "primary_shape": "asymmetric_4_cell_hook",
+        "query_type_key": "asymmetric_4_cell_hook|color=3|anchor=interior_lower_left|distractors=2"
+      },
+      "rejection_reasons": [],
+      "valid_scene_counts_by_sequence_class": {
+        "C": 12,
+        "C->F": 12,
+        "C->T": 12,
+        "F": 12,
+        "F->C": 12,
+        "F->T": 12,
+        "T": 12,
+        "T->C": 12,
+        "T->F": 12
+      }
+    },
+    {
+      "deterministic_preflight_seed": 20260746,
+      "feasible": true,
+      "query_type": {
+        "anchor_region": "interior_lower_right",
+        "distractor_count": 1,
+        "primary_color": 3,
+        "primary_shape": "asymmetric_4_cell_hook",
+        "query_type_key": "asymmetric_4_cell_hook|color=3|anchor=interior_lower_right|distractors=1"
+      },
+      "rejection_reasons": [],
+      "valid_scene_counts_by_sequence_class": {
+        "C": 12,
+        "C->F": 12,
+        "C->T": 12,
+        "F": 12,
+        "F->C": 12,
+        "F->T": 12,
+        "T": 12,
+        "T->C": 12,
+        "T->F": 12
+      }
+    },
+    {
+      "deterministic_preflight_seed": 20260747,
+      "feasible": true,
+      "query_type": {
+        "anchor_region": "interior_lower_right",
+        "distractor_count": 2,
+        "primary_color": 3,
+        "primary_shape": "asymmetric_4_cell_hook",
+        "query_type_key": "asymmetric_4_cell_hook|color=3|anchor=interior_lower_right|distractors=2"
+      },
+      "rejection_reasons": [],
+      "valid_scene_counts_by_sequence_class": {
+        "C": 12,
+        "C->F": 12,
+        "C->T": 12,
+        "F": 12,
+        "F->C": 12,
+        "F->T": 12,
+        "T": 12,
+        "T->C": 12,
+        "T->F": 12
+      }
+    },
+    {
+      "deterministic_preflight_seed": 20260748,
+      "feasible": true,
+      "query_type": {
+        "anchor_region": "interior_upper_left",
+        "distractor_count": 1,
+        "primary_color": 4,
+        "primary_shape": "asymmetric_4_cell_hook",
+        "query_type_key": "asymmetric_4_cell_hook|color=4|anchor=interior_upper_left|distractors=1"
+      },
+      "rejection_reasons": [],
+      "valid_scene_counts_by_sequence_class": {
+        "C": 12,
+        "C->F": 12,
+        "C->T": 12,
+        "F": 12,
+        "F->C": 12,
+        "F->T": 12,
+        "T": 12,
+        "T->C": 12,
+        "T->F": 12
+      }
+    },
+    {
+      "deterministic_preflight_seed": 20260749,
+      "feasible": true,
+      "query_type": {
+        "anchor_region": "interior_upper_left",
+        "distractor_count": 2,
+        "primary_color": 4,
+        "primary_shape": "asymmetric_4_cell_hook",
+        "query_type_key": "asymmetric_4_cell_hook|color=4|anchor=interior_upper_left|distractors=2"
+      },
+      "rejection_reasons": [],
+      "valid_scene_counts_by_sequence_class": {
+        "C": 12,
+        "C->F": 12,
+        "C->T": 12,
+        "F": 12,
+        "F->C": 12,
+        "F->T": 12,
+        "T": 12,
+        "T->C": 12,
+        "T->F": 12
+      }
+    },
+    {
+      "deterministic_preflight_seed": 20260750,
+      "feasible": true,
+      "query_type": {
+        "anchor_region": "interior_upper_right",
+        "distractor_count": 1,
+        "primary_color": 4,
+        "primary_shape": "asymmetric_4_cell_hook",
+        "query_type_key": "asymmetric_4_cell_hook|color=4|anchor=interior_upper_right|distractors=1"
+      },
+      "rejection_reasons": [],
+      "valid_scene_counts_by_sequence_class": {
+        "C": 12,
+        "C->F": 12,
+        "C->T": 12,
+        "F": 12,
+        "F->C": 12,
+        "F->T": 12,
+        "T": 12,
+        "T->C": 12,
+        "T->F": 12
+      }
+    },
+    {
+      "deterministic_preflight_seed": 20260751,
+      "feasible": true,
+      "query_type": {
+        "anchor_region": "interior_upper_right",
+        "distractor_count": 2,
+        "primary_color": 4,
+        "primary_shape": "asymmetric_4_cell_hook",
+        "query_type_key": "asymmetric_4_cell_hook|color=4|anchor=interior_upper_right|distractors=2"
+      },
+      "rejection_reasons": [],
+      "valid_scene_counts_by_sequence_class": {
+        "C": 12,
+        "C->F": 12,
+        "C->T": 12,
+        "F": 12,
+        "F->C": 12,
+        "F->T": 12,
+        "T": 12,
+        "T->C": 12,
+        "T->F": 12
+      }
+    },
+    {
+      "deterministic_preflight_seed": 20260752,
+      "feasible": true,
+      "query_type": {
+        "anchor_region": "interior_lower_left",
+        "distractor_count": 1,
+        "primary_color": 4,
+        "primary_shape": "asymmetric_4_cell_hook",
+        "query_type_key": "asymmetric_4_cell_hook|color=4|anchor=interior_lower_left|distractors=1"
+      },
+      "rejection_reasons": [],
+      "valid_scene_counts_by_sequence_class": {
+        "C": 12,
+        "C->F": 12,
+        "C->T": 12,
+        "F": 12,
+        "F->C": 12,
+        "F->T": 12,
+        "T": 12,
+        "T->C": 12,
+        "T->F": 12
+      }
+    },
+    {
+      "deterministic_preflight_seed": 20260753,
+      "feasible": true,
+      "query_type": {
+        "anchor_region": "interior_lower_left",
+        "distractor_count": 2,
+        "primary_color": 4,
+        "primary_shape": "asymmetric_4_cell_hook",
+        "query_type_key": "asymmetric_4_cell_hook|color=4|anchor=interior_lower_left|distractors=2"
+      },
+      "rejection_reasons": [],
+      "valid_scene_counts_by_sequence_class": {
+        "C": 12,
+        "C->F": 12,
+        "C->T": 12,
+        "F": 12,
+        "F->C": 12,
+        "F->T": 12,
+        "T": 12,
+        "T->C": 12,
+        "T->F": 12
+      }
+    },
+    {
+      "deterministic_preflight_seed": 20260754,
+      "feasible": true,
+      "query_type": {
+        "anchor_region": "interior_lower_right",
+        "distractor_count": 1,
+        "primary_color": 4,
+        "primary_shape": "asymmetric_4_cell_hook",
+        "query_type_key": "asymmetric_4_cell_hook|color=4|anchor=interior_lower_right|distractors=1"
+      },
+      "rejection_reasons": [],
+      "valid_scene_counts_by_sequence_class": {
+        "C": 12,
+        "C->F": 12,
+        "C->T": 12,
+        "F": 12,
+        "F->C": 12,
+        "F->T": 12,
+        "T": 12,
+        "T->C": 12,
+        "T->F": 12
+      }
+    },
+    {
+      "deterministic_preflight_seed": 20260755,
+      "feasible": true,
+      "query_type": {
+        "anchor_region": "interior_lower_right",
+        "distractor_count": 2,
+        "primary_color": 4,
+        "primary_shape": "asymmetric_4_cell_hook",
+        "query_type_key": "asymmetric_4_cell_hook|color=4|anchor=interior_lower_right|distractors=2"
+      },
+      "rejection_reasons": [],
+      "valid_scene_counts_by_sequence_class": {
+        "C": 12,
+        "C->F": 12,
+        "C->T": 12,
+        "F": 12,
+        "F->C": 12,
+        "F->T": 12,
+        "T": 12,
+        "T->C": 12,
+        "T->F": 12
+      }
+    }
+  ],
+  "feasible_query_type_count": 128
+}

@@ -1,0 +1,18 @@
+{
+  "audit": "R5A-4B ARC Support Semantics and Non-Copy Audit",
+  "bootstrap_replicates": 10000,
+  "bootstrap_seed": 20260701,
+  "conditions": [
+    "TRAINED_FULL_SUPPORT_REPLAY",
+    "TRAINED_QUERY_ONLY_BYPASS",
+    "TRAINED_OUTPUT_PAIRING_BROKEN",
+    "TRAINED_SUPPORT_INPUTS_ZEROED",
+    "TRAINED_OUTPUT_GEOMETRY_SCRAMBLED",
+    "TRAINED_ZEROED_SUPPORT_OUTPUTS_REPLAY",
+    "FRESH_INIT_REFERENCE"
+  ],
+  "frozen_input_verification_path": "/mnt/d/VRM/artifacts/r5a4b_support_semantics_audit/frozen_input_verification.json",
+  "no_training": true,
+  "r5a4a_artifact_dir": "/mnt/d/VRM/artifacts/r5a4a_neural_vrm_arc_grounded_preflight",
+  "r5a4b_prerun_patch_artifact_dir": "/mnt/d/VRM/artifacts/r5a4b_neural_vrm_prerun_patch"
+}

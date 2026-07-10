@@ -1,0 +1,50 @@
+{
+  "dev": {
+    "all_query_types_balanced": true,
+    "episode_count": 8640,
+    "passed": true,
+    "per_query_type_sequence_count_expected": 60,
+    "query_type_count": 24,
+    "sequence_counts": {
+      "C": 1440,
+      "C->F": 1440,
+      "F": 1440,
+      "F->T": 1440,
+      "T": 1440,
+      "T->C": 1440
+    }
+  },
+  "sealed": {
+    "all_query_types_balanced": true,
+    "episode_count": 12960,
+    "passed": true,
+    "per_query_type_sequence_count_expected": 60,
+    "query_type_count": 24,
+    "sequence_counts": {
+      "C": 1440,
+      "C->F": 1440,
+      "C->T": 1440,
+      "F": 1440,
+      "F->C": 1440,
+      "F->T": 1440,
+      "T": 1440,
+      "T->C": 1440,
+      "T->F": 1440
+    }
+  },
+  "train": {
+    "all_query_types_balanced": true,
+    "episode_count": 28800,
+    "passed": true,
+    "per_query_type_sequence_count_expected": 60,
+    "query_type_count": 80,
+    "sequence_counts": {
+      "C": 4800,
+      "C->F": 4800,
+      "F": 4800,
+      "F->T": 4800,
+      "T": 4800,
+      "T->C": 4800
+    }
+  }
+}

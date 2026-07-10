@@ -1,0 +1,42 @@
+{
+  "all_sequence_classes": [
+    "C",
+    "F",
+    "T",
+    "C->F",
+    "F->T",
+    "T->C",
+    "F->C",
+    "T->F",
+    "C->T"
+  ],
+  "available_query_types_from_declared_factors": 128,
+  "held_out_two_step_sealed_only": [
+    "F->C",
+    "T->F",
+    "C->T"
+  ],
+  "reason": "Dataset generation is blocked because the declared query_type factor product is smaller than the requested disjoint query-type split.",
+  "required_episodes_per_query_type": {
+    "dev": 360,
+    "sealed": 540,
+    "train": 360
+  },
+  "required_query_type_counts": {
+    "dev": 24,
+    "sealed": 24,
+    "train": 96
+  },
+  "required_total_query_types": 144,
+  "seen_two_step_train_dev": [
+    "C->F",
+    "F->T",
+    "T->C"
+  ],
+  "single_step_classes": [
+    "C",
+    "F",
+    "T"
+  ],
+  "status": "infeasible"
+}

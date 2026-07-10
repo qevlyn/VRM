@@ -1,0 +1,101 @@
+{
+  "catalog_count": 128,
+  "expected_split_counts": {
+    "dev": 24,
+    "sealed": 24,
+    "train": 80
+  },
+  "factor_complete": {
+    "dev": true,
+    "sealed": true,
+    "train": true
+  },
+  "factor_coverage": {
+    "dev": {
+      "anchor_regions": [
+        "interior_lower_left",
+        "interior_lower_right",
+        "interior_upper_left",
+        "interior_upper_right"
+      ],
+      "distractor_counts": [
+        1,
+        2
+      ],
+      "primary_colors": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "primary_shapes": [
+        "3_cell_L",
+        "3_cell_T",
+        "3_cell_zig_zag",
+        "asymmetric_4_cell_hook"
+      ]
+    },
+    "sealed": {
+      "anchor_regions": [
+        "interior_lower_left",
+        "interior_lower_right",
+        "interior_upper_left",
+        "interior_upper_right"
+      ],
+      "distractor_counts": [
+        1,
+        2
+      ],
+      "primary_colors": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "primary_shapes": [
+        "3_cell_L",
+        "3_cell_T",
+        "3_cell_zig_zag",
+        "asymmetric_4_cell_hook"
+      ]
+    },
+    "train": {
+      "anchor_regions": [
+        "interior_lower_left",
+        "interior_lower_right",
+        "interior_upper_left",
+        "interior_upper_right"
+      ],
+      "distractor_counts": [
+        1,
+        2
+      ],
+      "primary_colors": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "primary_shapes": [
+        "3_cell_L",
+        "3_cell_T",
+        "3_cell_zig_zag",
+        "asymmetric_4_cell_hook"
+      ]
+    }
+  },
+  "intersections": {
+    "dev_sealed": [],
+    "train_dev": [],
+    "train_sealed": []
+  },
+  "legacy_144_type_request_reintroduced": false,
+  "passed": true,
+  "split_counts": {
+    "dev": 24,
+    "sealed": 24,
+    "train": 80
+  },
+  "union_count": 128,
+  "uses_every_catalog_type_exactly_once": true
+}

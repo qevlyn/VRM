@@ -1,0 +1,204 @@
+{
+  "created_utc": "2026-07-04T04:17:42Z",
+  "new_file_count": 33,
+  "new_files": [
+    {
+      "mtime_ns": 1783138375662249600,
+      "path": "r6a_compressarc/artifacts/r6a_phase2_support_permutation_first_divergence_v8/adam_certificate.json",
+      "sha256": "4f09475eed3e3883d8f45c0c34426bb3d736359a883fd724afa32eed786f4dd1",
+      "size_bytes": 102
+    },
+    {
+      "mtime_ns": 1783138375356118600,
+      "path": "r6a_compressarc/artifacts/r6a_phase2_support_permutation_first_divergence_v8/alias_graph_certificate.json",
+      "sha256": "ede9b3cfd975be61e5132a48ce58c5350e46ee630152f09590a452462c66e51d",
+      "size_bytes": 791
+    },
+    {
+      "mtime_ns": 1783138375656249400,
+      "path": "r6a_compressarc/artifacts/r6a_phase2_support_permutation_first_divergence_v8/backward_certificate.json",
+      "sha256": "4f09475eed3e3883d8f45c0c34426bb3d736359a883fd724afa32eed786f4dd1",
+      "size_bytes": 102
+    },
+    {
+      "mtime_ns": 1783138377016234800,
+      "path": "r6a_compressarc/artifacts/r6a_phase2_support_permutation_first_divergence_v8/child_summary.json",
+      "sha256": "305441155d03cb9b647b874471ccb4354dd2fb86f42b880af6836f55dd5584e3",
+      "size_bytes": 1411
+    },
+    {
+      "mtime_ns": 1783138311528480800,
+      "path": "r6a_compressarc/artifacts/r6a_phase2_support_permutation_first_divergence_v8/cpu_execution_proof.json",
+      "sha256": "eea3eb9d19b84c292586a7ff85208b19dba133deb86511466db218a84cefa35a",
+      "size_bytes": 3559
+    },
+    {
+      "mtime_ns": 1783138375865857000,
+      "path": "r6a_compressarc/artifacts/r6a_phase2_support_permutation_first_divergence_v8/first_divergence_cases.json",
+      "sha256": "08a8fa4e66e364361b9d51874b9b0ceb6d534c66b138b6f4645ea6fb85319a9b",
+      "size_bytes": 29451211
+    },
+    {
+      "mtime_ns": 1783138642886594100,
+      "path": "r6a_compressarc/artifacts/r6a_phase2_support_permutation_first_divergence_v8/first_divergence_trace.csv",
+      "sha256": "11e1cf4ee0004d3e5e86bdbda1b9e0e26047d88a09c971ea7e70b9fe9403b5f2",
+      "size_bytes": 469406
+    },
+    {
+      "mtime_ns": 1783138375321606100,
+      "path": "r6a_compressarc/artifacts/r6a_phase2_support_permutation_first_divergence_v8/forward_reachable_state_inventory.csv",
+      "sha256": "e51c48d519b2048247d09e718ee9d6443a0af33b9f6677c0065bf24d0f2a1ded",
+      "size_bytes": 40456011
+    },
+    {
+      "mtime_ns": 1783138375651252200,
+      "path": "r6a_compressarc/artifacts/r6a_phase2_support_permutation_first_divergence_v8/loss_certificate.json",
+      "sha256": "4f09475eed3e3883d8f45c0c34426bb3d736359a883fd724afa32eed786f4dd1",
+      "size_bytes": 102
+    },
+    {
+      "mtime_ns": 1783138375560227100,
+      "path": "r6a_compressarc/artifacts/r6a_phase2_support_permutation_first_divergence_v8/noise_tape_manifest.json",
+      "sha256": "73e5cd61814e5008c93ccc9e26f4602ea04d13fa83894a068499a606aa9cbb25",
+      "size_bytes": 1272
+    },
+    {
+      "mtime_ns": 1783138375571226900,
+      "path": "r6a_compressarc/artifacts/r6a_phase2_support_permutation_first_divergence_v8/noise_tape_runtime_trace.json",
+      "sha256": "4845065787c0d12849bd03a4b8aa8d7164ceee99082527629488cc17ef080063",
+      "size_bytes": 424573
+    },
+    {
+      "mtime_ns": 1783138375577225700,
+      "path": "r6a_compressarc/artifacts/r6a_phase2_support_permutation_first_divergence_v8/noise_tape_unhandled_call_report.json",
+      "sha256": "7b14aaed2dae28c2695d78439fe24727a7380d5bc4976839ac5dbb3e6ea88acc",
+      "size_bytes": 69
+    },
+    {
+      "mtime_ns": 1783138375546225400,
+      "path": "r6a_compressarc/artifacts/r6a_phase2_support_permutation_first_divergence_v8/optimizer_parameter_partition.json",
+      "sha256": "a0c04a5df831ad6c36dc890c96cf51c1d782f327d8fdf538535dea4a63779788",
+      "size_bytes": 25329597
+    },
+    {
+      "mtime_ns": 1783138311309077500,
+      "path": "r6a_compressarc/artifacts/r6a_phase2_support_permutation_first_divergence_v8/permutation_registry.json",
+      "sha256": "b72082eb90f8b1c06fa0b4e803688e23bf0c04c8e5a8b9a6ab101c6f6e8b97ca",
+      "size_bytes": 191834
+    },
+    {
+      "mtime_ns": 1783138375553226500,
+      "path": "r6a_compressarc/artifacts/r6a_phase2_support_permutation_first_divergence_v8/posterior_leaf_schedule.json",
+      "sha256": "15211c24bf07ae04225cb2c14ff81cc3fc2787cc2e768a0a54c195dced88b18a",
+      "size_bytes": 60630
+    },
+    {
+      "mtime_ns": 1783138375586225700,
+      "path": "r6a_compressarc/artifacts/r6a_phase2_support_permutation_first_divergence_v8/primitive_commutation_certificate.json",
+      "sha256": "273cc304bb42801034125ad74c990dc70ca8b40dd215519a3027bb8f50dba237",
+      "size_bytes": 13057
+    },
+    {
+      "mtime_ns": 1783138307596848300,
+      "path": "r6a_compressarc/artifacts/r6a_phase2_support_permutation_first_divergence_v8/prior_v4_evidence_readonly_summary.json",
+      "sha256": "d1050003f42c651781b7ce9791c9c7f5512e08ef0742f0b823b18121b714ac9f",
+      "size_bytes": 3073
+    },
+    {
+      "mtime_ns": 1783138377005723200,
+      "path": "r6a_compressarc/artifacts/r6a_phase2_support_permutation_first_divergence_v8/r6a_phase2_support_permutation_first_divergence_v8_child_stdout.log",
+      "sha256": "73b2961b5f205c08e9a9d67444fab671686336abf0f9a2688120583d02895b30",
+      "size_bytes": 648
+    },
+    {
+      "mtime_ns": 1783138649461572200,
+      "path": "r6a_compressarc/artifacts/r6a_phase2_support_permutation_first_divergence_v8/r6a_phase2_support_permutation_first_divergence_v8_pytest.txt",
+      "sha256": "02126c99f12f4d783910b0f4f52cf9222271b3a868b69718ee5e8e487892f8da",
+      "size_bytes": 99
+    },
+    {
+      "mtime_ns": 1783138375350119100,
+      "path": "r6a_compressarc/artifacts/r6a_phase2_support_permutation_first_divergence_v8/state_action_certificate.json",
+      "sha256": "70fa383afc0bf23f0778633fede08fda05fe60773b68aa69a2b602eaac3d2793",
+      "size_bytes": 3721
+    },
+    {
+      "mtime_ns": 1783138311197395000,
+      "path": "r6a_compressarc/artifacts/r6a_phase2_support_permutation_first_divergence_v8/static_stochastic_call_inventory.json",
+      "sha256": "08cd735619ab62b0f22dfa9518061c742161d4d5e79b674c320284783c76cacf",
+      "size_bytes": 1087
+    },
+    {
+      "mtime_ns": 1783138661476408900,
+      "path": "r6a_compressarc/artifacts/r6a_phase2_support_permutation_first_divergence_v8/summary.json",
+      "sha256": "04e2dffb040f22e3f7adee60fe44023e28cd7ce7e29ebcd1b0a7ca86f93678c7",
+      "size_bytes": 1369
+    },
+    {
+      "mtime_ns": 1783138375645249400,
+      "path": "r6a_compressarc/artifacts/r6a_phase2_support_permutation_first_divergence_v8/synthetic_oracle_results.json",
+      "sha256": "cb4a13f354c5052d64b7d74bf45e9e46e35e73e4eb8ce368faa24230d3bee120",
+      "size_bytes": 8126045
+    },
+    {
+      "mtime_ns": 1783138311319082000,
+      "path": "r6a_compressarc/artifacts/r6a_phase2_support_permutation_first_divergence_v8/synthetic_oracle_spec.json",
+      "sha256": "e2911bbd8eea7a41596811e5c53458d9ff6bbebb81c218bdf077a7d912f41609",
+      "size_bytes": 2148
+    },
+    {
+      "mtime_ns": 1783138375344117900,
+      "path": "r6a_compressarc/artifacts/r6a_phase2_support_permutation_first_divergence_v8/task_action_certificate.json",
+      "sha256": "07e6d66d2724c168a7f2956bbd520a80d0751eea5b600f4e5a7238c7d77352d9",
+      "size_bytes": 9599
+    },
+    {
+      "mtime_ns": 1783138311123372900,
+      "path": "r6a_compressarc/manifests/r6a_phase2_support_permutation_first_divergence_v8/imported_module_provenance.json",
+      "sha256": "a80c9807f3177223770fb822cab64524336451b1696faeb791c86047bf9b62c9",
+      "size_bytes": 4400
+    },
+    {
+      "mtime_ns": 1783138505154507800,
+      "path": "r6a_compressarc/manifests/r6a_phase2_support_permutation_first_divergence_v8/integrity_after.json",
+      "sha256": "ea397cd152a78acca4d770730c47e4e267a40a2948757227391210fb98bf533c",
+      "size_bytes": 347463
+    },
+    {
+      "mtime_ns": 1783138307200251400,
+      "path": "r6a_compressarc/manifests/r6a_phase2_support_permutation_first_divergence_v8/integrity_before.json",
+      "sha256": "d3b70acdd396f5707e1270f4726d6b8095ae48578a94870188ab922b663d9bc3",
+      "size_bytes": 365574
+    },
+    {
+      "mtime_ns": 1783138661470410100,
+      "path": "r6a_compressarc/manifests/r6a_phase2_support_permutation_first_divergence_v8/write_ledger.json",
+      "sha256": "e062848117f26a2ae9e7586bf5745a360ea638a6c32b93e9f24e2b9191fc68d4",
+      "size_bytes": 9504
+    },
+    {
+      "mtime_ns": 1783138506045278300,
+      "path": "r6a_compressarc/reports/r6a_phase2_support_permutation_first_divergence_v8/R6A_PHASE2_SUPPORT_PERMUTATION_FIRST_DIVERGENCE_CERTIFICATE_V8_REPORT.md",
+      "sha256": "674472e636ed889c43a415f6fd2741e2c064fbd1ec73a64fc4df61a1868c0fd4",
+      "size_bytes": 34972634
+    },
+    {
+      "mtime_ns": 1783138629708875700,
+      "path": "r6a_compressarc/scripts/r6a_phase2_support_permutation_first_divergence_v8_child.py",
+      "sha256": "19c95d2aae9bb5286af707d16a6ef2e61911b9548ee19c019ca5fc04adce1875",
+      "size_bytes": 75106
+    },
+    {
+      "mtime_ns": 1783137818571382900,
+      "path": "r6a_compressarc/scripts/r6a_phase2_support_permutation_first_divergence_v8_run.py",
+      "sha256": "d196d9144900c03612d9e19a58a0b336bbbd17bb7988e50538567cb79dbfdc45",
+      "size_bytes": 16907
+    },
+    {
+      "mtime_ns": 1783138591451073300,
+      "path": "r6a_compressarc/tests/test_r6a_phase2_support_permutation_first_divergence_v8.py",
+      "sha256": "ebef2145ce1199fe3606174f325bade3049949b519a3f6f5733408e3e5de6c25",
+      "size_bytes": 10252
+    }
+  ]
+}

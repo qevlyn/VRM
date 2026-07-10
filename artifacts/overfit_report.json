@@ -1,0 +1,73 @@
+{
+  "checkpoint_path": "/mnt/d/VRM/checkpoints/overfit.pt",
+  "config": {
+    "dropout": 0.0,
+    "hidden_size": 128,
+    "max_grid_height": 30,
+    "max_grid_tokens": 900,
+    "max_grid_width": 30,
+    "memory_slots": 16,
+    "num_heads": 4,
+    "reasoning_cycles": 2,
+    "reasoning_layers": 2,
+    "vocab_size": 11
+  },
+  "cuda_available": false,
+  "cuda_device": null,
+  "device": "cpu",
+  "end_loss": 2.804952383041382,
+  "episode_count": 17,
+  "exact_grid_metric_end": 0.0,
+  "exact_grid_metric_history": [
+    {
+      "exact_decoded_grid_accuracy": 0.0,
+      "exact_padded_grid_accuracy": 0.0,
+      "output_shape_match_rate": 0.0,
+      "step": 0
+    },
+    {
+      "exact_decoded_grid_accuracy": 0.0,
+      "exact_padded_grid_accuracy": 0.0,
+      "output_shape_match_rate": 0.0,
+      "step": 1
+    }
+  ],
+  "exact_grid_metric_improved": false,
+  "exact_grid_metric_start": 0.0,
+  "loss_decreased": false,
+  "loss_history": [
+    2.804952383041382
+  ],
+  "metric_history": [
+    {
+      "exact_decoded_grid_accuracy": 0.0,
+      "exact_padded_grid_accuracy": 0.0,
+      "invalid_padding_pattern_rate": 1.0,
+      "mean_loss": 2.931456355487599,
+      "output_shape_match_rate": 0.0,
+      "step": 0,
+      "token_accuracy_all": 0.13352941414889166,
+      "token_accuracy_nonpad": 0.0669375160599456
+    },
+    {
+      "exact_decoded_grid_accuracy": 0.0,
+      "exact_padded_grid_accuracy": 0.0,
+      "invalid_padding_pattern_rate": 1.0,
+      "mean_loss": 1.8886851352803848,
+      "output_shape_match_rate": 0.0,
+      "step": 1,
+      "token_accuracy_all": 0.735359482905444,
+      "token_accuracy_nonpad": 0.04347983660066829
+    }
+  ],
+  "mode": "overfit",
+  "selected_task_ids": [
+    "00576224",
+    "007bbfb7",
+    "009d5c81",
+    "00d62c1b"
+  ],
+  "start_loss": 2.804952383041382,
+  "steps": 1,
+  "torch_version": "2.12.1+cpu"
+}

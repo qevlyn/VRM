@@ -1,0 +1,585 @@
+{
+  "archive_command_used": "PowerShell here-string piped to: wsl.exe -d Ubuntu -- bash -lc \"source ~/.venvs/vrm/bin/activate && cd /mnt/d/VRM && python -\"; archive created with Python stdlib zipfile.ZipFile(..., ZIP_DEFLATED, compresslevel=9)",
+  "archive_path": "/mnt/d/VRM/archives/VRM_TWIN_PROBE_V0_FROZEN_20260628.zip",
+  "category_counts": {
+    "artifacts:twin_task_pilot_v1": 18,
+    "artifacts:twin_vrm_probe_v0": 17,
+    "checkpoints:twin_vrm_probe_v0": 22,
+    "docs": 2,
+    "source:twin_tasks": 10,
+    "tests": 2,
+    "v1_reference": 2
+  },
+  "compression": "ZIP_DEFLATED compresslevel=9 via Python standard-library zipfile",
+  "created_utc": "2026-06-28T06:42:44+00:00",
+  "cuda_available": false,
+  "excluded": [
+    "raw ARC dataset directory arc-prize-2026-arc-agi-2/",
+    "Python virtual environments",
+    "__pycache__/",
+    ".pytest_cache/",
+    "temporary files",
+    "unrelated old experiment artifact folders",
+    "full raw ARC dataset copies"
+  ],
+  "file_count": 73,
+  "files": [
+    {
+      "absolute_path": "/mnt/d/VRM/VRM_V1_SOURCE_SNAPSHOT.zip",
+      "category": "v1_reference",
+      "relative_path": "VRM_V1_SOURCE_SNAPSHOT.zip",
+      "sha256": "ba2c1ccd4b9b9d01c0af1dcecfef6673e60dfc23b80178141b6ba8b79749cdeb",
+      "size_bytes": 31117
+    },
+    {
+      "absolute_path": "/mnt/d/VRM/artifacts/twin_task_pilot_v1/audit_run_report.json",
+      "category": "artifacts:twin_task_pilot_v1",
+      "relative_path": "artifacts/twin_task_pilot_v1/audit_run_report.json",
+      "sha256": "33bb5668541f2f8db8fb9e77d632cbb561d97738a528912fbd066a0cb9213c35",
+      "size_bytes": 13717488
+    },
+    {
+      "absolute_path": "/mnt/d/VRM/artifacts/twin_task_pilot_v1/audit_summary.md",
+      "category": "artifacts:twin_task_pilot_v1",
+      "relative_path": "artifacts/twin_task_pilot_v1/audit_summary.md",
+      "sha256": "ee298720af79f759c025023212a1b0f548b73e3be1182581cdbcc02f1c19d708",
+      "size_bytes": 1157
+    },
+    {
+      "absolute_path": "/mnt/d/VRM/artifacts/twin_task_pilot_v1/dev.jsonl",
+      "category": "artifacts:twin_task_pilot_v1",
+      "relative_path": "artifacts/twin_task_pilot_v1/dev.jsonl",
+      "sha256": "9233194ceb3c73c2b97eddcdd8af1b0b625f54c40f8b369cece2693b89f6c02c",
+      "size_bytes": 4496000
+    },
+    {
+      "absolute_path": "/mnt/d/VRM/artifacts/twin_task_pilot_v1/generator_rejections.json",
+      "category": "artifacts:twin_task_pilot_v1",
+      "relative_path": "artifacts/twin_task_pilot_v1/generator_rejections.json",
+      "sha256": "90f375f7df1ee7904da92854dbb75f78e072b6155f935fc5cdb623fdba24760c",
+      "size_bytes": 73
+    },
+    {
+      "absolute_path": "/mnt/d/VRM/artifacts/twin_task_pilot_v1/partition_integrity_report.json",
+      "category": "artifacts:twin_task_pilot_v1",
+      "relative_path": "artifacts/twin_task_pilot_v1/partition_integrity_report.json",
+      "sha256": "534766239c4f21240fde070cfad1a17b5b955e3668b02f69619adb1e4e51cfbc",
+      "size_bytes": 4584
+    },
+    {
+      "absolute_path": "/mnt/d/VRM/artifacts/twin_task_pilot_v1/pilot_config.json",
+      "category": "artifacts:twin_task_pilot_v1",
+      "relative_path": "artifacts/twin_task_pilot_v1/pilot_config.json",
+      "sha256": "e4253a47f4cc495ca3a895c85224e196153755f7fea9db9945fda855abef7803",
+      "size_bytes": 291
+    },
+    {
+      "absolute_path": "/mnt/d/VRM/artifacts/twin_task_pilot_v1/probe_config.json",
+      "category": "artifacts:twin_task_pilot_v1",
+      "relative_path": "artifacts/twin_task_pilot_v1/probe_config.json",
+      "sha256": "6206daeae1ef3de48d69ef5ebc4c00726b2a2cfda7826e0b729afe36e621eb16",
+      "size_bytes": 831
+    },
+    {
+      "absolute_path": "/mnt/d/VRM/artifacts/twin_task_pilot_v1/probe_dev_metrics.json",
+      "category": "artifacts:twin_task_pilot_v1",
+      "relative_path": "artifacts/twin_task_pilot_v1/probe_dev_metrics.json",
+      "sha256": "da46c3ec51b58f901b41b3ddf60deded32fdc967be47086a24e876669dc22801",
+      "size_bytes": 2508
+    },
+    {
+      "absolute_path": "/mnt/d/VRM/artifacts/twin_task_pilot_v1/probe_examples.txt",
+      "category": "artifacts:twin_task_pilot_v1",
+      "relative_path": "artifacts/twin_task_pilot_v1/probe_examples.txt",
+      "sha256": "1bed30d1c58eafd78172ea10f331bf3b961896138dac97d9596f3cdae51395dc",
+      "size_bytes": 17273
+    },
+    {
+      "absolute_path": "/mnt/d/VRM/artifacts/twin_task_pilot_v1/probe_pair_consistency.json",
+      "category": "artifacts:twin_task_pilot_v1",
+      "relative_path": "artifacts/twin_task_pilot_v1/probe_pair_consistency.json",
+      "sha256": "1ec3bc1c7df99b57efed7d5b4258d4c27e9ac2f72de1167bb5e6d4cd4531e95b",
+      "size_bytes": 1031
+    },
+    {
+      "absolute_path": "/mnt/d/VRM/artifacts/twin_task_pilot_v1/probe_sealed_metrics.json",
+      "category": "artifacts:twin_task_pilot_v1",
+      "relative_path": "artifacts/twin_task_pilot_v1/probe_sealed_metrics.json",
+      "sha256": "2340fa067a45ffbc77dc7b3884c6dd6a2407f6e3efa6ac64a05a219152744300",
+      "size_bytes": 2685
+    },
+    {
+      "absolute_path": "/mnt/d/VRM/artifacts/twin_task_pilot_v1/probe_train_logs.jsonl",
+      "category": "artifacts:twin_task_pilot_v1",
+      "relative_path": "artifacts/twin_task_pilot_v1/probe_train_logs.jsonl",
+      "sha256": "c18e105d87a931f4a441086437f90bd7d90748f4f9bc12577291d2e18a94a24d",
+      "size_bytes": 16756
+    },
+    {
+      "absolute_path": "/mnt/d/VRM/artifacts/twin_task_pilot_v1/pytest_result.txt",
+      "category": "artifacts:twin_task_pilot_v1",
+      "relative_path": "artifacts/twin_task_pilot_v1/pytest_result.txt",
+      "sha256": "9d0f07f86e9b14e4ec605b9cfdbc427f4e1e7480c13dc2c98d2b7f4123b1c168",
+      "size_bytes": 99
+    },
+    {
+      "absolute_path": "/mnt/d/VRM/artifacts/twin_task_pilot_v1/sealed.jsonl",
+      "category": "artifacts:twin_task_pilot_v1",
+      "relative_path": "artifacts/twin_task_pilot_v1/sealed.jsonl",
+      "sha256": "1dc822ed6ec43c6b776ab586d109ad7b9c568cc9b17e06f0b2129540c20bd434",
+      "size_bytes": 4508000
+    },
+    {
+      "absolute_path": "/mnt/d/VRM/artifacts/twin_task_pilot_v1/split_manifest.json",
+      "category": "artifacts:twin_task_pilot_v1",
+      "relative_path": "artifacts/twin_task_pilot_v1/split_manifest.json",
+      "sha256": "3aee2aed80030ac75b4015b0a04cda33007139a1a7b7e12dc7a8508dfeeb8a68",
+      "size_bytes": 480614
+    },
+    {
+      "absolute_path": "/mnt/d/VRM/artifacts/twin_task_pilot_v1/train.jsonl",
+      "category": "artifacts:twin_task_pilot_v1",
+      "relative_path": "artifacts/twin_task_pilot_v1/train.jsonl",
+      "sha256": "f0fa89ecdf2159d3921dfb2231224fa7693439b41b223dba35b522431c5cc1a1",
+      "size_bytes": 36032000
+    },
+    {
+      "absolute_path": "/mnt/d/VRM/artifacts/twin_task_pilot_v1/twin_invariance_report.json",
+      "category": "artifacts:twin_task_pilot_v1",
+      "relative_path": "artifacts/twin_task_pilot_v1/twin_invariance_report.json",
+      "sha256": "702ae35d9589fd4f6f7c7897a923418db2ba925bf8bffb5c6d86638fb4fa0de5",
+      "size_bytes": 9670883
+    },
+    {
+      "absolute_path": "/mnt/d/VRM/artifacts/twin_task_pilot_v1/unpaired_payload_hash_report.json",
+      "category": "artifacts:twin_task_pilot_v1",
+      "relative_path": "artifacts/twin_task_pilot_v1/unpaired_payload_hash_report.json",
+      "sha256": "a24984d1a388b6d8969197e9b19d8379f26785b5ef89fbfbabb7f6088d298f57",
+      "size_bytes": 3170110
+    },
+    {
+      "absolute_path": "/mnt/d/VRM/artifacts/twin_vrm_probe_v0/condition_deltas.json",
+      "category": "artifacts:twin_vrm_probe_v0",
+      "relative_path": "artifacts/twin_vrm_probe_v0/condition_deltas.json",
+      "sha256": "f39546f72ad85a24e8e3280c1ceb5e20633fcecf59884120898faabe00509f3d",
+      "size_bytes": 1573
+    },
+    {
+      "absolute_path": "/mnt/d/VRM/artifacts/twin_vrm_probe_v0/data_manifest.json",
+      "category": "artifacts:twin_vrm_probe_v0",
+      "relative_path": "artifacts/twin_vrm_probe_v0/data_manifest.json",
+      "sha256": "35ddce632e373150ef3ad121067315b81eb4b60a13d5206f4eac0f866445e96c",
+      "size_bytes": 1173
+    },
+    {
+      "absolute_path": "/mnt/d/VRM/artifacts/twin_vrm_probe_v0/dev_metrics.json",
+      "category": "artifacts:twin_vrm_probe_v0",
+      "relative_path": "artifacts/twin_vrm_probe_v0/dev_metrics.json",
+      "sha256": "46022831fb8b757fe01632e37042909a8aa51832b3d5ca5082d60f08b4f88ffd",
+      "size_bytes": 2889
+    },
+    {
+      "absolute_path": "/mnt/d/VRM/artifacts/twin_vrm_probe_v0/dry_run_report.json",
+      "category": "artifacts:twin_vrm_probe_v0",
+      "relative_path": "artifacts/twin_vrm_probe_v0/dry_run_report.json",
+      "sha256": "6b09ee1de1fbd456a8b47645e388d06db87e3ceee93357571dd380035b568592",
+      "size_bytes": 19914
+    },
+    {
+      "absolute_path": "/mnt/d/VRM/artifacts/twin_vrm_probe_v0/full_run_console.log",
+      "category": "artifacts:twin_vrm_probe_v0",
+      "relative_path": "artifacts/twin_vrm_probe_v0/full_run_console.log",
+      "sha256": "80f0be0d53e9f17769edeb6e59e082c885e18f66ffe5554a4d509adf867199cb",
+      "size_bytes": 44562
+    },
+    {
+      "absolute_path": "/mnt/d/VRM/artifacts/twin_vrm_probe_v0/initialization_report.json",
+      "category": "artifacts:twin_vrm_probe_v0",
+      "relative_path": "artifacts/twin_vrm_probe_v0/initialization_report.json",
+      "sha256": "fdb1c0cfe18fe30617f56f1ff4b77fce5f4e67d78cfa1d6045910db053fd3ebe",
+      "size_bytes": 641
+    },
+    {
+      "absolute_path": "/mnt/d/VRM/artifacts/twin_vrm_probe_v0/p6_provenance.md",
+      "category": "artifacts:twin_vrm_probe_v0",
+      "relative_path": "artifacts/twin_vrm_probe_v0/p6_provenance.md",
+      "sha256": "7cb73c494248ab1bf965d7d045bed9b8541b087e76f9dac93ec0fc77734f4d39",
+      "size_bytes": 1875
+    },
+    {
+      "absolute_path": "/mnt/d/VRM/artifacts/twin_vrm_probe_v0/paired_twin_metrics.json",
+      "category": "artifacts:twin_vrm_probe_v0",
+      "relative_path": "artifacts/twin_vrm_probe_v0/paired_twin_metrics.json",
+      "sha256": "1b49c88068a91fde4e131775d0bae4fe048bcf364451ae7f966b69d32582875e",
+      "size_bytes": 450
+    },
+    {
+      "absolute_path": "/mnt/d/VRM/artifacts/twin_vrm_probe_v0/per_episode_dev.json",
+      "category": "artifacts:twin_vrm_probe_v0",
+      "relative_path": "artifacts/twin_vrm_probe_v0/per_episode_dev.json",
+      "sha256": "65d825ac6520e4f1a0f9b31578ad7419b36e27087b1edda2c9ea14cc71406261",
+      "size_bytes": 34872072
+    },
+    {
+      "absolute_path": "/mnt/d/VRM/artifacts/twin_vrm_probe_v0/per_episode_sealed.json",
+      "category": "artifacts:twin_vrm_probe_v0",
+      "relative_path": "artifacts/twin_vrm_probe_v0/per_episode_sealed.json",
+      "sha256": "7698507fb34b6f5a497521d4fee8574552eb00e0f94ed12e36df4e0aeac12a88",
+      "size_bytes": 34917063
+    },
+    {
+      "absolute_path": "/mnt/d/VRM/artifacts/twin_vrm_probe_v0/prediction_examples.txt",
+      "category": "artifacts:twin_vrm_probe_v0",
+      "relative_path": "artifacts/twin_vrm_probe_v0/prediction_examples.txt",
+      "sha256": "705b0443147d6596f37c440a4a88381d5bf6a43e18adc94b08ba13e7613bbf12",
+      "size_bytes": 38280
+    },
+    {
+      "absolute_path": "/mnt/d/VRM/artifacts/twin_vrm_probe_v0/probe_config.json",
+      "category": "artifacts:twin_vrm_probe_v0",
+      "relative_path": "artifacts/twin_vrm_probe_v0/probe_config.json",
+      "sha256": "ff38b221c7a2a227eb206d15c45bc6e7769c137f6b623603ab5fe1684f0188be",
+      "size_bytes": 1645
+    },
+    {
+      "absolute_path": "/mnt/d/VRM/artifacts/twin_vrm_probe_v0/pytest_result.txt",
+      "category": "artifacts:twin_vrm_probe_v0",
+      "relative_path": "artifacts/twin_vrm_probe_v0/pytest_result.txt",
+      "sha256": "49c17fe6937d792c6702c9b674d51e5687b4c322c3c3d0d9518a6370b17bf3e6",
+      "size_bytes": 100
+    },
+    {
+      "absolute_path": "/mnt/d/VRM/artifacts/twin_vrm_probe_v0/sealed_metrics.json",
+      "category": "artifacts:twin_vrm_probe_v0",
+      "relative_path": "artifacts/twin_vrm_probe_v0/sealed_metrics.json",
+      "sha256": "2e149df94e722917659e38a2e2e314bbc537d7510458e0f4af0141e854c7d45b",
+      "size_bytes": 2914
+    },
+    {
+      "absolute_path": "/mnt/d/VRM/artifacts/twin_vrm_probe_v0/summary.md",
+      "category": "artifacts:twin_vrm_probe_v0",
+      "relative_path": "artifacts/twin_vrm_probe_v0/summary.md",
+      "sha256": "f3405c08c44b0f53e80ef52bc1b289059d0c9ea2240328160f3038744b2ed8a6",
+      "size_bytes": 3068
+    },
+    {
+      "absolute_path": "/mnt/d/VRM/artifacts/twin_vrm_probe_v0/summary_report.json",
+      "category": "artifacts:twin_vrm_probe_v0",
+      "relative_path": "artifacts/twin_vrm_probe_v0/summary_report.json",
+      "sha256": "6904739c8baa39a3c1662e8d985d6cd325a832a6e040710a68bc3d41d5e5e3e5",
+      "size_bytes": 31231
+    },
+    {
+      "absolute_path": "/mnt/d/VRM/artifacts/twin_vrm_probe_v0/training_log.jsonl",
+      "category": "artifacts:twin_vrm_probe_v0",
+      "relative_path": "artifacts/twin_vrm_probe_v0/training_log.jsonl",
+      "sha256": "659500d3f076032c0c63f48b74648e21dc08468a03c4e223c81277f182bf65c9",
+      "size_bytes": 2468374
+    },
+    {
+      "absolute_path": "/mnt/d/VRM/checkpoints/twin_vrm_probe_v0/twin_vrm_probe_best_dev_candidate.pt",
+      "category": "checkpoints:twin_vrm_probe_v0",
+      "relative_path": "checkpoints/twin_vrm_probe_v0/twin_vrm_probe_best_dev_candidate.pt",
+      "sha256": "1d49a559a86f408ab951d8805c6734b9db593dfb069ab9d1d60a34aa4c333aab",
+      "size_bytes": 19510587
+    },
+    {
+      "absolute_path": "/mnt/d/VRM/checkpoints/twin_vrm_probe_v0/twin_vrm_probe_step0000.pt",
+      "category": "checkpoints:twin_vrm_probe_v0",
+      "relative_path": "checkpoints/twin_vrm_probe_v0/twin_vrm_probe_step0000.pt",
+      "sha256": "adc838b62bc7fc79bb5889be311fd39ffdd43f8876660fb495b638e36e7164d9",
+      "size_bytes": 6501562
+    },
+    {
+      "absolute_path": "/mnt/d/VRM/checkpoints/twin_vrm_probe_v0/twin_vrm_probe_step0250.pt",
+      "category": "checkpoints:twin_vrm_probe_v0",
+      "relative_path": "checkpoints/twin_vrm_probe_v0/twin_vrm_probe_step0250.pt",
+      "sha256": "0edd19eba3b8bbeb4941faefe119e9bae4c9f5e17976d31b7a388a1e3ec8c48d",
+      "size_bytes": 19507015
+    },
+    {
+      "absolute_path": "/mnt/d/VRM/checkpoints/twin_vrm_probe_v0/twin_vrm_probe_step0500.pt",
+      "category": "checkpoints:twin_vrm_probe_v0",
+      "relative_path": "checkpoints/twin_vrm_probe_v0/twin_vrm_probe_step0500.pt",
+      "sha256": "a74265d8b8707038ed4084f03fceed3c2432c13f02715e71a9e73c68c8c6edb4",
+      "size_bytes": 19507015
+    },
+    {
+      "absolute_path": "/mnt/d/VRM/checkpoints/twin_vrm_probe_v0/twin_vrm_probe_step0750.pt",
+      "category": "checkpoints:twin_vrm_probe_v0",
+      "relative_path": "checkpoints/twin_vrm_probe_v0/twin_vrm_probe_step0750.pt",
+      "sha256": "1fa6cacd9186a61d187c6792851cc029bce209af6b707c27dae1d23649268ce3",
+      "size_bytes": 19507015
+    },
+    {
+      "absolute_path": "/mnt/d/VRM/checkpoints/twin_vrm_probe_v0/twin_vrm_probe_step1000.pt",
+      "category": "checkpoints:twin_vrm_probe_v0",
+      "relative_path": "checkpoints/twin_vrm_probe_v0/twin_vrm_probe_step1000.pt",
+      "sha256": "d8bfe1eef8435991432d0e57e9037a9be693ac7f8ab75ed8e05a7865b670f667",
+      "size_bytes": 19507015
+    },
+    {
+      "absolute_path": "/mnt/d/VRM/checkpoints/twin_vrm_probe_v0/twin_vrm_probe_step1250.pt",
+      "category": "checkpoints:twin_vrm_probe_v0",
+      "relative_path": "checkpoints/twin_vrm_probe_v0/twin_vrm_probe_step1250.pt",
+      "sha256": "bbb153fcd73ffe2cbcc07f8cee8f2a0a46bf06b01c0a194afdec114a41f6b729",
+      "size_bytes": 19507015
+    },
+    {
+      "absolute_path": "/mnt/d/VRM/checkpoints/twin_vrm_probe_v0/twin_vrm_probe_step1500.pt",
+      "category": "checkpoints:twin_vrm_probe_v0",
+      "relative_path": "checkpoints/twin_vrm_probe_v0/twin_vrm_probe_step1500.pt",
+      "sha256": "954cdcd44347f745eeeeba477b887b61dce24c5a2b264fa8eaa18b92f32ff323",
+      "size_bytes": 19507015
+    },
+    {
+      "absolute_path": "/mnt/d/VRM/checkpoints/twin_vrm_probe_v0/twin_vrm_probe_step1750.pt",
+      "category": "checkpoints:twin_vrm_probe_v0",
+      "relative_path": "checkpoints/twin_vrm_probe_v0/twin_vrm_probe_step1750.pt",
+      "sha256": "13e365cb69f1c902b24e0a407dc2539f542e5a2c000ad9bb7a7a299845e002d7",
+      "size_bytes": 19507015
+    },
+    {
+      "absolute_path": "/mnt/d/VRM/checkpoints/twin_vrm_probe_v0/twin_vrm_probe_step2000.pt",
+      "category": "checkpoints:twin_vrm_probe_v0",
+      "relative_path": "checkpoints/twin_vrm_probe_v0/twin_vrm_probe_step2000.pt",
+      "sha256": "01ea351c92187b65f7a3d107e7783997d173dc04f4a53cf37c4a6e9600d93ab0",
+      "size_bytes": 19507015
+    },
+    {
+      "absolute_path": "/mnt/d/VRM/checkpoints/twin_vrm_probe_v0/twin_vrm_probe_step2250.pt",
+      "category": "checkpoints:twin_vrm_probe_v0",
+      "relative_path": "checkpoints/twin_vrm_probe_v0/twin_vrm_probe_step2250.pt",
+      "sha256": "f457bbb9aed6eac06bf158e5c2b1a152e18fce8a9b5a48e2a725a3dca23429ad",
+      "size_bytes": 19507015
+    },
+    {
+      "absolute_path": "/mnt/d/VRM/checkpoints/twin_vrm_probe_v0/twin_vrm_probe_step2500.pt",
+      "category": "checkpoints:twin_vrm_probe_v0",
+      "relative_path": "checkpoints/twin_vrm_probe_v0/twin_vrm_probe_step2500.pt",
+      "sha256": "968902fa08e39dc64fce0bb96b114f12d791837c7e546de618f13d97aa59194f",
+      "size_bytes": 19507015
+    },
+    {
+      "absolute_path": "/mnt/d/VRM/checkpoints/twin_vrm_probe_v0/twin_vrm_probe_step2750.pt",
+      "category": "checkpoints:twin_vrm_probe_v0",
+      "relative_path": "checkpoints/twin_vrm_probe_v0/twin_vrm_probe_step2750.pt",
+      "sha256": "c705b2eb01d47f92c0fce5195e72c340ad7d01b0425607de2b0ed3dc0bb95992",
+      "size_bytes": 19507015
+    },
+    {
+      "absolute_path": "/mnt/d/VRM/checkpoints/twin_vrm_probe_v0/twin_vrm_probe_step3000.pt",
+      "category": "checkpoints:twin_vrm_probe_v0",
+      "relative_path": "checkpoints/twin_vrm_probe_v0/twin_vrm_probe_step3000.pt",
+      "sha256": "4557bed227367c621151ba9e6ff86cb11bad933fd8b6dd3a33cdba7277d19bb5",
+      "size_bytes": 19507015
+    },
+    {
+      "absolute_path": "/mnt/d/VRM/checkpoints/twin_vrm_probe_v0/twin_vrm_probe_step3250.pt",
+      "category": "checkpoints:twin_vrm_probe_v0",
+      "relative_path": "checkpoints/twin_vrm_probe_v0/twin_vrm_probe_step3250.pt",
+      "sha256": "64d56b27a34d079e81c7399cb7133bfd5912f8031f98061b95fdad32512540c9",
+      "size_bytes": 19507015
+    },
+    {
+      "absolute_path": "/mnt/d/VRM/checkpoints/twin_vrm_probe_v0/twin_vrm_probe_step3500.pt",
+      "category": "checkpoints:twin_vrm_probe_v0",
+      "relative_path": "checkpoints/twin_vrm_probe_v0/twin_vrm_probe_step3500.pt",
+      "sha256": "a9b0fae7a6f12874d5ed5dc553f1242a969b4f7d7dbff2410b835bb311a231ba",
+      "size_bytes": 19507079
+    },
+    {
+      "absolute_path": "/mnt/d/VRM/checkpoints/twin_vrm_probe_v0/twin_vrm_probe_step3750.pt",
+      "category": "checkpoints:twin_vrm_probe_v0",
+      "relative_path": "checkpoints/twin_vrm_probe_v0/twin_vrm_probe_step3750.pt",
+      "sha256": "4ccbd95bb86a3f95fed818a85d1029e614d02b120aef77333abcc93e43a9b94e",
+      "size_bytes": 19507079
+    },
+    {
+      "absolute_path": "/mnt/d/VRM/checkpoints/twin_vrm_probe_v0/twin_vrm_probe_step4000.pt",
+      "category": "checkpoints:twin_vrm_probe_v0",
+      "relative_path": "checkpoints/twin_vrm_probe_v0/twin_vrm_probe_step4000.pt",
+      "sha256": "e9197d5aa7350a48646def2f1ddafe5749ad9b5df14259fe29e6d65072186bd2",
+      "size_bytes": 19507079
+    },
+    {
+      "absolute_path": "/mnt/d/VRM/checkpoints/twin_vrm_probe_v0/twin_vrm_probe_step4250.pt",
+      "category": "checkpoints:twin_vrm_probe_v0",
+      "relative_path": "checkpoints/twin_vrm_probe_v0/twin_vrm_probe_step4250.pt",
+      "sha256": "f065c7d9a7f2cf8059dd3deaf06119f3dc35134779c584450bfb611ceec019f2",
+      "size_bytes": 19507079
+    },
+    {
+      "absolute_path": "/mnt/d/VRM/checkpoints/twin_vrm_probe_v0/twin_vrm_probe_step4500.pt",
+      "category": "checkpoints:twin_vrm_probe_v0",
+      "relative_path": "checkpoints/twin_vrm_probe_v0/twin_vrm_probe_step4500.pt",
+      "sha256": "156d8eb65b955bf4d44a49f559c226cca1107c5babdcc1efa061ced350e643b3",
+      "size_bytes": 19507079
+    },
+    {
+      "absolute_path": "/mnt/d/VRM/checkpoints/twin_vrm_probe_v0/twin_vrm_probe_step4750.pt",
+      "category": "checkpoints:twin_vrm_probe_v0",
+      "relative_path": "checkpoints/twin_vrm_probe_v0/twin_vrm_probe_step4750.pt",
+      "sha256": "2adb182ebe0d58df71df778eb5f34ac25b29ee37d018584b69361e5c0c8da139",
+      "size_bytes": 19507079
+    },
+    {
+      "absolute_path": "/mnt/d/VRM/checkpoints/twin_vrm_probe_v0/twin_vrm_probe_step5000.pt",
+      "category": "checkpoints:twin_vrm_probe_v0",
+      "relative_path": "checkpoints/twin_vrm_probe_v0/twin_vrm_probe_step5000.pt",
+      "sha256": "e0ce0293dbb403b27825b333608d29b4366e10e3d8b7e2fb052d4b7bd8ba2a07",
+      "size_bytes": 19507079
+    },
+    {
+      "absolute_path": "/mnt/d/VRM/checkpoints/vrm_v1_1_best_train_hamming.pt",
+      "category": "v1_reference",
+      "relative_path": "checkpoints/vrm_v1_1_best_train_hamming.pt",
+      "sha256": "b86ba9fd645870e185ef1c54fbec98e5437aeac094d0e290e19bc388a5722370",
+      "size_bytes": 19508623
+    },
+    {
+      "absolute_path": "/mnt/d/VRM/docs/TWIN_TASK_PILOT_V1.md",
+      "category": "docs",
+      "relative_path": "docs/TWIN_TASK_PILOT_V1.md",
+      "sha256": "f33ac112a10a6c1c5da052e8992a65f1468af567b431f390efcd1eb92788e673",
+      "size_bytes": 5037
+    },
+    {
+      "absolute_path": "/mnt/d/VRM/docs/VRM_TWIN_PROBE_V0.md",
+      "category": "docs",
+      "relative_path": "docs/VRM_TWIN_PROBE_V0.md",
+      "sha256": "becfd1d7039375c61dc38721de8086f1bf29b2eb47d40d8f116e11eced420a93",
+      "size_bytes": 2364
+    },
+    {
+      "absolute_path": "/mnt/d/VRM/tests/test_twin_tasks.py",
+      "category": "tests",
+      "relative_path": "tests/test_twin_tasks.py",
+      "sha256": "ad7ff91300953b6820f485e8ae3baed40ca41d9fed83cb7851c733634087c761",
+      "size_bytes": 7240
+    },
+    {
+      "absolute_path": "/mnt/d/VRM/tests/test_twin_vrm_probe.py",
+      "category": "tests",
+      "relative_path": "tests/test_twin_vrm_probe.py",
+      "sha256": "e06dd0064024bdf4bce1dd04fb24eb890d75de4e4d6a625364912fae76fcf8a9",
+      "size_bytes": 7971
+    },
+    {
+      "absolute_path": "/mnt/d/VRM/vrm/twin_tasks/__init__.py",
+      "category": "source:twin_tasks",
+      "relative_path": "vrm/twin_tasks/__init__.py",
+      "sha256": "0a0b390e9a8181953abfc0d4d8055ce0644d56def3eca78bb1b30a09b51d6b74",
+      "size_bytes": 207
+    },
+    {
+      "absolute_path": "/mnt/d/VRM/vrm/twin_tasks/dataset.py",
+      "category": "source:twin_tasks",
+      "relative_path": "vrm/twin_tasks/dataset.py",
+      "sha256": "466dc2edbaeab84346a6eed4d305558b3462ee6332092e5fca7e71a215ab8bfb",
+      "size_bytes": 6468
+    },
+    {
+      "absolute_path": "/mnt/d/VRM/vrm/twin_tasks/generator.py",
+      "category": "source:twin_tasks",
+      "relative_path": "vrm/twin_tasks/generator.py",
+      "sha256": "b83c4c5ace77f6ceba5003b80e5b44b8be074413411a26f14d56631acc48642b",
+      "size_bytes": 8342
+    },
+    {
+      "absolute_path": "/mnt/d/VRM/vrm/twin_tasks/invariants.py",
+      "category": "source:twin_tasks",
+      "relative_path": "vrm/twin_tasks/invariants.py",
+      "sha256": "a205a2ef650dcec1c409a3ec8c7427c95d4414542c7d105f4b675ce59da72b9e",
+      "size_bytes": 4917
+    },
+    {
+      "absolute_path": "/mnt/d/VRM/vrm/twin_tasks/probes.py",
+      "category": "source:twin_tasks",
+      "relative_path": "vrm/twin_tasks/probes.py",
+      "sha256": "032c2e8e938638ddaa2c0b7ca9ce48f0282e4cd9add51addfef9a35661d8a15b",
+      "size_bytes": 8825
+    },
+    {
+      "absolute_path": "/mnt/d/VRM/vrm/twin_tasks/run_pilot.py",
+      "category": "source:twin_tasks",
+      "relative_path": "vrm/twin_tasks/run_pilot.py",
+      "sha256": "a62c80af929154927eed80150fd983bd4cd00eae365368351d2f0443648173b0",
+      "size_bytes": 21206
+    },
+    {
+      "absolute_path": "/mnt/d/VRM/vrm/twin_tasks/run_vrm_probe.py",
+      "category": "source:twin_tasks",
+      "relative_path": "vrm/twin_tasks/run_vrm_probe.py",
+      "sha256": "68b154aa9b8bb29a2d55e88448adbb19d6b45994a34a77a1bfb0fdb30cc85067",
+      "size_bytes": 34553
+    },
+    {
+      "absolute_path": "/mnt/d/VRM/vrm/twin_tasks/vrm_probe_data.py",
+      "category": "source:twin_tasks",
+      "relative_path": "vrm/twin_tasks/vrm_probe_data.py",
+      "sha256": "7b952054bf627c39077499410c3962008b035f8765da9bf341fe3066ded84984",
+      "size_bytes": 9866
+    },
+    {
+      "absolute_path": "/mnt/d/VRM/vrm/twin_tasks/vrm_probe_metrics.py",
+      "category": "source:twin_tasks",
+      "relative_path": "vrm/twin_tasks/vrm_probe_metrics.py",
+      "sha256": "aed88ad07b6b9d74e5b7f698de50f86b6e7546cc2a2e2c9c507fd5d614507446",
+      "size_bytes": 14561
+    },
+    {
+      "absolute_path": "/mnt/d/VRM/vrm/twin_tasks/vrm_probe_train.py",
+      "category": "source:twin_tasks",
+      "relative_path": "vrm/twin_tasks/vrm_probe_train.py",
+      "sha256": "8cc3c6cd29efdeb1d0420f424e0a98ef2b74d3e2aa58e98887a4843926768be3",
+      "size_bytes": 7883
+    }
+  ],
+  "manifest_path": "/mnt/d/VRM/archives/VRM_TWIN_PROBE_V0_FROZEN_20260628_manifest.json",
+  "missing_requested_paths": [],
+  "pre_diagnostic_statement": "This archive was created before any further Twin Probe diagnostic work. No training, data regeneration, checkpoint alteration, or source-code modification was performed for this archive task.",
+  "python_version": "3.14.4 (main, Apr  8 2026, 04:02:31) [GCC 15.2.0]",
+  "pytorch_version": "2.12.1+cpu",
+  "readme_path": "/mnt/d/VRM/archives/VRM_TWIN_PROBE_V0_FROZEN_20260628_README.md",
+  "root": "/mnt/d/VRM",
+  "top_level_archive_tree": {
+    ".": [
+      "VRM_V1_SOURCE_SNAPSHOT.zip"
+    ],
+    "artifacts": {
+      "twin_task_pilot_v1": 18,
+      "twin_vrm_probe_v0": 17
+    },
+    "checkpoints": {
+      "twin_vrm_probe_v0": 22,
+      "vrm_v1_1_best_train_hamming.pt": 1
+    },
+    "docs": {
+      "TWIN_TASK_PILOT_V1.md": 1,
+      "VRM_TWIN_PROBE_V0.md": 1
+    },
+    "tests": {
+      "test_twin_tasks.py": 1,
+      "test_twin_vrm_probe.py": 1
+    },
+    "vrm": {
+      "twin_tasks": 10
+    }
+  },
+  "verification": {
+    "bad_crc_entry": null,
+    "every_manifest_file_path_exists_inside_zip": true,
+    "extra_zip_entries_not_in_manifest": [],
+    "forbidden_entries_found": [],
+    "forbidden_path_check_passed": true,
+    "integrity_verification_passed": true,
+    "missing_manifest_paths_in_zip": [],
+    "original_payload_hashes_unchanged_after_archive": true,
+    "post_archive_hash_mismatches": [],
+    "zip_crc_test_passed": true,
+    "zip_listed_successfully": true
+  },
+  "zip_sha256": "d41f9e9b367e89191bc380fb2b4a24d6c422249cfa4f8b4078f7fe7b7b9b98f4",
+  "zip_size_bytes": 405368730
+}

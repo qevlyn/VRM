@@ -1,0 +1,418 @@
+{
+  "tasks": [
+    {
+      "cells": [
+        {
+          "delta": 2.9584508179761477,
+          "delta_gt_0": true,
+          "delta_gt_nu": true,
+          "ell_F1": 0.0046304657524277775,
+          "ell_F2": 0.0039320165479423946,
+          "ell_S": 2.9627320591263326,
+          "nu": 0.0006984492044853829,
+          "seed": 20260702,
+          "stratum": "B",
+          "task_id": "0dfd9992"
+        },
+        {
+          "delta": 2.1080911905972775,
+          "delta_gt_0": true,
+          "delta_gt_nu": true,
+          "ell_F1": 0.003422871397891471,
+          "ell_F2": 0.0049428485695890275,
+          "ell_S": 2.112274050581018,
+          "nu": 0.0015199771716975564,
+          "seed": 20260703,
+          "stratum": "B",
+          "task_id": "0dfd9992"
+        },
+        {
+          "delta": 0.7897152346872045,
+          "delta_gt_0": true,
+          "delta_gt_nu": true,
+          "ell_F1": 0.0018093111790617432,
+          "ell_F2": 0.003985025614222388,
+          "ell_S": 0.7926124030838466,
+          "nu": 0.002175714435160645,
+          "seed": 20260704,
+          "stratum": "B",
+          "task_id": "0dfd9992"
+        }
+      ],
+      "delta_gt_nu_seed_count": 3,
+      "mean_delta": 1.9520857477535432,
+      "positive_seed_count": 3,
+      "seed_count": 3,
+      "stratum": "B",
+      "task_id": "0dfd9992"
+    },
+    {
+      "cells": [
+        {
+          "delta": 1.2102156473313812,
+          "delta_gt_0": true,
+          "delta_gt_nu": true,
+          "ell_F1": 2.1453373937314297,
+          "ell_F2": 2.239542792616224,
+          "ell_S": 3.402655740505208,
+          "nu": 0.09420539888479418,
+          "seed": 20260702,
+          "stratum": "B",
+          "task_id": "1c786137"
+        },
+        {
+          "delta": 0.26492830572527604,
+          "delta_gt_0": true,
+          "delta_gt_nu": true,
+          "ell_F1": 2.388475244800836,
+          "ell_F2": 2.443788859704387,
+          "ell_S": 2.6810603579778873,
+          "nu": 0.05531361490355069,
+          "seed": 20260703,
+          "stratum": "B",
+          "task_id": "1c786137"
+        },
+        {
+          "delta": 1.147306824206165,
+          "delta_gt_0": true,
+          "delta_gt_nu": true,
+          "ell_F1": 3.8707019652861274,
+          "ell_F2": 3.337753298052421,
+          "ell_S": 4.751534455875439,
+          "nu": 0.5329486672337063,
+          "seed": 20260704,
+          "stratum": "B",
+          "task_id": "1c786137"
+        }
+      ],
+      "delta_gt_nu_seed_count": 3,
+      "mean_delta": 0.8741502590876075,
+      "positive_seed_count": 3,
+      "seed_count": 3,
+      "stratum": "B",
+      "task_id": "1c786137"
+    },
+    {
+      "cells": [
+        {
+          "delta": 1.4908595081490978,
+          "delta_gt_0": true,
+          "delta_gt_nu": true,
+          "ell_F1": 0.0256148142187857,
+          "ell_F2": 0.025577118312320336,
+          "ell_S": 1.5164554744146508,
+          "nu": 3.769590646536536e-05,
+          "seed": 20260702,
+          "stratum": "B",
+          "task_id": "1f876c06"
+        },
+        {
+          "delta": 2.1955573943626745,
+          "delta_gt_0": true,
+          "delta_gt_nu": true,
+          "ell_F1": 0.031012341895522516,
+          "ell_F2": 0.05035020969652914,
+          "ell_S": 2.2362386701587003,
+          "nu": 0.019337867801006624,
+          "seed": 20260703,
+          "stratum": "B",
+          "task_id": "1f876c06"
+        },
+        {
+          "delta": 1.4109400741830644,
+          "delta_gt_0": true,
+          "delta_gt_nu": true,
+          "ell_F1": 0.028679764546209966,
+          "ell_F2": 0.03985146197970247,
+          "ell_S": 1.4452056874460206,
+          "nu": 0.011171697433492504,
+          "seed": 20260704,
+          "stratum": "B",
+          "task_id": "1f876c06"
+        }
+      ],
+      "delta_gt_nu_seed_count": 3,
+      "mean_delta": 1.6991189922316121,
+      "positive_seed_count": 3,
+      "seed_count": 3,
+      "stratum": "B",
+      "task_id": "1f876c06"
+    },
+    {
+      "cells": [
+        {
+          "delta": 0.7600047855492504,
+          "delta_gt_0": true,
+          "delta_gt_nu": true,
+          "ell_F1": 0.1712929061904791,
+          "ell_F2": 0.12325285834176267,
+          "ell_S": 0.9072776678153713,
+          "nu": 0.04804004784871643,
+          "seed": 20260702,
+          "stratum": "A",
+          "task_id": "3ed85e70"
+        },
+        {
+          "delta": 1.241838560940043,
+          "delta_gt_0": true,
+          "delta_gt_nu": true,
+          "ell_F1": 0.15117536840371001,
+          "ell_F2": 0.13521055783169014,
+          "ell_S": 1.385031524057743,
+          "nu": 0.015964810572019872,
+          "seed": 20260703,
+          "stratum": "A",
+          "task_id": "3ed85e70"
+        },
+        {
+          "delta": 1.064542302847581,
+          "delta_gt_0": true,
+          "delta_gt_nu": true,
+          "ell_F1": 0.16580473796160933,
+          "ell_F2": 0.15218918127554426,
+          "ell_S": 1.2235392624661576,
+          "nu": 0.013615556686065067,
+          "seed": 20260704,
+          "stratum": "A",
+          "task_id": "3ed85e70"
+        }
+      ],
+      "delta_gt_nu_seed_count": 3,
+      "mean_delta": 1.022128549778958,
+      "positive_seed_count": 3,
+      "seed_count": 3,
+      "stratum": "A",
+      "task_id": "3ed85e70"
+    },
+    {
+      "cells": [
+        {
+          "delta": 1.2113627754126295,
+          "delta_gt_0": true,
+          "delta_gt_nu": true,
+          "ell_F1": 0.31766102670336493,
+          "ell_F2": 0.2781899218308795,
+          "ell_S": 1.5092882496797517,
+          "nu": 0.03947110487248545,
+          "seed": 20260702,
+          "stratum": "A",
+          "task_id": "604001fa"
+        },
+        {
+          "delta": 0.7901441312012407,
+          "delta_gt_0": true,
+          "delta_gt_nu": true,
+          "ell_F1": 0.2625875465741528,
+          "ell_F2": 0.2411517277252947,
+          "ell_S": 1.0420137683509645,
+          "nu": 0.02143581884885809,
+          "seed": 20260703,
+          "stratum": "A",
+          "task_id": "604001fa"
+        },
+        {
+          "delta": 0.5144072103146609,
+          "delta_gt_0": true,
+          "delta_gt_nu": true,
+          "ell_F1": 0.28615328083990255,
+          "ell_F2": 0.2421261787499718,
+          "ell_S": 0.778546940109598,
+          "nu": 0.04402710208993074,
+          "seed": 20260704,
+          "stratum": "A",
+          "task_id": "604001fa"
+        }
+      ],
+      "delta_gt_nu_seed_count": 3,
+      "mean_delta": 0.8386380389761771,
+      "positive_seed_count": 3,
+      "seed_count": 3,
+      "stratum": "A",
+      "task_id": "604001fa"
+    },
+    {
+      "cells": [
+        {
+          "delta": 0.4512784952038572,
+          "delta_gt_0": true,
+          "delta_gt_nu": true,
+          "ell_F1": 0.06818807616516055,
+          "ell_F2": 0.12328487070721866,
+          "ell_S": 0.5470149686400468,
+          "nu": 0.05509679454205811,
+          "seed": 20260702,
+          "stratum": "A",
+          "task_id": "79fb03f4"
+        },
+        {
+          "delta": 0.35684643711761876,
+          "delta_gt_0": true,
+          "delta_gt_nu": true,
+          "ell_F1": 0.08773274740062813,
+          "ell_F2": 0.08738425881830886,
+          "ell_S": 0.44440494022708726,
+          "nu": 0.00034848858231927016,
+          "seed": 20260703,
+          "stratum": "A",
+          "task_id": "79fb03f4"
+        },
+        {
+          "delta": 0.956493073486912,
+          "delta_gt_0": true,
+          "delta_gt_nu": true,
+          "ell_F1": 0.09692859341430113,
+          "ell_F2": 0.08059004753701438,
+          "ell_S": 1.0452523939625697,
+          "nu": 0.016338545877286753,
+          "seed": 20260704,
+          "stratum": "A",
+          "task_id": "79fb03f4"
+        }
+      ],
+      "delta_gt_nu_seed_count": 3,
+      "mean_delta": 0.5882060019361294,
+      "positive_seed_count": 3,
+      "seed_count": 3,
+      "stratum": "A",
+      "task_id": "79fb03f4"
+    },
+    {
+      "cells": [
+        {
+          "delta": 0.3224827561795297,
+          "delta_gt_0": true,
+          "delta_gt_nu": true,
+          "ell_F1": 0.05299628329230822,
+          "ell_F2": 0.04639276010865653,
+          "ell_S": 0.3721772778800121,
+          "nu": 0.006603523183651684,
+          "seed": 20260702,
+          "stratum": "A",
+          "task_id": "929ab4e9"
+        },
+        {
+          "delta": 3.0958112936259483,
+          "delta_gt_0": true,
+          "delta_gt_nu": true,
+          "ell_F1": 0.03808860083306448,
+          "ell_F2": 0.04982503128365154,
+          "ell_S": 3.139768109684306,
+          "nu": 0.01173643045058706,
+          "seed": 20260703,
+          "stratum": "A",
+          "task_id": "929ab4e9"
+        },
+        {
+          "delta": 7.864933434500168,
+          "delta_gt_0": true,
+          "delta_gt_nu": true,
+          "ell_F1": 0.05441497288688641,
+          "ell_F2": 0.05828918185162705,
+          "ell_S": 7.921285511869424,
+          "nu": 0.0038742089647406386,
+          "seed": 20260704,
+          "stratum": "A",
+          "task_id": "929ab4e9"
+        }
+      ],
+      "delta_gt_nu_seed_count": 3,
+      "mean_delta": 3.761075828101882,
+      "positive_seed_count": 3,
+      "seed_count": 3,
+      "stratum": "A",
+      "task_id": "929ab4e9"
+    },
+    {
+      "cells": [
+        {
+          "delta": 3.6460973318870433,
+          "delta_gt_0": true,
+          "delta_gt_nu": true,
+          "ell_F1": 0.02358652407416576,
+          "ell_F2": 0.015397404990663187,
+          "ell_S": 3.6655892964194576,
+          "nu": 0.008189119083502575,
+          "seed": 20260702,
+          "stratum": "A",
+          "task_id": "981571dc"
+        },
+        {
+          "delta": 1.744672189677929,
+          "delta_gt_0": true,
+          "delta_gt_nu": true,
+          "ell_F1": 0.026562889185259207,
+          "ell_F2": 0.021421151179619607,
+          "ell_S": 1.7686642098603684,
+          "nu": 0.0051417380056396,
+          "seed": 20260703,
+          "stratum": "A",
+          "task_id": "981571dc"
+        },
+        {
+          "delta": 4.763576254787019,
+          "delta_gt_0": true,
+          "delta_gt_nu": true,
+          "ell_F1": 0.026127905547972886,
+          "ell_F2": 0.025804698376201644,
+          "ell_S": 4.7895425567491055,
+          "nu": 0.00032320717177124203,
+          "seed": 20260704,
+          "stratum": "A",
+          "task_id": "981571dc"
+        }
+      ],
+      "delta_gt_nu_seed_count": 3,
+      "mean_delta": 3.384781925450664,
+      "positive_seed_count": 3,
+      "seed_count": 3,
+      "stratum": "A",
+      "task_id": "981571dc"
+    },
+    {
+      "cells": [
+        {
+          "delta": -0.18370111170273606,
+          "delta_gt_0": false,
+          "delta_gt_nu": false,
+          "ell_F1": 2.529387581057764,
+          "ell_F2": 1.5466669623598477,
+          "ell_S": 1.8543261600060696,
+          "nu": 0.9827206186979163,
+          "seed": 20260702,
+          "stratum": "A",
+          "task_id": "aa4ec2a5"
+        },
+        {
+          "delta": 0.705840661018013,
+          "delta_gt_0": true,
+          "delta_gt_nu": false,
+          "ell_F1": 1.595408809448589,
+          "ell_F2": 0.26368871345820816,
+          "ell_S": 1.6353894224714116,
+          "nu": 1.3317200959903808,
+          "seed": 20260703,
+          "stratum": "A",
+          "task_id": "aa4ec2a5"
+        },
+        {
+          "delta": 0.49317495240082254,
+          "delta_gt_0": true,
+          "delta_gt_nu": false,
+          "ell_F1": 0.9931439676335576,
+          "ell_F2": 0.30741976275064814,
+          "ell_S": 1.1434568175929254,
+          "nu": 0.6857242048829095,
+          "seed": 20260704,
+          "stratum": "A",
+          "task_id": "aa4ec2a5"
+        }
+      ],
+      "delta_gt_nu_seed_count": 0,
+      "mean_delta": 0.3384381672386998,
+      "positive_seed_count": 2,
+      "seed_count": 3,
+      "stratum": "A",
+      "task_id": "aa4ec2a5"
+    }
+  ]
+}

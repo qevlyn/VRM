@@ -1,0 +1,18 @@
+{
+  "exact_by_sequence_context": {
+    "C->F": 1.0,
+    "C->T": 1.0,
+    "F->C": 1.0,
+    "F->T": 1.0,
+    "T->C": 1.0,
+    "T->F": 1.0
+  },
+  "group_count": 1500,
+  "ordered_rule_switch_correct_rate": 1.0,
+  "pairwise_output_switch_rates": {
+    "C->F_vs_F->C": 1.0,
+    "F->T_vs_T->F": 1.0,
+    "T->C_vs_C->T": 1.0
+  },
+  "same_query_support_sensitive_output_rate": 1.0
+}

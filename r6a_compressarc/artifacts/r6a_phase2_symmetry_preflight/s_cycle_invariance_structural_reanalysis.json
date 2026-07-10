@@ -1,0 +1,4058 @@
+{
+  "created_utc": "2026-07-04T02:16:57Z",
+  "experiment": "R6A_PHASE2_SOURCE_GROUNDED_SYMMETRY_PREFLIGHT",
+  "inputs_used_before_hash": [
+    "r6a_phase1_multirepeat_frozen_manifest.json",
+    "arc-agi_evaluation_challenges.json",
+    "arc-agi_training_challenges.json",
+    "pinned source imported under CPU shim"
+  ],
+  "outcome_blind": true,
+  "phase1_outcome_files_read": false,
+  "tasks": [
+    {
+      "all_in_same_size_after": false,
+      "all_in_same_size_before": false,
+      "all_out_same_size_after": false,
+      "all_out_same_size_before": false,
+      "base_snapshot": {
+        "colors": [
+          0,
+          1,
+          3,
+          4,
+          6,
+          7,
+          8
+        ],
+        "flags": {
+          "all_in_same_size": false,
+          "all_out_same_size": false,
+          "grid_size_uncertain_branches": [
+            {
+              "example": 0,
+              "grid_size_uncertain": false,
+              "mode": "input"
+            },
+            {
+              "example": 0,
+              "grid_size_uncertain": false,
+              "mode": "output"
+            },
+            {
+              "example": 1,
+              "grid_size_uncertain": false,
+              "mode": "input"
+            },
+            {
+              "example": 1,
+              "grid_size_uncertain": false,
+              "mode": "output"
+            },
+            {
+              "example": 2,
+              "grid_size_uncertain": false,
+              "mode": "input"
+            },
+            {
+              "example": 2,
+              "grid_size_uncertain": false,
+              "mode": "output"
+            },
+            {
+              "example": 3,
+              "grid_size_uncertain": false,
+              "mode": "input"
+            },
+            {
+              "example": 3,
+              "grid_size_uncertain": false,
+              "mode": "output"
+            },
+            {
+              "example": 4,
+              "grid_size_uncertain": false,
+              "mode": "input"
+            }
+          ],
+          "in_out_same_size": true
+        },
+        "mask_hash": "6c4e77ce32c4e72103b58d0a351262b76620755df07303874b80bb419687c570",
+        "n_examples": 5,
+        "n_test": 1,
+        "n_train": 4,
+        "n_x": 20,
+        "n_y": 16,
+        "predicted_query_output_shapes": [
+          [
+            15,
+            12
+          ]
+        ],
+        "problem_hash": "3ad93a7e126e9aedf1bd5e9a9b9862dc9da8c69ff6bbf7763c932c9edcd2fbcd",
+        "shapes": [
+          [
+            [
+              20,
+              16
+            ],
+            [
+              20,
+              16
+            ]
+          ],
+          [
+            [
+              8,
+              6
+            ],
+            [
+              8,
+              6
+            ]
+          ],
+          [
+            [
+              9,
+              11
+            ],
+            [
+              9,
+              11
+            ]
+          ],
+          [
+            [
+              8,
+              12
+            ],
+            [
+              8,
+              12
+            ]
+          ],
+          [
+            [
+              15,
+              12
+            ],
+            [
+              15,
+              12
+            ]
+          ]
+        ]
+      },
+      "grid_size_uncertain_branch_equal_under_s": false,
+      "in_out_same_size_after": false,
+      "in_out_same_size_before": true,
+      "lemma_assumption_status": "LEMMA_NOT_CLAIMED",
+      "non_invariant_possible_impacts": {
+        "all_in_same_size": false,
+        "all_out_same_size": false,
+        "grid_size_uncertainty_branch": true,
+        "hidden_query_output_shape_prediction": true,
+        "in_out_same_size": true,
+        "loss_coefficient_schedule": true,
+        "per_slot_output_shape": true,
+        "support_output_mask": true
+      },
+      "predicted_query_shape_equal_under_s": false,
+      "s_cycle_invariance_reason": "one or more y_signature cycle comparisons differ",
+      "s_cycle_invariant": false,
+      "s_wrapper_reconstructs_task_normally": true,
+      "sigma": [
+        1,
+        0,
+        3,
+        2
+      ],
+      "source_basis": [
+        {
+          "claim": "Task constructor recomputes shapes, multitensor system, masks, and problem tensor from the provided raw problem.",
+          "classification": "DIRECT_SOURCE_FACT",
+          "line_range": "15-28",
+          "pinned_commit": "83a22218024d46273eb32b769a906340202ffb4d",
+          "source_file": "preprocessing.py"
+        },
+        {
+          "claim": "Predicted hidden-query output shape is derived from in/out and all-output size flags.",
+          "classification": "DIRECT_SOURCE_FACT",
+          "line_range": "44-62",
+          "pinned_commit": "83a22218024d46273eb32b769a906340202ffb4d",
+          "source_file": "preprocessing.py"
+        },
+        {
+          "claim": "The reconstruction loss grid-size branch depends on in_out_same_size, all_out_same_size, and all_in_same_size.",
+          "classification": "DIRECT_SOURCE_FACT",
+          "line_range": "65-87",
+          "pinned_commit": "83a22218024d46273eb32b769a906340202ffb4d",
+          "source_file": "train.py"
+        }
+      ],
+      "stratum": "A",
+      "swapped_snapshot": {
+        "colors": [
+          0,
+          1,
+          3,
+          4,
+          6,
+          7,
+          8
+        ],
+        "flags": {
+          "all_in_same_size": false,
+          "all_out_same_size": false,
+          "grid_size_uncertain_branches": [
+            {
+              "example": 0,
+              "grid_size_uncertain": true,
+              "mode": "input"
+            },
+            {
+              "example": 0,
+              "grid_size_uncertain": true,
+              "mode": "output"
+            },
+            {
+              "example": 1,
+              "grid_size_uncertain": true,
+              "mode": "input"
+            },
+            {
+              "example": 1,
+              "grid_size_uncertain": true,
+              "mode": "output"
+            },
+            {
+              "example": 2,
+              "grid_size_uncertain": true,
+              "mode": "input"
+            },
+            {
+              "example": 2,
+              "grid_size_uncertain": true,
+              "mode": "output"
+            },
+            {
+              "example": 3,
+              "grid_size_uncertain": true,
+              "mode": "input"
+            },
+            {
+              "example": 3,
+              "grid_size_uncertain": true,
+              "mode": "output"
+            },
+            {
+              "example": 4,
+              "grid_size_uncertain": true,
+              "mode": "input"
+            }
+          ],
+          "in_out_same_size": false
+        },
+        "mask_hash": "916cea2babff6c337605d1fda583b39c396b83785eb56ae8605d0c546c4e1ccf",
+        "n_examples": 5,
+        "n_test": 1,
+        "n_train": 4,
+        "n_x": 20,
+        "n_y": 16,
+        "predicted_query_output_shapes": [
+          [
+            20,
+            16
+          ]
+        ],
+        "problem_hash": "32678674c51dc79ff833c5b532d7604a13265f9fd6f24518c9976c20e2986cc3",
+        "shapes": [
+          [
+            [
+              20,
+              16
+            ],
+            [
+              8,
+              6
+            ]
+          ],
+          [
+            [
+              8,
+              6
+            ],
+            [
+              20,
+              16
+            ]
+          ],
+          [
+            [
+              9,
+              11
+            ],
+            [
+              8,
+              12
+            ]
+          ],
+          [
+            [
+              8,
+              12
+            ],
+            [
+              9,
+              11
+            ]
+          ],
+          [
+            [
+              15,
+              12
+            ],
+            [
+              20,
+              16
+            ]
+          ]
+        ]
+      },
+      "task_flag_flip_under_s": {
+        "all_in_same_size": {
+          "after": false,
+          "before": false
+        },
+        "all_out_same_size": {
+          "after": false,
+          "before": false
+        },
+        "grid_size_uncertain_branches": {
+          "after": [
+            {
+              "example": 0,
+              "grid_size_uncertain": true,
+              "mode": "input"
+            },
+            {
+              "example": 0,
+              "grid_size_uncertain": true,
+              "mode": "output"
+            },
+            {
+              "example": 1,
+              "grid_size_uncertain": true,
+              "mode": "input"
+            },
+            {
+              "example": 1,
+              "grid_size_uncertain": true,
+              "mode": "output"
+            },
+            {
+              "example": 2,
+              "grid_size_uncertain": true,
+              "mode": "input"
+            },
+            {
+              "example": 2,
+              "grid_size_uncertain": true,
+              "mode": "output"
+            },
+            {
+              "example": 3,
+              "grid_size_uncertain": true,
+              "mode": "input"
+            },
+            {
+              "example": 3,
+              "grid_size_uncertain": true,
+              "mode": "output"
+            },
+            {
+              "example": 4,
+              "grid_size_uncertain": true,
+              "mode": "input"
+            }
+          ],
+          "before": [
+            {
+              "example": 0,
+              "grid_size_uncertain": false,
+              "mode": "input"
+            },
+            {
+              "example": 0,
+              "grid_size_uncertain": false,
+              "mode": "output"
+            },
+            {
+              "example": 1,
+              "grid_size_uncertain": false,
+              "mode": "input"
+            },
+            {
+              "example": 1,
+              "grid_size_uncertain": false,
+              "mode": "output"
+            },
+            {
+              "example": 2,
+              "grid_size_uncertain": false,
+              "mode": "input"
+            },
+            {
+              "example": 2,
+              "grid_size_uncertain": false,
+              "mode": "output"
+            },
+            {
+              "example": 3,
+              "grid_size_uncertain": false,
+              "mode": "input"
+            },
+            {
+              "example": 3,
+              "grid_size_uncertain": false,
+              "mode": "output"
+            },
+            {
+              "example": 4,
+              "grid_size_uncertain": false,
+              "mode": "input"
+            }
+          ]
+        },
+        "in_out_same_size": {
+          "after": false,
+          "before": true
+        }
+      },
+      "task_id": "604001fa",
+      "task_masks_equal_under_s": false,
+      "task_shapes_equal_under_s": false,
+      "y_signatures": [
+        {
+          "output_mask_hash": "3ed8a156526e305430f6badcf9ff679addb050b9d7b89db46cd6777156df319a",
+          "output_preprocessing_branch_flags": {
+            "all_in_same_size": false,
+            "all_out_same_size": false,
+            "grid_size_uncertain": false,
+            "in_out_same_size": true
+          },
+          "output_shape": [
+            20,
+            16
+          ]
+        },
+        {
+          "output_mask_hash": "6aee914bc65a244571b8853c6069d41817b915f263cd7c18b99f71206d426e85",
+          "output_preprocessing_branch_flags": {
+            "all_in_same_size": false,
+            "all_out_same_size": false,
+            "grid_size_uncertain": false,
+            "in_out_same_size": true
+          },
+          "output_shape": [
+            8,
+            6
+          ]
+        },
+        {
+          "output_mask_hash": "e4f222bd8510b7c385534c0319851a546f9eb93478a043176679b650a33122fb",
+          "output_preprocessing_branch_flags": {
+            "all_in_same_size": false,
+            "all_out_same_size": false,
+            "grid_size_uncertain": false,
+            "in_out_same_size": true
+          },
+          "output_shape": [
+            9,
+            11
+          ]
+        },
+        {
+          "output_mask_hash": "b054dcdf6397a5e2a20e997bd1ef4ca67601a744fc1e7fc8d1bcfc50561da43d",
+          "output_preprocessing_branch_flags": {
+            "all_in_same_size": false,
+            "all_out_same_size": false,
+            "grid_size_uncertain": false,
+            "in_out_same_size": true
+          },
+          "output_shape": [
+            8,
+            12
+          ]
+        }
+      ]
+    },
+    {
+      "all_in_same_size_after": false,
+      "all_in_same_size_before": false,
+      "all_out_same_size_after": false,
+      "all_out_same_size_before": false,
+      "base_snapshot": {
+        "colors": [
+          0,
+          1,
+          5,
+          8
+        ],
+        "flags": {
+          "all_in_same_size": false,
+          "all_out_same_size": false,
+          "grid_size_uncertain_branches": [
+            {
+              "example": 0,
+              "grid_size_uncertain": false,
+              "mode": "input"
+            },
+            {
+              "example": 0,
+              "grid_size_uncertain": false,
+              "mode": "output"
+            },
+            {
+              "example": 1,
+              "grid_size_uncertain": false,
+              "mode": "input"
+            },
+            {
+              "example": 1,
+              "grid_size_uncertain": false,
+              "mode": "output"
+            },
+            {
+              "example": 2,
+              "grid_size_uncertain": false,
+              "mode": "input"
+            },
+            {
+              "example": 2,
+              "grid_size_uncertain": false,
+              "mode": "output"
+            },
+            {
+              "example": 3,
+              "grid_size_uncertain": false,
+              "mode": "input"
+            },
+            {
+              "example": 3,
+              "grid_size_uncertain": false,
+              "mode": "output"
+            },
+            {
+              "example": 4,
+              "grid_size_uncertain": false,
+              "mode": "input"
+            },
+            {
+              "example": 4,
+              "grid_size_uncertain": false,
+              "mode": "output"
+            },
+            {
+              "example": 5,
+              "grid_size_uncertain": false,
+              "mode": "input"
+            },
+            {
+              "example": 5,
+              "grid_size_uncertain": false,
+              "mode": "output"
+            },
+            {
+              "example": 6,
+              "grid_size_uncertain": false,
+              "mode": "input"
+            }
+          ],
+          "in_out_same_size": true
+        },
+        "mask_hash": "93216a4483cc5f20646d59f41e4116cdfe79293097c5be056f9888d3773ebb96",
+        "n_examples": 7,
+        "n_test": 1,
+        "n_train": 6,
+        "n_x": 26,
+        "n_y": 26,
+        "predicted_query_output_shapes": [
+          [
+            26,
+            26
+          ]
+        ],
+        "problem_hash": "c6fd011b8ee98bdec2d41b51d845a03c59c0a3b9349655afe25ce5d5a7738f3b",
+        "shapes": [
+          [
+            [
+              20,
+              20
+            ],
+            [
+              20,
+              20
+            ]
+          ],
+          [
+            [
+              10,
+              10
+            ],
+            [
+              10,
+              10
+            ]
+          ],
+          [
+            [
+              6,
+              6
+            ],
+            [
+              6,
+              6
+            ]
+          ],
+          [
+            [
+              6,
+              6
+            ],
+            [
+              6,
+              6
+            ]
+          ],
+          [
+            [
+              13,
+              13
+            ],
+            [
+              13,
+              13
+            ]
+          ],
+          [
+            [
+              7,
+              7
+            ],
+            [
+              7,
+              7
+            ]
+          ],
+          [
+            [
+              26,
+              26
+            ],
+            [
+              26,
+              26
+            ]
+          ]
+        ]
+      },
+      "grid_size_uncertain_branch_equal_under_s": false,
+      "in_out_same_size_after": false,
+      "in_out_same_size_before": true,
+      "lemma_assumption_status": "LEMMA_NOT_CLAIMED",
+      "non_invariant_possible_impacts": {
+        "all_in_same_size": false,
+        "all_out_same_size": false,
+        "grid_size_uncertainty_branch": true,
+        "hidden_query_output_shape_prediction": false,
+        "in_out_same_size": true,
+        "loss_coefficient_schedule": true,
+        "per_slot_output_shape": true,
+        "support_output_mask": true
+      },
+      "predicted_query_shape_equal_under_s": true,
+      "s_cycle_invariance_reason": "one or more y_signature cycle comparisons differ",
+      "s_cycle_invariant": false,
+      "s_wrapper_reconstructs_task_normally": true,
+      "sigma": [
+        5,
+        3,
+        4,
+        1,
+        2,
+        0
+      ],
+      "source_basis": [
+        {
+          "claim": "Task constructor recomputes shapes, multitensor system, masks, and problem tensor from the provided raw problem.",
+          "classification": "DIRECT_SOURCE_FACT",
+          "line_range": "15-28",
+          "pinned_commit": "83a22218024d46273eb32b769a906340202ffb4d",
+          "source_file": "preprocessing.py"
+        },
+        {
+          "claim": "Predicted hidden-query output shape is derived from in/out and all-output size flags.",
+          "classification": "DIRECT_SOURCE_FACT",
+          "line_range": "44-62",
+          "pinned_commit": "83a22218024d46273eb32b769a906340202ffb4d",
+          "source_file": "preprocessing.py"
+        },
+        {
+          "claim": "The reconstruction loss grid-size branch depends on in_out_same_size, all_out_same_size, and all_in_same_size.",
+          "classification": "DIRECT_SOURCE_FACT",
+          "line_range": "65-87",
+          "pinned_commit": "83a22218024d46273eb32b769a906340202ffb4d",
+          "source_file": "train.py"
+        }
+      ],
+      "stratum": "A",
+      "swapped_snapshot": {
+        "colors": [
+          0,
+          1,
+          5,
+          8
+        ],
+        "flags": {
+          "all_in_same_size": false,
+          "all_out_same_size": false,
+          "grid_size_uncertain_branches": [
+            {
+              "example": 0,
+              "grid_size_uncertain": true,
+              "mode": "input"
+            },
+            {
+              "example": 0,
+              "grid_size_uncertain": true,
+              "mode": "output"
+            },
+            {
+              "example": 1,
+              "grid_size_uncertain": true,
+              "mode": "input"
+            },
+            {
+              "example": 1,
+              "grid_size_uncertain": true,
+              "mode": "output"
+            },
+            {
+              "example": 2,
+              "grid_size_uncertain": true,
+              "mode": "input"
+            },
+            {
+              "example": 2,
+              "grid_size_uncertain": true,
+              "mode": "output"
+            },
+            {
+              "example": 3,
+              "grid_size_uncertain": true,
+              "mode": "input"
+            },
+            {
+              "example": 3,
+              "grid_size_uncertain": true,
+              "mode": "output"
+            },
+            {
+              "example": 4,
+              "grid_size_uncertain": true,
+              "mode": "input"
+            },
+            {
+              "example": 4,
+              "grid_size_uncertain": true,
+              "mode": "output"
+            },
+            {
+              "example": 5,
+              "grid_size_uncertain": true,
+              "mode": "input"
+            },
+            {
+              "example": 5,
+              "grid_size_uncertain": true,
+              "mode": "output"
+            },
+            {
+              "example": 6,
+              "grid_size_uncertain": true,
+              "mode": "input"
+            }
+          ],
+          "in_out_same_size": false
+        },
+        "mask_hash": "488ff558ddf2c65b28c821fc80af92636487f5118d0195be472dace807fb51a4",
+        "n_examples": 7,
+        "n_test": 1,
+        "n_train": 6,
+        "n_x": 26,
+        "n_y": 26,
+        "predicted_query_output_shapes": [
+          [
+            26,
+            26
+          ]
+        ],
+        "problem_hash": "bd57113d6757f4da33e36dc467699210891463ae734b3e2025d4bb80fae71b0b",
+        "shapes": [
+          [
+            [
+              20,
+              20
+            ],
+            [
+              7,
+              7
+            ]
+          ],
+          [
+            [
+              10,
+              10
+            ],
+            [
+              6,
+              6
+            ]
+          ],
+          [
+            [
+              6,
+              6
+            ],
+            [
+              13,
+              13
+            ]
+          ],
+          [
+            [
+              6,
+              6
+            ],
+            [
+              10,
+              10
+            ]
+          ],
+          [
+            [
+              13,
+              13
+            ],
+            [
+              6,
+              6
+            ]
+          ],
+          [
+            [
+              7,
+              7
+            ],
+            [
+              20,
+              20
+            ]
+          ],
+          [
+            [
+              26,
+              26
+            ],
+            [
+              26,
+              26
+            ]
+          ]
+        ]
+      },
+      "task_flag_flip_under_s": {
+        "all_in_same_size": {
+          "after": false,
+          "before": false
+        },
+        "all_out_same_size": {
+          "after": false,
+          "before": false
+        },
+        "grid_size_uncertain_branches": {
+          "after": [
+            {
+              "example": 0,
+              "grid_size_uncertain": true,
+              "mode": "input"
+            },
+            {
+              "example": 0,
+              "grid_size_uncertain": true,
+              "mode": "output"
+            },
+            {
+              "example": 1,
+              "grid_size_uncertain": true,
+              "mode": "input"
+            },
+            {
+              "example": 1,
+              "grid_size_uncertain": true,
+              "mode": "output"
+            },
+            {
+              "example": 2,
+              "grid_size_uncertain": true,
+              "mode": "input"
+            },
+            {
+              "example": 2,
+              "grid_size_uncertain": true,
+              "mode": "output"
+            },
+            {
+              "example": 3,
+              "grid_size_uncertain": true,
+              "mode": "input"
+            },
+            {
+              "example": 3,
+              "grid_size_uncertain": true,
+              "mode": "output"
+            },
+            {
+              "example": 4,
+              "grid_size_uncertain": true,
+              "mode": "input"
+            },
+            {
+              "example": 4,
+              "grid_size_uncertain": true,
+              "mode": "output"
+            },
+            {
+              "example": 5,
+              "grid_size_uncertain": true,
+              "mode": "input"
+            },
+            {
+              "example": 5,
+              "grid_size_uncertain": true,
+              "mode": "output"
+            },
+            {
+              "example": 6,
+              "grid_size_uncertain": true,
+              "mode": "input"
+            }
+          ],
+          "before": [
+            {
+              "example": 0,
+              "grid_size_uncertain": false,
+              "mode": "input"
+            },
+            {
+              "example": 0,
+              "grid_size_uncertain": false,
+              "mode": "output"
+            },
+            {
+              "example": 1,
+              "grid_size_uncertain": false,
+              "mode": "input"
+            },
+            {
+              "example": 1,
+              "grid_size_uncertain": false,
+              "mode": "output"
+            },
+            {
+              "example": 2,
+              "grid_size_uncertain": false,
+              "mode": "input"
+            },
+            {
+              "example": 2,
+              "grid_size_uncertain": false,
+              "mode": "output"
+            },
+            {
+              "example": 3,
+              "grid_size_uncertain": false,
+              "mode": "input"
+            },
+            {
+              "example": 3,
+              "grid_size_uncertain": false,
+              "mode": "output"
+            },
+            {
+              "example": 4,
+              "grid_size_uncertain": false,
+              "mode": "input"
+            },
+            {
+              "example": 4,
+              "grid_size_uncertain": false,
+              "mode": "output"
+            },
+            {
+              "example": 5,
+              "grid_size_uncertain": false,
+              "mode": "input"
+            },
+            {
+              "example": 5,
+              "grid_size_uncertain": false,
+              "mode": "output"
+            },
+            {
+              "example": 6,
+              "grid_size_uncertain": false,
+              "mode": "input"
+            }
+          ]
+        },
+        "in_out_same_size": {
+          "after": false,
+          "before": true
+        }
+      },
+      "task_id": "79fb03f4",
+      "task_masks_equal_under_s": false,
+      "task_shapes_equal_under_s": false,
+      "y_signatures": [
+        {
+          "output_mask_hash": "afedbf49cb3538daa9120090bab460ff5ffe20e301bc71dcd4ce07b7c9a0ae36",
+          "output_preprocessing_branch_flags": {
+            "all_in_same_size": false,
+            "all_out_same_size": false,
+            "grid_size_uncertain": false,
+            "in_out_same_size": true
+          },
+          "output_shape": [
+            20,
+            20
+          ]
+        },
+        {
+          "output_mask_hash": "40dcf27b6cd4403426f61e9ee25f27d66dcc50c0b63413e0ba0df74bb27ea38b",
+          "output_preprocessing_branch_flags": {
+            "all_in_same_size": false,
+            "all_out_same_size": false,
+            "grid_size_uncertain": false,
+            "in_out_same_size": true
+          },
+          "output_shape": [
+            10,
+            10
+          ]
+        },
+        {
+          "output_mask_hash": "c68f0b21db9621f47a73ed433865cab0040e87c38730ccee65daba3164940d71",
+          "output_preprocessing_branch_flags": {
+            "all_in_same_size": false,
+            "all_out_same_size": false,
+            "grid_size_uncertain": false,
+            "in_out_same_size": true
+          },
+          "output_shape": [
+            6,
+            6
+          ]
+        },
+        {
+          "output_mask_hash": "c68f0b21db9621f47a73ed433865cab0040e87c38730ccee65daba3164940d71",
+          "output_preprocessing_branch_flags": {
+            "all_in_same_size": false,
+            "all_out_same_size": false,
+            "grid_size_uncertain": false,
+            "in_out_same_size": true
+          },
+          "output_shape": [
+            6,
+            6
+          ]
+        },
+        {
+          "output_mask_hash": "607b871c1e374d591503489311bd02f8db5a152b6fef9c654052cebd1ca08308",
+          "output_preprocessing_branch_flags": {
+            "all_in_same_size": false,
+            "all_out_same_size": false,
+            "grid_size_uncertain": false,
+            "in_out_same_size": true
+          },
+          "output_shape": [
+            13,
+            13
+          ]
+        },
+        {
+          "output_mask_hash": "af1ecb08c6f6e0abfbe3eb4efa39a3dcf59d9b51f5670420a820e6d43fe01921",
+          "output_preprocessing_branch_flags": {
+            "all_in_same_size": false,
+            "all_out_same_size": false,
+            "grid_size_uncertain": false,
+            "in_out_same_size": true
+          },
+          "output_shape": [
+            7,
+            7
+          ]
+        }
+      ]
+    },
+    {
+      "all_in_same_size_after": true,
+      "all_in_same_size_before": true,
+      "all_out_same_size_after": true,
+      "all_out_same_size_before": true,
+      "base_snapshot": {
+        "colors": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "flags": {
+          "all_in_same_size": true,
+          "all_out_same_size": true,
+          "grid_size_uncertain_branches": [
+            {
+              "example": 0,
+              "grid_size_uncertain": false,
+              "mode": "input"
+            },
+            {
+              "example": 0,
+              "grid_size_uncertain": false,
+              "mode": "output"
+            },
+            {
+              "example": 1,
+              "grid_size_uncertain": false,
+              "mode": "input"
+            },
+            {
+              "example": 1,
+              "grid_size_uncertain": false,
+              "mode": "output"
+            },
+            {
+              "example": 2,
+              "grid_size_uncertain": false,
+              "mode": "input"
+            },
+            {
+              "example": 2,
+              "grid_size_uncertain": false,
+              "mode": "output"
+            },
+            {
+              "example": 3,
+              "grid_size_uncertain": false,
+              "mode": "input"
+            },
+            {
+              "example": 3,
+              "grid_size_uncertain": false,
+              "mode": "output"
+            },
+            {
+              "example": 4,
+              "grid_size_uncertain": false,
+              "mode": "input"
+            }
+          ],
+          "in_out_same_size": true
+        },
+        "mask_hash": "f7d4a5c32b87eba57e6faee5d59012d40408d2a65e4e563ad29d7b53b2118029",
+        "n_examples": 5,
+        "n_test": 1,
+        "n_train": 4,
+        "n_x": 30,
+        "n_y": 30,
+        "predicted_query_output_shapes": [
+          [
+            30,
+            30
+          ]
+        ],
+        "problem_hash": "918e262dc1dee446e5675216752682b813698f5cbc6669d85654e8adc3693dc5",
+        "shapes": [
+          [
+            [
+              30,
+              30
+            ],
+            [
+              30,
+              30
+            ]
+          ],
+          [
+            [
+              30,
+              30
+            ],
+            [
+              30,
+              30
+            ]
+          ],
+          [
+            [
+              30,
+              30
+            ],
+            [
+              30,
+              30
+            ]
+          ],
+          [
+            [
+              30,
+              30
+            ],
+            [
+              30,
+              30
+            ]
+          ],
+          [
+            [
+              30,
+              30
+            ],
+            [
+              30,
+              30
+            ]
+          ]
+        ]
+      },
+      "grid_size_uncertain_branch_equal_under_s": true,
+      "in_out_same_size_after": true,
+      "in_out_same_size_before": true,
+      "lemma_assumption_status": "LEMMA_VERIFIED_FOR_TASK",
+      "non_invariant_possible_impacts": {},
+      "predicted_query_shape_equal_under_s": true,
+      "s_cycle_invariance_reason": "all y_signature(i) equal y_signature(sigma(i))",
+      "s_cycle_invariant": true,
+      "s_wrapper_reconstructs_task_normally": true,
+      "sigma": [
+        2,
+        3,
+        0,
+        1
+      ],
+      "source_basis": [
+        {
+          "claim": "Task constructor recomputes shapes, multitensor system, masks, and problem tensor from the provided raw problem.",
+          "classification": "DIRECT_SOURCE_FACT",
+          "line_range": "15-28",
+          "pinned_commit": "83a22218024d46273eb32b769a906340202ffb4d",
+          "source_file": "preprocessing.py"
+        },
+        {
+          "claim": "Predicted hidden-query output shape is derived from in/out and all-output size flags.",
+          "classification": "DIRECT_SOURCE_FACT",
+          "line_range": "44-62",
+          "pinned_commit": "83a22218024d46273eb32b769a906340202ffb4d",
+          "source_file": "preprocessing.py"
+        },
+        {
+          "claim": "The reconstruction loss grid-size branch depends on in_out_same_size, all_out_same_size, and all_in_same_size.",
+          "classification": "DIRECT_SOURCE_FACT",
+          "line_range": "65-87",
+          "pinned_commit": "83a22218024d46273eb32b769a906340202ffb4d",
+          "source_file": "train.py"
+        }
+      ],
+      "stratum": "A",
+      "swapped_snapshot": {
+        "colors": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "flags": {
+          "all_in_same_size": true,
+          "all_out_same_size": true,
+          "grid_size_uncertain_branches": [
+            {
+              "example": 0,
+              "grid_size_uncertain": false,
+              "mode": "input"
+            },
+            {
+              "example": 0,
+              "grid_size_uncertain": false,
+              "mode": "output"
+            },
+            {
+              "example": 1,
+              "grid_size_uncertain": false,
+              "mode": "input"
+            },
+            {
+              "example": 1,
+              "grid_size_uncertain": false,
+              "mode": "output"
+            },
+            {
+              "example": 2,
+              "grid_size_uncertain": false,
+              "mode": "input"
+            },
+            {
+              "example": 2,
+              "grid_size_uncertain": false,
+              "mode": "output"
+            },
+            {
+              "example": 3,
+              "grid_size_uncertain": false,
+              "mode": "input"
+            },
+            {
+              "example": 3,
+              "grid_size_uncertain": false,
+              "mode": "output"
+            },
+            {
+              "example": 4,
+              "grid_size_uncertain": false,
+              "mode": "input"
+            }
+          ],
+          "in_out_same_size": true
+        },
+        "mask_hash": "f7d4a5c32b87eba57e6faee5d59012d40408d2a65e4e563ad29d7b53b2118029",
+        "n_examples": 5,
+        "n_test": 1,
+        "n_train": 4,
+        "n_x": 30,
+        "n_y": 30,
+        "predicted_query_output_shapes": [
+          [
+            30,
+            30
+          ]
+        ],
+        "problem_hash": "79d6e3a8361142d6e2955ddd13667fc6165e23690366172816ededfa95da169c",
+        "shapes": [
+          [
+            [
+              30,
+              30
+            ],
+            [
+              30,
+              30
+            ]
+          ],
+          [
+            [
+              30,
+              30
+            ],
+            [
+              30,
+              30
+            ]
+          ],
+          [
+            [
+              30,
+              30
+            ],
+            [
+              30,
+              30
+            ]
+          ],
+          [
+            [
+              30,
+              30
+            ],
+            [
+              30,
+              30
+            ]
+          ],
+          [
+            [
+              30,
+              30
+            ],
+            [
+              30,
+              30
+            ]
+          ]
+        ]
+      },
+      "task_flag_flip_under_s": {
+        "all_in_same_size": {
+          "after": true,
+          "before": true
+        },
+        "all_out_same_size": {
+          "after": true,
+          "before": true
+        },
+        "grid_size_uncertain_branches": {
+          "after": [
+            {
+              "example": 0,
+              "grid_size_uncertain": false,
+              "mode": "input"
+            },
+            {
+              "example": 0,
+              "grid_size_uncertain": false,
+              "mode": "output"
+            },
+            {
+              "example": 1,
+              "grid_size_uncertain": false,
+              "mode": "input"
+            },
+            {
+              "example": 1,
+              "grid_size_uncertain": false,
+              "mode": "output"
+            },
+            {
+              "example": 2,
+              "grid_size_uncertain": false,
+              "mode": "input"
+            },
+            {
+              "example": 2,
+              "grid_size_uncertain": false,
+              "mode": "output"
+            },
+            {
+              "example": 3,
+              "grid_size_uncertain": false,
+              "mode": "input"
+            },
+            {
+              "example": 3,
+              "grid_size_uncertain": false,
+              "mode": "output"
+            },
+            {
+              "example": 4,
+              "grid_size_uncertain": false,
+              "mode": "input"
+            }
+          ],
+          "before": [
+            {
+              "example": 0,
+              "grid_size_uncertain": false,
+              "mode": "input"
+            },
+            {
+              "example": 0,
+              "grid_size_uncertain": false,
+              "mode": "output"
+            },
+            {
+              "example": 1,
+              "grid_size_uncertain": false,
+              "mode": "input"
+            },
+            {
+              "example": 1,
+              "grid_size_uncertain": false,
+              "mode": "output"
+            },
+            {
+              "example": 2,
+              "grid_size_uncertain": false,
+              "mode": "input"
+            },
+            {
+              "example": 2,
+              "grid_size_uncertain": false,
+              "mode": "output"
+            },
+            {
+              "example": 3,
+              "grid_size_uncertain": false,
+              "mode": "input"
+            },
+            {
+              "example": 3,
+              "grid_size_uncertain": false,
+              "mode": "output"
+            },
+            {
+              "example": 4,
+              "grid_size_uncertain": false,
+              "mode": "input"
+            }
+          ]
+        },
+        "in_out_same_size": {
+          "after": true,
+          "before": true
+        }
+      },
+      "task_id": "981571dc",
+      "task_masks_equal_under_s": true,
+      "task_shapes_equal_under_s": true,
+      "y_signatures": [
+        {
+          "output_mask_hash": "12b7595c74b20696da82533196f536e9e3d38c7a2f6af6b049139e68f932ebfb",
+          "output_preprocessing_branch_flags": {
+            "all_in_same_size": true,
+            "all_out_same_size": true,
+            "grid_size_uncertain": false,
+            "in_out_same_size": true
+          },
+          "output_shape": [
+            30,
+            30
+          ]
+        },
+        {
+          "output_mask_hash": "12b7595c74b20696da82533196f536e9e3d38c7a2f6af6b049139e68f932ebfb",
+          "output_preprocessing_branch_flags": {
+            "all_in_same_size": true,
+            "all_out_same_size": true,
+            "grid_size_uncertain": false,
+            "in_out_same_size": true
+          },
+          "output_shape": [
+            30,
+            30
+          ]
+        },
+        {
+          "output_mask_hash": "12b7595c74b20696da82533196f536e9e3d38c7a2f6af6b049139e68f932ebfb",
+          "output_preprocessing_branch_flags": {
+            "all_in_same_size": true,
+            "all_out_same_size": true,
+            "grid_size_uncertain": false,
+            "in_out_same_size": true
+          },
+          "output_shape": [
+            30,
+            30
+          ]
+        },
+        {
+          "output_mask_hash": "12b7595c74b20696da82533196f536e9e3d38c7a2f6af6b049139e68f932ebfb",
+          "output_preprocessing_branch_flags": {
+            "all_in_same_size": true,
+            "all_out_same_size": true,
+            "grid_size_uncertain": false,
+            "in_out_same_size": true
+          },
+          "output_shape": [
+            30,
+            30
+          ]
+        }
+      ]
+    },
+    {
+      "all_in_same_size_after": true,
+      "all_in_same_size_before": true,
+      "all_out_same_size_after": true,
+      "all_out_same_size_before": true,
+      "base_snapshot": {
+        "colors": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          6,
+          7,
+          8
+        ],
+        "flags": {
+          "all_in_same_size": true,
+          "all_out_same_size": true,
+          "grid_size_uncertain_branches": [
+            {
+              "example": 0,
+              "grid_size_uncertain": false,
+              "mode": "input"
+            },
+            {
+              "example": 0,
+              "grid_size_uncertain": false,
+              "mode": "output"
+            },
+            {
+              "example": 1,
+              "grid_size_uncertain": false,
+              "mode": "input"
+            },
+            {
+              "example": 1,
+              "grid_size_uncertain": false,
+              "mode": "output"
+            },
+            {
+              "example": 2,
+              "grid_size_uncertain": false,
+              "mode": "input"
+            },
+            {
+              "example": 2,
+              "grid_size_uncertain": false,
+              "mode": "output"
+            },
+            {
+              "example": 3,
+              "grid_size_uncertain": false,
+              "mode": "input"
+            }
+          ],
+          "in_out_same_size": true
+        },
+        "mask_hash": "eeb109a4fd6d3c179b3d2077e6468c5eedd9868bff1c2a5269dee1b53d804acf",
+        "n_examples": 4,
+        "n_test": 1,
+        "n_train": 3,
+        "n_x": 30,
+        "n_y": 30,
+        "predicted_query_output_shapes": [
+          [
+            30,
+            30
+          ]
+        ],
+        "problem_hash": "d579bde10fd3695468e651096a777de8152d6620a05b937b6bbccc4b07934c7c",
+        "shapes": [
+          [
+            [
+              30,
+              30
+            ],
+            [
+              30,
+              30
+            ]
+          ],
+          [
+            [
+              30,
+              30
+            ],
+            [
+              30,
+              30
+            ]
+          ],
+          [
+            [
+              30,
+              30
+            ],
+            [
+              30,
+              30
+            ]
+          ],
+          [
+            [
+              30,
+              30
+            ],
+            [
+              30,
+              30
+            ]
+          ]
+        ]
+      },
+      "grid_size_uncertain_branch_equal_under_s": true,
+      "in_out_same_size_after": true,
+      "in_out_same_size_before": true,
+      "lemma_assumption_status": "LEMMA_VERIFIED_FOR_TASK",
+      "non_invariant_possible_impacts": {},
+      "predicted_query_shape_equal_under_s": true,
+      "s_cycle_invariance_reason": "all y_signature(i) equal y_signature(sigma(i))",
+      "s_cycle_invariant": true,
+      "s_wrapper_reconstructs_task_normally": true,
+      "sigma": [
+        1,
+        2,
+        0
+      ],
+      "source_basis": [
+        {
+          "claim": "Task constructor recomputes shapes, multitensor system, masks, and problem tensor from the provided raw problem.",
+          "classification": "DIRECT_SOURCE_FACT",
+          "line_range": "15-28",
+          "pinned_commit": "83a22218024d46273eb32b769a906340202ffb4d",
+          "source_file": "preprocessing.py"
+        },
+        {
+          "claim": "Predicted hidden-query output shape is derived from in/out and all-output size flags.",
+          "classification": "DIRECT_SOURCE_FACT",
+          "line_range": "44-62",
+          "pinned_commit": "83a22218024d46273eb32b769a906340202ffb4d",
+          "source_file": "preprocessing.py"
+        },
+        {
+          "claim": "The reconstruction loss grid-size branch depends on in_out_same_size, all_out_same_size, and all_in_same_size.",
+          "classification": "DIRECT_SOURCE_FACT",
+          "line_range": "65-87",
+          "pinned_commit": "83a22218024d46273eb32b769a906340202ffb4d",
+          "source_file": "train.py"
+        }
+      ],
+      "stratum": "A",
+      "swapped_snapshot": {
+        "colors": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          6,
+          7,
+          8
+        ],
+        "flags": {
+          "all_in_same_size": true,
+          "all_out_same_size": true,
+          "grid_size_uncertain_branches": [
+            {
+              "example": 0,
+              "grid_size_uncertain": false,
+              "mode": "input"
+            },
+            {
+              "example": 0,
+              "grid_size_uncertain": false,
+              "mode": "output"
+            },
+            {
+              "example": 1,
+              "grid_size_uncertain": false,
+              "mode": "input"
+            },
+            {
+              "example": 1,
+              "grid_size_uncertain": false,
+              "mode": "output"
+            },
+            {
+              "example": 2,
+              "grid_size_uncertain": false,
+              "mode": "input"
+            },
+            {
+              "example": 2,
+              "grid_size_uncertain": false,
+              "mode": "output"
+            },
+            {
+              "example": 3,
+              "grid_size_uncertain": false,
+              "mode": "input"
+            }
+          ],
+          "in_out_same_size": true
+        },
+        "mask_hash": "eeb109a4fd6d3c179b3d2077e6468c5eedd9868bff1c2a5269dee1b53d804acf",
+        "n_examples": 4,
+        "n_test": 1,
+        "n_train": 3,
+        "n_x": 30,
+        "n_y": 30,
+        "predicted_query_output_shapes": [
+          [
+            30,
+            30
+          ]
+        ],
+        "problem_hash": "0ed45f779703fd6cc63ca31a9d7230fe06bd9f9514216b8604f69b0af35b1a46",
+        "shapes": [
+          [
+            [
+              30,
+              30
+            ],
+            [
+              30,
+              30
+            ]
+          ],
+          [
+            [
+              30,
+              30
+            ],
+            [
+              30,
+              30
+            ]
+          ],
+          [
+            [
+              30,
+              30
+            ],
+            [
+              30,
+              30
+            ]
+          ],
+          [
+            [
+              30,
+              30
+            ],
+            [
+              30,
+              30
+            ]
+          ]
+        ]
+      },
+      "task_flag_flip_under_s": {
+        "all_in_same_size": {
+          "after": true,
+          "before": true
+        },
+        "all_out_same_size": {
+          "after": true,
+          "before": true
+        },
+        "grid_size_uncertain_branches": {
+          "after": [
+            {
+              "example": 0,
+              "grid_size_uncertain": false,
+              "mode": "input"
+            },
+            {
+              "example": 0,
+              "grid_size_uncertain": false,
+              "mode": "output"
+            },
+            {
+              "example": 1,
+              "grid_size_uncertain": false,
+              "mode": "input"
+            },
+            {
+              "example": 1,
+              "grid_size_uncertain": false,
+              "mode": "output"
+            },
+            {
+              "example": 2,
+              "grid_size_uncertain": false,
+              "mode": "input"
+            },
+            {
+              "example": 2,
+              "grid_size_uncertain": false,
+              "mode": "output"
+            },
+            {
+              "example": 3,
+              "grid_size_uncertain": false,
+              "mode": "input"
+            }
+          ],
+          "before": [
+            {
+              "example": 0,
+              "grid_size_uncertain": false,
+              "mode": "input"
+            },
+            {
+              "example": 0,
+              "grid_size_uncertain": false,
+              "mode": "output"
+            },
+            {
+              "example": 1,
+              "grid_size_uncertain": false,
+              "mode": "input"
+            },
+            {
+              "example": 1,
+              "grid_size_uncertain": false,
+              "mode": "output"
+            },
+            {
+              "example": 2,
+              "grid_size_uncertain": false,
+              "mode": "input"
+            },
+            {
+              "example": 2,
+              "grid_size_uncertain": false,
+              "mode": "output"
+            },
+            {
+              "example": 3,
+              "grid_size_uncertain": false,
+              "mode": "input"
+            }
+          ]
+        },
+        "in_out_same_size": {
+          "after": true,
+          "before": true
+        }
+      },
+      "task_id": "3ed85e70",
+      "task_masks_equal_under_s": true,
+      "task_shapes_equal_under_s": true,
+      "y_signatures": [
+        {
+          "output_mask_hash": "12b7595c74b20696da82533196f536e9e3d38c7a2f6af6b049139e68f932ebfb",
+          "output_preprocessing_branch_flags": {
+            "all_in_same_size": true,
+            "all_out_same_size": true,
+            "grid_size_uncertain": false,
+            "in_out_same_size": true
+          },
+          "output_shape": [
+            30,
+            30
+          ]
+        },
+        {
+          "output_mask_hash": "12b7595c74b20696da82533196f536e9e3d38c7a2f6af6b049139e68f932ebfb",
+          "output_preprocessing_branch_flags": {
+            "all_in_same_size": true,
+            "all_out_same_size": true,
+            "grid_size_uncertain": false,
+            "in_out_same_size": true
+          },
+          "output_shape": [
+            30,
+            30
+          ]
+        },
+        {
+          "output_mask_hash": "12b7595c74b20696da82533196f536e9e3d38c7a2f6af6b049139e68f932ebfb",
+          "output_preprocessing_branch_flags": {
+            "all_in_same_size": true,
+            "all_out_same_size": true,
+            "grid_size_uncertain": false,
+            "in_out_same_size": true
+          },
+          "output_shape": [
+            30,
+            30
+          ]
+        }
+      ]
+    },
+    {
+      "all_in_same_size_after": false,
+      "all_in_same_size_before": false,
+      "all_out_same_size_after": false,
+      "all_out_same_size_before": false,
+      "base_snapshot": {
+        "colors": [
+          0,
+          1,
+          2,
+          4,
+          6,
+          8
+        ],
+        "flags": {
+          "all_in_same_size": false,
+          "all_out_same_size": false,
+          "grid_size_uncertain_branches": [
+            {
+              "example": 0,
+              "grid_size_uncertain": false,
+              "mode": "input"
+            },
+            {
+              "example": 0,
+              "grid_size_uncertain": false,
+              "mode": "output"
+            },
+            {
+              "example": 1,
+              "grid_size_uncertain": false,
+              "mode": "input"
+            },
+            {
+              "example": 1,
+              "grid_size_uncertain": false,
+              "mode": "output"
+            },
+            {
+              "example": 2,
+              "grid_size_uncertain": false,
+              "mode": "input"
+            },
+            {
+              "example": 2,
+              "grid_size_uncertain": false,
+              "mode": "output"
+            },
+            {
+              "example": 3,
+              "grid_size_uncertain": false,
+              "mode": "input"
+            }
+          ],
+          "in_out_same_size": true
+        },
+        "mask_hash": "05d8183527738d01ada5e69f1ffed05dcc7bd3031752b350cb91822a719f66e5",
+        "n_examples": 4,
+        "n_test": 1,
+        "n_train": 3,
+        "n_x": 28,
+        "n_y": 27,
+        "predicted_query_output_shapes": [
+          [
+            26,
+            27
+          ]
+        ],
+        "problem_hash": "fdd5850afe38648d0d664e1b9f6749d5725e7279cc36ea309c75fb0d5b226589",
+        "shapes": [
+          [
+            [
+              28,
+              23
+            ],
+            [
+              28,
+              23
+            ]
+          ],
+          [
+            [
+              23,
+              25
+            ],
+            [
+              23,
+              25
+            ]
+          ],
+          [
+            [
+              20,
+              15
+            ],
+            [
+              20,
+              15
+            ]
+          ],
+          [
+            [
+              26,
+              27
+            ],
+            [
+              26,
+              27
+            ]
+          ]
+        ]
+      },
+      "grid_size_uncertain_branch_equal_under_s": false,
+      "in_out_same_size_after": false,
+      "in_out_same_size_before": true,
+      "lemma_assumption_status": "LEMMA_NOT_CLAIMED",
+      "non_invariant_possible_impacts": {
+        "all_in_same_size": false,
+        "all_out_same_size": false,
+        "grid_size_uncertainty_branch": true,
+        "hidden_query_output_shape_prediction": true,
+        "in_out_same_size": true,
+        "loss_coefficient_schedule": true,
+        "per_slot_output_shape": true,
+        "support_output_mask": true
+      },
+      "predicted_query_shape_equal_under_s": false,
+      "s_cycle_invariance_reason": "one or more y_signature cycle comparisons differ",
+      "s_cycle_invariant": false,
+      "s_wrapper_reconstructs_task_normally": true,
+      "sigma": [
+        1,
+        2,
+        0
+      ],
+      "source_basis": [
+        {
+          "claim": "Task constructor recomputes shapes, multitensor system, masks, and problem tensor from the provided raw problem.",
+          "classification": "DIRECT_SOURCE_FACT",
+          "line_range": "15-28",
+          "pinned_commit": "83a22218024d46273eb32b769a906340202ffb4d",
+          "source_file": "preprocessing.py"
+        },
+        {
+          "claim": "Predicted hidden-query output shape is derived from in/out and all-output size flags.",
+          "classification": "DIRECT_SOURCE_FACT",
+          "line_range": "44-62",
+          "pinned_commit": "83a22218024d46273eb32b769a906340202ffb4d",
+          "source_file": "preprocessing.py"
+        },
+        {
+          "claim": "The reconstruction loss grid-size branch depends on in_out_same_size, all_out_same_size, and all_in_same_size.",
+          "classification": "DIRECT_SOURCE_FACT",
+          "line_range": "65-87",
+          "pinned_commit": "83a22218024d46273eb32b769a906340202ffb4d",
+          "source_file": "train.py"
+        }
+      ],
+      "stratum": "A",
+      "swapped_snapshot": {
+        "colors": [
+          0,
+          1,
+          2,
+          4,
+          6,
+          8
+        ],
+        "flags": {
+          "all_in_same_size": false,
+          "all_out_same_size": false,
+          "grid_size_uncertain_branches": [
+            {
+              "example": 0,
+              "grid_size_uncertain": true,
+              "mode": "input"
+            },
+            {
+              "example": 0,
+              "grid_size_uncertain": true,
+              "mode": "output"
+            },
+            {
+              "example": 1,
+              "grid_size_uncertain": true,
+              "mode": "input"
+            },
+            {
+              "example": 1,
+              "grid_size_uncertain": true,
+              "mode": "output"
+            },
+            {
+              "example": 2,
+              "grid_size_uncertain": true,
+              "mode": "input"
+            },
+            {
+              "example": 2,
+              "grid_size_uncertain": true,
+              "mode": "output"
+            },
+            {
+              "example": 3,
+              "grid_size_uncertain": true,
+              "mode": "input"
+            }
+          ],
+          "in_out_same_size": false
+        },
+        "mask_hash": "8943631ae7967db4f190af3b957feb7029f35244c338d2f34006768a3273a95e",
+        "n_examples": 4,
+        "n_test": 1,
+        "n_train": 3,
+        "n_x": 28,
+        "n_y": 27,
+        "predicted_query_output_shapes": [
+          [
+            28,
+            27
+          ]
+        ],
+        "problem_hash": "fdc93abdc5ab95dd921fc3852312a5b9c2aa923b6e5cc5b9ef46662ffd7d9571",
+        "shapes": [
+          [
+            [
+              28,
+              23
+            ],
+            [
+              23,
+              25
+            ]
+          ],
+          [
+            [
+              23,
+              25
+            ],
+            [
+              20,
+              15
+            ]
+          ],
+          [
+            [
+              20,
+              15
+            ],
+            [
+              28,
+              23
+            ]
+          ],
+          [
+            [
+              26,
+              27
+            ],
+            [
+              28,
+              27
+            ]
+          ]
+        ]
+      },
+      "task_flag_flip_under_s": {
+        "all_in_same_size": {
+          "after": false,
+          "before": false
+        },
+        "all_out_same_size": {
+          "after": false,
+          "before": false
+        },
+        "grid_size_uncertain_branches": {
+          "after": [
+            {
+              "example": 0,
+              "grid_size_uncertain": true,
+              "mode": "input"
+            },
+            {
+              "example": 0,
+              "grid_size_uncertain": true,
+              "mode": "output"
+            },
+            {
+              "example": 1,
+              "grid_size_uncertain": true,
+              "mode": "input"
+            },
+            {
+              "example": 1,
+              "grid_size_uncertain": true,
+              "mode": "output"
+            },
+            {
+              "example": 2,
+              "grid_size_uncertain": true,
+              "mode": "input"
+            },
+            {
+              "example": 2,
+              "grid_size_uncertain": true,
+              "mode": "output"
+            },
+            {
+              "example": 3,
+              "grid_size_uncertain": true,
+              "mode": "input"
+            }
+          ],
+          "before": [
+            {
+              "example": 0,
+              "grid_size_uncertain": false,
+              "mode": "input"
+            },
+            {
+              "example": 0,
+              "grid_size_uncertain": false,
+              "mode": "output"
+            },
+            {
+              "example": 1,
+              "grid_size_uncertain": false,
+              "mode": "input"
+            },
+            {
+              "example": 1,
+              "grid_size_uncertain": false,
+              "mode": "output"
+            },
+            {
+              "example": 2,
+              "grid_size_uncertain": false,
+              "mode": "input"
+            },
+            {
+              "example": 2,
+              "grid_size_uncertain": false,
+              "mode": "output"
+            },
+            {
+              "example": 3,
+              "grid_size_uncertain": false,
+              "mode": "input"
+            }
+          ]
+        },
+        "in_out_same_size": {
+          "after": false,
+          "before": true
+        }
+      },
+      "task_id": "aa4ec2a5",
+      "task_masks_equal_under_s": false,
+      "task_shapes_equal_under_s": false,
+      "y_signatures": [
+        {
+          "output_mask_hash": "afcab2f61ba035212363a0fbd10921076a8571ca9d453dc8f2ee77156429035f",
+          "output_preprocessing_branch_flags": {
+            "all_in_same_size": false,
+            "all_out_same_size": false,
+            "grid_size_uncertain": false,
+            "in_out_same_size": true
+          },
+          "output_shape": [
+            28,
+            23
+          ]
+        },
+        {
+          "output_mask_hash": "2628b0c4c49d519f59d8e32f2b1ea2a03d5f3a82585053a6987f2a4cd9b3d767",
+          "output_preprocessing_branch_flags": {
+            "all_in_same_size": false,
+            "all_out_same_size": false,
+            "grid_size_uncertain": false,
+            "in_out_same_size": true
+          },
+          "output_shape": [
+            23,
+            25
+          ]
+        },
+        {
+          "output_mask_hash": "48510769326dc81fdb7671d33f3816f74eb005929d79cf633944ce3158dc9f60",
+          "output_preprocessing_branch_flags": {
+            "all_in_same_size": false,
+            "all_out_same_size": false,
+            "grid_size_uncertain": false,
+            "in_out_same_size": true
+          },
+          "output_shape": [
+            20,
+            15
+          ]
+        }
+      ]
+    },
+    {
+      "all_in_same_size_after": true,
+      "all_in_same_size_before": true,
+      "all_out_same_size_after": true,
+      "all_out_same_size_before": true,
+      "base_snapshot": {
+        "colors": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "flags": {
+          "all_in_same_size": true,
+          "all_out_same_size": true,
+          "grid_size_uncertain_branches": [
+            {
+              "example": 0,
+              "grid_size_uncertain": false,
+              "mode": "input"
+            },
+            {
+              "example": 0,
+              "grid_size_uncertain": false,
+              "mode": "output"
+            },
+            {
+              "example": 1,
+              "grid_size_uncertain": false,
+              "mode": "input"
+            },
+            {
+              "example": 1,
+              "grid_size_uncertain": false,
+              "mode": "output"
+            },
+            {
+              "example": 2,
+              "grid_size_uncertain": false,
+              "mode": "input"
+            },
+            {
+              "example": 2,
+              "grid_size_uncertain": false,
+              "mode": "output"
+            },
+            {
+              "example": 3,
+              "grid_size_uncertain": false,
+              "mode": "input"
+            },
+            {
+              "example": 3,
+              "grid_size_uncertain": false,
+              "mode": "output"
+            },
+            {
+              "example": 4,
+              "grid_size_uncertain": false,
+              "mode": "input"
+            }
+          ],
+          "in_out_same_size": true
+        },
+        "mask_hash": "8bb1adb2b4a6ea8673d206dd6fea25f93f41ea965c56235788c418ac522f36c9",
+        "n_examples": 5,
+        "n_test": 1,
+        "n_train": 4,
+        "n_x": 24,
+        "n_y": 24,
+        "predicted_query_output_shapes": [
+          [
+            24,
+            24
+          ]
+        ],
+        "problem_hash": "d1e8cfe4d4e150150603a512880097dab3eed94ec74d3851f92f3469e7b3bf91",
+        "shapes": [
+          [
+            [
+              24,
+              24
+            ],
+            [
+              24,
+              24
+            ]
+          ],
+          [
+            [
+              24,
+              24
+            ],
+            [
+              24,
+              24
+            ]
+          ],
+          [
+            [
+              24,
+              24
+            ],
+            [
+              24,
+              24
+            ]
+          ],
+          [
+            [
+              24,
+              24
+            ],
+            [
+              24,
+              24
+            ]
+          ],
+          [
+            [
+              24,
+              24
+            ],
+            [
+              24,
+              24
+            ]
+          ]
+        ]
+      },
+      "grid_size_uncertain_branch_equal_under_s": true,
+      "in_out_same_size_after": true,
+      "in_out_same_size_before": true,
+      "lemma_assumption_status": "LEMMA_VERIFIED_FOR_TASK",
+      "non_invariant_possible_impacts": {},
+      "predicted_query_shape_equal_under_s": true,
+      "s_cycle_invariance_reason": "all y_signature(i) equal y_signature(sigma(i))",
+      "s_cycle_invariant": true,
+      "s_wrapper_reconstructs_task_normally": true,
+      "sigma": [
+        3,
+        2,
+        1,
+        0
+      ],
+      "source_basis": [
+        {
+          "claim": "Task constructor recomputes shapes, multitensor system, masks, and problem tensor from the provided raw problem.",
+          "classification": "DIRECT_SOURCE_FACT",
+          "line_range": "15-28",
+          "pinned_commit": "83a22218024d46273eb32b769a906340202ffb4d",
+          "source_file": "preprocessing.py"
+        },
+        {
+          "claim": "Predicted hidden-query output shape is derived from in/out and all-output size flags.",
+          "classification": "DIRECT_SOURCE_FACT",
+          "line_range": "44-62",
+          "pinned_commit": "83a22218024d46273eb32b769a906340202ffb4d",
+          "source_file": "preprocessing.py"
+        },
+        {
+          "claim": "The reconstruction loss grid-size branch depends on in_out_same_size, all_out_same_size, and all_in_same_size.",
+          "classification": "DIRECT_SOURCE_FACT",
+          "line_range": "65-87",
+          "pinned_commit": "83a22218024d46273eb32b769a906340202ffb4d",
+          "source_file": "train.py"
+        }
+      ],
+      "stratum": "A",
+      "swapped_snapshot": {
+        "colors": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "flags": {
+          "all_in_same_size": true,
+          "all_out_same_size": true,
+          "grid_size_uncertain_branches": [
+            {
+              "example": 0,
+              "grid_size_uncertain": false,
+              "mode": "input"
+            },
+            {
+              "example": 0,
+              "grid_size_uncertain": false,
+              "mode": "output"
+            },
+            {
+              "example": 1,
+              "grid_size_uncertain": false,
+              "mode": "input"
+            },
+            {
+              "example": 1,
+              "grid_size_uncertain": false,
+              "mode": "output"
+            },
+            {
+              "example": 2,
+              "grid_size_uncertain": false,
+              "mode": "input"
+            },
+            {
+              "example": 2,
+              "grid_size_uncertain": false,
+              "mode": "output"
+            },
+            {
+              "example": 3,
+              "grid_size_uncertain": false,
+              "mode": "input"
+            },
+            {
+              "example": 3,
+              "grid_size_uncertain": false,
+              "mode": "output"
+            },
+            {
+              "example": 4,
+              "grid_size_uncertain": false,
+              "mode": "input"
+            }
+          ],
+          "in_out_same_size": true
+        },
+        "mask_hash": "8bb1adb2b4a6ea8673d206dd6fea25f93f41ea965c56235788c418ac522f36c9",
+        "n_examples": 5,
+        "n_test": 1,
+        "n_train": 4,
+        "n_x": 24,
+        "n_y": 24,
+        "predicted_query_output_shapes": [
+          [
+            24,
+            24
+          ]
+        ],
+        "problem_hash": "0301c5cdc76cc335950fab73463ea5ce57667be164265611763541b17a89a314",
+        "shapes": [
+          [
+            [
+              24,
+              24
+            ],
+            [
+              24,
+              24
+            ]
+          ],
+          [
+            [
+              24,
+              24
+            ],
+            [
+              24,
+              24
+            ]
+          ],
+          [
+            [
+              24,
+              24
+            ],
+            [
+              24,
+              24
+            ]
+          ],
+          [
+            [
+              24,
+              24
+            ],
+            [
+              24,
+              24
+            ]
+          ],
+          [
+            [
+              24,
+              24
+            ],
+            [
+              24,
+              24
+            ]
+          ]
+        ]
+      },
+      "task_flag_flip_under_s": {
+        "all_in_same_size": {
+          "after": true,
+          "before": true
+        },
+        "all_out_same_size": {
+          "after": true,
+          "before": true
+        },
+        "grid_size_uncertain_branches": {
+          "after": [
+            {
+              "example": 0,
+              "grid_size_uncertain": false,
+              "mode": "input"
+            },
+            {
+              "example": 0,
+              "grid_size_uncertain": false,
+              "mode": "output"
+            },
+            {
+              "example": 1,
+              "grid_size_uncertain": false,
+              "mode": "input"
+            },
+            {
+              "example": 1,
+              "grid_size_uncertain": false,
+              "mode": "output"
+            },
+            {
+              "example": 2,
+              "grid_size_uncertain": false,
+              "mode": "input"
+            },
+            {
+              "example": 2,
+              "grid_size_uncertain": false,
+              "mode": "output"
+            },
+            {
+              "example": 3,
+              "grid_size_uncertain": false,
+              "mode": "input"
+            },
+            {
+              "example": 3,
+              "grid_size_uncertain": false,
+              "mode": "output"
+            },
+            {
+              "example": 4,
+              "grid_size_uncertain": false,
+              "mode": "input"
+            }
+          ],
+          "before": [
+            {
+              "example": 0,
+              "grid_size_uncertain": false,
+              "mode": "input"
+            },
+            {
+              "example": 0,
+              "grid_size_uncertain": false,
+              "mode": "output"
+            },
+            {
+              "example": 1,
+              "grid_size_uncertain": false,
+              "mode": "input"
+            },
+            {
+              "example": 1,
+              "grid_size_uncertain": false,
+              "mode": "output"
+            },
+            {
+              "example": 2,
+              "grid_size_uncertain": false,
+              "mode": "input"
+            },
+            {
+              "example": 2,
+              "grid_size_uncertain": false,
+              "mode": "output"
+            },
+            {
+              "example": 3,
+              "grid_size_uncertain": false,
+              "mode": "input"
+            },
+            {
+              "example": 3,
+              "grid_size_uncertain": false,
+              "mode": "output"
+            },
+            {
+              "example": 4,
+              "grid_size_uncertain": false,
+              "mode": "input"
+            }
+          ]
+        },
+        "in_out_same_size": {
+          "after": true,
+          "before": true
+        }
+      },
+      "task_id": "929ab4e9",
+      "task_masks_equal_under_s": true,
+      "task_shapes_equal_under_s": true,
+      "y_signatures": [
+        {
+          "output_mask_hash": "c8c42c2763a79bc130e27f4ec20df0b3f37efc9ed3ac1cb6db4d78a655151f89",
+          "output_preprocessing_branch_flags": {
+            "all_in_same_size": true,
+            "all_out_same_size": true,
+            "grid_size_uncertain": false,
+            "in_out_same_size": true
+          },
+          "output_shape": [
+            24,
+            24
+          ]
+        },
+        {
+          "output_mask_hash": "c8c42c2763a79bc130e27f4ec20df0b3f37efc9ed3ac1cb6db4d78a655151f89",
+          "output_preprocessing_branch_flags": {
+            "all_in_same_size": true,
+            "all_out_same_size": true,
+            "grid_size_uncertain": false,
+            "in_out_same_size": true
+          },
+          "output_shape": [
+            24,
+            24
+          ]
+        },
+        {
+          "output_mask_hash": "c8c42c2763a79bc130e27f4ec20df0b3f37efc9ed3ac1cb6db4d78a655151f89",
+          "output_preprocessing_branch_flags": {
+            "all_in_same_size": true,
+            "all_out_same_size": true,
+            "grid_size_uncertain": false,
+            "in_out_same_size": true
+          },
+          "output_shape": [
+            24,
+            24
+          ]
+        },
+        {
+          "output_mask_hash": "c8c42c2763a79bc130e27f4ec20df0b3f37efc9ed3ac1cb6db4d78a655151f89",
+          "output_preprocessing_branch_flags": {
+            "all_in_same_size": true,
+            "all_out_same_size": true,
+            "grid_size_uncertain": false,
+            "in_out_same_size": true
+          },
+          "output_shape": [
+            24,
+            24
+          ]
+        }
+      ]
+    },
+    {
+      "all_in_same_size_after": true,
+      "all_in_same_size_before": true,
+      "all_out_same_size_after": true,
+      "all_out_same_size_before": true,
+      "base_snapshot": {
+        "colors": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "flags": {
+          "all_in_same_size": true,
+          "all_out_same_size": true,
+          "grid_size_uncertain_branches": [
+            {
+              "example": 0,
+              "grid_size_uncertain": false,
+              "mode": "input"
+            },
+            {
+              "example": 0,
+              "grid_size_uncertain": false,
+              "mode": "output"
+            },
+            {
+              "example": 1,
+              "grid_size_uncertain": false,
+              "mode": "input"
+            },
+            {
+              "example": 1,
+              "grid_size_uncertain": false,
+              "mode": "output"
+            },
+            {
+              "example": 2,
+              "grid_size_uncertain": false,
+              "mode": "input"
+            },
+            {
+              "example": 2,
+              "grid_size_uncertain": false,
+              "mode": "output"
+            },
+            {
+              "example": 3,
+              "grid_size_uncertain": false,
+              "mode": "input"
+            }
+          ],
+          "in_out_same_size": true
+        },
+        "mask_hash": "737cf9135e98a5ef64190c2159e50b76eb546379f36183e56a52591cb4b5a013",
+        "n_examples": 4,
+        "n_test": 1,
+        "n_train": 3,
+        "n_x": 21,
+        "n_y": 21,
+        "predicted_query_output_shapes": [
+          [
+            21,
+            21
+          ]
+        ],
+        "problem_hash": "b21b44d67011769c38c11ce34a1379cc66209245230c2759099425b1b6a1f4cb",
+        "shapes": [
+          [
+            [
+              21,
+              21
+            ],
+            [
+              21,
+              21
+            ]
+          ],
+          [
+            [
+              21,
+              21
+            ],
+            [
+              21,
+              21
+            ]
+          ],
+          [
+            [
+              21,
+              21
+            ],
+            [
+              21,
+              21
+            ]
+          ],
+          [
+            [
+              21,
+              21
+            ],
+            [
+              21,
+              21
+            ]
+          ]
+        ]
+      },
+      "grid_size_uncertain_branch_equal_under_s": true,
+      "in_out_same_size_after": true,
+      "in_out_same_size_before": true,
+      "lemma_assumption_status": "LEMMA_VERIFIED_FOR_TASK",
+      "non_invariant_possible_impacts": {},
+      "predicted_query_shape_equal_under_s": true,
+      "s_cycle_invariance_reason": "all y_signature(i) equal y_signature(sigma(i))",
+      "s_cycle_invariant": true,
+      "s_wrapper_reconstructs_task_normally": true,
+      "sigma": [
+        1,
+        2,
+        0
+      ],
+      "source_basis": [
+        {
+          "claim": "Task constructor recomputes shapes, multitensor system, masks, and problem tensor from the provided raw problem.",
+          "classification": "DIRECT_SOURCE_FACT",
+          "line_range": "15-28",
+          "pinned_commit": "83a22218024d46273eb32b769a906340202ffb4d",
+          "source_file": "preprocessing.py"
+        },
+        {
+          "claim": "Predicted hidden-query output shape is derived from in/out and all-output size flags.",
+          "classification": "DIRECT_SOURCE_FACT",
+          "line_range": "44-62",
+          "pinned_commit": "83a22218024d46273eb32b769a906340202ffb4d",
+          "source_file": "preprocessing.py"
+        },
+        {
+          "claim": "The reconstruction loss grid-size branch depends on in_out_same_size, all_out_same_size, and all_in_same_size.",
+          "classification": "DIRECT_SOURCE_FACT",
+          "line_range": "65-87",
+          "pinned_commit": "83a22218024d46273eb32b769a906340202ffb4d",
+          "source_file": "train.py"
+        }
+      ],
+      "stratum": "B",
+      "swapped_snapshot": {
+        "colors": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "flags": {
+          "all_in_same_size": true,
+          "all_out_same_size": true,
+          "grid_size_uncertain_branches": [
+            {
+              "example": 0,
+              "grid_size_uncertain": false,
+              "mode": "input"
+            },
+            {
+              "example": 0,
+              "grid_size_uncertain": false,
+              "mode": "output"
+            },
+            {
+              "example": 1,
+              "grid_size_uncertain": false,
+              "mode": "input"
+            },
+            {
+              "example": 1,
+              "grid_size_uncertain": false,
+              "mode": "output"
+            },
+            {
+              "example": 2,
+              "grid_size_uncertain": false,
+              "mode": "input"
+            },
+            {
+              "example": 2,
+              "grid_size_uncertain": false,
+              "mode": "output"
+            },
+            {
+              "example": 3,
+              "grid_size_uncertain": false,
+              "mode": "input"
+            }
+          ],
+          "in_out_same_size": true
+        },
+        "mask_hash": "737cf9135e98a5ef64190c2159e50b76eb546379f36183e56a52591cb4b5a013",
+        "n_examples": 4,
+        "n_test": 1,
+        "n_train": 3,
+        "n_x": 21,
+        "n_y": 21,
+        "predicted_query_output_shapes": [
+          [
+            21,
+            21
+          ]
+        ],
+        "problem_hash": "c9a6d7c0735a5f1374daee5f2f69d1dd96e10eb89cee19aeca0e2e92cc5103db",
+        "shapes": [
+          [
+            [
+              21,
+              21
+            ],
+            [
+              21,
+              21
+            ]
+          ],
+          [
+            [
+              21,
+              21
+            ],
+            [
+              21,
+              21
+            ]
+          ],
+          [
+            [
+              21,
+              21
+            ],
+            [
+              21,
+              21
+            ]
+          ],
+          [
+            [
+              21,
+              21
+            ],
+            [
+              21,
+              21
+            ]
+          ]
+        ]
+      },
+      "task_flag_flip_under_s": {
+        "all_in_same_size": {
+          "after": true,
+          "before": true
+        },
+        "all_out_same_size": {
+          "after": true,
+          "before": true
+        },
+        "grid_size_uncertain_branches": {
+          "after": [
+            {
+              "example": 0,
+              "grid_size_uncertain": false,
+              "mode": "input"
+            },
+            {
+              "example": 0,
+              "grid_size_uncertain": false,
+              "mode": "output"
+            },
+            {
+              "example": 1,
+              "grid_size_uncertain": false,
+              "mode": "input"
+            },
+            {
+              "example": 1,
+              "grid_size_uncertain": false,
+              "mode": "output"
+            },
+            {
+              "example": 2,
+              "grid_size_uncertain": false,
+              "mode": "input"
+            },
+            {
+              "example": 2,
+              "grid_size_uncertain": false,
+              "mode": "output"
+            },
+            {
+              "example": 3,
+              "grid_size_uncertain": false,
+              "mode": "input"
+            }
+          ],
+          "before": [
+            {
+              "example": 0,
+              "grid_size_uncertain": false,
+              "mode": "input"
+            },
+            {
+              "example": 0,
+              "grid_size_uncertain": false,
+              "mode": "output"
+            },
+            {
+              "example": 1,
+              "grid_size_uncertain": false,
+              "mode": "input"
+            },
+            {
+              "example": 1,
+              "grid_size_uncertain": false,
+              "mode": "output"
+            },
+            {
+              "example": 2,
+              "grid_size_uncertain": false,
+              "mode": "input"
+            },
+            {
+              "example": 2,
+              "grid_size_uncertain": false,
+              "mode": "output"
+            },
+            {
+              "example": 3,
+              "grid_size_uncertain": false,
+              "mode": "input"
+            }
+          ]
+        },
+        "in_out_same_size": {
+          "after": true,
+          "before": true
+        }
+      },
+      "task_id": "0dfd9992",
+      "task_masks_equal_under_s": true,
+      "task_shapes_equal_under_s": true,
+      "y_signatures": [
+        {
+          "output_mask_hash": "f13f801f6edbc55aa45f748eeb6643369b84296314548a2de35f48fc2c2569ff",
+          "output_preprocessing_branch_flags": {
+            "all_in_same_size": true,
+            "all_out_same_size": true,
+            "grid_size_uncertain": false,
+            "in_out_same_size": true
+          },
+          "output_shape": [
+            21,
+            21
+          ]
+        },
+        {
+          "output_mask_hash": "f13f801f6edbc55aa45f748eeb6643369b84296314548a2de35f48fc2c2569ff",
+          "output_preprocessing_branch_flags": {
+            "all_in_same_size": true,
+            "all_out_same_size": true,
+            "grid_size_uncertain": false,
+            "in_out_same_size": true
+          },
+          "output_shape": [
+            21,
+            21
+          ]
+        },
+        {
+          "output_mask_hash": "f13f801f6edbc55aa45f748eeb6643369b84296314548a2de35f48fc2c2569ff",
+          "output_preprocessing_branch_flags": {
+            "all_in_same_size": true,
+            "all_out_same_size": true,
+            "grid_size_uncertain": false,
+            "in_out_same_size": true
+          },
+          "output_shape": [
+            21,
+            21
+          ]
+        }
+      ]
+    },
+    {
+      "all_in_same_size_after": false,
+      "all_in_same_size_before": false,
+      "all_out_same_size_after": false,
+      "all_out_same_size_before": false,
+      "base_snapshot": {
+        "colors": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          8,
+          9
+        ],
+        "flags": {
+          "all_in_same_size": false,
+          "all_out_same_size": false,
+          "grid_size_uncertain_branches": [
+            {
+              "example": 0,
+              "grid_size_uncertain": true,
+              "mode": "input"
+            },
+            {
+              "example": 0,
+              "grid_size_uncertain": true,
+              "mode": "output"
+            },
+            {
+              "example": 1,
+              "grid_size_uncertain": true,
+              "mode": "input"
+            },
+            {
+              "example": 1,
+              "grid_size_uncertain": true,
+              "mode": "output"
+            },
+            {
+              "example": 2,
+              "grid_size_uncertain": true,
+              "mode": "input"
+            },
+            {
+              "example": 2,
+              "grid_size_uncertain": true,
+              "mode": "output"
+            },
+            {
+              "example": 3,
+              "grid_size_uncertain": true,
+              "mode": "input"
+            }
+          ],
+          "in_out_same_size": false
+        },
+        "mask_hash": "b4e8010a8cfd3998587e3bc86c4bc2e218e25204c9e9b3e5b4280d8b6d0909fb",
+        "n_examples": 4,
+        "n_test": 1,
+        "n_train": 3,
+        "n_x": 23,
+        "n_y": 21,
+        "predicted_query_output_shapes": [
+          [
+            23,
+            21
+          ]
+        ],
+        "problem_hash": "5c21bc091b0b2895864d77152af57990c47a5aa34fb0c3f647beda6063dd3f37",
+        "shapes": [
+          [
+            [
+              23,
+              21
+            ],
+            [
+              6,
+              8
+            ]
+          ],
+          [
+            [
+              13,
+              16
+            ],
+            [
+              5,
+              3
+            ]
+          ],
+          [
+            [
+              17,
+              18
+            ],
+            [
+              8,
+              10
+            ]
+          ],
+          [
+            [
+              17,
+              16
+            ],
+            [
+              23,
+              21
+            ]
+          ]
+        ]
+      },
+      "grid_size_uncertain_branch_equal_under_s": true,
+      "in_out_same_size_after": false,
+      "in_out_same_size_before": false,
+      "lemma_assumption_status": "LEMMA_NOT_CLAIMED",
+      "non_invariant_possible_impacts": {
+        "all_in_same_size": false,
+        "all_out_same_size": false,
+        "grid_size_uncertainty_branch": false,
+        "hidden_query_output_shape_prediction": false,
+        "in_out_same_size": false,
+        "loss_coefficient_schedule": false,
+        "per_slot_output_shape": true,
+        "support_output_mask": true
+      },
+      "predicted_query_shape_equal_under_s": true,
+      "s_cycle_invariance_reason": "one or more y_signature cycle comparisons differ",
+      "s_cycle_invariant": false,
+      "s_wrapper_reconstructs_task_normally": true,
+      "sigma": [
+        1,
+        2,
+        0
+      ],
+      "source_basis": [
+        {
+          "claim": "Task constructor recomputes shapes, multitensor system, masks, and problem tensor from the provided raw problem.",
+          "classification": "DIRECT_SOURCE_FACT",
+          "line_range": "15-28",
+          "pinned_commit": "83a22218024d46273eb32b769a906340202ffb4d",
+          "source_file": "preprocessing.py"
+        },
+        {
+          "claim": "Predicted hidden-query output shape is derived from in/out and all-output size flags.",
+          "classification": "DIRECT_SOURCE_FACT",
+          "line_range": "44-62",
+          "pinned_commit": "83a22218024d46273eb32b769a906340202ffb4d",
+          "source_file": "preprocessing.py"
+        },
+        {
+          "claim": "The reconstruction loss grid-size branch depends on in_out_same_size, all_out_same_size, and all_in_same_size.",
+          "classification": "DIRECT_SOURCE_FACT",
+          "line_range": "65-87",
+          "pinned_commit": "83a22218024d46273eb32b769a906340202ffb4d",
+          "source_file": "train.py"
+        }
+      ],
+      "stratum": "B",
+      "swapped_snapshot": {
+        "colors": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          8,
+          9
+        ],
+        "flags": {
+          "all_in_same_size": false,
+          "all_out_same_size": false,
+          "grid_size_uncertain_branches": [
+            {
+              "example": 0,
+              "grid_size_uncertain": true,
+              "mode": "input"
+            },
+            {
+              "example": 0,
+              "grid_size_uncertain": true,
+              "mode": "output"
+            },
+            {
+              "example": 1,
+              "grid_size_uncertain": true,
+              "mode": "input"
+            },
+            {
+              "example": 1,
+              "grid_size_uncertain": true,
+              "mode": "output"
+            },
+            {
+              "example": 2,
+              "grid_size_uncertain": true,
+              "mode": "input"
+            },
+            {
+              "example": 2,
+              "grid_size_uncertain": true,
+              "mode": "output"
+            },
+            {
+              "example": 3,
+              "grid_size_uncertain": true,
+              "mode": "input"
+            }
+          ],
+          "in_out_same_size": false
+        },
+        "mask_hash": "736086b24d8174c7f1e617760602854e92bebd896c71994b68f0dd6f72ff2a21",
+        "n_examples": 4,
+        "n_test": 1,
+        "n_train": 3,
+        "n_x": 23,
+        "n_y": 21,
+        "predicted_query_output_shapes": [
+          [
+            23,
+            21
+          ]
+        ],
+        "problem_hash": "7ee0fd1aee2dfda57cbd5de18530e795c012af51da1d8015484d6aee7c3b70c3",
+        "shapes": [
+          [
+            [
+              23,
+              21
+            ],
+            [
+              5,
+              3
+            ]
+          ],
+          [
+            [
+              13,
+              16
+            ],
+            [
+              8,
+              10
+            ]
+          ],
+          [
+            [
+              17,
+              18
+            ],
+            [
+              6,
+              8
+            ]
+          ],
+          [
+            [
+              17,
+              16
+            ],
+            [
+              23,
+              21
+            ]
+          ]
+        ]
+      },
+      "task_flag_flip_under_s": {
+        "all_in_same_size": {
+          "after": false,
+          "before": false
+        },
+        "all_out_same_size": {
+          "after": false,
+          "before": false
+        },
+        "grid_size_uncertain_branches": {
+          "after": [
+            {
+              "example": 0,
+              "grid_size_uncertain": true,
+              "mode": "input"
+            },
+            {
+              "example": 0,
+              "grid_size_uncertain": true,
+              "mode": "output"
+            },
+            {
+              "example": 1,
+              "grid_size_uncertain": true,
+              "mode": "input"
+            },
+            {
+              "example": 1,
+              "grid_size_uncertain": true,
+              "mode": "output"
+            },
+            {
+              "example": 2,
+              "grid_size_uncertain": true,
+              "mode": "input"
+            },
+            {
+              "example": 2,
+              "grid_size_uncertain": true,
+              "mode": "output"
+            },
+            {
+              "example": 3,
+              "grid_size_uncertain": true,
+              "mode": "input"
+            }
+          ],
+          "before": [
+            {
+              "example": 0,
+              "grid_size_uncertain": true,
+              "mode": "input"
+            },
+            {
+              "example": 0,
+              "grid_size_uncertain": true,
+              "mode": "output"
+            },
+            {
+              "example": 1,
+              "grid_size_uncertain": true,
+              "mode": "input"
+            },
+            {
+              "example": 1,
+              "grid_size_uncertain": true,
+              "mode": "output"
+            },
+            {
+              "example": 2,
+              "grid_size_uncertain": true,
+              "mode": "input"
+            },
+            {
+              "example": 2,
+              "grid_size_uncertain": true,
+              "mode": "output"
+            },
+            {
+              "example": 3,
+              "grid_size_uncertain": true,
+              "mode": "input"
+            }
+          ]
+        },
+        "in_out_same_size": {
+          "after": false,
+          "before": false
+        }
+      },
+      "task_id": "1c786137",
+      "task_masks_equal_under_s": false,
+      "task_shapes_equal_under_s": false,
+      "y_signatures": [
+        {
+          "output_mask_hash": "338fc4bde42916bf43aae9305d372e89022667397b56fbd4dd38e4331c185894",
+          "output_preprocessing_branch_flags": {
+            "all_in_same_size": false,
+            "all_out_same_size": false,
+            "grid_size_uncertain": true,
+            "in_out_same_size": false
+          },
+          "output_shape": [
+            6,
+            8
+          ]
+        },
+        {
+          "output_mask_hash": "9a48ee64715b7309a5df3883b7c56dad85f6b2951250f2e872fc473710f7f87d",
+          "output_preprocessing_branch_flags": {
+            "all_in_same_size": false,
+            "all_out_same_size": false,
+            "grid_size_uncertain": true,
+            "in_out_same_size": false
+          },
+          "output_shape": [
+            5,
+            3
+          ]
+        },
+        {
+          "output_mask_hash": "c984f14b00bf4f3bd99c785f678f24029933f1dd115219aec2ddbc25edd1d0de",
+          "output_preprocessing_branch_flags": {
+            "all_in_same_size": false,
+            "all_out_same_size": false,
+            "grid_size_uncertain": true,
+            "in_out_same_size": false
+          },
+          "output_shape": [
+            8,
+            10
+          ]
+        }
+      ]
+    },
+    {
+      "all_in_same_size_after": true,
+      "all_in_same_size_before": true,
+      "all_out_same_size_after": true,
+      "all_out_same_size_before": true,
+      "base_snapshot": {
+        "colors": [
+          0,
+          2,
+          3,
+          4,
+          6,
+          7,
+          8,
+          9
+        ],
+        "flags": {
+          "all_in_same_size": true,
+          "all_out_same_size": true,
+          "grid_size_uncertain_branches": [
+            {
+              "example": 0,
+              "grid_size_uncertain": false,
+              "mode": "input"
+            },
+            {
+              "example": 0,
+              "grid_size_uncertain": false,
+              "mode": "output"
+            },
+            {
+              "example": 1,
+              "grid_size_uncertain": false,
+              "mode": "input"
+            },
+            {
+              "example": 1,
+              "grid_size_uncertain": false,
+              "mode": "output"
+            },
+            {
+              "example": 2,
+              "grid_size_uncertain": false,
+              "mode": "input"
+            },
+            {
+              "example": 2,
+              "grid_size_uncertain": false,
+              "mode": "output"
+            },
+            {
+              "example": 3,
+              "grid_size_uncertain": false,
+              "mode": "input"
+            }
+          ],
+          "in_out_same_size": true
+        },
+        "mask_hash": "b72053207946fbf0bc92351259fc5e9af4e23872e2d5a600e80564404769febe",
+        "n_examples": 4,
+        "n_test": 1,
+        "n_train": 3,
+        "n_x": 10,
+        "n_y": 10,
+        "predicted_query_output_shapes": [
+          [
+            10,
+            10
+          ]
+        ],
+        "problem_hash": "017a67b26d18c08ee5b9ef4a24bb92716f49a192e76ed9460ec3f6b10db82aa7",
+        "shapes": [
+          [
+            [
+              10,
+              10
+            ],
+            [
+              10,
+              10
+            ]
+          ],
+          [
+            [
+              10,
+              10
+            ],
+            [
+              10,
+              10
+            ]
+          ],
+          [
+            [
+              10,
+              10
+            ],
+            [
+              10,
+              10
+            ]
+          ],
+          [
+            [
+              10,
+              10
+            ],
+            [
+              10,
+              10
+            ]
+          ]
+        ]
+      },
+      "grid_size_uncertain_branch_equal_under_s": true,
+      "in_out_same_size_after": true,
+      "in_out_same_size_before": true,
+      "lemma_assumption_status": "LEMMA_VERIFIED_FOR_TASK",
+      "non_invariant_possible_impacts": {},
+      "predicted_query_shape_equal_under_s": true,
+      "s_cycle_invariance_reason": "all y_signature(i) equal y_signature(sigma(i))",
+      "s_cycle_invariant": true,
+      "s_wrapper_reconstructs_task_normally": true,
+      "sigma": [
+        1,
+        2,
+        0
+      ],
+      "source_basis": [
+        {
+          "claim": "Task constructor recomputes shapes, multitensor system, masks, and problem tensor from the provided raw problem.",
+          "classification": "DIRECT_SOURCE_FACT",
+          "line_range": "15-28",
+          "pinned_commit": "83a22218024d46273eb32b769a906340202ffb4d",
+          "source_file": "preprocessing.py"
+        },
+        {
+          "claim": "Predicted hidden-query output shape is derived from in/out and all-output size flags.",
+          "classification": "DIRECT_SOURCE_FACT",
+          "line_range": "44-62",
+          "pinned_commit": "83a22218024d46273eb32b769a906340202ffb4d",
+          "source_file": "preprocessing.py"
+        },
+        {
+          "claim": "The reconstruction loss grid-size branch depends on in_out_same_size, all_out_same_size, and all_in_same_size.",
+          "classification": "DIRECT_SOURCE_FACT",
+          "line_range": "65-87",
+          "pinned_commit": "83a22218024d46273eb32b769a906340202ffb4d",
+          "source_file": "train.py"
+        }
+      ],
+      "stratum": "B",
+      "swapped_snapshot": {
+        "colors": [
+          0,
+          2,
+          3,
+          4,
+          6,
+          7,
+          8,
+          9
+        ],
+        "flags": {
+          "all_in_same_size": true,
+          "all_out_same_size": true,
+          "grid_size_uncertain_branches": [
+            {
+              "example": 0,
+              "grid_size_uncertain": false,
+              "mode": "input"
+            },
+            {
+              "example": 0,
+              "grid_size_uncertain": false,
+              "mode": "output"
+            },
+            {
+              "example": 1,
+              "grid_size_uncertain": false,
+              "mode": "input"
+            },
+            {
+              "example": 1,
+              "grid_size_uncertain": false,
+              "mode": "output"
+            },
+            {
+              "example": 2,
+              "grid_size_uncertain": false,
+              "mode": "input"
+            },
+            {
+              "example": 2,
+              "grid_size_uncertain": false,
+              "mode": "output"
+            },
+            {
+              "example": 3,
+              "grid_size_uncertain": false,
+              "mode": "input"
+            }
+          ],
+          "in_out_same_size": true
+        },
+        "mask_hash": "b72053207946fbf0bc92351259fc5e9af4e23872e2d5a600e80564404769febe",
+        "n_examples": 4,
+        "n_test": 1,
+        "n_train": 3,
+        "n_x": 10,
+        "n_y": 10,
+        "predicted_query_output_shapes": [
+          [
+            10,
+            10
+          ]
+        ],
+        "problem_hash": "81ae70c61eda66131432edf98f88c85ae828fdb9f0f16303b963800a6982884a",
+        "shapes": [
+          [
+            [
+              10,
+              10
+            ],
+            [
+              10,
+              10
+            ]
+          ],
+          [
+            [
+              10,
+              10
+            ],
+            [
+              10,
+              10
+            ]
+          ],
+          [
+            [
+              10,
+              10
+            ],
+            [
+              10,
+              10
+            ]
+          ],
+          [
+            [
+              10,
+              10
+            ],
+            [
+              10,
+              10
+            ]
+          ]
+        ]
+      },
+      "task_flag_flip_under_s": {
+        "all_in_same_size": {
+          "after": true,
+          "before": true
+        },
+        "all_out_same_size": {
+          "after": true,
+          "before": true
+        },
+        "grid_size_uncertain_branches": {
+          "after": [
+            {
+              "example": 0,
+              "grid_size_uncertain": false,
+              "mode": "input"
+            },
+            {
+              "example": 0,
+              "grid_size_uncertain": false,
+              "mode": "output"
+            },
+            {
+              "example": 1,
+              "grid_size_uncertain": false,
+              "mode": "input"
+            },
+            {
+              "example": 1,
+              "grid_size_uncertain": false,
+              "mode": "output"
+            },
+            {
+              "example": 2,
+              "grid_size_uncertain": false,
+              "mode": "input"
+            },
+            {
+              "example": 2,
+              "grid_size_uncertain": false,
+              "mode": "output"
+            },
+            {
+              "example": 3,
+              "grid_size_uncertain": false,
+              "mode": "input"
+            }
+          ],
+          "before": [
+            {
+              "example": 0,
+              "grid_size_uncertain": false,
+              "mode": "input"
+            },
+            {
+              "example": 0,
+              "grid_size_uncertain": false,
+              "mode": "output"
+            },
+            {
+              "example": 1,
+              "grid_size_uncertain": false,
+              "mode": "input"
+            },
+            {
+              "example": 1,
+              "grid_size_uncertain": false,
+              "mode": "output"
+            },
+            {
+              "example": 2,
+              "grid_size_uncertain": false,
+              "mode": "input"
+            },
+            {
+              "example": 2,
+              "grid_size_uncertain": false,
+              "mode": "output"
+            },
+            {
+              "example": 3,
+              "grid_size_uncertain": false,
+              "mode": "input"
+            }
+          ]
+        },
+        "in_out_same_size": {
+          "after": true,
+          "before": true
+        }
+      },
+      "task_id": "1f876c06",
+      "task_masks_equal_under_s": true,
+      "task_shapes_equal_under_s": true,
+      "y_signatures": [
+        {
+          "output_mask_hash": "e776c2f57bac516d3f63432a6d46c7c5766eed95935eb68312db38494a708af3",
+          "output_preprocessing_branch_flags": {
+            "all_in_same_size": true,
+            "all_out_same_size": true,
+            "grid_size_uncertain": false,
+            "in_out_same_size": true
+          },
+          "output_shape": [
+            10,
+            10
+          ]
+        },
+        {
+          "output_mask_hash": "e776c2f57bac516d3f63432a6d46c7c5766eed95935eb68312db38494a708af3",
+          "output_preprocessing_branch_flags": {
+            "all_in_same_size": true,
+            "all_out_same_size": true,
+            "grid_size_uncertain": false,
+            "in_out_same_size": true
+          },
+          "output_shape": [
+            10,
+            10
+          ]
+        },
+        {
+          "output_mask_hash": "e776c2f57bac516d3f63432a6d46c7c5766eed95935eb68312db38494a708af3",
+          "output_preprocessing_branch_flags": {
+            "all_in_same_size": true,
+            "all_out_same_size": true,
+            "grid_size_uncertain": false,
+            "in_out_same_size": true
+          },
+          "output_shape": [
+            10,
+            10
+          ]
+        }
+      ]
+    }
+  ]
+}

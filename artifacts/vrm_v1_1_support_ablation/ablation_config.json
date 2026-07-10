@@ -1,0 +1,15 @@
+{
+  "bootstrap_resamples": 2000,
+  "checkpoint": "/mnt/d/VRM/checkpoints/vrm_v1_1_best_train_hamming.pt",
+  "command": "python -m vrm.train --mode v1_1_support_ablation --checkpoint /mnt/d/VRM/checkpoints/vrm_v1_1_best_train_hamming.pt --seed 20260627 --pytest-result pytest -q: 31 passed in 5.05s",
+  "conditions": [
+    "NORMAL",
+    "OUTPUT_DERANGED_WITHIN_TASK",
+    "PAIR_ORDER_SHUFFLED",
+    "OUTPUT_COLOR_PERMUTED",
+    "SUPPORT_EVIDENCE_PATH_ZEROED"
+  ],
+  "mode": "v1_1_support_ablation",
+  "sanity_tolerance": 1e-06,
+  "seed": 20260627
+}

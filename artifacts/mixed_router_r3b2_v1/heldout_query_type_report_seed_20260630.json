@@ -1,0 +1,401 @@
+{
+  "all_query_types_have_at_least_30_and_all_families": true,
+  "hard_negative_transform_route_recall": 1.0,
+  "macro_hard_route_exact": 1.0,
+  "macro_route_utility_agreement": 1.0,
+  "query_type_count": 30,
+  "query_types": {
+    "marker_0|color=1|anchor=lower_right|distractors=2": {
+      "all_core_families_represented": true,
+      "at_least_30_episodes": true,
+      "episode_count": 300,
+      "families": [
+        "RETRIEVAL_CLEAR",
+        "TRANSFORM_CLEAR",
+        "TRANSFORM_HARD_NEGATIVE"
+      ],
+      "hard_negative_transform_route_recall": 1.0,
+      "hard_route_exact": 1.0,
+      "route_utility_agreement": 1.0
+    },
+    "marker_0|color=1|anchor=upper_left|distractors=0": {
+      "all_core_families_represented": true,
+      "at_least_30_episodes": true,
+      "episode_count": 300,
+      "families": [
+        "RETRIEVAL_CLEAR",
+        "TRANSFORM_CLEAR",
+        "TRANSFORM_HARD_NEGATIVE"
+      ],
+      "hard_negative_transform_route_recall": 1.0,
+      "hard_route_exact": 1.0,
+      "route_utility_agreement": 1.0
+    },
+    "marker_0|color=1|anchor=upper_right|distractors=1": {
+      "all_core_families_represented": true,
+      "at_least_30_episodes": true,
+      "episode_count": 300,
+      "families": [
+        "RETRIEVAL_CLEAR",
+        "TRANSFORM_CLEAR",
+        "TRANSFORM_HARD_NEGATIVE"
+      ],
+      "hard_negative_transform_route_recall": 1.0,
+      "hard_route_exact": 1.0,
+      "route_utility_agreement": 1.0
+    },
+    "marker_0|color=2|anchor=lower_left|distractors=0": {
+      "all_core_families_represented": true,
+      "at_least_30_episodes": true,
+      "episode_count": 300,
+      "families": [
+        "RETRIEVAL_CLEAR",
+        "TRANSFORM_CLEAR",
+        "TRANSFORM_HARD_NEGATIVE"
+      ],
+      "hard_negative_transform_route_recall": 1.0,
+      "hard_route_exact": 1.0,
+      "route_utility_agreement": 1.0
+    },
+    "marker_0|color=2|anchor=lower_left|distractors=2": {
+      "all_core_families_represented": true,
+      "at_least_30_episodes": true,
+      "episode_count": 300,
+      "families": [
+        "RETRIEVAL_CLEAR",
+        "TRANSFORM_CLEAR",
+        "TRANSFORM_HARD_NEGATIVE"
+      ],
+      "hard_negative_transform_route_recall": 1.0,
+      "hard_route_exact": 1.0,
+      "route_utility_agreement": 1.0
+    },
+    "marker_0|color=3|anchor=lower_right|distractors=2": {
+      "all_core_families_represented": true,
+      "at_least_30_episodes": true,
+      "episode_count": 300,
+      "families": [
+        "RETRIEVAL_CLEAR",
+        "TRANSFORM_CLEAR",
+        "TRANSFORM_HARD_NEGATIVE"
+      ],
+      "hard_negative_transform_route_recall": 1.0,
+      "hard_route_exact": 1.0,
+      "route_utility_agreement": 1.0
+    },
+    "marker_0|color=3|anchor=upper_left|distractors=0": {
+      "all_core_families_represented": true,
+      "at_least_30_episodes": true,
+      "episode_count": 300,
+      "families": [
+        "RETRIEVAL_CLEAR",
+        "TRANSFORM_CLEAR",
+        "TRANSFORM_HARD_NEGATIVE"
+      ],
+      "hard_negative_transform_route_recall": 1.0,
+      "hard_route_exact": 1.0,
+      "route_utility_agreement": 1.0
+    },
+    "marker_0|color=3|anchor=upper_right|distractors=1": {
+      "all_core_families_represented": true,
+      "at_least_30_episodes": true,
+      "episode_count": 300,
+      "families": [
+        "RETRIEVAL_CLEAR",
+        "TRANSFORM_CLEAR",
+        "TRANSFORM_HARD_NEGATIVE"
+      ],
+      "hard_negative_transform_route_recall": 1.0,
+      "hard_route_exact": 1.0,
+      "route_utility_agreement": 1.0
+    },
+    "marker_0|color=4|anchor=lower_right|distractors=1": {
+      "all_core_families_represented": true,
+      "at_least_30_episodes": true,
+      "episode_count": 300,
+      "families": [
+        "RETRIEVAL_CLEAR",
+        "TRANSFORM_CLEAR",
+        "TRANSFORM_HARD_NEGATIVE"
+      ],
+      "hard_negative_transform_route_recall": 1.0,
+      "hard_route_exact": 1.0,
+      "route_utility_agreement": 1.0
+    },
+    "marker_0|color=4|anchor=upper_right|distractors=2": {
+      "all_core_families_represented": true,
+      "at_least_30_episodes": true,
+      "episode_count": 300,
+      "families": [
+        "RETRIEVAL_CLEAR",
+        "TRANSFORM_CLEAR",
+        "TRANSFORM_HARD_NEGATIVE"
+      ],
+      "hard_negative_transform_route_recall": 1.0,
+      "hard_route_exact": 1.0,
+      "route_utility_agreement": 1.0
+    },
+    "marker_1|color=1|anchor=lower_left|distractors=1": {
+      "all_core_families_represented": true,
+      "at_least_30_episodes": true,
+      "episode_count": 300,
+      "families": [
+        "RETRIEVAL_CLEAR",
+        "TRANSFORM_CLEAR",
+        "TRANSFORM_HARD_NEGATIVE"
+      ],
+      "hard_negative_transform_route_recall": 1.0,
+      "hard_route_exact": 1.0,
+      "route_utility_agreement": 1.0
+    },
+    "marker_1|color=1|anchor=lower_right|distractors=1": {
+      "all_core_families_represented": true,
+      "at_least_30_episodes": true,
+      "episode_count": 300,
+      "families": [
+        "RETRIEVAL_CLEAR",
+        "TRANSFORM_CLEAR",
+        "TRANSFORM_HARD_NEGATIVE"
+      ],
+      "hard_negative_transform_route_recall": 1.0,
+      "hard_route_exact": 1.0,
+      "route_utility_agreement": 1.0
+    },
+    "marker_1|color=1|anchor=upper_right|distractors=2": {
+      "all_core_families_represented": true,
+      "at_least_30_episodes": true,
+      "episode_count": 300,
+      "families": [
+        "RETRIEVAL_CLEAR",
+        "TRANSFORM_CLEAR",
+        "TRANSFORM_HARD_NEGATIVE"
+      ],
+      "hard_negative_transform_route_recall": 1.0,
+      "hard_route_exact": 1.0,
+      "route_utility_agreement": 1.0
+    },
+    "marker_1|color=2|anchor=lower_left|distractors=1": {
+      "all_core_families_represented": true,
+      "at_least_30_episodes": true,
+      "episode_count": 300,
+      "families": [
+        "RETRIEVAL_CLEAR",
+        "TRANSFORM_CLEAR",
+        "TRANSFORM_HARD_NEGATIVE"
+      ],
+      "hard_negative_transform_route_recall": 1.0,
+      "hard_route_exact": 1.0,
+      "route_utility_agreement": 1.0
+    },
+    "marker_1|color=2|anchor=lower_left|distractors=2": {
+      "all_core_families_represented": true,
+      "at_least_30_episodes": true,
+      "episode_count": 300,
+      "families": [
+        "RETRIEVAL_CLEAR",
+        "TRANSFORM_CLEAR",
+        "TRANSFORM_HARD_NEGATIVE"
+      ],
+      "hard_negative_transform_route_recall": 1.0,
+      "hard_route_exact": 1.0,
+      "route_utility_agreement": 1.0
+    },
+    "marker_1|color=2|anchor=upper_left|distractors=2": {
+      "all_core_families_represented": true,
+      "at_least_30_episodes": true,
+      "episode_count": 300,
+      "families": [
+        "RETRIEVAL_CLEAR",
+        "TRANSFORM_CLEAR",
+        "TRANSFORM_HARD_NEGATIVE"
+      ],
+      "hard_negative_transform_route_recall": 1.0,
+      "hard_route_exact": 1.0,
+      "route_utility_agreement": 1.0
+    },
+    "marker_1|color=3|anchor=lower_left|distractors=2": {
+      "all_core_families_represented": true,
+      "at_least_30_episodes": true,
+      "episode_count": 300,
+      "families": [
+        "RETRIEVAL_CLEAR",
+        "TRANSFORM_CLEAR",
+        "TRANSFORM_HARD_NEGATIVE"
+      ],
+      "hard_negative_transform_route_recall": 1.0,
+      "hard_route_exact": 1.0,
+      "route_utility_agreement": 1.0
+    },
+    "marker_2|color=2|anchor=lower_right|distractors=2": {
+      "all_core_families_represented": true,
+      "at_least_30_episodes": true,
+      "episode_count": 300,
+      "families": [
+        "RETRIEVAL_CLEAR",
+        "TRANSFORM_CLEAR",
+        "TRANSFORM_HARD_NEGATIVE"
+      ],
+      "hard_negative_transform_route_recall": 1.0,
+      "hard_route_exact": 1.0,
+      "route_utility_agreement": 1.0
+    },
+    "marker_2|color=2|anchor=upper_left|distractors=2": {
+      "all_core_families_represented": true,
+      "at_least_30_episodes": true,
+      "episode_count": 300,
+      "families": [
+        "RETRIEVAL_CLEAR",
+        "TRANSFORM_CLEAR",
+        "TRANSFORM_HARD_NEGATIVE"
+      ],
+      "hard_negative_transform_route_recall": 1.0,
+      "hard_route_exact": 1.0,
+      "route_utility_agreement": 1.0
+    },
+    "marker_2|color=3|anchor=lower_left|distractors=0": {
+      "all_core_families_represented": true,
+      "at_least_30_episodes": true,
+      "episode_count": 300,
+      "families": [
+        "RETRIEVAL_CLEAR",
+        "TRANSFORM_CLEAR",
+        "TRANSFORM_HARD_NEGATIVE"
+      ],
+      "hard_negative_transform_route_recall": 1.0,
+      "hard_route_exact": 1.0,
+      "route_utility_agreement": 1.0
+    },
+    "marker_2|color=3|anchor=upper_left|distractors=0": {
+      "all_core_families_represented": true,
+      "at_least_30_episodes": true,
+      "episode_count": 300,
+      "families": [
+        "RETRIEVAL_CLEAR",
+        "TRANSFORM_CLEAR",
+        "TRANSFORM_HARD_NEGATIVE"
+      ],
+      "hard_negative_transform_route_recall": 1.0,
+      "hard_route_exact": 1.0,
+      "route_utility_agreement": 1.0
+    },
+    "marker_2|color=4|anchor=lower_left|distractors=1": {
+      "all_core_families_represented": true,
+      "at_least_30_episodes": true,
+      "episode_count": 300,
+      "families": [
+        "RETRIEVAL_CLEAR",
+        "TRANSFORM_CLEAR",
+        "TRANSFORM_HARD_NEGATIVE"
+      ],
+      "hard_negative_transform_route_recall": 1.0,
+      "hard_route_exact": 1.0,
+      "route_utility_agreement": 1.0
+    },
+    "marker_2|color=4|anchor=upper_left|distractors=2": {
+      "all_core_families_represented": true,
+      "at_least_30_episodes": true,
+      "episode_count": 300,
+      "families": [
+        "RETRIEVAL_CLEAR",
+        "TRANSFORM_CLEAR",
+        "TRANSFORM_HARD_NEGATIVE"
+      ],
+      "hard_negative_transform_route_recall": 1.0,
+      "hard_route_exact": 1.0,
+      "route_utility_agreement": 1.0
+    },
+    "marker_3|color=1|anchor=lower_right|distractors=0": {
+      "all_core_families_represented": true,
+      "at_least_30_episodes": true,
+      "episode_count": 300,
+      "families": [
+        "RETRIEVAL_CLEAR",
+        "TRANSFORM_CLEAR",
+        "TRANSFORM_HARD_NEGATIVE"
+      ],
+      "hard_negative_transform_route_recall": 1.0,
+      "hard_route_exact": 1.0,
+      "route_utility_agreement": 1.0
+    },
+    "marker_3|color=1|anchor=upper_right|distractors=2": {
+      "all_core_families_represented": true,
+      "at_least_30_episodes": true,
+      "episode_count": 300,
+      "families": [
+        "RETRIEVAL_CLEAR",
+        "TRANSFORM_CLEAR",
+        "TRANSFORM_HARD_NEGATIVE"
+      ],
+      "hard_negative_transform_route_recall": 1.0,
+      "hard_route_exact": 1.0,
+      "route_utility_agreement": 1.0
+    },
+    "marker_3|color=2|anchor=lower_right|distractors=1": {
+      "all_core_families_represented": true,
+      "at_least_30_episodes": true,
+      "episode_count": 300,
+      "families": [
+        "RETRIEVAL_CLEAR",
+        "TRANSFORM_CLEAR",
+        "TRANSFORM_HARD_NEGATIVE"
+      ],
+      "hard_negative_transform_route_recall": 1.0,
+      "hard_route_exact": 1.0,
+      "route_utility_agreement": 1.0
+    },
+    "marker_3|color=3|anchor=lower_right|distractors=2": {
+      "all_core_families_represented": true,
+      "at_least_30_episodes": true,
+      "episode_count": 300,
+      "families": [
+        "RETRIEVAL_CLEAR",
+        "TRANSFORM_CLEAR",
+        "TRANSFORM_HARD_NEGATIVE"
+      ],
+      "hard_negative_transform_route_recall": 1.0,
+      "hard_route_exact": 1.0,
+      "route_utility_agreement": 1.0
+    },
+    "marker_3|color=4|anchor=lower_right|distractors=0": {
+      "all_core_families_represented": true,
+      "at_least_30_episodes": true,
+      "episode_count": 300,
+      "families": [
+        "RETRIEVAL_CLEAR",
+        "TRANSFORM_CLEAR",
+        "TRANSFORM_HARD_NEGATIVE"
+      ],
+      "hard_negative_transform_route_recall": 1.0,
+      "hard_route_exact": 1.0,
+      "route_utility_agreement": 1.0
+    },
+    "marker_3|color=4|anchor=lower_right|distractors=1": {
+      "all_core_families_represented": true,
+      "at_least_30_episodes": true,
+      "episode_count": 300,
+      "families": [
+        "RETRIEVAL_CLEAR",
+        "TRANSFORM_CLEAR",
+        "TRANSFORM_HARD_NEGATIVE"
+      ],
+      "hard_negative_transform_route_recall": 1.0,
+      "hard_route_exact": 1.0,
+      "route_utility_agreement": 1.0
+    },
+    "marker_3|color=4|anchor=upper_right|distractors=2": {
+      "all_core_families_represented": true,
+      "at_least_30_episodes": true,
+      "episode_count": 300,
+      "families": [
+        "RETRIEVAL_CLEAR",
+        "TRANSFORM_CLEAR",
+        "TRANSFORM_HARD_NEGATIVE"
+      ],
+      "hard_negative_transform_route_recall": 1.0,
+      "hard_route_exact": 1.0,
+      "route_utility_agreement": 1.0
+    }
+  },
+  "worst_hard_route_exact": 1.0,
+  "worst_route_utility_agreement": 1.0
+}

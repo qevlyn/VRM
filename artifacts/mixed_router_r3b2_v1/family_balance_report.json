@@ -1,0 +1,41 @@
+{
+  "dev": {
+    "episode_count": 9000,
+    "family_balanced": true,
+    "family_counts": {
+      "RETRIEVAL_CLEAR": 3000,
+      "TRANSFORM_CLEAR": 3000,
+      "TRANSFORM_HARD_NEGATIVE": 3000
+    },
+    "passed": true,
+    "query_type_count": 30,
+    "query_types_all_have_core_families": true,
+    "query_types_balanced_by_family": true
+  },
+  "sealed": {
+    "episode_count": 9000,
+    "family_balanced": true,
+    "family_counts": {
+      "RETRIEVAL_CLEAR": 3000,
+      "TRANSFORM_CLEAR": 3000,
+      "TRANSFORM_HARD_NEGATIVE": 3000
+    },
+    "passed": true,
+    "query_type_count": 30,
+    "query_types_all_have_core_families": true,
+    "query_types_balanced_by_family": true
+  },
+  "train": {
+    "episode_count": 36000,
+    "family_balanced": true,
+    "family_counts": {
+      "RETRIEVAL_CLEAR": 12000,
+      "TRANSFORM_CLEAR": 12000,
+      "TRANSFORM_HARD_NEGATIVE": 12000
+    },
+    "passed": true,
+    "query_type_count": 120,
+    "query_types_all_have_core_families": true,
+    "query_types_balanced_by_family": true
+  }
+}

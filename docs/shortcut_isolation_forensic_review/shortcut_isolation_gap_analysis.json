@@ -1,0 +1,138 @@
+{
+  "any_existing_experiment_satisfies_A_B_C": false,
+  "blockers": [
+    {
+      "classification": "conceptual/causal-design",
+      "evidence": [
+        "Phase 1 primary_metric defines NLL deltas, not S/N/R",
+        "No artifact declares finite S"
+      ],
+      "name": "No operational shortcut family",
+      "requires_new_experiment": true
+    },
+    {
+      "classification": "semantic-intervention/implementation",
+      "evidence": [
+        "r6a_compressarc/scripts/r6a_common.py:121-130 swaps support outputs",
+        "v10_action_behavior_audit status=V8_NONPOSTERIOR_PERMUTATION_OBSERVED"
+      ],
+      "name": "Intervention changes the wrong object",
+      "requires_new_experiment": true
+    },
+    {
+      "classification": "causal-design",
+      "evidence": [
+        "Phase1 ALL_PAIRING_SWAP breaks support input-output relation"
+      ],
+      "name": "No semantic-preserving counterfactual",
+      "requires_new_experiment": true
+    },
+    {
+      "classification": "measurement",
+      "evidence": [
+        "v11.2 forbidden_path_certificate: loss_run/backward_run/optimizer_or_multi_step_run all false",
+        "decoder_scope_certificate: E_discrete=decoder-out-of-scope"
+      ],
+      "name": "No end-to-end behavioral readout in Phase 2",
+      "requires_new_experiment": true
+    },
+    {
+      "classification": "implementation/numerical",
+      "evidence": [
+        "v8 nonposterior permutation",
+        "v11.2 control E_bit at channel_layer"
+      ],
+      "name": "State/action confounding",
+      "requires_new_experiment": false
+    },
+    {
+      "classification": "numerical/measurement",
+      "evidence": [
+        "E_bit at channel_layer in all seven cases",
+        "test marks ULP only as severity metric"
+      ],
+      "name": "Numerical baseline contamination",
+      "requires_new_experiment": true
+    },
+    {
+      "classification": "causal-design",
+      "evidence": [
+        "No selective ablation/counterbalancing of declared S while preserving R"
+      ],
+      "name": "No necessity/sufficiency test",
+      "requires_new_experiment": true
+    },
+    {
+      "classification": "causal-design",
+      "evidence": [
+        "No blocked-route retraining/adaptation comparison; layer locking not justified"
+      ],
+      "name": "No substitution test",
+      "requires_new_experiment": true
+    }
+  ],
+  "experiment_scores": [
+    {
+      "A": "FAIL",
+      "B": "FAIL",
+      "C": "PASS",
+      "blockers": [
+        "no_semantic_preserving_counterfactual",
+        "no_operational_shortcut_family",
+        "intervention_changes_legitimate_pairing"
+      ],
+      "experiment": "Phase1 ALL_PAIRING_SWAP"
+    },
+    {
+      "A": "PARTIAL",
+      "B": "FAIL",
+      "C": "FAIL",
+      "blockers": [
+        "invalid_state_action",
+        "wrong_object",
+        "loss_backward_adam_not_reached",
+        "no_behavioral_readout"
+      ],
+      "experiment": "v8 support permutation"
+    },
+    {
+      "A": "PASS",
+      "B": "FAIL",
+      "C": "FAIL",
+      "blockers": [
+        "tests_order_equivariance_not_shortcut",
+        "no_loss_backward_optimizer",
+        "no_query_metric"
+      ],
+      "experiment": "v10 semantic state-action repair"
+    },
+    {
+      "A": "PASS",
+      "B": "FAIL",
+      "C": "FAIL",
+      "blockers": [
+        "internal_byte_threshold_markers",
+        "decoder_out_of_scope",
+        "no_behavioral_effect",
+        "numerical_baseline_contamination"
+      ],
+      "experiment": "v11.2 two-pass provenance"
+    },
+    {
+      "A": "PARTIAL",
+      "B": "PARTIAL",
+      "C": "PASS",
+      "blockers": [
+        "separate_model_line",
+        "some_conditions_destroy_legitimate_support_evidence",
+        "not_a_finite_R6A_shortcut_family"
+      ],
+      "experiment": "R5A-4B support semantics contrast"
+    }
+  ],
+  "shortcut_isolation_standard": {
+    "A_semantic_preservation": "The legitimate relation R remains available to a correct solver.",
+    "B_selective_nuisance_destruction": "A declared nuisance N/shortcut family S is broken or counterbalanced without removing R.",
+    "C_behavioral_causal_effect": "An end-to-end task-relevant outcome changes: query prediction, support reconstruction, optimization trajectory, final loss, decoded output, or calibrated score."
+  }
+}

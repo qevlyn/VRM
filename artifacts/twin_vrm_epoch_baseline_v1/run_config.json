@@ -1,0 +1,27 @@
+{
+  "batch_size": 4,
+  "checkpoint_dir": "/mnt/d/VRM/checkpoints/twin_vrm_epoch_baseline_v1",
+  "data": "/mnt/d/VRM/artifacts/twin_task_pilot_v1",
+  "determinism": {
+    "cuda_available": true,
+    "seed": 20260628,
+    "torch_deterministic_algorithms": "enabled_warn_only"
+  },
+  "dev_episode_count": 2000,
+  "epochs": 3,
+  "mode": "full",
+  "out": "/mnt/d/VRM/artifacts/twin_vrm_epoch_baseline_v1",
+  "runtime": {
+    "cuda_available": true,
+    "cuda_device": "NVIDIA GeForce RTX 4070 Ti SUPER",
+    "device": "cuda",
+    "platform": "Linux-6.18.33.1-microsoft-standard-WSL2-x86_64-with-glibc2.43",
+    "python": "3.14.4 (main, Apr  8 2026, 04:02:31) [GCC 15.2.0]",
+    "torch": "2.12.1+cu130",
+    "torch_threads": 16
+  },
+  "seed": 20260628,
+  "steps_per_epoch": 4000,
+  "total_steps": 12000,
+  "train_episode_count": 16000
+}

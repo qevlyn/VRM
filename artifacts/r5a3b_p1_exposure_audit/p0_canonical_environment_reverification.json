@@ -1,0 +1,19 @@
+{
+  "artifact_sha256": "4f2712347cbd90bc1e94dd7807f7a49860e514faae04e3a06634a6911fd4dfb0",
+  "audit_version": "R5A3B_P1_RELATION_EXPOSURE_CONSTRAINT_EFFICACY_AUDIT",
+  "does_not_modify_p0_report": true,
+  "focused_test_file_sha256": "a7e871eda4839f7bbacba5d310563c2d8235fb6a3fafbaa2f2bdc3a55bc39b8d",
+  "interpreter_path": "/home/quyen/.venvs/vrm/bin/python",
+  "passed": true,
+  "pytest_command": "cd /mnt/d/VRM && /home/quyen/.venvs/vrm/bin/python -m pytest -q tests/test_r5a3b_relation_constraint_pilot.py",
+  "pytest_returncode": 0,
+  "pytest_stderr": "",
+  "pytest_stdout": "........                                                                 [100%]\n8 passed in 1.57s\n",
+  "pytest_version": "9.1.1",
+  "timestamp_utc": "2026-06-30T23:12:09Z",
+  "torch_version": "2.12.1+cu130",
+  "version_command": "/home/quyen/.venvs/vrm/bin/python -c import pytest, torch; print(pytest.__version__, torch.__version__)",
+  "version_returncode": 0,
+  "version_stderr": "",
+  "version_stdout": "9.1.1 2.12.1+cu130\n"
+}

@@ -1,0 +1,85 @@
+{
+  "average_seconds_per_optimizer_step": 0.5100985924453333,
+  "batch_size": 1,
+  "candidate_sampling": "not_used",
+  "checkpoint_path": "/mnt/d/VRM/checkpoints/capacity4_step1500.pt",
+  "command": "python -m vrm.train --mode capacity4",
+  "cuda_available": false,
+  "cuda_device": null,
+  "data_augmentation": "disabled_none_present",
+  "data_root": "/mnt/d/ARC2/arc-prize-2026-arc-agi-2",
+  "determinism": {
+    "cudnn_benchmark": false,
+    "cudnn_deterministic": true,
+    "python_random_seed": 12345,
+    "torch_cuda_manual_seed_all": null,
+    "torch_deterministic_algorithms": "enabled_warn_only",
+    "torch_manual_seed": 12345
+  },
+  "device": "cpu",
+  "dropout_kept_at_existing_value": 0.0,
+  "episode_count": 17,
+  "eval_steps": [
+    0,
+    50,
+    100,
+    250,
+    500,
+    1000,
+    1500
+  ],
+  "fixed_task_ids": [
+    "00576224",
+    "007bbfb7",
+    "009d5c81",
+    "00d62c1b"
+  ],
+  "learning_rate": 0.001,
+  "mode": "capacity4",
+  "model_config": {
+    "dropout": 0.0,
+    "hidden_size": 128,
+    "max_grid_height": 30,
+    "max_grid_tokens": 900,
+    "max_grid_width": 30,
+    "memory_slots": 16,
+    "num_heads": 4,
+    "reasoning_cycles": 2,
+    "reasoning_layers": 2,
+    "vocab_size": 11
+  },
+  "optimizer": {
+    "amsgrad": false,
+    "betas": [
+      0.9,
+      0.999
+    ],
+    "capturable": false,
+    "differentiable": false,
+    "eps": 1e-08,
+    "foreach": null,
+    "fused": null,
+    "lr": 0.001,
+    "maximize": false,
+    "name": "AdamW",
+    "weight_decay": 0.01
+  },
+  "pad_loss_weight": 0.2,
+  "parameter_count": {
+    "total": 653067,
+    "trainable": 653067
+  },
+  "prediction_steps": [
+    0,
+    100,
+    500,
+    1500
+  ],
+  "seed": 12345,
+  "steps": 1500,
+  "torch_threads": 4,
+  "torch_version": "2.12.1+cpu",
+  "training_seconds": 765.147888668,
+  "verdict": "CAPACITY_SIGNAL_STRONG",
+  "wall_clock_seconds": 768.168860137
+}

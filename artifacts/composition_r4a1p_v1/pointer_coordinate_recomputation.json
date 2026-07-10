@@ -1,0 +1,90 @@
+{
+  "actual_sampled_episodes_per_seed": 2007,
+  "aggregate_foreground_exact_argmax_source_coordinate_accuracy": 1.0,
+  "balanced_over_all_nine_r4a0r_v2_sequence_classes": true,
+  "by_seed": {
+    "20260628": {
+      "background_pointer_metric_summary": {
+        "argmax_source_is_background_rate": 1.0,
+        "background_cell_count": 84090,
+        "background_cells_scored_by_old_metric": false,
+        "mean_pointer_entropy": 3.4368269745804447
+      },
+      "balanced_sequence_count": {
+        "C": 223,
+        "C->F": 223,
+        "C->T": 223,
+        "F": 223,
+        "F->C": 223,
+        "F->T": 223,
+        "T": 223,
+        "T->C": 223,
+        "T->F": 223
+      },
+      "foreground_exact_argmax_source_coordinate_accuracy": 1.0,
+      "foreground_mean_pointer_mass_on_unique_oracle_coordinate": 1.0,
+      "foreground_same_color_but_wrong_coordinate_rate": 0.0,
+      "foreground_unique_oracle_coordinate_count": 14253,
+      "old_metric_on_same_sample": 1.0,
+      "old_reported_heldout_pair_pointer_accuracy": 1.0,
+      "recomputation_differs_from_old_metric_semantics": false,
+      "sampled_episode_count": 2007
+    },
+    "20260629": {
+      "background_pointer_metric_summary": {
+        "argmax_source_is_background_rate": 1.0,
+        "background_cell_count": 84152,
+        "background_cells_scored_by_old_metric": false,
+        "mean_pointer_entropy": 3.4342948574088448
+      },
+      "balanced_sequence_count": {
+        "C": 223,
+        "C->F": 223,
+        "C->T": 223,
+        "F": 223,
+        "F->C": 223,
+        "F->T": 223,
+        "T": 223,
+        "T->C": 223,
+        "T->F": 223
+      },
+      "foreground_exact_argmax_source_coordinate_accuracy": 1.0,
+      "foreground_mean_pointer_mass_on_unique_oracle_coordinate": 1.0,
+      "foreground_same_color_but_wrong_coordinate_rate": 0.0,
+      "foreground_unique_oracle_coordinate_count": 14191,
+      "old_metric_on_same_sample": 1.0,
+      "old_reported_heldout_pair_pointer_accuracy": 1.0,
+      "recomputation_differs_from_old_metric_semantics": false,
+      "sampled_episode_count": 2007
+    },
+    "20260630": {
+      "background_pointer_metric_summary": {
+        "argmax_source_is_background_rate": 1.0,
+        "background_cell_count": 84129,
+        "background_cells_scored_by_old_metric": false,
+        "mean_pointer_entropy": 3.4352337557477775
+      },
+      "balanced_sequence_count": {
+        "C": 223,
+        "C->F": 223,
+        "C->T": 223,
+        "F": 223,
+        "F->C": 223,
+        "F->T": 223,
+        "T": 223,
+        "T->C": 223,
+        "T->F": 223
+      },
+      "foreground_exact_argmax_source_coordinate_accuracy": 1.0,
+      "foreground_mean_pointer_mass_on_unique_oracle_coordinate": 1.0,
+      "foreground_same_color_but_wrong_coordinate_rate": 0.0,
+      "foreground_unique_oracle_coordinate_count": 14214,
+      "old_metric_on_same_sample": 1.0,
+      "old_reported_heldout_pair_pointer_accuracy": 1.0,
+      "recomputation_differs_from_old_metric_semantics": false,
+      "sampled_episode_count": 2007
+    }
+  },
+  "conclusion": "independent exact-coordinate recomputation matches old exact-coordinate argmax semantics",
+  "minimum_sampled_sealed_episodes_per_seed": 2000
+}

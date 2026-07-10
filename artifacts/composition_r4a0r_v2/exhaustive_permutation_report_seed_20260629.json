@@ -1,0 +1,8 @@
+{
+  "max_output_probability_difference": 0.0,
+  "max_pointer_attention_difference": 0.0,
+  "max_task_context_difference": 0.0,
+  "passed": true,
+  "presentations": 77760,
+  "same_final_grid_rate": 1.0
+}

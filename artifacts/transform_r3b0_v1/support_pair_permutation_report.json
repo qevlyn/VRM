@@ -1,0 +1,23 @@
+{
+  "20260628": {
+    "all_permutation_same_final_grid_rate": 1.0,
+    "max_abs_output_probability_difference_after_logical_unpermute": 1.1920928955078125e-07,
+    "max_abs_pointer_attention_difference_after_logical_unpermute": 1.1920928955078125e-07,
+    "max_abs_task_context_difference_after_logical_unpermute": 4.76837158203125e-07,
+    "permutation_presentation_count": 54000
+  },
+  "20260629": {
+    "all_permutation_same_final_grid_rate": 1.0,
+    "max_abs_output_probability_difference_after_logical_unpermute": 1.1920928955078125e-07,
+    "max_abs_pointer_attention_difference_after_logical_unpermute": 1.1920928955078125e-07,
+    "max_abs_task_context_difference_after_logical_unpermute": 3.5762786865234375e-07,
+    "permutation_presentation_count": 54000
+  },
+  "20260630": {
+    "all_permutation_same_final_grid_rate": 1.0,
+    "max_abs_output_probability_difference_after_logical_unpermute": 1.7881393432617188e-07,
+    "max_abs_pointer_attention_difference_after_logical_unpermute": 1.1920928955078125e-07,
+    "max_abs_task_context_difference_after_logical_unpermute": 3.5762786865234375e-07,
+    "permutation_presentation_count": 54000
+  }
+}

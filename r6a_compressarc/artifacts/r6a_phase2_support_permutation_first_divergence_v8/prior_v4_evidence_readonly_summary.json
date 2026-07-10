@@ -1,0 +1,71 @@
+{
+  "created_utc": "2026-07-04T04:11:47Z",
+  "phase1_verdict_remains": "PAIRING_SENSITIVE_QUERY_PILOT",
+  "read_only_summary_only": true,
+  "read_only_v4_files": [
+    {
+      "exists": true,
+      "path": "/mnt/d/VRM/r6a_compressarc/reports/r6a_phase2_role_preserving_pstrict_noise_tape_closure_v4/R6A_PHASE2_ROLE_PRESERVING_PSTRICT_CLOSURE_V4_REPORT.md",
+      "sha256": "4d7a84d32e8332de4ba4546f4036178845366ccf4097a2f2e0a2822962affec3",
+      "size_bytes": 4386373
+    },
+    {
+      "exists": true,
+      "path": "/mnt/d/VRM/r6a_compressarc/artifacts/r6a_phase2_role_preserving_pstrict_noise_tape_closure_v4/closure_results.json",
+      "sha256": "f3486def256ace62db441957d5172e7c44ec929b4c1aa69ed84ffb50a16fab7d",
+      "size_bytes": 7235
+    },
+    {
+      "exists": true,
+      "path": "/mnt/d/VRM/r6a_compressarc/artifacts/r6a_phase2_role_preserving_pstrict_noise_tape_closure_v4/prior_pstrict_scope_classification.json",
+      "sha256": "123ed806c9d3805d719398ec59ddbf38bff0705ee209a2983500c774d672237e",
+      "size_bytes": 818
+    },
+    {
+      "exists": true,
+      "path": "/mnt/d/VRM/r6a_compressarc/artifacts/r6a_phase2_role_preserving_pstrict_noise_tape_closure_v4/noise_tape_runtime_trace.json",
+      "sha256": "c0fcd1f13e8e4cd4dc61e6baf95fcd509baf9fe5c1e20b9f5873c0d8c617123d",
+      "size_bytes": 95077
+    },
+    {
+      "exists": true,
+      "path": "/mnt/d/VRM/r6a_compressarc/artifacts/r6a_phase2_role_preserving_pstrict_noise_tape_closure_v4/snapshot_restore_audit.json",
+      "sha256": "5c4ac5addedfc85b5131448284344af77442dd2add0722d510ffa800a773ae7b",
+      "size_bytes": 939
+    },
+    {
+      "exists": true,
+      "path": "/mnt/d/VRM/r6a_compressarc/reports/r6a_phase2_role_preserving_pstrict_noise_tape_closure_v4/integrity_scope_reconciliation.json",
+      "sha256": "a9b38ddea63e35f5dacc9de17e2eacef20b339f5a35e05ca4ee22fb32a9af365",
+      "size_bytes": 315234
+    },
+    {
+      "exists": true,
+      "path": "/mnt/d/VRM/r6a_compressarc/manifests/r6a_phase2_role_preserving_pstrict_noise_tape_closure_v4/preflight_integrity_before.json",
+      "sha256": "beb592e84270ca246fb3a9c3ff148fe93d5feb5ade0949b2b5ba0980bb32bf0d",
+      "size_bytes": 342427
+    },
+    {
+      "exists": true,
+      "path": "/mnt/d/VRM/r6a_compressarc/manifests/r6a_phase2_role_preserving_pstrict_noise_tape_closure_v4/preflight_integrity_after.json",
+      "sha256": "67a1fc63d7d71e51ba5a68225a4eff220aae0c28205578f0782836cf130afaf7",
+      "size_bytes": 331844
+    },
+    {
+      "exists": true,
+      "path": "/mnt/d/VRM/r6a_compressarc/manifests/r6a_phase2_role_preserving_pstrict_noise_tape_closure_v4/write_ledger.json",
+      "sha256": "397c6baa8f6aa885d4a984ecaede48b979b05bb7b5e92ad95aa7b70ecc0efa21",
+      "size_bytes": 8995
+    }
+  ],
+  "v4_701_295_reconciliation_status": {
+    "count_295": 295,
+    "count_701": 701,
+    "is_295_subset_of_701": false
+  },
+  "v4_final_labels": {
+    "1f876c06": "P_STRICT_DETERMINISTIC_STEP0_MISMATCH",
+    "604001fa": "P_STRICT_DETERMINISTIC_STEP0_MISMATCH"
+  },
+  "v4_prior_pstrict_scope_classification": null
+}

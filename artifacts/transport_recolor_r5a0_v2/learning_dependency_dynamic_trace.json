@@ -1,0 +1,159 @@
+{
+  "all_monkeypatched_oracle_callables_forward_succeeded": true,
+  "construction_was_separated_from_forward": true,
+  "dynamic_trace": {
+    "explicit_operation_dispatcher_reached": false,
+    "oracle_functions_reached_during_model_forward": [],
+    "oracle_reached": false,
+    "prediction_hash": "43960de8977db0e35145203c049cfba5c5a3dd09673e1df4a12435707208da6d",
+    "target_or_label_access_during_forward_detected": false
+  },
+  "input_packing_trace": {
+    "construction_was_separated_from_forward": true,
+    "oracle_alias_call_count": 8,
+    "oracle_aliases_reached_during_tensor_packing": [
+      "grid_to_list"
+    ],
+    "semantic_interpretation": "tensor packing reuses grid_to_list serialization aliases; model forward receives already-packed raw tensors"
+  },
+  "monkeypatch_execution_audit": [
+    {
+      "exception": null,
+      "forward_succeeded": true,
+      "oracle_callable": "apply_primitive_to_cell",
+      "output_changed": false
+    },
+    {
+      "exception": null,
+      "forward_succeeded": true,
+      "oracle_callable": "apply_sequence_to_cell",
+      "output_changed": false
+    },
+    {
+      "exception": null,
+      "forward_succeeded": true,
+      "oracle_callable": "apply_sequence_to_grid",
+      "output_changed": false
+    },
+    {
+      "exception": null,
+      "forward_succeeded": true,
+      "oracle_callable": "cell_signature",
+      "output_changed": false
+    },
+    {
+      "exception": null,
+      "forward_succeeded": true,
+      "oracle_callable": "color_transition_table",
+      "output_changed": false
+    },
+    {
+      "exception": null,
+      "forward_succeeded": true,
+      "oracle_callable": "coord_c",
+      "output_changed": false
+    },
+    {
+      "exception": null,
+      "forward_succeeded": true,
+      "oracle_callable": "coord_h",
+      "output_changed": false
+    },
+    {
+      "exception": null,
+      "forward_succeeded": true,
+      "oracle_callable": "coord_v",
+      "output_changed": false
+    },
+    {
+      "exception": null,
+      "forward_succeeded": true,
+      "oracle_callable": "empty_grid",
+      "output_changed": false
+    },
+    {
+      "exception": null,
+      "forward_succeeded": true,
+      "oracle_callable": "final_geometry_map",
+      "output_changed": false
+    },
+    {
+      "exception": null,
+      "forward_succeeded": true,
+      "oracle_callable": "foreground_coords",
+      "output_changed": false
+    },
+    {
+      "exception": null,
+      "forward_succeeded": true,
+      "oracle_callable": "freeze_grid",
+      "output_changed": false
+    },
+    {
+      "exception": null,
+      "forward_succeeded": true,
+      "oracle_callable": "grid_to_list",
+      "output_changed": false
+    },
+    {
+      "exception": null,
+      "forward_succeeded": true,
+      "oracle_callable": "identity_transport_matrix",
+      "output_changed": false
+    },
+    {
+      "exception": null,
+      "forward_succeeded": true,
+      "oracle_callable": "no_edge_foreground",
+      "output_changed": false
+    },
+    {
+      "exception": null,
+      "forward_succeeded": true,
+      "oracle_callable": "operation_function_audit",
+      "output_changed": false
+    },
+    {
+      "exception": null,
+      "forward_succeeded": true,
+      "oracle_callable": "parse_grid",
+      "output_changed": false
+    },
+    {
+      "exception": null,
+      "forward_succeeded": true,
+      "oracle_callable": "parse_sequence",
+      "output_changed": false
+    },
+    {
+      "exception": null,
+      "forward_succeeded": true,
+      "oracle_callable": "predicate_formula_from_truth_set",
+      "output_changed": false
+    },
+    {
+      "exception": null,
+      "forward_succeeded": true,
+      "oracle_callable": "predicate_truth_set",
+      "output_changed": false
+    },
+    {
+      "exception": null,
+      "forward_succeeded": true,
+      "oracle_callable": "signature_hash",
+      "output_changed": false
+    },
+    {
+      "exception": null,
+      "forward_succeeded": true,
+      "oracle_callable": "source_coord_for_output",
+      "output_changed": false
+    },
+    {
+      "exception": null,
+      "forward_succeeded": true,
+      "oracle_callable": "source_index_for_output",
+      "output_changed": false
+    }
+  ]
+}

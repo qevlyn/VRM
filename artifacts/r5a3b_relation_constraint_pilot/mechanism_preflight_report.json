@@ -1,0 +1,25 @@
+{
+  "arc_test_outputs_used": false,
+  "golden_cases": [
+    {
+      "name": "relation_candidate_generation_recolor_target",
+      "passed": true,
+      "relation_candidate_count": 4
+    },
+    {
+      "name": "nearest_tie_is_represented",
+      "nearest_tie_count": 3,
+      "passed": true
+    },
+    {
+      "hard_constraint_count": 0,
+      "name": "constraints_are_visible_support_only",
+      "passed": true
+    }
+  ],
+  "no_training_or_model_components": true,
+  "passed": true,
+  "pilot_version": "R5A3B_P0_RELATION_OBJECT_GRAPH_CONSTRAINT_CAUSAL_PILOT",
+  "report_sha256": "bd0c8ccb9bfd30f88a95adc3803c6c6f92b7cabe9b7290c32779c9428553b214",
+  "task_id_runtime_input": false
+}

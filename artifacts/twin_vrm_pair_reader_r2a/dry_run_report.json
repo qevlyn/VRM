@@ -1,0 +1,77 @@
+{
+  "all_frozen_grad_zero": true,
+  "all_gate_grad_nonzero": true,
+  "all_legacy_equivalence_passed": true,
+  "all_legacy_states_unchanged": true,
+  "all_reader_equivalence_passed": true,
+  "all_reader_states_unchanged": true,
+  "mode": "dry_run",
+  "protected_hashes_unchanged": true,
+  "seed_reports": [
+    {
+      "gate_grad_norm": 16.608362485644136,
+      "global_step": 4,
+      "last_loss": 0.2586335241794586,
+      "last_mean_gate": 0.5450577735900879,
+      "legacy_equivalence": {
+        "max_abs_difference": 0.0,
+        "passed": true
+      },
+      "legacy_grad_norm": 0.0,
+      "legacy_state_unchanged": true,
+      "reader_equivalence": {
+        "decoded_grids_exactly_equal": true,
+        "max_abs_difference": 0.0,
+        "passed": true
+      },
+      "reader_grad_norm": 0.0,
+      "reader_state_unchanged": true,
+      "seed": 20260628
+    },
+    {
+      "gate_grad_norm": 24.41006565870751,
+      "global_step": 4,
+      "last_loss": 0.3662708103656769,
+      "last_mean_gate": 0.5447977781295776,
+      "legacy_equivalence": {
+        "max_abs_difference": 0.0,
+        "passed": true
+      },
+      "legacy_grad_norm": 0.0,
+      "legacy_state_unchanged": true,
+      "reader_equivalence": {
+        "decoded_grids_exactly_equal": true,
+        "max_abs_difference": 0.0,
+        "passed": true
+      },
+      "reader_grad_norm": 0.0,
+      "reader_state_unchanged": true,
+      "seed": 20260629
+    },
+    {
+      "gate_grad_norm": 18.031914141450645,
+      "global_step": 4,
+      "last_loss": 0.27964547276496887,
+      "last_mean_gate": 0.5438687205314636,
+      "legacy_equivalence": {
+        "max_abs_difference": 0.0,
+        "passed": true
+      },
+      "legacy_grad_norm": 0.0,
+      "legacy_state_unchanged": true,
+      "reader_equivalence": {
+        "decoded_grids_exactly_equal": true,
+        "max_abs_difference": 0.0,
+        "passed": true
+      },
+      "reader_grad_norm": 0.0,
+      "reader_state_unchanged": true,
+      "seed": 20260630
+    }
+  ],
+  "seeds": [
+    20260628,
+    20260629,
+    20260630
+  ]
+}

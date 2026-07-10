@@ -1,0 +1,67 @@
+category,repo_relative_path,review_purpose,reviewed_scope
+source,r6a_compressarc/scripts/r6a_common.py,Phase 1 condition construction and evaluator utilities,line-inspected 1-208
+source,r6a_compressarc/scripts/run_phase1_multirepeat_pairing_audit.py,Phase 1 manifest swap verdict and run orchestration,line-inspected 45-75 120-147 188-205 365-444
+source,r6a_compressarc/scripts/phase1_condition_solver.py,Phase 1 solver training loop and probability capture,line-inspected 83-119 158-253
+source,r6a_compressarc/scripts/r6a_phase2_support_permutation_first_divergence_v8_child.py,v8 support permutation state action forward and loss certificates,line-inspected 465-509 780-847 1023-1170 1231-1298 1370-1391
+source,r6a_compressarc/scripts/r6a_phase2_semantic_state_action_decoder_boundary_v10_child.py,v10 semantic state action and decoder-boundary tracing,line-inspected 277-423 449-565 665-741 760-893 943-969
+source,r6a_compressarc/scripts/r6a_phase2_two_pass_semantic_boundary_provenance_v11_2_child.py,v11.2 two-pass scanner and replay,line-inspected 38-57 298-386 421-463 532-578 629-733 740-833 851-994
+source,third_party/compressarc_reference/preprocessing.py,Task construction and raw grid tensor ingestion,line-inspected 9-170
+source,third_party/compressarc_reference/arc_compressor.py,CompressARC model forward path,line-inspected 14-158
+source,third_party/compressarc_reference/layers.py,channel_layer decode_latents cummax postprocess_mask,line-inspected 71-162 418-570
+source,third_party/compressarc_reference/train.py,loss backward optimizer path,line-inspected 37-120
+source,third_party/compressarc_reference/solution_selection.py,query logits tracking and decoder postprocessing,line-inspected 40-76 130-162
+source,vrm/twin_tasks/r5a4b_support_semantics_audit.py,R5A VRM support-semantics intervention contrast,line-inspected 42-68 222-258 300-390 416-610
+source,vrm/twin_tasks/r5a4a_neural_vrm_train.py,R5A training and evaluation commitment contrast,pattern-inspected optimizer loss support ablation definitions
+source,vrm/twin_tasks/r5a4a_neural_vrm_eval.py,R5A support-ablation evaluation contrast,pattern-inspected metrics and conditions
+source,vrm/twin_tasks/r5a3b_p1_exposure_audit.py,R5A relation exposure audit contrast,pattern-inspected constraint exposure and recall logic
+source,vrm/twin_tasks/r5a3b_relation_constraint_pilot.py,R5A relation object-graph pilot contrast,pattern-inspected selection and forbidden input policy
+test,r6a_compressarc/tests/test_r6a_phase1_multirepeat.py,Phase 1 firewall swap probability evaluator tests,line-inspected 110-186 plus pattern scan
+test,r6a_compressarc/tests/test_r6a_phase2_support_permutation_first_divergence_v8.py,v8 provenance and state-action tests,pattern-inspected
+test,r6a_compressarc/tests/test_r6a_phase2_semantic_state_action_decoder_boundary_v10.py,v10 semantic action and no-training tests,line-inspected 83-168 plus pattern scan
+test,r6a_compressarc/tests/test_r6a_phase2_two_pass_semantic_boundary_provenance_v11_2.py,v11.2 replay decoder-scope no-training tests,line-inspected 99-182 plus pattern scan
+test,tests/test_r5a4b_support_semantics_audit.py,R5A intervention semantics tests,pattern-inspected
+test,tests/test_vrm_pair_reader_r2a.py,VRM pair-reader control tests,pattern-inspected
+test,tests/test_pair_reader_r1b.py,Pair-reader output-only and permutation tests,pattern-inspected
+doc,README.md,Project architecture context,top section inspected
+doc,r6a_compressarc/README.md,R6A line scope,top section inspected
+doc,r6a_compressarc/PROTOCOL.md,R6A protocol constants,top section inspected
+manifest,r6a_compressarc/source_provenance.json,CompressARC source pinning,top keys inspected
+manifest,r6a_compressarc/manifests/r6a_phase1_multirepeat_frozen_manifest.json,Phase 1 frozen protocol,top keys inspected
+manifest,r6a_compressarc/manifests/r6a_phase1_initialization_artifacts.json,Phase 1 identical initialization proof,top keys inspected
+artifact,r6a_compressarc/artifacts/r6a_phase1_aggregate_results.json,Phase 1 verdict and deltas,top cells inspected
+report,r6a_compressarc/reports/r6a_phase1_multirepeat_pairing_report.md,Phase 1 final report,top section inspected
+report,r6a_compressarc/reports/phase1_semantic_audit_report.md,Earlier blocked semantic audit,top section inspected
+manifest,r6a_compressarc/manifests/r6a_phase2_support_permutation_first_divergence_v8/imported_module_provenance.json,v8 import provenance,top keys inspected
+artifact,r6a_compressarc/artifacts/r6a_phase2_support_permutation_first_divergence_v8/summary.json,v8 summary,full short JSON inspected
+artifact,r6a_compressarc/artifacts/r6a_phase2_support_permutation_first_divergence_v8/first_divergence_cases.json,v8 case evidence,top case inspected
+artifact,r6a_compressarc/artifacts/r6a_phase2_support_permutation_first_divergence_v8/state_action_certificate.json,v8 state action certificate,top cases inspected
+artifact,r6a_compressarc/artifacts/r6a_phase2_support_permutation_first_divergence_v8/primitive_commutation_certificate.json,v8 primitive mismatch evidence,top cases inspected
+artifact,r6a_compressarc/artifacts/r6a_phase2_support_permutation_first_divergence_v8/loss_certificate.json,v8 loss not reached,full short JSON inspected
+artifact,r6a_compressarc/artifacts/r6a_phase2_support_permutation_first_divergence_v8/backward_certificate.json,v8 backward not reached,full short JSON inspected
+artifact,r6a_compressarc/artifacts/r6a_phase2_support_permutation_first_divergence_v8/adam_certificate.json,v8 Adam not reached,full short JSON inspected
+artifact,r6a_compressarc/artifacts/r6a_phase2_support_permutation_first_divergence_v8/optimizer_parameter_partition.json,v8 gradient probe status,top case inspected
+artifact,r6a_compressarc/artifacts/r6a_phase2_support_permutation_first_divergence_v8/permutation_registry.json,v8 support-pair transpositions,top case inspected
+report,r6a_compressarc/reports/r6a_phase2_support_permutation_first_divergence_v8/R6A_PHASE2_SUPPORT_PERMUTATION_FIRST_DIVERGENCE_CERTIFICATE_V8_REPORT.md,v8 generated report,keyword/index inspection JSON artifacts primary
+manifest,r6a_compressarc/manifests/r6a_phase2_semantic_state_action_decoder_boundary_v10/imported_module_provenance.json,v10 import provenance,top keys inspected
+artifact,r6a_compressarc/artifacts/r6a_phase2_semantic_state_action_decoder_boundary_v10/summary.json,v10 summary,full short JSON inspected
+artifact,r6a_compressarc/artifacts/r6a_phase2_semantic_state_action_decoder_boundary_v10/v8_action_behavior_audit.json,v8 invalidation evidence,full JSON inspected
+artifact,r6a_compressarc/artifacts/r6a_phase2_semantic_state_action_decoder_boundary_v10/final_outcome_classification.json,v10 non-claim statement,full short JSON inspected
+artifact,r6a_compressarc/artifacts/r6a_phase2_semantic_state_action_decoder_boundary_v10/decoder_boundary_trace.json,v10 Cummax boundary labels,full short JSON inspected
+artifact,r6a_compressarc/artifacts/r6a_phase2_semantic_state_action_decoder_boundary_v10/semantic_state_action_certificate.json,v10 state action pass/fail,full short JSON inspected
+artifact,r6a_compressarc/artifacts/r6a_phase2_semantic_state_action_decoder_boundary_v10/task_action_certificate.json,v10 task action pass/fail,top cases inspected
+artifact,r6a_compressarc/artifacts/r6a_phase2_semantic_state_action_decoder_boundary_v10/affine_commutation_certificate.json,v10 affine direct certificate,summary/test-backed inspection
+report,r6a_compressarc/reports/r6a_phase2_semantic_state_action_decoder_boundary_v10/R6A_PHASE2_SEMANTIC_STATE_ACTION_DECODER_BOUNDARY_V10_REPORT.md,v10 generated report,keyword/index inspection JSON artifacts primary
+manifest,r6a_compressarc/manifests/r6a_phase2_two_pass_semantic_boundary_provenance_v11_2/imported_module_provenance.json,v11.2 import provenance,top keys inspected
+artifact,r6a_compressarc/artifacts/r6a_phase2_two_pass_semantic_boundary_provenance_v11_2/summary.json,v11.2 summary,full short JSON inspected
+artifact,r6a_compressarc/artifacts/r6a_phase2_two_pass_semantic_boundary_provenance_v11_2/pass1_candidate_markers.json,v11.2 E_hash E_threshold,full short JSON inspected
+artifact,r6a_compressarc/artifacts/r6a_phase2_two_pass_semantic_boundary_provenance_v11_2/confirmed_markers.json,v11.2 E_bit,top case inspected
+artifact,r6a_compressarc/artifacts/r6a_phase2_two_pass_semantic_boundary_provenance_v11_2/targeted_replay_exact_comparison.json,v11.2 targeted replay,top case inspected
+artifact,r6a_compressarc/artifacts/r6a_phase2_two_pass_semantic_boundary_provenance_v11_2/cummax_microtrace.json,v11.2 Cummax microtrace,top case inspected
+artifact,r6a_compressarc/artifacts/r6a_phase2_two_pass_semantic_boundary_provenance_v11_2/selective_numerical_oracle.json,v11.2 numerical oracle scope,full short JSON inspected
+artifact,r6a_compressarc/artifacts/r6a_phase2_two_pass_semantic_boundary_provenance_v11_2/forbidden_path_certificate.json,v11.2 no loss backward optimizer guard,full short JSON inspected
+artifact,r6a_compressarc/artifacts/r6a_phase2_two_pass_semantic_boundary_provenance_v11_2/decoder_scope_certificate.json,v11.2 decoder scope,top case inspected
+artifact,r6a_compressarc/artifacts/r6a_phase2_two_pass_semantic_boundary_provenance_v11_2/static_semantic_boundary_graph.json,v11.2 static graph,source/test-backed inspection
+report,r6a_compressarc/reports/r6a_phase2_two_pass_semantic_boundary_provenance_v11_2/R6A_PHASE2_TWO_PASS_SEMANTIC_BOUNDARY_CAUSAL_PROVENANCE_V11_2_REPORT.md,v11.2 generated report,keyword/index inspection JSON artifacts primary
+doc,docs/github_publication_inventory.json,Current repository publication inventory context,top keys inspected
+archive,archives/VRM_TWIN_PROBE_V0_FROZEN_20260628_manifest.json,Archived earlier Twin Probe context,top keys inspected
+archive,archives/VRM_TWIN_PROBE_V0_FROZEN_20260628_README.md,Archive note context,full short markdown inspected

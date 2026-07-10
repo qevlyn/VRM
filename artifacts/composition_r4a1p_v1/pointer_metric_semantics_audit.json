@@ -1,0 +1,18 @@
+{
+  "argmax_versus_probability_mass_interpretation": "argmax source-position accuracy; probability mass is not used by the old metric",
+  "background_target_cells_scored": false,
+  "exact_code_path_used": [
+    "outputs['pointer_attention'].reshape(batch, 49, 49)",
+    "pointer_argmax = pointer.argmax(dim=-1)",
+    "fg = target[index] != 0",
+    "source_index_for_output(episode.sequence_class, x, y)",
+    "pointer_correct increments only when argmax index equals unique oracle source index"
+  ],
+  "foreground_only_or_all_cell_scope": "foreground target cells only for pointer_source_position_accuracy",
+  "function_name": "evaluate_model",
+  "metric_source_file": "/mnt/d/VRM/vrm/twin_tasks/run_composition_r4a0r.py",
+  "multiple_same_color_source_cells_handled_as": "not credited unless the argmax coordinate equals the oracle inverse-coordinate source position",
+  "oracle_source_coordinate_unique": "computed by source_index_for_output over the 7x7 grid; invalid/no-source cells are skipped",
+  "semantics_conclusion": "exact-coordinate metric",
+  "source_contains_same_color_credit_path": false
+}

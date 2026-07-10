@@ -1,0 +1,82 @@
+{
+  "by_condition": {
+    "FRESH_INIT_REFERENCE": {
+      "condition": "FRESH_INIT_REFERENCE",
+      "overall_correct_shape_count": 0,
+      "overall_shape_accuracy": 0.0,
+      "same_shape_correct_shape_count": 0,
+      "same_shape_fold_count": 104,
+      "same_shape_shape_accuracy": 0.0,
+      "shape_changing_correct_shape_count": 0,
+      "shape_changing_fold_count": 52,
+      "shape_changing_shape_accuracy": 0.0
+    },
+    "TRAINED_FULL_SUPPORT_REPLAY": {
+      "condition": "TRAINED_FULL_SUPPORT_REPLAY",
+      "overall_correct_shape_count": 104,
+      "overall_shape_accuracy": 0.6666666666666666,
+      "same_shape_correct_shape_count": 83,
+      "same_shape_fold_count": 104,
+      "same_shape_shape_accuracy": 0.7980769230769231,
+      "shape_changing_correct_shape_count": 21,
+      "shape_changing_fold_count": 52,
+      "shape_changing_shape_accuracy": 0.40384615384615385
+    },
+    "TRAINED_OUTPUT_GEOMETRY_SCRAMBLED": {
+      "condition": "TRAINED_OUTPUT_GEOMETRY_SCRAMBLED",
+      "overall_correct_shape_count": 108,
+      "overall_shape_accuracy": 0.6923076923076923,
+      "same_shape_correct_shape_count": 84,
+      "same_shape_fold_count": 104,
+      "same_shape_shape_accuracy": 0.8076923076923077,
+      "shape_changing_correct_shape_count": 24,
+      "shape_changing_fold_count": 52,
+      "shape_changing_shape_accuracy": 0.46153846153846156
+    },
+    "TRAINED_OUTPUT_PAIRING_BROKEN": {
+      "condition": "TRAINED_OUTPUT_PAIRING_BROKEN",
+      "overall_correct_shape_count": 105,
+      "overall_shape_accuracy": 0.6730769230769231,
+      "same_shape_correct_shape_count": 84,
+      "same_shape_fold_count": 104,
+      "same_shape_shape_accuracy": 0.8076923076923077,
+      "shape_changing_correct_shape_count": 21,
+      "shape_changing_fold_count": 52,
+      "shape_changing_shape_accuracy": 0.40384615384615385
+    },
+    "TRAINED_QUERY_ONLY_BYPASS": {
+      "condition": "TRAINED_QUERY_ONLY_BYPASS",
+      "overall_correct_shape_count": 88,
+      "overall_shape_accuracy": 0.5641025641025641,
+      "same_shape_correct_shape_count": 88,
+      "same_shape_fold_count": 104,
+      "same_shape_shape_accuracy": 0.8461538461538461,
+      "shape_changing_correct_shape_count": 0,
+      "shape_changing_fold_count": 52,
+      "shape_changing_shape_accuracy": 0.0
+    },
+    "TRAINED_SUPPORT_INPUTS_ZEROED": {
+      "condition": "TRAINED_SUPPORT_INPUTS_ZEROED",
+      "overall_correct_shape_count": 100,
+      "overall_shape_accuracy": 0.6410256410256411,
+      "same_shape_correct_shape_count": 82,
+      "same_shape_fold_count": 104,
+      "same_shape_shape_accuracy": 0.7884615384615384,
+      "shape_changing_correct_shape_count": 18,
+      "shape_changing_fold_count": 52,
+      "shape_changing_shape_accuracy": 0.34615384615384615
+    },
+    "TRAINED_ZEROED_SUPPORT_OUTPUTS_REPLAY": {
+      "condition": "TRAINED_ZEROED_SUPPORT_OUTPUTS_REPLAY",
+      "overall_correct_shape_count": 90,
+      "overall_shape_accuracy": 0.5769230769230769,
+      "same_shape_correct_shape_count": 74,
+      "same_shape_fold_count": 104,
+      "same_shape_shape_accuracy": 0.7115384615384616,
+      "shape_changing_correct_shape_count": 16,
+      "shape_changing_fold_count": 52,
+      "shape_changing_shape_accuracy": 0.3076923076923077
+    }
+  },
+  "note": "Do not interpret overall shape accuracy alone."
+}

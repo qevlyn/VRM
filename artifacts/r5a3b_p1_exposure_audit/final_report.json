@@ -1,0 +1,121 @@
+{
+  "Measured facts": {
+    "constraint_eligibility_totals": {
+      "candidate_independent_predicates_considered": 1424,
+      "promoted_to_hard_constraints": 108,
+      "rejected_for_ambiguous_correspondence": 1000,
+      "rejected_for_non_contrastiveness": 1008,
+      "rejected_for_non_mechanical_detectability": 0,
+      "rejected_for_non_universality": 307,
+      "retained_as_soft_signals": 1316
+    },
+    "fold_count": 100,
+    "hard_prune_target_behavior_counts": {
+      "HARD_PRUNE_PRESERVED_AT_LEAST_ONE_TARGET_CANDIDATE": 2,
+      "NO_TARGET_IN_RAW_UNIVERSE": 98
+    },
+    "low_k_constraint_deltas": {
+      "delta_R@16_hard_vs_no_prune": 0.0,
+      "delta_R@16_hard_vs_random": 0.006666666666666666,
+      "delta_R@1_hard_vs_no_prune": 0.0,
+      "delta_R@1_hard_vs_random": 0.006666666666666666,
+      "delta_R@4_hard_vs_no_prune": 0.0,
+      "delta_R@4_hard_vs_random": 0.006666666666666666
+    },
+    "mean_relation_only_unique_output_count": 2.38,
+    "mean_relation_raw_candidate_count": 6.0,
+    "parse_hit_classification_counts": {
+      "CANONICAL_PARSE_HIT": 2,
+      "NO_HIT": 98
+    },
+    "raw_target_candidate_record_count": 7,
+    "relation_exposure_counts": {
+      "NO_RELATION_PROGRAM_EMITTED": 17,
+      "RELATION_DISTINCT_OUTPUT_EXPOSED_NO_TARGET": 77,
+      "RELATION_DISTINCT_OUTPUT_ONLY_LOW_RANK": 0,
+      "RELATION_OUTPUT_DUPLICATES_OBJECT_ONLY": 6,
+      "RELATION_PROGRAM_EMITTED_NO_EXECUTABLE_OUTPUT": 0,
+      "RELATION_TARGET_CONTRIBUTOR": 0
+    },
+    "relation_only_unique_hit_record_count": 0,
+    "runtime_stage_stats": {
+      "candidate_enumeration_seconds": {
+        "count": 100,
+        "max": 0.10209291000023768,
+        "mean": 0.005564554399982171,
+        "median": 0.0012278765000246494,
+        "p95": 0.006328604999907839
+      },
+      "constraint_acquisition_seconds": {
+        "count": 100,
+        "max": 0.11722879700005251,
+        "mean": 0.0076308013000266324,
+        "median": 0.002533542000151101,
+        "p95": 0.00982395500000166
+      },
+      "execution_render_seconds": {
+        "count": 100,
+        "max": 22.39864985000031,
+        "mean": 0.8968762661999813,
+        "median": 0.012263729499977671,
+        "p95": 0.09527200300021832
+      },
+      "graph_construction_seconds": {
+        "count": 100,
+        "max": 1.5784433640001225,
+        "mean": 0.052103202589989905,
+        "median": 8.870849990216811e-05,
+        "p95": 0.009812997999915751
+      },
+      "pruning_dedup_hash_seconds": {
+        "count": 100,
+        "max": 51.8844518599999,
+        "mean": 1.9058031400000026,
+        "median": 0.029197485000054257,
+        "p95": 0.46535763200017755
+      },
+      "scene_parsing_seconds": {
+        "count": 100,
+        "max": 0.07341743099982523,
+        "mean": 0.0038214949200005323,
+        "median": 0.0006978520000302524,
+        "p95": 0.00488285000005817
+      },
+      "serialization_seconds": {
+        "count": 100,
+        "max": 0.0,
+        "mean": 0.0,
+        "median": 0.0,
+        "p95": 0.0
+      },
+      "total_fold_seconds": {
+        "count": 100,
+        "max": 75.92104424199988,
+        "mean": 2.873777556700006,
+        "median": 0.04936155300003975,
+        "p95": 0.587370872000065
+      },
+      "visible_support_scoring_seconds": {
+        "count": 100,
+        "max": 0.0,
+        "mean": 0.0,
+        "median": 0.0,
+        "p95": 0.0
+      }
+    }
+  },
+  "Narrowest justified next action": "D. Stop this relation-constraint v0 because it was adequately exposed and added no target contribution.",
+  "What P1 does not establish": [
+    "It does not prove relation graphs are globally useless.",
+    "It does not prove relation graphs solve multi-object ARC.",
+    "It is not a full-corpus result.",
+    "It does not establish a need for TTT or LLM control.",
+    "It does not justify adding a new operator."
+  ],
+  "What P1 establishes": [
+    "Relation candidates were emitted and distinct relation outputs were exposed on a measurable subset of P0 folds.",
+    "No exact target hit was a relation-only unique output.",
+    "Hard pruning target survival is reported at low K and target-containing raw-universe granularity.",
+    "Multiple parse hypotheses did not require a noncanonical parse hit."
+  ]
+}

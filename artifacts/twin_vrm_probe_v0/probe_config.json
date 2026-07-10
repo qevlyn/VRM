@@ -1,0 +1,57 @@
+{
+  "architecture": "VRM V1.1 - Masked Query Spatial Evidence Rewrite",
+  "batch_size": 4,
+  "betas": [
+    0.9,
+    0.95
+  ],
+  "checkpoint_dir": "/mnt/d/VRM/checkpoints/twin_vrm_probe_v0",
+  "checkpoint_every": 250,
+  "data": "/mnt/d/VRM/artifacts/twin_task_pilot_v1",
+  "determinism": {
+    "cuda_available": false,
+    "seed": 20260628,
+    "torch_deterministic_algorithms": "enabled_warn_only"
+  },
+  "eval_batch_size": 64,
+  "eval_every": 250,
+  "grad_clip_norm": 1.0,
+  "learning_rate": 0.0002,
+  "max_steps": 5000,
+  "min_learning_rate": 2e-05,
+  "mode": "full",
+  "model_config": {
+    "dropout": 0.0,
+    "hidden_size": 128,
+    "max_grid_height": 30,
+    "max_grid_tokens": 900,
+    "max_grid_width": 30,
+    "max_support_pairs": 16,
+    "num_heads": 4,
+    "output_color_count": 10,
+    "pair_encoder_layers": 1,
+    "rewrite_layers": 2,
+    "rewrite_steps": 4,
+    "rule_slots": 32,
+    "shape_classes": 30,
+    "vocab_size": 11
+  },
+  "out": "/mnt/d/VRM/artifacts/twin_vrm_probe_v0",
+  "probe": "VRM Twin Probe v0 - Correspondence Capacity Test",
+  "resume_from": "/mnt/d/VRM/checkpoints/twin_vrm_probe_v0/twin_vrm_probe_step3250.pt",
+  "runtime": {
+    "cuda_available": false,
+    "cuda_device": null,
+    "device": "cpu",
+    "platform": "Linux-6.18.33.1-microsoft-standard-WSL2-x86_64-with-glibc2.43",
+    "python": "3.14.4 (main, Apr  8 2026, 04:02:31) [GCC 15.2.0]",
+    "torch": "2.12.1+cpu",
+    "torch_threads": 16
+  },
+  "sealed_protocol": "sealed is evaluated once after the best dev checkpoint is selected",
+  "seed": 20260628,
+  "shape_loss_weight": 0.5,
+  "steps": 25,
+  "warmup_steps": 100,
+  "weight_decay": 0.01
+}

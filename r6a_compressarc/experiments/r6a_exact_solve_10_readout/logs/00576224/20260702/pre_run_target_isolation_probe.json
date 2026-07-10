@@ -1,0 +1,19 @@
+{
+  "challenge_path": "/mnt/d/VRM/r6a_compressarc/experiments/r6a_exact_solve_10_readout/logs/00576224/20260702/F1/challenge.json",
+  "init_info": {
+    "model_state_hash": "6602fa165ac69ce6c71a989e82b1feedebfafd396ce6b5bf060360a4b4c41eea",
+    "optimizer_state_hash": "303dfc88384552ee65180297eee2929b9103e91ba38ee03e5a6c10ac4237b9d5",
+    "path": "/mnt/d/VRM/r6a_compressarc/experiments/r6a_exact_solve_10_readout/logs/00576224/20260702/initialization.pt",
+    "reused": false,
+    "rng_state_hash": "65e54a566008dd1c3a8fe8a77d759503c672a470f0d81daad0a5955fc07a8a5e"
+  },
+  "initialization_path": "/mnt/d/VRM/r6a_compressarc/experiments/r6a_exact_solve_10_readout/logs/00576224/20260702/initialization.pt",
+  "task_id": "00576224",
+  "test_entry_keys": [
+    [
+      "input"
+    ]
+  ],
+  "test_outputs_present": false,
+  "train_outputs_present": true
+}

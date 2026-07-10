@@ -1,0 +1,901 @@
+# Twin task pilot probe examples
+
+## base marker_to_output_bijection_v1_00000000
+
+### Twin A
+label: 1
+unpaired_payload_hash: b9200005eb198790319bd8c7389917da8351950e7d78dedc6a889486dcf2e2dd
+paired_payload_hash: 57c48cb45ea0f0ee0dcceeda419f2ee4f883ea411ea1bd89eb43ea09f0a7fa97
+support pairings:
+- marker 1 -> output 0
+support input:
+0 0 0 0 1 0 0
+0 0 0 0 1 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+support output:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 7 0 0 0
+0 0 7 7 7 0 0
+0 0 0 7 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+- marker 0 -> output 2
+support input:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+8 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+support output:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 8 0 0 0
+0 0 8 8 8 0 0
+0 0 0 8 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+- marker 2 -> output 1
+support input:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 3 3 0 0
+0 0 0 3 0 0 0
+support output:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 3 0 0 0
+0 0 3 3 3 0 0
+0 0 0 3 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+shared query:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+8 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+candidate_0:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 7 0 0 0
+0 0 7 7 7 0 0
+0 0 0 7 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+candidate_1:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 8 0 0 0
+0 0 8 8 8 0 0
+0 0 0 8 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+probe predictions:
+- P1_QUERY_ONLY: scores=[0.0, 0.0], prediction=0
+- P2_SUPPORT_INPUT_BAG_ONLY: scores=[0.0, 0.0], prediction=0
+- P3_SUPPORT_OUTPUT_BAG_ONLY: scores=[1.0, 1.0], prediction=0
+- P4_UNPAIRED_SUPPORT_BAG: scores=[1.0, 1.0], prediction=0
+- P5_RELATION_AWARE_PAIRED: scores=[0.0, 1.0], prediction=1
+- P6_RELATION_AWARE_DERANGED: scores=[0.0, 0.0], prediction=0
+exact invariant status: passed
+
+### Twin B
+label: 0
+unpaired_payload_hash: b9200005eb198790319bd8c7389917da8351950e7d78dedc6a889486dcf2e2dd
+paired_payload_hash: ca2dfd87a5becf150a25e60f591607565176b098ba03934bd06cbc1e05ec9dd4
+support pairings:
+- marker 0 -> output 0
+support input:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+8 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+support output:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 7 0 0 0
+0 0 7 7 7 0 0
+0 0 0 7 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+- marker 1 -> output 1
+support input:
+0 0 0 0 1 0 0
+0 0 0 0 1 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+support output:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 3 0 0 0
+0 0 3 3 3 0 0
+0 0 0 3 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+- marker 2 -> output 2
+support input:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 3 3 0 0
+0 0 0 3 0 0 0
+support output:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 8 0 0 0
+0 0 8 8 8 0 0
+0 0 0 8 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+shared query:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+8 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+candidate_0:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 7 0 0 0
+0 0 7 7 7 0 0
+0 0 0 7 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+candidate_1:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 8 0 0 0
+0 0 8 8 8 0 0
+0 0 0 8 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+probe predictions:
+- P1_QUERY_ONLY: scores=[0.0, 0.0], prediction=0
+- P2_SUPPORT_INPUT_BAG_ONLY: scores=[0.0, 0.0], prediction=0
+- P3_SUPPORT_OUTPUT_BAG_ONLY: scores=[1.0, 1.0], prediction=0
+- P4_UNPAIRED_SUPPORT_BAG: scores=[1.0, 1.0], prediction=0
+- P5_RELATION_AWARE_PAIRED: scores=[1.0, 0.0], prediction=0
+- P6_RELATION_AWARE_DERANGED: scores=[0.0, 0.0], prediction=0
+exact invariant status: passed
+
+## base marker_to_output_bijection_v1_00000001
+
+### Twin A
+label: 0
+unpaired_payload_hash: d8a818a1b049fade77e9e875a65a5ba75e3dbec77cf37b3584225dffd3dc1dca
+paired_payload_hash: c2c1cf3818b038e902dbb06f53730b40606c7180088185c83563d227f588df7f
+support pairings:
+- marker 2 -> output 0
+support input:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 7 7 0 0 0 0
+0 7 0 0 0 0 0
+support output:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 7 0 0 0
+0 0 7 7 7 0 0
+0 0 0 7 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+- marker 0 -> output 1
+support input:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 8 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+support output:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 2 0 0 0
+0 0 2 2 2 0 0
+0 0 0 2 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+- marker 1 -> output 2
+support input:
+0 5 0 0 0 0 0
+0 5 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+support output:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 9 0 0 0
+0 0 9 9 9 0 0
+0 0 0 9 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+shared query:
+0 5 0 0 0 0 0
+0 5 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+candidate_0:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 9 0 0 0
+0 0 9 9 9 0 0
+0 0 0 9 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+candidate_1:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 7 0 0 0
+0 0 7 7 7 0 0
+0 0 0 7 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+probe predictions:
+- P1_QUERY_ONLY: scores=[0.0, 0.0], prediction=0
+- P2_SUPPORT_INPUT_BAG_ONLY: scores=[0.0, 0.0], prediction=0
+- P3_SUPPORT_OUTPUT_BAG_ONLY: scores=[1.0, 1.0], prediction=0
+- P4_UNPAIRED_SUPPORT_BAG: scores=[1.0, 1.0], prediction=0
+- P5_RELATION_AWARE_PAIRED: scores=[1.0, 0.0], prediction=0
+- P6_RELATION_AWARE_DERANGED: scores=[0.0, 0.0], prediction=0
+exact invariant status: passed
+
+### Twin B
+label: 1
+unpaired_payload_hash: d8a818a1b049fade77e9e875a65a5ba75e3dbec77cf37b3584225dffd3dc1dca
+paired_payload_hash: 895f1f1258136b8e80c0012206d32a899dbe974bdb69294bf7cfc825443c1f91
+support pairings:
+- marker 1 -> output 0
+support input:
+0 5 0 0 0 0 0
+0 5 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+support output:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 7 0 0 0
+0 0 7 7 7 0 0
+0 0 0 7 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+- marker 2 -> output 1
+support input:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 7 7 0 0 0 0
+0 7 0 0 0 0 0
+support output:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 2 0 0 0
+0 0 2 2 2 0 0
+0 0 0 2 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+- marker 0 -> output 2
+support input:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 8 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+support output:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 9 0 0 0
+0 0 9 9 9 0 0
+0 0 0 9 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+shared query:
+0 5 0 0 0 0 0
+0 5 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+candidate_0:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 9 0 0 0
+0 0 9 9 9 0 0
+0 0 0 9 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+candidate_1:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 7 0 0 0
+0 0 7 7 7 0 0
+0 0 0 7 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+probe predictions:
+- P1_QUERY_ONLY: scores=[0.0, 0.0], prediction=0
+- P2_SUPPORT_INPUT_BAG_ONLY: scores=[0.0, 0.0], prediction=0
+- P3_SUPPORT_OUTPUT_BAG_ONLY: scores=[1.0, 1.0], prediction=0
+- P4_UNPAIRED_SUPPORT_BAG: scores=[1.0, 1.0], prediction=0
+- P5_RELATION_AWARE_PAIRED: scores=[0.0, 1.0], prediction=1
+- P6_RELATION_AWARE_DERANGED: scores=[1.0, 0.0], prediction=0
+exact invariant status: passed
+
+## base marker_to_output_bijection_v1_00000002
+
+### Twin A
+label: 0
+unpaired_payload_hash: fb36213651244f372a68516783bc27a6ac56911233987473c47001b1b89aef98
+paired_payload_hash: 8091157533b1c9981fee653b38be02e267d81be3f0fd3f5895638354d8ed2039
+support pairings:
+- marker 0 -> output 0
+support input:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 2 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+support output:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 5 0 0 0
+0 0 5 5 5 0 0
+0 0 0 5 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+- marker 1 -> output 2
+support input:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 3
+0 0 0 0 0 0 3
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+support output:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 6 0 0 0
+0 0 6 6 6 0 0
+0 0 0 6 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+- marker 2 -> output 1
+support input:
+0 1 1 0 0 0 0
+0 1 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+support output:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 2 0 0 0
+0 0 2 2 2 0 0
+0 0 0 2 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+shared query:
+0 1 1 0 0 0 0
+0 1 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+candidate_0:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 2 0 0 0
+0 0 2 2 2 0 0
+0 0 0 2 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+candidate_1:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 5 0 0 0
+0 0 5 5 5 0 0
+0 0 0 5 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+probe predictions:
+- P1_QUERY_ONLY: scores=[0.0, 0.0], prediction=0
+- P2_SUPPORT_INPUT_BAG_ONLY: scores=[0.0, 0.0], prediction=0
+- P3_SUPPORT_OUTPUT_BAG_ONLY: scores=[1.0, 1.0], prediction=0
+- P4_UNPAIRED_SUPPORT_BAG: scores=[1.0, 1.0], prediction=0
+- P5_RELATION_AWARE_PAIRED: scores=[1.0, 0.0], prediction=0
+- P6_RELATION_AWARE_DERANGED: scores=[0.0, 1.0], prediction=1
+exact invariant status: passed
+
+### Twin B
+label: 1
+unpaired_payload_hash: fb36213651244f372a68516783bc27a6ac56911233987473c47001b1b89aef98
+paired_payload_hash: 6ae801cc5830d29275c4a0f8f967f34330118a23d2a427b55073dc5e1a4dcc37
+support pairings:
+- marker 0 -> output 2
+support input:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 2 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+support output:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 6 0 0 0
+0 0 6 6 6 0 0
+0 0 0 6 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+- marker 2 -> output 0
+support input:
+0 1 1 0 0 0 0
+0 1 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+support output:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 5 0 0 0
+0 0 5 5 5 0 0
+0 0 0 5 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+- marker 1 -> output 1
+support input:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 3
+0 0 0 0 0 0 3
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+support output:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 2 0 0 0
+0 0 2 2 2 0 0
+0 0 0 2 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+shared query:
+0 1 1 0 0 0 0
+0 1 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+candidate_0:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 2 0 0 0
+0 0 2 2 2 0 0
+0 0 0 2 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+candidate_1:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 5 0 0 0
+0 0 5 5 5 0 0
+0 0 0 5 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+probe predictions:
+- P1_QUERY_ONLY: scores=[0.0, 0.0], prediction=0
+- P2_SUPPORT_INPUT_BAG_ONLY: scores=[0.0, 0.0], prediction=0
+- P3_SUPPORT_OUTPUT_BAG_ONLY: scores=[1.0, 1.0], prediction=0
+- P4_UNPAIRED_SUPPORT_BAG: scores=[1.0, 1.0], prediction=0
+- P5_RELATION_AWARE_PAIRED: scores=[0.0, 1.0], prediction=1
+- P6_RELATION_AWARE_DERANGED: scores=[1.0, 0.0], prediction=0
+exact invariant status: passed
+
+## base marker_to_output_bijection_v1_00000003
+
+### Twin A
+label: 0
+unpaired_payload_hash: a8c35ac58aca900bf71678c649ff386d734e91667817889998ee6451ab0239f1
+paired_payload_hash: 621be0c73c08a5cd3f83354a507e0438dbf3e10ff9759251704a63b497adc553
+support pairings:
+- marker 1 -> output 2
+support input:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 5
+0 0 0 0 0 0 5
+support output:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 2 0 0 0
+0 0 2 2 2 0 0
+0 0 0 2 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+- marker 2 -> output 0
+support input:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 6 6
+0 0 0 0 0 6 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+support output:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 5 0 0 0
+0 0 5 5 5 0 0
+0 0 0 5 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+- marker 0 -> output 1
+support input:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+9 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+support output:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 9 0 0 0
+0 0 9 9 9 0 0
+0 0 0 9 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+shared query:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 5
+0 0 0 0 0 0 5
+candidate_0:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 2 0 0 0
+0 0 2 2 2 0 0
+0 0 0 2 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+candidate_1:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 9 0 0 0
+0 0 9 9 9 0 0
+0 0 0 9 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+probe predictions:
+- P1_QUERY_ONLY: scores=[0.0, 0.0], prediction=0
+- P2_SUPPORT_INPUT_BAG_ONLY: scores=[0.0, 0.0], prediction=0
+- P3_SUPPORT_OUTPUT_BAG_ONLY: scores=[1.0, 1.0], prediction=0
+- P4_UNPAIRED_SUPPORT_BAG: scores=[1.0, 1.0], prediction=0
+- P5_RELATION_AWARE_PAIRED: scores=[1.0, 0.0], prediction=0
+- P6_RELATION_AWARE_DERANGED: scores=[0.0, 0.0], prediction=0
+exact invariant status: passed
+
+### Twin B
+label: 1
+unpaired_payload_hash: a8c35ac58aca900bf71678c649ff386d734e91667817889998ee6451ab0239f1
+paired_payload_hash: 1385acee912a65d8deb86edaaa3a122f1d969965143a5c81346a1c3a3eb025a9
+support pairings:
+- marker 2 -> output 2
+support input:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 6 6
+0 0 0 0 0 6 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+support output:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 2 0 0 0
+0 0 2 2 2 0 0
+0 0 0 2 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+- marker 0 -> output 0
+support input:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+9 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+support output:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 5 0 0 0
+0 0 5 5 5 0 0
+0 0 0 5 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+- marker 1 -> output 1
+support input:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 5
+0 0 0 0 0 0 5
+support output:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 9 0 0 0
+0 0 9 9 9 0 0
+0 0 0 9 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+shared query:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 5
+0 0 0 0 0 0 5
+candidate_0:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 2 0 0 0
+0 0 2 2 2 0 0
+0 0 0 2 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+candidate_1:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 9 0 0 0
+0 0 9 9 9 0 0
+0 0 0 9 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+probe predictions:
+- P1_QUERY_ONLY: scores=[0.0, 0.0], prediction=0
+- P2_SUPPORT_INPUT_BAG_ONLY: scores=[0.0, 0.0], prediction=0
+- P3_SUPPORT_OUTPUT_BAG_ONLY: scores=[1.0, 1.0], prediction=0
+- P4_UNPAIRED_SUPPORT_BAG: scores=[1.0, 1.0], prediction=0
+- P5_RELATION_AWARE_PAIRED: scores=[0.0, 1.0], prediction=1
+- P6_RELATION_AWARE_DERANGED: scores=[1.0, 0.0], prediction=0
+exact invariant status: passed
+
+## base marker_to_output_bijection_v1_00000004
+
+### Twin A
+label: 0
+unpaired_payload_hash: 30bd28c814e19e44f3d98d4c6f1a8cfebf8e3ccd6307629f5b8609c02d1439b3
+paired_payload_hash: fde6dc3cd8345e45973f50f38407369e6e88317d9561356238180b9aa78923f1
+support pairings:
+- marker 2 -> output 0
+support input:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 1 1 0 0 0 0
+0 1 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+support output:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 2 0 0 0
+0 0 2 2 2 0 0
+0 0 0 2 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+- marker 0 -> output 2
+support input:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 7 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+support output:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 8 0 0 0
+0 0 8 8 8 0 0
+0 0 0 8 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+- marker 1 -> output 1
+support input:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 6
+0 0 0 0 0 0 6
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+support output:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 6 0 0 0
+0 0 6 6 6 0 0
+0 0 0 6 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+shared query:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 6
+0 0 0 0 0 0 6
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+candidate_0:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 6 0 0 0
+0 0 6 6 6 0 0
+0 0 0 6 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+candidate_1:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 8 0 0 0
+0 0 8 8 8 0 0
+0 0 0 8 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+probe predictions:
+- P1_QUERY_ONLY: scores=[0.0, 0.0], prediction=0
+- P2_SUPPORT_INPUT_BAG_ONLY: scores=[0.0, 0.0], prediction=0
+- P3_SUPPORT_OUTPUT_BAG_ONLY: scores=[1.0, 1.0], prediction=0
+- P4_UNPAIRED_SUPPORT_BAG: scores=[1.0, 1.0], prediction=0
+- P5_RELATION_AWARE_PAIRED: scores=[1.0, 0.0], prediction=0
+- P6_RELATION_AWARE_DERANGED: scores=[0.0, 1.0], prediction=1
+exact invariant status: passed
+
+### Twin B
+label: 1
+unpaired_payload_hash: 30bd28c814e19e44f3d98d4c6f1a8cfebf8e3ccd6307629f5b8609c02d1439b3
+paired_payload_hash: e571927fad44e1a3d02029d2cd316d647d452957b08f49927fdab8a822d38798
+support pairings:
+- marker 2 -> output 1
+support input:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 1 1 0 0 0 0
+0 1 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+support output:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 6 0 0 0
+0 0 6 6 6 0 0
+0 0 0 6 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+- marker 0 -> output 0
+support input:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 7 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+support output:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 2 0 0 0
+0 0 2 2 2 0 0
+0 0 0 2 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+- marker 1 -> output 2
+support input:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 6
+0 0 0 0 0 0 6
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+support output:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 8 0 0 0
+0 0 8 8 8 0 0
+0 0 0 8 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+shared query:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 6
+0 0 0 0 0 0 6
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+candidate_0:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 6 0 0 0
+0 0 6 6 6 0 0
+0 0 0 6 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+candidate_1:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 8 0 0 0
+0 0 8 8 8 0 0
+0 0 0 8 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+probe predictions:
+- P1_QUERY_ONLY: scores=[0.0, 0.0], prediction=0
+- P2_SUPPORT_INPUT_BAG_ONLY: scores=[0.0, 0.0], prediction=0
+- P3_SUPPORT_OUTPUT_BAG_ONLY: scores=[1.0, 1.0], prediction=0
+- P4_UNPAIRED_SUPPORT_BAG: scores=[1.0, 1.0], prediction=0
+- P5_RELATION_AWARE_PAIRED: scores=[0.0, 1.0], prediction=1
+- P6_RELATION_AWARE_DERANGED: scores=[0.0, 0.0], prediction=0
+exact invariant status: passed

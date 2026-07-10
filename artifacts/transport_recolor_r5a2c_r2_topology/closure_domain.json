@@ -1,0 +1,282 @@
+{
+  "adjacency": "4_connected",
+  "adjacency_neighbors": [
+    "north",
+    "south",
+    "east",
+    "west"
+  ],
+  "background_color_domain": [
+    0
+  ],
+  "barrier_color_domain": [
+    4
+  ],
+  "barrier_geometry_catalog": [
+    "diagonal_bridge_a",
+    "diagonal_bridge_b",
+    "diagonal_bridge_c",
+    "diagonal_bridge_d"
+  ],
+  "candidate_hypothesis_catalog": [
+    {
+      "adjacency": "4_connected",
+      "barrier_color": 4,
+      "convention": "border_reachable_recolor",
+      "marker_color_or_none": null,
+      "output_recolor_color": 7,
+      "passable_color": 1,
+      "seed_condition_or_none": null
+    },
+    {
+      "adjacency": "4_connected",
+      "barrier_color": 4,
+      "convention": "border_reachable_recolor",
+      "marker_color_or_none": null,
+      "output_recolor_color": 8,
+      "passable_color": 1,
+      "seed_condition_or_none": null
+    },
+    {
+      "adjacency": "4_connected",
+      "barrier_color": 4,
+      "convention": "border_reachable_recolor",
+      "marker_color_or_none": null,
+      "output_recolor_color": 7,
+      "passable_color": 2,
+      "seed_condition_or_none": null
+    },
+    {
+      "adjacency": "4_connected",
+      "barrier_color": 4,
+      "convention": "border_reachable_recolor",
+      "marker_color_or_none": null,
+      "output_recolor_color": 8,
+      "passable_color": 2,
+      "seed_condition_or_none": null
+    },
+    {
+      "adjacency": "4_connected",
+      "barrier_color": 4,
+      "convention": "border_reachable_recolor",
+      "marker_color_or_none": null,
+      "output_recolor_color": 7,
+      "passable_color": 3,
+      "seed_condition_or_none": null
+    },
+    {
+      "adjacency": "4_connected",
+      "barrier_color": 4,
+      "convention": "border_reachable_recolor",
+      "marker_color_or_none": null,
+      "output_recolor_color": 8,
+      "passable_color": 3,
+      "seed_condition_or_none": null
+    },
+    {
+      "adjacency": "4_connected",
+      "barrier_color": 4,
+      "convention": "enclosed_region_recolor",
+      "marker_color_or_none": null,
+      "output_recolor_color": 7,
+      "passable_color": 1,
+      "seed_condition_or_none": null
+    },
+    {
+      "adjacency": "4_connected",
+      "barrier_color": 4,
+      "convention": "enclosed_region_recolor",
+      "marker_color_or_none": null,
+      "output_recolor_color": 8,
+      "passable_color": 1,
+      "seed_condition_or_none": null
+    },
+    {
+      "adjacency": "4_connected",
+      "barrier_color": 4,
+      "convention": "enclosed_region_recolor",
+      "marker_color_or_none": null,
+      "output_recolor_color": 7,
+      "passable_color": 2,
+      "seed_condition_or_none": null
+    },
+    {
+      "adjacency": "4_connected",
+      "barrier_color": 4,
+      "convention": "enclosed_region_recolor",
+      "marker_color_or_none": null,
+      "output_recolor_color": 8,
+      "passable_color": 2,
+      "seed_condition_or_none": null
+    },
+    {
+      "adjacency": "4_connected",
+      "barrier_color": 4,
+      "convention": "enclosed_region_recolor",
+      "marker_color_or_none": null,
+      "output_recolor_color": 7,
+      "passable_color": 3,
+      "seed_condition_or_none": null
+    },
+    {
+      "adjacency": "4_connected",
+      "barrier_color": 4,
+      "convention": "enclosed_region_recolor",
+      "marker_color_or_none": null,
+      "output_recolor_color": 8,
+      "passable_color": 3,
+      "seed_condition_or_none": null
+    },
+    {
+      "adjacency": "4_connected",
+      "barrier_color": 4,
+      "convention": "seed_reachable_recolor",
+      "marker_color_or_none": 5,
+      "output_recolor_color": 7,
+      "passable_color": 1,
+      "seed_condition_or_none": "marker_adjacent_4_connected"
+    },
+    {
+      "adjacency": "4_connected",
+      "barrier_color": 4,
+      "convention": "seed_reachable_recolor",
+      "marker_color_or_none": 5,
+      "output_recolor_color": 8,
+      "passable_color": 1,
+      "seed_condition_or_none": "marker_adjacent_4_connected"
+    },
+    {
+      "adjacency": "4_connected",
+      "barrier_color": 4,
+      "convention": "seed_reachable_recolor",
+      "marker_color_or_none": 6,
+      "output_recolor_color": 7,
+      "passable_color": 1,
+      "seed_condition_or_none": "marker_adjacent_4_connected"
+    },
+    {
+      "adjacency": "4_connected",
+      "barrier_color": 4,
+      "convention": "seed_reachable_recolor",
+      "marker_color_or_none": 6,
+      "output_recolor_color": 8,
+      "passable_color": 1,
+      "seed_condition_or_none": "marker_adjacent_4_connected"
+    },
+    {
+      "adjacency": "4_connected",
+      "barrier_color": 4,
+      "convention": "seed_reachable_recolor",
+      "marker_color_or_none": 5,
+      "output_recolor_color": 7,
+      "passable_color": 2,
+      "seed_condition_or_none": "marker_adjacent_4_connected"
+    },
+    {
+      "adjacency": "4_connected",
+      "barrier_color": 4,
+      "convention": "seed_reachable_recolor",
+      "marker_color_or_none": 5,
+      "output_recolor_color": 8,
+      "passable_color": 2,
+      "seed_condition_or_none": "marker_adjacent_4_connected"
+    },
+    {
+      "adjacency": "4_connected",
+      "barrier_color": 4,
+      "convention": "seed_reachable_recolor",
+      "marker_color_or_none": 6,
+      "output_recolor_color": 7,
+      "passable_color": 2,
+      "seed_condition_or_none": "marker_adjacent_4_connected"
+    },
+    {
+      "adjacency": "4_connected",
+      "barrier_color": 4,
+      "convention": "seed_reachable_recolor",
+      "marker_color_or_none": 6,
+      "output_recolor_color": 8,
+      "passable_color": 2,
+      "seed_condition_or_none": "marker_adjacent_4_connected"
+    },
+    {
+      "adjacency": "4_connected",
+      "barrier_color": 4,
+      "convention": "seed_reachable_recolor",
+      "marker_color_or_none": 5,
+      "output_recolor_color": 7,
+      "passable_color": 3,
+      "seed_condition_or_none": "marker_adjacent_4_connected"
+    },
+    {
+      "adjacency": "4_connected",
+      "barrier_color": 4,
+      "convention": "seed_reachable_recolor",
+      "marker_color_or_none": 5,
+      "output_recolor_color": 8,
+      "passable_color": 3,
+      "seed_condition_or_none": "marker_adjacent_4_connected"
+    },
+    {
+      "adjacency": "4_connected",
+      "barrier_color": 4,
+      "convention": "seed_reachable_recolor",
+      "marker_color_or_none": 6,
+      "output_recolor_color": 7,
+      "passable_color": 3,
+      "seed_condition_or_none": "marker_adjacent_4_connected"
+    },
+    {
+      "adjacency": "4_connected",
+      "barrier_color": 4,
+      "convention": "seed_reachable_recolor",
+      "marker_color_or_none": 6,
+      "output_recolor_color": 8,
+      "passable_color": 3,
+      "seed_condition_or_none": "marker_adjacent_4_connected"
+    }
+  ],
+  "candidate_hypothesis_count": 24,
+  "closure_domain_sha256": "bdad945425fd734ed443788c39d21c4c48d629c09f05c92ad7c62c8cfb554329",
+  "conjunction_depth_bound": 2,
+  "grid_size": "7x7 only",
+  "marker_color_domain": [
+    5,
+    6
+  ],
+  "maximum_component_count": 8,
+  "maximum_marker_count": 1,
+  "output_recolor_domain": [
+    7,
+    8
+  ],
+  "palette": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "passable_color_domain": [
+    1,
+    2,
+    3
+  ],
+  "query_count": 1,
+  "support_pair_count": 3,
+  "wrong_adjacency_ablation": "8_connected",
+  "wrong_adjacency_neighbors": [
+    "north",
+    "north_east",
+    "east",
+    "south_east",
+    "south",
+    "south_west",
+    "west",
+    "north_west"
+  ]
+}

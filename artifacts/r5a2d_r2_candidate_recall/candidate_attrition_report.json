@@ -1,0 +1,222 @@
+{
+  "V2": {
+    "candidate_funnel": [
+      {
+        "denominator": 1360,
+        "numerator": 1360,
+        "rate": 1.0,
+        "stage": "all ARC tasks"
+      },
+      {
+        "denominator": 1360,
+        "numerator": 7,
+        "rate": 0.005147058823529412,
+        "stage": "raw grid-domain eligible"
+      },
+      {
+        "denominator": 1360,
+        "numerator": 6,
+        "rate": 0.004411764705882353,
+        "stage": "raw palette-domain eligible"
+      },
+      {
+        "denominator": 1360,
+        "numerator": 6,
+        "rate": 0.004411764705882353,
+        "stage": "support/query contract eligible"
+      },
+      {
+        "denominator": 1360,
+        "numerator": 1360,
+        "rate": 1.0,
+        "stage": "candidate enumeration available"
+      },
+      {
+        "denominator": 1360,
+        "numerator": 6,
+        "rate": 0.004411764705882353,
+        "stage": "at least one executable candidate"
+      },
+      {
+        "denominator": 1360,
+        "numerator": 6,
+        "rate": 0.004411764705882353,
+        "stage": "strict LOO candidate fold attempted"
+      },
+      {
+        "denominator": 4357,
+        "numerator": 0,
+        "rate": 0.0,
+        "stage": "Recall@1 hit"
+      },
+      {
+        "denominator": 4357,
+        "numerator": 0,
+        "rate": 0.0,
+        "stage": "Recall@4 hit"
+      },
+      {
+        "denominator": 4357,
+        "numerator": 0,
+        "rate": 0.0,
+        "stage": "Recall@16 hit"
+      },
+      {
+        "denominator": 4357,
+        "numerator": 0,
+        "rate": 0.0,
+        "stage": "Recall@64 hit"
+      },
+      {
+        "denominator": 4357,
+        "numerator": 0,
+        "rate": 0.0,
+        "stage": "Recall@128 hit"
+      }
+    ],
+    "fold_status_counts": {
+      "OK": 15,
+      "OUT_OF_GRID_DOMAIN": 4339,
+      "OUT_OF_PALETTE_DOMAIN": 3
+    },
+    "status_counts": {
+      "OK": 15,
+      "OUT_OF_GRID_DOMAIN": 4339,
+      "OUT_OF_PALETTE_DOMAIN": 3
+    }
+  },
+  "audit_version": "R5A2D_R2_FROZEN_CANDIDATE_RECALL",
+  "distinct_attrition_categories": [
+    "domain/contract attrition",
+    "candidate enumeration unavailable",
+    "candidate execution failure",
+    "target absent from candidate catalog outputs",
+    "target present but ranked below K"
+  ],
+  "merged_union": {
+    "candidate_funnel": [
+      {
+        "denominator": 4357,
+        "numerator": 4357,
+        "rate": 1.0,
+        "stage": "all strict LOO folds"
+      },
+      {
+        "denominator": 4357,
+        "numerator": 0,
+        "rate": 0.0,
+        "stage": "merged Recall@1 hit"
+      },
+      {
+        "denominator": 4357,
+        "numerator": 0,
+        "rate": 0.0,
+        "stage": "merged Recall@4 hit"
+      },
+      {
+        "denominator": 4357,
+        "numerator": 0,
+        "rate": 0.0,
+        "stage": "merged Recall@16 hit"
+      },
+      {
+        "denominator": 4357,
+        "numerator": 0,
+        "rate": 0.0,
+        "stage": "merged Recall@64 hit"
+      },
+      {
+        "denominator": 4357,
+        "numerator": 0,
+        "rate": 0.0,
+        "stage": "merged Recall@128 hit"
+      }
+    ]
+  },
+  "topology": {
+    "candidate_funnel": [
+      {
+        "denominator": 1360,
+        "numerator": 1360,
+        "rate": 1.0,
+        "stage": "all ARC tasks"
+      },
+      {
+        "denominator": 1360,
+        "numerator": 7,
+        "rate": 0.005147058823529412,
+        "stage": "raw grid-domain eligible"
+      },
+      {
+        "denominator": 1360,
+        "numerator": 6,
+        "rate": 0.004411764705882353,
+        "stage": "raw palette-domain eligible"
+      },
+      {
+        "denominator": 1360,
+        "numerator": 0,
+        "rate": 0.0,
+        "stage": "support/query contract eligible"
+      },
+      {
+        "denominator": 1360,
+        "numerator": 1360,
+        "rate": 1.0,
+        "stage": "candidate enumeration available"
+      },
+      {
+        "denominator": 1360,
+        "numerator": 0,
+        "rate": 0.0,
+        "stage": "at least one executable candidate"
+      },
+      {
+        "denominator": 1360,
+        "numerator": 0,
+        "rate": 0.0,
+        "stage": "strict LOO candidate fold attempted"
+      },
+      {
+        "denominator": 4357,
+        "numerator": 0,
+        "rate": 0.0,
+        "stage": "Recall@1 hit"
+      },
+      {
+        "denominator": 4357,
+        "numerator": 0,
+        "rate": 0.0,
+        "stage": "Recall@4 hit"
+      },
+      {
+        "denominator": 4357,
+        "numerator": 0,
+        "rate": 0.0,
+        "stage": "Recall@16 hit"
+      },
+      {
+        "denominator": 4357,
+        "numerator": 0,
+        "rate": 0.0,
+        "stage": "Recall@64 hit"
+      },
+      {
+        "denominator": 4357,
+        "numerator": 0,
+        "rate": 0.0,
+        "stage": "Recall@128 hit"
+      }
+    ],
+    "fold_status_counts": {
+      "OUT_OF_GRID_DOMAIN": 4339,
+      "OUT_OF_PALETTE_DOMAIN": 3,
+      "TOPOLOGY_LOO_INFEASIBLE_SUPPORT_CONTRACT": 15
+    },
+    "status_counts": {
+      "OUT_OF_GRID_DOMAIN": 4339,
+      "OUT_OF_PALETTE_DOMAIN": 3,
+      "TOPOLOGY_LOO_INFEASIBLE_SUPPORT_CONTRACT": 15
+    }
+  }
+}

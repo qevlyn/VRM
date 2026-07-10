@@ -1,0 +1,27 @@
+{
+  "K_values": [
+    1,
+    4,
+    16,
+    64,
+    128
+  ],
+  "candidate_budget_counts": "unique output grids after canonical output hash deduplication",
+  "forbidden_ranking_inputs": [
+    "hidden_LOO_train_output",
+    "sealed_test_output",
+    "task_id",
+    "manual_task_label",
+    "post_hoc_performance"
+  ],
+  "rank_tuple_order": [
+    "support_shape_mismatch_count ascending",
+    "support_cell_hamming_loss ascending",
+    "support_failed_pair_count ascending",
+    "source_expert canonical name ascending",
+    "frozen_candidate_id canonical lexical order ascending",
+    "canonical_output_hash ascending"
+  ],
+  "ranking_inputs": "visible support pairs and frozen candidate metadata only",
+  "shape_mismatch_penalty": "target_height_times_target_width"
+}

@@ -1,0 +1,43 @@
+{
+  "batch_size": 128,
+  "checkpoint_out": "/mnt/d/VRM/checkpoints/mixed_router_r3b2_v1",
+  "cpu_fallback": false,
+  "cuda_required": true,
+  "data_out": "/mnt/d/VRM/artifacts/mixed_router_r3b2_v1",
+  "epochs": 8,
+  "evidence_feature_names": [
+    "reader_retrieval_logit_sorted_0",
+    "reader_retrieval_logit_sorted_1",
+    "reader_retrieval_logit_sorted_2",
+    "reader_alpha_sorted_0",
+    "reader_alpha_sorted_1",
+    "reader_alpha_sorted_2",
+    "reader_max_raw_match_score",
+    "reader_top1_minus_top2_match_margin",
+    "reader_alpha_entropy",
+    "reader_min_q_to_key_distance",
+    "reader_mean_q_to_key_distance",
+    "reader_confidence_mean_max_color_probability",
+    "reader_output_cell_entropy_mean",
+    "reader_output_cell_entropy_max",
+    "transform_task_context_norm",
+    "transform_task_context_mean",
+    "transform_task_context_std",
+    "transform_mean_max_pointer_probability",
+    "transform_mean_pointer_entropy",
+    "transform_max_pointer_entropy",
+    "transform_output_confidence_mean_max_color_probability",
+    "transform_output_cell_entropy_mean",
+    "transform_output_cell_entropy_max"
+  ],
+  "learning_rate": 0.0003,
+  "mode": "full",
+  "reader_checkpoint_dir": "/mnt/d/VRM/checkpoints/twin_pair_reader_r1b",
+  "seeds": [
+    20260628,
+    20260629,
+    20260630
+  ],
+  "transform_checkpoint_dir": "/mnt/d/VRM/checkpoints/transform_r3b0_v1",
+  "weight_decay": 0.01
+}

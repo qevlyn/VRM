@@ -1,0 +1,293 @@
+{
+  "coordinate_lift_report": {
+    "all_coordinate_maps_bijective": true,
+    "by_program": {
+      "C": {
+        "coordinate_map_bijective": true,
+        "coordinate_map_total": true,
+        "dropped_destinations": [],
+        "duplicated_destinations": [],
+        "out_of_bounds": []
+      },
+      "C->K": {
+        "coordinate_map_bijective": true,
+        "coordinate_map_total": true,
+        "dropped_destinations": [],
+        "duplicated_destinations": [],
+        "out_of_bounds": []
+      },
+      "C->L": {
+        "coordinate_map_bijective": true,
+        "coordinate_map_total": true,
+        "dropped_destinations": [],
+        "duplicated_destinations": [],
+        "out_of_bounds": []
+      },
+      "H": {
+        "coordinate_map_bijective": true,
+        "coordinate_map_total": true,
+        "dropped_destinations": [],
+        "duplicated_destinations": [],
+        "out_of_bounds": []
+      },
+      "H->K": {
+        "coordinate_map_bijective": true,
+        "coordinate_map_total": true,
+        "dropped_destinations": [],
+        "duplicated_destinations": [],
+        "out_of_bounds": []
+      },
+      "H->L": {
+        "coordinate_map_bijective": true,
+        "coordinate_map_total": true,
+        "dropped_destinations": [],
+        "duplicated_destinations": [],
+        "out_of_bounds": []
+      },
+      "K": {
+        "coordinate_map_bijective": true,
+        "coordinate_map_total": true,
+        "dropped_destinations": [],
+        "duplicated_destinations": [],
+        "out_of_bounds": []
+      },
+      "K->C": {
+        "coordinate_map_bijective": true,
+        "coordinate_map_total": true,
+        "dropped_destinations": [],
+        "duplicated_destinations": [],
+        "out_of_bounds": []
+      },
+      "K->V": {
+        "coordinate_map_bijective": true,
+        "coordinate_map_total": true,
+        "dropped_destinations": [],
+        "duplicated_destinations": [],
+        "out_of_bounds": []
+      },
+      "L": {
+        "coordinate_map_bijective": true,
+        "coordinate_map_total": true,
+        "dropped_destinations": [],
+        "duplicated_destinations": [],
+        "out_of_bounds": []
+      },
+      "L->C": {
+        "coordinate_map_bijective": true,
+        "coordinate_map_total": true,
+        "dropped_destinations": [],
+        "duplicated_destinations": [],
+        "out_of_bounds": []
+      },
+      "L->H": {
+        "coordinate_map_bijective": true,
+        "coordinate_map_total": true,
+        "dropped_destinations": [],
+        "duplicated_destinations": [],
+        "out_of_bounds": []
+      },
+      "V": {
+        "coordinate_map_bijective": true,
+        "coordinate_map_total": true,
+        "dropped_destinations": [],
+        "duplicated_destinations": [],
+        "out_of_bounds": []
+      }
+    }
+  },
+  "enumerated_domain": "single-cell finite state signatures lifted to collision-free 7x7 grids",
+  "grammar_spec": {
+    "allowed_program_lengths": [
+      1,
+      2
+    ],
+    "composition_order": "A->B applies A first, then B",
+    "declared_programs": [
+      "C",
+      "H",
+      "V",
+      "L",
+      "K",
+      "C->L",
+      "L->H",
+      "H->K",
+      "K->V",
+      "L->C",
+      "H->L",
+      "C->K",
+      "K->C"
+    ],
+    "imports_v2_model_or_oracle": false,
+    "input_output_shape_assumptions": "7x7 integer grids with palette 0..8 and shared input/output size",
+    "known_limitations": [
+      "bounded to the declared class tables audited in R5A-0 V2, not all syntactic strings accepted by a parser",
+      "closure membership is exact only for the finite state/grid domain reported here",
+      "whole-grid lifting requires destination-coordinate bijection and no foreground collision"
+    ],
+    "object_color_coordinate_assumptions": "the closure checker is cellwise and object-agnostic; collision-free whole-grid lifting is required for multi-cell foreground grids",
+    "primitive_names": [
+      "C",
+      "H",
+      "V",
+      "L",
+      "K"
+    ],
+    "primitive_preconditions": {
+      "C": "foreground cell rotates clockwise around the 7x7 grid center; background remains background",
+      "H": "foreground cell reflects horizontally; background remains background",
+      "K": "input-color foreground cells with current x <= 3 and current y <= 3 are recolored c -> c + 4",
+      "L": "input-color foreground cells with current x <= 3 are recolored c -> c + 4",
+      "V": "foreground cell reflects vertically; background remains background"
+    },
+    "reused_production_code": false,
+    "support_query_assumptions": "normal V2 raw support input grids, support output grids, and query grids; no labels or metadata"
+  },
+  "grid_sizes": [
+    [
+      7,
+      7
+    ]
+  ],
+  "limitations": [
+    "bounded to the declared class tables audited in R5A-0 V2, not all syntactic strings accepted by a parser",
+    "closure membership is exact only for the finite state/grid domain reported here",
+    "whole-grid lifting requires destination-coordinate bijection and no foreground collision"
+  ],
+  "number_of_programs": 13,
+  "object_domain": "object-agnostic cellwise domain; probe object validity is audited separately",
+  "palette_domain": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "program_length_bound": 2,
+  "programs": [
+    {
+      "cell_signature_sha256": "0c86dd3b1d291e203a0da1a6082fe1d4557198d16b3009706351d421f621ea1e",
+      "primitive_sequence": [
+        "C"
+      ],
+      "program": "C",
+      "program_length": 1
+    },
+    {
+      "cell_signature_sha256": "8c7089714a7ae895deb6bb722b34c66eeb9501ef578681d91f0f9c433565f8da",
+      "primitive_sequence": [
+        "H"
+      ],
+      "program": "H",
+      "program_length": 1
+    },
+    {
+      "cell_signature_sha256": "4cd6745d9270cb7e70d199b843f89704f832fa703d60e1e4e209a8193e0ca22c",
+      "primitive_sequence": [
+        "V"
+      ],
+      "program": "V",
+      "program_length": 1
+    },
+    {
+      "cell_signature_sha256": "a81ecf60d81eedb56d724d935c9c539932522192e643a31386e8cd0db82737ac",
+      "primitive_sequence": [
+        "L"
+      ],
+      "program": "L",
+      "program_length": 1
+    },
+    {
+      "cell_signature_sha256": "95610710741a7f891f69bc07045b3bfa54c23a672bc8a56fb70d581eae15fab9",
+      "primitive_sequence": [
+        "K"
+      ],
+      "program": "K",
+      "program_length": 1
+    },
+    {
+      "cell_signature_sha256": "8bb530ce7e61c9e8bb770baabcd78f2075ee4278ea1b03034b8fa0fd17c7eab6",
+      "primitive_sequence": [
+        "C",
+        "L"
+      ],
+      "program": "C->L",
+      "program_length": 2
+    },
+    {
+      "cell_signature_sha256": "e0bfe34881765f179c459254c5efe3370aa6b898a844502986a4c51b92cd82a1",
+      "primitive_sequence": [
+        "L",
+        "H"
+      ],
+      "program": "L->H",
+      "program_length": 2
+    },
+    {
+      "cell_signature_sha256": "c544809b0a2f3ddbaa4a98264cb7add4a4775f81dba1260d5492f6fff7ec3d76",
+      "primitive_sequence": [
+        "H",
+        "K"
+      ],
+      "program": "H->K",
+      "program_length": 2
+    },
+    {
+      "cell_signature_sha256": "d57760c886273fb63e036d6c761d8e9ebd2cd6d8f4647053ee9efa640fde89c8",
+      "primitive_sequence": [
+        "K",
+        "V"
+      ],
+      "program": "K->V",
+      "program_length": 2
+    },
+    {
+      "cell_signature_sha256": "875576ec4055299d0f377556feed57f7c99961467ea72685059d48f4ceb6cbeb",
+      "primitive_sequence": [
+        "L",
+        "C"
+      ],
+      "program": "L->C",
+      "program_length": 2
+    },
+    {
+      "cell_signature_sha256": "d23e3a172499023c197ea72a4ec877e19067ed66660a8593addfa6ed72ffa02f",
+      "primitive_sequence": [
+        "H",
+        "L"
+      ],
+      "program": "H->L",
+      "program_length": 2
+    },
+    {
+      "cell_signature_sha256": "a94d117799034e350c6de7a94a4cff77ac250766ed089a442bdcbf9308056434",
+      "primitive_sequence": [
+        "C",
+        "K"
+      ],
+      "program": "C->K",
+      "program_length": 2
+    },
+    {
+      "cell_signature_sha256": "7d1a818e044b4efd099d54d60b1dc7d6a6fbafe17522838edfde2fef800f48e8",
+      "primitive_sequence": [
+        "K",
+        "C"
+      ],
+      "program": "K->C",
+      "program_length": 2
+    }
+  ],
+  "semantic_collision_count": 0,
+  "semantic_collisions": [],
+  "whether_bounded_complete": true,
+  "whether_exhaustive": true,
+  "whole_grid_lift_conditions_if_any": {
+    "coordinate_maps_bijective": true,
+    "requires_independent_cellwise_application": true,
+    "requires_no_foreground_destination_collision": true
+  }
+}

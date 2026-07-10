@@ -1,0 +1,240 @@
+{
+  "audit_version": "R5A3B_P1_RELATION_EXPOSURE_CONSTRAINT_EFFICACY_AUDIT",
+  "explicit_answer": "No",
+  "hit_fold_count": 2,
+  "raw_target_candidate_record_count": 7,
+  "relation_conditioned_hit_record_count": 3,
+  "relation_only_unique_hit_record_count": 0,
+  "rows": [
+    {
+      "conditions_where_target_exists": {
+        "OBJECT_ONLY": 1,
+        "RELATION_HARD_CONSTRAINT": 1,
+        "RELATION_NO_PRUNE": 1,
+        "RELATION_SOFT_CONSTRAINT": 1
+      },
+      "fold_index": 1,
+      "hit_fold_id": "e90439a0e159:fold=1",
+      "object_only_could_generate_same_output": true,
+      "operator_sequence": [
+        "all_objects",
+        "keep",
+        "same_canvas"
+      ],
+      "parse_hypothesis_id": "bg=0|conn=4|objects=1|hash=8f886c4a5aa3",
+      "program_id": "select=all_objects|ops=keep|render=same_canvas",
+      "raw_ordinal": 0,
+      "relation_conditioned_could_generate_same_output": false,
+      "relation_only_unique_target": false,
+      "relation_predicates": [],
+      "source_type": "object-only",
+      "target_rank_after_hard_constraint": 1,
+      "target_rank_after_soft_constraint": 1,
+      "target_rank_before_pruning": 1,
+      "target_survival_under_random_prune_salts": {
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_A": 1,
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_B": 1,
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_C": 1
+      },
+      "task_id_for_log_only": "training:253bf280"
+    },
+    {
+      "conditions_where_target_exists": {
+        "OBJECT_ONLY": 1,
+        "RELATION_HARD_CONSTRAINT": 1,
+        "RELATION_NO_PRUNE": 1,
+        "RELATION_SOFT_CONSTRAINT": 1
+      },
+      "fold_index": 1,
+      "hit_fold_id": "e90439a0e159:fold=1",
+      "object_only_could_generate_same_output": true,
+      "operator_sequence": [
+        "all_objects",
+        "copy:(0, 6)",
+        "same_canvas"
+      ],
+      "parse_hypothesis_id": "bg=0|conn=4|objects=1|hash=8f886c4a5aa3",
+      "program_id": "select=all_objects|ops=copy:(0, 6)|render=same_canvas",
+      "raw_ordinal": 3,
+      "relation_conditioned_could_generate_same_output": false,
+      "relation_only_unique_target": false,
+      "relation_predicates": [],
+      "source_type": "object-only",
+      "target_rank_after_hard_constraint": 1,
+      "target_rank_after_soft_constraint": 1,
+      "target_rank_before_pruning": 1,
+      "target_survival_under_random_prune_salts": {
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_A": 1,
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_B": 1,
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_C": 1
+      },
+      "task_id_for_log_only": "training:253bf280"
+    },
+    {
+      "conditions_where_target_exists": {
+        "OBJECT_ONLY": 1,
+        "RELATION_HARD_CONSTRAINT": 1,
+        "RELATION_NO_PRUNE": 1,
+        "RELATION_SOFT_CONSTRAINT": 1
+      },
+      "fold_index": 5,
+      "hit_fold_id": "e90439a0e159:fold=5",
+      "object_only_could_generate_same_output": true,
+      "operator_sequence": [
+        "edge:nearest:True",
+        "recolor_target_to_source",
+        "same_canvas"
+      ],
+      "parse_hypothesis_id": "bg=0|conn=4|objects=2|hash=021d2ed0f05d",
+      "program_id": "relation=nearest:True|action=recolor_target_to_source|render=same_canvas",
+      "raw_ordinal": 5,
+      "relation_conditioned_could_generate_same_output": true,
+      "relation_only_unique_target": false,
+      "relation_predicates": [
+        "nearest"
+      ],
+      "source_type": "relation-conditioned",
+      "target_rank_after_hard_constraint": 1,
+      "target_rank_after_soft_constraint": 1,
+      "target_rank_before_pruning": 1,
+      "target_survival_under_random_prune_salts": {
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_A": null,
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_B": null,
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_C": 1
+      },
+      "task_id_for_log_only": "training:253bf280"
+    },
+    {
+      "conditions_where_target_exists": {
+        "OBJECT_ONLY": 1,
+        "RELATION_HARD_CONSTRAINT": 1,
+        "RELATION_NO_PRUNE": 1,
+        "RELATION_SOFT_CONSTRAINT": 1
+      },
+      "fold_index": 5,
+      "hit_fold_id": "e90439a0e159:fold=5",
+      "object_only_could_generate_same_output": true,
+      "operator_sequence": [
+        "all_objects",
+        "keep",
+        "same_canvas"
+      ],
+      "parse_hypothesis_id": "bg=0|conn=4|objects=2|hash=021d2ed0f05d",
+      "program_id": "select=all_objects|ops=keep|render=same_canvas",
+      "raw_ordinal": 0,
+      "relation_conditioned_could_generate_same_output": true,
+      "relation_only_unique_target": false,
+      "relation_predicates": [],
+      "source_type": "object-only",
+      "target_rank_after_hard_constraint": 1,
+      "target_rank_after_soft_constraint": 1,
+      "target_rank_before_pruning": 1,
+      "target_survival_under_random_prune_salts": {
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_A": null,
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_B": null,
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_C": 1
+      },
+      "task_id_for_log_only": "training:253bf280"
+    },
+    {
+      "conditions_where_target_exists": {
+        "OBJECT_ONLY": 1,
+        "RELATION_HARD_CONSTRAINT": 1,
+        "RELATION_NO_PRUNE": 1,
+        "RELATION_SOFT_CONSTRAINT": 1
+      },
+      "fold_index": 5,
+      "hit_fold_id": "e90439a0e159:fold=5",
+      "object_only_could_generate_same_output": true,
+      "operator_sequence": [
+        "edge:nearest:True",
+        "recolor_source_to_target",
+        "same_canvas"
+      ],
+      "parse_hypothesis_id": "bg=0|conn=4|objects=2|hash=021d2ed0f05d",
+      "program_id": "relation=nearest:True|action=recolor_source_to_target|render=same_canvas",
+      "raw_ordinal": 6,
+      "relation_conditioned_could_generate_same_output": true,
+      "relation_only_unique_target": false,
+      "relation_predicates": [
+        "nearest"
+      ],
+      "source_type": "relation-conditioned",
+      "target_rank_after_hard_constraint": 1,
+      "target_rank_after_soft_constraint": 1,
+      "target_rank_before_pruning": 1,
+      "target_survival_under_random_prune_salts": {
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_A": null,
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_B": null,
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_C": 1
+      },
+      "task_id_for_log_only": "training:253bf280"
+    },
+    {
+      "conditions_where_target_exists": {
+        "OBJECT_ONLY": 1,
+        "RELATION_HARD_CONSTRAINT": 1,
+        "RELATION_NO_PRUNE": 1,
+        "RELATION_SOFT_CONSTRAINT": 1
+      },
+      "fold_index": 5,
+      "hit_fold_id": "e90439a0e159:fold=5",
+      "object_only_could_generate_same_output": true,
+      "operator_sequence": [
+        "edge:nearest:True",
+        "keep_relation_endpoints",
+        "same_canvas"
+      ],
+      "parse_hypothesis_id": "bg=0|conn=4|objects=2|hash=021d2ed0f05d",
+      "program_id": "relation=nearest:True|action=keep_relation_endpoints|render=same_canvas",
+      "raw_ordinal": 4,
+      "relation_conditioned_could_generate_same_output": true,
+      "relation_only_unique_target": false,
+      "relation_predicates": [
+        "nearest"
+      ],
+      "source_type": "relation-conditioned",
+      "target_rank_after_hard_constraint": 1,
+      "target_rank_after_soft_constraint": 1,
+      "target_rank_before_pruning": 1,
+      "target_survival_under_random_prune_salts": {
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_A": null,
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_B": null,
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_C": 1
+      },
+      "task_id_for_log_only": "training:253bf280"
+    },
+    {
+      "conditions_where_target_exists": {
+        "OBJECT_ONLY": 1,
+        "RELATION_HARD_CONSTRAINT": 1,
+        "RELATION_NO_PRUNE": 1,
+        "RELATION_SOFT_CONSTRAINT": 1
+      },
+      "fold_index": 5,
+      "hit_fold_id": "e90439a0e159:fold=5",
+      "object_only_could_generate_same_output": true,
+      "operator_sequence": [
+        "all_objects",
+        "copy:(0, 6)",
+        "same_canvas"
+      ],
+      "parse_hypothesis_id": "bg=0|conn=4|objects=2|hash=021d2ed0f05d",
+      "program_id": "select=all_objects|ops=copy:(0, 6)|render=same_canvas",
+      "raw_ordinal": 3,
+      "relation_conditioned_could_generate_same_output": true,
+      "relation_only_unique_target": false,
+      "relation_predicates": [],
+      "source_type": "object-only",
+      "target_rank_after_hard_constraint": 1,
+      "target_rank_after_soft_constraint": 1,
+      "target_rank_before_pruning": 1,
+      "target_survival_under_random_prune_salts": {
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_A": null,
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_B": null,
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_C": 1
+      },
+      "task_id_for_log_only": "training:253bf280"
+    }
+  ]
+}

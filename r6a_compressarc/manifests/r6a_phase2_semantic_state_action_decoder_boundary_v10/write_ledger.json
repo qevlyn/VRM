@@ -1,0 +1,174 @@
+{
+  "created_utc": "2026-07-04T05:08:47Z",
+  "new_file_count": 28,
+  "new_files": [
+    {
+      "mtime_ns": 1783141479850879700,
+      "path": "r6a_compressarc/artifacts/r6a_phase2_semantic_state_action_decoder_boundary_v10/affine_commutation_certificate.json",
+      "sha256": "283e984e4fa3e9c073bd6bfe8d5d743d9dab9daea8ecb5076da4c947f3120e24",
+      "size_bytes": 69382
+    },
+    {
+      "mtime_ns": 1783141479865878900,
+      "path": "r6a_compressarc/artifacts/r6a_phase2_semantic_state_action_decoder_boundary_v10/alias_semantic_action_certificate.json",
+      "sha256": "3d76db987c3e7306cc8dc3f213ce0fba9a9a492066f9b9e23cebd5cb0fd2b5d9",
+      "size_bytes": 840
+    },
+    {
+      "mtime_ns": 1783141481587725100,
+      "path": "r6a_compressarc/artifacts/r6a_phase2_semantic_state_action_decoder_boundary_v10/child_summary.json",
+      "sha256": "8141d727158377c56859ccfad3681c83dd7099bc2a81499b021f4fe9561d27e1",
+      "size_bytes": 2826
+    },
+    {
+      "mtime_ns": 1783141463471574000,
+      "path": "r6a_compressarc/artifacts/r6a_phase2_semantic_state_action_decoder_boundary_v10/cpu_execution_proof.json",
+      "sha256": "478fda95104d08f0b04612e9ea5a3f5c1f9c215856aa30bed7b770d08d510dd9",
+      "size_bytes": 4037
+    },
+    {
+      "mtime_ns": 1783141479875882600,
+      "path": "r6a_compressarc/artifacts/r6a_phase2_semantic_state_action_decoder_boundary_v10/decoder_boundary_trace.json",
+      "sha256": "15c27081d21f87314f1b4bf0d7b693c58b9ac89afd319475c364fe0b156d9031",
+      "size_bytes": 3779
+    },
+    {
+      "mtime_ns": 1783141479885883600,
+      "path": "r6a_compressarc/artifacts/r6a_phase2_semantic_state_action_decoder_boundary_v10/final_outcome_classification.json",
+      "sha256": "8167eae7edc785a54f5e03dbe6e9f8affdfeab9c799bd56d25446cf6f7fe406a",
+      "size_bytes": 265
+    },
+    {
+      "mtime_ns": 1783141479833372000,
+      "path": "r6a_compressarc/artifacts/r6a_phase2_semantic_state_action_decoder_boundary_v10/first_divergence_trace.csv",
+      "sha256": "6ab638d91f86dd3251581891c470eac8e7bea1d0e1a93b13493f4d11853908a0",
+      "size_bytes": 577197
+    },
+    {
+      "mtime_ns": 1783141479880884800,
+      "path": "r6a_compressarc/artifacts/r6a_phase2_semantic_state_action_decoder_boundary_v10/forward_trace_summary.json",
+      "sha256": "9f1a2a3bc9ce0060870ff17328545fc5564ac65bb5fe6af2e642582289e92ee4",
+      "size_bytes": 897
+    },
+    {
+      "mtime_ns": 1783141463263023300,
+      "path": "r6a_compressarc/artifacts/r6a_phase2_semantic_state_action_decoder_boundary_v10/instrumentation_reuse_certificate.json",
+      "sha256": "abe654f529cede897ad835fd294350c02b14d52af5a4eb969a2cf6501b6724b3",
+      "size_bytes": 1434
+    },
+    {
+      "mtime_ns": 1783141479843880300,
+      "path": "r6a_compressarc/artifacts/r6a_phase2_semantic_state_action_decoder_boundary_v10/parameter_collision_witnesses.json",
+      "sha256": "9d4942d1f8c7e37fa41ac5da72c3f1b8785cd95f284a8fd66049834d7dad0d5c",
+      "size_bytes": 618442
+    },
+    {
+      "mtime_ns": 1783141481578725000,
+      "path": "r6a_compressarc/artifacts/r6a_phase2_semantic_state_action_decoder_boundary_v10/r6a_phase2_semantic_state_action_decoder_boundary_v10_child_stdout.log",
+      "sha256": "27a2efc4eafa075fc1b89f99437a8bc5cf1307611239d5e9d364d9cb5acd7751",
+      "size_bytes": 1334
+    },
+    {
+      "mtime_ns": 1783141697471841600,
+      "path": "r6a_compressarc/artifacts/r6a_phase2_semantic_state_action_decoder_boundary_v10/r6a_phase2_semantic_state_action_decoder_boundary_v10_pytest.txt",
+      "sha256": "f16dc21dc2174d332121e8501987c2b74fb28ebac193cb6d1b23ffc1f41e87f5",
+      "size_bytes": 99
+    },
+    {
+      "mtime_ns": 1783141479814861500,
+      "path": "r6a_compressarc/artifacts/r6a_phase2_semantic_state_action_decoder_boundary_v10/semantic_action_table.csv",
+      "sha256": "4796e17b4de1444911435c5e21b6b1316a1d8385654feee55291be17293e276a",
+      "size_bytes": 34004614
+    },
+    {
+      "mtime_ns": 1783141479860879200,
+      "path": "r6a_compressarc/artifacts/r6a_phase2_semantic_state_action_decoder_boundary_v10/semantic_state_action_certificate.json",
+      "sha256": "201a873b45627fd3397f4607a7bd76222b48e4eb62851f069d43e95fc0973fc0",
+      "size_bytes": 1904
+    },
+    {
+      "mtime_ns": 1783141726749156300,
+      "path": "r6a_compressarc/artifacts/r6a_phase2_semantic_state_action_decoder_boundary_v10/summary.json",
+      "sha256": "6376a306d421324ac8c64817645b23439674fbef3efda4876c93618a814cac89",
+      "size_bytes": 1374
+    },
+    {
+      "mtime_ns": 1783141479855880500,
+      "path": "r6a_compressarc/artifacts/r6a_phase2_semantic_state_action_decoder_boundary_v10/task_action_certificate.json",
+      "sha256": "3e2c68433f5266078e3923bc627dc913fc55b1b7a9302f645b3c654f8e324b97",
+      "size_bytes": 3773
+    },
+    {
+      "mtime_ns": 1783141479870879300,
+      "path": "r6a_compressarc/artifacts/r6a_phase2_semantic_state_action_decoder_boundary_v10/unclassified_tensor_report.json",
+      "sha256": "3df069b07245b1f1ca6ce74fed7ee99ca380b6604b9bf1207fa46e4ea159dc2c",
+      "size_bytes": 93
+    },
+    {
+      "mtime_ns": 1783141480410882100,
+      "path": "r6a_compressarc/artifacts/r6a_phase2_semantic_state_action_decoder_boundary_v10/v10_cases.json",
+      "sha256": "2cbc08476cef09239723d87de1ff2a3d8a533650d7c0f513560ab85d6c238e1c",
+      "size_bytes": 103369479
+    },
+    {
+      "mtime_ns": 1783141453648234800,
+      "path": "r6a_compressarc/artifacts/r6a_phase2_semantic_state_action_decoder_boundary_v10/v8_action_behavior_audit.json",
+      "sha256": "ecb3f4c399713c86013d7a27b7b318aafa9d3e66e267ddf8668e1de5f0dfea61",
+      "size_bytes": 5023
+    },
+    {
+      "mtime_ns": 1783141448930815200,
+      "path": "r6a_compressarc/artifacts/r6a_phase2_semantic_state_action_decoder_boundary_v10/v8_readonly_evidence_summary.json",
+      "sha256": "a0e80cf14a9aec2e1aa62bc2c83db3f8ddb573d24b5f691c411df81fbec2ab4d",
+      "size_bytes": 913
+    },
+    {
+      "mtime_ns": 1783141452497902100,
+      "path": "r6a_compressarc/manifests/r6a_phase2_semantic_state_action_decoder_boundary_v10/imported_module_provenance.json",
+      "sha256": "b38387afde9165e8720f7290aa21e67d0a221aa453ef0d8fc3e50d11c4f13f5b",
+      "size_bytes": 6526
+    },
+    {
+      "mtime_ns": 1783141622160742000,
+      "path": "r6a_compressarc/manifests/r6a_phase2_semantic_state_action_decoder_boundary_v10/integrity_after.json",
+      "sha256": "3dbd12314a5ae109d37f2265a08407274e8682f7cbdbb3656803845acd4c6098",
+      "size_bytes": 347493
+    },
+    {
+      "mtime_ns": 1783141448783246100,
+      "path": "r6a_compressarc/manifests/r6a_phase2_semantic_state_action_decoder_boundary_v10/integrity_before.json",
+      "sha256": "e7fc75f9e051b422c4de0e8bca01d8878b1d8ca02f53488cb6e4f568061d2724",
+      "size_bytes": 389802
+    },
+    {
+      "mtime_ns": 1783141726746152100,
+      "path": "r6a_compressarc/manifests/r6a_phase2_semantic_state_action_decoder_boundary_v10/write_ledger.json",
+      "sha256": "3e76bd84548af48c4c1453ffc1f0de93b620ee3ea13ba6c85f08a44d88b00ba1",
+      "size_bytes": 8162
+    },
+    {
+      "mtime_ns": 1783141726052513700,
+      "path": "r6a_compressarc/reports/r6a_phase2_semantic_state_action_decoder_boundary_v10/R6A_PHASE2_SEMANTIC_STATE_ACTION_DECODER_BOUNDARY_V10_REPORT.md",
+      "sha256": "f4733d3f96c92ec5b4ea2174989c95265f45f1d9d03f187081edcff7c6d0dc02",
+      "size_bytes": 1484039
+    },
+    {
+      "mtime_ns": 1783141302100061400,
+      "path": "r6a_compressarc/scripts/r6a_phase2_semantic_state_action_decoder_boundary_v10_child.py",
+      "sha256": "72aeb92bfeccb51f863fa038f58f99e15696e09620ffbc6d4f910bbd56fa942b",
+      "size_bytes": 52377
+    },
+    {
+      "mtime_ns": 1783141714897287600,
+      "path": "r6a_compressarc/scripts/r6a_phase2_semantic_state_action_decoder_boundary_v10_run.py",
+      "sha256": "97be3232840a29840f251b80b885236636033903bd1be2554dcd28a2db7963fb",
+      "size_bytes": 14294
+    },
+    {
+      "mtime_ns": 1783141683288845800,
+      "path": "r6a_compressarc/tests/test_r6a_phase2_semantic_state_action_decoder_boundary_v10.py",
+      "sha256": "d0b1319783201ee63e3e91d6c5ebb149f09844f0045bf261703e8caf5a327373",
+      "size_bytes": 7486
+    }
+  ]
+}

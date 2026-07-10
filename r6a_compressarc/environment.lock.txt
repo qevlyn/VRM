@@ -1,0 +1,9 @@
+Python 3.14.4
+executable /home/quyen/.venvs/vrm/bin/python
+python 3.14.4 (main, Apr  8 2026, 04:02:31) [GCC 15.2.0]
+torch 2.12.1+cu130
+cuda_available True
+cuda_device NVIDIA GeForce RTX 4070 Ti SUPER
+numpy 2.5.0
+matplotlib 3.11.0
+tqdm 4.68.3

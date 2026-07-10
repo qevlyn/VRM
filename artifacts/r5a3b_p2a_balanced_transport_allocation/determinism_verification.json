@@ -1,0 +1,16 @@
+{
+  "audit_version": "R5A3B_P2A_BALANCED_RELATION_TRANSPORT_ALLOCATION_PILOT",
+  "candidate_generation_rerun_for_determinism": false,
+  "deterministic_allocation_rules": true,
+  "stable_artifact_hashes": {
+    "final_report.json": "aa28334e92d14d2db89fceb496cee2b2d3f06b140142d61aa9c25e0c9cd6343d",
+    "p0_object_branch_equivalence_verification.json": "328f5a1919987bce8b04521afd636d3096e4095765c1d605b5677dca2bf449e4",
+    "p0_vs_p2a_comparison.json": "1baf65638631937c8a628173bc9a3011af086f46cbbfc43aa811e36c16cf3f30",
+    "p2a_candidate_ledger.json": "ca95f5906ea762ff4d4140c674609ffe91dcd487a27be5e431057f7fe8a29c2c",
+    "p2a_recall_metrics.json": "398718230071f32a992f43aafe69ef8cb82659d099a38ff3339c3a318a3e263e",
+    "relation_bucket_allocation_report.json": "497630856ad0f1d4b96ea342d1f0b2e9019686b5eb84cc9669657a53588b1209",
+    "relation_microproposal_report.json": "fb1ebc5aa9aed2f213becdaa27b9df8458cf755b67088a06584f903fdaef0265",
+    "runtime_profile.json": "dc67e79d56a7a5647619b9e74004753967dbab7b93fd658fbc881dfc2676909d",
+    "transport_exposure_report.json": "859273d5a9190e173b918a25efb8c80386dd1031330310d0221bdb647ef32415"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "bad_group_count": 0,
+  "bad_group_examples": [],
+  "eligible_canonical_words": [
+    "CCC",
+    "CCF",
+    "CCT",
+    "CTC",
+    "CTF",
+    "FCT",
+    "FTC",
+    "FTF",
+    "TCC",
+    "TCF",
+    "TCT",
+    "TFC"
+  ],
+  "episode_count": 12000,
+  "group_count": 1000,
+  "members_per_group": 12,
+  "passed": true,
+  "required_group_count": 1000
+}

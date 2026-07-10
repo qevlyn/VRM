@@ -1,0 +1,411 @@
+{
+  "audit_version": "R5A0V2_ORDER_AUDIT_V1",
+  "first_divergence_witnesses": {
+    "C->K": {
+      "first_divergence_input": {
+        "color": 1,
+        "x": 0,
+        "y": 0
+      },
+      "first_divergence_witness_id": "cell:x=0,y=0,color=1",
+      "original_output": {
+        "color": 1,
+        "x": 6,
+        "y": 0
+      },
+      "reversed_output": {
+        "color": 5,
+        "x": 6,
+        "y": 0
+      },
+      "reversed_program_id": "K->C"
+    },
+    "C->L": {
+      "first_divergence_input": {
+        "color": 1,
+        "x": 0,
+        "y": 0
+      },
+      "first_divergence_witness_id": "cell:x=0,y=0,color=1",
+      "original_output": {
+        "color": 1,
+        "x": 6,
+        "y": 0
+      },
+      "reversed_output": {
+        "color": 5,
+        "x": 6,
+        "y": 0
+      },
+      "reversed_program_id": "L->C"
+    },
+    "H->K": {
+      "first_divergence_input": {
+        "color": 1,
+        "x": 0,
+        "y": 0
+      },
+      "first_divergence_witness_id": "cell:x=0,y=0,color=1",
+      "original_output": {
+        "color": 1,
+        "x": 6,
+        "y": 0
+      },
+      "reversed_output": {
+        "color": 5,
+        "x": 6,
+        "y": 0
+      },
+      "reversed_program_id": "K->H"
+    },
+    "H->L": {
+      "first_divergence_input": {
+        "color": 1,
+        "x": 0,
+        "y": 0
+      },
+      "first_divergence_witness_id": "cell:x=0,y=0,color=1",
+      "original_output": {
+        "color": 1,
+        "x": 6,
+        "y": 0
+      },
+      "reversed_output": {
+        "color": 5,
+        "x": 6,
+        "y": 0
+      },
+      "reversed_program_id": "L->H"
+    },
+    "K->C": {
+      "first_divergence_input": {
+        "color": 1,
+        "x": 0,
+        "y": 0
+      },
+      "first_divergence_witness_id": "cell:x=0,y=0,color=1",
+      "original_output": {
+        "color": 5,
+        "x": 6,
+        "y": 0
+      },
+      "reversed_output": {
+        "color": 1,
+        "x": 6,
+        "y": 0
+      },
+      "reversed_program_id": "C->K"
+    },
+    "K->V": {
+      "first_divergence_input": {
+        "color": 1,
+        "x": 0,
+        "y": 0
+      },
+      "first_divergence_witness_id": "cell:x=0,y=0,color=1",
+      "original_output": {
+        "color": 5,
+        "x": 0,
+        "y": 6
+      },
+      "reversed_output": {
+        "color": 1,
+        "x": 0,
+        "y": 6
+      },
+      "reversed_program_id": "V->K"
+    },
+    "L->C": {
+      "first_divergence_input": {
+        "color": 1,
+        "x": 0,
+        "y": 0
+      },
+      "first_divergence_witness_id": "cell:x=0,y=0,color=1",
+      "original_output": {
+        "color": 5,
+        "x": 6,
+        "y": 0
+      },
+      "reversed_output": {
+        "color": 1,
+        "x": 6,
+        "y": 0
+      },
+      "reversed_program_id": "C->L"
+    },
+    "L->H": {
+      "first_divergence_input": {
+        "color": 1,
+        "x": 0,
+        "y": 0
+      },
+      "first_divergence_witness_id": "cell:x=0,y=0,color=1",
+      "original_output": {
+        "color": 5,
+        "x": 6,
+        "y": 0
+      },
+      "reversed_output": {
+        "color": 1,
+        "x": 6,
+        "y": 0
+      },
+      "reversed_program_id": "H->L"
+    }
+  },
+  "golden_cases": [
+    {
+      "case_id": "primitive_C",
+      "expected": {
+        "color": 3,
+        "x": 5,
+        "y": 2
+      },
+      "input": {
+        "color": 3,
+        "x": 2,
+        "y": 1
+      },
+      "program": "C"
+    },
+    {
+      "case_id": "primitive_H",
+      "expected": {
+        "color": 3,
+        "x": 4,
+        "y": 1
+      },
+      "input": {
+        "color": 3,
+        "x": 2,
+        "y": 1
+      },
+      "program": "H"
+    },
+    {
+      "case_id": "primitive_V",
+      "expected": {
+        "color": 3,
+        "x": 2,
+        "y": 5
+      },
+      "input": {
+        "color": 3,
+        "x": 2,
+        "y": 1
+      },
+      "program": "V"
+    },
+    {
+      "case_id": "primitive_L_boundary_recolor",
+      "expected": {
+        "color": 8,
+        "x": 3,
+        "y": 4
+      },
+      "input": {
+        "color": 4,
+        "x": 3,
+        "y": 4
+      },
+      "program": "L"
+    },
+    {
+      "case_id": "primitive_L_right_no_recolor",
+      "expected": {
+        "color": 2,
+        "x": 4,
+        "y": 4
+      },
+      "input": {
+        "color": 2,
+        "x": 4,
+        "y": 4
+      },
+      "program": "L"
+    },
+    {
+      "case_id": "primitive_L_preserve_recolored",
+      "expected": {
+        "color": 7,
+        "x": 2,
+        "y": 4
+      },
+      "input": {
+        "color": 7,
+        "x": 2,
+        "y": 4
+      },
+      "program": "L"
+    },
+    {
+      "case_id": "primitive_K_boundary_recolor",
+      "expected": {
+        "color": 5,
+        "x": 3,
+        "y": 3
+      },
+      "input": {
+        "color": 1,
+        "x": 3,
+        "y": 3
+      },
+      "program": "K"
+    },
+    {
+      "case_id": "primitive_K_lower_no_recolor",
+      "expected": {
+        "color": 1,
+        "x": 3,
+        "y": 4
+      },
+      "input": {
+        "color": 1,
+        "x": 3,
+        "y": 4
+      },
+      "program": "K"
+    },
+    {
+      "case_id": "mixed_C_then_L",
+      "expected": {
+        "color": 1,
+        "x": 4,
+        "y": 2
+      },
+      "input": {
+        "color": 1,
+        "x": 2,
+        "y": 2
+      },
+      "program": "C->L"
+    },
+    {
+      "case_id": "mixed_L_then_C",
+      "expected": {
+        "color": 5,
+        "x": 4,
+        "y": 2
+      },
+      "input": {
+        "color": 1,
+        "x": 2,
+        "y": 2
+      },
+      "program": "L->C"
+    },
+    {
+      "case_id": "mixed_L_then_H",
+      "expected": {
+        "color": 5,
+        "x": 4,
+        "y": 2
+      },
+      "input": {
+        "color": 1,
+        "x": 2,
+        "y": 2
+      },
+      "program": "L->H"
+    },
+    {
+      "case_id": "mixed_H_then_L",
+      "expected": {
+        "color": 1,
+        "x": 4,
+        "y": 2
+      },
+      "input": {
+        "color": 1,
+        "x": 2,
+        "y": 2
+      },
+      "program": "H->L"
+    },
+    {
+      "case_id": "mixed_H_then_K",
+      "expected": {
+        "color": 5,
+        "x": 2,
+        "y": 2
+      },
+      "input": {
+        "color": 1,
+        "x": 4,
+        "y": 2
+      },
+      "program": "H->K"
+    },
+    {
+      "case_id": "mixed_K_then_H",
+      "expected": {
+        "color": 1,
+        "x": 2,
+        "y": 2
+      },
+      "input": {
+        "color": 1,
+        "x": 4,
+        "y": 2
+      },
+      "program": "K->H"
+    },
+    {
+      "case_id": "mixed_K_then_V",
+      "expected": {
+        "color": 5,
+        "x": 2,
+        "y": 4
+      },
+      "input": {
+        "color": 1,
+        "x": 2,
+        "y": 2
+      },
+      "program": "K->V"
+    },
+    {
+      "case_id": "mixed_V_then_K",
+      "expected": {
+        "color": 1,
+        "x": 2,
+        "y": 4
+      },
+      "input": {
+        "color": 1,
+        "x": 2,
+        "y": 2
+      },
+      "program": "V->K"
+    },
+    {
+      "case_id": "mixed_C_then_K",
+      "expected": {
+        "color": 5,
+        "x": 2,
+        "y": 2
+      },
+      "input": {
+        "color": 1,
+        "x": 2,
+        "y": 4
+      },
+      "program": "C->K"
+    },
+    {
+      "case_id": "mixed_K_then_C",
+      "expected": {
+        "color": 1,
+        "x": 2,
+        "y": 2
+      },
+      "input": {
+        "color": 1,
+        "x": 2,
+        "y": 4
+      },
+      "program": "K->C"
+    }
+  ]
+}

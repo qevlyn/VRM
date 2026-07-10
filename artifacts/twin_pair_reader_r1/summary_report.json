@@ -1,0 +1,526 @@
+{
+  "best_checkpoint_selection": {
+    "checkpoint_hash_unchanged_after_sealed": true,
+    "sealed_split_read_before_selection": false,
+    "selected_checkpoint": "/mnt/d/VRM/checkpoints/twin_pair_reader_r1/pair_reader_r1_best_dev.pt",
+    "selected_checkpoint_sha256_after_sealed": "7ae2af1ad1b010325f4d8025bddcff8e29eb9e5dc37c4cb98f000b1f2776d938",
+    "selected_checkpoint_sha256_before_sealed": "7ae2af1ad1b010325f4d8025bddcff8e29eb9e5dc37c4cb98f000b1f2776d938",
+    "selected_epoch_index": 0,
+    "selected_global_step": 125,
+    "selection_metrics": {
+      "all_cell_color_accuracy": 1.0,
+      "candidate_exact_match_rate": 1.0,
+      "candidate_nearest_score": 1.0,
+      "candidate_tie_rate": 0.0,
+      "condition": "NORMAL",
+      "correct_counterfactual_switch_rate": 1.0,
+      "direct_grid_exact_accuracy": 1.0,
+      "episode_count": 2000,
+      "epoch_index": 0,
+      "foreground_cell_count_per_episode": {
+        "expected_informative_foreground_count_verified": true,
+        "mean": 5.0,
+        "unique": [
+          5
+        ]
+      },
+      "foreground_color_accuracy": 1.0,
+      "global_step": 125,
+      "logical_relevant_pair_accuracy_after_permutation": 1.0,
+      "mean_relevant_pair_mass": 0.9999685155153275,
+      "mean_target_rectangle_hamming_error": 0.0,
+      "median_relevant_pair_mass": 0.9999697208404541,
+      "median_target_rectangle_hamming_error": 0.0,
+      "output_loss": 3.216819891349587e-06,
+      "retrieval_entropy": 0.000377037054990069,
+      "retrieval_loss": 3.146439939882839e-05,
+      "retrieval_top1_accuracy": 1.0,
+      "selection_key": [
+        1.0,
+        1.0,
+        1.0,
+        -0.0
+      ],
+      "split": "dev",
+      "twin_same_predicted_grid_rate": 0.0
+    },
+    "selection_rule": "highest dev retrieval_top1_accuracy; tie-break direct_grid_exact_accuracy, correct_counterfactual_switch_rate, lowest hamming"
+  },
+  "coverage_passed": true,
+  "environment": {
+    "device": "cuda",
+    "gpu_name": "NVIDIA GeForce RTX 4070 Ti SUPER",
+    "gpu_total_memory_bytes": 17170956288,
+    "peak_vram_allocated_bytes": 85478400,
+    "platform": "Linux-6.18.33.1-microsoft-standard-WSL2-x86_64-with-glibc2.43",
+    "python": "3.14.4 (main, Apr  8 2026, 04:02:31) [GCC 15.2.0]",
+    "torch": "2.12.1+cu130",
+    "torch_cuda_build": "13.0",
+    "torch_cuda_is_available": true,
+    "torch_threads": 16
+  },
+  "final_metrics": {
+    "dev": {
+      "conditions": {
+        "NORMAL": {
+          "all_cell_color_accuracy": 1.0,
+          "candidate_exact_match_rate": 1.0,
+          "candidate_nearest_score": 1.0,
+          "candidate_tie_rate": 0.0,
+          "condition": "NORMAL",
+          "direct_grid_exact_accuracy": 1.0,
+          "episode_count": 2000,
+          "foreground_cell_count_per_episode": {
+            "expected_informative_foreground_count_verified": true,
+            "mean": 5.0,
+            "unique": [
+              5
+            ]
+          },
+          "foreground_color_accuracy": 1.0,
+          "logical_relevant_pair_accuracy_after_permutation": 1.0,
+          "mean_relevant_pair_mass": 0.9999685155153275,
+          "mean_target_rectangle_hamming_error": 0.0,
+          "median_relevant_pair_mass": 0.9999697208404541,
+          "median_target_rectangle_hamming_error": 0.0,
+          "output_loss": 3.216819891349587e-06,
+          "retrieval_entropy": 0.000377037054990069,
+          "retrieval_loss": 3.146439939882839e-05,
+          "retrieval_top1_accuracy": 1.0,
+          "split": "dev"
+        },
+        "PAIR_ORDER_SHUFFLED": {
+          "all_cell_color_accuracy": 1.0,
+          "candidate_exact_match_rate": 1.0,
+          "candidate_nearest_score": 1.0,
+          "candidate_tie_rate": 0.0,
+          "condition": "PAIR_ORDER_SHUFFLED",
+          "direct_grid_exact_accuracy": 1.0,
+          "episode_count": 2000,
+          "foreground_cell_count_per_episode": {
+            "expected_informative_foreground_count_verified": true,
+            "mean": 5.0,
+            "unique": [
+              5
+            ]
+          },
+          "foreground_color_accuracy": 1.0,
+          "logical_relevant_pair_accuracy_after_permutation": 1.0,
+          "mean_relevant_pair_mass": 0.9999685152769089,
+          "mean_target_rectangle_hamming_error": 0.0,
+          "median_relevant_pair_mass": 0.9999697208404541,
+          "median_target_rectangle_hamming_error": 0.0,
+          "output_loss": 3.217444429992611e-06,
+          "retrieval_entropy": 0.00037703729311033384,
+          "retrieval_loss": 3.1464602216146886e-05,
+          "retrieval_top1_accuracy": 1.0,
+          "split": "dev"
+        },
+        "TWIN_SWAP_SUPPORTS": {
+          "all_cell_color_accuracy": 0.8979591836734694,
+          "candidate_exact_match_rate": 1.0,
+          "candidate_nearest_score": 0.0,
+          "candidate_tie_rate": 0.0,
+          "condition": "TWIN_SWAP_SUPPORTS",
+          "direct_grid_exact_accuracy": 0.0,
+          "episode_count": 2000,
+          "foreground_cell_count_per_episode": {
+            "expected_informative_foreground_count_verified": true,
+            "mean": 5.0,
+            "unique": [
+              5
+            ]
+          },
+          "foreground_color_accuracy": 0.0,
+          "logical_relevant_pair_accuracy_after_permutation": 1.0,
+          "mean_relevant_pair_mass": 0.9999685155153275,
+          "mean_target_rectangle_hamming_error": 5.0,
+          "median_relevant_pair_mass": 0.9999697208404541,
+          "median_target_rectangle_hamming_error": 5.0,
+          "output_loss": 1.1371169090270996,
+          "retrieval_entropy": 0.000377037054990069,
+          "retrieval_loss": 3.146439939882839e-05,
+          "retrieval_top1_accuracy": 1.0,
+          "split": "dev"
+        }
+      },
+      "derived_metrics": {
+        "base_pair_count": 1000,
+        "correct_counterfactual_switch_rate": 1.0,
+        "max_abs_probability_difference_after_logical_unpermute": 1.1920928955078125e-07,
+        "normal_to_swapped_candidate_change_rate": 1.0,
+        "normal_to_swapped_grid_change_rate": 1.0,
+        "normal_vs_pair_order_same_candidate_rate": 1.0,
+        "normal_vs_pair_order_same_grid_rate": 1.0,
+        "normal_vs_pair_order_same_logical_pair_rate": 1.0,
+        "twin_pair_joint_normal_accuracy": 1.0,
+        "twin_pair_mapping_flip_consistency": 1.0,
+        "twin_same_candidate_decision_rate": 0.0,
+        "twin_same_predicted_grid_rate": 0.0
+      }
+    },
+    "sealed": {
+      "conditions": {
+        "NORMAL": {
+          "all_cell_color_accuracy": 1.0,
+          "candidate_exact_match_rate": 1.0,
+          "candidate_nearest_score": 1.0,
+          "candidate_tie_rate": 0.0,
+          "condition": "NORMAL",
+          "direct_grid_exact_accuracy": 1.0,
+          "episode_count": 2000,
+          "foreground_cell_count_per_episode": {
+            "expected_informative_foreground_count_verified": true,
+            "mean": 5.0,
+            "unique": [
+              5
+            ]
+          },
+          "foreground_color_accuracy": 1.0,
+          "logical_relevant_pair_accuracy_after_permutation": 1.0,
+          "mean_relevant_pair_mass": 0.9999684557318688,
+          "mean_target_rectangle_hamming_error": 0.0,
+          "median_relevant_pair_mass": 0.9999698400497437,
+          "median_target_rectangle_hamming_error": 0.0,
+          "output_loss": 3.228679702260706e-06,
+          "retrieval_entropy": 0.0003774055890753516,
+          "retrieval_loss": 3.155857484671287e-05,
+          "retrieval_top1_accuracy": 1.0,
+          "split": "sealed"
+        },
+        "PAIR_ORDER_SHUFFLED": {
+          "all_cell_color_accuracy": 1.0,
+          "candidate_exact_match_rate": 1.0,
+          "candidate_nearest_score": 1.0,
+          "candidate_tie_rate": 0.0,
+          "condition": "PAIR_ORDER_SHUFFLED",
+          "direct_grid_exact_accuracy": 1.0,
+          "episode_count": 2000,
+          "foreground_cell_count_per_episode": {
+            "expected_informative_foreground_count_verified": true,
+            "mean": 5.0,
+            "unique": [
+              5
+            ]
+          },
+          "foreground_color_accuracy": 1.0,
+          "logical_relevant_pair_accuracy_after_permutation": 1.0,
+          "mean_relevant_pair_mass": 0.999968456864357,
+          "mean_target_rectangle_hamming_error": 0.0,
+          "median_relevant_pair_mass": 0.9999698996543884,
+          "median_target_rectangle_hamming_error": 0.0,
+          "output_loss": 3.2273493957291066e-06,
+          "retrieval_entropy": 0.0003774044558958849,
+          "retrieval_loss": 3.155744980176678e-05,
+          "retrieval_top1_accuracy": 1.0,
+          "split": "sealed"
+        },
+        "TWIN_SWAP_SUPPORTS": {
+          "all_cell_color_accuracy": 0.8979591836734694,
+          "candidate_exact_match_rate": 1.0,
+          "candidate_nearest_score": 0.0,
+          "candidate_tie_rate": 0.0,
+          "condition": "TWIN_SWAP_SUPPORTS",
+          "direct_grid_exact_accuracy": 0.0,
+          "episode_count": 2000,
+          "foreground_cell_count_per_episode": {
+            "expected_informative_foreground_count_verified": true,
+            "mean": 5.0,
+            "unique": [
+              5
+            ]
+          },
+          "foreground_color_accuracy": 0.0,
+          "logical_relevant_pair_accuracy_after_permutation": 1.0,
+          "mean_relevant_pair_mass": 0.9999684557318688,
+          "mean_target_rectangle_hamming_error": 5.0,
+          "median_relevant_pair_mass": 0.9999698400497437,
+          "median_target_rectangle_hamming_error": 5.0,
+          "output_loss": 1.1374711692333221,
+          "retrieval_entropy": 0.0003774055890753516,
+          "retrieval_loss": 3.155857484671287e-05,
+          "retrieval_top1_accuracy": 1.0,
+          "split": "sealed"
+        }
+      },
+      "derived_metrics": {
+        "base_pair_count": 1000,
+        "correct_counterfactual_switch_rate": 1.0,
+        "max_abs_probability_difference_after_logical_unpermute": 1.1920928955078125e-07,
+        "normal_to_swapped_candidate_change_rate": 1.0,
+        "normal_to_swapped_grid_change_rate": 1.0,
+        "normal_vs_pair_order_same_candidate_rate": 1.0,
+        "normal_vs_pair_order_same_grid_rate": 1.0,
+        "normal_vs_pair_order_same_logical_pair_rate": 1.0,
+        "twin_pair_joint_normal_accuracy": 1.0,
+        "twin_pair_mapping_flip_consistency": 1.0,
+        "twin_same_candidate_decision_rate": 0.0,
+        "twin_same_predicted_grid_rate": 0.0
+      }
+    },
+    "train": {
+      "conditions": {
+        "NORMAL": {
+          "all_cell_color_accuracy": 1.0,
+          "candidate_exact_match_rate": 1.0,
+          "candidate_nearest_score": 1.0,
+          "candidate_tie_rate": 0.0,
+          "condition": "NORMAL",
+          "direct_grid_exact_accuracy": 1.0,
+          "episode_count": 16000,
+          "foreground_cell_count_per_episode": {
+            "expected_informative_foreground_count_verified": true,
+            "mean": 5.0,
+            "unique": [
+              5
+            ]
+          },
+          "foreground_color_accuracy": 1.0,
+          "logical_relevant_pair_accuracy_after_permutation": 1.0,
+          "mean_relevant_pair_mass": 0.9999691397622228,
+          "mean_target_rectangle_hamming_error": 0.0,
+          "median_relevant_pair_mass": 0.999970555305481,
+          "median_target_rectangle_hamming_error": 0.0,
+          "output_loss": 3.1556523936160374e-06,
+          "retrieval_entropy": 0.0003701691994747307,
+          "retrieval_loss": 3.0870286423123616e-05,
+          "retrieval_top1_accuracy": 1.0,
+          "split": "train"
+        },
+        "PAIR_ORDER_SHUFFLED": {
+          "all_cell_color_accuracy": 1.0,
+          "candidate_exact_match_rate": 1.0,
+          "candidate_nearest_score": 1.0,
+          "candidate_tie_rate": 0.0,
+          "condition": "PAIR_ORDER_SHUFFLED",
+          "direct_grid_exact_accuracy": 1.0,
+          "episode_count": 16000,
+          "foreground_cell_count_per_episode": {
+            "expected_informative_foreground_count_verified": true,
+            "mean": 5.0,
+            "unique": [
+              5
+            ]
+          },
+          "foreground_color_accuracy": 1.0,
+          "logical_relevant_pair_accuracy_after_permutation": 1.0,
+          "mean_relevant_pair_mass": 0.9999691390767693,
+          "mean_target_rectangle_hamming_error": 0.0,
+          "median_relevant_pair_mass": 0.999970555305481,
+          "median_target_rectangle_hamming_error": 0.0,
+          "output_loss": 3.156502948797879e-06,
+          "retrieval_entropy": 0.0003701698845561623,
+          "retrieval_loss": 3.0871130320520024e-05,
+          "retrieval_top1_accuracy": 1.0,
+          "split": "train"
+        },
+        "TWIN_SWAP_SUPPORTS": {
+          "all_cell_color_accuracy": 0.8979591836734694,
+          "candidate_exact_match_rate": 1.0,
+          "candidate_nearest_score": 0.0,
+          "candidate_tie_rate": 0.0,
+          "condition": "TWIN_SWAP_SUPPORTS",
+          "direct_grid_exact_accuracy": 0.0,
+          "episode_count": 16000,
+          "foreground_cell_count_per_episode": {
+            "expected_informative_foreground_count_verified": true,
+            "mean": 5.0,
+            "unique": [
+              5
+            ]
+          },
+          "foreground_color_accuracy": 0.0,
+          "logical_relevant_pair_accuracy_after_permutation": 1.0,
+          "mean_relevant_pair_mass": 0.9999691397622228,
+          "mean_target_rectangle_hamming_error": 5.0,
+          "median_relevant_pair_mass": 0.999970555305481,
+          "median_target_rectangle_hamming_error": 5.0,
+          "output_loss": 1.1389676928520203,
+          "retrieval_entropy": 0.0003701691994747307,
+          "retrieval_loss": 3.0870286423123616e-05,
+          "retrieval_top1_accuracy": 1.0,
+          "split": "train"
+        }
+      },
+      "derived_metrics": {
+        "base_pair_count": 8000,
+        "correct_counterfactual_switch_rate": 1.0,
+        "max_abs_probability_difference_after_logical_unpermute": 1.1920928955078125e-07,
+        "normal_to_swapped_candidate_change_rate": 1.0,
+        "normal_to_swapped_grid_change_rate": 1.0,
+        "normal_vs_pair_order_same_candidate_rate": 1.0,
+        "normal_vs_pair_order_same_grid_rate": 1.0,
+        "normal_vs_pair_order_same_logical_pair_rate": 1.0,
+        "twin_pair_joint_normal_accuracy": 1.0,
+        "twin_pair_mapping_flip_consistency": 1.0,
+        "twin_same_candidate_decision_rate": 0.0,
+        "twin_same_predicted_grid_rate": 0.0
+      }
+    }
+  },
+  "gates": {
+    "failed_gates": [],
+    "gates": {
+      "correct_counterfactual_switch_rate": {
+        "operator": ">=",
+        "passed": true,
+        "threshold": 0.95,
+        "value": 1.0
+      },
+      "direct_grid_exact_accuracy": {
+        "operator": ">=",
+        "passed": true,
+        "threshold": 0.95,
+        "value": 1.0
+      },
+      "foreground_color_accuracy": {
+        "operator": ">=",
+        "passed": true,
+        "threshold": 0.95,
+        "value": 1.0
+      },
+      "mean_relevant_pair_mass": {
+        "operator": ">=",
+        "passed": true,
+        "threshold": 0.95,
+        "value": 0.9999684557318688
+      },
+      "normal_vs_pair_order_same_grid_rate": {
+        "operator": ">=",
+        "passed": true,
+        "threshold": 0.99,
+        "value": 1.0
+      },
+      "normal_vs_pair_order_same_logical_pair_rate": {
+        "operator": ">=",
+        "passed": true,
+        "threshold": 0.99,
+        "value": 1.0
+      },
+      "oracle_direct_exact": {
+        "operator": "==",
+        "passed": true,
+        "threshold": 1.0,
+        "value": 1.0
+      },
+      "retrieval_top1_accuracy": {
+        "operator": ">=",
+        "passed": true,
+        "threshold": 0.95,
+        "value": 1.0
+      },
+      "twin_pair_mapping_flip_consistency": {
+        "operator": ">=",
+        "passed": true,
+        "threshold": 0.95,
+        "value": 1.0
+      },
+      "twin_same_predicted_grid_rate": {
+        "operator": "<=",
+        "passed": true,
+        "threshold": 0.05,
+        "value": 0.0
+      }
+    },
+    "passed": true
+  },
+  "interpretation": {
+    "does_not_prove": [
+      "VRM is repaired",
+      "ARC is solved",
+      "raw support-output copying is sufficient for ARC",
+      "R1 should be inserted into V1.1 without a separate integration test"
+    ],
+    "if_passes": "The standalone learned reader can solve the marker Twin correspondence unit test.",
+    "r2_integration_justified": true
+  },
+  "oracle": {
+    "adapter": "exact query grid equals exactly one support input grid",
+    "dev": {
+      "all_cell_color_accuracy": 1.0,
+      "direct_grid_exact_accuracy": 1.0,
+      "episode_count": 2000,
+      "foreground_cell_count_per_episode": {
+        "expected_informative_foreground_count_verified": true,
+        "unique": [
+          5
+        ]
+      },
+      "foreground_color_accuracy": 1.0,
+      "passed": true,
+      "target_rectangle_hamming_error": 0.0
+    },
+    "passed": true,
+    "sealed": {
+      "all_cell_color_accuracy": 1.0,
+      "direct_grid_exact_accuracy": 1.0,
+      "episode_count": 2000,
+      "foreground_cell_count_per_episode": {
+        "expected_informative_foreground_count_verified": true,
+        "unique": [
+          5
+        ]
+      },
+      "foreground_color_accuracy": 1.0,
+      "passed": true,
+      "target_rectangle_hamming_error": 0.0
+    },
+    "train": {
+      "all_cell_color_accuracy": 1.0,
+      "direct_grid_exact_accuracy": 1.0,
+      "episode_count": 16000,
+      "foreground_cell_count_per_episode": {
+        "expected_informative_foreground_count_verified": true,
+        "unique": [
+          5
+        ]
+      },
+      "foreground_color_accuracy": 1.0,
+      "passed": true,
+      "target_rectangle_hamming_error": 0.0
+    }
+  },
+  "pytest_result": "........................................................................ [ 80%]\n..................                                                       [100%]\n90 passed in 66.97s (0:01:06)",
+  "run_config": {
+    "batch_size": 128,
+    "betas": [
+      0.9,
+      0.95
+    ],
+    "checkpoint_dir": "/mnt/d/VRM/checkpoints/twin_pair_reader_r1",
+    "data": "/mnt/d/VRM/artifacts/twin_task_pilot_v1",
+    "determinism": {
+      "seed": 20260628,
+      "torch_deterministic_algorithms": "enabled_warn_only"
+    },
+    "dev_episode_count": 2000,
+    "device": "cuda",
+    "epochs": 15,
+    "experiment": "Pair Key-Value Reader R1 - Learned Correspondence Unit Test",
+    "grad_clip_norm": 1.0,
+    "lambda_retrieval": 1.0,
+    "learning_rate": 0.0003,
+    "mode": "full",
+    "model_config": {
+      "background_color": 0,
+      "color_count": 10,
+      "dropout": 0.0,
+      "hidden_size": 128,
+      "max_height": 7,
+      "max_width": 7,
+      "num_heads": 4,
+      "num_layers": 2,
+      "temperature": 0.1
+    },
+    "out": "/mnt/d/VRM/artifacts/twin_pair_reader_r1",
+    "seed": 20260628,
+    "steps_per_epoch": 125,
+    "total_steps": 1875,
+    "train_episode_count": 16000,
+    "weight_decay": 0.01
+  },
+  "runtime_seconds": 374.23846153299996,
+  "source_protection_hashes_unchanged": true,
+  "support_pair_permutation_passed": true,
+  "verdict": "PASS"
+}

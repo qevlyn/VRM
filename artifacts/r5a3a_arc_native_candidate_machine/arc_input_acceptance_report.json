@@ -1,0 +1,36 @@
+{
+  "audit_version": "R5A3A_ARC_NATIVE_STRUCTURAL_CANDIDATE_MACHINE_V0",
+  "candidate_emission_rate": {
+    "denominator": 4357,
+    "numerator": 4357,
+    "rate": 1.0
+  },
+  "fold_acceptance_rate": {
+    "denominator": 4357,
+    "numerator": 4357,
+    "rate": 1.0
+  },
+  "raw_grid_fidelity": {
+    "failed_count": 0,
+    "passed_count": 4357
+  },
+  "task_input_acceptance_rate": {
+    "denominator": 4357,
+    "numerator": 4357,
+    "rate": 1.0
+  },
+  "unique_candidate_count_distribution": {
+    "count": 4357,
+    "histogram": {
+      "2": 21,
+      "3": 14,
+      "4": 97,
+      "5": 321,
+      "6": 436,
+      "7": 2063,
+      "8": 1405
+    },
+    "mean": 6.971310534771632,
+    "median": 7
+  }
+}

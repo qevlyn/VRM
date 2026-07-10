@@ -1,0 +1,16 @@
+{
+  "child_returncode": 0,
+  "child_stdout_tail": "{\n  \"created_utc\": \"2026-07-04T03:11:37Z\",\n  \"status\": \"CHILD_COMPLETE\",\n  \"tasks\": [\n    {\n      \"final_label\": \"P_STRICT_DETERMINISTIC_STEP0_MISMATCH\",\n      \"task_id\": \"1f876c06\"\n    },\n    {\n      \"final_label\": \"P_STRICT_DETERMINISTIC_STEP0_MISMATCH\",\n      \"task_id\": \"604001fa\"\n    }\n  ]\n}\n",
+  "created_utc": "2026-07-04T03:11:37Z",
+  "status": "CHILD_COMPLETE",
+  "tasks": [
+    {
+      "final_label": "P_STRICT_DETERMINISTIC_STEP0_MISMATCH",
+      "task_id": "1f876c06"
+    },
+    {
+      "final_label": "P_STRICT_DETERMINISTIC_STEP0_MISMATCH",
+      "task_id": "604001fa"
+    }
+  ]
+}

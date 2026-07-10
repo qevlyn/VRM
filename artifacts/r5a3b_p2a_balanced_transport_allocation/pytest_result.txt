@@ -1,0 +1,4 @@
+command: cd /mnt/d/VRM && /home/quyen/.venvs/vrm/bin/python -m pytest -q tests/test_r5a3b_relation_constraint_pilot.py tests/test_r5a3b_p1_exposure_audit.py tests/test_r5a3b_p2a_balanced_transport_allocation.py
+...............................                                          [100%]
+31 passed in 5.40s
+pytest_exit_code=0

@@ -1,0 +1,23 @@
+{
+  "20260628": {
+    "max_gate_grad_norm": 7.484443858135903,
+    "max_reader_grad_norm": 0.0,
+    "min_positive_gate_grad_norm": 1.920245958751538e-10,
+    "reader_frozen_grad_zero": true,
+    "seed": 20260628
+  },
+  "20260629": {
+    "max_gate_grad_norm": 7.677452385037542,
+    "max_reader_grad_norm": 0.0,
+    "min_positive_gate_grad_norm": 2.0269664118248868e-10,
+    "reader_frozen_grad_zero": true,
+    "seed": 20260629
+  },
+  "20260630": {
+    "max_gate_grad_norm": 8.602907388281437,
+    "max_reader_grad_norm": 0.0,
+    "min_positive_gate_grad_norm": 2.059789659919367e-10,
+    "reader_frozen_grad_zero": true,
+    "seed": 20260630
+  }
+}

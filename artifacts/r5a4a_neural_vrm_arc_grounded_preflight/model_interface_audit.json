@@ -1,0 +1,96 @@
+{
+  "audit_status": "ID_FREE_AUDIT_PASS",
+  "model_class_name": "VRM",
+  "model_class_path": "/mnt/d/VRM/vrm/model.py",
+  "model_class_line": 178,
+  "config_class_name": "VRMConfig",
+  "config_class_line": 27,
+  "forward_signature": {
+    "keyword_only": true,
+    "parameters": [
+      "support_evidence_colors",
+      "support_evidence_rows",
+      "support_evidence_cols",
+      "support_evidence_roles",
+      "support_evidence_pair_indices",
+      "support_evidence_mask",
+      "query_inputs",
+      "query_input_mask",
+      "disable_support_evidence"
+    ],
+    "line": 382
+  },
+  "model_input_tensors": [
+    "support_evidence_colors",
+    "support_evidence_rows",
+    "support_evidence_cols",
+    "support_evidence_roles",
+    "support_evidence_pair_indices",
+    "support_evidence_mask",
+    "query_inputs",
+    "query_input_mask"
+  ],
+  "model_output_tensors": [
+    "color_logits",
+    "color_log_probs",
+    "logits",
+    "color_probabilities",
+    "height_logits",
+    "width_logits",
+    "final_canvas",
+    "final_rewrite_state",
+    "support_evidence_bank",
+    "support_evidence_mask",
+    "rule_tokens",
+    "copy_gate",
+    "copy_attention",
+    "copy_distribution",
+    "paint_distribution",
+    "copy_entropy",
+    "paint_entropy"
+  ],
+  "input_provenance": {
+    "color": "vrm/model.py:194,245,275",
+    "row": "vrm/model.py:195,246,276",
+    "column": "vrm/model.py:196,247,277",
+    "role": "vrm/model.py:197,278",
+    "support_pair_index": "vrm/model.py:198,279",
+    "support_mask": "vrm/model.py:290,301",
+    "query_grid": "vrm/model.py:242,402",
+    "query_mask": "vrm/model.py:396,346"
+  },
+  "bookkeeping_metadata_not_forwarded": [
+    "task_ids",
+    "query_pair_indices",
+    "source_splits",
+    "source_file"
+  ],
+  "forbidden_identifier_path_found": false,
+  "forbidden_identifier_path_status": "No task_id, puzzle_id, dataset index, filename, cache key, or persistent task embedding is accepted by VRM.forward or emitted by model_inputs_from_batch.",
+  "model_state_persists_across_tasks": "Only ordinary PyTorch learned parameters persist; no per-task memory or task-specific embedding was found.",
+  "height_width_decoding": "height_logits and width_logits are decoded by argmax + 1.",
+  "color_decoding": "color_log_probs are decoded by argmax over 10 ARC colors.",
+  "existing_loss_function": {
+    "name": "factorized_shape_color_loss",
+    "path": "/mnt/d/VRM/vrm/metrics.py",
+    "line": 25,
+    "total_loss_formula": "color_loss + shape_loss_weight * 0.5 * (height_loss + width_loss)"
+  },
+  "existing_train_entrypoint": {
+    "command": "python -m vrm.train --mode v1_1_capacity50",
+    "function": "run_v1_1_capacity50",
+    "line": 1035
+  },
+  "existing_checkpoint_format": {
+    "writer": "save_checkpoint",
+    "path": "/mnt/d/VRM/vrm/train.py",
+    "line": 797,
+    "keys": [
+      "model_state_dict",
+      "optimizer_state_dict",
+      "config",
+      "step",
+      "extra"
+    ]
+  }
+}

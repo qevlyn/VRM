@@ -1,0 +1,7 @@
+{
+  "checkpoint_path": "/mnt/d/VRM/checkpoints/vrm_v1_1_best_train_hamming.pt",
+  "checkpoint_sha256_after": "b86ba9fd645870e185ef1c54fbec98e5437aeac094d0e290e19bc388a5722370",
+  "checkpoint_sha256_before": "b86ba9fd645870e185ef1c54fbec98e5437aeac094d0e290e19bc388a5722370",
+  "checkpoint_step": 1500,
+  "checkpoint_weights_unchanged": true
+}

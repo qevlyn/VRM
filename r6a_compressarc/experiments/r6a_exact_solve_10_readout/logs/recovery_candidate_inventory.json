@@ -1,0 +1,94 @@
+{
+  "rows": [
+    {
+      "actual_step_count": 1500,
+      "condition": "F1",
+      "recovery_candidate_valid": true,
+      "seed": 20260702,
+      "selected_existing_probability_npz": "/mnt/d/VRM/r6a_compressarc/artifacts/phase1_runs/A/3ed85e70/20260702/F1/probability.npz",
+      "selected_existing_solver_json": "/mnt/d/VRM/r6a_compressarc/artifacts/phase1_runs/A/3ed85e70/20260702/F1/solver.json",
+      "status": "RUN_COMPLETED",
+      "task_id": "3ed85e70"
+    },
+    {
+      "actual_step_count": 1500,
+      "condition": "F1",
+      "recovery_candidate_valid": true,
+      "seed": 20260702,
+      "selected_existing_probability_npz": "/mnt/d/VRM/r6a_compressarc/artifacts/phase1_runs/A/929ab4e9/20260702/F1/probability.npz",
+      "selected_existing_solver_json": "/mnt/d/VRM/r6a_compressarc/artifacts/phase1_runs/A/929ab4e9/20260702/F1/solver.json",
+      "status": "RUN_COMPLETED",
+      "task_id": "929ab4e9"
+    },
+    {
+      "actual_step_count": 1500,
+      "condition": "F1",
+      "recovery_candidate_valid": true,
+      "seed": 20260702,
+      "selected_existing_probability_npz": "/mnt/d/VRM/r6a_compressarc/artifacts/phase1_runs/A/981571dc/20260702/F1/probability.npz",
+      "selected_existing_solver_json": "/mnt/d/VRM/r6a_compressarc/artifacts/phase1_runs/A/981571dc/20260702/F1/solver.json",
+      "status": "RUN_COMPLETED",
+      "task_id": "981571dc"
+    },
+    {
+      "actual_step_count": 1500,
+      "condition": "F1",
+      "recovery_candidate_valid": true,
+      "seed": 20260702,
+      "selected_existing_probability_npz": "/mnt/d/VRM/r6a_compressarc/artifacts/phase1_runs/A/604001fa/20260702/F1/probability.npz",
+      "selected_existing_solver_json": "/mnt/d/VRM/r6a_compressarc/artifacts/phase1_runs/A/604001fa/20260702/F1/solver.json",
+      "status": "RUN_COMPLETED",
+      "task_id": "604001fa"
+    },
+    {
+      "actual_step_count": 1500,
+      "condition": "F1",
+      "recovery_candidate_valid": true,
+      "seed": 20260702,
+      "selected_existing_probability_npz": "/mnt/d/VRM/r6a_compressarc/artifacts/phase1_runs/A/79fb03f4/20260702/F1/probability.npz",
+      "selected_existing_solver_json": "/mnt/d/VRM/r6a_compressarc/artifacts/phase1_runs/A/79fb03f4/20260702/F1/solver.json",
+      "status": "RUN_COMPLETED",
+      "task_id": "79fb03f4"
+    },
+    {
+      "actual_step_count": 1500,
+      "condition": "F1",
+      "recovery_candidate_valid": true,
+      "seed": 20260702,
+      "selected_existing_probability_npz": "/mnt/d/VRM/r6a_compressarc/artifacts/phase1_runs/A/aa4ec2a5/20260702/F1/probability.npz",
+      "selected_existing_solver_json": "/mnt/d/VRM/r6a_compressarc/artifacts/phase1_runs/A/aa4ec2a5/20260702/F1/solver.json",
+      "status": "RUN_COMPLETED",
+      "task_id": "aa4ec2a5"
+    },
+    {
+      "actual_step_count": 1500,
+      "condition": "F1",
+      "recovery_candidate_valid": true,
+      "seed": 20260702,
+      "selected_existing_probability_npz": "/mnt/d/VRM/r6a_compressarc/artifacts/phase1_runs/B/0dfd9992/20260702/F1/probability.npz",
+      "selected_existing_solver_json": "/mnt/d/VRM/r6a_compressarc/artifacts/phase1_runs/B/0dfd9992/20260702/F1/solver.json",
+      "status": "RUN_COMPLETED",
+      "task_id": "0dfd9992"
+    },
+    {
+      "actual_step_count": 1500,
+      "condition": "F1",
+      "recovery_candidate_valid": true,
+      "seed": 20260702,
+      "selected_existing_probability_npz": "/mnt/d/VRM/r6a_compressarc/artifacts/phase1_runs/B/1f876c06/20260702/F1/probability.npz",
+      "selected_existing_solver_json": "/mnt/d/VRM/r6a_compressarc/artifacts/phase1_runs/B/1f876c06/20260702/F1/solver.json",
+      "status": "RUN_COMPLETED",
+      "task_id": "1f876c06"
+    },
+    {
+      "actual_step_count": 1500,
+      "condition": "F1",
+      "recovery_candidate_valid": true,
+      "seed": 20260702,
+      "selected_existing_probability_npz": "/mnt/d/VRM/r6a_compressarc/artifacts/phase1_runs/B/1c786137/20260702/F1/probability.npz",
+      "selected_existing_solver_json": "/mnt/d/VRM/r6a_compressarc/artifacts/phase1_runs/B/1c786137/20260702/F1/solver.json",
+      "status": "RUN_COMPLETED",
+      "task_id": "1c786137"
+    }
+  ]
+}

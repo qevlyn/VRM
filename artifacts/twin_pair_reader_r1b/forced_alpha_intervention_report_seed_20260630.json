@@ -1,0 +1,6 @@
+{
+  "condition": "FORCED_ALPHA_INTERVENTION",
+  "forced_alpha_exact_route_rate": 1.0,
+  "forced_alpha_route_count": 6000,
+  "split": "sealed"
+}

@@ -1,0 +1,440 @@
+{
+  "area_bin_counts": {
+    "large": 8,
+    "medium": 10,
+    "small": 6
+  },
+  "counts": {
+    "multi_object": 18,
+    "one_object": 6
+  },
+  "pilot_manifest_sha256": "f6893e167cfd6a282d29b174ed1f1ba310b830d3818bb53164cbe5ff681ae457",
+  "pilot_version": "R5A3B_P0_RELATION_OBJECT_GRAPH_CONSTRAINT_CAUSAL_PILOT",
+  "selection_limitations": [],
+  "support_pair_count_distribution": {
+    "2": 5,
+    "3": 5,
+    "4": 5,
+    "5": 3,
+    "6": 3,
+    "7": 2,
+    "8": 1
+  },
+  "task_count": 24,
+  "task_ids_recorded_for_manifest_only": true,
+  "task_ids_used_for_runtime_candidate_generation_or_ranking": false,
+  "tasks": [
+    {
+      "area_bin": "small",
+      "input_only_object_counts_modal_bg_conn4": [
+        19,
+        14
+      ],
+      "input_only_selection_hash": "00203783c277bc19649477c6c3afe00eee85f14067005c5ddf5674b1bb05be2c",
+      "object_slice": "multi_object",
+      "source_relative_path": "arc-prize-2026-arc-agi-2/arc-agi_training_challenges.json#8fff9e47",
+      "split_name": "training",
+      "support_pair_count": 2,
+      "task_id": "training:8fff9e47",
+      "test_input_count": 1,
+      "train_input_count": 2
+    },
+    {
+      "area_bin": "medium",
+      "input_only_object_counts_modal_bg_conn4": [
+        1,
+        1
+      ],
+      "input_only_selection_hash": "003ab26e8f503e7960ea6292ed0287559fb4a2674af8eac24cc2b1ecaca9976e",
+      "object_slice": "one_object",
+      "source_relative_path": "arc-prize-2026-arc-agi-2/arc-agi_training_challenges.json#272f95fa",
+      "split_name": "training",
+      "support_pair_count": 2,
+      "task_id": "training:272f95fa",
+      "test_input_count": 1,
+      "train_input_count": 2
+    },
+    {
+      "area_bin": "small",
+      "input_only_object_counts_modal_bg_conn4": [
+        5,
+        5,
+        5
+      ],
+      "input_only_selection_hash": "00a70cb1f01a5f5d126124a7e630d8dfd714af7f8ffa68669757a0faef7a6222",
+      "object_slice": "multi_object",
+      "source_relative_path": "arc-prize-2026-arc-agi-2/arc-agi_training_challenges.json#8e5a5113",
+      "split_name": "training",
+      "support_pair_count": 3,
+      "task_id": "training:8e5a5113",
+      "test_input_count": 1,
+      "train_input_count": 3
+    },
+    {
+      "area_bin": "medium",
+      "input_only_object_counts_modal_bg_conn4": [
+        12,
+        32
+      ],
+      "input_only_selection_hash": "00d50b52b427fa06796519f9eb4d465b2cd897de27b3338a033f151504a3f3f4",
+      "object_slice": "multi_object",
+      "source_relative_path": "arc-prize-2026-arc-agi-2/arc-agi_training_challenges.json#2ccd9fef",
+      "split_name": "training",
+      "support_pair_count": 2,
+      "task_id": "training:2ccd9fef",
+      "test_input_count": 2,
+      "train_input_count": 2
+    },
+    {
+      "area_bin": "large",
+      "input_only_object_counts_modal_bg_conn4": [
+        7,
+        5
+      ],
+      "input_only_selection_hash": "00d900ed4f5c14208fc3fecd3ea967320c3c8402563c121cafbafa95a6efc413",
+      "object_slice": "multi_object",
+      "source_relative_path": "arc-prize-2026-arc-agi-2/arc-agi_training_challenges.json#5a5a2103",
+      "split_name": "training",
+      "support_pair_count": 2,
+      "task_id": "training:5a5a2103",
+      "test_input_count": 1,
+      "train_input_count": 2
+    },
+    {
+      "area_bin": "large",
+      "input_only_object_counts_modal_bg_conn4": [
+        4,
+        7,
+        5
+      ],
+      "input_only_selection_hash": "014db861a6b7a80ce16b502d4e4384e495f75f3e24a5a01de1644df7152cbd94",
+      "object_slice": "multi_object",
+      "source_relative_path": "arc-prize-2026-arc-agi-2/arc-agi_training_challenges.json#90c28cc7",
+      "split_name": "training",
+      "support_pair_count": 3,
+      "task_id": "training:90c28cc7",
+      "test_input_count": 1,
+      "train_input_count": 3
+    },
+    {
+      "area_bin": "medium",
+      "input_only_object_counts_modal_bg_conn4": [
+        2,
+        1,
+        3
+      ],
+      "input_only_selection_hash": "01dd2602608c26253effc4287b039e285f944d8e1a2c85ea2d72c91b0500dacc",
+      "object_slice": "multi_object",
+      "source_relative_path": "arc-prize-2026-arc-agi-2/arc-agi_training_challenges.json#e57337a4",
+      "split_name": "training",
+      "support_pair_count": 3,
+      "task_id": "training:e57337a4",
+      "test_input_count": 1,
+      "train_input_count": 3
+    },
+    {
+      "area_bin": "medium",
+      "input_only_object_counts_modal_bg_conn4": [
+        4,
+        5,
+        3,
+        2
+      ],
+      "input_only_selection_hash": "0205ac0218ff26621e8fe45e06db9feb0c7ea19f7d729e8737e3ea9c559fe3a7",
+      "object_slice": "multi_object",
+      "source_relative_path": "arc-prize-2026-arc-agi-2/arc-agi_training_challenges.json#825aa9e9",
+      "split_name": "training",
+      "support_pair_count": 4,
+      "task_id": "training:825aa9e9",
+      "test_input_count": 1,
+      "train_input_count": 4
+    },
+    {
+      "area_bin": "small",
+      "input_only_object_counts_modal_bg_conn4": [
+        10,
+        12,
+        9,
+        10,
+        12,
+        9
+      ],
+      "input_only_selection_hash": "0742b02b74a90b562a5789e345c776951126b7753b631e201988c110eef84c42",
+      "object_slice": "multi_object",
+      "source_relative_path": "arc-prize-2026-arc-agi-2/arc-agi_training_challenges.json#a68b268e",
+      "split_name": "training",
+      "support_pair_count": 6,
+      "task_id": "training:a68b268e",
+      "test_input_count": 1,
+      "train_input_count": 6
+    },
+    {
+      "area_bin": "large",
+      "input_only_object_counts_modal_bg_conn4": [
+        406,
+        436,
+        421,
+        461
+      ],
+      "input_only_selection_hash": "088b5677df6905581f46c3012412bdba088ff0cc63a6d69f9579fbad266bdbf5",
+      "object_slice": "multi_object",
+      "source_relative_path": "arc-prize-2026-arc-agi-2/arc-agi_evaluation_challenges.json#0934a4d8",
+      "split_name": "evaluation",
+      "support_pair_count": 4,
+      "task_id": "evaluation:0934a4d8",
+      "test_input_count": 1,
+      "train_input_count": 4
+    },
+    {
+      "area_bin": "small",
+      "input_only_object_counts_modal_bg_conn4": [
+        19,
+        35,
+        18,
+        28
+      ],
+      "input_only_selection_hash": "0c932836daba6d7d6f656849852c6b4e049ee91dba2e25c41a8c445ccd1baac1",
+      "object_slice": "multi_object",
+      "source_relative_path": "arc-prize-2026-arc-agi-2/arc-agi_training_challenges.json#5bd6f4ac",
+      "split_name": "training",
+      "support_pair_count": 4,
+      "task_id": "training:5bd6f4ac",
+      "test_input_count": 1,
+      "train_input_count": 4
+    },
+    {
+      "area_bin": "medium",
+      "input_only_object_counts_modal_bg_conn4": [
+        3,
+        6,
+        7,
+        2,
+        9
+      ],
+      "input_only_selection_hash": "157e29bf4dacd9a10db173157e78ed5b2b60ec4d59ee88f7f335b3fa0f4f6609",
+      "object_slice": "multi_object",
+      "source_relative_path": "arc-prize-2026-arc-agi-2/arc-agi_training_challenges.json#817e6c09",
+      "split_name": "training",
+      "support_pair_count": 5,
+      "task_id": "training:817e6c09",
+      "test_input_count": 1,
+      "train_input_count": 5
+    },
+    {
+      "area_bin": "small",
+      "input_only_object_counts_modal_bg_conn4": [
+        2,
+        2,
+        1,
+        1,
+        1
+      ],
+      "input_only_selection_hash": "162b59c1a15691f139309a9738a39f3a07deb1c2003fac43ccf8fe20ce6d3855",
+      "object_slice": "multi_object",
+      "source_relative_path": "arc-prize-2026-arc-agi-2/arc-agi_training_challenges.json#310f3251",
+      "split_name": "training",
+      "support_pair_count": 5,
+      "task_id": "training:310f3251",
+      "test_input_count": 1,
+      "train_input_count": 5
+    },
+    {
+      "area_bin": "medium",
+      "input_only_object_counts_modal_bg_conn4": [
+        1,
+        1,
+        1
+      ],
+      "input_only_selection_hash": "18ce906637169e34403251f6dc70f64d660d9740caf4ce0da46322aeb5f7f1ef",
+      "object_slice": "one_object",
+      "source_relative_path": "arc-prize-2026-arc-agi-2/arc-agi_training_challenges.json#834ec97d",
+      "split_name": "training",
+      "support_pair_count": 3,
+      "task_id": "training:834ec97d",
+      "test_input_count": 1,
+      "train_input_count": 3
+    },
+    {
+      "area_bin": "large",
+      "input_only_object_counts_modal_bg_conn4": [
+        1,
+        1
+      ],
+      "input_only_selection_hash": "22784a7099b92716109303e7c1fa5ab5bbdd89b0ddd83f8177228fe200f825ad",
+      "object_slice": "one_object",
+      "source_relative_path": "arc-prize-2026-arc-agi-2/arc-agi_training_challenges.json#d304284e",
+      "split_name": "training",
+      "support_pair_count": 2,
+      "task_id": "training:d304284e",
+      "test_input_count": 1,
+      "train_input_count": 2
+    },
+    {
+      "area_bin": "medium",
+      "input_only_object_counts_modal_bg_conn4": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "input_only_selection_hash": "23b0b31e435edbb9233a7ffb05a1e720c4078a3fc3100b8613849e20621a8e99",
+      "object_slice": "one_object",
+      "source_relative_path": "arc-prize-2026-arc-agi-2/arc-agi_training_challenges.json#8dab14c2",
+      "split_name": "training",
+      "support_pair_count": 4,
+      "task_id": "training:8dab14c2",
+      "test_input_count": 4,
+      "train_input_count": 4
+    },
+    {
+      "area_bin": "small",
+      "input_only_object_counts_modal_bg_conn4": [
+        17,
+        15,
+        16,
+        15,
+        14,
+        21,
+        12
+      ],
+      "input_only_selection_hash": "2aa102da5d10cd74f5980f1ebcf2323f2aa1a4e08dc3ad68f4042639a7f99288",
+      "object_slice": "multi_object",
+      "source_relative_path": "arc-prize-2026-arc-agi-2/arc-agi_training_challenges.json#9110e3c5",
+      "split_name": "training",
+      "support_pair_count": 7,
+      "task_id": "training:9110e3c5",
+      "test_input_count": 2,
+      "train_input_count": 7
+    },
+    {
+      "area_bin": "large",
+      "input_only_object_counts_modal_bg_conn4": [
+        1,
+        1,
+        1
+      ],
+      "input_only_selection_hash": "3ff41d671fa49d33a428f9cb513df98fb44c24c127d65b0f3d0276ef8cc96683",
+      "object_slice": "one_object",
+      "source_relative_path": "arc-prize-2026-arc-agi-2/arc-agi_training_challenges.json#1190e5a7",
+      "split_name": "training",
+      "support_pair_count": 3,
+      "task_id": "training:1190e5a7",
+      "test_input_count": 1,
+      "train_input_count": 3
+    },
+    {
+      "area_bin": "large",
+      "input_only_object_counts_modal_bg_conn4": [
+        4,
+        5,
+        5,
+        6,
+        5
+      ],
+      "input_only_selection_hash": "54b762e754fda924270b5e22c5e2c00f5b469636b6f0693017930426077936ea",
+      "object_slice": "multi_object",
+      "source_relative_path": "arc-prize-2026-arc-agi-2/arc-agi_evaluation_challenges.json#88bcf3b4",
+      "split_name": "evaluation",
+      "support_pair_count": 5,
+      "task_id": "evaluation:88bcf3b4",
+      "test_input_count": 2,
+      "train_input_count": 5
+    },
+    {
+      "area_bin": "medium",
+      "input_only_object_counts_modal_bg_conn4": [
+        4,
+        4,
+        5,
+        2,
+        3,
+        4,
+        7
+      ],
+      "input_only_selection_hash": "66bff05f6a05c16782e9c9d431cd7126032afd85eed0aaca7e6583a5a793429c",
+      "object_slice": "multi_object",
+      "source_relative_path": "arc-prize-2026-arc-agi-2/arc-agi_training_challenges.json#d5c634a2",
+      "split_name": "training",
+      "support_pair_count": 7,
+      "task_id": "training:d5c634a2",
+      "test_input_count": 2,
+      "train_input_count": 7
+    },
+    {
+      "area_bin": "large",
+      "input_only_object_counts_modal_bg_conn4": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "input_only_selection_hash": "a69db6bd21bcc48b29ede1700072ab4e8095728ab56ad1993dc4f6c4aa51caa7",
+      "object_slice": "one_object",
+      "source_relative_path": "arc-prize-2026-arc-agi-2/arc-agi_training_challenges.json#a3f84088",
+      "split_name": "training",
+      "support_pair_count": 4,
+      "task_id": "training:a3f84088",
+      "test_input_count": 1,
+      "train_input_count": 4
+    },
+    {
+      "area_bin": "large",
+      "input_only_object_counts_modal_bg_conn4": [
+        8,
+        5,
+        5,
+        9,
+        6,
+        8
+      ],
+      "input_only_selection_hash": "bbff8548730011d7935f9fbcba6989b4e57c0008c2d6c3f39be9dfb437a4d3a9",
+      "object_slice": "multi_object",
+      "source_relative_path": "arc-prize-2026-arc-agi-2/arc-agi_evaluation_challenges.json#36a08778",
+      "split_name": "evaluation",
+      "support_pair_count": 6,
+      "task_id": "evaluation:36a08778",
+      "test_input_count": 2,
+      "train_input_count": 6
+    },
+    {
+      "area_bin": "medium",
+      "input_only_object_counts_modal_bg_conn4": [
+        2,
+        1,
+        3,
+        5,
+        4,
+        2,
+        2,
+        4
+      ],
+      "input_only_selection_hash": "e90439a0e15948df7928674dfddf5dbc268d298be8e045d9bf70ca5cbd11aeb1",
+      "object_slice": "multi_object",
+      "source_relative_path": "arc-prize-2026-arc-agi-2/arc-agi_training_challenges.json#253bf280",
+      "split_name": "training",
+      "support_pair_count": 8,
+      "task_id": "training:253bf280",
+      "test_input_count": 1,
+      "train_input_count": 8
+    },
+    {
+      "area_bin": "medium",
+      "input_only_object_counts_modal_bg_conn4": [
+        3,
+        2,
+        2,
+        3,
+        2,
+        1
+      ],
+      "input_only_selection_hash": "ec85552b4473d025ac0c757d5d8738e6594c2535b3670a691a1f9173dbdd44cb",
+      "object_slice": "multi_object",
+      "source_relative_path": "arc-prize-2026-arc-agi-2/arc-agi_training_challenges.json#ac605cbb",
+      "split_name": "training",
+      "support_pair_count": 6,
+      "task_id": "training:ac605cbb",
+      "test_input_count": 1,
+      "train_input_count": 6
+    }
+  ]
+}

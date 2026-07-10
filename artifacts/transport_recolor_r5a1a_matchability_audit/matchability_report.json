@@ -1,0 +1,675 @@
+{
+  "artifact_audit": {
+    "checkpoint_or_weight_files": [],
+    "passed": true,
+    "sealed_eval_terms_found_in_new_sources": [],
+    "training_terms_found_in_new_sources": []
+  },
+  "artifact_file_sha256": {
+    "candidate_ledger.json": "3176c83928a90474d7fdf8e482fe991414dc8e9d825f4e42307961643f234a4c",
+    "pareto_frontier.json": "778866bf5d384e8bfbe971880af20e81d83d7ae4c1117a3139f284bd16b41abd",
+    "search_domain.json": "539634fb384217b7560bc40fb7315ff11ed4984790a127e166302417daf07c99"
+  },
+  "audit_version": "R5A1A_MATCHABILITY_AUDIT_V1",
+  "canonical_batch_hash_from_preflight": "0c90de664d2e431e9625894fa35904a9bdfab3993ddcdf92140209e589a439ff",
+  "canonical_profiling_batch": {
+    "batch_size": 4,
+    "max_structural_workload": {
+      "canvas_hw": [
+        7,
+        7
+      ],
+      "color_count": 9,
+      "memory_token_count_per_example": 343,
+      "output_cell_query_count_per_example": 49,
+      "query_token_count_per_example": 49,
+      "support_pair_count": 3,
+      "support_role_count_per_pair": 2,
+      "support_token_count_per_example": 294,
+      "valid_output_cell_count_per_example": 49
+    },
+    "operation_classes_for_selection_audit_only": [
+      "C->L",
+      "C",
+      "H->K",
+      "H"
+    ],
+    "padding": {
+      "all_examples_use_full_7x7_canvas": true,
+      "memory_token_padding_false_count": 0,
+      "output_cell_padding_false_count": 0
+    },
+    "sealed_rows_read": false,
+    "selection_method": "sorted V2 train.jsonl by episode_id, then selected the first distinct operation_class rows until batch_size=4; falls back to first four sorted train rows only if distinct operation coverage is unavailable",
+    "stable_episode_ids": [
+      "train:3_cell_L|color=1|anchor=interior_lower_right|distractors=1:C->L:idx=0",
+      "train:3_cell_L|color=1|anchor=interior_lower_right|distractors=1:C:idx=0",
+      "train:3_cell_L|color=1|anchor=interior_lower_right|distractors=1:H->K:idx=0",
+      "train:3_cell_L|color=1|anchor=interior_lower_right|distractors=1:H:idx=0"
+    ],
+    "tensor_inventory": {
+      "canvas_hw": {
+        "dtype": "torch.int64",
+        "numel": 8,
+        "shape": [
+          4,
+          2
+        ]
+      },
+      "memory_token_mask": {
+        "dtype": "torch.bool",
+        "false_count": 0,
+        "numel": 1372,
+        "shape": [
+          4,
+          343
+        ],
+        "true_count": 1372
+      },
+      "output_cell_mask": {
+        "dtype": "torch.bool",
+        "false_count": 0,
+        "numel": 196,
+        "shape": [
+          4,
+          49
+        ],
+        "true_count": 196
+      },
+      "query_grids": {
+        "dtype": "torch.int64",
+        "numel": 196,
+        "shape": [
+          4,
+          7,
+          7
+        ]
+      },
+      "support_input_grids": {
+        "dtype": "torch.int64",
+        "numel": 588,
+        "shape": [
+          4,
+          3,
+          7,
+          7
+        ]
+      },
+      "support_output_grids": {
+        "dtype": "torch.int64",
+        "numel": 588,
+        "shape": [
+          4,
+          3,
+          7,
+          7
+        ]
+      }
+    },
+    "tensor_sha256": "0c90de664d2e431e9625894fa35904a9bdfab3993ddcdf92140209e589a439ff",
+    "training_side_only": true
+  },
+  "claim_boundary": "Insufficient for joint parameter/FLOP matching within the fully enumerated declared finite search domain of the current generic shared-renderer family.",
+  "created_utc": "2026-06-30T01:02:27+00:00",
+  "determinism_requirements": {
+    "candidate_ledger_body_sha256": "5c0035ab65c9fdf44621101eb3734a9a77e6d69a3ddc00c28301b5cc3c077d56",
+    "candidate_search_is_exhaustive_cartesian": true,
+    "pareto_frontier_body_sha256": "4a34c7d94f3ceab2661d40b282d961e4d2d126b45e9ff4fdd98bd14a5f84c927",
+    "search_domain_body_sha256": "5cbe6a3dd78a308e7f8d00d28f1db0b7be779dc046d0f788011fa7764f928f57",
+    "search_uses_accuracy_runtime_profiler_or_training": false
+  },
+  "firewall_preservation": {
+    "candidate_checks": [
+      {
+        "architecture_config": {
+          "color_count": 9,
+          "decoder_layers": 3,
+          "dropout": 0.0,
+          "encoder_layers": 0,
+          "grid_size": 7,
+          "hidden_size": 120,
+          "mlp_ratio": 6,
+          "num_heads": 1,
+          "output_cell_count": 49,
+          "support_pairs": 3,
+          "variant_name": "candidate"
+        },
+        "candidate_id": "h120_enc0_dec3_heads1_mlp6",
+        "constructed_input_tensors_unchanged_after_forbidden_metadata_perturbation": true,
+        "eval_mode_logits_unchanged_after_forbidden_metadata_perturbation": true,
+        "firewall_valid": true,
+        "forbidden_direct_field_rejected": true,
+        "forbidden_interface_terms_found": [],
+        "source_scan_passed": true
+      },
+      {
+        "architecture_config": {
+          "color_count": 9,
+          "decoder_layers": 1,
+          "dropout": 0.0,
+          "encoder_layers": 1,
+          "grid_size": 7,
+          "hidden_size": 2,
+          "mlp_ratio": 6,
+          "num_heads": 1,
+          "output_cell_count": 49,
+          "support_pairs": 3,
+          "variant_name": "candidate"
+        },
+        "candidate_id": "h002_enc1_dec1_heads1_mlp6",
+        "constructed_input_tensors_unchanged_after_forbidden_metadata_perturbation": true,
+        "eval_mode_logits_unchanged_after_forbidden_metadata_perturbation": true,
+        "firewall_valid": true,
+        "forbidden_direct_field_rejected": true,
+        "forbidden_interface_terms_found": [],
+        "source_scan_passed": true
+      },
+      {
+        "architecture_config": {
+          "color_count": 9,
+          "decoder_layers": 1,
+          "dropout": 0.0,
+          "encoder_layers": 2,
+          "grid_size": 7,
+          "hidden_size": 2,
+          "mlp_ratio": 3,
+          "num_heads": 1,
+          "output_cell_count": 49,
+          "support_pairs": 3,
+          "variant_name": "candidate"
+        },
+        "candidate_id": "h002_enc2_dec1_heads1_mlp3",
+        "constructed_input_tensors_unchanged_after_forbidden_metadata_perturbation": true,
+        "eval_mode_logits_unchanged_after_forbidden_metadata_perturbation": true,
+        "firewall_valid": true,
+        "forbidden_direct_field_rejected": true,
+        "forbidden_interface_terms_found": [],
+        "source_scan_passed": true
+      },
+      {
+        "architecture_config": {
+          "color_count": 9,
+          "decoder_layers": 3,
+          "dropout": 0.0,
+          "encoder_layers": 1,
+          "grid_size": 7,
+          "hidden_size": 192,
+          "mlp_ratio": 4,
+          "num_heads": 1,
+          "output_cell_count": 49,
+          "support_pairs": 3,
+          "variant_name": "shared_large"
+        },
+        "candidate_id": "h192_enc1_dec3_heads1_mlp4",
+        "constructed_input_tensors_unchanged_after_forbidden_metadata_perturbation": true,
+        "eval_mode_logits_unchanged_after_forbidden_metadata_perturbation": true,
+        "firewall_valid": true,
+        "forbidden_direct_field_rejected": true,
+        "forbidden_interface_terms_found": [],
+        "source_scan_passed": true
+      },
+      {
+        "architecture_config": {
+          "color_count": 9,
+          "decoder_layers": 3,
+          "dropout": 0.0,
+          "encoder_layers": 0,
+          "grid_size": 7,
+          "hidden_size": 136,
+          "mlp_ratio": 4,
+          "num_heads": 1,
+          "output_cell_count": 49,
+          "support_pairs": 3,
+          "variant_name": "shared_matched"
+        },
+        "candidate_id": "h136_enc0_dec3_heads1_mlp4",
+        "constructed_input_tensors_unchanged_after_forbidden_metadata_perturbation": true,
+        "eval_mode_logits_unchanged_after_forbidden_metadata_perturbation": true,
+        "firewall_valid": true,
+        "forbidden_direct_field_rejected": true,
+        "forbidden_interface_terms_found": [],
+        "source_scan_passed": true
+      },
+      {
+        "architecture_config": {
+          "color_count": 9,
+          "decoder_layers": 1,
+          "dropout": 0.0,
+          "encoder_layers": 0,
+          "grid_size": 7,
+          "hidden_size": 2,
+          "mlp_ratio": 2,
+          "num_heads": 1,
+          "output_cell_count": 49,
+          "support_pairs": 3,
+          "variant_name": "shared_small"
+        },
+        "candidate_id": "h002_enc0_dec1_heads1_mlp2",
+        "constructed_input_tensors_unchanged_after_forbidden_metadata_perturbation": true,
+        "eval_mode_logits_unchanged_after_forbidden_metadata_perturbation": true,
+        "firewall_valid": true,
+        "forbidden_direct_field_rejected": true,
+        "forbidden_interface_terms_found": [],
+        "source_scan_passed": true
+      },
+      {
+        "architecture_config": {
+          "color_count": 9,
+          "decoder_layers": 3,
+          "dropout": 0.0,
+          "encoder_layers": 0,
+          "grid_size": 7,
+          "hidden_size": 160,
+          "mlp_ratio": 4,
+          "num_heads": 8,
+          "output_cell_count": 49,
+          "support_pairs": 3,
+          "variant_name": "shared_large"
+        },
+        "candidate_id": "h160_enc0_dec3_heads8_mlp4",
+        "constructed_input_tensors_unchanged_after_forbidden_metadata_perturbation": true,
+        "eval_mode_logits_unchanged_after_forbidden_metadata_perturbation": true,
+        "firewall_valid": true,
+        "forbidden_direct_field_rejected": true,
+        "forbidden_interface_terms_found": [],
+        "source_scan_passed": true
+      },
+      {
+        "architecture_config": {
+          "color_count": 9,
+          "decoder_layers": 2,
+          "dropout": 0.0,
+          "encoder_layers": 0,
+          "grid_size": 7,
+          "hidden_size": 96,
+          "mlp_ratio": 4,
+          "num_heads": 4,
+          "output_cell_count": 49,
+          "support_pairs": 3,
+          "variant_name": "shared_matched"
+        },
+        "candidate_id": "h096_enc0_dec2_heads4_mlp4",
+        "constructed_input_tensors_unchanged_after_forbidden_metadata_perturbation": true,
+        "eval_mode_logits_unchanged_after_forbidden_metadata_perturbation": true,
+        "firewall_valid": true,
+        "forbidden_direct_field_rejected": true,
+        "forbidden_interface_terms_found": [],
+        "source_scan_passed": true
+      },
+      {
+        "architecture_config": {
+          "color_count": 9,
+          "decoder_layers": 1,
+          "dropout": 0.0,
+          "encoder_layers": 0,
+          "grid_size": 7,
+          "hidden_size": 8,
+          "mlp_ratio": 2,
+          "num_heads": 1,
+          "output_cell_count": 49,
+          "support_pairs": 3,
+          "variant_name": "shared_small"
+        },
+        "candidate_id": "h008_enc0_dec1_heads1_mlp2",
+        "constructed_input_tensors_unchanged_after_forbidden_metadata_perturbation": true,
+        "eval_mode_logits_unchanged_after_forbidden_metadata_perturbation": true,
+        "firewall_valid": true,
+        "forbidden_direct_field_rejected": true,
+        "forbidden_interface_terms_found": [],
+        "source_scan_passed": true
+      }
+    ],
+    "search_introduced_new_semantic_mechanism": false,
+    "source_scan": {
+      "forbidden_terms_found": [],
+      "passed": true,
+      "scanned_objects": {
+        "GenericSharedRenderer.encode_memory": "25536b20832bb965180a74ff2526e870ab747ea7e11a3a0bf4c98c035c1ca32f",
+        "GenericSharedRenderer.forward": "430ac8ce27c150992487b994c5c54457d85baf9365ee60351569eb6245bbaece",
+        "pack_shared_input_from_records": "b16073d16de5ae1c6b921df1f3ed4d65ce75374f357f7554bfda87f82f5f3cbf"
+      }
+    }
+  },
+  "frozen_context": {
+    "pre_registered_thresholds_unchanged": {
+      "equivalence_margin": {
+        "absolute_exact_gap_vs_v2_max": 0.01,
+        "comparison_metric": "sealed held-out mixed macro exact",
+        "justification": "A 0.01 margin is roughly 58 held-out mixed examples, much larger than exact-metric granularity while still strict for this synthetic deterministic benchmark.",
+        "must_hold_for": "at least one train-adequate shared variant across all three shared seeds"
+      },
+      "material_capacity_difference": {
+        "failure_outcome": "CAPACITY_SENSITIVE_OR_INCONCLUSIVE",
+        "justification": "A material matched-vs-large gap indicates capacity sensitivity rather than a clean factorization or non-factorization result.",
+        "shared_large_minus_shared_matched_mean_heldout_mixed_exact_abs_min": 0.02
+      },
+      "practically_meaningful_heldout_mixed_effect_floor": {
+        "absolute_exact_gap_vs_v2_min": 0.03,
+        "comparison_metric": "sealed held-out mixed macro exact",
+        "justification": "Held-out mixed has 5,760 sealed examples across four classes, granularity about 1.74e-4. A 0.03 floor is roughly 173 held-out examples, far above metric granularity and deterministic evaluation noise.",
+        "must_hold_for": "both shared_matched and shared_large, all three shared seeds, after train-fit adequacy passes"
+      },
+      "seed_consistency_criterion": {
+        "condition_must_hold": "for any practical-advantage or equivalence interpretation",
+        "failure_outcome": "CAPACITY_SENSITIVE_OR_INCONCLUSIVE",
+        "justification": "A 0.02 seed spread is roughly 115 held-out mixed examples, larger than deterministic metric granularity. Larger seed sensitivity prevents collapsing the result into either a modularity or monolithic conclusion.",
+        "within_variant_max_minus_min_heldout_mixed_exact_max": 0.02
+      },
+      "train_fit_adequacy_gate": {
+        "applies_to": "each shared variant and each seed before interpreting held-out mixed results",
+        "failure_outcome": "CONTROL_UNDERFIT_OR_INVALID",
+        "justification": "The training split has 43,200 visible examples, so overall exact granularity is about 2.31e-5. Each visible operation has 4,800 train examples, granularity about 2.08e-4. The gate allows small optimization imperfections while excluding controls that have not learned the visible grammar well enough for held-out failure to be interpretable.",
+        "requirements": {
+          "each_train_visible_operation_exact_min": 0.99,
+          "train_visible_overall_exact_min": 0.995,
+          "train_visible_seen_mixed_macro_exact_min": 0.995
+        }
+      }
+    },
+    "preflight_report_path": "/mnt/d/VRM/artifacts/transport_recolor_r5a1a_preflight/preflight_report.json",
+    "preflight_status": "R5A1A_PREFLIGHT_INCONCLUSIVE",
+    "preregistration_report_path": "/mnt/d/VRM/artifacts/transport_recolor_r5a0_v2/r5a1a_preregistration_report.json"
+  },
+  "hard_gates": {
+    "all_validated_parameter_formulas_match_instantiated_model": true,
+    "canonical_batch_hash_reused": true,
+    "exhaustive_valid_candidate_count_matches_declared_domain": true,
+    "information_firewall_passed_for_selected_configs": true,
+    "no_dummy_or_unreachable_parameter_groups": true,
+    "no_training_checkpoint_or_sealed_eval_artifact": true,
+    "protected_hashes_unchanged_during_report_build": true,
+    "semantic_interface_source_scan_passed": true,
+    "v2_parameter_and_flop_reference_reused": true
+  },
+  "jointly_feasible_candidates": [],
+  "nearest_candidates": {
+    "nearest_flop_matched": {
+      "activation_proxy_bytes": 33936,
+      "architecture_config": {
+        "color_count": 9,
+        "decoder_layers": 1,
+        "dropout": 0.0,
+        "encoder_layers": 1,
+        "grid_size": 7,
+        "hidden_size": 2,
+        "mlp_ratio": 6,
+        "num_heads": 1,
+        "output_cell_count": 49,
+        "support_pairs": 3,
+        "variant_name": "candidate"
+      },
+      "candidate_id": "h002_enc1_dec1_heads1_mlp6",
+      "flop_ratio_to_v2": 1.0946020470159368,
+      "forward_flops_per_valid_output_cell": 4779.836734693878,
+      "jointly_feasible": false,
+      "normalized_joint_distance": 10.01457653475526,
+      "parameter_ratio_to_v2": 0.0005302129993600878,
+      "total_analytic_forward_flops": 936848,
+      "total_trainable_parameters": 667,
+      "within_flop_tolerance": true,
+      "within_parameter_tolerance": false
+    },
+    "nearest_joint": {
+      "activation_proxy_bytes": 44912,
+      "architecture_config": {
+        "color_count": 9,
+        "decoder_layers": 1,
+        "dropout": 0.0,
+        "encoder_layers": 2,
+        "grid_size": 7,
+        "hidden_size": 2,
+        "mlp_ratio": 3,
+        "num_heads": 1,
+        "output_cell_count": 49,
+        "support_pairs": 3,
+        "variant_name": "candidate"
+      },
+      "candidate_id": "h002_enc2_dec1_heads1_mlp3",
+      "flop_ratio_to_v2": 1.0057671636210683,
+      "forward_flops_per_valid_output_cell": 4391.918367346939,
+      "jointly_feasible": false,
+      "normalized_joint_distance": 9.996011889650408,
+      "parameter_ratio_to_v2": 0.0004062051614287929,
+      "total_analytic_forward_flops": 860816,
+      "total_trainable_parameters": 511,
+      "within_flop_tolerance": true,
+      "within_parameter_tolerance": false
+    },
+    "nearest_parameter_matched": {
+      "activation_proxy_bytes": 1043728,
+      "architecture_config": {
+        "color_count": 9,
+        "decoder_layers": 3,
+        "dropout": 0.0,
+        "encoder_layers": 0,
+        "grid_size": 7,
+        "hidden_size": 120,
+        "mlp_ratio": 6,
+        "num_heads": 1,
+        "output_cell_count": 49,
+        "support_pairs": 3,
+        "variant_name": "candidate"
+      },
+      "candidate_id": "h120_enc0_dec3_heads1_mlp6",
+      "flop_ratio_to_v2": 1317.8217507127167,
+      "forward_flops_per_valid_output_cell": 5754577.959183673,
+      "jointly_feasible": false,
+      "normalized_joint_distance": 8778.811710466398,
+      "parameter_ratio_to_v2": 0.917199330675644,
+      "total_analytic_forward_flops": 1127897280,
+      "total_trainable_parameters": 1153823,
+      "within_flop_tolerance": false,
+      "within_parameter_tolerance": true
+    }
+  },
+  "no_dummy_capacity_findings": {
+    "all_trainable_groups_reachable_or_explained_for_all_candidates": true,
+    "dummy_or_unreachable_parameter_groups_found": false,
+    "inactive_lookup_rows_are_reported_separately": true,
+    "parameter_formula_validation": [
+      {
+        "analytic_embedding_parameters": 9600,
+        "analytic_trainable_parameters": 1153823,
+        "candidate_id": "h120_enc0_dec3_heads1_mlp6",
+        "instantiated_embedding_parameters": 9600,
+        "instantiated_trainable_parameters": 1153823,
+        "matches_instantiated_model": true
+      },
+      {
+        "analytic_embedding_parameters": 160,
+        "analytic_trainable_parameters": 667,
+        "candidate_id": "h002_enc1_dec1_heads1_mlp6",
+        "instantiated_embedding_parameters": 160,
+        "instantiated_trainable_parameters": 667,
+        "matches_instantiated_model": true
+      },
+      {
+        "analytic_embedding_parameters": 160,
+        "analytic_trainable_parameters": 511,
+        "candidate_id": "h002_enc2_dec1_heads1_mlp3",
+        "instantiated_embedding_parameters": 160,
+        "instantiated_trainable_parameters": 511,
+        "matches_instantiated_model": true
+      },
+      {
+        "analytic_embedding_parameters": 15360,
+        "analytic_trainable_parameters": 2549783,
+        "candidate_id": "h192_enc1_dec3_heads1_mlp4",
+        "instantiated_embedding_parameters": 15360,
+        "instantiated_trainable_parameters": 2549783,
+        "matches_instantiated_model": true
+      },
+      {
+        "analytic_embedding_parameters": 10880,
+        "analytic_trainable_parameters": 1139295,
+        "candidate_id": "h136_enc0_dec3_heads1_mlp4",
+        "instantiated_embedding_parameters": 10880,
+        "instantiated_trainable_parameters": 1139295,
+        "matches_instantiated_model": true
+      },
+      {
+        "analytic_embedding_parameters": 160,
+        "analytic_trainable_parameters": 385,
+        "candidate_id": "h002_enc0_dec1_heads1_mlp2",
+        "instantiated_embedding_parameters": 160,
+        "instantiated_trainable_parameters": 385,
+        "matches_instantiated_model": true
+      },
+      {
+        "analytic_embedding_parameters": 12800,
+        "analytic_trainable_parameters": 1570743,
+        "candidate_id": "h160_enc0_dec3_heads8_mlp4",
+        "instantiated_embedding_parameters": 12800,
+        "instantiated_trainable_parameters": 1570743,
+        "matches_instantiated_model": true
+      },
+      {
+        "analytic_embedding_parameters": 7680,
+        "analytic_trainable_parameters": 424535,
+        "candidate_id": "h096_enc0_dec2_heads4_mlp4",
+        "instantiated_embedding_parameters": 7680,
+        "instantiated_trainable_parameters": 424535,
+        "matches_instantiated_model": true
+      },
+      {
+        "analytic_embedding_parameters": 640,
+        "analytic_trainable_parameters": 2335,
+        "candidate_id": "h008_enc0_dec1_heads1_mlp2",
+        "instantiated_embedding_parameters": 640,
+        "instantiated_trainable_parameters": 2335,
+        "matches_instantiated_model": true
+      }
+    ]
+  },
+  "pareto_frontier_summary": {
+    "nearest_joint_candidate_boundary_report": {
+      "assessment": "Nearest candidates need many more parameters without the coupled FLOP increase, or many fewer FLOPs without reducing parameters; expanding existing neutral capacity knobs monotonically increases or preserves the mismatch under this accounting.",
+      "boundaries": [
+        "hidden_width_min",
+        "encoder_layers_max",
+        "decoder_layers_min",
+        "attention_heads_min_valid"
+      ],
+      "candidate_id": "h002_enc2_dec1_heads1_mlp3",
+      "lies_on_any_search_domain_boundary": true,
+      "plausibly_enter_rectangle_by_expanding_existing_neutral_knob": false
+    },
+    "nearest_pareto_candidate_boundary_report": {
+      "assessment": "Nearest candidates need many more parameters without the coupled FLOP increase, or many fewer FLOPs without reducing parameters; expanding existing neutral capacity knobs monotonically increases or preserves the mismatch under this accounting.",
+      "boundaries": [
+        "hidden_width_min",
+        "encoder_layers_max",
+        "decoder_layers_min",
+        "attention_heads_min_valid"
+      ],
+      "candidate_id": "h002_enc2_dec1_heads1_mlp3",
+      "lies_on_any_search_domain_boundary": true,
+      "plausibly_enter_rectangle_by_expanding_existing_neutral_knob": false
+    },
+    "pareto_frontier_count": 438
+  },
+  "protected_hashes_after": {
+    "/mnt/d/VRM/artifacts/transport_recolor_r5a0_v2/r5a1a_preregistration_report.json": "a342beaaec45de5cda4159bd8ad21cf54803366f78f5f70662ff4c253b4f2584",
+    "/mnt/d/VRM/artifacts/transport_recolor_r5a1a_preflight/preflight_report.json": "2471f97faa2a0f9e90e294b3d43b27ccc1f71d70fb519de9c2848d0dd0e17585",
+    "/mnt/d/VRM/docs/TRANSPORT_RECOLOR_R5A0V2.md": "715909827c421dbcfa81ab485b231813f200fec149c98edfd4ae3b5d5fdf5800",
+    "/mnt/d/VRM/docs/TRANSPORT_RECOLOR_R5A0V2_ORDER_AUDIT.md": "f8803512704386086fd37600ad1c7ffc0220ca0b15066ef6ae3b1f493ec6531c",
+    "/mnt/d/VRM/docs/TRANSPORT_RECOLOR_R5A1A_PREFLIGHT.md": "e07e93d68d70232e1a27c296b7e2bba4debea23f2ae89ddd5b1b1dba691af6ae",
+    "/mnt/d/VRM/docs/TRANSPORT_RECOLOR_R5A1A_PREREGISTRATION.md": "1eddedd2994d4f09ae1a89fb3079dafe6757e285b1619126c350bb266ee6ab9b",
+    "/mnt/d/VRM/tests/test_transport_recolor_r5a0v2.py": "7e342221e22e9cbfe6517e7e0b1b99125cff102138fd8272b74c0a228680b9f3",
+    "/mnt/d/VRM/tests/test_transport_recolor_r5a0v2_order_audit.py": "08772f26bc0ea7347a27a3cddf5b9805755068fb01ae2483164ad09430c472e5",
+    "/mnt/d/VRM/tests/test_transport_recolor_r5a1_preflight.py": "cb0d7f84bc68d1aa6097ae7e75e4fd4451c9e2a6de6e701e62368d1a7e0ecc81",
+    "/mnt/d/VRM/tests/test_transport_recolor_r5a1a_preregistration.py": "4bc35b64c859ef41751afce497bd2e2014bb49148ec0863ae9fbd12521a92ba4",
+    "/mnt/d/VRM/vrm/twin_tasks/run_transport_recolor_r5a0v2.py": "46bef01b4f545c36df8ede5087269515fd80377f2540f9a382bf5c8bd71ebf39",
+    "/mnt/d/VRM/vrm/twin_tasks/transport_recolor_r5a0v2_data.py": "8ba05be9b30f10eeaf17ec368a5b6482f28e769e8f81098a082cd581e8488279",
+    "/mnt/d/VRM/vrm/twin_tasks/transport_recolor_r5a0v2_model.py": "1ba3582f80fbf59b3eab142dde4d651e92e761ccb4c907835a421b1e13bc473e",
+    "/mnt/d/VRM/vrm/twin_tasks/transport_recolor_r5a0v2_oracles.py": "2e427a417e31e88ba6106a23d42e964989508d003677bc6a400c0a7730293de4",
+    "/mnt/d/VRM/vrm/twin_tasks/transport_recolor_r5a0v2_order_audit.py": "93a27725eb63ce2233ccbe583f26d9b1cce875a22cceb31355087f0b36d52aec",
+    "/mnt/d/VRM/vrm/twin_tasks/transport_recolor_r5a1_preflight.py": "a11c163ad8386b27713c44d94c145d4cc6d8dbd63264a92c0a0e3bfd743a0767",
+    "/mnt/d/VRM/vrm/twin_tasks/transport_recolor_r5a1_shared_renderer.py": "9b0862f832c82fe9c2d91807b4e53bce3c3b50379b74f4c4b94573120bcef0b1",
+    "/mnt/d/VRM/vrm/twin_tasks/transport_recolor_r5a1a_preregistration.py": "0626d5bb0ccaf40809f931cad925ddbf018e94037a32aee51188435b6775d38c"
+  },
+  "protected_hashes_before": {
+    "/mnt/d/VRM/artifacts/transport_recolor_r5a0_v2/r5a1a_preregistration_report.json": "a342beaaec45de5cda4159bd8ad21cf54803366f78f5f70662ff4c253b4f2584",
+    "/mnt/d/VRM/artifacts/transport_recolor_r5a1a_preflight/preflight_report.json": "2471f97faa2a0f9e90e294b3d43b27ccc1f71d70fb519de9c2848d0dd0e17585",
+    "/mnt/d/VRM/docs/TRANSPORT_RECOLOR_R5A0V2.md": "715909827c421dbcfa81ab485b231813f200fec149c98edfd4ae3b5d5fdf5800",
+    "/mnt/d/VRM/docs/TRANSPORT_RECOLOR_R5A0V2_ORDER_AUDIT.md": "f8803512704386086fd37600ad1c7ffc0220ca0b15066ef6ae3b1f493ec6531c",
+    "/mnt/d/VRM/docs/TRANSPORT_RECOLOR_R5A1A_PREFLIGHT.md": "e07e93d68d70232e1a27c296b7e2bba4debea23f2ae89ddd5b1b1dba691af6ae",
+    "/mnt/d/VRM/docs/TRANSPORT_RECOLOR_R5A1A_PREREGISTRATION.md": "1eddedd2994d4f09ae1a89fb3079dafe6757e285b1619126c350bb266ee6ab9b",
+    "/mnt/d/VRM/tests/test_transport_recolor_r5a0v2.py": "7e342221e22e9cbfe6517e7e0b1b99125cff102138fd8272b74c0a228680b9f3",
+    "/mnt/d/VRM/tests/test_transport_recolor_r5a0v2_order_audit.py": "08772f26bc0ea7347a27a3cddf5b9805755068fb01ae2483164ad09430c472e5",
+    "/mnt/d/VRM/tests/test_transport_recolor_r5a1_preflight.py": "cb0d7f84bc68d1aa6097ae7e75e4fd4451c9e2a6de6e701e62368d1a7e0ecc81",
+    "/mnt/d/VRM/tests/test_transport_recolor_r5a1a_preregistration.py": "4bc35b64c859ef41751afce497bd2e2014bb49148ec0863ae9fbd12521a92ba4",
+    "/mnt/d/VRM/vrm/twin_tasks/run_transport_recolor_r5a0v2.py": "46bef01b4f545c36df8ede5087269515fd80377f2540f9a382bf5c8bd71ebf39",
+    "/mnt/d/VRM/vrm/twin_tasks/transport_recolor_r5a0v2_data.py": "8ba05be9b30f10eeaf17ec368a5b6482f28e769e8f81098a082cd581e8488279",
+    "/mnt/d/VRM/vrm/twin_tasks/transport_recolor_r5a0v2_model.py": "1ba3582f80fbf59b3eab142dde4d651e92e761ccb4c907835a421b1e13bc473e",
+    "/mnt/d/VRM/vrm/twin_tasks/transport_recolor_r5a0v2_oracles.py": "2e427a417e31e88ba6106a23d42e964989508d003677bc6a400c0a7730293de4",
+    "/mnt/d/VRM/vrm/twin_tasks/transport_recolor_r5a0v2_order_audit.py": "93a27725eb63ce2233ccbe583f26d9b1cce875a22cceb31355087f0b36d52aec",
+    "/mnt/d/VRM/vrm/twin_tasks/transport_recolor_r5a1_preflight.py": "a11c163ad8386b27713c44d94c145d4cc6d8dbd63264a92c0a0e3bfd743a0767",
+    "/mnt/d/VRM/vrm/twin_tasks/transport_recolor_r5a1_shared_renderer.py": "9b0862f832c82fe9c2d91807b4e53bce3c3b50379b74f4c4b94573120bcef0b1",
+    "/mnt/d/VRM/vrm/twin_tasks/transport_recolor_r5a1a_preregistration.py": "0626d5bb0ccaf40809f931cad925ddbf018e94037a32aee51188435b6775d38c"
+  },
+  "pytest_result": {
+    "passed": true,
+    "path": "artifacts/transport_recolor_r5a1a_matchability_audit/pytest_result.txt",
+    "provided": true,
+    "sha256": "c2b665635da7e762b1631c4f0fdcfaa896186103cb29e073886d0ad706e0d5e8",
+    "summary": "304 passed, 9 warnings in 564.04s (0:09:24)"
+  },
+  "report_body_sha256_excluding_timestamp": "0a0fe4ab480e10ba10b33c2a043882e880a66823ca0fa1dfbc6a95c0acded273",
+  "search_domain_hashes": {
+    "candidate_ledger_body_sha256": "5c0035ab65c9fdf44621101eb3734a9a77e6d69a3ddc00c28301b5cc3c077d56",
+    "pareto_frontier_body_sha256": "4a34c7d94f3ceab2661d40b282d961e4d2d126b45e9ff4fdd98bd14a5f84c927",
+    "search_domain_body_sha256": "5cbe6a3dd78a308e7f8d00d28f1db0b7be779dc046d0f788011fa7764f928f57"
+  },
+  "search_summary": {
+    "feasible_rectangle_contains_candidate": false,
+    "invalid_reasons": {
+      "num_heads must divide hidden_size": 120
+    },
+    "mismatch_patterns": {
+      "flop_matched_but_parameter_mismatched": 24,
+      "jointly_feasible": 0,
+      "outside_rectangle_other": 0,
+      "parameter_matched_but_flop_mismatched": 476,
+      "too_few_parameters_and_too_few_flops": 2,
+      "too_few_parameters_but_too_many_flops": 3830,
+      "too_many_parameters_and_too_many_flops": 2988,
+      "too_many_parameters_but_too_few_flops": 0
+    },
+    "total_declared_cartesian_combinations": 7440,
+    "total_invalid_candidates": 120,
+    "total_jointly_feasible_candidates": 0,
+    "total_valid_candidates": 7320
+  },
+  "status": "R5A1A_MATCHABILITY_CURRENT_FAMILY_INSUFFICIENT",
+  "v2_reference": {
+    "flops": {
+      "decoder_forward_flops": 172872,
+      "encoder_forward_flops": 683008,
+      "notes": [
+        "R5A-0 V2 uses explicit score comparisons, argmax, predicate logic, softmax, and indexing; these are excluded or separately reported under the same convention.",
+        "Only linear/matmul/einsum arithmetic is counted in the main FLOP total."
+      ],
+      "output_size_branch_forward_flops": 0,
+      "per_valid_output_cell_forward_flops": 4366.734693877551,
+      "total_forward_flops": 855880
+    },
+    "flops_from_preflight_report": {
+      "decoder_forward_flops": 172872,
+      "encoder_forward_flops": 683008,
+      "notes": [
+        "R5A-0 V2 uses explicit score comparisons, argmax, predicate logic, softmax, and indexing; these are excluded or separately reported under the same convention.",
+        "Only linear/matmul/einsum arithmetic is counted in the main FLOP total."
+      ],
+      "output_size_branch_forward_flops": 0,
+      "per_valid_output_cell_forward_flops": 4366.734693877551,
+      "total_forward_flops": 855880
+    },
+    "trainable_parameters": 1257985,
+    "trainable_parameters_from_preflight_report": 1257985
+  },
+  "verdict_reasons": [
+    "no jointly matched candidate was found within the fully enumerated declared finite search domain of the current generic shared-renderer family, under the frozen canonical batch and analytic accounting convention",
+    "nearest relevant Pareto candidates are not merely blocked by an obvious unsearched boundary extension"
+  ]
+}

@@ -1,0 +1,159 @@
+{
+  "problem": {
+    "test": [
+      {
+        "input": [
+          [
+            0,
+            2,
+            1
+          ],
+          [
+            1,
+            0,
+            2
+          ],
+          [
+            2,
+            1,
+            0
+          ]
+        ]
+      }
+    ],
+    "train": [
+      {
+        "input": [
+          [
+            0,
+            1,
+            2
+          ],
+          [
+            1,
+            2,
+            0
+          ],
+          [
+            2,
+            0,
+            1
+          ]
+        ],
+        "output": [
+          [
+            1,
+            2,
+            0
+          ],
+          [
+            2,
+            0,
+            1
+          ],
+          [
+            0,
+            1,
+            2
+          ]
+        ]
+      },
+      {
+        "input": [
+          [
+            2,
+            0,
+            1
+          ],
+          [
+            0,
+            1,
+            2
+          ],
+          [
+            1,
+            2,
+            0
+          ]
+        ],
+        "output": [
+          [
+            0,
+            1,
+            2
+          ],
+          [
+            1,
+            2,
+            0
+          ],
+          [
+            2,
+            0,
+            1
+          ]
+        ]
+      },
+      {
+        "input": [
+          [
+            1,
+            2,
+            0
+          ],
+          [
+            2,
+            0,
+            1
+          ],
+          [
+            0,
+            1,
+            2
+          ]
+        ],
+        "output": [
+          [
+            2,
+            0,
+            1
+          ],
+          [
+            0,
+            1,
+            2
+          ],
+          [
+            1,
+            2,
+            0
+          ]
+        ]
+      }
+    ]
+  },
+  "requirements": {
+    "hidden_test_output": true,
+    "known_grid_shape": [
+      3,
+      3
+    ],
+    "same_active_non_black_raw_color_set": [
+      1,
+      2
+    ],
+    "test_query_inputs": 1,
+    "train_support_pairs": 3
+  },
+  "task_id": "synthetic_uniform_shape_oracle",
+  "transpositions": [
+    [
+      0,
+      1
+    ],
+    [
+      1,
+      2
+    ]
+  ]
+}

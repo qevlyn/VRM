@@ -1,0 +1,418 @@
+{
+  "conditions": {
+    "ALL_PAIR_PERMUTATIONS": {
+      "all_permutation_same_final_grid_rate": 1.0,
+      "max_abs_output_probability_difference_after_logical_unpermute": 1.1920928955078125e-07,
+      "max_abs_pointer_attention_difference_after_logical_unpermute": 1.1920928955078125e-07,
+      "max_abs_task_context_difference_after_logical_unpermute": 3.5762786865234375e-07,
+      "permutation_presentation_count": 54000
+    },
+    "DERANGED_PAIRING_ABLATION": {
+      "deranged_exact_accuracy": 0.0,
+      "episode_count": 18000,
+      "normal_to_deranged_grid_change_rate": 1.0,
+      "normal_to_deranged_pointer_change_rate": 1.0,
+      "per_shift": {
+        "1": {
+          "deranged_exact_accuracy": 0.0,
+          "normal_to_deranged_grid_change_rate": 1.0,
+          "normal_to_deranged_pointer_change_rate": 1.0
+        },
+        "2": {
+          "deranged_exact_accuracy": 0.0,
+          "normal_to_deranged_grid_change_rate": 1.0,
+          "normal_to_deranged_pointer_change_rate": 1.0
+        }
+      }
+    },
+    "NORMAL": {
+      "by_transform": {
+        "HFLIP": {
+          "all_cell_color_accuracy": 1.0,
+          "direct_grid_exact_accuracy": 1.0,
+          "episode_count": 3000,
+          "foreground_color_accuracy": 1.0,
+          "mean_max_pointer_probability": 0.999958854218324,
+          "mean_pointer_entropy": 0.000516970817387725,
+          "source_position_accuracy": 1.0,
+          "target_rectangle_hamming_error": 0.0
+        },
+        "ROT180": {
+          "all_cell_color_accuracy": 1.0,
+          "direct_grid_exact_accuracy": 1.0,
+          "episode_count": 3000,
+          "foreground_color_accuracy": 1.0,
+          "mean_max_pointer_probability": 0.999951092839241,
+          "mean_pointer_entropy": 0.0006015845936102171,
+          "source_position_accuracy": 1.0,
+          "target_rectangle_hamming_error": 0.0
+        },
+        "VFLIP": {
+          "all_cell_color_accuracy": 1.0,
+          "direct_grid_exact_accuracy": 1.0,
+          "episode_count": 3000,
+          "foreground_color_accuracy": 1.0,
+          "mean_max_pointer_probability": 0.9999556655685107,
+          "mean_pointer_entropy": 0.0005635657480064158,
+          "source_position_accuracy": 1.0,
+          "target_rectangle_hamming_error": 0.0
+        }
+      },
+      "heldout_query_type_report": {
+        "aggregate_direct_grid_exact_accuracy": 1.0,
+        "all_query_types_have_all_transforms": true,
+        "query_type_count": 30,
+        "rows": [
+          {
+            "all_three_transforms_present": true,
+            "direct_grid_exact_accuracy": 1.0,
+            "episode_count": 300,
+            "query_type_key": "marker_0|color=1|anchor=lower_right|distractors=2",
+            "transforms": [
+              "HFLIP",
+              "ROT180",
+              "VFLIP"
+            ]
+          },
+          {
+            "all_three_transforms_present": true,
+            "direct_grid_exact_accuracy": 1.0,
+            "episode_count": 300,
+            "query_type_key": "marker_0|color=1|anchor=upper_left|distractors=0",
+            "transforms": [
+              "HFLIP",
+              "ROT180",
+              "VFLIP"
+            ]
+          },
+          {
+            "all_three_transforms_present": true,
+            "direct_grid_exact_accuracy": 1.0,
+            "episode_count": 300,
+            "query_type_key": "marker_0|color=1|anchor=upper_right|distractors=1",
+            "transforms": [
+              "HFLIP",
+              "ROT180",
+              "VFLIP"
+            ]
+          },
+          {
+            "all_three_transforms_present": true,
+            "direct_grid_exact_accuracy": 1.0,
+            "episode_count": 300,
+            "query_type_key": "marker_0|color=2|anchor=lower_left|distractors=0",
+            "transforms": [
+              "HFLIP",
+              "ROT180",
+              "VFLIP"
+            ]
+          },
+          {
+            "all_three_transforms_present": true,
+            "direct_grid_exact_accuracy": 1.0,
+            "episode_count": 300,
+            "query_type_key": "marker_0|color=2|anchor=lower_left|distractors=2",
+            "transforms": [
+              "HFLIP",
+              "ROT180",
+              "VFLIP"
+            ]
+          },
+          {
+            "all_three_transforms_present": true,
+            "direct_grid_exact_accuracy": 1.0,
+            "episode_count": 300,
+            "query_type_key": "marker_0|color=3|anchor=lower_right|distractors=2",
+            "transforms": [
+              "HFLIP",
+              "ROT180",
+              "VFLIP"
+            ]
+          },
+          {
+            "all_three_transforms_present": true,
+            "direct_grid_exact_accuracy": 1.0,
+            "episode_count": 300,
+            "query_type_key": "marker_0|color=3|anchor=upper_left|distractors=0",
+            "transforms": [
+              "HFLIP",
+              "ROT180",
+              "VFLIP"
+            ]
+          },
+          {
+            "all_three_transforms_present": true,
+            "direct_grid_exact_accuracy": 1.0,
+            "episode_count": 300,
+            "query_type_key": "marker_0|color=3|anchor=upper_right|distractors=1",
+            "transforms": [
+              "HFLIP",
+              "ROT180",
+              "VFLIP"
+            ]
+          },
+          {
+            "all_three_transforms_present": true,
+            "direct_grid_exact_accuracy": 1.0,
+            "episode_count": 300,
+            "query_type_key": "marker_0|color=4|anchor=lower_right|distractors=1",
+            "transforms": [
+              "HFLIP",
+              "ROT180",
+              "VFLIP"
+            ]
+          },
+          {
+            "all_three_transforms_present": true,
+            "direct_grid_exact_accuracy": 1.0,
+            "episode_count": 300,
+            "query_type_key": "marker_0|color=4|anchor=upper_right|distractors=2",
+            "transforms": [
+              "HFLIP",
+              "ROT180",
+              "VFLIP"
+            ]
+          },
+          {
+            "all_three_transforms_present": true,
+            "direct_grid_exact_accuracy": 1.0,
+            "episode_count": 300,
+            "query_type_key": "marker_1|color=1|anchor=lower_left|distractors=1",
+            "transforms": [
+              "HFLIP",
+              "ROT180",
+              "VFLIP"
+            ]
+          },
+          {
+            "all_three_transforms_present": true,
+            "direct_grid_exact_accuracy": 1.0,
+            "episode_count": 300,
+            "query_type_key": "marker_1|color=1|anchor=lower_right|distractors=1",
+            "transforms": [
+              "HFLIP",
+              "ROT180",
+              "VFLIP"
+            ]
+          },
+          {
+            "all_three_transforms_present": true,
+            "direct_grid_exact_accuracy": 1.0,
+            "episode_count": 300,
+            "query_type_key": "marker_1|color=1|anchor=upper_right|distractors=2",
+            "transforms": [
+              "HFLIP",
+              "ROT180",
+              "VFLIP"
+            ]
+          },
+          {
+            "all_three_transforms_present": true,
+            "direct_grid_exact_accuracy": 1.0,
+            "episode_count": 300,
+            "query_type_key": "marker_1|color=2|anchor=lower_left|distractors=1",
+            "transforms": [
+              "HFLIP",
+              "ROT180",
+              "VFLIP"
+            ]
+          },
+          {
+            "all_three_transforms_present": true,
+            "direct_grid_exact_accuracy": 1.0,
+            "episode_count": 300,
+            "query_type_key": "marker_1|color=2|anchor=lower_left|distractors=2",
+            "transforms": [
+              "HFLIP",
+              "ROT180",
+              "VFLIP"
+            ]
+          },
+          {
+            "all_three_transforms_present": true,
+            "direct_grid_exact_accuracy": 1.0,
+            "episode_count": 300,
+            "query_type_key": "marker_1|color=2|anchor=upper_left|distractors=2",
+            "transforms": [
+              "HFLIP",
+              "ROT180",
+              "VFLIP"
+            ]
+          },
+          {
+            "all_three_transforms_present": true,
+            "direct_grid_exact_accuracy": 1.0,
+            "episode_count": 300,
+            "query_type_key": "marker_1|color=3|anchor=lower_left|distractors=2",
+            "transforms": [
+              "HFLIP",
+              "ROT180",
+              "VFLIP"
+            ]
+          },
+          {
+            "all_three_transforms_present": true,
+            "direct_grid_exact_accuracy": 1.0,
+            "episode_count": 300,
+            "query_type_key": "marker_2|color=2|anchor=lower_right|distractors=2",
+            "transforms": [
+              "HFLIP",
+              "ROT180",
+              "VFLIP"
+            ]
+          },
+          {
+            "all_three_transforms_present": true,
+            "direct_grid_exact_accuracy": 1.0,
+            "episode_count": 300,
+            "query_type_key": "marker_2|color=2|anchor=upper_left|distractors=2",
+            "transforms": [
+              "HFLIP",
+              "ROT180",
+              "VFLIP"
+            ]
+          },
+          {
+            "all_three_transforms_present": true,
+            "direct_grid_exact_accuracy": 1.0,
+            "episode_count": 300,
+            "query_type_key": "marker_2|color=3|anchor=lower_left|distractors=0",
+            "transforms": [
+              "HFLIP",
+              "ROT180",
+              "VFLIP"
+            ]
+          },
+          {
+            "all_three_transforms_present": true,
+            "direct_grid_exact_accuracy": 1.0,
+            "episode_count": 300,
+            "query_type_key": "marker_2|color=3|anchor=upper_left|distractors=0",
+            "transforms": [
+              "HFLIP",
+              "ROT180",
+              "VFLIP"
+            ]
+          },
+          {
+            "all_three_transforms_present": true,
+            "direct_grid_exact_accuracy": 1.0,
+            "episode_count": 300,
+            "query_type_key": "marker_2|color=4|anchor=lower_left|distractors=1",
+            "transforms": [
+              "HFLIP",
+              "ROT180",
+              "VFLIP"
+            ]
+          },
+          {
+            "all_three_transforms_present": true,
+            "direct_grid_exact_accuracy": 1.0,
+            "episode_count": 300,
+            "query_type_key": "marker_2|color=4|anchor=upper_left|distractors=2",
+            "transforms": [
+              "HFLIP",
+              "ROT180",
+              "VFLIP"
+            ]
+          },
+          {
+            "all_three_transforms_present": true,
+            "direct_grid_exact_accuracy": 1.0,
+            "episode_count": 300,
+            "query_type_key": "marker_3|color=1|anchor=lower_right|distractors=0",
+            "transforms": [
+              "HFLIP",
+              "ROT180",
+              "VFLIP"
+            ]
+          },
+          {
+            "all_three_transforms_present": true,
+            "direct_grid_exact_accuracy": 1.0,
+            "episode_count": 300,
+            "query_type_key": "marker_3|color=1|anchor=upper_right|distractors=2",
+            "transforms": [
+              "HFLIP",
+              "ROT180",
+              "VFLIP"
+            ]
+          },
+          {
+            "all_three_transforms_present": true,
+            "direct_grid_exact_accuracy": 1.0,
+            "episode_count": 300,
+            "query_type_key": "marker_3|color=2|anchor=lower_right|distractors=1",
+            "transforms": [
+              "HFLIP",
+              "ROT180",
+              "VFLIP"
+            ]
+          },
+          {
+            "all_three_transforms_present": true,
+            "direct_grid_exact_accuracy": 1.0,
+            "episode_count": 300,
+            "query_type_key": "marker_3|color=3|anchor=lower_right|distractors=2",
+            "transforms": [
+              "HFLIP",
+              "ROT180",
+              "VFLIP"
+            ]
+          },
+          {
+            "all_three_transforms_present": true,
+            "direct_grid_exact_accuracy": 1.0,
+            "episode_count": 300,
+            "query_type_key": "marker_3|color=4|anchor=lower_right|distractors=0",
+            "transforms": [
+              "HFLIP",
+              "ROT180",
+              "VFLIP"
+            ]
+          },
+          {
+            "all_three_transforms_present": true,
+            "direct_grid_exact_accuracy": 1.0,
+            "episode_count": 300,
+            "query_type_key": "marker_3|color=4|anchor=lower_right|distractors=1",
+            "transforms": [
+              "HFLIP",
+              "ROT180",
+              "VFLIP"
+            ]
+          },
+          {
+            "all_three_transforms_present": true,
+            "direct_grid_exact_accuracy": 1.0,
+            "episode_count": 300,
+            "query_type_key": "marker_3|color=4|anchor=upper_right|distractors=2",
+            "transforms": [
+              "HFLIP",
+              "ROT180",
+              "VFLIP"
+            ]
+          }
+        ],
+        "worst_direct_grid_exact_accuracy": 1.0
+      },
+      "overall": {
+        "all_cell_color_accuracy": 1.0,
+        "direct_grid_exact_accuracy": 1.0,
+        "episode_count": 9000,
+        "foreground_color_accuracy": 1.0,
+        "mean_max_pointer_probability": 0.9999552042086919,
+        "mean_pointer_entropy": 0.0005607070530014526,
+        "source_position_accuracy": 1.0,
+        "target_rectangle_hamming_error": 0.0
+      }
+    },
+    "ZERO_SUPPORT_ABLATION": {
+      "episode_count": 9000,
+      "normal_to_zero_support_grid_change_rate": 1.0,
+      "normal_to_zero_support_pointer_change_rate": 1.0,
+      "zero_support_exact_accuracy": 0.0
+    }
+  },
+  "split": "sealed"
+}

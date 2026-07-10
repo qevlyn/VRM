@@ -1,0 +1,2345 @@
+{
+  "aggregate_by_family": {
+    "border_relation_select_then_v2_transform": {
+      "full_scene": {
+        "fresh_checkpoint_same_output_rate_min": 1.0,
+        "held_out_exact_min_across_sources": 0.0,
+        "max_macro_exact_across_sources": 0.0,
+        "min_macro_exact_across_sources": 0.0
+      },
+      "isolated_target_scene": {
+        "fresh_checkpoint_same_output_rate_min": 1.0,
+        "held_out_exact_min_across_sources": 0.0,
+        "max_macro_exact_across_sources": 0.041666666666666664,
+        "min_macro_exact_across_sources": 0.041666666666666664
+      }
+    },
+    "largest_component_select_then_v2_transform": {
+      "full_scene": {
+        "fresh_checkpoint_same_output_rate_min": 1.0,
+        "held_out_exact_min_across_sources": 0.0,
+        "max_macro_exact_across_sources": 0.0,
+        "min_macro_exact_across_sources": 0.0
+      },
+      "isolated_target_scene": {
+        "fresh_checkpoint_same_output_rate_min": 1.0,
+        "held_out_exact_min_across_sources": 0.0,
+        "max_macro_exact_across_sources": 0.0,
+        "min_macro_exact_across_sources": 0.0
+      }
+    },
+    "nearest_marker_select_then_v2_transform": {
+      "full_scene": {
+        "fresh_checkpoint_same_output_rate_min": 1.0,
+        "held_out_exact_min_across_sources": 0.0,
+        "max_macro_exact_across_sources": 0.0,
+        "min_macro_exact_across_sources": 0.0
+      },
+      "isolated_target_scene": {
+        "fresh_checkpoint_same_output_rate_min": 1.0,
+        "held_out_exact_min_across_sources": 0.08333333333333333,
+        "max_macro_exact_across_sources": 0.08333333333333333,
+        "min_macro_exact_across_sources": 0.08333333333333333
+      }
+    },
+    "unique_shape_select_then_v2_transform": {
+      "full_scene": {
+        "fresh_checkpoint_same_output_rate_min": 1.0,
+        "held_out_exact_min_across_sources": 0.0,
+        "max_macro_exact_across_sources": 0.0,
+        "min_macro_exact_across_sources": 0.0
+      },
+      "isolated_target_scene": {
+        "fresh_checkpoint_same_output_rate_min": 1.0,
+        "held_out_exact_min_across_sources": 0.0,
+        "max_macro_exact_across_sources": 0.041666666666666664,
+        "min_macro_exact_across_sources": 0.041666666666666664
+      }
+    }
+  },
+  "audit_version": "R5A2A_CAPABILITY_FRONTIER_PREFLIGHT_V1",
+  "model_sources": [
+    {
+      "source_id": "fresh_init_seed_1001",
+      "source_kind": "fresh_init"
+    },
+    {
+      "source_id": "fresh_init_seed_1002",
+      "source_kind": "fresh_init"
+    },
+    {
+      "source_id": "fresh_init_seed_1003",
+      "source_kind": "fresh_init"
+    },
+    {
+      "source_id": "fresh_init_seed_1004",
+      "source_kind": "fresh_init"
+    },
+    {
+      "source_id": "fresh_init_seed_1005",
+      "source_kind": "fresh_init"
+    },
+    {
+      "source_id": "selected_checkpoint_seed_20260628",
+      "source_kind": "selected_checkpoint"
+    }
+  ],
+  "rows": [
+    {
+      "condition_full_scene_or_isolated_target": "full_scene",
+      "episode_count": 96,
+      "exact_by_probe_family": {
+        "border_relation_select_then_v2_transform": 0.0,
+        "largest_component_select_then_v2_transform": 0.0,
+        "nearest_marker_select_then_v2_transform": 0.0,
+        "unique_shape_select_then_v2_transform": 0.0
+      },
+      "exact_by_probe_family_and_split_group": {
+        "border_relation_select_then_v2_transform": {
+          "held_out": 0.0,
+          "train_visible": 0.0
+        },
+        "largest_component_select_then_v2_transform": {
+          "held_out": 0.0,
+          "train_visible": 0.0
+        },
+        "nearest_marker_select_then_v2_transform": {
+          "held_out": 0.0,
+          "train_visible": 0.0
+        },
+        "unique_shape_select_then_v2_transform": {
+          "held_out": 0.0,
+          "train_visible": 0.0
+        }
+      },
+      "exact_by_selector_rule": {
+        "border_relation": 0.0,
+        "largest_component": 0.0,
+        "nearest_marker": 0.0,
+        "unique_shape": 0.0
+      },
+      "exact_by_split_group": {
+        "held_out": 0.0,
+        "train_visible": 0.0
+      },
+      "exact_by_transform_program": {
+        "C": 0.0,
+        "C->L": 0.0,
+        "H": 0.0,
+        "V": 0.0
+      },
+      "failure_taxonomy": {
+        "selected_only_scene_not_reproduced_by_global_v2_transform": 96
+      },
+      "first_failure_example": {
+        "episode_id": "largest_component_select_then_v2_transform:C:variant=000",
+        "prediction": [
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "probe_family": "largest_component_select_then_v2_transform",
+        "split_group": "train_visible",
+        "target": [
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            4,
+            0,
+            3,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            4,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            4,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "transform_program": "C"
+      },
+      "fresh_checkpoint_same_output_rate": 1.0,
+      "initialization_or_checkpoint_source": "fresh_init_seed_1001",
+      "macro_exact": 0.0,
+      "prediction_hash": "1efcde130c98972edc6f4d22fcbed22e5df54cc893568045f5268526e3a05ef1",
+      "source_kind": "fresh_init"
+    },
+    {
+      "condition_full_scene_or_isolated_target": "full_scene",
+      "episode_count": 96,
+      "exact_by_probe_family": {
+        "border_relation_select_then_v2_transform": 0.0,
+        "largest_component_select_then_v2_transform": 0.0,
+        "nearest_marker_select_then_v2_transform": 0.0,
+        "unique_shape_select_then_v2_transform": 0.0
+      },
+      "exact_by_probe_family_and_split_group": {
+        "border_relation_select_then_v2_transform": {
+          "held_out": 0.0,
+          "train_visible": 0.0
+        },
+        "largest_component_select_then_v2_transform": {
+          "held_out": 0.0,
+          "train_visible": 0.0
+        },
+        "nearest_marker_select_then_v2_transform": {
+          "held_out": 0.0,
+          "train_visible": 0.0
+        },
+        "unique_shape_select_then_v2_transform": {
+          "held_out": 0.0,
+          "train_visible": 0.0
+        }
+      },
+      "exact_by_selector_rule": {
+        "border_relation": 0.0,
+        "largest_component": 0.0,
+        "nearest_marker": 0.0,
+        "unique_shape": 0.0
+      },
+      "exact_by_split_group": {
+        "held_out": 0.0,
+        "train_visible": 0.0
+      },
+      "exact_by_transform_program": {
+        "C": 0.0,
+        "C->L": 0.0,
+        "H": 0.0,
+        "V": 0.0
+      },
+      "failure_taxonomy": {
+        "selected_only_scene_not_reproduced_by_global_v2_transform": 96
+      },
+      "first_failure_example": {
+        "episode_id": "largest_component_select_then_v2_transform:C:variant=000",
+        "prediction": [
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "probe_family": "largest_component_select_then_v2_transform",
+        "split_group": "train_visible",
+        "target": [
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            4,
+            0,
+            3,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            4,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            4,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "transform_program": "C"
+      },
+      "fresh_checkpoint_same_output_rate": 1.0,
+      "initialization_or_checkpoint_source": "fresh_init_seed_1002",
+      "macro_exact": 0.0,
+      "prediction_hash": "1efcde130c98972edc6f4d22fcbed22e5df54cc893568045f5268526e3a05ef1",
+      "source_kind": "fresh_init"
+    },
+    {
+      "condition_full_scene_or_isolated_target": "full_scene",
+      "episode_count": 96,
+      "exact_by_probe_family": {
+        "border_relation_select_then_v2_transform": 0.0,
+        "largest_component_select_then_v2_transform": 0.0,
+        "nearest_marker_select_then_v2_transform": 0.0,
+        "unique_shape_select_then_v2_transform": 0.0
+      },
+      "exact_by_probe_family_and_split_group": {
+        "border_relation_select_then_v2_transform": {
+          "held_out": 0.0,
+          "train_visible": 0.0
+        },
+        "largest_component_select_then_v2_transform": {
+          "held_out": 0.0,
+          "train_visible": 0.0
+        },
+        "nearest_marker_select_then_v2_transform": {
+          "held_out": 0.0,
+          "train_visible": 0.0
+        },
+        "unique_shape_select_then_v2_transform": {
+          "held_out": 0.0,
+          "train_visible": 0.0
+        }
+      },
+      "exact_by_selector_rule": {
+        "border_relation": 0.0,
+        "largest_component": 0.0,
+        "nearest_marker": 0.0,
+        "unique_shape": 0.0
+      },
+      "exact_by_split_group": {
+        "held_out": 0.0,
+        "train_visible": 0.0
+      },
+      "exact_by_transform_program": {
+        "C": 0.0,
+        "C->L": 0.0,
+        "H": 0.0,
+        "V": 0.0
+      },
+      "failure_taxonomy": {
+        "selected_only_scene_not_reproduced_by_global_v2_transform": 96
+      },
+      "first_failure_example": {
+        "episode_id": "largest_component_select_then_v2_transform:C:variant=000",
+        "prediction": [
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "probe_family": "largest_component_select_then_v2_transform",
+        "split_group": "train_visible",
+        "target": [
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            4,
+            0,
+            3,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            4,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            4,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "transform_program": "C"
+      },
+      "fresh_checkpoint_same_output_rate": 1.0,
+      "initialization_or_checkpoint_source": "fresh_init_seed_1003",
+      "macro_exact": 0.0,
+      "prediction_hash": "1efcde130c98972edc6f4d22fcbed22e5df54cc893568045f5268526e3a05ef1",
+      "source_kind": "fresh_init"
+    },
+    {
+      "condition_full_scene_or_isolated_target": "full_scene",
+      "episode_count": 96,
+      "exact_by_probe_family": {
+        "border_relation_select_then_v2_transform": 0.0,
+        "largest_component_select_then_v2_transform": 0.0,
+        "nearest_marker_select_then_v2_transform": 0.0,
+        "unique_shape_select_then_v2_transform": 0.0
+      },
+      "exact_by_probe_family_and_split_group": {
+        "border_relation_select_then_v2_transform": {
+          "held_out": 0.0,
+          "train_visible": 0.0
+        },
+        "largest_component_select_then_v2_transform": {
+          "held_out": 0.0,
+          "train_visible": 0.0
+        },
+        "nearest_marker_select_then_v2_transform": {
+          "held_out": 0.0,
+          "train_visible": 0.0
+        },
+        "unique_shape_select_then_v2_transform": {
+          "held_out": 0.0,
+          "train_visible": 0.0
+        }
+      },
+      "exact_by_selector_rule": {
+        "border_relation": 0.0,
+        "largest_component": 0.0,
+        "nearest_marker": 0.0,
+        "unique_shape": 0.0
+      },
+      "exact_by_split_group": {
+        "held_out": 0.0,
+        "train_visible": 0.0
+      },
+      "exact_by_transform_program": {
+        "C": 0.0,
+        "C->L": 0.0,
+        "H": 0.0,
+        "V": 0.0
+      },
+      "failure_taxonomy": {
+        "selected_only_scene_not_reproduced_by_global_v2_transform": 96
+      },
+      "first_failure_example": {
+        "episode_id": "largest_component_select_then_v2_transform:C:variant=000",
+        "prediction": [
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "probe_family": "largest_component_select_then_v2_transform",
+        "split_group": "train_visible",
+        "target": [
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            4,
+            0,
+            3,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            4,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            4,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "transform_program": "C"
+      },
+      "fresh_checkpoint_same_output_rate": 1.0,
+      "initialization_or_checkpoint_source": "fresh_init_seed_1004",
+      "macro_exact": 0.0,
+      "prediction_hash": "1efcde130c98972edc6f4d22fcbed22e5df54cc893568045f5268526e3a05ef1",
+      "source_kind": "fresh_init"
+    },
+    {
+      "condition_full_scene_or_isolated_target": "full_scene",
+      "episode_count": 96,
+      "exact_by_probe_family": {
+        "border_relation_select_then_v2_transform": 0.0,
+        "largest_component_select_then_v2_transform": 0.0,
+        "nearest_marker_select_then_v2_transform": 0.0,
+        "unique_shape_select_then_v2_transform": 0.0
+      },
+      "exact_by_probe_family_and_split_group": {
+        "border_relation_select_then_v2_transform": {
+          "held_out": 0.0,
+          "train_visible": 0.0
+        },
+        "largest_component_select_then_v2_transform": {
+          "held_out": 0.0,
+          "train_visible": 0.0
+        },
+        "nearest_marker_select_then_v2_transform": {
+          "held_out": 0.0,
+          "train_visible": 0.0
+        },
+        "unique_shape_select_then_v2_transform": {
+          "held_out": 0.0,
+          "train_visible": 0.0
+        }
+      },
+      "exact_by_selector_rule": {
+        "border_relation": 0.0,
+        "largest_component": 0.0,
+        "nearest_marker": 0.0,
+        "unique_shape": 0.0
+      },
+      "exact_by_split_group": {
+        "held_out": 0.0,
+        "train_visible": 0.0
+      },
+      "exact_by_transform_program": {
+        "C": 0.0,
+        "C->L": 0.0,
+        "H": 0.0,
+        "V": 0.0
+      },
+      "failure_taxonomy": {
+        "selected_only_scene_not_reproduced_by_global_v2_transform": 96
+      },
+      "first_failure_example": {
+        "episode_id": "largest_component_select_then_v2_transform:C:variant=000",
+        "prediction": [
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "probe_family": "largest_component_select_then_v2_transform",
+        "split_group": "train_visible",
+        "target": [
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            4,
+            0,
+            3,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            4,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            4,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "transform_program": "C"
+      },
+      "fresh_checkpoint_same_output_rate": 1.0,
+      "initialization_or_checkpoint_source": "fresh_init_seed_1005",
+      "macro_exact": 0.0,
+      "prediction_hash": "1efcde130c98972edc6f4d22fcbed22e5df54cc893568045f5268526e3a05ef1",
+      "source_kind": "fresh_init"
+    },
+    {
+      "condition_full_scene_or_isolated_target": "full_scene",
+      "episode_count": 96,
+      "exact_by_probe_family": {
+        "border_relation_select_then_v2_transform": 0.0,
+        "largest_component_select_then_v2_transform": 0.0,
+        "nearest_marker_select_then_v2_transform": 0.0,
+        "unique_shape_select_then_v2_transform": 0.0
+      },
+      "exact_by_probe_family_and_split_group": {
+        "border_relation_select_then_v2_transform": {
+          "held_out": 0.0,
+          "train_visible": 0.0
+        },
+        "largest_component_select_then_v2_transform": {
+          "held_out": 0.0,
+          "train_visible": 0.0
+        },
+        "nearest_marker_select_then_v2_transform": {
+          "held_out": 0.0,
+          "train_visible": 0.0
+        },
+        "unique_shape_select_then_v2_transform": {
+          "held_out": 0.0,
+          "train_visible": 0.0
+        }
+      },
+      "exact_by_selector_rule": {
+        "border_relation": 0.0,
+        "largest_component": 0.0,
+        "nearest_marker": 0.0,
+        "unique_shape": 0.0
+      },
+      "exact_by_split_group": {
+        "held_out": 0.0,
+        "train_visible": 0.0
+      },
+      "exact_by_transform_program": {
+        "C": 0.0,
+        "C->L": 0.0,
+        "H": 0.0,
+        "V": 0.0
+      },
+      "failure_taxonomy": {
+        "selected_only_scene_not_reproduced_by_global_v2_transform": 96
+      },
+      "first_failure_example": {
+        "episode_id": "largest_component_select_then_v2_transform:C:variant=000",
+        "prediction": [
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "probe_family": "largest_component_select_then_v2_transform",
+        "split_group": "train_visible",
+        "target": [
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            4,
+            0,
+            3,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            4,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            4,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "transform_program": "C"
+      },
+      "fresh_checkpoint_same_output_rate": 1.0,
+      "initialization_or_checkpoint_source": "selected_checkpoint_seed_20260628",
+      "macro_exact": 0.0,
+      "prediction_hash": "1efcde130c98972edc6f4d22fcbed22e5df54cc893568045f5268526e3a05ef1",
+      "source_kind": "selected_checkpoint"
+    },
+    {
+      "condition_full_scene_or_isolated_target": "isolated_target_scene",
+      "episode_count": 96,
+      "exact_by_probe_family": {
+        "border_relation_select_then_v2_transform": 0.041666666666666664,
+        "largest_component_select_then_v2_transform": 0.0,
+        "nearest_marker_select_then_v2_transform": 0.08333333333333333,
+        "unique_shape_select_then_v2_transform": 0.041666666666666664
+      },
+      "exact_by_probe_family_and_split_group": {
+        "border_relation_select_then_v2_transform": {
+          "held_out": 0.0,
+          "train_visible": 0.08333333333333333
+        },
+        "largest_component_select_then_v2_transform": {
+          "held_out": 0.0,
+          "train_visible": 0.0
+        },
+        "nearest_marker_select_then_v2_transform": {
+          "held_out": 0.08333333333333333,
+          "train_visible": 0.08333333333333333
+        },
+        "unique_shape_select_then_v2_transform": {
+          "held_out": 0.0,
+          "train_visible": 0.08333333333333333
+        }
+      },
+      "exact_by_selector_rule": {
+        "border_relation": 0.041666666666666664,
+        "largest_component": 0.0,
+        "nearest_marker": 0.08333333333333333,
+        "unique_shape": 0.041666666666666664
+      },
+      "exact_by_split_group": {
+        "held_out": 0.020833333333333332,
+        "train_visible": 0.0625
+      },
+      "exact_by_transform_program": {
+        "C": 0.0,
+        "C->L": 0.0,
+        "H": 0.125,
+        "V": 0.041666666666666664
+      },
+      "failure_taxonomy": {
+        "isolated_v2_transform_failure": 92
+      },
+      "first_failure_example": {
+        "episode_id": "largest_component_select_then_v2_transform:C:variant=000",
+        "prediction": [
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "probe_family": "largest_component_select_then_v2_transform",
+        "split_group": "train_visible",
+        "target": [
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            4,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            4,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            4,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "transform_program": "C"
+      },
+      "fresh_checkpoint_same_output_rate": 1.0,
+      "initialization_or_checkpoint_source": "fresh_init_seed_1001",
+      "macro_exact": 0.0416666679084301,
+      "prediction_hash": "97078c1d9ac3ce410d9901ac253c65cc937247944290af62de509b405397c065",
+      "source_kind": "fresh_init"
+    },
+    {
+      "condition_full_scene_or_isolated_target": "isolated_target_scene",
+      "episode_count": 96,
+      "exact_by_probe_family": {
+        "border_relation_select_then_v2_transform": 0.041666666666666664,
+        "largest_component_select_then_v2_transform": 0.0,
+        "nearest_marker_select_then_v2_transform": 0.08333333333333333,
+        "unique_shape_select_then_v2_transform": 0.041666666666666664
+      },
+      "exact_by_probe_family_and_split_group": {
+        "border_relation_select_then_v2_transform": {
+          "held_out": 0.0,
+          "train_visible": 0.08333333333333333
+        },
+        "largest_component_select_then_v2_transform": {
+          "held_out": 0.0,
+          "train_visible": 0.0
+        },
+        "nearest_marker_select_then_v2_transform": {
+          "held_out": 0.08333333333333333,
+          "train_visible": 0.08333333333333333
+        },
+        "unique_shape_select_then_v2_transform": {
+          "held_out": 0.0,
+          "train_visible": 0.08333333333333333
+        }
+      },
+      "exact_by_selector_rule": {
+        "border_relation": 0.041666666666666664,
+        "largest_component": 0.0,
+        "nearest_marker": 0.08333333333333333,
+        "unique_shape": 0.041666666666666664
+      },
+      "exact_by_split_group": {
+        "held_out": 0.020833333333333332,
+        "train_visible": 0.0625
+      },
+      "exact_by_transform_program": {
+        "C": 0.0,
+        "C->L": 0.0,
+        "H": 0.125,
+        "V": 0.041666666666666664
+      },
+      "failure_taxonomy": {
+        "isolated_v2_transform_failure": 92
+      },
+      "first_failure_example": {
+        "episode_id": "largest_component_select_then_v2_transform:C:variant=000",
+        "prediction": [
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "probe_family": "largest_component_select_then_v2_transform",
+        "split_group": "train_visible",
+        "target": [
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            4,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            4,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            4,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "transform_program": "C"
+      },
+      "fresh_checkpoint_same_output_rate": 1.0,
+      "initialization_or_checkpoint_source": "fresh_init_seed_1002",
+      "macro_exact": 0.0416666679084301,
+      "prediction_hash": "97078c1d9ac3ce410d9901ac253c65cc937247944290af62de509b405397c065",
+      "source_kind": "fresh_init"
+    },
+    {
+      "condition_full_scene_or_isolated_target": "isolated_target_scene",
+      "episode_count": 96,
+      "exact_by_probe_family": {
+        "border_relation_select_then_v2_transform": 0.041666666666666664,
+        "largest_component_select_then_v2_transform": 0.0,
+        "nearest_marker_select_then_v2_transform": 0.08333333333333333,
+        "unique_shape_select_then_v2_transform": 0.041666666666666664
+      },
+      "exact_by_probe_family_and_split_group": {
+        "border_relation_select_then_v2_transform": {
+          "held_out": 0.0,
+          "train_visible": 0.08333333333333333
+        },
+        "largest_component_select_then_v2_transform": {
+          "held_out": 0.0,
+          "train_visible": 0.0
+        },
+        "nearest_marker_select_then_v2_transform": {
+          "held_out": 0.08333333333333333,
+          "train_visible": 0.08333333333333333
+        },
+        "unique_shape_select_then_v2_transform": {
+          "held_out": 0.0,
+          "train_visible": 0.08333333333333333
+        }
+      },
+      "exact_by_selector_rule": {
+        "border_relation": 0.041666666666666664,
+        "largest_component": 0.0,
+        "nearest_marker": 0.08333333333333333,
+        "unique_shape": 0.041666666666666664
+      },
+      "exact_by_split_group": {
+        "held_out": 0.020833333333333332,
+        "train_visible": 0.0625
+      },
+      "exact_by_transform_program": {
+        "C": 0.0,
+        "C->L": 0.0,
+        "H": 0.125,
+        "V": 0.041666666666666664
+      },
+      "failure_taxonomy": {
+        "isolated_v2_transform_failure": 92
+      },
+      "first_failure_example": {
+        "episode_id": "largest_component_select_then_v2_transform:C:variant=000",
+        "prediction": [
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "probe_family": "largest_component_select_then_v2_transform",
+        "split_group": "train_visible",
+        "target": [
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            4,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            4,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            4,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "transform_program": "C"
+      },
+      "fresh_checkpoint_same_output_rate": 1.0,
+      "initialization_or_checkpoint_source": "fresh_init_seed_1003",
+      "macro_exact": 0.0416666679084301,
+      "prediction_hash": "97078c1d9ac3ce410d9901ac253c65cc937247944290af62de509b405397c065",
+      "source_kind": "fresh_init"
+    },
+    {
+      "condition_full_scene_or_isolated_target": "isolated_target_scene",
+      "episode_count": 96,
+      "exact_by_probe_family": {
+        "border_relation_select_then_v2_transform": 0.041666666666666664,
+        "largest_component_select_then_v2_transform": 0.0,
+        "nearest_marker_select_then_v2_transform": 0.08333333333333333,
+        "unique_shape_select_then_v2_transform": 0.041666666666666664
+      },
+      "exact_by_probe_family_and_split_group": {
+        "border_relation_select_then_v2_transform": {
+          "held_out": 0.0,
+          "train_visible": 0.08333333333333333
+        },
+        "largest_component_select_then_v2_transform": {
+          "held_out": 0.0,
+          "train_visible": 0.0
+        },
+        "nearest_marker_select_then_v2_transform": {
+          "held_out": 0.08333333333333333,
+          "train_visible": 0.08333333333333333
+        },
+        "unique_shape_select_then_v2_transform": {
+          "held_out": 0.0,
+          "train_visible": 0.08333333333333333
+        }
+      },
+      "exact_by_selector_rule": {
+        "border_relation": 0.041666666666666664,
+        "largest_component": 0.0,
+        "nearest_marker": 0.08333333333333333,
+        "unique_shape": 0.041666666666666664
+      },
+      "exact_by_split_group": {
+        "held_out": 0.020833333333333332,
+        "train_visible": 0.0625
+      },
+      "exact_by_transform_program": {
+        "C": 0.0,
+        "C->L": 0.0,
+        "H": 0.125,
+        "V": 0.041666666666666664
+      },
+      "failure_taxonomy": {
+        "isolated_v2_transform_failure": 92
+      },
+      "first_failure_example": {
+        "episode_id": "largest_component_select_then_v2_transform:C:variant=000",
+        "prediction": [
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "probe_family": "largest_component_select_then_v2_transform",
+        "split_group": "train_visible",
+        "target": [
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            4,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            4,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            4,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "transform_program": "C"
+      },
+      "fresh_checkpoint_same_output_rate": 1.0,
+      "initialization_or_checkpoint_source": "fresh_init_seed_1004",
+      "macro_exact": 0.0416666679084301,
+      "prediction_hash": "97078c1d9ac3ce410d9901ac253c65cc937247944290af62de509b405397c065",
+      "source_kind": "fresh_init"
+    },
+    {
+      "condition_full_scene_or_isolated_target": "isolated_target_scene",
+      "episode_count": 96,
+      "exact_by_probe_family": {
+        "border_relation_select_then_v2_transform": 0.041666666666666664,
+        "largest_component_select_then_v2_transform": 0.0,
+        "nearest_marker_select_then_v2_transform": 0.08333333333333333,
+        "unique_shape_select_then_v2_transform": 0.041666666666666664
+      },
+      "exact_by_probe_family_and_split_group": {
+        "border_relation_select_then_v2_transform": {
+          "held_out": 0.0,
+          "train_visible": 0.08333333333333333
+        },
+        "largest_component_select_then_v2_transform": {
+          "held_out": 0.0,
+          "train_visible": 0.0
+        },
+        "nearest_marker_select_then_v2_transform": {
+          "held_out": 0.08333333333333333,
+          "train_visible": 0.08333333333333333
+        },
+        "unique_shape_select_then_v2_transform": {
+          "held_out": 0.0,
+          "train_visible": 0.08333333333333333
+        }
+      },
+      "exact_by_selector_rule": {
+        "border_relation": 0.041666666666666664,
+        "largest_component": 0.0,
+        "nearest_marker": 0.08333333333333333,
+        "unique_shape": 0.041666666666666664
+      },
+      "exact_by_split_group": {
+        "held_out": 0.020833333333333332,
+        "train_visible": 0.0625
+      },
+      "exact_by_transform_program": {
+        "C": 0.0,
+        "C->L": 0.0,
+        "H": 0.125,
+        "V": 0.041666666666666664
+      },
+      "failure_taxonomy": {
+        "isolated_v2_transform_failure": 92
+      },
+      "first_failure_example": {
+        "episode_id": "largest_component_select_then_v2_transform:C:variant=000",
+        "prediction": [
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "probe_family": "largest_component_select_then_v2_transform",
+        "split_group": "train_visible",
+        "target": [
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            4,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            4,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            4,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "transform_program": "C"
+      },
+      "fresh_checkpoint_same_output_rate": 1.0,
+      "initialization_or_checkpoint_source": "fresh_init_seed_1005",
+      "macro_exact": 0.0416666679084301,
+      "prediction_hash": "97078c1d9ac3ce410d9901ac253c65cc937247944290af62de509b405397c065",
+      "source_kind": "fresh_init"
+    },
+    {
+      "condition_full_scene_or_isolated_target": "isolated_target_scene",
+      "episode_count": 96,
+      "exact_by_probe_family": {
+        "border_relation_select_then_v2_transform": 0.041666666666666664,
+        "largest_component_select_then_v2_transform": 0.0,
+        "nearest_marker_select_then_v2_transform": 0.08333333333333333,
+        "unique_shape_select_then_v2_transform": 0.041666666666666664
+      },
+      "exact_by_probe_family_and_split_group": {
+        "border_relation_select_then_v2_transform": {
+          "held_out": 0.0,
+          "train_visible": 0.08333333333333333
+        },
+        "largest_component_select_then_v2_transform": {
+          "held_out": 0.0,
+          "train_visible": 0.0
+        },
+        "nearest_marker_select_then_v2_transform": {
+          "held_out": 0.08333333333333333,
+          "train_visible": 0.08333333333333333
+        },
+        "unique_shape_select_then_v2_transform": {
+          "held_out": 0.0,
+          "train_visible": 0.08333333333333333
+        }
+      },
+      "exact_by_selector_rule": {
+        "border_relation": 0.041666666666666664,
+        "largest_component": 0.0,
+        "nearest_marker": 0.08333333333333333,
+        "unique_shape": 0.041666666666666664
+      },
+      "exact_by_split_group": {
+        "held_out": 0.020833333333333332,
+        "train_visible": 0.0625
+      },
+      "exact_by_transform_program": {
+        "C": 0.0,
+        "C->L": 0.0,
+        "H": 0.125,
+        "V": 0.041666666666666664
+      },
+      "failure_taxonomy": {
+        "isolated_v2_transform_failure": 92
+      },
+      "first_failure_example": {
+        "episode_id": "largest_component_select_then_v2_transform:C:variant=000",
+        "prediction": [
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "probe_family": "largest_component_select_then_v2_transform",
+        "split_group": "train_visible",
+        "target": [
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            4,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            4,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            4,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "transform_program": "C"
+      },
+      "fresh_checkpoint_same_output_rate": 1.0,
+      "initialization_or_checkpoint_source": "selected_checkpoint_seed_20260628",
+      "macro_exact": 0.0416666679084301,
+      "prediction_hash": "97078c1d9ac3ce410d9901ac253c65cc937247944290af62de509b405397c065",
+      "source_kind": "selected_checkpoint"
+    }
+  ]
+}

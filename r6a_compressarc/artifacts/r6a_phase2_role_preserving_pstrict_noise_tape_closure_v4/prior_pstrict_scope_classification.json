@@ -1,0 +1,18 @@
+{
+  "created_utc": "2026-07-04T03:11:19Z",
+  "prior_actual_labels": [
+    {
+      "classification": "P_STRICT_STEP0_STRUCTURAL_FAIL",
+      "task_id": "1f876c06"
+    },
+    {
+      "classification": "P_STRICT_STEP0_STRUCTURAL_FAIL",
+      "task_id": "604001fa"
+    }
+  ],
+  "prior_implementation_path": "/mnt/d/VRM/r6a_compressarc/scripts/phase2_cpu_preflight_child.py",
+  "prior_manifest_path": "/mnt/d/VRM/r6a_compressarc/artifacts/r6a_phase2_symmetry_preflight/p_strict_preflight.json",
+  "prior_scope_classification": "P_ROLE_PRESERVING_UNCOUPLED_STOCHASTICITY",
+  "statement": "The old result remains historical and unmodified; it used role-preserving support permutation but did not explicitly couple stochastic latent noise under the support-permutation group action.",
+  "train_test_membership_moved": false
+}

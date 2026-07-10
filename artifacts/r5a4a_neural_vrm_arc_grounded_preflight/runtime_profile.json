@@ -1,0 +1,12 @@
+{
+  "condition_mean_inference_seconds": {
+    "FRESH_INIT": 0.01879559657692635,
+    "TRAINED_FULL_SUPPORT": 0.015191615608994898,
+    "TRAINED_PERMUTED_SUPPORT_PAIR_ORDER": 0.015181457820507406,
+    "TRAINED_QUERY_ONLY": null,
+    "TRAINED_ZEROED_SUPPORT_OUTPUTS": 0.015183578916666928
+  },
+  "reused_completed_training": true,
+  "wall_clock_total_seconds": 38.626569533000065,
+  "wall_clock_training_seconds": null
+}

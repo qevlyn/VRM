@@ -1,0 +1,82 @@
+{
+  "audit_version": "R5A0V2_LEARNING_DEPENDENCY_AUDIT_V1",
+  "fields": [
+    {
+      "consumed_by_modules": [
+        "forward",
+        "color_transition_from_flags"
+      ],
+      "field_name": "query_grids",
+      "operation_or_program_metadata": false,
+      "raw_input_evidence": true,
+      "semantic_description": "raw query input grid",
+      "shape_or_type": "[batch,7,7] integer tensor",
+      "source_location": "tensors_from_episodes(...)[query_grids] -> SupportConditionedTransportRecolorR5A0V2.forward positional arg",
+      "target_oracle_metadata": false,
+      "used_in_forward": true,
+      "used_only_after_forward": false
+    },
+    {
+      "consumed_by_modules": [
+        "forward",
+        "encode_pairs"
+      ],
+      "field_name": "support_input_grids",
+      "operation_or_program_metadata": false,
+      "raw_input_evidence": true,
+      "semantic_description": "raw support input grids",
+      "shape_or_type": "[batch,3,7,7] integer tensor",
+      "source_location": "tensors_from_episodes(...)[support_input_grids] -> forward positional arg",
+      "target_oracle_metadata": false,
+      "used_in_forward": true,
+      "used_only_after_forward": false
+    },
+    {
+      "consumed_by_modules": [
+        "forward",
+        "encode_pairs"
+      ],
+      "field_name": "support_output_grids",
+      "operation_or_program_metadata": false,
+      "raw_input_evidence": true,
+      "semantic_description": "raw support output grids",
+      "shape_or_type": "[batch,3,7,7] integer tensor",
+      "source_location": "tensors_from_episodes(...)[support_output_grids] -> forward positional arg",
+      "target_oracle_metadata": false,
+      "used_in_forward": true,
+      "used_only_after_forward": false
+    },
+    {
+      "consumed_by_modules": [
+        "output_loss",
+        "metrics"
+      ],
+      "field_name": "target_grids",
+      "operation_or_program_metadata": false,
+      "raw_input_evidence": false,
+      "semantic_description": "target label grid used by loss/metrics after forward",
+      "shape_or_type": "[batch,7,7] integer tensor",
+      "source_location": "tensors_from_episodes(...)[target_grids]",
+      "target_oracle_metadata": true,
+      "used_in_forward": false,
+      "used_only_after_forward": true
+    },
+    {
+      "consumed_by_modules": [
+        "metrics",
+        "suite construction"
+      ],
+      "field_name": "operation_class",
+      "operation_or_program_metadata": true,
+      "raw_input_evidence": false,
+      "semantic_description": "operation/program class used for grouping and suite construction",
+      "shape_or_type": "string metadata",
+      "source_location": "R5A0V2Episode.operation_class",
+      "target_oracle_metadata": false,
+      "used_in_forward": false,
+      "used_only_after_forward": true
+    }
+  ],
+  "forbidden_forward_use": [],
+  "provenance_valid": true
+}

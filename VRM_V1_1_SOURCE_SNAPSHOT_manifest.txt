@@ -1,0 +1,22 @@
+archive path: /mnt/d/VRM/VRM_V1_1_SOURCE_SNAPSHOT.zip
+timestamp: 2026-06-28T01:26:25+07:00
+ZIP size: 70088 bytes
+SHA-256: 85d35faeb7b9de2b0a2500508952bd7c7581831c3b3402b61a169d17eaa77314
+pytest result: pytest -q: 23 passed in 5.00s
+active architecture name: VRM V1.1 — Masked Query Spatial Evidence Rewrite
+excluded major directories: arc-prize-2026-arc-agi-2/, checkpoints/, full artifacts/, .git/, .claude/, virtual environments, cache files, other ZIPs
+file list:
+- README.md
+- requirements.txt
+- vrm/__init__.py
+- vrm/data.py
+- vrm/inspect.py
+- vrm/metrics.py
+- vrm/model.py
+- vrm/train.py
+- tests/test_vrm_v1.py
+- reports/vrm_v1_1_config.json
+- reports/vrm_v1_1_task_manifest.json
+- reports/vrm_v1_1_initialization_report.json
+- reports/vrm_v1_1_metrics.json
+- reports/vrm_v1_1_summary.md

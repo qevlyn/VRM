@@ -1,0 +1,22 @@
+{
+  "dev": {
+    "bad_grid_count": 0,
+    "grid_count": 36000,
+    "passed": true
+  },
+  "sealed": {
+    "bad_grid_count": 0,
+    "grid_count": 36000,
+    "passed": true
+  },
+  "support_rule_counterfactual_suite": {
+    "bad_grid_count": 0,
+    "grid_count": 18000,
+    "passed": true
+  },
+  "train": {
+    "bad_grid_count": 0,
+    "grid_count": 144000,
+    "passed": true
+  }
+}

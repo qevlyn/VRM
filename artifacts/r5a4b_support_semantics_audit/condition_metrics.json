@@ -1,0 +1,102 @@
+{
+  "by_condition": {
+    "FRESH_INIT_REFERENCE": {
+      "dense_cell_accuracy_inside_true_target_rectangle": 0.5896616381147192,
+      "dense_color_nll_inside_true_target_rectangle": 1.6120966248787367,
+      "exact_full_grid_accuracy": 0.0,
+      "exact_shape_accuracy": 0.0,
+      "fold_count": 156,
+      "mean_color_nll": 1.6120966248787367,
+      "mean_fold_dense_cell_accuracy_inside_true_target_rectangle": 0.5141414519043886,
+      "mean_fold_dense_color_nll_inside_true_target_rectangle": 1.6120966149374187,
+      "mean_total_loss": 3.3872355971580896,
+      "same_shape_exact_shape_accuracy": 0.0,
+      "shape_changing_exact_shape_accuracy": 0.0,
+      "task_count": 48
+    },
+    "TRAINED_FULL_SUPPORT_REPLAY": {
+      "dense_cell_accuracy_inside_true_target_rectangle": 0.7241114804397852,
+      "dense_color_nll_inside_true_target_rectangle": 0.9794272973369329,
+      "exact_full_grid_accuracy": 0.0,
+      "exact_shape_accuracy": 0.6666666666666666,
+      "fold_count": 156,
+      "mean_color_nll": 0.9794272973369329,
+      "mean_fold_dense_cell_accuracy_inside_true_target_rectangle": 0.6716614050391545,
+      "mean_fold_dense_color_nll_inside_true_target_rectangle": 0.9794272898600845,
+      "mean_total_loss": 1.4398538131171312,
+      "same_shape_exact_shape_accuracy": 0.7980769230769231,
+      "shape_changing_exact_shape_accuracy": 0.40384615384615385,
+      "task_count": 48
+    },
+    "TRAINED_OUTPUT_GEOMETRY_SCRAMBLED": {
+      "dense_cell_accuracy_inside_true_target_rectangle": 0.7200204551265661,
+      "dense_color_nll_inside_true_target_rectangle": 0.9894429099483367,
+      "exact_full_grid_accuracy": 0.0,
+      "exact_shape_accuracy": 0.6923076923076923,
+      "fold_count": 156,
+      "mean_color_nll": 0.9894429099483367,
+      "mean_fold_dense_cell_accuracy_inside_true_target_rectangle": 0.6713140936645893,
+      "mean_fold_dense_color_nll_inside_true_target_rectangle": 0.9894429022416616,
+      "mean_total_loss": 1.4358737873725402,
+      "same_shape_exact_shape_accuracy": 0.8076923076923077,
+      "shape_changing_exact_shape_accuracy": 0.46153846153846156,
+      "task_count": 48
+    },
+    "TRAINED_OUTPUT_PAIRING_BROKEN": {
+      "dense_cell_accuracy_inside_true_target_rectangle": 0.7276485127418393,
+      "dense_color_nll_inside_true_target_rectangle": 0.9860420110516059,
+      "exact_full_grid_accuracy": 0.0,
+      "exact_shape_accuracy": 0.6730769230769231,
+      "fold_count": 156,
+      "mean_color_nll": 0.9860420110516059,
+      "mean_fold_dense_cell_accuracy_inside_true_target_rectangle": 0.6752356965698453,
+      "mean_fold_dense_color_nll_inside_true_target_rectangle": 0.9860420049784481,
+      "mean_total_loss": 1.4617413063653004,
+      "same_shape_exact_shape_accuracy": 0.8076923076923077,
+      "shape_changing_exact_shape_accuracy": 0.40384615384615385,
+      "task_count": 48
+    },
+    "TRAINED_QUERY_ONLY_BYPASS": {
+      "dense_cell_accuracy_inside_true_target_rectangle": 0.6781300605130828,
+      "dense_color_nll_inside_true_target_rectangle": 1.6422092707302325,
+      "exact_full_grid_accuracy": 0.0,
+      "exact_shape_accuracy": 0.5641025641025641,
+      "fold_count": 156,
+      "mean_color_nll": 1.6422092707302325,
+      "mean_fold_dense_cell_accuracy_inside_true_target_rectangle": 0.6068818700671935,
+      "mean_fold_dense_color_nll_inside_true_target_rectangle": 1.6422092593894893,
+      "mean_total_loss": 2.963141499994657,
+      "same_shape_exact_shape_accuracy": 0.8461538461538461,
+      "shape_changing_exact_shape_accuracy": 0.0,
+      "task_count": 48
+    },
+    "TRAINED_SUPPORT_INPUTS_ZEROED": {
+      "dense_cell_accuracy_inside_true_target_rectangle": 0.6667518963606921,
+      "dense_color_nll_inside_true_target_rectangle": 1.1033047244716914,
+      "exact_full_grid_accuracy": 0.0,
+      "exact_shape_accuracy": 0.6410256410256411,
+      "fold_count": 156,
+      "mean_color_nll": 1.1033047244716914,
+      "mean_fold_dense_cell_accuracy_inside_true_target_rectangle": 0.6077656104325853,
+      "mean_fold_dense_color_nll_inside_true_target_rectangle": 1.1033047198526365,
+      "mean_total_loss": 1.5635435472314174,
+      "same_shape_exact_shape_accuracy": 0.7884615384615384,
+      "shape_changing_exact_shape_accuracy": 0.34615384615384615,
+      "task_count": 48
+    },
+    "TRAINED_ZEROED_SUPPORT_OUTPUTS_REPLAY": {
+      "dense_cell_accuracy_inside_true_target_rectangle": 0.5031961135259524,
+      "dense_color_nll_inside_true_target_rectangle": 3.0470044131462393,
+      "exact_full_grid_accuracy": 0.0,
+      "exact_shape_accuracy": 0.5769230769230769,
+      "fold_count": 156,
+      "mean_color_nll": 3.0470044131462393,
+      "mean_fold_dense_cell_accuracy_inside_true_target_rectangle": 0.40551992096726547,
+      "mean_fold_dense_color_nll_inside_true_target_rectangle": 3.0470044125265727,
+      "mean_total_loss": 3.6124926641201363,
+      "same_shape_exact_shape_accuracy": 0.7115384615384616,
+      "shape_changing_exact_shape_accuracy": 0.3076923076923077,
+      "task_count": 48
+    }
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "dev": {
+    "all_query_types_balanced": true,
+    "episode_count": 12960,
+    "operation_counts": {
+      "C": 1440,
+      "C->L": 1440,
+      "H": 1440,
+      "H->K": 1440,
+      "K": 1440,
+      "K->V": 1440,
+      "L": 1440,
+      "L->H": 1440,
+      "V": 1440
+    },
+    "passed": true,
+    "per_query_type_operation_count_expected": 60,
+    "query_type_count": 24
+  },
+  "sealed": {
+    "all_query_types_balanced": true,
+    "episode_count": 18720,
+    "operation_counts": {
+      "C": 1440,
+      "C->K": 1440,
+      "C->L": 1440,
+      "H": 1440,
+      "H->K": 1440,
+      "H->L": 1440,
+      "K": 1440,
+      "K->C": 1440,
+      "K->V": 1440,
+      "L": 1440,
+      "L->C": 1440,
+      "L->H": 1440,
+      "V": 1440
+    },
+    "passed": true,
+    "per_query_type_operation_count_expected": 60,
+    "query_type_count": 24
+  },
+  "train": {
+    "all_query_types_balanced": true,
+    "episode_count": 43200,
+    "operation_counts": {
+      "C": 4800,
+      "C->L": 4800,
+      "H": 4800,
+      "H->K": 4800,
+      "K": 4800,
+      "K->V": 4800,
+      "L": 4800,
+      "L->H": 4800,
+      "V": 4800
+    },
+    "passed": true,
+    "per_query_type_operation_count_expected": 60,
+    "query_type_count": 80
+  }
+}

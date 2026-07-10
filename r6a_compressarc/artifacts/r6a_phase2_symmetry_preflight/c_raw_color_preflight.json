@@ -1,0 +1,711 @@
+{
+  "c_internal_reason": "A complete internal color-axis action must transform every internal color-indexed state/tensor consistently; this preflight does not claim C-internal pass from C-raw.",
+  "c_internal_status": "C_INTERNAL_REQUIRES_MANUAL_REVIEW",
+  "created_utc": "2026-07-04T02:16:57Z",
+  "experiment": "R6A_PHASE2_C_RAW_PREFLIGHT",
+  "fixed_seed": 20260702,
+  "tasks": [
+    {
+      "active_non_black_raw_colors": [
+        1,
+        3,
+        4,
+        6,
+        7,
+        8
+      ],
+      "baseline_internal_color_order": [
+        0,
+        1,
+        3,
+        4,
+        6,
+        7,
+        8
+      ],
+      "baseline_raw_color_list": [
+        0,
+        1,
+        3,
+        4,
+        6,
+        7,
+        8
+      ],
+      "canonicalization_collapse_detected": false,
+      "hidden_query_output_used": false,
+      "induced_internal_color_axis_mapping": {
+        "0": 0,
+        "1": 2,
+        "2": 3,
+        "3": 4,
+        "4": 5,
+        "5": 6,
+        "6": 1
+      },
+      "induced_internal_color_permutation_is_identity": false,
+      "known_grids_only": true,
+      "raw_mapping": {
+        "0": 0,
+        "1": 3,
+        "3": 4,
+        "4": 6,
+        "6": 7,
+        "7": 8,
+        "8": 1
+      },
+      "status": "C_RAW_VALID_PREFLIGHT",
+      "stratum": "A",
+      "task_id": "604001fa",
+      "transformed_internal_color_order": [
+        0,
+        1,
+        3,
+        4,
+        6,
+        7,
+        8
+      ],
+      "transformed_raw_color_list": [
+        0,
+        1,
+        3,
+        4,
+        6,
+        7,
+        8
+      ]
+    },
+    {
+      "active_non_black_raw_colors": [
+        1,
+        5,
+        8
+      ],
+      "baseline_internal_color_order": [
+        0,
+        1,
+        5,
+        8
+      ],
+      "baseline_raw_color_list": [
+        0,
+        1,
+        5,
+        8
+      ],
+      "canonicalization_collapse_detected": false,
+      "hidden_query_output_used": false,
+      "induced_internal_color_axis_mapping": {
+        "0": 0,
+        "1": 2,
+        "2": 3,
+        "3": 1
+      },
+      "induced_internal_color_permutation_is_identity": false,
+      "known_grids_only": true,
+      "raw_mapping": {
+        "0": 0,
+        "1": 5,
+        "5": 8,
+        "8": 1
+      },
+      "status": "C_RAW_VALID_PREFLIGHT",
+      "stratum": "A",
+      "task_id": "79fb03f4",
+      "transformed_internal_color_order": [
+        0,
+        1,
+        5,
+        8
+      ],
+      "transformed_raw_color_list": [
+        0,
+        1,
+        5,
+        8
+      ]
+    },
+    {
+      "active_non_black_raw_colors": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "baseline_internal_color_order": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "baseline_raw_color_list": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "canonicalization_collapse_detected": false,
+      "hidden_query_output_used": false,
+      "induced_internal_color_axis_mapping": {
+        "0": 0,
+        "1": 2,
+        "2": 3,
+        "3": 4,
+        "4": 5,
+        "5": 6,
+        "6": 7,
+        "7": 8,
+        "8": 9,
+        "9": 1
+      },
+      "induced_internal_color_permutation_is_identity": false,
+      "known_grids_only": true,
+      "raw_mapping": {
+        "0": 0,
+        "1": 2,
+        "2": 3,
+        "3": 4,
+        "4": 5,
+        "5": 6,
+        "6": 7,
+        "7": 8,
+        "8": 9,
+        "9": 1
+      },
+      "status": "C_RAW_VALID_PREFLIGHT",
+      "stratum": "A",
+      "task_id": "981571dc",
+      "transformed_internal_color_order": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "transformed_raw_color_list": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "active_non_black_raw_colors": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        7,
+        8
+      ],
+      "baseline_internal_color_order": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        6,
+        7,
+        8
+      ],
+      "baseline_raw_color_list": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        6,
+        7,
+        8
+      ],
+      "canonicalization_collapse_detected": false,
+      "hidden_query_output_used": false,
+      "induced_internal_color_axis_mapping": {
+        "0": 0,
+        "1": 2,
+        "2": 3,
+        "3": 4,
+        "4": 5,
+        "5": 6,
+        "6": 7,
+        "7": 1
+      },
+      "induced_internal_color_permutation_is_identity": false,
+      "known_grids_only": true,
+      "raw_mapping": {
+        "0": 0,
+        "1": 2,
+        "2": 3,
+        "3": 4,
+        "4": 6,
+        "6": 7,
+        "7": 8,
+        "8": 1
+      },
+      "status": "C_RAW_VALID_PREFLIGHT",
+      "stratum": "A",
+      "task_id": "3ed85e70",
+      "transformed_internal_color_order": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        6,
+        7,
+        8
+      ],
+      "transformed_raw_color_list": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        6,
+        7,
+        8
+      ]
+    },
+    {
+      "active_non_black_raw_colors": [
+        1,
+        2,
+        4,
+        6,
+        8
+      ],
+      "baseline_internal_color_order": [
+        0,
+        1,
+        2,
+        4,
+        6,
+        8
+      ],
+      "baseline_raw_color_list": [
+        0,
+        1,
+        2,
+        4,
+        6,
+        8
+      ],
+      "canonicalization_collapse_detected": false,
+      "hidden_query_output_used": false,
+      "induced_internal_color_axis_mapping": {
+        "0": 0,
+        "1": 2,
+        "2": 3,
+        "3": 4,
+        "4": 5,
+        "5": 1
+      },
+      "induced_internal_color_permutation_is_identity": false,
+      "known_grids_only": true,
+      "raw_mapping": {
+        "0": 0,
+        "1": 2,
+        "2": 4,
+        "4": 6,
+        "6": 8,
+        "8": 1
+      },
+      "status": "C_RAW_VALID_PREFLIGHT",
+      "stratum": "A",
+      "task_id": "aa4ec2a5",
+      "transformed_internal_color_order": [
+        0,
+        1,
+        2,
+        4,
+        6,
+        8
+      ],
+      "transformed_raw_color_list": [
+        0,
+        1,
+        2,
+        4,
+        6,
+        8
+      ]
+    },
+    {
+      "active_non_black_raw_colors": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "baseline_internal_color_order": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "baseline_raw_color_list": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "canonicalization_collapse_detected": false,
+      "hidden_query_output_used": false,
+      "induced_internal_color_axis_mapping": {
+        "0": 0,
+        "1": 2,
+        "2": 3,
+        "3": 4,
+        "4": 5,
+        "5": 6,
+        "6": 7,
+        "7": 8,
+        "8": 9,
+        "9": 1
+      },
+      "induced_internal_color_permutation_is_identity": false,
+      "known_grids_only": true,
+      "raw_mapping": {
+        "0": 0,
+        "1": 2,
+        "2": 3,
+        "3": 4,
+        "4": 5,
+        "5": 6,
+        "6": 7,
+        "7": 8,
+        "8": 9,
+        "9": 1
+      },
+      "status": "C_RAW_VALID_PREFLIGHT",
+      "stratum": "A",
+      "task_id": "929ab4e9",
+      "transformed_internal_color_order": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "transformed_raw_color_list": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "active_non_black_raw_colors": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "baseline_internal_color_order": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "baseline_raw_color_list": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "canonicalization_collapse_detected": false,
+      "hidden_query_output_used": false,
+      "induced_internal_color_axis_mapping": {
+        "0": 0,
+        "1": 2,
+        "2": 3,
+        "3": 4,
+        "4": 5,
+        "5": 6,
+        "6": 7,
+        "7": 8,
+        "8": 9,
+        "9": 1
+      },
+      "induced_internal_color_permutation_is_identity": false,
+      "known_grids_only": true,
+      "raw_mapping": {
+        "0": 0,
+        "1": 2,
+        "2": 3,
+        "3": 4,
+        "4": 5,
+        "5": 6,
+        "6": 7,
+        "7": 8,
+        "8": 9,
+        "9": 1
+      },
+      "status": "C_RAW_VALID_PREFLIGHT",
+      "stratum": "B",
+      "task_id": "0dfd9992",
+      "transformed_internal_color_order": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "transformed_raw_color_list": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "active_non_black_raw_colors": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        8,
+        9
+      ],
+      "baseline_internal_color_order": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        8,
+        9
+      ],
+      "baseline_raw_color_list": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        8,
+        9
+      ],
+      "canonicalization_collapse_detected": false,
+      "hidden_query_output_used": false,
+      "induced_internal_color_axis_mapping": {
+        "0": 0,
+        "1": 2,
+        "2": 3,
+        "3": 4,
+        "4": 5,
+        "5": 6,
+        "6": 7,
+        "7": 8,
+        "8": 1
+      },
+      "induced_internal_color_permutation_is_identity": false,
+      "known_grids_only": true,
+      "raw_mapping": {
+        "0": 0,
+        "1": 2,
+        "2": 3,
+        "3": 4,
+        "4": 5,
+        "5": 6,
+        "6": 8,
+        "8": 9,
+        "9": 1
+      },
+      "status": "C_RAW_VALID_PREFLIGHT",
+      "stratum": "B",
+      "task_id": "1c786137",
+      "transformed_internal_color_order": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        8,
+        9
+      ],
+      "transformed_raw_color_list": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        8,
+        9
+      ]
+    },
+    {
+      "active_non_black_raw_colors": [
+        2,
+        3,
+        4,
+        6,
+        7,
+        8,
+        9
+      ],
+      "baseline_internal_color_order": [
+        0,
+        2,
+        3,
+        4,
+        6,
+        7,
+        8,
+        9
+      ],
+      "baseline_raw_color_list": [
+        0,
+        2,
+        3,
+        4,
+        6,
+        7,
+        8,
+        9
+      ],
+      "canonicalization_collapse_detected": false,
+      "hidden_query_output_used": false,
+      "induced_internal_color_axis_mapping": {
+        "0": 0,
+        "1": 2,
+        "2": 3,
+        "3": 4,
+        "4": 5,
+        "5": 6,
+        "6": 7,
+        "7": 1
+      },
+      "induced_internal_color_permutation_is_identity": false,
+      "known_grids_only": true,
+      "raw_mapping": {
+        "0": 0,
+        "2": 3,
+        "3": 4,
+        "4": 6,
+        "6": 7,
+        "7": 8,
+        "8": 9,
+        "9": 2
+      },
+      "status": "C_RAW_VALID_PREFLIGHT",
+      "stratum": "B",
+      "task_id": "1f876c06",
+      "transformed_internal_color_order": [
+        0,
+        2,
+        3,
+        4,
+        6,
+        7,
+        8,
+        9
+      ],
+      "transformed_raw_color_list": [
+        0,
+        2,
+        3,
+        4,
+        6,
+        7,
+        8,
+        9
+      ]
+    }
+  ]
+}

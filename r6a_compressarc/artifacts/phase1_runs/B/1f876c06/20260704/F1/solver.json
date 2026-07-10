@@ -1,0 +1,630 @@
+{
+  "actual_step_count": 1500,
+  "condition": "F1",
+  "experiment": "R6A_PHASE1_MULTIREPEAT_PAIRING_AUDIT",
+  "failure": null,
+  "final_KL_term": 263.78204345703125,
+  "final_objective": 271.20648193359375,
+  "final_prediction_hash": "814c48d2871ec499a283927889bda992d89149c9d6561d179b8aa3560c2461c1",
+  "final_reconstruction_term": 0.7424453496932983,
+  "final_regularization_terms": {},
+  "gpu_metadata": {
+    "cmd": [
+      "nvidia-smi",
+      "--query-gpu=name,temperature.gpu,clocks.sm,clocks.mem,pstate,power.draw",
+      "--format=csv,noheader,nounits"
+    ],
+    "returncode": 0,
+    "stdout": "NVIDIA GeForce RTX 4070 Ti SUPER, 40, 2775, 10451, P2, 61.70"
+  },
+  "initial_model_hash_loaded": "b6fd2d4d48046e5147c9d3a5800e11442d17f11fc1ac6ca3591c4b987283db48",
+  "initial_optimizer_hash_loaded": "303dfc88384552ee65180297eee2929b9103e91ba38ee03e5a6c10ac4237b9d5",
+  "initialization_artifact": "/mnt/d/VRM/r6a_compressarc/artifacts/phase1_initializations/1f876c06/20260704/initialization.pt",
+  "learning_rate": 0.01,
+  "loaded_initialization_matches_saved": true,
+  "optimizer": {
+    "betas": [
+      0.5,
+      0.9
+    ],
+    "name": "Adam"
+  },
+  "peak_gpu_memory_bytes": 219928576,
+  "predictions": [
+    {
+      "attempt_1": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          3,
+          0,
+          0,
+          9
+        ],
+        [
+          7,
+          0,
+          0,
+          0,
+          0,
+          3,
+          0,
+          0,
+          9,
+          0
+        ],
+        [
+          0,
+          7,
+          0,
+          0,
+          3,
+          0,
+          0,
+          9,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          7,
+          3,
+          0,
+          0,
+          9,
+          0,
+          0,
+          0
+        ],
+        [
+          6,
+          0,
+          0,
+          7,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          6,
+          0,
+          0,
+          7,
+          0,
+          0,
+          0,
+          0,
+          4
+        ],
+        [
+          0,
+          0,
+          6,
+          0,
+          0,
+          7,
+          0,
+          0,
+          4,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          6,
+          0,
+          0,
+          7,
+          4,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          4,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          4,
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "attempt_2": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          3,
+          0,
+          0,
+          9
+        ],
+        [
+          7,
+          0,
+          0,
+          0,
+          0,
+          3,
+          0,
+          0,
+          9,
+          0
+        ],
+        [
+          0,
+          7,
+          0,
+          0,
+          3,
+          0,
+          0,
+          9,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          7,
+          3,
+          0,
+          0,
+          9,
+          0,
+          0,
+          0
+        ],
+        [
+          6,
+          0,
+          0,
+          7,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          6,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          4
+        ],
+        [
+          0,
+          0,
+          6,
+          0,
+          0,
+          0,
+          0,
+          0,
+          4,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          6,
+          0,
+          0,
+          7,
+          4,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          4,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          4,
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ],
+  "probability_capture": {
+    "checkpoint_count": 100,
+    "checkpoint_steps": [
+      1401,
+      1402,
+      1403,
+      1404,
+      1405,
+      1406,
+      1407,
+      1408,
+      1409,
+      1410,
+      1411,
+      1412,
+      1413,
+      1414,
+      1415,
+      1416,
+      1417,
+      1418,
+      1419,
+      1420,
+      1421,
+      1422,
+      1423,
+      1424,
+      1425,
+      1426,
+      1427,
+      1428,
+      1429,
+      1430,
+      1431,
+      1432,
+      1433,
+      1434,
+      1435,
+      1436,
+      1437,
+      1438,
+      1439,
+      1440,
+      1441,
+      1442,
+      1443,
+      1444,
+      1445,
+      1446,
+      1447,
+      1448,
+      1449,
+      1450,
+      1451,
+      1452,
+      1453,
+      1454,
+      1455,
+      1456,
+      1457,
+      1458,
+      1459,
+      1460,
+      1461,
+      1462,
+      1463,
+      1464,
+      1465,
+      1466,
+      1467,
+      1468,
+      1469,
+      1470,
+      1471,
+      1472,
+      1473,
+      1474,
+      1475,
+      1476,
+      1477,
+      1478,
+      1479,
+      1480,
+      1481,
+      1482,
+      1483,
+      1484,
+      1485,
+      1486,
+      1487,
+      1488,
+      1489,
+      1490,
+      1491,
+      1492,
+      1493,
+      1494,
+      1495,
+      1496,
+      1497,
+      1498,
+      1499,
+      1500
+    ],
+    "shape": [
+      100,
+      30,
+      30,
+      10
+    ],
+    "uses_hidden_target": false
+  },
+  "probability_npz": "/mnt/d/VRM/r6a_compressarc/artifacts/phase1_runs/B/1f876c06/20260704/F1/probability.npz",
+  "rng_state_reset_from_initialization_artifact": true,
+  "runtime_seconds": 1484.1973754499923,
+  "saved_initial_model_hash": "b6fd2d4d48046e5147c9d3a5800e11442d17f11fc1ac6ca3591c4b987283db48",
+  "saved_initial_optimizer_hash": "303dfc88384552ee65180297eee2929b9103e91ba38ee03e5a6c10ac4237b9d5",
+  "seed": 20260704,
+  "solver_process_firewall": {
+    "challenge_json_only": true,
+    "denied_solution_paths": [],
+    "solution_argument_present": false
+  },
+  "status": "RUN_COMPLETED",
+  "steps_requested": 1500,
+  "stratum": "B",
+  "structured_log_hash_excluding_wall_clock": "ea22aaca8e66b7b093a2adc78348198048c719ef9b6e247818ef221c32505c41",
+  "support_reconstruction": null,
+  "support_reconstruction_note": "Not recomputed in Phase1 to preserve the no-extra-forward-pass probability-capture discipline; official training-step logs remain unchanged.",
+  "task_id": "1f876c06",
+  "trajectory": [
+    {
+      "loss": 340054.46875,
+      "model_parameter_state_hash": "dd6676eba86079bcb3eba8d0670fc11c5246713c26f31149d184478e054c1f0d",
+      "reconstruction_error": 16004.857421875,
+      "step": 1,
+      "total_KL": 180005.890625
+    },
+    {
+      "loss": 19529.435546875,
+      "model_parameter_state_hash": "243a41c7c0edc138da397cd153a736240fd2083fcdc0ec7abec5482908ca477f",
+      "reconstruction_error": 1143.8369140625,
+      "step": 50,
+      "total_KL": 8091.06591796875
+    },
+    {
+      "loss": 1454.918701171875,
+      "model_parameter_state_hash": "e89cb4064528312fb04d78a2586cf3ffc479607748e2931307de4d787048c8c1",
+      "reconstruction_error": 6.776314735412598,
+      "step": 100,
+      "total_KL": 1387.155517578125
+    },
+    {
+      "loss": 740.4876708984375,
+      "model_parameter_state_hash": "570f9dd0688cb688659775257080a6ae0873eb8be23bf1496c8e92b520626edc",
+      "reconstruction_error": 14.998119354248047,
+      "step": 150,
+      "total_KL": 590.5064697265625
+    },
+    {
+      "loss": 680.4517822265625,
+      "model_parameter_state_hash": "8ac2f633530cb20d9baa38a8077bfdee159734e49e997b65065b72d18e52f9af",
+      "reconstruction_error": 17.33674430847168,
+      "step": 200,
+      "total_KL": 507.0843200683594
+    },
+    {
+      "loss": 455.33154296875,
+      "model_parameter_state_hash": "b1bcb9add06010c76a8b78e8110ec2c89b2c196e811927654ee87d688c4cb3fd",
+      "reconstruction_error": 3.0664498805999756,
+      "step": 250,
+      "total_KL": 424.66705322265625
+    },
+    {
+      "loss": 557.717041015625,
+      "model_parameter_state_hash": "3b665cc003ee8f49ba0e1326b76a6f4f44646f1d11ffedbb105d7a5edfe85348",
+      "reconstruction_error": 6.55036735534668,
+      "step": 300,
+      "total_KL": 492.2133483886719
+    },
+    {
+      "loss": 415.7723693847656,
+      "model_parameter_state_hash": "e7f98100ef151f7815a69d4b64dc471facdf7bd9de67fd2510ba64b275c3f2d2",
+      "reconstruction_error": 0.4552600383758545,
+      "step": 350,
+      "total_KL": 411.2197570800781
+    },
+    {
+      "loss": 443.8725280761719,
+      "model_parameter_state_hash": "3470e646d86f4b97ac82e6374319b153357bfce0d44a89cbe54f5762d0ec91f8",
+      "reconstruction_error": 3.186434030532837,
+      "step": 400,
+      "total_KL": 412.0081787109375
+    },
+    {
+      "loss": 357.8006591796875,
+      "model_parameter_state_hash": "9e4c393e3dd98b9110fb5edfcdc7370c23deb534666abfd445ea2bc7f1d67097",
+      "reconstruction_error": 1.9648189544677734,
+      "step": 450,
+      "total_KL": 338.1524658203125
+    },
+    {
+      "loss": 875.2677612304688,
+      "model_parameter_state_hash": "ab4da21af0faa95ad0e867733ce12ba8f0b9e30756be5b264008c7dc0957d6f8",
+      "reconstruction_error": 47.5892333984375,
+      "step": 500,
+      "total_KL": 399.37542724609375
+    },
+    {
+      "loss": 515.6854248046875,
+      "model_parameter_state_hash": "7ba96a0518426d7415fab44f0373d15e5e4a300dc610fda0955872e10c183444",
+      "reconstruction_error": 10.550166130065918,
+      "step": 550,
+      "total_KL": 410.18377685546875
+    },
+    {
+      "loss": 407.8984375,
+      "model_parameter_state_hash": "7bdc4a6826b8702755dc1ab247aa6b6341b8b6cad83c879fc0763dc2b16d94be",
+      "reconstruction_error": 2.87200665473938,
+      "step": 600,
+      "total_KL": 379.1783752441406
+    },
+    {
+      "loss": 687.7645874023438,
+      "model_parameter_state_hash": "8473e5899614e4891454e2c02d2f3397b4eb5c08f3aa01c3a70d8e9b29ff6b4c",
+      "reconstruction_error": 31.808300018310547,
+      "step": 650,
+      "total_KL": 369.68157958984375
+    },
+    {
+      "loss": 458.4768371582031,
+      "model_parameter_state_hash": "f1d543337ea5f1a71c234b80e7d918fe175776198a2d1e0ff9f47339728efa48",
+      "reconstruction_error": 11.573101043701172,
+      "step": 700,
+      "total_KL": 342.7458190917969
+    },
+    {
+      "loss": 346.09808349609375,
+      "model_parameter_state_hash": "7fc15a88c1e5099fa44bbcdbee825427cf95e70addc87fd7c1d9b55a23fa506e",
+      "reconstruction_error": 0.2791755795478821,
+      "step": 750,
+      "total_KL": 343.30633544921875
+    },
+    {
+      "loss": 441.1077575683594,
+      "model_parameter_state_hash": "a73b951cbcc178f87865aa0c0835bef6433fa0ee7cfcc8570d525f16527f7d25",
+      "reconstruction_error": 6.651357650756836,
+      "step": 800,
+      "total_KL": 374.59417724609375
+    },
+    {
+      "loss": 427.669677734375,
+      "model_parameter_state_hash": "733d25ecdeebc73a85afda9021720797bfd45e8fda62f77abb2c422bdd785fc7",
+      "reconstruction_error": 3.017793893814087,
+      "step": 850,
+      "total_KL": 397.4917297363281
+    },
+    {
+      "loss": 348.4891357421875,
+      "model_parameter_state_hash": "ed879ac761eb7e5e553949d40aadf0f0786809a32bbde68b3abd648af3a349c2",
+      "reconstruction_error": 0.5526459813117981,
+      "step": 900,
+      "total_KL": 342.9626770019531
+    },
+    {
+      "loss": 501.2476501464844,
+      "model_parameter_state_hash": "f8fcf22f45d62c6d0f767cbfc8047f2e15a914183486c8a0406029644d5f9556",
+      "reconstruction_error": 8.360370635986328,
+      "step": 950,
+      "total_KL": 417.6439514160156
+    },
+    {
+      "loss": 369.49981689453125,
+      "model_parameter_state_hash": "17fe20e210a821772f85e3834f44fd1897d79922f52d8dbf02d0eb3a0ca5c76c",
+      "reconstruction_error": 0.6638298034667969,
+      "step": 1000,
+      "total_KL": 362.86151123046875
+    },
+    {
+      "loss": 444.3283996582031,
+      "model_parameter_state_hash": "ba79072b9dc828ba5228b2029b2b112fe9b7e074c5a0391557cb35d3017b3502",
+      "reconstruction_error": 2.150500535964966,
+      "step": 1050,
+      "total_KL": 422.8233947753906
+    },
+    {
+      "loss": 456.5408020019531,
+      "model_parameter_state_hash": "39009bb7d42b94bac26d0de49b5beb935b9e838ab4a8057ac17e74eda31f6c19",
+      "reconstruction_error": 7.833484649658203,
+      "step": 1100,
+      "total_KL": 378.2059631347656
+    },
+    {
+      "loss": 371.26690673828125,
+      "model_parameter_state_hash": "7b9049fa705de8ac66a8ea22e036f39018b3288b800cb63d57cd34937f902af3",
+      "reconstruction_error": 2.964085340499878,
+      "step": 1150,
+      "total_KL": 341.62603759765625
+    },
+    {
+      "loss": 367.8321838378906,
+      "model_parameter_state_hash": "20bc98722e522db61a7c30602932c74b2504b10d3ed40ce40ef540cbc64ca342",
+      "reconstruction_error": 3.1506640911102295,
+      "step": 1200,
+      "total_KL": 336.3255310058594
+    },
+    {
+      "loss": 419.1380310058594,
+      "model_parameter_state_hash": "12a4edaec5e44b762fea0eb556e18c95f897693bc39b161b4042ad12f2b686f7",
+      "reconstruction_error": 9.741971015930176,
+      "step": 1250,
+      "total_KL": 321.71832275390625
+    },
+    {
+      "loss": 363.3348388671875,
+      "model_parameter_state_hash": "9e510074edddff654aa5c26031d94af87bb1612f62eb9be8e5b57fb3a209218c",
+      "reconstruction_error": 3.60575795173645,
+      "step": 1300,
+      "total_KL": 327.2772521972656
+    },
+    {
+      "loss": 452.00665283203125,
+      "model_parameter_state_hash": "42eae942608559ca22c41ab81710c4a94bf46517fd2ce70f954aef8292be488c",
+      "reconstruction_error": 9.944534301757812,
+      "step": 1350,
+      "total_KL": 352.5613098144531
+    },
+    {
+      "loss": 339.45166015625,
+      "model_parameter_state_hash": "4b6720d7ed9738558c001e4acfdb1e2d5dc849543f2c41e100facd9711308878",
+      "reconstruction_error": 0.35705286264419556,
+      "step": 1400,
+      "total_KL": 335.8811340332031
+    },
+    {
+      "loss": 343.9437561035156,
+      "model_parameter_state_hash": "75e6708a45da6a44cba85b139ef16be50b58eff7277edf75439b1e4f59b5fa82",
+      "reconstruction_error": 0.9028722047805786,
+      "step": 1450,
+      "total_KL": 334.9150390625
+    },
+    {
+      "loss": 271.20648193359375,
+      "model_parameter_state_hash": "3712027580584a0aae03618e2e070f559cec0df294c6c67e754c680658470538",
+      "reconstruction_error": 0.7424453496932983,
+      "step": 1500,
+      "total_KL": 263.78204345703125
+    }
+  ]
+}

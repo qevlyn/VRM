@@ -1,0 +1,94 @@
+{
+  "architecture": "VRM V1.1 \u2014 Masked Query Spatial Evidence Rewrite",
+  "average_seconds_per_optimizer_step": 0.3004554446146666,
+  "batch_size": 1,
+  "best_train_hamming_step": 1500,
+  "beta1": 0.9,
+  "beta2": 0.95,
+  "capacity_verdict": "IMPROVED",
+  "checkpoint_steps": [
+    0,
+    50,
+    100,
+    250,
+    500,
+    1000,
+    1500
+  ],
+  "command": "python -m vrm.train --mode v1_1_capacity50 --steps 1500 --batch-size 1 --seed 20260627 --learning-rate 2e-4 --warmup-steps 100 --min-learning-rate 2e-5 --grad-clip-norm 1.0 --shape-loss-weight 0.5",
+  "cuda_available": false,
+  "cuda_device": null,
+  "data_root": "/mnt/d/VRM/arc-prize-2026-arc-agi-2",
+  "determinism": {
+    "cudnn_benchmark": false,
+    "cudnn_deterministic": true,
+    "python_random_seed": 20260627,
+    "torch_cuda_manual_seed_all": null,
+    "torch_deterministic_algorithms": "enabled_warn_only",
+    "torch_manual_seed": 20260627
+  },
+  "device": "cpu",
+  "eval_steps": [
+    0,
+    50,
+    100,
+    250,
+    500,
+    1000,
+    1500
+  ],
+  "grad_clip_norm": 1.0,
+  "learning_rate": 0.0002,
+  "min_learning_rate": 2e-05,
+  "mode": "v1_1_capacity50",
+  "model_config": {
+    "dropout": 0.0,
+    "hidden_size": 128,
+    "max_grid_height": 30,
+    "max_grid_tokens": 900,
+    "max_grid_width": 30,
+    "max_support_pairs": 16,
+    "num_heads": 4,
+    "output_color_count": 10,
+    "pair_encoder_layers": 1,
+    "rewrite_layers": 2,
+    "rewrite_steps": 4,
+    "rule_slots": 32,
+    "shape_classes": 30,
+    "vocab_size": 11
+  },
+  "optimizer": {
+    "betas": [
+      0.9,
+      0.95
+    ],
+    "eps": 1e-08,
+    "lr": 0.0002,
+    "name": "AdamW",
+    "weight_decay": 0.01
+  },
+  "parameter_count": {
+    "total": 1616839,
+    "trainable": 1616839
+  },
+  "prediction_steps": [
+    0,
+    250,
+    1500
+  ],
+  "python_version": "3.14.4 (main, Apr  8 2026, 04:02:31) [GCC 15.2.0]",
+  "run_kind": "full",
+  "seed": 20260627,
+  "shape_loss_weight": 0.5,
+  "stability_verdict": "STABLE",
+  "steps": 1500,
+  "torch_threads": 4,
+  "torch_version": "2.12.1+cpu",
+  "train_episode_count": 156,
+  "training_seconds": 450.68316692199994,
+  "unseen_episode_count": 160,
+  "unseen_verdict": "SIGNAL_PRESENT",
+  "wall_clock_seconds": 450.68316824400006,
+  "warmup_steps": 100,
+  "weight_decay": 0.01
+}

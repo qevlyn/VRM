@@ -1,0 +1,228 @@
+{
+  "created_utc": "2026-07-04T06:38:33Z",
+  "new_file_count": 37,
+  "new_files": [
+    {
+      "mtime_ns": 1783146987021486700,
+      "path": "r6a_compressarc/artifacts/r6a_phase2_two_pass_semantic_boundary_provenance_v11_2/affine_reuse_certificate.json",
+      "sha256": "9a26da0f6f2b6d2aa0254650389637646117b1585374b50590085a97ffac6b77",
+      "size_bytes": 69382
+    },
+    {
+      "mtime_ns": 1783146988935931700,
+      "path": "r6a_compressarc/artifacts/r6a_phase2_two_pass_semantic_boundary_provenance_v11_2/child_summary.json",
+      "sha256": "06c5bb5c23b05974c367939c8452fe5a0b32ec540af1c698b254ad20c841a9a2",
+      "size_bytes": 8244
+    },
+    {
+      "mtime_ns": 1783146987015486600,
+      "path": "r6a_compressarc/artifacts/r6a_phase2_two_pass_semantic_boundary_provenance_v11_2/collision_witness_reuse_certificate.json",
+      "sha256": "dceddedbf3c80c03006eb92720280048ae7ae4ee09b6c73bbff03c0f50fda3e3",
+      "size_bytes": 618442
+    },
+    {
+      "mtime_ns": 1783146986847411000,
+      "path": "r6a_compressarc/artifacts/r6a_phase2_two_pass_semantic_boundary_provenance_v11_2/confirmed_markers.json",
+      "sha256": "750cb1f098cf5cd3dbf9e43c0b60f17a68d3d83187d0546fd48db1f50cffca23",
+      "size_bytes": 6642695
+    },
+    {
+      "mtime_ns": 1783146533261540500,
+      "path": "r6a_compressarc/artifacts/r6a_phase2_two_pass_semantic_boundary_provenance_v11_2/cpu_execution_proof.json",
+      "sha256": "6abed158113b3ba0707abc1c26938348edcf1f98fa79f180839c0e571e17cddf",
+      "size_bytes": 3523
+    },
+    {
+      "mtime_ns": 1783146986933949500,
+      "path": "r6a_compressarc/artifacts/r6a_phase2_two_pass_semantic_boundary_provenance_v11_2/cummax_microtrace.json",
+      "sha256": "39aca46eedb1aa0250bb9da3a04df5baca4a6aa913c6ce8ec60ea632beb5c6fd",
+      "size_bytes": 1920850
+    },
+    {
+      "mtime_ns": 1783146986987970200,
+      "path": "r6a_compressarc/artifacts/r6a_phase2_two_pass_semantic_boundary_provenance_v11_2/decoder_scope_certificate.json",
+      "sha256": "1b399ec5bb3ed16c2488c8e8e0083e5325f45c13cd8551c13b338f94398ec8af",
+      "size_bytes": 52123
+    },
+    {
+      "mtime_ns": 1783146987090016500,
+      "path": "r6a_compressarc/artifacts/r6a_phase2_two_pass_semantic_boundary_provenance_v11_2/final_case_classifications.json",
+      "sha256": "6c284fc660c88f478e981af7ee06ebe5f1c8147bc578c6795897d53d6477b1dd",
+      "size_bytes": 9145022
+    },
+    {
+      "mtime_ns": 1783146987095016200,
+      "path": "r6a_compressarc/artifacts/r6a_phase2_two_pass_semantic_boundary_provenance_v11_2/forbidden_path_certificate.json",
+      "sha256": "48792ba7ecd90e266fecf08755a0d0bd7e3ea96adf4c5d79434a7214af95fae1",
+      "size_bytes": 271
+    },
+    {
+      "mtime_ns": 1783146986794773100,
+      "path": "r6a_compressarc/artifacts/r6a_phase2_two_pass_semantic_boundary_provenance_v11_2/pass1_candidate_markers.json",
+      "sha256": "6416dfadc7486e0f1d4f5cbd535babe0f335fec1c9765f268cefd6e8d6426e5a",
+      "size_bytes": 4697
+    },
+    {
+      "mtime_ns": 1783146986787265200,
+      "path": "r6a_compressarc/artifacts/r6a_phase2_two_pass_semantic_boundary_provenance_v11_2/pass1_event_summary.csv",
+      "sha256": "beaded0571b9f7c1efe51a77bdedb7d33c68593c1d9644f94f18a54c777ddce9",
+      "size_bytes": 6870099
+    },
+    {
+      "mtime_ns": 1783146525641594400,
+      "path": "r6a_compressarc/artifacts/r6a_phase2_two_pass_semantic_boundary_provenance_v11_2/prior_v8_v10_readonly_summary.json",
+      "sha256": "a39a86730ac989e81b15d0cba1776edbe86d3359b93a0ebbefeaf5d96c1d4d53",
+      "size_bytes": 4698
+    },
+    {
+      "mtime_ns": 1783146988925913200,
+      "path": "r6a_compressarc/artifacts/r6a_phase2_two_pass_semantic_boundary_provenance_v11_2/r6a_phase2_two_pass_semantic_boundary_provenance_v11_2_child_stdout.log",
+      "sha256": "c1a79b4dc841417c5b388c0f4d9f793361bd14eb8634d5c1e8a05c0cb1144fb8",
+      "size_bytes": 3977
+    },
+    {
+      "mtime_ns": 1783147111826087900,
+      "path": "r6a_compressarc/artifacts/r6a_phase2_two_pass_semantic_boundary_provenance_v11_2/r6a_phase2_two_pass_semantic_boundary_provenance_v11_2_pytest.txt",
+      "sha256": "3e8c586eecc4fa5e09c97145c312aa0395aba5d5e2c71f0f3c297693123a57c1",
+      "size_bytes": 99
+    },
+    {
+      "mtime_ns": 1783146538191937500,
+      "path": "r6a_compressarc/artifacts/r6a_phase2_two_pass_semantic_boundary_provenance_v11_2/replayed_causal_cones/1f876c06_adjacent_0_1.json",
+      "sha256": "6780ce7c31bf0e66fbf85d454d6a1853d92954867bd08e395c2b684c6234ee8b",
+      "size_bytes": 846440
+    },
+    {
+      "mtime_ns": 1783146543259606100,
+      "path": "r6a_compressarc/artifacts/r6a_phase2_two_pass_semantic_boundary_provenance_v11_2/replayed_causal_cones/1f876c06_adjacent_1_2.json",
+      "sha256": "60c8ac8c6f6adcfedbd53e0f88a576abddfaa0f00d92d2845f0be1427b2203eb",
+      "size_bytes": 846435
+    },
+    {
+      "mtime_ns": 1783146683224350600,
+      "path": "r6a_compressarc/artifacts/r6a_phase2_two_pass_semantic_boundary_provenance_v11_2/replayed_causal_cones/604001fa_adjacent_0_1.json",
+      "sha256": "6625844f2b6763d64ef777bb73ae5e8fb362f8c78c5f418472b83b4f6a6cc64b",
+      "size_bytes": 847243
+    },
+    {
+      "mtime_ns": 1783146823335972000,
+      "path": "r6a_compressarc/artifacts/r6a_phase2_two_pass_semantic_boundary_provenance_v11_2/replayed_causal_cones/604001fa_adjacent_1_2.json",
+      "sha256": "6b0cd06854191d8fdaab9bd5821c71849457818c5617e193d54918c5bc93b16a",
+      "size_bytes": 847868
+    },
+    {
+      "mtime_ns": 1783146982849291800,
+      "path": "r6a_compressarc/artifacts/r6a_phase2_two_pass_semantic_boundary_provenance_v11_2/replayed_causal_cones/604001fa_adjacent_2_3.json",
+      "sha256": "ceb5ee5cf913515d0251152b1ec7ccee3329efc866f2992a781b544f1bbae534",
+      "size_bytes": 847162
+    },
+    {
+      "mtime_ns": 1783146984724084000,
+      "path": "r6a_compressarc/artifacts/r6a_phase2_two_pass_semantic_boundary_provenance_v11_2/replayed_causal_cones/synthetic_uniform_shape_oracle_adjacent_0_1.json",
+      "sha256": "b85d6dd459f6089c854ba79b0e8d15cdd46c7004ac3e14c2916dd95b90a2baad",
+      "size_bytes": 842868
+    },
+    {
+      "mtime_ns": 1783146986665689600,
+      "path": "r6a_compressarc/artifacts/r6a_phase2_two_pass_semantic_boundary_provenance_v11_2/replayed_causal_cones/synthetic_uniform_shape_oracle_adjacent_1_2.json",
+      "sha256": "f26ea316af95efce450c0ae098a3e1c22309c4af8ecf76a6468510e621e71eed",
+      "size_bytes": 843135
+    },
+    {
+      "mtime_ns": 1783146533058460600,
+      "path": "r6a_compressarc/artifacts/r6a_phase2_two_pass_semantic_boundary_provenance_v11_2/scanner_mutation_calibration.json",
+      "sha256": "6e79fdebeda2b91a35ed4d286f3bf084fb47573ad66c801b7d834fce159c0458",
+      "size_bytes": 1753
+    },
+    {
+      "mtime_ns": 1783146533053460000,
+      "path": "r6a_compressarc/artifacts/r6a_phase2_two_pass_semantic_boundary_provenance_v11_2/scanner_transparency_certificate.json",
+      "sha256": "8b96a2fed49fb18b872787b5eb5e8c556a242da9a6f05e6bace555f4e0f91e13",
+      "size_bytes": 1010
+    },
+    {
+      "mtime_ns": 1783146986994480100,
+      "path": "r6a_compressarc/artifacts/r6a_phase2_two_pass_semantic_boundary_provenance_v11_2/selective_numerical_oracle.json",
+      "sha256": "e13102b2c864e7b2fb19aa760955fa795a27529460fd5c739d4210258ca30d66",
+      "size_bytes": 2123
+    },
+    {
+      "mtime_ns": 1783146987005483000,
+      "path": "r6a_compressarc/artifacts/r6a_phase2_two_pass_semantic_boundary_provenance_v11_2/semantic_state_action_reuse_certificate.json",
+      "sha256": "6315e71f144e25a298feb9a3ea0993f5bff0e721d7cd250773778513ae0a2f34",
+      "size_bytes": 2254
+    },
+    {
+      "mtime_ns": 1783146527666739700,
+      "path": "r6a_compressarc/artifacts/r6a_phase2_two_pass_semantic_boundary_provenance_v11_2/static_semantic_boundary_graph.json",
+      "sha256": "cf4206e81930d99cc27c1d834d7a2b10a0fc64be1e5463923e16ff05e37625f0",
+      "size_bytes": 11090
+    },
+    {
+      "mtime_ns": 1783147112667644500,
+      "path": "r6a_compressarc/artifacts/r6a_phase2_two_pass_semantic_boundary_provenance_v11_2/summary.json",
+      "sha256": "7195ffa826578c6852c7e0bf2abe0bec9b5e4f2fca6ad23aa38df91f6960dd61",
+      "size_bytes": 4226
+    },
+    {
+      "mtime_ns": 1783146986901432100,
+      "path": "r6a_compressarc/artifacts/r6a_phase2_two_pass_semantic_boundary_provenance_v11_2/targeted_replay_exact_comparison.json",
+      "sha256": "750cb1f098cf5cd3dbf9e43c0b60f17a68d3d83187d0546fd48db1f50cffca23",
+      "size_bytes": 6642695
+    },
+    {
+      "mtime_ns": 1783146987000480300,
+      "path": "r6a_compressarc/artifacts/r6a_phase2_two_pass_semantic_boundary_provenance_v11_2/task_action_reuse_certificate.json",
+      "sha256": "ceeba75b39266047002cee289cbffb32f01e44875e5bd4ee04c08c28e4ba16c2",
+      "size_bytes": 3773
+    },
+    {
+      "mtime_ns": 1783146527566699000,
+      "path": "r6a_compressarc/manifests/r6a_phase2_two_pass_semantic_boundary_provenance_v11_2/imported_module_provenance.json",
+      "sha256": "ed612acc7bebc73ab274ae582d6d114be900c1dcd0e36a194f81e433f2877876",
+      "size_bytes": 6414
+    },
+    {
+      "mtime_ns": 1783147107168579200,
+      "path": "r6a_compressarc/manifests/r6a_phase2_two_pass_semantic_boundary_provenance_v11_2/integrity_after.json",
+      "sha256": "f2a942f540596b780b2610b0feb34bde451b4513e03ef24289e54d3b389d4ac1",
+      "size_bytes": 347773
+    },
+    {
+      "mtime_ns": 1783146525627587600,
+      "path": "r6a_compressarc/manifests/r6a_phase2_two_pass_semantic_boundary_provenance_v11_2/integrity_before.json",
+      "sha256": "c78fa231ad38d14147f89f71313d0fe500cb2ccc66d427ef3a657bbc58ae82d1",
+      "size_bytes": 413633
+    },
+    {
+      "mtime_ns": 1783147112662642300,
+      "path": "r6a_compressarc/manifests/r6a_phase2_two_pass_semantic_boundary_provenance_v11_2/write_ledger.json",
+      "sha256": "fd0148771c1e7abd9c8e7a0200ad61bd214ff804db0e520848b2456e1c7a4c3f",
+      "size_bytes": 11033
+    },
+    {
+      "mtime_ns": 1783147112198245000,
+      "path": "r6a_compressarc/reports/r6a_phase2_two_pass_semantic_boundary_provenance_v11_2/R6A_PHASE2_TWO_PASS_SEMANTIC_BOUNDARY_CAUSAL_PROVENANCE_V11_2_REPORT.md",
+      "sha256": "e0c55bb2122117f78235f0a43e5c1fb6e35842e229f8b796614a3ffb63ce2ccd",
+      "size_bytes": 19329132
+    },
+    {
+      "mtime_ns": 1783146377120447200,
+      "path": "r6a_compressarc/scripts/r6a_phase2_two_pass_semantic_boundary_provenance_v11_2_child.py",
+      "sha256": "1e93bae445f4de4424ba59866ae4ed2971e3f57bb31bcd1d8d3ceb79e13fd1d9",
+      "size_bytes": 56840
+    },
+    {
+      "mtime_ns": 1783145966235865900,
+      "path": "r6a_compressarc/scripts/r6a_phase2_two_pass_semantic_boundary_provenance_v11_2_run.py",
+      "sha256": "77c745c24613620377a4373607eed38062f2830176f84c78161f0bfb702b23df",
+      "size_bytes": 16537
+    },
+    {
+      "mtime_ns": 1783146382500663500,
+      "path": "r6a_compressarc/tests/test_r6a_phase2_two_pass_semantic_boundary_provenance_v11_2.py",
+      "sha256": "13e9a76f387a120314ef43ed0fa9aa06e2cc7b780011b6c2b3b0c5327ed9b974",
+      "size_bytes": 8148
+    }
+  ]
+}

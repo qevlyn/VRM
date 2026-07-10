@@ -1,0 +1,173 @@
+{
+  "C_V2": {
+    "corpus_manifest_sha256": "a712951a54f0d1c6701024e0c9298d04a6a04a0c8770afc997be61aef8f5c911",
+    "corpus_name": "arc-prize-2026-arc-agi-2",
+    "corpus_root_relative_or_configured_path": "arc-prize-2026-arc-agi-2",
+    "denominator": 1360,
+    "numerator": 0,
+    "rate": 0.0,
+    "task_count": 1360
+  },
+  "C_identity": {
+    "corpus_manifest_sha256": "a712951a54f0d1c6701024e0c9298d04a6a04a0c8770afc997be61aef8f5c911",
+    "corpus_name": "arc-prize-2026-arc-agi-2",
+    "corpus_root_relative_or_configured_path": "arc-prize-2026-arc-agi-2",
+    "denominator": 1360,
+    "numerator": 0,
+    "rate": 0.0,
+    "task_count": 1360
+  },
+  "C_oracle_union_retrospective": {
+    "corpus_manifest_sha256": "a712951a54f0d1c6701024e0c9298d04a6a04a0c8770afc997be61aef8f5c911",
+    "corpus_name": "arc-prize-2026-arc-agi-2",
+    "corpus_root_relative_or_configured_path": "arc-prize-2026-arc-agi-2",
+    "denominator": 1360,
+    "numerator": 0,
+    "rate": 0.0,
+    "task_count": 1360
+  },
+  "C_topology_border_or_enclosed": {
+    "corpus_manifest_sha256": "a712951a54f0d1c6701024e0c9298d04a6a04a0c8770afc997be61aef8f5c911",
+    "corpus_name": "arc-prize-2026-arc-agi-2",
+    "corpus_root_relative_or_configured_path": "arc-prize-2026-arc-agi-2",
+    "denominator": 1360,
+    "numerator": 0,
+    "rate": 0.0,
+    "task_count": 1360
+  },
+  "C_topology_seed_only": {
+    "corpus_manifest_sha256": "a712951a54f0d1c6701024e0c9298d04a6a04a0c8770afc997be61aef8f5c911",
+    "corpus_name": "arc-prize-2026-arc-agi-2",
+    "corpus_root_relative_or_configured_path": "arc-prize-2026-arc-agi-2",
+    "denominator": 1360,
+    "numerator": 0,
+    "rate": 0.0,
+    "task_count": 1360
+  },
+  "C_topology_total": {
+    "corpus_manifest_sha256": "a712951a54f0d1c6701024e0c9298d04a6a04a0c8770afc997be61aef8f5c911",
+    "corpus_name": "arc-prize-2026-arc-agi-2",
+    "corpus_root_relative_or_configured_path": "arc-prize-2026-arc-agi-2",
+    "denominator": 1360,
+    "numerator": 0,
+    "rate": 0.0,
+    "task_count": 1360
+  },
+  "C_unrouted_agreement_union": {
+    "corpus_manifest_sha256": "a712951a54f0d1c6701024e0c9298d04a6a04a0c8770afc997be61aef8f5c911",
+    "corpus_name": "arc-prize-2026-arc-agi-2",
+    "corpus_root_relative_or_configured_path": "arc-prize-2026-arc-agi-2",
+    "denominator": 1360,
+    "numerator": 0,
+    "rate": 0.0,
+    "task_count": 1360
+  },
+  "ORACLE_UNION_RETROSPECTIVE": "analysis_only_not_deployable_routing_evidence",
+  "audit_version": "R5A2D_R1_FROZEN_LIBRARY_ARC_NATIVE_COVERAGE_AUDIT",
+  "corpus_manifest_sha256": "a712951a54f0d1c6701024e0c9298d04a6a04a0c8770afc997be61aef8f5c911",
+  "corpus_name": "arc-prize-2026-arc-agi-2",
+  "corpus_root_relative_or_configured_path": "arc-prize-2026-arc-agi-2",
+  "cross_expert_conflict_count": 0,
+  "profile": {
+    "K = 0: identity baseline only": {
+      "full_support_fit_rate": {
+        "corpus_manifest_sha256": "a712951a54f0d1c6701024e0c9298d04a6a04a0c8770afc997be61aef8f5c911",
+        "corpus_name": "arc-prize-2026-arc-agi-2",
+        "corpus_root_relative_or_configured_path": "arc-prize-2026-arc-agi-2",
+        "denominator": 1360,
+        "numerator": 0,
+        "rate": 0.0,
+        "task_count": 1360
+      },
+      "strict_LOO_validated_rate": {
+        "corpus_manifest_sha256": "a712951a54f0d1c6701024e0c9298d04a6a04a0c8770afc997be61aef8f5c911",
+        "corpus_name": "arc-prize-2026-arc-agi-2",
+        "corpus_root_relative_or_configured_path": "arc-prize-2026-arc-agi-2",
+        "denominator": 1360,
+        "numerator": 0,
+        "rate": 0.0,
+        "task_count": 1360
+      }
+    },
+    "K = 1a: V2 only": {
+      "full_support_fit_rate": {
+        "corpus_manifest_sha256": "a712951a54f0d1c6701024e0c9298d04a6a04a0c8770afc997be61aef8f5c911",
+        "corpus_name": "arc-prize-2026-arc-agi-2",
+        "corpus_root_relative_or_configured_path": "arc-prize-2026-arc-agi-2",
+        "denominator": 1360,
+        "numerator": 0,
+        "rate": 0.0,
+        "task_count": 1360
+      },
+      "strict_LOO_validated_rate": {
+        "corpus_manifest_sha256": "a712951a54f0d1c6701024e0c9298d04a6a04a0c8770afc997be61aef8f5c911",
+        "corpus_name": "arc-prize-2026-arc-agi-2",
+        "corpus_root_relative_or_configured_path": "arc-prize-2026-arc-agi-2",
+        "denominator": 1360,
+        "numerator": 0,
+        "rate": 0.0,
+        "task_count": 1360
+      }
+    },
+    "K = 1b: topology only": {
+      "full_support_fit_rate": {
+        "corpus_manifest_sha256": "a712951a54f0d1c6701024e0c9298d04a6a04a0c8770afc997be61aef8f5c911",
+        "corpus_name": "arc-prize-2026-arc-agi-2",
+        "corpus_root_relative_or_configured_path": "arc-prize-2026-arc-agi-2",
+        "denominator": 1360,
+        "numerator": 0,
+        "rate": 0.0,
+        "task_count": 1360
+      },
+      "strict_LOO_validated_rate": {
+        "corpus_manifest_sha256": "a712951a54f0d1c6701024e0c9298d04a6a04a0c8770afc997be61aef8f5c911",
+        "corpus_name": "arc-prize-2026-arc-agi-2",
+        "corpus_root_relative_or_configured_path": "arc-prize-2026-arc-agi-2",
+        "denominator": 1360,
+        "numerator": 0,
+        "rate": 0.0,
+        "task_count": 1360
+      }
+    },
+    "K = 2: V2 union topology": {
+      "full_support_fit_rate": {
+        "corpus_manifest_sha256": "a712951a54f0d1c6701024e0c9298d04a6a04a0c8770afc997be61aef8f5c911",
+        "corpus_name": "arc-prize-2026-arc-agi-2",
+        "corpus_root_relative_or_configured_path": "arc-prize-2026-arc-agi-2",
+        "denominator": 1360,
+        "numerator": 0,
+        "rate": 0.0,
+        "task_count": 1360
+      },
+      "oracle_union_retrospective_rate": {
+        "corpus_manifest_sha256": "a712951a54f0d1c6701024e0c9298d04a6a04a0c8770afc997be61aef8f5c911",
+        "corpus_name": "arc-prize-2026-arc-agi-2",
+        "corpus_root_relative_or_configured_path": "arc-prize-2026-arc-agi-2",
+        "denominator": 1360,
+        "numerator": 0,
+        "rate": 0.0,
+        "task_count": 1360
+      },
+      "strict_LOO_validated_rate": {
+        "corpus_manifest_sha256": "a712951a54f0d1c6701024e0c9298d04a6a04a0c8770afc997be61aef8f5c911",
+        "corpus_name": "arc-prize-2026-arc-agi-2",
+        "corpus_root_relative_or_configured_path": "arc-prize-2026-arc-agi-2",
+        "denominator": 1360,
+        "numerator": 0,
+        "rate": 0.0,
+        "task_count": 1360
+      },
+      "unrouted_agreement_union_rate": {
+        "corpus_manifest_sha256": "a712951a54f0d1c6701024e0c9298d04a6a04a0c8770afc997be61aef8f5c911",
+        "corpus_name": "arc-prize-2026-arc-agi-2",
+        "corpus_root_relative_or_configured_path": "arc-prize-2026-arc-agi-2",
+        "denominator": 1360,
+        "numerator": 0,
+        "rate": 0.0,
+        "task_count": 1360
+      }
+    }
+  },
+  "profile_name": "two-expert frozen-library coverage profile",
+  "task_count": 1360
+}

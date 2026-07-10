@@ -1,0 +1,31 @@
+{
+  "architecture": "VRM V1.1 \u2014 Masked Query Spatial Evidence Rewrite",
+  "config": {
+    "dropout": 0.0,
+    "hidden_size": 128,
+    "max_grid_height": 30,
+    "max_grid_tokens": 900,
+    "max_grid_width": 30,
+    "max_support_pairs": 16,
+    "num_heads": 4,
+    "output_color_count": 10,
+    "pair_encoder_layers": 1,
+    "rewrite_layers": 2,
+    "rewrite_steps": 4,
+    "rule_slots": 32,
+    "shape_classes": 30,
+    "vocab_size": 11
+  },
+  "forbidden_checkpoint_paths_not_loaded": [
+    "/mnt/d/VRM/checkpoints/vrm_v1_capacity50_step1500.pt",
+    "/mnt/d/VRM/checkpoints/vrm_v1_1_step1500.pt",
+    "/mnt/d/VRM/checkpoints/vrm_v1_1_best_train_hamming.pt"
+  ],
+  "fresh_random_initialization": true,
+  "loaded_checkpoint": false,
+  "loaded_checkpoint_path": null,
+  "parameter_count": {
+    "total": 1616839,
+    "trainable": 1616839
+  }
+}

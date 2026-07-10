@@ -1,0 +1,96 @@
+{
+  "batch_size": 1,
+  "checkpoint_interval": 1000,
+  "command": "/home/quyen/.venvs/vrm/bin/python -m vrm.twin_tasks.run_r5a4a_neural_vrm_arc_preflight --max-steps 12000 --batch-size 1 --device auto --torch-threads 4 --bootstrap-replicates 10000",
+  "commitment_created_before_training": true,
+  "cuda_available": true,
+  "cuda_device": "NVIDIA GeForce RTX 4070 Ti SUPER",
+  "determinism": {
+    "cudnn_benchmark": false,
+    "cudnn_deterministic": true,
+    "seed": 20260701,
+    "torch_deterministic_algorithms": "enabled_warn_only",
+    "torch_threads": 4
+  },
+  "device": "cuda",
+  "initialization_seed": 20260701,
+  "learning_rate_schedule": "100-step warmup then cosine decay to 2e-5 over the declared maximum optimizer steps",
+  "manifest_hashes": {
+    "data_py_sha256": "186f4e2187fa3bff6c1a68fd732b4ad668deaa34497ef8d9af25db2856436316",
+    "full_arc_source_task_manifest_sha256": "abead17750d87d3ef982fc54c54aeddf16b4e7600bfa1cbc56f8c9af956277c3",
+    "metrics_py_sha256": "9226cfbcc9846dfc2605b0c7078b3be2104f0bbc13e9fd5f6a472ed164996618",
+    "model_py_sha256": "250be1be589f6c1e41d0d0aaade9d67d9cb70d4482f2822c8bb7e9e5928821be",
+    "sentinel_manifest_sha256": "7a6f5d12625e36c125d21c7f39101f927a81be3c853e7e47a4d21811ff8f8ac4",
+    "training_pool_manifest_sha256": "b4098c5ad4d7a24a56aafcd73c908c5f9cbd9c1e9e11cc2c0f9124553098453a",
+    "validation_pool_manifest_sha256": "82fc19b04fe29622e85e096c7371ea752d03c5471b026e4be8dbff76bf76fcd1"
+  },
+  "maximum_optimizer_steps": 12000,
+  "metric_definitions": {
+    "cell_accuracy_inside_true_target_rectangle": "target-rectangle correct cells divided by target-rectangle cell count",
+    "color_nll": "negative log likelihood of true colors inside hidden target rectangle",
+    "exact_full_grid_accuracy": "predicted shape equals hidden target shape and all cells inside the hidden target rectangle match",
+    "exact_output_shape_accuracy": "predicted height and width equal hidden target height and width",
+    "height_nll": "cross entropy against hidden target height class after inference",
+    "total_existing_model_loss": "factorized_shape_color_loss with shape_loss_weight 0.5",
+    "width_nll": "cross entropy against hidden target width class after inference"
+  },
+  "model_config": {
+    "dropout": 0.0,
+    "hidden_size": 128,
+    "max_grid_height": 30,
+    "max_grid_tokens": 900,
+    "max_grid_width": 30,
+    "max_support_pairs": 16,
+    "num_heads": 4,
+    "output_color_count": 10,
+    "pair_encoder_layers": 1,
+    "rewrite_layers": 2,
+    "rewrite_steps": 4,
+    "rule_slots": 32,
+    "shape_classes": 30,
+    "vocab_size": 11
+  },
+  "no_id_audit_protocol": "changed external task metadata must leave model input tensors and loss-free outputs byte-identical",
+  "no_query_target_firewall_policy": "hidden target tensors are not included in model_inputs_from_batch and are used only after model inference for loss/metrics",
+  "optimizer_configuration": {
+    "betas": [
+      0.9,
+      0.95
+    ],
+    "grad_clip_norm": 1.0,
+    "learning_rate": 0.0002,
+    "minimum_learning_rate": 2e-05,
+    "name": "AdamW",
+    "source": "existing VRM V1.1 optimizer/loss conventions",
+    "warmup_steps": 100,
+    "weight_decay": 0.01
+  },
+  "python_version": "3.14.4 (main, Apr  8 2026, 04:02:31) [GCC 15.2.0]",
+  "source_hashes": {
+    "vrm/data.py": "186f4e2187fa3bff6c1a68fd732b4ad668deaa34497ef8d9af25db2856436316",
+    "vrm/metrics.py": "9226cfbcc9846dfc2605b0c7078b3be2104f0bbc13e9fd5f6a472ed164996618",
+    "vrm/model.py": "250be1be589f6c1e41d0d0aaade9d67d9cb70d4482f2822c8bb7e9e5928821be",
+    "vrm/twin_tasks/r5a4a_arc_manifest.py": "88ad8f3a8a9d51f2d6a0a5c3aa36d4e5cc95cea91e2b039fa8b40cc6911d8841",
+    "vrm/twin_tasks/r5a4a_neural_vrm_data.py": "c0c83c9fc1ee420089bc2081325935fd95d33663d74fe26f693e82a653df3fed",
+    "vrm/twin_tasks/r5a4a_neural_vrm_eval.py": "cad54d34c461fb13c949d5658fd6619354c3eba35c466d2e33786ad2518db832",
+    "vrm/twin_tasks/r5a4a_neural_vrm_noid_audit.py": "54ef8f98770ef246d1dad18dfc5a0a4beed2790f95e8d214286947386be8424a",
+    "vrm/twin_tasks/r5a4a_neural_vrm_train.py": "0e894c2ad48b6d89be079d02171df4878ddeb74875707d4936fe6485ab0ead8f",
+    "vrm/twin_tasks/run_r5a4a_neural_vrm_arc_preflight.py": "5b27c73c160f7b65e4870bf63e5247673e2dd6260f6878b245b75c0d9ddd6396"
+  },
+  "split_counts": {
+    "sentinel_loo_fold_count": 156,
+    "sentinel_task_count": 48,
+    "training_loo_fold_count": 2876,
+    "training_task_count": 888,
+    "validation_loo_fold_count": 200,
+    "validation_task_count": 64
+  },
+  "support_ablation_definitions": {
+    "TRAINED_PERMUTED_SUPPORT_PAIR_ORDER": "complete support input/output pairs are moved together into deterministic support-pair slots",
+    "TRAINED_QUERY_ONLY": "attempt to set all support evidence mask entries false; if VRM rejects zero valid support keys it is reported unsupported",
+    "TRAINED_ZEROED_SUPPORT_OUTPUTS": "support output color tokens set to color 0 while masks, roles, coordinates, pair indices, support inputs, and query input remain unchanged"
+  },
+  "torch_version": "2.12.1+cu130",
+  "validation_checkpoint_selection_rule": "minimum validation mean_total_loss; sentinel metrics are not computed until selected checkpoint is frozen",
+  "validation_interval": 1000
+}

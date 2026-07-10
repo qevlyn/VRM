@@ -1,0 +1,27 @@
+{
+  "batch_size": 64,
+  "epochs": 20,
+  "learning_rate": 0.0003,
+  "patience": 5,
+  "probe_names": [
+    "P1_QUERY_ONLY",
+    "P2_SUPPORT_INPUT_BAG_ONLY",
+    "P3_SUPPORT_OUTPUT_BAG_ONLY",
+    "P4_UNPAIRED_SUPPORT_BAG",
+    "P5_RELATION_AWARE_PAIRED",
+    "P6_RELATION_AWARE_DERANGED"
+  ],
+  "probe_views": {
+    "P1_QUERY_ONLY": "query + candidates",
+    "P2_SUPPORT_INPUT_BAG_ONLY": "query + candidates + canonical support input bag",
+    "P3_SUPPORT_OUTPUT_BAG_ONLY": "query + candidates + canonical support output bag",
+    "P4_UNPAIRED_SUPPORT_BAG": "query + candidates + canonical input/output bags",
+    "P5_RELATION_AWARE_PAIRED": "query + candidates + coherent support pairs",
+    "P6_RELATION_AWARE_DERANGED": "query + candidates + deranged support pairs"
+  },
+  "seeds": [
+    20260628,
+    20260629,
+    20260630
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "by_group": {
+    "seen_pairs": {
+      "all_cell_color_accuracy": 1.0,
+      "direct_grid_exact_accuracy": 1.0,
+      "episode_count": 14400,
+      "foreground_color_accuracy": 1.0,
+      "hamming_error": 0.0,
+      "mean_max_pointer_probability": 0.2603082060813904,
+      "mean_pointer_entropy": 2.9387238025665283,
+      "pointer_source_position_accuracy": 1.0,
+      "task_context_mean": 0.0033319450449198484,
+      "task_context_norm": 2.309401273727417,
+      "task_context_std": 0.047012709692224035
+    },
+    "singles": {
+      "all_cell_color_accuracy": 1.0,
+      "direct_grid_exact_accuracy": 1.0,
+      "episode_count": 14400,
+      "foreground_color_accuracy": 1.0,
+      "hamming_error": 0.0,
+      "mean_max_pointer_probability": 0.2603082060813904,
+      "mean_pointer_entropy": 2.9387238025665283,
+      "pointer_source_position_accuracy": 1.0,
+      "task_context_mean": 0.0033319450449198484,
+      "task_context_norm": 2.3094012339909873,
+      "task_context_std": 0.04701271219541215
+    }
+  },
+  "by_sequence": {
+    "C": {
+      "all_cell_color_accuracy": 1.0,
+      "direct_grid_exact_accuracy": 1.0,
+      "episode_count": 4800,
+      "foreground_color_accuracy": 1.0,
+      "hamming_error": 0.0,
+      "mean_max_pointer_probability": 0.2603082060813904,
+      "mean_pointer_entropy": 2.9387238025665283,
+      "pointer_source_position_accuracy": 1.0,
+      "task_context_mean": 0.0033319450449198484,
+      "task_context_norm": 2.309401273727417,
+      "task_context_std": 0.047012710973309974
+    },
+    "C->F": {
+      "all_cell_color_accuracy": 1.0,
+      "direct_grid_exact_accuracy": 1.0,
+      "episode_count": 4800,
+      "foreground_color_accuracy": 1.0,
+      "hamming_error": 0.0,
+      "mean_max_pointer_probability": 0.2603082060813904,
+      "mean_pointer_entropy": 2.9387238025665283,
+      "pointer_source_position_accuracy": 1.0,
+      "task_context_mean": 0.0033319450449198484,
+      "task_context_norm": 2.309401273727417,
+      "task_context_std": 0.04701270908117294
+    },
+    "F": {
+      "all_cell_color_accuracy": 1.0,
+      "direct_grid_exact_accuracy": 1.0,
+      "episode_count": 4800,
+      "foreground_color_accuracy": 1.0,
+      "hamming_error": 0.0,
+      "mean_max_pointer_probability": 0.2603082060813904,
+      "mean_pointer_entropy": 2.9387238025665283,
+      "pointer_source_position_accuracy": 1.0,
+      "task_context_mean": 0.0033319450449198484,
+      "task_context_norm": 2.309401273727417,
+      "task_context_std": 0.04701271280646324
+    },
+    "F->T": {
+      "all_cell_color_accuracy": 1.0,
+      "direct_grid_exact_accuracy": 1.0,
+      "episode_count": 4800,
+      "foreground_color_accuracy": 1.0,
+      "hamming_error": 0.0,
+      "mean_max_pointer_probability": 0.2603082060813904,
+      "mean_pointer_entropy": 2.9387238025665283,
+      "pointer_source_position_accuracy": 1.0,
+      "task_context_mean": 0.0033319450449198484,
+      "task_context_norm": 2.309401273727417,
+      "task_context_std": 0.04701271091432621
+    },
+    "T": {
+      "all_cell_color_accuracy": 1.0,
+      "direct_grid_exact_accuracy": 1.0,
+      "episode_count": 4800,
+      "foreground_color_accuracy": 1.0,
+      "hamming_error": 0.0,
+      "mean_max_pointer_probability": 0.2603082060813904,
+      "mean_pointer_entropy": 2.9387238025665283,
+      "pointer_source_position_accuracy": 1.0,
+      "task_context_mean": 0.0033319450449198484,
+      "task_context_norm": 2.3094011545181274,
+      "task_context_std": 0.04701271280646324
+    },
+    "T->C": {
+      "all_cell_color_accuracy": 1.0,
+      "direct_grid_exact_accuracy": 1.0,
+      "episode_count": 4800,
+      "foreground_color_accuracy": 1.0,
+      "hamming_error": 0.0,
+      "mean_max_pointer_probability": 0.2603082060813904,
+      "mean_pointer_entropy": 2.9387238025665283,
+      "pointer_source_position_accuracy": 1.0,
+      "task_context_mean": 0.0033319450449198484,
+      "task_context_norm": 2.309401273727417,
+      "task_context_std": 0.04701270908117294
+    }
+  },
+  "heldout_composition_macro_exact": 0.0,
+  "train_visible_macro_exact": 1.0
+}

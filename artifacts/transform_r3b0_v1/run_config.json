@@ -1,0 +1,15 @@
+{
+  "batch_size": 128,
+  "checkpoint_out": "/mnt/d/VRM/checkpoints/transform_r3b0_v1",
+  "data_out": "/mnt/d/VRM/artifacts/transform_r3b0_v1",
+  "epochs": 10,
+  "experiment": "R3B-0 - Support-Conditioned Learned Transform Expert Baseline",
+  "learning_rate": 0.0003,
+  "mode": "full",
+  "seeds": [
+    20260628,
+    20260629,
+    20260630
+  ],
+  "weight_decay": 0.01
+}

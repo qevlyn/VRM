@@ -1,0 +1,30 @@
+{
+  "architecture": "VRM V1 - Spatial Evidence Rewrite",
+  "config": {
+    "dropout": 0.0,
+    "hidden_size": 128,
+    "max_grid_height": 30,
+    "max_grid_tokens": 900,
+    "max_grid_width": 30,
+    "max_support_pairs": 16,
+    "num_heads": 4,
+    "pair_encoder_layers": 1,
+    "rewrite_layers": 2,
+    "rewrite_steps": 4,
+    "rule_slots": 32,
+    "vocab_size": 11
+  },
+  "forbidden_checkpoint_paths_not_loaded": [
+    "/mnt/d/VRM/checkpoints/smoke.pt",
+    "/mnt/d/VRM/checkpoints/overfit.pt",
+    "/mnt/d/VRM/checkpoints/capacity4_step1500.pt",
+    "/mnt/d/VRM/checkpoints/capacity50_step1500.pt"
+  ],
+  "fresh_random_initialization": true,
+  "loaded_checkpoint": false,
+  "loaded_checkpoint_path": null,
+  "parameter_count": {
+    "total": 1608844,
+    "trainable": 1608844
+  }
+}

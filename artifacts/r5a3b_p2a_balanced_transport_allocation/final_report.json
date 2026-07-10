@@ -1,0 +1,238 @@
+{
+  "Measured facts": {
+    "allocation_exposure_gate_status": "PASS",
+    "primary_metrics": {
+      "delta_recall_at_128_all": 0.0,
+      "delta_recall_at_128_multi_object": 0.0,
+      "delta_relation_only_hits": 0,
+      "top_16_hit_change": 0.0,
+      "top_1_hit_change": 0.0,
+      "top_4_hit_change": 0.0
+    },
+    "recall": {
+      "P0_SHALLOW_RELATION_REPLAY": {
+        "all": {
+          "Recall@1": {
+            "denominator": 100,
+            "numerator": 2,
+            "rate": 0.02
+          },
+          "Recall@128": {
+            "denominator": 100,
+            "numerator": 2,
+            "rate": 0.02
+          },
+          "Recall@16": {
+            "denominator": 100,
+            "numerator": 2,
+            "rate": 0.02
+          },
+          "Recall@4": {
+            "denominator": 100,
+            "numerator": 2,
+            "rate": 0.02
+          },
+          "Recall@64": {
+            "denominator": 100,
+            "numerator": 2,
+            "rate": 0.02
+          },
+          "mean_target_rank_when_target_exists": 1.0,
+          "median_target_rank_when_target_exists": 1.0
+        },
+        "multi_object": {
+          "Recall@1": {
+            "denominator": 82,
+            "numerator": 2,
+            "rate": 0.024390243902439025
+          },
+          "Recall@128": {
+            "denominator": 82,
+            "numerator": 2,
+            "rate": 0.024390243902439025
+          },
+          "Recall@16": {
+            "denominator": 82,
+            "numerator": 2,
+            "rate": 0.024390243902439025
+          },
+          "Recall@4": {
+            "denominator": 82,
+            "numerator": 2,
+            "rate": 0.024390243902439025
+          },
+          "Recall@64": {
+            "denominator": 82,
+            "numerator": 2,
+            "rate": 0.024390243902439025
+          },
+          "mean_target_rank_when_target_exists": 1.0,
+          "median_target_rank_when_target_exists": 1.0
+        },
+        "one_object": {
+          "Recall@1": {
+            "denominator": 18,
+            "numerator": 0,
+            "rate": 0.0
+          },
+          "Recall@128": {
+            "denominator": 18,
+            "numerator": 0,
+            "rate": 0.0
+          },
+          "Recall@16": {
+            "denominator": 18,
+            "numerator": 0,
+            "rate": 0.0
+          },
+          "Recall@4": {
+            "denominator": 18,
+            "numerator": 0,
+            "rate": 0.0
+          },
+          "Recall@64": {
+            "denominator": 18,
+            "numerator": 0,
+            "rate": 0.0
+          },
+          "mean_target_rank_when_target_exists": null,
+          "median_target_rank_when_target_exists": null
+        }
+      },
+      "P2A_BALANCED_TRANSPORT_RELATION": {
+        "all": {
+          "Recall@1": {
+            "denominator": 100,
+            "numerator": 2,
+            "rate": 0.02
+          },
+          "Recall@128": {
+            "denominator": 100,
+            "numerator": 2,
+            "rate": 0.02
+          },
+          "Recall@16": {
+            "denominator": 100,
+            "numerator": 2,
+            "rate": 0.02
+          },
+          "Recall@4": {
+            "denominator": 100,
+            "numerator": 2,
+            "rate": 0.02
+          },
+          "Recall@64": {
+            "denominator": 100,
+            "numerator": 2,
+            "rate": 0.02
+          },
+          "mean_target_rank_when_target_exists": 1.0,
+          "median_target_rank_when_target_exists": 1.0
+        },
+        "multi_object": {
+          "Recall@1": {
+            "denominator": 82,
+            "numerator": 2,
+            "rate": 0.024390243902439025
+          },
+          "Recall@128": {
+            "denominator": 82,
+            "numerator": 2,
+            "rate": 0.024390243902439025
+          },
+          "Recall@16": {
+            "denominator": 82,
+            "numerator": 2,
+            "rate": 0.024390243902439025
+          },
+          "Recall@4": {
+            "denominator": 82,
+            "numerator": 2,
+            "rate": 0.024390243902439025
+          },
+          "Recall@64": {
+            "denominator": 82,
+            "numerator": 2,
+            "rate": 0.024390243902439025
+          },
+          "mean_target_rank_when_target_exists": 1.0,
+          "median_target_rank_when_target_exists": 1.0
+        },
+        "one_object": {
+          "Recall@1": {
+            "denominator": 18,
+            "numerator": 0,
+            "rate": 0.0
+          },
+          "Recall@128": {
+            "denominator": 18,
+            "numerator": 0,
+            "rate": 0.0
+          },
+          "Recall@16": {
+            "denominator": 18,
+            "numerator": 0,
+            "rate": 0.0
+          },
+          "Recall@4": {
+            "denominator": 18,
+            "numerator": 0,
+            "rate": 0.0
+          },
+          "Recall@64": {
+            "denominator": 18,
+            "numerator": 0,
+            "rate": 0.0
+          },
+          "mean_target_rank_when_target_exists": null,
+          "median_target_rank_when_target_exists": null
+        }
+      }
+    },
+    "runtime": {
+      "candidate_generation_seconds": {
+        "count": 100,
+        "max": 216.712751885,
+        "mean": 8.618234924320008,
+        "median": 0.08000037900001189
+      },
+      "microproposals_executed": {
+        "count": 100,
+        "max": 160.0,
+        "mean": 58.6,
+        "median": 40.0
+      },
+      "total_fold_seconds": {
+        "count": 100,
+        "max": 216.71542945099986,
+        "mean": 8.618428098329993,
+        "median": 0.08005414800015842
+      }
+    },
+    "transport_exposure": {
+      "folds_where_transport_action_created_exact_hidden_target_hit": 1,
+      "folds_where_transport_actions_drop_cells_out_of_bounds": 78,
+      "folds_where_transport_actions_have_collisions": 55,
+      "folds_where_transport_actions_only_duplicate_object_outputs": 2,
+      "folds_where_transport_created_relation_only_unique_output": 81,
+      "folds_with_at_least_one_transport_action_emitted": 83,
+      "folds_with_transport_copy_emitted": 83,
+      "folds_with_transport_translate_emitted": 83,
+      "transport_copy_programs_emitted": 150,
+      "transport_translate_programs_emitted": 150
+    }
+  },
+  "Narrowest justified next action": "C. Design a pair-specific edge-binding pilot because vector actions were exposed but global-edge semantics caused collision/bounds failure or no added coverage.",
+  "What P2A does not establish": [
+    "It does not prove pair-specific edge binding is useless.",
+    "It does not prove relation graphs are globally useful or useless.",
+    "It does not prove more selectors in R5A-3A are useful.",
+    "It is not a full-corpus ARC performance result.",
+    "It does not establish the need for a neural controller or TTT."
+  ],
+  "What P2A establishes": [
+    "Vector actions were genuinely exposed under the same final candidate budget.",
+    "Balanced allocation improved or did not improve recall exactly as shown in the measured primary metrics.",
+    "Transport collision and bounds behavior was logged for every emitted transport candidate."
+  ]
+}

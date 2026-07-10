@@ -1,0 +1,265 @@
+{
+  "all_task_vs_cycle_invariant_subset": {
+    "all_task_count": 9,
+    "all_task_median_of_task_medians": 1.147306824206165,
+    "cycle_invariant_median_of_task_medians": 2.1080911905972775,
+    "cycle_invariant_task_count": 5
+  },
+  "analysis_label": "EXPLORATORY_FROZEN_LEDGER_REANALYSIS",
+  "count_with_median_pairing_delta_gt_0": 5,
+  "count_with_median_pairing_delta_gt_noise_delta": 5,
+  "created_utc": "2026-07-04T03:11:18Z",
+  "selected_task_count": 5,
+  "selected_tasks": [
+    {
+      "analysis_label": "EXPLORATORY_FROZEN_LEDGER_REANALYSIS",
+      "directly_reusable_existing_loto": {
+        "mean_delta": 1.3096973172063693,
+        "positive": true,
+        "removed_task_id": "981571dc"
+      },
+      "median_pairing_delta_exceeds_median_noise_delta": true,
+      "seed_rows": [
+        {
+          "F1": 0.02358652407416576,
+          "F2": 0.015397404990663187,
+          "S": 3.6655892964194576,
+          "noise_delta": 0.008189119083502575,
+          "pairing_delta": 3.6460973318870433,
+          "pairing_minus_noise": 3.637908212803541,
+          "seed": 20260702
+        },
+        {
+          "F1": 0.026562889185259207,
+          "F2": 0.021421151179619607,
+          "S": 1.7686642098603684,
+          "noise_delta": 0.0051417380056396,
+          "pairing_delta": 1.744672189677929,
+          "pairing_minus_noise": 1.7395304516722894,
+          "seed": 20260703
+        },
+        {
+          "F1": 0.026127905547972886,
+          "F2": 0.025804698376201644,
+          "S": 4.7895425567491055,
+          "noise_delta": 0.00032320717177124203,
+          "pairing_delta": 4.763576254787019,
+          "pairing_minus_noise": 4.7632530476152475,
+          "seed": 20260704
+        }
+      ],
+      "sign_of_task_level_median_pairing_delta": "positive",
+      "stratum": "A",
+      "structural_lemma_assumptions_and_status": {
+        "grid_size_uncertain_branch_equal_under_s": true,
+        "lemma_assumption_status": "LEMMA_VERIFIED_FOR_TASK",
+        "predicted_query_shape_equal_under_s": true,
+        "s_cycle_invariant": true,
+        "task_masks_equal_under_s": true
+      },
+      "task_id": "981571dc",
+      "task_level_median_noise_delta": 0.0051417380056396,
+      "task_level_median_pairing_delta": 3.6460973318870433
+    },
+    {
+      "analysis_label": "EXPLORATORY_FROZEN_LEDGER_REANALYSIS",
+      "directly_reusable_existing_loto": {
+        "mean_delta": 1.7822279923407105,
+        "positive": true,
+        "removed_task_id": "3ed85e70"
+      },
+      "median_pairing_delta_exceeds_median_noise_delta": true,
+      "seed_rows": [
+        {
+          "F1": 0.1712929061904791,
+          "F2": 0.12325285834176267,
+          "S": 0.9072776678153713,
+          "noise_delta": 0.04804004784871643,
+          "pairing_delta": 0.7600047855492504,
+          "pairing_minus_noise": 0.711964737700534,
+          "seed": 20260702
+        },
+        {
+          "F1": 0.15117536840371001,
+          "F2": 0.13521055783169014,
+          "S": 1.385031524057743,
+          "noise_delta": 0.015964810572019872,
+          "pairing_delta": 1.241838560940043,
+          "pairing_minus_noise": 1.2258737503680233,
+          "seed": 20260703
+        },
+        {
+          "F1": 0.16580473796160933,
+          "F2": 0.15218918127554426,
+          "S": 1.2235392624661576,
+          "noise_delta": 0.013615556686065067,
+          "pairing_delta": 1.064542302847581,
+          "pairing_minus_noise": 1.0509267461615157,
+          "seed": 20260704
+        }
+      ],
+      "sign_of_task_level_median_pairing_delta": "positive",
+      "stratum": "A",
+      "structural_lemma_assumptions_and_status": {
+        "grid_size_uncertain_branch_equal_under_s": true,
+        "lemma_assumption_status": "LEMMA_VERIFIED_FOR_TASK",
+        "predicted_query_shape_equal_under_s": true,
+        "s_cycle_invariant": true,
+        "task_masks_equal_under_s": true
+      },
+      "task_id": "3ed85e70",
+      "task_level_median_noise_delta": 0.015964810572019872,
+      "task_level_median_pairing_delta": 1.064542302847581
+    },
+    {
+      "analysis_label": "EXPLORATORY_FROZEN_LEDGER_REANALYSIS",
+      "directly_reusable_existing_loto": {
+        "mean_delta": 1.2344385366761257,
+        "positive": true,
+        "removed_task_id": "929ab4e9"
+      },
+      "median_pairing_delta_exceeds_median_noise_delta": true,
+      "seed_rows": [
+        {
+          "F1": 0.05299628329230822,
+          "F2": 0.04639276010865653,
+          "S": 0.3721772778800121,
+          "noise_delta": 0.006603523183651684,
+          "pairing_delta": 0.3224827561795297,
+          "pairing_minus_noise": 0.315879232995878,
+          "seed": 20260702
+        },
+        {
+          "F1": 0.03808860083306448,
+          "F2": 0.04982503128365154,
+          "S": 3.139768109684306,
+          "noise_delta": 0.01173643045058706,
+          "pairing_delta": 3.0958112936259483,
+          "pairing_minus_noise": 3.084074863175361,
+          "seed": 20260703
+        },
+        {
+          "F1": 0.05441497288688641,
+          "F2": 0.05828918185162705,
+          "S": 7.921285511869424,
+          "noise_delta": 0.0038742089647406386,
+          "pairing_delta": 7.864933434500168,
+          "pairing_minus_noise": 7.861059225535428,
+          "seed": 20260704
+        }
+      ],
+      "sign_of_task_level_median_pairing_delta": "positive",
+      "stratum": "A",
+      "structural_lemma_assumptions_and_status": {
+        "grid_size_uncertain_branch_equal_under_s": true,
+        "lemma_assumption_status": "LEMMA_VERIFIED_FOR_TASK",
+        "predicted_query_shape_equal_under_s": true,
+        "s_cycle_invariant": true,
+        "task_masks_equal_under_s": true
+      },
+      "task_id": "929ab4e9",
+      "task_level_median_noise_delta": 0.006603523183651684,
+      "task_level_median_pairing_delta": 3.0958112936259483
+    },
+    {
+      "analysis_label": "EXPLORATORY_FROZEN_LEDGER_REANALYSIS",
+      "directly_reusable_existing_loto": {
+        "mean_delta": 1.28663462565961,
+        "positive": true,
+        "removed_task_id": "0dfd9992"
+      },
+      "median_pairing_delta_exceeds_median_noise_delta": true,
+      "seed_rows": [
+        {
+          "F1": 0.0046304657524277775,
+          "F2": 0.0039320165479423946,
+          "S": 2.9627320591263326,
+          "noise_delta": 0.0006984492044853829,
+          "pairing_delta": 2.9584508179761477,
+          "pairing_minus_noise": 2.9577523687716623,
+          "seed": 20260702
+        },
+        {
+          "F1": 0.003422871397891471,
+          "F2": 0.0049428485695890275,
+          "S": 2.112274050581018,
+          "noise_delta": 0.0015199771716975564,
+          "pairing_delta": 2.1080911905972775,
+          "pairing_minus_noise": 2.10657121342558,
+          "seed": 20260703
+        },
+        {
+          "F1": 0.0018093111790617432,
+          "F2": 0.003985025614222388,
+          "S": 0.7926124030838466,
+          "noise_delta": 0.002175714435160645,
+          "pairing_delta": 0.7897152346872045,
+          "pairing_minus_noise": 0.7875395202520439,
+          "seed": 20260704
+        }
+      ],
+      "sign_of_task_level_median_pairing_delta": "positive",
+      "stratum": "B",
+      "structural_lemma_assumptions_and_status": {
+        "grid_size_uncertain_branch_equal_under_s": true,
+        "lemma_assumption_status": "LEMMA_VERIFIED_FOR_TASK",
+        "predicted_query_shape_equal_under_s": true,
+        "s_cycle_invariant": true,
+        "task_masks_equal_under_s": true
+      },
+      "task_id": "0dfd9992",
+      "task_level_median_noise_delta": 0.0015199771716975564,
+      "task_level_median_pairing_delta": 2.1080911905972775
+    },
+    {
+      "analysis_label": "EXPLORATORY_FROZEN_LEDGER_REANALYSIS",
+      "directly_reusable_existing_loto": {
+        "mean_delta": 1.4131180034205755,
+        "positive": true,
+        "removed_task_id": "1f876c06"
+      },
+      "median_pairing_delta_exceeds_median_noise_delta": true,
+      "seed_rows": [
+        {
+          "F1": 0.0256148142187857,
+          "F2": 0.025577118312320336,
+          "S": 1.5164554744146508,
+          "noise_delta": 3.769590646536536e-05,
+          "pairing_delta": 1.4908595081490978,
+          "pairing_minus_noise": 1.4908218122426324,
+          "seed": 20260702
+        },
+        {
+          "F1": 0.031012341895522516,
+          "F2": 0.05035020969652914,
+          "S": 2.2362386701587003,
+          "noise_delta": 0.019337867801006624,
+          "pairing_delta": 2.1955573943626745,
+          "pairing_minus_noise": 2.1762195265616677,
+          "seed": 20260703
+        },
+        {
+          "F1": 0.028679764546209966,
+          "F2": 0.03985146197970247,
+          "S": 1.4452056874460206,
+          "noise_delta": 0.011171697433492504,
+          "pairing_delta": 1.4109400741830644,
+          "pairing_minus_noise": 1.3997683767495719,
+          "seed": 20260704
+        }
+      ],
+      "sign_of_task_level_median_pairing_delta": "positive",
+      "stratum": "B",
+      "structural_lemma_assumptions_and_status": {
+        "grid_size_uncertain_branch_equal_under_s": true,
+        "lemma_assumption_status": "LEMMA_VERIFIED_FOR_TASK",
+        "predicted_query_shape_equal_under_s": true,
+        "s_cycle_invariant": true,
+        "task_masks_equal_under_s": true
+      },
+      "task_id": "1f876c06",
+      "task_level_median_noise_delta": 0.011171697433492504,
+      "task_level_median_pairing_delta": 1.4908595081490978
+    }
+  ]
+}

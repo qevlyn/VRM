@@ -1,0 +1,10 @@
+{
+  "aggregate": {
+    "condition": "TRAINED_QUERY_ONLY",
+    "failure_reason": "QUERY_ONLY_ABLATION_UNSUPPORTED_BY_CURRENT_ARCHITECTURE",
+    "fold_count": 0,
+    "supported": false,
+    "task_count": 48
+  },
+  "per_fold": []
+}

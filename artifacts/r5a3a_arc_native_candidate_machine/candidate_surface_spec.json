@@ -1,0 +1,79 @@
+{
+  "K": [
+    1,
+    4,
+    16,
+    64,
+    128
+  ],
+  "contract": {
+    "grid_height": "1..30",
+    "grid_width": "1..30",
+    "input_output_shapes_may_differ": true,
+    "palette_values": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "query_count": "1..10",
+    "raw_grid_preprocessing_alters_cell_values": false,
+    "support_pair_count": "1..10"
+  },
+  "maximum_scene_hypothesis_count": 1,
+  "name": "R5A-3A ARC-Native Structural Candidate Machine v0",
+  "named_stages": [
+    "A. scene hypotheses",
+    "B. object/region extraction",
+    "C. support-pair delta extraction",
+    "D. structural program enumeration",
+    "E. program execution",
+    "F. visible-support consistency scoring",
+    "G. top-K deduplicated candidate output grids"
+  ],
+  "program_surface": {
+    "K": [
+      1,
+      4,
+      16,
+      64,
+      128
+    ],
+    "maximum_program_depth": 2,
+    "maximum_program_enumeration_count_before_ranking": 8,
+    "render_operator_family": [
+      "same_canvas",
+      "selected_object_bounding_box_canvas",
+      "union_of_selected_objects_bounding_box_canvas"
+    ],
+    "select_operator_family": [
+      "all_objects",
+      "objects_by_color",
+      "largest_object",
+      "smallest_object",
+      "unique_object_by_shape",
+      "unique_object_by_color",
+      "border_touching_objects",
+      "objects_nearest_to_marker"
+    ],
+    "surface_sha256": "28ff7ed9917d0b5c23e5a40cb4767e6fce256d13d889511e2a3c3d4bda61e736",
+    "transform_operator_family": [
+      "keep",
+      "delete",
+      "recolor",
+      "translate_by_inferred_vector",
+      "copy_by_inferred_vector",
+      "rotate_90_180_270",
+      "reflect_horizontal_vertical",
+      "fill_bounding_box",
+      "outline_bounding_box"
+    ]
+  },
+  "spec_sha256": "5e27510b58661f7a28721097e00dd30d5d07dfec0e10e376e81d824511e30e80"
+}

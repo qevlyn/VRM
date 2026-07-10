@@ -1,0 +1,19 @@
+{
+  "case_count": 7,
+  "child_returncode": 0,
+  "child_stdout_tail": "{\n  \"case_count\": 7,\n  \"created_utc\": \"2026-07-04T04:12:55Z\",\n  \"final_labels\": {\n    \"1f876c06_adjacent_0_1\": \"FIRST_DIVERGENCE_AFFINE\",\n    \"1f876c06_adjacent_1_2\": \"FIRST_DIVERGENCE_AFFINE\",\n    \"604001fa_adjacent_0_1\": \"FIRST_DIVERGENCE_AFFINE\",\n    \"604001fa_adjacent_1_2\": \"FIRST_DIVERGENCE_NORMALIZE\",\n    \"604001fa_adjacent_2_3\": \"FIRST_DIVERGENCE_AFFINE\",\n    \"synthetic_uniform_shape_oracle_adjacent_0_1\": \"FIRST_DIVERGENCE_AFFINE\",\n    \"synthetic_uniform_shape_oracle_adjacent_1_2\": \"FIRST_DIVERGENCE_AFFINE\"\n  },\n  \"loss_backward_adam_reached\": false,\n  \"real_case_count\": 5,\n  \"status\": \"CHILD_COMPLETE\",\n  \"synthetic_case_count\": 2\n}\n",
+  "created_utc": "2026-07-04T04:12:55Z",
+  "final_labels": {
+    "1f876c06_adjacent_0_1": "FIRST_DIVERGENCE_AFFINE",
+    "1f876c06_adjacent_1_2": "FIRST_DIVERGENCE_AFFINE",
+    "604001fa_adjacent_0_1": "FIRST_DIVERGENCE_AFFINE",
+    "604001fa_adjacent_1_2": "FIRST_DIVERGENCE_NORMALIZE",
+    "604001fa_adjacent_2_3": "FIRST_DIVERGENCE_AFFINE",
+    "synthetic_uniform_shape_oracle_adjacent_0_1": "FIRST_DIVERGENCE_AFFINE",
+    "synthetic_uniform_shape_oracle_adjacent_1_2": "FIRST_DIVERGENCE_AFFINE"
+  },
+  "loss_backward_adam_reached": false,
+  "real_case_count": 5,
+  "status": "CHILD_COMPLETE",
+  "synthetic_case_count": 2
+}

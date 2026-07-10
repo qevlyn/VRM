@@ -1,0 +1,73 @@
+{
+  "all_rows_sum_to_one_within_1e_6": true,
+  "r4a0r_v2_sealed_balanced_2007": {
+    "20260628": {
+      "dataset_label": "r4a0r_v2_sealed_balanced_2007",
+      "episode_count": 2007,
+      "passed": true,
+      "raw_attention_dtype": "torch.float32",
+      "raw_attention_max": 1.0,
+      "raw_attention_min": 2.8012804749455444e-12,
+      "raw_attention_shape_per_batch": "[batch, 49, 49]",
+      "row_sum_max_abs_deviation": 0.0,
+      "rows_with_abs_deviation_gt_1e_6": 0
+    },
+    "20260629": {
+      "dataset_label": "r4a0r_v2_sealed_balanced_2007",
+      "episode_count": 2007,
+      "passed": true,
+      "raw_attention_dtype": "torch.float32",
+      "raw_attention_max": 1.0,
+      "raw_attention_min": 2.8012804749455444e-12,
+      "raw_attention_shape_per_batch": "[batch, 49, 49]",
+      "row_sum_max_abs_deviation": 0.0,
+      "rows_with_abs_deviation_gt_1e_6": 0
+    },
+    "20260630": {
+      "dataset_label": "r4a0r_v2_sealed_balanced_2007",
+      "episode_count": 2007,
+      "passed": true,
+      "raw_attention_dtype": "torch.float32",
+      "raw_attention_max": 1.0,
+      "raw_attention_min": 2.8012804749455444e-12,
+      "raw_attention_shape_per_batch": "[batch, 49, 49]",
+      "row_sum_max_abs_deviation": 0.0,
+      "rows_with_abs_deviation_gt_1e_6": 0
+    }
+  },
+  "r4a1p_length3_probe_subset_256": {
+    "20260628": {
+      "dataset_label": "r4a1p_length3_probe_subset_256",
+      "episode_count": 256,
+      "passed": true,
+      "raw_attention_dtype": "torch.float32",
+      "raw_attention_max": 1.0,
+      "raw_attention_min": 2.8012804749455444e-12,
+      "raw_attention_shape_per_batch": "[batch, 49, 49]",
+      "row_sum_max_abs_deviation": 0.0,
+      "rows_with_abs_deviation_gt_1e_6": 0
+    },
+    "20260629": {
+      "dataset_label": "r4a1p_length3_probe_subset_256",
+      "episode_count": 256,
+      "passed": true,
+      "raw_attention_dtype": "torch.float32",
+      "raw_attention_max": 1.0,
+      "raw_attention_min": 2.8012804749455444e-12,
+      "raw_attention_shape_per_batch": "[batch, 49, 49]",
+      "row_sum_max_abs_deviation": 0.0,
+      "rows_with_abs_deviation_gt_1e_6": 0
+    },
+    "20260630": {
+      "dataset_label": "r4a1p_length3_probe_subset_256",
+      "episode_count": 256,
+      "passed": true,
+      "raw_attention_dtype": "torch.float32",
+      "raw_attention_max": 1.0,
+      "raw_attention_min": 2.8012804749455444e-12,
+      "raw_attention_shape_per_batch": "[batch, 49, 49]",
+      "row_sum_max_abs_deviation": 0.0,
+      "rows_with_abs_deviation_gt_1e_6": 0
+    }
+  }
+}

@@ -1,0 +1,183 @@
+{
+  "condition": "FULL",
+  "evaluator_process_loaded_solution": true,
+  "metrics": {
+    "all_cell_accuracy": 0.125,
+    "changed_cell_macro_accuracy": 0.07692307692307693,
+    "changed_cell_pooled_accuracy": 0.07692307692307693,
+    "exact_grid_match": false,
+    "output_shape_exact_match": true,
+    "rows": [
+      {
+        "all_cell_accuracy": 0.125,
+        "changed_cell_accuracy": 0.07692307692307693,
+        "changed_cell_count": 13,
+        "changed_cell_entries": [
+          {
+            "col": 0,
+            "correct": false,
+            "predicted_color": 1,
+            "query_color": 9,
+            "row": 0,
+            "target_color": 4
+          },
+          {
+            "col": 1,
+            "correct": false,
+            "predicted_color": 1,
+            "query_color": 9,
+            "row": 0,
+            "target_color": 7
+          },
+          {
+            "col": 2,
+            "correct": false,
+            "predicted_color": 9,
+            "query_color": 2,
+            "row": 0,
+            "target_color": 1
+          },
+          {
+            "col": 0,
+            "correct": false,
+            "predicted_color": 7,
+            "query_color": 9,
+            "row": 1,
+            "target_color": 6
+          },
+          {
+            "col": 1,
+            "correct": false,
+            "predicted_color": 9,
+            "query_color": 2,
+            "row": 1,
+            "target_color": 7
+          },
+          {
+            "col": 2,
+            "correct": false,
+            "predicted_color": 9,
+            "query_color": 9,
+            "row": 1,
+            "target_color": 1
+          },
+          {
+            "col": 3,
+            "correct": false,
+            "predicted_color": 1,
+            "query_color": 1,
+            "row": 1,
+            "target_color": 5
+          },
+          {
+            "col": 0,
+            "correct": false,
+            "predicted_color": 1,
+            "query_color": 2,
+            "row": 2,
+            "target_color": 4
+          },
+          {
+            "col": 1,
+            "correct": true,
+            "predicted_color": 7,
+            "query_color": 9,
+            "row": 2,
+            "target_color": 7
+          },
+          {
+            "col": 2,
+            "correct": false,
+            "predicted_color": 9,
+            "query_color": 1,
+            "row": 2,
+            "target_color": 5
+          },
+          {
+            "col": 0,
+            "correct": false,
+            "predicted_color": 7,
+            "query_color": 9,
+            "row": 3,
+            "target_color": 5
+          },
+          {
+            "col": 2,
+            "correct": false,
+            "predicted_color": 9,
+            "query_color": 1,
+            "row": 3,
+            "target_color": 7
+          },
+          {
+            "col": 3,
+            "correct": false,
+            "predicted_color": 1,
+            "query_color": 5,
+            "row": 3,
+            "target_color": 7
+          }
+        ],
+        "changed_cell_loss_or_nll": null,
+        "exact_grid_match": false,
+        "output_shape_exact_match": true,
+        "predicted_grid": [
+          [
+            1,
+            1,
+            9,
+            1
+          ],
+          [
+            7,
+            9,
+            9,
+            1
+          ],
+          [
+            1,
+            7,
+            9,
+            4
+          ],
+          [
+            7,
+            1,
+            9,
+            1
+          ]
+        ],
+        "target_grid": [
+          [
+            4,
+            7,
+            1,
+            9
+          ],
+          [
+            6,
+            7,
+            1,
+            5
+          ],
+          [
+            4,
+            7,
+            5,
+            1
+          ],
+          [
+            5,
+            1,
+            7,
+            7
+          ]
+        ],
+        "test_index": 0
+      }
+    ],
+    "total_changed_cells": 13
+  },
+  "solver_process_loaded_solution": false,
+  "task_id": "67b4a34d"
+}

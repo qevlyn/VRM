@@ -1,0 +1,83 @@
+{
+  "all_required_fields_match": true,
+  "allowed_differences": [
+    "epoch-based sampler without replacement",
+    "total scheduler horizon derived from full epochs",
+    "new artifact/checkpoint paths",
+    "additional diagnostic metrics"
+  ],
+  "fields": {
+    "adamw_betas": {
+      "epoch_baseline_v1": [
+        0.9,
+        0.95
+      ],
+      "matches": true,
+      "twin_probe_v0": [
+        0.9,
+        0.95
+      ]
+    },
+    "dropout": {
+      "epoch_baseline_v1": 0.0,
+      "matches": true,
+      "twin_probe_v0": 0.0
+    },
+    "gradient_clip_norm": {
+      "epoch_baseline_v1": 1.0,
+      "matches": true,
+      "twin_probe_v0": 1.0
+    },
+    "hidden_size": {
+      "epoch_baseline_v1": 128,
+      "matches": true,
+      "twin_probe_v0": 128
+    },
+    "minimum_learning_rate": {
+      "epoch_baseline_v1": 2e-05,
+      "matches": true,
+      "twin_probe_v0": 2e-05
+    },
+    "num_heads": {
+      "epoch_baseline_v1": 4,
+      "matches": true,
+      "twin_probe_v0": 4
+    },
+    "optimizer_type": {
+      "epoch_baseline_v1": "AdamW",
+      "matches": true,
+      "twin_probe_v0": "AdamW"
+    },
+    "pair_encoder_layers": {
+      "epoch_baseline_v1": 1,
+      "matches": true,
+      "twin_probe_v0": 1
+    },
+    "peak_learning_rate": {
+      "epoch_baseline_v1": 0.0002,
+      "matches": true,
+      "twin_probe_v0": 0.0002
+    },
+    "rewrite_layers": {
+      "epoch_baseline_v1": 2,
+      "matches": true,
+      "twin_probe_v0": 2
+    },
+    "rewrite_steps": {
+      "epoch_baseline_v1": 4,
+      "matches": true,
+      "twin_probe_v0": 4
+    },
+    "rule_slots": {
+      "epoch_baseline_v1": 32,
+      "matches": true,
+      "twin_probe_v0": 32
+    },
+    "weight_decay": {
+      "epoch_baseline_v1": 0.01,
+      "matches": true,
+      "twin_probe_v0": 0.01
+    }
+  },
+  "source_config": "/mnt/d/VRM/artifacts/twin_vrm_probe_v0/probe_config.json"
+}

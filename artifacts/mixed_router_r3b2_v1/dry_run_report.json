@@ -1,0 +1,75 @@
+{
+  "compatibility_passed": true,
+  "coverage": {
+    "20260628": [
+      {
+        "duplicates": 0,
+        "epoch_index": 0,
+        "full_coverage": false,
+        "missing": "dry_run_partial",
+        "observed": 512,
+        "seed": 20260628,
+        "unique": 512
+      }
+    ],
+    "20260629": [
+      {
+        "duplicates": 0,
+        "epoch_index": 0,
+        "full_coverage": false,
+        "missing": "dry_run_partial",
+        "observed": 512,
+        "seed": 20260629,
+        "unique": 512
+      }
+    ],
+    "20260630": [
+      {
+        "duplicates": 0,
+        "epoch_index": 0,
+        "full_coverage": false,
+        "missing": "dry_run_partial",
+        "observed": 512,
+        "seed": 20260630,
+        "unique": 512
+      }
+    ]
+  },
+  "gradient_isolation": {
+    "20260628": {
+      "expert_grad_norm": 0.0,
+      "expert_grad_zero": true,
+      "gate_grad_nonzero": true,
+      "gate_grad_norm": 0.023244752476787044,
+      "loss": 0.10473234951496124,
+      "reader_parameters_require_grad_false": true,
+      "transform_parameters_require_grad_false": true
+    },
+    "20260629": {
+      "expert_grad_norm": 0.0,
+      "expert_grad_zero": true,
+      "gate_grad_nonzero": true,
+      "gate_grad_norm": 0.024566886871619783,
+      "loss": 0.10700410604476929,
+      "reader_parameters_require_grad_false": true,
+      "transform_parameters_require_grad_false": true
+    },
+    "20260630": {
+      "expert_grad_norm": 0.0,
+      "expert_grad_zero": true,
+      "gate_grad_nonzero": true,
+      "gate_grad_norm": 0.023323802353366025,
+      "loss": 0.10474109649658203,
+      "reader_parameters_require_grad_false": true,
+      "transform_parameters_require_grad_false": true
+    }
+  },
+  "max_batches": 4,
+  "mode": "dry_run",
+  "seeds": [
+    20260628,
+    20260629,
+    20260630
+  ],
+  "source_protection_hashes_unchanged": true
+}

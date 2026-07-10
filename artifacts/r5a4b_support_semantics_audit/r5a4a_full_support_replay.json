@@ -1,0 +1,34 @@
+{
+  "comparisons": {
+    "cell_accuracy_inside_true_target_rectangle": [
+      0.7241114804397852,
+      0.7241114804397852
+    ],
+    "exact_full_grid_accuracy": [
+      0.0,
+      0.0
+    ],
+    "exact_output_shape_accuracy": [
+      0.6666666666666666,
+      0.6666666666666666
+    ],
+    "fold_count": [
+      156,
+      156
+    ],
+    "mean_color_negative_log_likelihood_inside_true_target_rectangle": [
+      0.9794272973369329,
+      0.9794272973369329
+    ],
+    "mean_total_existing_model_loss": [
+      1.4398538131171312,
+      1.4398538131171312
+    ],
+    "task_count": [
+      48,
+      48
+    ]
+  },
+  "failures": [],
+  "status": "R5A4A_FULL_SUPPORT_REPLAY_PASS"
+}

@@ -1,0 +1,613 @@
+{
+  "audit_version": "R5A2D_R1_FROZEN_LIBRARY_ARC_NATIVE_COVERAGE_AUDIT",
+  "corpus_manifest_sha256": "a712951a54f0d1c6701024e0c9298d04a6a04a0c8770afc997be61aef8f5c911",
+  "corpus_name": "arc-prize-2026-arc-agi-2",
+  "corpus_root_relative_or_configured_path": "arc-prize-2026-arc-agi-2",
+  "coverage_profile": {
+    "C_V2": {
+      "corpus_manifest_sha256": "a712951a54f0d1c6701024e0c9298d04a6a04a0c8770afc997be61aef8f5c911",
+      "corpus_name": "arc-prize-2026-arc-agi-2",
+      "corpus_root_relative_or_configured_path": "arc-prize-2026-arc-agi-2",
+      "denominator": 1360,
+      "numerator": 0,
+      "rate": 0.0,
+      "task_count": 1360
+    },
+    "C_identity": {
+      "corpus_manifest_sha256": "a712951a54f0d1c6701024e0c9298d04a6a04a0c8770afc997be61aef8f5c911",
+      "corpus_name": "arc-prize-2026-arc-agi-2",
+      "corpus_root_relative_or_configured_path": "arc-prize-2026-arc-agi-2",
+      "denominator": 1360,
+      "numerator": 0,
+      "rate": 0.0,
+      "task_count": 1360
+    },
+    "C_oracle_union_retrospective": {
+      "corpus_manifest_sha256": "a712951a54f0d1c6701024e0c9298d04a6a04a0c8770afc997be61aef8f5c911",
+      "corpus_name": "arc-prize-2026-arc-agi-2",
+      "corpus_root_relative_or_configured_path": "arc-prize-2026-arc-agi-2",
+      "denominator": 1360,
+      "numerator": 0,
+      "rate": 0.0,
+      "task_count": 1360
+    },
+    "C_topology_border_or_enclosed": {
+      "corpus_manifest_sha256": "a712951a54f0d1c6701024e0c9298d04a6a04a0c8770afc997be61aef8f5c911",
+      "corpus_name": "arc-prize-2026-arc-agi-2",
+      "corpus_root_relative_or_configured_path": "arc-prize-2026-arc-agi-2",
+      "denominator": 1360,
+      "numerator": 0,
+      "rate": 0.0,
+      "task_count": 1360
+    },
+    "C_topology_seed_only": {
+      "corpus_manifest_sha256": "a712951a54f0d1c6701024e0c9298d04a6a04a0c8770afc997be61aef8f5c911",
+      "corpus_name": "arc-prize-2026-arc-agi-2",
+      "corpus_root_relative_or_configured_path": "arc-prize-2026-arc-agi-2",
+      "denominator": 1360,
+      "numerator": 0,
+      "rate": 0.0,
+      "task_count": 1360
+    },
+    "C_topology_total": {
+      "corpus_manifest_sha256": "a712951a54f0d1c6701024e0c9298d04a6a04a0c8770afc997be61aef8f5c911",
+      "corpus_name": "arc-prize-2026-arc-agi-2",
+      "corpus_root_relative_or_configured_path": "arc-prize-2026-arc-agi-2",
+      "denominator": 1360,
+      "numerator": 0,
+      "rate": 0.0,
+      "task_count": 1360
+    },
+    "C_unrouted_agreement_union": {
+      "corpus_manifest_sha256": "a712951a54f0d1c6701024e0c9298d04a6a04a0c8770afc997be61aef8f5c911",
+      "corpus_name": "arc-prize-2026-arc-agi-2",
+      "corpus_root_relative_or_configured_path": "arc-prize-2026-arc-agi-2",
+      "denominator": 1360,
+      "numerator": 0,
+      "rate": 0.0,
+      "task_count": 1360
+    },
+    "ORACLE_UNION_RETROSPECTIVE": "analysis_only_not_deployable_routing_evidence",
+    "audit_version": "R5A2D_R1_FROZEN_LIBRARY_ARC_NATIVE_COVERAGE_AUDIT",
+    "corpus_manifest_sha256": "a712951a54f0d1c6701024e0c9298d04a6a04a0c8770afc997be61aef8f5c911",
+    "corpus_name": "arc-prize-2026-arc-agi-2",
+    "corpus_root_relative_or_configured_path": "arc-prize-2026-arc-agi-2",
+    "cross_expert_conflict_count": 0,
+    "profile": {
+      "K = 0: identity baseline only": {
+        "full_support_fit_rate": {
+          "corpus_manifest_sha256": "a712951a54f0d1c6701024e0c9298d04a6a04a0c8770afc997be61aef8f5c911",
+          "corpus_name": "arc-prize-2026-arc-agi-2",
+          "corpus_root_relative_or_configured_path": "arc-prize-2026-arc-agi-2",
+          "denominator": 1360,
+          "numerator": 0,
+          "rate": 0.0,
+          "task_count": 1360
+        },
+        "strict_LOO_validated_rate": {
+          "corpus_manifest_sha256": "a712951a54f0d1c6701024e0c9298d04a6a04a0c8770afc997be61aef8f5c911",
+          "corpus_name": "arc-prize-2026-arc-agi-2",
+          "corpus_root_relative_or_configured_path": "arc-prize-2026-arc-agi-2",
+          "denominator": 1360,
+          "numerator": 0,
+          "rate": 0.0,
+          "task_count": 1360
+        }
+      },
+      "K = 1a: V2 only": {
+        "full_support_fit_rate": {
+          "corpus_manifest_sha256": "a712951a54f0d1c6701024e0c9298d04a6a04a0c8770afc997be61aef8f5c911",
+          "corpus_name": "arc-prize-2026-arc-agi-2",
+          "corpus_root_relative_or_configured_path": "arc-prize-2026-arc-agi-2",
+          "denominator": 1360,
+          "numerator": 0,
+          "rate": 0.0,
+          "task_count": 1360
+        },
+        "strict_LOO_validated_rate": {
+          "corpus_manifest_sha256": "a712951a54f0d1c6701024e0c9298d04a6a04a0c8770afc997be61aef8f5c911",
+          "corpus_name": "arc-prize-2026-arc-agi-2",
+          "corpus_root_relative_or_configured_path": "arc-prize-2026-arc-agi-2",
+          "denominator": 1360,
+          "numerator": 0,
+          "rate": 0.0,
+          "task_count": 1360
+        }
+      },
+      "K = 1b: topology only": {
+        "full_support_fit_rate": {
+          "corpus_manifest_sha256": "a712951a54f0d1c6701024e0c9298d04a6a04a0c8770afc997be61aef8f5c911",
+          "corpus_name": "arc-prize-2026-arc-agi-2",
+          "corpus_root_relative_or_configured_path": "arc-prize-2026-arc-agi-2",
+          "denominator": 1360,
+          "numerator": 0,
+          "rate": 0.0,
+          "task_count": 1360
+        },
+        "strict_LOO_validated_rate": {
+          "corpus_manifest_sha256": "a712951a54f0d1c6701024e0c9298d04a6a04a0c8770afc997be61aef8f5c911",
+          "corpus_name": "arc-prize-2026-arc-agi-2",
+          "corpus_root_relative_or_configured_path": "arc-prize-2026-arc-agi-2",
+          "denominator": 1360,
+          "numerator": 0,
+          "rate": 0.0,
+          "task_count": 1360
+        }
+      },
+      "K = 2: V2 union topology": {
+        "full_support_fit_rate": {
+          "corpus_manifest_sha256": "a712951a54f0d1c6701024e0c9298d04a6a04a0c8770afc997be61aef8f5c911",
+          "corpus_name": "arc-prize-2026-arc-agi-2",
+          "corpus_root_relative_or_configured_path": "arc-prize-2026-arc-agi-2",
+          "denominator": 1360,
+          "numerator": 0,
+          "rate": 0.0,
+          "task_count": 1360
+        },
+        "oracle_union_retrospective_rate": {
+          "corpus_manifest_sha256": "a712951a54f0d1c6701024e0c9298d04a6a04a0c8770afc997be61aef8f5c911",
+          "corpus_name": "arc-prize-2026-arc-agi-2",
+          "corpus_root_relative_or_configured_path": "arc-prize-2026-arc-agi-2",
+          "denominator": 1360,
+          "numerator": 0,
+          "rate": 0.0,
+          "task_count": 1360
+        },
+        "strict_LOO_validated_rate": {
+          "corpus_manifest_sha256": "a712951a54f0d1c6701024e0c9298d04a6a04a0c8770afc997be61aef8f5c911",
+          "corpus_name": "arc-prize-2026-arc-agi-2",
+          "corpus_root_relative_or_configured_path": "arc-prize-2026-arc-agi-2",
+          "denominator": 1360,
+          "numerator": 0,
+          "rate": 0.0,
+          "task_count": 1360
+        },
+        "unrouted_agreement_union_rate": {
+          "corpus_manifest_sha256": "a712951a54f0d1c6701024e0c9298d04a6a04a0c8770afc997be61aef8f5c911",
+          "corpus_name": "arc-prize-2026-arc-agi-2",
+          "corpus_root_relative_or_configured_path": "arc-prize-2026-arc-agi-2",
+          "denominator": 1360,
+          "numerator": 0,
+          "rate": 0.0,
+          "task_count": 1360
+        }
+      }
+    },
+    "profile_name": "two-expert frozen-library coverage profile",
+    "task_count": 1360
+  },
+  "created_utc": "2026-06-30T09:49:13Z",
+  "cross_expert_conflict_examples": [],
+  "domain_attrition": {
+    "attrition_breakdown": {
+      "cross_expert_conflict": 0,
+      "grid_size": 1353,
+      "no_unique_topology_hypothesis": 0,
+      "palette_range": 1,
+      "query_count": 135,
+      "raw_interface_rejection": 0,
+      "runtime_interface_rejection": 0,
+      "strict_LOO_mismatch": 0,
+      "support_pair_count": 5
+    },
+    "audit_version": "R5A2D_R1_FROZEN_LIBRARY_ARC_NATIVE_COVERAGE_AUDIT",
+    "corpus_manifest_sha256": "a712951a54f0d1c6701024e0c9298d04a6a04a0c8770afc997be61aef8f5c911",
+    "corpus_name": "arc-prize-2026-arc-agi-2",
+    "corpus_root_relative_or_configured_path": "arc-prize-2026-arc-agi-2",
+    "coverage_lost_after_topology_execution_wrong_hidden_output": 0,
+    "coverage_lost_due_to_frozen_grid_palette_support_count_contract": {
+      "grid_or_palette_ineligible": 1354,
+      "support_count_ineligible_for_topology_LOO": 6
+    },
+    "mandatory_topology_funnel": [
+      {
+        "absolute_task_count": 1360,
+        "denominator": 1360,
+        "numerator": 1360,
+        "rate": 1.0,
+        "stage": "all corpus tasks"
+      },
+      {
+        "absolute_task_count": 7,
+        "denominator": 1360,
+        "numerator": 7,
+        "rate": 0.005147058823529412,
+        "stage": "topology raw grid-size eligible"
+      },
+      {
+        "absolute_task_count": 6,
+        "denominator": 7,
+        "numerator": 6,
+        "rate": 0.8571428571428571,
+        "stage": "topology raw palette eligible"
+      },
+      {
+        "absolute_task_count": 3,
+        "denominator": 6,
+        "numerator": 3,
+        "rate": 0.5,
+        "stage": "topology raw support-count eligible for full support"
+      },
+      {
+        "absolute_task_count": 0,
+        "denominator": 3,
+        "numerator": 0,
+        "rate": 0.0,
+        "stage": "topology full-support fit"
+      },
+      {
+        "absolute_task_count": 0,
+        "denominator": 6,
+        "numerator": 0,
+        "rate": 0.0,
+        "stage": "topology LOO feasible under frozen support contract"
+      },
+      {
+        "absolute_task_count": 0,
+        "denominator": 0,
+        "numerator": 0,
+        "rate": 0.0,
+        "stage": "topology LOO attempted"
+      },
+      {
+        "absolute_task_count": 0,
+        "denominator": 0,
+        "numerator": 0,
+        "rate": 0.0,
+        "stage": "topology LOO failed after execution"
+      },
+      {
+        "absolute_task_count": 0,
+        "denominator": 0,
+        "numerator": 0,
+        "rate": 0.0,
+        "stage": "topology strict LOO validated"
+      }
+    ],
+    "overall_funnel": [
+      {
+        "absolute_task_count": 1360,
+        "denominator": 1360,
+        "numerator": 1360,
+        "rate": 1.0,
+        "stage": "all tasks"
+      },
+      {
+        "absolute_task_count": 1360,
+        "denominator": 1360,
+        "numerator": 1360,
+        "rate": 1.0,
+        "stage": "identity applicable"
+      },
+      {
+        "absolute_task_count": 6,
+        "denominator": 1360,
+        "numerator": 6,
+        "rate": 0.004411764705882353,
+        "stage": "V2 raw-domain applicable"
+      },
+      {
+        "absolute_task_count": 5,
+        "denominator": 1360,
+        "numerator": 5,
+        "rate": 0.003676470588235294,
+        "stage": "topology raw-domain applicable"
+      },
+      {
+        "absolute_task_count": 6,
+        "denominator": 1360,
+        "numerator": 6,
+        "rate": 0.004411764705882353,
+        "stage": "full-support reproduction attempted"
+      },
+      {
+        "absolute_task_count": 0,
+        "denominator": 1360,
+        "numerator": 0,
+        "rate": 0.0,
+        "stage": "full-support fit"
+      },
+      {
+        "absolute_task_count": 1360,
+        "denominator": 1360,
+        "numerator": 1360,
+        "rate": 1.0,
+        "stage": "strict LOO feasible"
+      },
+      {
+        "absolute_task_count": 1360,
+        "denominator": 1360,
+        "numerator": 1360,
+        "rate": 1.0,
+        "stage": "strict LOO attempted"
+      },
+      {
+        "absolute_task_count": 0,
+        "denominator": 1360,
+        "numerator": 0,
+        "rate": 0.0,
+        "stage": "strict LOO validated"
+      },
+      {
+        "absolute_task_count": 0,
+        "denominator": 1360,
+        "numerator": 0,
+        "rate": 0.0,
+        "stage": "cross-expert agreement eligible"
+      },
+      {
+        "absolute_task_count": 0,
+        "denominator": 1360,
+        "numerator": 0,
+        "rate": 0.0,
+        "stage": "unrouted agreement union"
+      }
+    ],
+    "task_count": 1360
+  },
+  "final_verdict": "R5A2D_R1_FROZEN_LIBRARY_COVERAGE_MEASURED",
+  "full_support_reproduction_results_exploratory_only": {
+    "V2": {
+      "corpus_manifest_sha256": "a712951a54f0d1c6701024e0c9298d04a6a04a0c8770afc997be61aef8f5c911",
+      "corpus_name": "arc-prize-2026-arc-agi-2",
+      "corpus_root_relative_or_configured_path": "arc-prize-2026-arc-agi-2",
+      "denominator": 1360,
+      "numerator": 0,
+      "rate": 0.0,
+      "task_count": 1360
+    },
+    "identity": {
+      "corpus_manifest_sha256": "a712951a54f0d1c6701024e0c9298d04a6a04a0c8770afc997be61aef8f5c911",
+      "corpus_name": "arc-prize-2026-arc-agi-2",
+      "corpus_root_relative_or_configured_path": "arc-prize-2026-arc-agi-2",
+      "denominator": 1360,
+      "numerator": 0,
+      "rate": 0.0,
+      "task_count": 1360
+    },
+    "topology": {
+      "corpus_manifest_sha256": "a712951a54f0d1c6701024e0c9298d04a6a04a0c8770afc997be61aef8f5c911",
+      "corpus_name": "arc-prize-2026-arc-agi-2",
+      "corpus_root_relative_or_configured_path": "arc-prize-2026-arc-agi-2",
+      "denominator": 1360,
+      "numerator": 0,
+      "rate": 0.0,
+      "task_count": 1360
+    }
+  },
+  "library_contract_summary": {
+    "audit_version": "R5A2D_R1_FROZEN_LIBRARY_ARC_NATIVE_COVERAGE_AUDIT",
+    "corpus_manifest_sha256": "a712951a54f0d1c6701024e0c9298d04a6a04a0c8770afc997be61aef8f5c911",
+    "corpus_name": "arc-prize-2026-arc-agi-2",
+    "corpus_root_relative_or_configured_path": "arc-prize-2026-arc-agi-2",
+    "frozen_library": [
+      "identity_baseline",
+      "V2_transport_recolor_executor",
+      "R5A-2C-R2_compiled_topology_executor"
+    ],
+    "identity_contract": {
+      "output": "input",
+      "runtime_inputs": [
+        "query_input_grid"
+      ]
+    },
+    "task_count": 1360,
+    "topology_contract": {
+      "closure_domain_hash": "bdad945425fd734ed443788c39d21c4c48d629c09f05c92ad7c62c8cfb554329",
+      "grid_size": "7x7",
+      "hypothesis_catalog_hash": "bdad945425fd734ed443788c39d21c4c48d629c09f05c92ad7c62c8cfb554329",
+      "palette": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "query_count_behavior": "exactly 1 query grid per invocation",
+      "raw_input_fields": [
+        "support_input_grids",
+        "support_output_grids",
+        "query_input_grid"
+      ],
+      "runtime_error_behavior": "invalid support count, ambiguous support consistency, or no consistent hypothesis returns no executable output",
+      "shortcut_catalog_hash": "3bf2a8d64a6b1b0ab989750c2023d84b792b65cd6986888c1934d4af346abf2a",
+      "support_pair_count_behavior": "exactly 3 support pairs"
+    },
+    "topology_seed_caveat": {
+      "border_reachable_recolor": "reported in topology_border_or_enclosed",
+      "enclosed_region_recolor": "reported in topology_border_or_enclosed",
+      "seed_reachable_recolor": "reported separately as topology_seed_only and not presented as multi-step reachability coverage evidence"
+    },
+    "v2_contract": {
+      "accepted_grid_sizes": [
+        "7x7"
+      ],
+      "accepted_palette_range": [
+        0,
+        8
+      ],
+      "accepted_query_count_behavior": "one raw query grid per invocation; multiple ARC test inputs are invoked independently",
+      "accepted_support_pair_count_behavior": "variable raw support-pair count for exact support-consistency over the frozen SEALED_CLASSES operation set; no support duplication, deletion, or fabrication",
+      "checkpoint_read": false,
+      "frozen_operation_classes": [
+        "C",
+        "H",
+        "V",
+        "L",
+        "K",
+        "C->L",
+        "L->H",
+        "H->K",
+        "K->V",
+        "L->C",
+        "H->L",
+        "C->K",
+        "K->C"
+      ],
+      "neural_model_constructed": false,
+      "raw_input_fields": [
+        "support_input_grids",
+        "support_output_grids",
+        "query_input_grid"
+      ],
+      "runtime_error_behavior": "operation collision or non-unique support-consistent sequence returns no executable output"
+    }
+  },
+  "mandatory_low_or_zero_boundary": "A low or zero strict-LOO coverage result for this two-expert frozen library\nmeasures only this library under this corpus and this strict support contract.\n\nIt does not establish that all future compiled-specialist libraries fail to scale,\nnor does it establish that an expert which is LOO-infeasible would necessarily fail\nwhen allowed to use the complete ARC training set.",
+  "mandatory_scope_boundary": "This audit measures coverage of one frozen two-specialist library on one\nprecommitted local ARC corpus under strict train-pair validation.\n\nIt does not measure:\n- ARC generality;\n- the value of an arbitrarily large future specialist library;\n- the human design/search cost of inventing new primitives;\n- learned routing;\n- learned program synthesis;\n- test-time training;\n- zero-compute ARC solving;\n- performance after task-specific primitive edits;\n- whether all future compiled-specialist libraries fail to scale.",
+  "narrowest_justified_next_action": "Inspect the strict-LOO attrition rows for the first non-contract-mismatch failures without changing the frozen two-specialist library.",
+  "observed_runtimes_seconds": {
+    "V2_evaluation_runtime_seconds": 0.013838277000360222,
+    "corpus_resolution_runtime_seconds": 0.004591306000008899,
+    "manifest_runtime_seconds": 6.100000859987631e-08,
+    "topology_evaluation_runtime_seconds": 0.044180843999555464,
+    "total_audit_runtime_seconds": 27.623826327000017
+  },
+  "optional_sealed_post_hoc_scoring": {
+    "metric_label": "SEALED_POST_HOC_TEST_SCORING",
+    "metrics_by_expert": {},
+    "scoring_available_task_count": 1120
+  },
+  "parameter_free_integrity": {
+    "forbidden_code_terms_found": [],
+    "no_parameter_optimizer_backward_or_checkpoint_io_introduced": true,
+    "scan_excludes_strings_and_comments": true
+  },
+  "protected_hashes_after": {
+    "/mnt/d/VRM/artifacts/transport_recolor_r5a0_v2/r5a1a_preregistration_report.json": "a342beaaec45de5cda4159bd8ad21cf54803366f78f5f70662ff4c253b4f2584",
+    "/mnt/d/VRM/artifacts/transport_recolor_r5a1a_matchability_audit/matchability_report.json": "f0401f850c1b23dfda5dd2e06dbb00b75ae1562129f2ac637fa8b314cc74acd8",
+    "/mnt/d/VRM/artifacts/transport_recolor_r5a1a_preflight/preflight_report.json": "2471f97faa2a0f9e90e294b3d43b27ccc1f71d70fb519de9c2848d0dd0e17585",
+    "/mnt/d/VRM/artifacts/transport_recolor_r5a2a_frontier/final_report.json": "4c6bb09c0917347ede1f229704f3f6a275094c2250596946ec80ac98a7e085da",
+    "/mnt/d/VRM/artifacts/transport_recolor_r5a2c_r2_topology/closure_domain.json": "445136a641adcad8e382071acfd517dc65ff5006059f9abd47f904e42c30f990",
+    "/mnt/d/VRM/artifacts/transport_recolor_r5a2c_r2_topology/final_report.json": "fecb3e4334b9793782cc834646a4fc860fa70b3853333e18b6ef4de2814d83da",
+    "/mnt/d/VRM/artifacts/transport_recolor_r5a2c_r2_topology/shortcut_catalog.json": "7ce9eec708e81f083263e2785405b52ac695c62e2ce595b4d2e7b871791668f5",
+    "/mnt/d/VRM/vrm/twin_tasks/compiled_topology_r5a2c_r2_checker.py": "60e603bd9ead19b929a6b3ff3a8cccaefac0bfa4417c88560c812d200a24ed80",
+    "/mnt/d/VRM/vrm/twin_tasks/compiled_topology_r5a2c_r2_data.py": "251e620ffca8e4ea9f9c6d2534aaeaded1cade5ccf2e5274ee3a95182dd68998",
+    "/mnt/d/VRM/vrm/twin_tasks/compiled_topology_r5a2c_r2_executor.py": "fe1f9b2d4468d9567732117ef0dd02e1701ebc8ba91a4f34f0cc858f4bc9ffc2",
+    "/mnt/d/VRM/vrm/twin_tasks/run_compiled_topology_r5a2c_r2_audit.py": "e6fd3df74e226ecb347c8768f0f2cbaa20b31c4d9915b9599bdaa083200e890e",
+    "/mnt/d/VRM/vrm/twin_tasks/run_transport_recolor_r5a0v2.py": "46bef01b4f545c36df8ede5087269515fd80377f2540f9a382bf5c8bd71ebf39",
+    "/mnt/d/VRM/vrm/twin_tasks/transport_recolor_r5a0v2_data.py": "8ba05be9b30f10eeaf17ec368a5b6482f28e769e8f81098a082cd581e8488279",
+    "/mnt/d/VRM/vrm/twin_tasks/transport_recolor_r5a0v2_model.py": "1ba3582f80fbf59b3eab142dde4d651e92e761ccb4c907835a421b1e13bc473e",
+    "/mnt/d/VRM/vrm/twin_tasks/transport_recolor_r5a0v2_oracles.py": "2e427a417e31e88ba6106a23d42e964989508d003677bc6a400c0a7730293de4",
+    "/mnt/d/VRM/vrm/twin_tasks/transport_recolor_r5a1_matchability_audit.py": "cd5d465d041778d4e44f67c9732b97248875fa8c8903597eb86064e3bf70ae0b",
+    "/mnt/d/VRM/vrm/twin_tasks/transport_recolor_r5a1a_preregistration.py": "0626d5bb0ccaf40809f931cad925ddbf018e94037a32aee51188435b6775d38c",
+    "/mnt/d/VRM/vrm/twin_tasks/transport_recolor_r5a2a_frontier_audit.py": "3d734aa02fa72c03ba4be490ef61013581ab8b30b2170a5c12a97280aea24af4"
+  },
+  "protected_hashes_before": {
+    "/mnt/d/VRM/artifacts/transport_recolor_r5a0_v2/r5a1a_preregistration_report.json": "a342beaaec45de5cda4159bd8ad21cf54803366f78f5f70662ff4c253b4f2584",
+    "/mnt/d/VRM/artifacts/transport_recolor_r5a1a_matchability_audit/matchability_report.json": "f0401f850c1b23dfda5dd2e06dbb00b75ae1562129f2ac637fa8b314cc74acd8",
+    "/mnt/d/VRM/artifacts/transport_recolor_r5a1a_preflight/preflight_report.json": "2471f97faa2a0f9e90e294b3d43b27ccc1f71d70fb519de9c2848d0dd0e17585",
+    "/mnt/d/VRM/artifacts/transport_recolor_r5a2a_frontier/final_report.json": "4c6bb09c0917347ede1f229704f3f6a275094c2250596946ec80ac98a7e085da",
+    "/mnt/d/VRM/artifacts/transport_recolor_r5a2c_r2_topology/closure_domain.json": "445136a641adcad8e382071acfd517dc65ff5006059f9abd47f904e42c30f990",
+    "/mnt/d/VRM/artifacts/transport_recolor_r5a2c_r2_topology/final_report.json": "fecb3e4334b9793782cc834646a4fc860fa70b3853333e18b6ef4de2814d83da",
+    "/mnt/d/VRM/artifacts/transport_recolor_r5a2c_r2_topology/shortcut_catalog.json": "7ce9eec708e81f083263e2785405b52ac695c62e2ce595b4d2e7b871791668f5",
+    "/mnt/d/VRM/vrm/twin_tasks/compiled_topology_r5a2c_r2_checker.py": "60e603bd9ead19b929a6b3ff3a8cccaefac0bfa4417c88560c812d200a24ed80",
+    "/mnt/d/VRM/vrm/twin_tasks/compiled_topology_r5a2c_r2_data.py": "251e620ffca8e4ea9f9c6d2534aaeaded1cade5ccf2e5274ee3a95182dd68998",
+    "/mnt/d/VRM/vrm/twin_tasks/compiled_topology_r5a2c_r2_executor.py": "fe1f9b2d4468d9567732117ef0dd02e1701ebc8ba91a4f34f0cc858f4bc9ffc2",
+    "/mnt/d/VRM/vrm/twin_tasks/run_compiled_topology_r5a2c_r2_audit.py": "e6fd3df74e226ecb347c8768f0f2cbaa20b31c4d9915b9599bdaa083200e890e",
+    "/mnt/d/VRM/vrm/twin_tasks/run_transport_recolor_r5a0v2.py": "46bef01b4f545c36df8ede5087269515fd80377f2540f9a382bf5c8bd71ebf39",
+    "/mnt/d/VRM/vrm/twin_tasks/transport_recolor_r5a0v2_data.py": "8ba05be9b30f10eeaf17ec368a5b6482f28e769e8f81098a082cd581e8488279",
+    "/mnt/d/VRM/vrm/twin_tasks/transport_recolor_r5a0v2_model.py": "1ba3582f80fbf59b3eab142dde4d651e92e761ccb4c907835a421b1e13bc473e",
+    "/mnt/d/VRM/vrm/twin_tasks/transport_recolor_r5a0v2_oracles.py": "2e427a417e31e88ba6106a23d42e964989508d003677bc6a400c0a7730293de4",
+    "/mnt/d/VRM/vrm/twin_tasks/transport_recolor_r5a1_matchability_audit.py": "cd5d465d041778d4e44f67c9732b97248875fa8c8903597eb86064e3bf70ae0b",
+    "/mnt/d/VRM/vrm/twin_tasks/transport_recolor_r5a1a_preregistration.py": "0626d5bb0ccaf40809f931cad925ddbf018e94037a32aee51188435b6775d38c",
+    "/mnt/d/VRM/vrm/twin_tasks/transport_recolor_r5a2a_frontier_audit.py": "3d734aa02fa72c03ba4be490ef61013581ab8b30b2170a5c12a97280aea24af4"
+  },
+  "protected_hashes_unchanged": true,
+  "raw_grid_fidelity_failure_count": 0,
+  "raw_grid_fidelity_failure_examples": [],
+  "report_body_sha256_excluding_unstable_fields": "3053b049c75d3ad528c38ced11bfb87ca86e4e87f66206db1639165c0ee21716",
+  "run_index": 2,
+  "stable_two_run_artifact_hashes": {
+    "differing_files": [],
+    "matching": true,
+    "run1": {
+      "corpus_manifest_precommit.json": "29e5b6dc70393fed602b5500c3d0f50af1719d5f659fdfc26fa70e20d2582242",
+      "coverage_profile.json": "c3af077f95b1adbe3d62a2bccc2a7e7771a4ff0dca9499a55b0a07698ea65e5b",
+      "domain_attrition_report.json": "6580462db786005ccb93799ba301561c1c3ec5b4ef4262393068ae7942ea9ddd",
+      "final_report.json": "3053b049c75d3ad528c38ced11bfb87ca86e4e87f66206db1639165c0ee21716",
+      "library_contract_report.json": "bd7238c9815d1e2eb4772e1cb95619024b57d00cf376f3b1c0c8528f8a1e2a1b",
+      "optional_sealed_test_scoring.json": "ea937e6f8d21d4d8ed84e685514c34aa4ecf2000675b63f7e2e96125accad5ae",
+      "task_ledger.json": "dd2dadebd628e68632c07345e8f25d96e64723736c8b305980c67d4c3f03ccea"
+    },
+    "run2": {
+      "corpus_manifest_precommit.json": "29e5b6dc70393fed602b5500c3d0f50af1719d5f659fdfc26fa70e20d2582242",
+      "coverage_profile.json": "c3af077f95b1adbe3d62a2bccc2a7e7771a4ff0dca9499a55b0a07698ea65e5b",
+      "domain_attrition_report.json": "6580462db786005ccb93799ba301561c1c3ec5b4ef4262393068ae7942ea9ddd",
+      "final_report.json": "3053b049c75d3ad528c38ced11bfb87ca86e4e87f66206db1639165c0ee21716",
+      "library_contract_report.json": "bd7238c9815d1e2eb4772e1cb95619024b57d00cf376f3b1c0c8528f8a1e2a1b",
+      "optional_sealed_test_scoring.json": "ea937e6f8d21d4d8ed84e685514c34aa4ecf2000675b63f7e2e96125accad5ae",
+      "task_ledger.json": "dd2dadebd628e68632c07345e8f25d96e64723736c8b305980c67d4c3f03ccea"
+    }
+  },
+  "strict_LOO_coverage": {
+    "V2": {
+      "corpus_manifest_sha256": "a712951a54f0d1c6701024e0c9298d04a6a04a0c8770afc997be61aef8f5c911",
+      "corpus_name": "arc-prize-2026-arc-agi-2",
+      "corpus_root_relative_or_configured_path": "arc-prize-2026-arc-agi-2",
+      "denominator": 1360,
+      "numerator": 0,
+      "rate": 0.0,
+      "task_count": 1360
+    },
+    "identity": {
+      "corpus_manifest_sha256": "a712951a54f0d1c6701024e0c9298d04a6a04a0c8770afc997be61aef8f5c911",
+      "corpus_name": "arc-prize-2026-arc-agi-2",
+      "corpus_root_relative_or_configured_path": "arc-prize-2026-arc-agi-2",
+      "denominator": 1360,
+      "numerator": 0,
+      "rate": 0.0,
+      "task_count": 1360
+    },
+    "oracle_retrospective_union": {
+      "corpus_manifest_sha256": "a712951a54f0d1c6701024e0c9298d04a6a04a0c8770afc997be61aef8f5c911",
+      "corpus_name": "arc-prize-2026-arc-agi-2",
+      "corpus_root_relative_or_configured_path": "arc-prize-2026-arc-agi-2",
+      "denominator": 1360,
+      "numerator": 0,
+      "rate": 0.0,
+      "task_count": 1360
+    },
+    "topology_border_or_enclosed": {
+      "corpus_manifest_sha256": "a712951a54f0d1c6701024e0c9298d04a6a04a0c8770afc997be61aef8f5c911",
+      "corpus_name": "arc-prize-2026-arc-agi-2",
+      "corpus_root_relative_or_configured_path": "arc-prize-2026-arc-agi-2",
+      "denominator": 1360,
+      "numerator": 0,
+      "rate": 0.0,
+      "task_count": 1360
+    },
+    "topology_seed_only": {
+      "corpus_manifest_sha256": "a712951a54f0d1c6701024e0c9298d04a6a04a0c8770afc997be61aef8f5c911",
+      "corpus_name": "arc-prize-2026-arc-agi-2",
+      "corpus_root_relative_or_configured_path": "arc-prize-2026-arc-agi-2",
+      "denominator": 1360,
+      "numerator": 0,
+      "rate": 0.0,
+      "task_count": 1360
+    },
+    "topology_total": {
+      "corpus_manifest_sha256": "a712951a54f0d1c6701024e0c9298d04a6a04a0c8770afc997be61aef8f5c911",
+      "corpus_name": "arc-prize-2026-arc-agi-2",
+      "corpus_root_relative_or_configured_path": "arc-prize-2026-arc-agi-2",
+      "denominator": 1360,
+      "numerator": 0,
+      "rate": 0.0,
+      "task_count": 1360
+    },
+    "unrouted_agreement_union": {
+      "corpus_manifest_sha256": "a712951a54f0d1c6701024e0c9298d04a6a04a0c8770afc997be61aef8f5c911",
+      "corpus_name": "arc-prize-2026-arc-agi-2",
+      "corpus_root_relative_or_configured_path": "arc-prize-2026-arc-agi-2",
+      "denominator": 1360,
+      "numerator": 0,
+      "rate": 0.0,
+      "task_count": 1360
+    }
+  },
+  "task_count": 1360
+}

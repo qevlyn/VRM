@@ -1,0 +1,179 @@
+{
+  "arc_loader": "challenge_files_only_no_solution_file_read_or_hash",
+  "arc_test_outputs_used": false,
+  "budgets": {
+    "MAX_PARSE_HYPOTHESES": 4,
+    "MAX_PROGRAM_DEPTH": 2,
+    "MAX_RAW_CANDIDATES_PER_FOLD": 32,
+    "MAX_RAW_PROGRAMS_PER_PARSE": 8,
+    "TOP_K": [
+      1,
+      4,
+      16,
+      64,
+      128
+    ]
+  },
+  "commitment_sha256": "de7abce9229dc0d1efa49101ea714e53b90f11a63dc5d096f7d480169109db24",
+  "condition_definitions": [
+    "OBJECT_ONLY",
+    "RELATION_NO_PRUNE",
+    "RELATION_SOFT_CONSTRAINT",
+    "RELATION_HARD_CONSTRAINT",
+    "MATCHED_RANDOM_PRUNE"
+  ],
+  "constraints": [
+    "position_unchanged",
+    "color_unchanged",
+    "size_unchanged",
+    "shape_unchanged",
+    "border_status_unchanged",
+    "same_relation_preserved",
+    "relation_created",
+    "relation_removed"
+  ],
+  "created_utc": "2026-06-30T17:08:36Z",
+  "grammar": {
+    "forbidden_interfaces": [
+      "task_id_runtime_input",
+      "arc_query_test_output_access",
+      "learned_router",
+      "learned_verifier",
+      "neural_model_training",
+      "explicit_task_specific_python_programs",
+      "raw_grid_crop_pad_resize_remap_preprocessing"
+    ],
+    "max_parse_hypotheses": 4,
+    "max_program_depth": 2,
+    "max_raw_candidates_per_fold": 32,
+    "max_raw_programs_per_parse": 8,
+    "parse_menu": {
+      "background_candidates": [
+        "modal_color",
+        "color_0_when_distinct_from_modal"
+      ],
+      "connectivity": [
+        4,
+        8
+      ]
+    },
+    "relation_edge_predicates": [
+      "same_color",
+      "same_shape",
+      "same_size",
+      "nearest",
+      "aligned_row",
+      "aligned_column",
+      "touching",
+      "contains",
+      "relative_direction",
+      "border_relation"
+    ],
+    "relation_program_actions": [
+      "keep_relation_endpoints",
+      "recolor_target_to_source",
+      "recolor_source_to_target",
+      "delete_target",
+      "copy_source_by_relation_vector",
+      "translate_target_by_relation_vector",
+      "recolor_target_constant"
+    ],
+    "relation_program_predicate_priority": [
+      "nearest",
+      "aligned_row",
+      "aligned_column",
+      "touching",
+      "contains",
+      "same_shape",
+      "same_color",
+      "same_size",
+      "relative_direction",
+      "border_relation"
+    ],
+    "render_modes": [
+      "same_canvas"
+    ],
+    "surface_sha256": "e53837d7180c89d4652cb1421981c215bad37b0d83f9e2d951a2c73678d95c4b",
+    "top_k": [
+      1,
+      4,
+      16,
+      64,
+      128
+    ]
+  },
+  "hidden_fold_outputs_used_before_this_commitment": false,
+  "matched_random_salts": [
+    "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_A",
+    "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_B",
+    "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_C"
+  ],
+  "max_parse_hypotheses": 4,
+  "metrics": [
+    "acceptance_rates",
+    "candidate_emission",
+    "raw_candidate_distribution",
+    "after_prune_counts",
+    "unique_distribution",
+    "Recall@K all/multi/one_object",
+    "ExactHitsPer1000Candidates",
+    "mean candidates evaluated/surviving",
+    "hard_prune_rate",
+    "soft_rank_effect",
+    "primary relation/constraint/smart-prune deltas"
+  ],
+  "parse_menu": {
+    "background_candidates": [
+      "modal_color",
+      "color_0_when_distinct_from_modal"
+    ],
+    "connectivity": [
+      4,
+      8
+    ]
+  },
+  "pilot_manifest_sha256": "50d5d116485eb18906f81f0841214c16212b77ecfd12863f899db8f710542bcb",
+  "pilot_selection_spec_sha256": "649118834fdce90d31ce8d2be16a4ff439d208488b96374132c9528f27d3695e",
+  "pilot_version": "R5A3B_P0_RELATION_OBJECT_GRAPH_CONSTRAINT_CAUSAL_PILOT",
+  "prior_protected_hashes_before": {
+    "/mnt/d/VRM/artifacts/r5a2d_r1_frozen_library_coverage/final_report.json": "b03106c4a3eafd947883849a1c344998512ce8a479395c0abbc54b5ee89b994f",
+    "/mnt/d/VRM/artifacts/r5a2d_r2_candidate_recall/final_report.json": "f5c5d9874fe2cf3279b008914468c0325f743ac5fa88adca447a631618a233b3",
+    "/mnt/d/VRM/artifacts/r5a3a_arc_native_candidate_machine/final_report.json": "aa02df525f4bee737d8fef728120d4cc039751a7794070ba3b656d7da8349a1d",
+    "/mnt/d/VRM/vrm/twin_tasks/compiled_topology_r5a2c_r2_checker.py": "60e603bd9ead19b929a6b3ff3a8cccaefac0bfa4417c88560c812d200a24ed80",
+    "/mnt/d/VRM/vrm/twin_tasks/compiled_topology_r5a2c_r2_data.py": "251e620ffca8e4ea9f9c6d2534aaeaded1cade5ccf2e5274ee3a95182dd68998",
+    "/mnt/d/VRM/vrm/twin_tasks/compiled_topology_r5a2c_r2_executor.py": "fe1f9b2d4468d9567732117ef0dd02e1701ebc8ba91a4f34f0cc858f4bc9ffc2",
+    "/mnt/d/VRM/vrm/twin_tasks/r5a2d_r1_coverage_audit.py": "2be6ab25867888b7a119c6f4085bafa7efd3cde03dd155444f16e74e21050521",
+    "/mnt/d/VRM/vrm/twin_tasks/r5a2d_r2_candidate_recall_audit.py": "d5bcdaa0022e012896772bb6fd67df608e2c08fc09e09aa19125677df5eeb209",
+    "/mnt/d/VRM/vrm/twin_tasks/r5a3a_arc_audit.py": "5f0593e9c7505d12bc1217cffadfb7c5e7f70bda875a5d8aeb68703f78c03714",
+    "/mnt/d/VRM/vrm/twin_tasks/r5a3a_arc_native_candidate_machine.py": "07e05d2ebd7205be2494beb34c0cfed218a51ec27b44d656aad2eefca808ade0",
+    "/mnt/d/VRM/vrm/twin_tasks/r5a3a_scene_hypotheses.py": "27b68d7a5443a643a66eb335a383814e6d4c749ebbe84b61c552a9a55160dab7",
+    "/mnt/d/VRM/vrm/twin_tasks/r5a3a_structural_programs.py": "e6e5f96e6d78f3ec0d4a27987eb7ec3493b65d5eccfa406a8f014f73cb02d1b7",
+    "/mnt/d/VRM/vrm/twin_tasks/transport_recolor_r5a0v2_data.py": "8ba05be9b30f10eeaf17ec368a5b6482f28e769e8f81098a082cd581e8488279",
+    "/mnt/d/VRM/vrm/twin_tasks/transport_recolor_r5a0v2_model.py": "1ba3582f80fbf59b3eab142dde4d651e92e761ccb4c907835a421b1e13bc473e",
+    "/mnt/d/VRM/vrm/twin_tasks/transport_recolor_r5a0v2_oracles.py": "2e427a417e31e88ba6106a23d42e964989508d003677bc6a400c0a7730293de4"
+  },
+  "relation_menu": [
+    "same_color",
+    "same_shape",
+    "same_size",
+    "nearest",
+    "aligned_row",
+    "aligned_column",
+    "touching",
+    "contains",
+    "relative_direction",
+    "border_relation"
+  ],
+  "source_hashes": {
+    "/mnt/d/VRM/docs/R5A3B_P0_RELATION_CONSTRAINT_CAUSAL_PILOT.md": "1dbc771ebe67f2201eb591fcd18c419914f56593e2f979f3454bd0f8fe2f9813",
+    "/mnt/d/VRM/tests/test_r5a3b_relation_constraint_pilot.py": "a7e871eda4839f7bbacba5d310563c2d8235fb6a3fafbaa2f2bdc3a55bc39b8d",
+    "/mnt/d/VRM/vrm/twin_tasks/r5a3b_constraint_acquisition.py": "12d0974fc3c33a3b25690ba911bfbaa0862981af97d0920eda11d17078f8d1a4",
+    "/mnt/d/VRM/vrm/twin_tasks/r5a3b_object_graph.py": "4abe15346e9855e02b78f4b7acaa44e9207b2b502669047212b29997bc4e0ed9",
+    "/mnt/d/VRM/vrm/twin_tasks/r5a3b_parse_hypotheses.py": "a64b0428c1904e1409191e0c72c54a51f9d20895699ddfdd7cc6a2f798696f90",
+    "/mnt/d/VRM/vrm/twin_tasks/r5a3b_relation_constraint_pilot.py": "c0bd75c60aba6d0dcf21fe8477631faf80ca75ff2cad83f1c879522a13b0974a",
+    "/mnt/d/VRM/vrm/twin_tasks/r5a3b_relation_programs.py": "a7ea9228fca6d8ff3cbe7ca8afd3e26f36fdb93276f46d5c85fce9a7bf816c6f",
+    "/mnt/d/VRM/vrm/twin_tasks/run_r5a3b_relation_constraint_pilot.py": "f0f283c39d1a719abf0ceb4d407d1be74e50a2886c97801b9202ddf1be0b691a"
+  },
+  "statement": "This commitment is written before any held-out fold output is used for pilot metrics.",
+  "task_id_runtime_input": false
+}

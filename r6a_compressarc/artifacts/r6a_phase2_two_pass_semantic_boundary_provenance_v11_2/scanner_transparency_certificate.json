@@ -1,0 +1,34 @@
+{
+  "created_utc": "2026-07-04T06:28:53Z",
+  "fail_count": 0,
+  "pass_count": 3,
+  "profiles": [
+    {
+      "case_id": "1f876c06_adjacent_0_1",
+      "declared_boundary_count": 89,
+      "minimal_summary_event_schedule_equal": true,
+      "minimal_trace_equals_summary_scan": true,
+      "profile": "1f876c06",
+      "source_equals_minimal_trace": true,
+      "status": "PASS"
+    },
+    {
+      "case_id": "604001fa_adjacent_0_1",
+      "declared_boundary_count": 89,
+      "minimal_summary_event_schedule_equal": true,
+      "minimal_trace_equals_summary_scan": true,
+      "profile": "604001fa",
+      "source_equals_minimal_trace": true,
+      "status": "PASS"
+    },
+    {
+      "case_id": "synthetic_uniform_shape_oracle_adjacent_0_1",
+      "declared_boundary_count": 89,
+      "minimal_summary_event_schedule_equal": true,
+      "minimal_trace_equals_summary_scan": true,
+      "profile": "synthetic_uniform_shape_oracle",
+      "source_equals_minimal_trace": true,
+      "status": "PASS"
+    }
+  ]
+}

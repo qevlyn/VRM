@@ -1,0 +1,67 @@
+{
+  "audit_version": "R5A3A_ARC_NATIVE_STRUCTURAL_CANDIDATE_MACHINE_V0",
+  "hidden_target_used_before_scoring": false,
+  "no_task_id_used_as_candidate_runtime_input": true,
+  "parameter_free": {
+    "forbidden_terms_found": [],
+    "passed": true,
+    "scan_excludes_strings_and_comments": true
+  },
+  "protected_hashes_after": {
+    "/mnt/d/VRM/artifacts/r5a2d_r1_frozen_library_coverage/final_report.json": "b03106c4a3eafd947883849a1c344998512ce8a479395c0abbc54b5ee89b994f",
+    "/mnt/d/VRM/artifacts/r5a2d_r2_candidate_recall/final_report.json": "f5c5d9874fe2cf3279b008914468c0325f743ac5fa88adca447a631618a233b3",
+    "/mnt/d/VRM/vrm/twin_tasks/compiled_topology_r5a2c_r2_checker.py": "60e603bd9ead19b929a6b3ff3a8cccaefac0bfa4417c88560c812d200a24ed80",
+    "/mnt/d/VRM/vrm/twin_tasks/compiled_topology_r5a2c_r2_data.py": "251e620ffca8e4ea9f9c6d2534aaeaded1cade5ccf2e5274ee3a95182dd68998",
+    "/mnt/d/VRM/vrm/twin_tasks/compiled_topology_r5a2c_r2_executor.py": "fe1f9b2d4468d9567732117ef0dd02e1701ebc8ba91a4f34f0cc858f4bc9ffc2",
+    "/mnt/d/VRM/vrm/twin_tasks/r5a2d_r1_coverage_audit.py": "2be6ab25867888b7a119c6f4085bafa7efd3cde03dd155444f16e74e21050521",
+    "/mnt/d/VRM/vrm/twin_tasks/r5a2d_r2_candidate_recall_audit.py": "d5bcdaa0022e012896772bb6fd67df608e2c08fc09e09aa19125677df5eeb209",
+    "/mnt/d/VRM/vrm/twin_tasks/transport_recolor_r5a0v2_data.py": "8ba05be9b30f10eeaf17ec368a5b6482f28e769e8f81098a082cd581e8488279",
+    "/mnt/d/VRM/vrm/twin_tasks/transport_recolor_r5a0v2_model.py": "1ba3582f80fbf59b3eab142dde4d651e92e761ccb4c907835a421b1e13bc473e",
+    "/mnt/d/VRM/vrm/twin_tasks/transport_recolor_r5a0v2_oracles.py": "2e427a417e31e88ba6106a23d42e964989508d003677bc6a400c0a7730293de4"
+  },
+  "protected_hashes_before": {
+    "/mnt/d/VRM/artifacts/r5a2d_r1_frozen_library_coverage/final_report.json": "b03106c4a3eafd947883849a1c344998512ce8a479395c0abbc54b5ee89b994f",
+    "/mnt/d/VRM/artifacts/r5a2d_r2_candidate_recall/final_report.json": "f5c5d9874fe2cf3279b008914468c0325f743ac5fa88adca447a631618a233b3",
+    "/mnt/d/VRM/vrm/twin_tasks/compiled_topology_r5a2c_r2_checker.py": "60e603bd9ead19b929a6b3ff3a8cccaefac0bfa4417c88560c812d200a24ed80",
+    "/mnt/d/VRM/vrm/twin_tasks/compiled_topology_r5a2c_r2_data.py": "251e620ffca8e4ea9f9c6d2534aaeaded1cade5ccf2e5274ee3a95182dd68998",
+    "/mnt/d/VRM/vrm/twin_tasks/compiled_topology_r5a2c_r2_executor.py": "fe1f9b2d4468d9567732117ef0dd02e1701ebc8ba91a4f34f0cc858f4bc9ffc2",
+    "/mnt/d/VRM/vrm/twin_tasks/r5a2d_r1_coverage_audit.py": "2be6ab25867888b7a119c6f4085bafa7efd3cde03dd155444f16e74e21050521",
+    "/mnt/d/VRM/vrm/twin_tasks/r5a2d_r2_candidate_recall_audit.py": "d5bcdaa0022e012896772bb6fd67df608e2c08fc09e09aa19125677df5eeb209",
+    "/mnt/d/VRM/vrm/twin_tasks/transport_recolor_r5a0v2_data.py": "8ba05be9b30f10eeaf17ec368a5b6482f28e769e8f81098a082cd581e8488279",
+    "/mnt/d/VRM/vrm/twin_tasks/transport_recolor_r5a0v2_model.py": "1ba3582f80fbf59b3eab142dde4d651e92e761ccb4c907835a421b1e13bc473e",
+    "/mnt/d/VRM/vrm/twin_tasks/transport_recolor_r5a0v2_oracles.py": "2e427a417e31e88ba6106a23d42e964989508d003677bc6a400c0a7730293de4"
+  },
+  "protected_hashes_unchanged": true,
+  "query_test_outputs_used": false,
+  "raw_cell_level_fidelity_maintained": true,
+  "two_identical_runs_stable_hashes": {
+    "differing_files": [],
+    "matching": true,
+    "run1": {
+      "arc_candidate_ledger.json": "382d00ac2781a37c35fbdbaeb845935982bd2fefb78509af6002297ba0c8afea",
+      "arc_candidate_recall_metrics.json": "821168a41dc7734f021d58f5714cabf408bf6e2467b56cbff157da4e440f3d2f",
+      "arc_input_acceptance_report.json": "887087f3580ccb4809f6ba39323933466145b5f1d520167f80d7d83cbd91c89a",
+      "candidate_breakdown_report.json": "a5a465f3089b314b9aebdbdb9b0d9de12ad20d8d9de7513e6db3ee2a93f020bd",
+      "candidate_surface_spec.json": "46a1b5aeecfd2e7a637364bfc19115024d35e313ee57b61c71bbb9817766e372",
+      "depth_ablation_report.json": "0e0e5a3a827ce61bdbe9ea1742d948a91be2eb5c060b7b58eab772f6c14d602a",
+      "final_report.json": "11b0897d113741363e6516d77e4d185542b2bea30dd08a95bb8056acfbe79b64",
+      "integrity_verification.json": "97be8531d7506180c699c424ee41a1f304afe02616a14b9d839d1816d9a34e78",
+      "mechanism_preflight_report.json": "0a3166d5420cbe5a2c8d2ae28099645901c8694ff1a2321534ef263e1fa23bc7",
+      "pre_arc_audit_commitment.json": "28e5e54706174a44e23e5d7e24368759e1d584515048564e8f0620ca1ae15ac7",
+      "property_test_report.json": "fd8035e4ced42428671478f5aa400a37dc1aa5c569dcb0189b1d7faf9d0fb30f"
+    },
+    "run2": {
+      "arc_candidate_ledger.json": "382d00ac2781a37c35fbdbaeb845935982bd2fefb78509af6002297ba0c8afea",
+      "arc_candidate_recall_metrics.json": "821168a41dc7734f021d58f5714cabf408bf6e2467b56cbff157da4e440f3d2f",
+      "arc_input_acceptance_report.json": "887087f3580ccb4809f6ba39323933466145b5f1d520167f80d7d83cbd91c89a",
+      "candidate_breakdown_report.json": "a5a465f3089b314b9aebdbdb9b0d9de12ad20d8d9de7513e6db3ee2a93f020bd",
+      "candidate_surface_spec.json": "46a1b5aeecfd2e7a637364bfc19115024d35e313ee57b61c71bbb9817766e372",
+      "depth_ablation_report.json": "0e0e5a3a827ce61bdbe9ea1742d948a91be2eb5c060b7b58eab772f6c14d602a",
+      "final_report.json": "11b0897d113741363e6516d77e4d185542b2bea30dd08a95bb8056acfbe79b64",
+      "integrity_verification.json": "97be8531d7506180c699c424ee41a1f304afe02616a14b9d839d1816d9a34e78",
+      "mechanism_preflight_report.json": "0a3166d5420cbe5a2c8d2ae28099645901c8694ff1a2321534ef263e1fa23bc7",
+      "pre_arc_audit_commitment.json": "28e5e54706174a44e23e5d7e24368759e1d584515048564e8f0620ca1ae15ac7",
+      "property_test_report.json": "fd8035e4ced42428671478f5aa400a37dc1aa5c569dcb0189b1d7faf9d0fb30f"
+    }
+  }
+}

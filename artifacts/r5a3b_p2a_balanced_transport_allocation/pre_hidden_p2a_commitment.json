@@ -1,0 +1,133 @@
+{
+  "allocation_spec": {
+    "max_final_candidates_per_fold": 32,
+    "max_final_programs_per_parse": 8,
+    "max_parse_hypotheses": 4,
+    "max_program_depth": 2,
+    "microproposal_caps": {
+      "MAX_RELATION_MICROPROPOSALS_PER_BUCKET": 10,
+      "MAX_RELATION_MICROPROPOSALS_PER_PARSE": 40
+    },
+    "name": "R5A-3B-P2A Balanced Relation-Transport Allocation",
+    "object_program_slots_per_parse": 4,
+    "relation_action_buckets": {
+      "RELATION_RECOLOR": [
+        "recolor_target_to_source",
+        "recolor_source_to_target",
+        "recolor_target_constant"
+      ],
+      "RELATION_STATE_EDIT": [
+        "delete_target",
+        "keep_relation_endpoints"
+      ],
+      "RELATION_TRANSPORT_COPY": [
+        "copy_source_by_relation_vector"
+      ],
+      "RELATION_TRANSPORT_TRANSLATE": [
+        "translate_target_by_relation_vector"
+      ]
+    },
+    "relation_predicate_menu": [
+      "nearest",
+      "aligned_row",
+      "aligned_column",
+      "touching",
+      "contains",
+      "same_shape",
+      "same_color",
+      "same_size",
+      "relative_direction",
+      "border_relation"
+    ],
+    "relation_program_slots_per_parse": 4,
+    "semantic_freeze": "P0 global-edge semantics; no source-target edge binding.",
+    "spec_sha256": "e9d5f154221b2b0d46e7ab3c3b341f8a13496c5317dfd3c51939eedcb9668168",
+    "tie_break_order": [
+      "visible_support_rank_tuple",
+      "action_name",
+      "predicate_priority",
+      "predicate_value_canonical_representation",
+      "program_id",
+      "output_hash"
+    ],
+    "top_k": [
+      1,
+      4,
+      16,
+      64,
+      128
+    ]
+  },
+  "audit_version": "R5A3B_P2A_BALANCED_RELATION_TRANSPORT_ALLOCATION_PILOT",
+  "commitment_sha256": "e1d30e7af1e6563053341c45d207a7feeb7f967b038282d6b15331de9e02d24c",
+  "final_candidate_caps": {
+    "MAX_FINAL_CANDIDATES_PER_FOLD": 32,
+    "MAX_FINAL_PROGRAMS_PER_PARSE": 8,
+    "MAX_PROGRAM_DEPTH": 2,
+    "TOP_K": [
+      1,
+      4,
+      16,
+      64,
+      128
+    ]
+  },
+  "object_branch_equivalence_specification": {
+    "comparison_fields": [
+      "output_hash",
+      "program_id",
+      "support_scores",
+      "provenance"
+    ],
+    "programs": [
+      "select=all_objects|ops=keep|render=same_canvas",
+      "select=all_objects|ops=recolor:<support-derived>|render=same_canvas",
+      "select=all_objects|ops=translate:<support-derived>|render=same_canvas",
+      "select=all_objects|ops=copy:<support-derived>|render=same_canvas"
+    ],
+    "slots_per_parse": 4
+  },
+  "p0_allocation_confound_verification_sha256": "d4bde6b0feecbdd66f12eae372ded2fdbbdf679b888f8c42dbb53eb089ccbb74",
+  "p0_p1_history_statement": "P0/P1 tested a relation grammar whose four relation slots were consumed by the first four lexical actions. P2A tests whether two previously unexposed vector-transfer actions contribute under the same final candidate budget.",
+  "p0_pilot_manifest_sha256": "50d5d116485eb18906f81f0841214c16212b77ecfd12863f899db8f710542bcb",
+  "p2a_source_hashes": {
+    "/mnt/d/VRM/docs/R5A3B_P2A_BALANCED_TRANSPORT_ALLOCATION.md": "15a12b71d99c1be377067e4439611bb018421e03e60209be0b043c7df53d0ffc",
+    "/mnt/d/VRM/tests/test_r5a3b_p2a_balanced_transport_allocation.py": "bd5ef0b915279e8d68f583d30b80107b1e4d6171addde5ecf8f0b74ab705c26b",
+    "/mnt/d/VRM/vrm/twin_tasks/r5a3b_p2a_balanced_relation_allocation.py": "497a3c74412c4e4229a7510e937d486a09d1224d40f91ef2fe15d4d44f2dd851",
+    "/mnt/d/VRM/vrm/twin_tasks/r5a3b_p2a_transport_pilot.py": "a2a59a3e3881373252fabd71724a11da6fcbdaf57faee382ecbbd570516acc4c",
+    "/mnt/d/VRM/vrm/twin_tasks/run_r5a3b_p2a_transport_pilot.py": "21ffc7e105894d0449b123090c2d59dfcd9562704cdf4444db29bcf14dc83938"
+  },
+  "protected_prior_source_hashes": {
+    "/mnt/d/VRM/artifacts/r5a3b_p1_exposure_audit/final_report.json": "5657b14a159fe1f74a8c3c275da011d7f74fc2d38fc0168f2a5eca76c6092ab9",
+    "/mnt/d/VRM/artifacts/r5a3b_relation_constraint_pilot/condition_candidate_ledgers.json": "3a447308e83cc4ff148c96b6389a12947bfd22705a62f7349f9421193b3888dc",
+    "/mnt/d/VRM/artifacts/r5a3b_relation_constraint_pilot/final_report.json": "49a6d573c0502fbdb344dec05584ef5d7bef210e2eb287e72ed70e409b1b737d",
+    "/mnt/d/VRM/artifacts/r5a3b_relation_constraint_pilot/raw_candidate_universe_ledger.json": "14aa74058182e1603cc5d58f6f2afd44eaa327e3e74a5cb4f81fd4f0b34bf984",
+    "/mnt/d/VRM/vrm/twin_tasks/r5a3b_constraint_acquisition.py": "12d0974fc3c33a3b25690ba911bfbaa0862981af97d0920eda11d17078f8d1a4",
+    "/mnt/d/VRM/vrm/twin_tasks/r5a3b_object_graph.py": "4abe15346e9855e02b78f4b7acaa44e9207b2b502669047212b29997bc4e0ed9",
+    "/mnt/d/VRM/vrm/twin_tasks/r5a3b_p1_exposure_audit.py": "2b9998d44b1dfb646040f4c6389cde2304d3ac5130b1857cbc22aaad3ae3fe06",
+    "/mnt/d/VRM/vrm/twin_tasks/r5a3b_parse_hypotheses.py": "a64b0428c1904e1409191e0c72c54a51f9d20895699ddfdd7cc6a2f798696f90",
+    "/mnt/d/VRM/vrm/twin_tasks/r5a3b_relation_constraint_pilot.py": "c0bd75c60aba6d0dcf21fe8477631faf80ca75ff2cad83f1c879522a13b0974a",
+    "/mnt/d/VRM/vrm/twin_tasks/r5a3b_relation_programs.py": "a7ea9228fca6d8ff3cbe7ca8afd3e26f36fdb93276f46d5c85fce9a7bf816c6f"
+  },
+  "ranking_tuple": [
+    "support_shape_mismatch_count",
+    "support_cell_hamming_loss",
+    "support_failed_pair_count",
+    "candidate_id",
+    "output_hash"
+  ],
+  "test_query_firewall_policy": {
+    "arc_test_outputs_read": false,
+    "candidate_generation_uses_visible_support_pairs_only": true,
+    "held_out_train_outputs_read_before_commitment": false
+  },
+  "tie_break_order": [
+    "visible_support_rank_tuple",
+    "action_name",
+    "predicate_priority",
+    "predicate_value_canonical_representation",
+    "program_id",
+    "output_hash"
+  ],
+  "timestamp_utc": "2026-07-01T00:56:24Z"
+}
