@@ -1,0 +1,47 @@
+{
+  "protocol_version": "vrm2-frozen-checkpoint-l2-order-causality-v1",
+  "typed_program_schema_version": "vrm2-typed-program-v1",
+  "runtime_dir": "artifacts/vrm2/inductor/runtime/order_causality",
+  "minimum_final_causal_episodes": 30,
+  "evaluation_batch_size": 128,
+  "sealed_l2": {
+    "support_path": "artifacts/vrm2/inductor/runtime/v1/episodes/sealed_l2_supports.jsonl",
+    "query_path": "artifacts/vrm2/inductor/runtime/v1/episodes/sealed_l2_queries.jsonl",
+    "episode_count": 193,
+    "episode_corpus_sha256": "4f352e443bf0c729f35f20f07df1b058fee71b049312f96ab2e08360b1569d24",
+    "support_sha256": "6a4db03654df908c6c8a19f9b1af8bdb982d0e27b93d82011d7b5283fbed4a20",
+    "query_sha256": "f6b2f75ceaaa99ea591edb815ee107052a6cd8698e67232b4761d250d67be1e4"
+  },
+  "checkpoints": {
+    "main": {
+      "selected_report": "artifacts/vrm2/inductor/runtime/v1/pilot_seed_20260713/inductor_v1_seed_20260713.json",
+      "training_config": "configs/vrm2/inductor_v1_pilot.yaml",
+      "expected_archive_sha256": "4f5a42621a7ad72cb4f5cc698e6b1dd1db8392053b66a074448c52c3c49ce9ae",
+      "expected_ablation": "main"
+    },
+    "shuffled": {
+      "selected_report": "artifacts/vrm2/inductor/runtime/v1/ablation_shuffled_order/inductor_v1_seed_20260713.json",
+      "training_config": "configs/vrm2/inductor_v1_ablation_shuffled_order.yaml",
+      "expected_archive_sha256": "dff4c4c2bb2c6efa43bf5ae53dffdf09062aba99d3d628585cdd3004e52b9d56",
+      "expected_ablation": "shuffled_order"
+    }
+  },
+  "interpreter": {
+    "checkpoint": "artifacts/vrm2/oracle/runtime/v1/certification/oracle_interpreter_seed_20260713.pt",
+    "expected_archive_sha256": "52c05ee52badf8bf3244d15d146b81a0f7a372a049473756771d05a90ee02e48",
+    "expected_model_state_sha256": "4cf0b68d675c87fcbff9ac3613801017e9cba47acebe9e86f77137037ff6aae0",
+    "expected_parameter_count": 741930
+  },
+  "prohibited_coverage_payloads": [
+    "artifacts/vrm2/inductor/runtime/v1/l3_coverage/episodes.jsonl",
+    "artifacts/vrm2/inductor/runtime/v1/l3_coverage/coverage_l3_supports.jsonl",
+    "artifacts/vrm2/inductor/runtime/v1/l3_coverage/coverage_l3_queries.jsonl"
+  ],
+  "decision_thresholds": {
+    "contradiction_query_delta": 0.05,
+    "contradiction_orientation_delta": 0.05,
+    "order_loss": 0.15,
+    "selector_gain": 0.10,
+    "identity_ceiling": 0.50
+  }
+}
