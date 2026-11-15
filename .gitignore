@@ -14,6 +14,9 @@ venv/
 
 # Local datasets and checkpoints
 data/
+!/vrm2/data/
+/vrm2/data/*
+!/vrm2/data/*.py
 datasets/
 checkpoints/
 *.pt
@@ -62,6 +65,8 @@ Thumbs.db
 /artifacts/r5a3b_relation_constraint_pilot/raw_candidate_universe_ledger.json
 /r6a_compressarc/artifacts/r6a_phase2_support_permutation_first_divergence_v8/first_divergence_cases.json
 /artifacts/transport_recolor_r5a0_v2/init_reproduction_random_suite.json
+/artifacts/vrm2/oracle/runtime/
+/artifacts/vrm2/inductor/runtime/
 /artifacts/composition_r4a1p_v1/length3_order_counterfactual_suite.jsonl
 /r6a_compressarc/artifacts/r6a_phase2_support_permutation_first_divergence_v8/optimizer_parameter_partition.json
 /artifacts/mixed_router_r3b2_v1/boundary_candidate_pool.jsonl

@@ -1,0 +1,45 @@
+{
+  "generator_version": "vrm2-microworld-v1",
+  "operation_registry_version": "vrm2-operations-v1",
+  "split_version": "vrm2-composition-split-v1",
+  "grid_size": 8,
+  "output_shape": "fixed",
+  "support_pairs_per_task": 3,
+  "query_pairs_per_task": 1,
+  "objects_per_scene": [1, 3],
+  "program_lengths": {
+    "train": [1, 2],
+    "dev": [2],
+    "sealed": [2, 3]
+  },
+  "task_counts": {
+    "train": 24,
+    "dev": 8,
+    "sealed": 8
+  },
+  "scientific_task_counts": {
+    "train": 10000,
+    "dev": 2000,
+    "sealed": 2000
+  },
+  "seeds": {
+    "composition_split": 20260713,
+    "train": 110000,
+    "dev": 220000,
+    "sealed": 330000
+  },
+  "output_paths": {
+    "dataset_dir": "artifacts/vrm2/stage0",
+    "manifest_dir": "artifacts/vrm2/stage0/manifests"
+  },
+  "deterministic_mode": true,
+  "validation_limits": {
+    "max_scene_attempts": 128,
+    "max_episode_attempts": 64,
+    "max_object_placement_attempts": 64
+  },
+  "model_sees_rule_metadata": false,
+  "variable_shape": false,
+  "natural_language_verbalizer": false,
+  "arc_native_data": false
+}

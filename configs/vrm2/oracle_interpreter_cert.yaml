@@ -1,0 +1,74 @@
+{
+  "protocol_version": "vrm2-oracle-interpreter-v0",
+  "run_level": "certification",
+  "stage0_config": "configs/vrm2/stage0.yaml",
+  "model": {
+    "grid_size": 8,
+    "hidden_dim": 96,
+    "color_embedding_dim": 32,
+    "workspace_tokens": 4,
+    "attention_heads": 4,
+    "shared_execution_layers": 2,
+    "maximum_program_length": 3,
+    "dropout": 0
+  },
+  "data": {
+    "train_examples": 12000,
+    "train_seed": 610000,
+    "train_eval_examples": 1000,
+    "train_eval_seed": 710000,
+    "dev_examples": 1000,
+    "dev_seed": 720000,
+    "sealed_examples": 2000,
+    "sealed_seed": 640000,
+    "sealed_length_counts": {
+      "2": 1000,
+      "3": 1000
+    }
+  },
+  "training": {
+    "batch_size": 256,
+    "max_steps": 12000,
+    "minimum_steps": 8000,
+    "learning_rate": 0.0005,
+    "minimum_lr_ratio": 0.1,
+    "weight_decay": 0.01,
+    "betas": [
+      0.9,
+      0.95
+    ],
+    "warmup_steps": 500,
+    "lambda_intermediate": 0.5,
+    "gradient_clip_norm": 1,
+    "mixed_precision": true,
+    "mixed_precision_dtype": "bfloat16",
+    "require_cuda": true,
+    "max_parameters": 5000000,
+    "max_wall_clock_hours": 4,
+    "log_interval_steps": 100,
+    "eval_interval_steps": 1000,
+    "early_stopping_patience": 3
+  },
+  "evaluation": {
+    "batch_size": 512,
+    "control_examples": 1000
+  },
+  "certification": {
+    "seeds": [
+      20260713,
+      20260714,
+      20260715
+    ],
+    "pilot_proceed_thresholds": {
+      "train_signature": 0.95,
+      "sealed_len2": 0.9,
+      "sealed_len3": 0.85
+    },
+    "exact_threshold": 0.95,
+    "minimum_control_exact_drop": 0.2,
+    "minimum_control_output_change_rate": 0.5
+  },
+  "outputs": {
+    "runtime_dir": "artifacts/vrm2/oracle/runtime/certification"
+  }
+}

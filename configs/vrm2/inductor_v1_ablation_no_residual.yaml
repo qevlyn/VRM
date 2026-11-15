@@ -1,0 +1,18 @@
+{
+  "protocol_version": "vrm2-sequential-residual-inductor-v1",
+  "model_version": "sequential-residual-inductor-v1",
+  "run_level": "pilot-ablation",
+  "ablation": "no_residual",
+  "model_seed": 20260713,
+  "typed_program_schema_version": "vrm2-typed-program-v1",
+  "stage0_config": "configs/vrm2/stage0.yaml",
+  "stage0_dataset_sha256": "d5bf7360ccb287bb5b6a97fb78bd64d4916b2950b7da38ba48e790c976372208",
+  "model": {"color_embedding_dim": 32, "hidden_dim": 128, "attention_heads": 4, "pair_encoder_blocks": 2, "pair_summary_slots": 4, "maximum_supports": 3, "dropout": 0, "instruction_embedding_dim": 16, "disable_residual_update": true},
+  "data": {"train_examples": 12000, "train_seed": 610000, "train_eval_examples": 1000, "train_eval_seed": 710000, "dev_examples": 1000, "dev_seed": 720000, "sealed_examples": 2000, "sealed_seed": 640000, "sealed_corpus": "artifacts/vrm2/oracle/runtime/v1/certification/sealed_corpus_regenerated.jsonl", "sealed_corpus_sha256": "b91381281584011b4521cbf2479a3ba6d8ed6c2477dae80506b904e9c5352ba9", "interpreter_checkpoint": "artifacts/vrm2/oracle/runtime/v1/certification/oracle_interpreter_seed_20260713.pt", "interpreter_model_state_sha256": "4cf0b68d675c87fcbff9ac3613801017e9cba47acebe9e86f77137037ff6aae0", "v0_checkpoint": "artifacts/vrm2/inductor/runtime/v0/pilot_seed_20260713/inductor_seed_20260713.pt", "v0_checkpoint_sha256": "f0fd045bb2b08ef8a716b6b76fb47de8e20b4163881d94d5f14f4d81a1dccd09"},
+  "episodes": {"runtime_dir": "artifacts/vrm2/inductor/runtime/v1/episodes", "frozen_v0_dir": "artifacts/vrm2/inductor/runtime/v0/episode_manifests", "assembly_seeds": {"train": 811000, "train_eval": 812000}},
+  "l3_coverage": {"runtime_dir": "artifacts/vrm2/inductor/runtime/v1/l3_coverage", "seed": 830000, "episode_count": 512},
+  "training": {"batch_size": 64, "max_steps": 10000, "minimum_steps": 6000, "learning_rate": 0.0003, "minimum_lr_ratio": 0.1, "weight_decay": 0.01, "betas": [0.9, 0.95], "warmup_steps": 500, "loss_weights": {"operator": 1, "selector": 1, "argument_type": 1, "argument_value": 1}, "gradient_clip_norm": 1, "mixed_precision": true, "mixed_precision_dtype": "bfloat16", "require_cuda": true, "max_parameters": 1350000, "max_wall_clock_hours": 4, "log_interval_steps": 100, "eval_interval_steps": 1000, "early_stopping_patience": 3, "shuffle_instruction_order": false, "checkpoint_selection": ["dev_l2_query_exact", "dev_autoregressive_behavioral_program_exact", "dev_autoregressive_typed_program_exact", "train_eval_query_exact", "earlier_step"]},
+  "evaluation": {"batch_size": 128},
+  "gates": {"phase_a": {"sealed_l2_query_exact": 0.70, "improvement_over_v0_l2": 0.15, "residual_margin": 0.05, "shuffled_order_drop": 0.20, "support_permutation_identity": 1.0}, "phase_b": {"coverage_l3_query_exact": 0.50, "improvement_over_v0_coverage_l3": 0.25, "coverage_l3_oracle_exact": 0.95, "control_exact_drop": 0.30, "control_output_change": 0.50, "support_permutation_identity": 1.0}},
+  "outputs": {"runtime_dir": "artifacts/vrm2/inductor/runtime/v1/ablation_no_residual"}
+}

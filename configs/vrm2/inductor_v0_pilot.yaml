@@ -1,0 +1,87 @@
+{
+  "protocol_version": "vrm2-supervised-typed-program-inductor-v0",
+  "model_version": "supervised-typed-program-inductor-v0",
+  "run_level": "pilot",
+  "model_seed": 20260713,
+  "typed_program_schema_version": "vrm2-typed-program-v1",
+  "stage0_dataset_sha256": "d5bf7360ccb287bb5b6a97fb78bd64d4916b2950b7da38ba48e790c976372208",
+  "stage0_config": "configs/vrm2/stage0.yaml",
+  "model": {
+    "color_embedding_dim": 32,
+    "hidden_dim": 128,
+    "attention_heads": 4,
+    "pair_encoder_blocks": 2,
+    "pair_summary_slots": 4,
+    "maximum_supports": 3,
+    "dropout": 0
+  },
+  "data": {
+    "train_examples": 12000,
+    "train_seed": 610000,
+    "train_eval_examples": 1000,
+    "train_eval_seed": 710000,
+    "dev_examples": 1000,
+    "dev_seed": 720000,
+    "sealed_examples": 2000,
+    "sealed_seed": 640000,
+    "sealed_length_counts": {"2": 1000, "3": 1000},
+    "sealed_corpus": "artifacts/vrm2/oracle/runtime/v1/certification/sealed_corpus_regenerated.jsonl",
+    "interpreter_checkpoint": "artifacts/vrm2/oracle/runtime/v1/certification/oracle_interpreter_seed_20260713.pt",
+    "interpreter_model_state_sha256": "4cf0b68d675c87fcbff9ac3613801017e9cba47acebe9e86f77137037ff6aae0"
+  },
+  "episodes": {
+    "runtime_dir": "artifacts/vrm2/inductor/runtime/v0/episode_manifests",
+    "supports_per_episode": 3,
+    "queries_per_episode": 1,
+    "eligible_program_lengths": {"train": [2], "train_eval": [2], "dev": [2], "sealed_l2": [2], "sealed_l3": [3]},
+    "assembly_seeds": {
+      "train": 811000,
+      "train_eval": 812000,
+      "dev": 813000,
+      "sealed": 814000
+    }
+  },
+  "training": {
+    "batch_size": 64,
+    "max_steps": 10000,
+    "minimum_steps": 6000,
+    "learning_rate": 0.0003,
+    "minimum_lr_ratio": 0.1,
+    "weight_decay": 0.01,
+    "betas": [0.9, 0.95],
+    "warmup_steps": 500,
+    "loss_weights": {"length": 1, "operator": 1, "selector": 1, "argument_type": 1, "argument_value": 1},
+    "gradient_clip_norm": 1,
+    "mixed_precision": true,
+    "mixed_precision_dtype": "bfloat16",
+    "require_cuda": true,
+    "max_parameters": 2000000,
+    "max_wall_clock_hours": 4,
+    "log_interval_steps": 100,
+    "eval_interval_steps": 1000,
+    "early_stopping_patience": 3,
+    "checkpoint_selection": ["dev_query_exact", "dev_behavioral_program_exact", "dev_typed_program_exact", "train_eval_query_exact", "earlier_step"]
+  },
+  "evaluation": {"batch_size": 128},
+  "gates": {
+    "hard_stop": {
+      "sealed_l2_query_exact": 0.70,
+      "sealed_l3_query_exact": 0.50,
+      "sealed_aggregate_query_exact": 0.60,
+      "improvement_over_prior": 0.10
+    },
+    "continuation": {
+      "sealed_l2_query_exact": 0.90,
+      "sealed_l3_query_exact": 0.85,
+      "sealed_aggregate_query_exact": 0.875,
+      "improvement_over_prior": 0.30,
+      "support_swap_exact_drop": 0.30,
+      "output_shuffle_exact_drop": 0.30,
+      "null_support_exact_drop": 0.30,
+      "support_swap_output_change": 0.50,
+      "output_shuffle_output_change": 0.50,
+      "null_support_output_change": 0.50
+    }
+  },
+  "outputs": {"runtime_dir": "artifacts/vrm2/inductor/runtime/v0/pilot_seed_20260713"}
+}
