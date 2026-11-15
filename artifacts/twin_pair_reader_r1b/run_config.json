@@ -1,0 +1,44 @@
+{
+  "batch_size": 128,
+  "betas": [
+    0.9,
+    0.95
+  ],
+  "checkpoint_dir": "/mnt/d/VRM/checkpoints/twin_pair_reader_r1b",
+  "data": "/mnt/d/VRM/artifacts/twin_task_pilot_v1",
+  "epochs": 15,
+  "experiment": "Pair Key-Value Reader R1B - Output-Only + Causal Intervention Confirmation",
+  "grad_clip_norm": 1.0,
+  "lambda_retrieval": 0.0,
+  "learning_rate": 0.0003,
+  "mode": "full",
+  "model_config": {
+    "background_color": 0,
+    "color_count": 10,
+    "dropout": 0.0,
+    "hidden_size": 128,
+    "max_height": 7,
+    "max_width": 7,
+    "num_heads": 4,
+    "num_layers": 2,
+    "temperature": 0.1
+  },
+  "out": "/mnt/d/VRM/artifacts/twin_pair_reader_r1b",
+  "retrieval_supervision_used": false,
+  "seeds": [
+    20260628,
+    20260629,
+    20260630,
+    20260701,
+    20260702
+  ],
+  "steps_per_epoch": 125,
+  "total_steps_per_seed": 1875,
+  "training_batch_keys": [
+    "query_grids",
+    "support_input_grids",
+    "support_output_grids",
+    "target_grids"
+  ],
+  "weight_decay": 0.01
+}

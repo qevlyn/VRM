@@ -1,0 +1,32 @@
+{
+  "allocation_gate": {
+    "failure_count": 0,
+    "failures": [],
+    "gate_checks": [
+      "P0 object branch is byte-equivalent in P2A.",
+      "Vector-copy buckets are attempted when legal microproposals exist.",
+      "Vector-translate buckets are attempted when legal microproposals exist.",
+      "At least one vector action is emitted in every fold with a nonempty eligible vector bucket.",
+      "No relation action bucket is silently replaced by another bucket."
+    ],
+    "status": "PASS"
+  },
+  "audit_version": "R5A3B_P2A_BALANCED_RELATION_TRANSPORT_ALLOCATION_PILOT",
+  "bucket_status_counts": {
+    "RELATION_RECOLOR:BUCKET_UNAVAILABLE": 28,
+    "RELATION_RECOLOR:SELECTED": 150,
+    "RELATION_STATE_EDIT:BUCKET_UNAVAILABLE": 28,
+    "RELATION_STATE_EDIT:SELECTED": 150,
+    "RELATION_TRANSPORT_COPY:BUCKET_UNAVAILABLE": 28,
+    "RELATION_TRANSPORT_COPY:SELECTED": 150,
+    "RELATION_TRANSPORT_TRANSLATE:BUCKET_UNAVAILABLE": 28,
+    "RELATION_TRANSPORT_TRANSLATE:SELECTED": 150
+  },
+  "no_bucket_silent_substitution": true,
+  "selected_program_count_by_bucket": {
+    "RELATION_RECOLOR": 150,
+    "RELATION_STATE_EDIT": 150,
+    "RELATION_TRANSPORT_COPY": 150,
+    "RELATION_TRANSPORT_TRANSLATE": 150
+  }
+}

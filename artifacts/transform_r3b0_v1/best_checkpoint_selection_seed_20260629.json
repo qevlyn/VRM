@@ -1,0 +1,7 @@
+{
+  "seed": 20260629,
+  "selected_checkpoint": "/mnt/d/VRM/checkpoints/transform_r3b0_v1/transform_r3b0_seed_20260629_best_dev.pt",
+  "selected_checkpoint_sha256_before_sealed": "0ee0dbad1434e44919b928f6ba0a8c776f3f47c7d1265aa589cdcd8667a81225",
+  "selected_epoch_index": 0,
+  "selection_rule": "exact, transform balance, dev support counterfactual, hamming, earliest epoch"
+}

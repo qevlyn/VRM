@@ -1,0 +1,240 @@
+{
+  "coverage": {
+    "all_seeds_passed": false,
+    "seeds": {
+      "20260628": {
+        "all_epochs_passed": false,
+        "epochs": [
+          {
+            "duplicate_episode_count": 0,
+            "epoch_index": 0,
+            "expected_episode_count": 36000,
+            "missing_episode_count": 35488,
+            "observed_episode_count": 512,
+            "passed": false,
+            "unique_episode_count": 512
+          }
+        ],
+        "seed": 20260628
+      },
+      "20260629": {
+        "all_epochs_passed": false,
+        "epochs": [
+          {
+            "duplicate_episode_count": 0,
+            "epoch_index": 0,
+            "expected_episode_count": 36000,
+            "missing_episode_count": 35488,
+            "observed_episode_count": 512,
+            "passed": false,
+            "unique_episode_count": 512
+          }
+        ],
+        "seed": 20260629
+      },
+      "20260630": {
+        "all_epochs_passed": false,
+        "epochs": [
+          {
+            "duplicate_episode_count": 0,
+            "epoch_index": 0,
+            "expected_episode_count": 36000,
+            "missing_episode_count": 35488,
+            "observed_episode_count": 512,
+            "passed": false,
+            "unique_episode_count": 512
+          }
+        ],
+        "seed": 20260630
+      }
+    }
+  },
+  "gradient_isolation": {
+    "20260628": {
+      "max_gate_grad_norm": 0.09608305751460279,
+      "max_reader_grad_norm": 0.0,
+      "min_positive_gate_grad_norm": 0.08322865952319917,
+      "reader_frozen_grad_zero": true,
+      "seed": 20260628
+    },
+    "20260629": {
+      "max_gate_grad_norm": 0.10060080746110708,
+      "max_reader_grad_norm": 0.0,
+      "min_positive_gate_grad_norm": 0.09274984323077833,
+      "reader_frozen_grad_zero": true,
+      "seed": 20260629
+    },
+    "20260630": {
+      "max_gate_grad_norm": 0.10502628728225737,
+      "max_reader_grad_norm": 0.0,
+      "min_positive_gate_grad_norm": 0.09333909002061141,
+      "reader_frozen_grad_zero": true,
+      "seed": 20260630
+    }
+  },
+  "mode": "dry_run",
+  "protected_hashes_unchanged": true,
+  "reader_results": [
+    {
+      "certification": {
+        "all_permutation_same_final_grid_rate": 1.0,
+        "all_permutation_same_logical_pair_rate": 1.0,
+        "direct_grid_exact_accuracy": 1.0,
+        "episode_count": 512,
+        "foreground_color_accuracy": 1.0,
+        "mean_relevant_pair_mass": 0.9999962355941534,
+        "passed": true,
+        "permutation_presentation_count": 3072,
+        "retrieval_top1_accuracy": 1.0
+      },
+      "seed": 20260628,
+      "selection": {
+        "seed": 20260628,
+        "selected_checkpoint": "/mnt/d/VRM/checkpoints/mixed_router_r3a_v1/reader_r3a_seed_20260628_best_dev.pt",
+        "selected_checkpoint_sha256": "96d79eb8c22f23ad3e8132c83f168f60d8b49d83bd4d4b86acecbf13be4636a8",
+        "selected_epoch_index": 0,
+        "selection_rule": "highest dev exact, foreground, relevant mass, earliest epoch"
+      }
+    },
+    {
+      "certification": {
+        "all_permutation_same_final_grid_rate": 1.0,
+        "all_permutation_same_logical_pair_rate": 1.0,
+        "direct_grid_exact_accuracy": 1.0,
+        "episode_count": 512,
+        "foreground_color_accuracy": 1.0,
+        "mean_relevant_pair_mass": 0.9999962355941534,
+        "passed": true,
+        "permutation_presentation_count": 3072,
+        "retrieval_top1_accuracy": 1.0
+      },
+      "seed": 20260629,
+      "selection": {
+        "seed": 20260629,
+        "selected_checkpoint": "/mnt/d/VRM/checkpoints/mixed_router_r3a_v1/reader_r3a_seed_20260629_best_dev.pt",
+        "selected_checkpoint_sha256": "fc37118476ac31dd54ff2b35bb3ff8bde207d23fd58c2a9b6b5acebc4f7947f2",
+        "selected_epoch_index": 0,
+        "selection_rule": "highest dev exact, foreground, relevant mass, earliest epoch"
+      }
+    },
+    {
+      "certification": {
+        "all_permutation_same_final_grid_rate": 1.0,
+        "all_permutation_same_logical_pair_rate": 1.0,
+        "direct_grid_exact_accuracy": 1.0,
+        "episode_count": 512,
+        "foreground_color_accuracy": 1.0,
+        "mean_relevant_pair_mass": 0.9999962355941534,
+        "passed": true,
+        "permutation_presentation_count": 3072,
+        "retrieval_top1_accuracy": 1.0
+      },
+      "seed": 20260630,
+      "selection": {
+        "seed": 20260630,
+        "selected_checkpoint": "/mnt/d/VRM/checkpoints/mixed_router_r3a_v1/reader_r3a_seed_20260630_best_dev.pt",
+        "selected_checkpoint_sha256": "48af9803ec9306ba48f65d3dc5d60e936fd259264fe4178052e441b2c529ab2c",
+        "selected_epoch_index": 0,
+        "selection_rule": "highest dev exact, foreground, relevant mass, earliest epoch"
+      }
+    }
+  ],
+  "router_results": [
+    {
+      "coverage": {
+        "all_epochs_passed": false,
+        "epochs": [
+          {
+            "duplicate_episode_count": 0,
+            "epoch_index": 0,
+            "expected_episode_count": 36000,
+            "missing_episode_count": 35488,
+            "observed_episode_count": 512,
+            "passed": false,
+            "unique_episode_count": 512
+          }
+        ],
+        "seed": 20260628
+      },
+      "grad_report": {
+        "max_gate_grad_norm": 0.09608305751460279,
+        "max_reader_grad_norm": 0.0,
+        "min_positive_gate_grad_norm": 0.08322865952319917,
+        "reader_frozen_grad_zero": true,
+        "seed": 20260628
+      },
+      "seed": 20260628,
+      "selection": {
+        "seed": 20260628,
+        "selected_checkpoint": "/mnt/d/VRM/checkpoints/mixed_router_r3a_v1/router_r3a_seed_20260628_best_dev.pt",
+        "selected_checkpoint_sha256_before_sealed": "10bffb6b6cc827c8fe751d57d0b62fb42332d0b9c4295902fb0aaed94b8eea2b",
+        "selected_epoch_index": 0,
+        "selection_rule": "macro exact, route accuracy, hard-negative exact, low confusion, earliest epoch"
+      }
+    },
+    {
+      "coverage": {
+        "all_epochs_passed": false,
+        "epochs": [
+          {
+            "duplicate_episode_count": 0,
+            "epoch_index": 0,
+            "expected_episode_count": 36000,
+            "missing_episode_count": 35488,
+            "observed_episode_count": 512,
+            "passed": false,
+            "unique_episode_count": 512
+          }
+        ],
+        "seed": 20260629
+      },
+      "grad_report": {
+        "max_gate_grad_norm": 0.10060080746110708,
+        "max_reader_grad_norm": 0.0,
+        "min_positive_gate_grad_norm": 0.09274984323077833,
+        "reader_frozen_grad_zero": true,
+        "seed": 20260629
+      },
+      "seed": 20260629,
+      "selection": {
+        "seed": 20260629,
+        "selected_checkpoint": "/mnt/d/VRM/checkpoints/mixed_router_r3a_v1/router_r3a_seed_20260629_best_dev.pt",
+        "selected_checkpoint_sha256_before_sealed": "9fc6618db31d51720103ecbde7b26b2b0a2f0049c5bb86266a0a2ab974a5b9be",
+        "selected_epoch_index": 0,
+        "selection_rule": "macro exact, route accuracy, hard-negative exact, low confusion, earliest epoch"
+      }
+    },
+    {
+      "coverage": {
+        "all_epochs_passed": false,
+        "epochs": [
+          {
+            "duplicate_episode_count": 0,
+            "epoch_index": 0,
+            "expected_episode_count": 36000,
+            "missing_episode_count": 35488,
+            "observed_episode_count": 512,
+            "passed": false,
+            "unique_episode_count": 512
+          }
+        ],
+        "seed": 20260630
+      },
+      "grad_report": {
+        "max_gate_grad_norm": 0.10502628728225737,
+        "max_reader_grad_norm": 0.0,
+        "min_positive_gate_grad_norm": 0.09333909002061141,
+        "reader_frozen_grad_zero": true,
+        "seed": 20260630
+      },
+      "seed": 20260630,
+      "selection": {
+        "seed": 20260630,
+        "selected_checkpoint": "/mnt/d/VRM/checkpoints/mixed_router_r3a_v1/router_r3a_seed_20260630_best_dev.pt",
+        "selected_checkpoint_sha256_before_sealed": "1715a1d698dab2e38d914e20d066a84fdb9699c1eedd109b3760e348a736c0cd",
+        "selected_epoch_index": 0,
+        "selection_rule": "macro exact, route accuracy, hard-negative exact, low confusion, earliest epoch"
+      }
+    }
+  ]
+}

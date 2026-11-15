@@ -1,0 +1,37 @@
+{
+  "Measured facts": {
+    "any_fold_exceeded_120s": false,
+    "conditions": [
+      "OBJECT_ONLY",
+      "RELATION_NO_PRUNE",
+      "RELATION_SOFT_CONSTRAINT",
+      "RELATION_HARD_CONSTRAINT",
+      "MATCHED_RANDOM_PRUNE"
+    ],
+    "fold_count": 100,
+    "matched_random_mean_recall_at_128": 0.013333333333333334,
+    "pilot_version": "R5A3B_P0_RELATION_OBJECT_GRAPH_CONSTRAINT_CAUSAL_PILOT",
+    "primary_deltas": {
+      "constraint_delta_recall_at_128": 0.0,
+      "relation_delta_recall_at_128": 0.0,
+      "smart_prune_delta_vs_random_mean_recall_at_128": 0.006666666666666666
+    },
+    "protected_prior_hashes_unchanged": true,
+    "recall_at_128_by_condition": {
+      "OBJECT_ONLY": 0.02,
+      "RELATION_HARD_CONSTRAINT": 0.02,
+      "RELATION_NO_PRUNE": 0.02,
+      "RELATION_SOFT_CONSTRAINT": 0.02
+    }
+  },
+  "Narrowest justified next action": "B",
+  "What this pilot does not establish": [
+    "It is not a full 4357-fold ARC corpus audit.",
+    "It is not evidence of ARC solving, neural learning, hidden tool emergence, or transfer beyond this fixed pilot.",
+    "It does not modify or reinterpret historical V2, topology, R5A-2D, or R5A-3A results."
+  ],
+  "What this pilot establishes": [
+    "A frozen 24-task input-selected causal pilot can compare object-only, relation-only, soft-constraint, hard-constraint, and matched-random-prune conditions from the same raw visible support information.",
+    "The ledgers commit raw candidates and condition candidate lists before held-out fold outputs are used for exact metrics."
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "all_permutation_same_final_grid_rate": 1.0,
+  "all_permutation_same_logical_pair_rate": 1.0,
+  "direct_grid_exact_accuracy": 1.0,
+  "episode_count": 3000,
+  "foreground_color_accuracy": 1.0,
+  "mean_relevant_pair_mass": 0.9999986362457275,
+  "passed": true,
+  "permutation_presentation_count": 18000,
+  "retrieval_top1_accuracy": 1.0
+}

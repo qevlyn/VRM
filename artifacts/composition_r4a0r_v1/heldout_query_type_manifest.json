@@ -1,0 +1,27 @@
+{
+  "blocked_before_split": true,
+  "generated": false,
+  "query_type_feasibility": {
+    "available_query_type_count": 128,
+    "declared_query_type": [
+      "primary_shape",
+      "primary_color",
+      "anchor_region",
+      "distractor_count"
+    ],
+    "factor_cardinalities": {
+      "anchor_region": 4,
+      "distractor_count": 2,
+      "primary_color": 4,
+      "primary_shape": 4
+    },
+    "feasible": false,
+    "reason": "The declared query_type factors produce 4*4*4*2 = 128 combinations, but the requested disjoint split requires 96+24+24 = 144 combinations.",
+    "required_disjoint_query_type_count": 144,
+    "required_query_type_counts": {
+      "dev": 24,
+      "sealed": 24,
+      "train": 96
+    }
+  }
+}

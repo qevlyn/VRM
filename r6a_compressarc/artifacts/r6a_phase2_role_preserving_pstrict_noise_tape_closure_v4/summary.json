@@ -1,0 +1,15 @@
+{
+  "cpu_only_no_gpu": true,
+  "cycle_invariant_task_count": 5,
+  "prior_pstrict_scope_classification": "P_ROLE_PRESERVING_UNCOUPLED_STOCHASTICITY",
+  "protected_integrity_after": true,
+  "protected_integrity_before": true,
+  "reconciliation_295_subset_701": false,
+  "report_path": "/mnt/d/VRM/r6a_compressarc/reports/r6a_phase2_role_preserving_pstrict_noise_tape_closure_v4/R6A_PHASE2_ROLE_PRESERVING_PSTRICT_CLOSURE_V4_REPORT.md",
+  "status": "R6A_PHASE2_ROLE_PRESERVING_PSTRICT_CLOSURE_V4_COMPLETE",
+  "task_labels": {
+    "1f876c06": "P_STRICT_DETERMINISTIC_STEP0_MISMATCH",
+    "604001fa": "P_STRICT_DETERMINISTIC_STEP0_MISMATCH"
+  },
+  "write_ledger_count": 29
+}

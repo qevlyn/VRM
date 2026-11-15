@@ -1,0 +1,481 @@
+{
+  "episode_count": 17,
+  "episodes": [
+    {
+      "episode_index": 0,
+      "query_input_shape": [
+        2,
+        2
+      ],
+      "query_pair_index": 0,
+      "source_file": "/mnt/d/ARC2/arc-prize-2026-arc-agi-2/arc-agi_training_challenges.json",
+      "source_split": "train",
+      "support_count": 1,
+      "support_pair_indices": [
+        1
+      ],
+      "target_shape": [
+        6,
+        6
+      ],
+      "task_id": "00576224"
+    },
+    {
+      "episode_index": 1,
+      "query_input_shape": [
+        2,
+        2
+      ],
+      "query_pair_index": 1,
+      "source_file": "/mnt/d/ARC2/arc-prize-2026-arc-agi-2/arc-agi_training_challenges.json",
+      "source_split": "train",
+      "support_count": 1,
+      "support_pair_indices": [
+        0
+      ],
+      "target_shape": [
+        6,
+        6
+      ],
+      "task_id": "00576224"
+    },
+    {
+      "episode_index": 2,
+      "query_input_shape": [
+        3,
+        3
+      ],
+      "query_pair_index": 0,
+      "source_file": "/mnt/d/ARC2/arc-prize-2026-arc-agi-2/arc-agi_training_challenges.json",
+      "source_split": "train",
+      "support_count": 4,
+      "support_pair_indices": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "target_shape": [
+        9,
+        9
+      ],
+      "task_id": "007bbfb7"
+    },
+    {
+      "episode_index": 3,
+      "query_input_shape": [
+        3,
+        3
+      ],
+      "query_pair_index": 1,
+      "source_file": "/mnt/d/ARC2/arc-prize-2026-arc-agi-2/arc-agi_training_challenges.json",
+      "source_split": "train",
+      "support_count": 4,
+      "support_pair_indices": [
+        0,
+        2,
+        3,
+        4
+      ],
+      "target_shape": [
+        9,
+        9
+      ],
+      "task_id": "007bbfb7"
+    },
+    {
+      "episode_index": 4,
+      "query_input_shape": [
+        3,
+        3
+      ],
+      "query_pair_index": 2,
+      "source_file": "/mnt/d/ARC2/arc-prize-2026-arc-agi-2/arc-agi_training_challenges.json",
+      "source_split": "train",
+      "support_count": 4,
+      "support_pair_indices": [
+        0,
+        1,
+        3,
+        4
+      ],
+      "target_shape": [
+        9,
+        9
+      ],
+      "task_id": "007bbfb7"
+    },
+    {
+      "episode_index": 5,
+      "query_input_shape": [
+        3,
+        3
+      ],
+      "query_pair_index": 3,
+      "source_file": "/mnt/d/ARC2/arc-prize-2026-arc-agi-2/arc-agi_training_challenges.json",
+      "source_split": "train",
+      "support_count": 4,
+      "support_pair_indices": [
+        0,
+        1,
+        2,
+        4
+      ],
+      "target_shape": [
+        9,
+        9
+      ],
+      "task_id": "007bbfb7"
+    },
+    {
+      "episode_index": 6,
+      "query_input_shape": [
+        3,
+        3
+      ],
+      "query_pair_index": 4,
+      "source_file": "/mnt/d/ARC2/arc-prize-2026-arc-agi-2/arc-agi_training_challenges.json",
+      "source_split": "train",
+      "support_count": 4,
+      "support_pair_indices": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "target_shape": [
+        9,
+        9
+      ],
+      "task_id": "007bbfb7"
+    },
+    {
+      "episode_index": 7,
+      "query_input_shape": [
+        14,
+        14
+      ],
+      "query_pair_index": 0,
+      "source_file": "/mnt/d/ARC2/arc-prize-2026-arc-agi-2/arc-agi_training_challenges.json",
+      "source_split": "train",
+      "support_count": 4,
+      "support_pair_indices": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "target_shape": [
+        14,
+        14
+      ],
+      "task_id": "009d5c81"
+    },
+    {
+      "episode_index": 8,
+      "query_input_shape": [
+        14,
+        14
+      ],
+      "query_pair_index": 1,
+      "source_file": "/mnt/d/ARC2/arc-prize-2026-arc-agi-2/arc-agi_training_challenges.json",
+      "source_split": "train",
+      "support_count": 4,
+      "support_pair_indices": [
+        0,
+        2,
+        3,
+        4
+      ],
+      "target_shape": [
+        14,
+        14
+      ],
+      "task_id": "009d5c81"
+    },
+    {
+      "episode_index": 9,
+      "query_input_shape": [
+        14,
+        14
+      ],
+      "query_pair_index": 2,
+      "source_file": "/mnt/d/ARC2/arc-prize-2026-arc-agi-2/arc-agi_training_challenges.json",
+      "source_split": "train",
+      "support_count": 4,
+      "support_pair_indices": [
+        0,
+        1,
+        3,
+        4
+      ],
+      "target_shape": [
+        14,
+        14
+      ],
+      "task_id": "009d5c81"
+    },
+    {
+      "episode_index": 10,
+      "query_input_shape": [
+        14,
+        14
+      ],
+      "query_pair_index": 3,
+      "source_file": "/mnt/d/ARC2/arc-prize-2026-arc-agi-2/arc-agi_training_challenges.json",
+      "source_split": "train",
+      "support_count": 4,
+      "support_pair_indices": [
+        0,
+        1,
+        2,
+        4
+      ],
+      "target_shape": [
+        14,
+        14
+      ],
+      "task_id": "009d5c81"
+    },
+    {
+      "episode_index": 11,
+      "query_input_shape": [
+        14,
+        14
+      ],
+      "query_pair_index": 4,
+      "source_file": "/mnt/d/ARC2/arc-prize-2026-arc-agi-2/arc-agi_training_challenges.json",
+      "source_split": "train",
+      "support_count": 4,
+      "support_pair_indices": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "target_shape": [
+        14,
+        14
+      ],
+      "task_id": "009d5c81"
+    },
+    {
+      "episode_index": 12,
+      "query_input_shape": [
+        10,
+        10
+      ],
+      "query_pair_index": 0,
+      "source_file": "/mnt/d/ARC2/arc-prize-2026-arc-agi-2/arc-agi_training_challenges.json",
+      "source_split": "train",
+      "support_count": 4,
+      "support_pair_indices": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "target_shape": [
+        10,
+        10
+      ],
+      "task_id": "00d62c1b"
+    },
+    {
+      "episode_index": 13,
+      "query_input_shape": [
+        10,
+        10
+      ],
+      "query_pair_index": 1,
+      "source_file": "/mnt/d/ARC2/arc-prize-2026-arc-agi-2/arc-agi_training_challenges.json",
+      "source_split": "train",
+      "support_count": 4,
+      "support_pair_indices": [
+        0,
+        2,
+        3,
+        4
+      ],
+      "target_shape": [
+        10,
+        10
+      ],
+      "task_id": "00d62c1b"
+    },
+    {
+      "episode_index": 14,
+      "query_input_shape": [
+        10,
+        10
+      ],
+      "query_pair_index": 2,
+      "source_file": "/mnt/d/ARC2/arc-prize-2026-arc-agi-2/arc-agi_training_challenges.json",
+      "source_split": "train",
+      "support_count": 4,
+      "support_pair_indices": [
+        0,
+        1,
+        3,
+        4
+      ],
+      "target_shape": [
+        10,
+        10
+      ],
+      "task_id": "00d62c1b"
+    },
+    {
+      "episode_index": 15,
+      "query_input_shape": [
+        20,
+        20
+      ],
+      "query_pair_index": 3,
+      "source_file": "/mnt/d/ARC2/arc-prize-2026-arc-agi-2/arc-agi_training_challenges.json",
+      "source_split": "train",
+      "support_count": 4,
+      "support_pair_indices": [
+        0,
+        1,
+        2,
+        4
+      ],
+      "target_shape": [
+        20,
+        20
+      ],
+      "task_id": "00d62c1b"
+    },
+    {
+      "episode_index": 16,
+      "query_input_shape": [
+        6,
+        6
+      ],
+      "query_pair_index": 4,
+      "source_file": "/mnt/d/ARC2/arc-prize-2026-arc-agi-2/arc-agi_training_challenges.json",
+      "source_split": "train",
+      "support_count": 4,
+      "support_pair_indices": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "target_shape": [
+        6,
+        6
+      ],
+      "task_id": "00d62c1b"
+    }
+  ],
+  "fixed_task_ids": [
+    "00576224",
+    "007bbfb7",
+    "009d5c81",
+    "00d62c1b"
+  ],
+  "integrity_checks": {
+    "all_passed": true,
+    "every_generated_episode_is_leave_one_out_correct": {
+      "failure_count": 0,
+      "failures": [],
+      "passed": true
+    },
+    "failed_checks": [],
+    "no_task_id_enters_vrm_forward": {
+      "forbidden_forward_parameters": [],
+      "forward_parameters": [
+        "self",
+        "support_inputs",
+        "support_outputs",
+        "support_mask",
+        "query_inputs"
+      ],
+      "model_input_keys": [
+        "query_inputs",
+        "support_inputs",
+        "support_mask",
+        "support_outputs"
+      ],
+      "passed": true
+    },
+    "old_trm_checkpoint_loaded": {
+      "loaded": false,
+      "passed": true
+    },
+    "original_trm_source_files_unchanged": {
+      "baseline_exists": true,
+      "baseline_path": "/mnt/d/VRM/artifacts/trm_source_hashes_before.sha256",
+      "passed": true
+    },
+    "query_target_absent_from_model_input_tensors": {
+      "model_input_keys": [
+        "query_inputs",
+        "support_inputs",
+        "support_mask",
+        "support_outputs"
+      ],
+      "passed": true,
+      "query_target_tensor_reused_as_input": false
+    },
+    "raw_arc_training_source_contains_exact_four_task_ids": {
+      "passed": true,
+      "task_ids": [
+        "00576224",
+        "007bbfb7",
+        "009d5c81",
+        "00d62c1b"
+      ],
+      "training_challenges": "/mnt/d/ARC2/arc-prize-2026-arc-agi-2/arc-agi_training_challenges.json"
+    },
+    "selected_tasks_are_training_split_not_validation": {
+      "passed": true,
+      "source_splits": {
+        "00576224": "train",
+        "007bbfb7": "train",
+        "009d5c81": "train",
+        "00d62c1b": "train"
+      }
+    },
+    "vrm_state_dict_free_of_forbidden_lookup_terms": {
+      "banned_terms": [
+        "puzzle_emb",
+        "puzzle_identifier",
+        "sparse_embedding",
+        "task_id"
+      ],
+      "matching_state_keys": [],
+      "passed": true
+    }
+  },
+  "mode": "capacity4",
+  "selected_task_ids": [
+    "00576224",
+    "007bbfb7",
+    "009d5c81",
+    "00d62c1b"
+  ],
+  "source_json_filenames": {
+    "all_json_files": [
+      "/mnt/d/ARC2/arc-prize-2026-arc-agi-2/arc-agi_evaluation_challenges.json",
+      "/mnt/d/ARC2/arc-prize-2026-arc-agi-2/arc-agi_evaluation_solutions.json",
+      "/mnt/d/ARC2/arc-prize-2026-arc-agi-2/arc-agi_test_challenges.json",
+      "/mnt/d/ARC2/arc-prize-2026-arc-agi-2/arc-agi_training_challenges.json",
+      "/mnt/d/ARC2/arc-prize-2026-arc-agi-2/arc-agi_training_solutions.json",
+      "/mnt/d/ARC2/arc-prize-2026-arc-agi-2/sample_submission.json"
+    ],
+    "data_root": "/mnt/d/ARC2/arc-prize-2026-arc-agi-2",
+    "training_challenges": "/mnt/d/ARC2/arc-prize-2026-arc-agi-2/arc-agi_training_challenges.json",
+    "training_solutions": "/mnt/d/ARC2/arc-prize-2026-arc-agi-2/arc-agi_training_solutions.json"
+  },
+  "split_manifest_path": "/mnt/d/VRM/artifacts/task_split_manifest.json",
+  "split_seed": 12345,
+  "task_split_assignments": {
+    "00576224": "train",
+    "007bbfb7": "train",
+    "009d5c81": "train",
+    "00d62c1b": "train"
+  }
+}

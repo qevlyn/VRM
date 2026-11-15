@@ -1,0 +1,40 @@
+{
+  "created_utc": "2026-07-04T06:28:53Z",
+  "fail_count": 0,
+  "fixtures": [
+    {
+      "allowed_localization": "channel_layer or immediate semantic child",
+      "fixture": "STATE_PERTURBATION",
+      "localized_to_first_affected_semantic_trace_point": true,
+      "mutation_scope": "test-only in-memory fixture; production source, checkpoints, and previous artifacts unchanged",
+      "source_with_mutation_equals_scanned_with_mutation": true,
+      "status": "PASS"
+    },
+    {
+      "allowed_localization": "normalize or immediate semantic child",
+      "fixture": "NORMALIZE_INPUT_PERTURBATION",
+      "localized_to_first_affected_semantic_trace_point": true,
+      "mutation_scope": "test-only in-memory fixture; production source, checkpoints, and previous artifacts unchanged",
+      "source_with_mutation_equals_scanned_with_mutation": true,
+      "status": "PASS"
+    },
+    {
+      "allowed_localization": "cummax or immediate semantic child",
+      "fixture": "RAW_CUMMAX_INPUT_PERTURBATION",
+      "localized_to_first_affected_semantic_trace_point": true,
+      "mutation_scope": "test-only in-memory fixture; production source, checkpoints, and previous artifacts unchanged",
+      "source_with_mutation_equals_scanned_with_mutation": true,
+      "status": "PASS"
+    },
+    {
+      "allowed_localization": "cummax post-normalization point or immediate semantic child",
+      "fixture": "POSTNORM_PERTURBATION",
+      "localized_to_first_affected_semantic_trace_point": true,
+      "mutation_scope": "test-only in-memory fixture; production source, checkpoints, and previous artifacts unchanged",
+      "source_with_mutation_equals_scanned_with_mutation": true,
+      "status": "PASS"
+    }
+  ],
+  "pass_count": 4,
+  "status": "PASS"
+}

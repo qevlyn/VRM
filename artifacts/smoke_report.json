@@ -1,0 +1,65 @@
+{
+  "checkpoint_path": "/mnt/d/VRM/checkpoints/smoke.pt",
+  "config": {
+    "dropout": 0.0,
+    "hidden_size": 128,
+    "max_grid_height": 30,
+    "max_grid_tokens": 900,
+    "max_grid_width": 30,
+    "memory_slots": 16,
+    "num_heads": 4,
+    "reasoning_cycles": 2,
+    "reasoning_layers": 2,
+    "vocab_size": 11
+  },
+  "cuda_available": false,
+  "cuda_device": null,
+  "data_summary": {
+    "raw_task_count": 1000,
+    "skipped_task_count": 0,
+    "train_episode_count": 2580,
+    "train_task_count": 800,
+    "usable_task_count": 1000,
+    "validation_episode_count": 652,
+    "validation_task_count": 200
+  },
+  "device": "cpu",
+  "end_loss": 1.5069109201431274,
+  "finite_loss": true,
+  "gradient_checks": {
+    "attention_projections": true,
+    "color_embeddings": true,
+    "initial_memory": true,
+    "output_head": true
+  },
+  "loss_history": [
+    2.3096466064453125,
+    2.1866395473480225,
+    0.8211149573326111,
+    1.3020695447921753,
+    2.4915170669555664,
+    2.7643163204193115,
+    1.101447582244873,
+    0.5384153127670288,
+    0.7634722590446472,
+    1.5069109201431274
+  ],
+  "mode": "smoke",
+  "parameter_update_check": true,
+  "source_json_filenames": {
+    "all_json_files": [
+      "/mnt/d/VRM/arc-prize-2026-arc-agi-2/arc-agi_evaluation_challenges.json",
+      "/mnt/d/VRM/arc-prize-2026-arc-agi-2/arc-agi_evaluation_solutions.json",
+      "/mnt/d/VRM/arc-prize-2026-arc-agi-2/arc-agi_test_challenges.json",
+      "/mnt/d/VRM/arc-prize-2026-arc-agi-2/arc-agi_training_challenges.json",
+      "/mnt/d/VRM/arc-prize-2026-arc-agi-2/arc-agi_training_solutions.json",
+      "/mnt/d/VRM/arc-prize-2026-arc-agi-2/sample_submission.json"
+    ],
+    "data_root": "/mnt/d/VRM/arc-prize-2026-arc-agi-2",
+    "training_challenges": "/mnt/d/VRM/arc-prize-2026-arc-agi-2/arc-agi_training_challenges.json",
+    "training_solutions": "/mnt/d/VRM/arc-prize-2026-arc-agi-2/arc-agi_training_solutions.json"
+  },
+  "start_loss": 2.3096466064453125,
+  "steps": 10,
+  "torch_version": "2.12.1+cpu"
+}

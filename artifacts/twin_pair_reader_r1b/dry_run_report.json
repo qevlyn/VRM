@@ -1,0 +1,17 @@
+{
+  "batches_run": 4,
+  "cuda_device": "NVIDIA GeForce RTX 4070 Ti SUPER",
+  "finite_parameters": true,
+  "global_step": 4,
+  "last_train_output_loss": 7.767380884615704e-05,
+  "mode": "dry_run",
+  "protected_hashes_unchanged": true,
+  "retrieval_supervision_used": false,
+  "seed": 20260628,
+  "training_batch_keys": [
+    "query_grids",
+    "support_input_grids",
+    "support_output_grids",
+    "target_grids"
+  ]
+}

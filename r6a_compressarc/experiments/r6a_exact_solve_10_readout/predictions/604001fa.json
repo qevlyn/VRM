@@ -1,0 +1,1365 @@
+{
+  "cell_accuracy": 0.8777777777777778,
+  "condition_name": "FULL",
+  "decoded_shape": [
+    15,
+    12
+  ],
+  "decoder_source_hash": "e4e9275cb0c5279640338b254b23c27f0349d83fa38e9d978c2d7ede884d8e43",
+  "decoder_source_path": "/mnt/d/VRM/r6a_compressarc/scripts/phase1_condition_solver.py",
+  "evaluator_source_hash": "ca77ec9bfc8fa4c02d6c090a0fa61cf87730b0cdff1d3c905ce8ab1f797a4fe4",
+  "evaluator_source_path": "/mnt/d/VRM/r6a_compressarc/scripts/r6a_common.py",
+  "exact_grid_correct": false,
+  "exact_mismatch_count": 22,
+  "gold_target_grid": [
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      6,
+      6,
+      6,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      6,
+      6,
+      0,
+      0,
+      0,
+      3,
+      3,
+      3,
+      3,
+      0,
+      0
+    ],
+    [
+      6,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      3,
+      0,
+      3,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      3,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      4,
+      4,
+      0,
+      4,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      4,
+      0,
+      4,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      4,
+      4,
+      0,
+      0,
+      8,
+      8,
+      0,
+      8
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      8,
+      8,
+      8
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      8,
+      8,
+      0,
+      0
+    ]
+  ],
+  "metrics": {
+    "all_cell_accuracy": 0.8777777777777778,
+    "changed_cell_macro_accuracy": 0.45,
+    "changed_cell_pooled_accuracy": 0.45,
+    "exact_grid_match": false,
+    "output_shape_exact_match": true,
+    "rows": [
+      {
+        "all_cell_accuracy": 0.8777777777777778,
+        "changed_cell_accuracy": 0.45,
+        "changed_cell_count": 40,
+        "changed_cell_entries": [
+          {
+            "col": 1,
+            "correct": true,
+            "predicted_color": 0,
+            "query_color": 7,
+            "row": 1,
+            "target_color": 0
+          },
+          {
+            "col": 2,
+            "correct": true,
+            "predicted_color": 0,
+            "query_color": 7,
+            "row": 1,
+            "target_color": 0
+          },
+          {
+            "col": 1,
+            "correct": true,
+            "predicted_color": 0,
+            "query_color": 7,
+            "row": 2,
+            "target_color": 0
+          },
+          {
+            "col": 8,
+            "correct": true,
+            "predicted_color": 0,
+            "query_color": 7,
+            "row": 2,
+            "target_color": 0
+          },
+          {
+            "col": 0,
+            "correct": false,
+            "predicted_color": 4,
+            "query_color": 1,
+            "row": 3,
+            "target_color": 6
+          },
+          {
+            "col": 1,
+            "correct": false,
+            "predicted_color": 4,
+            "query_color": 1,
+            "row": 3,
+            "target_color": 6
+          },
+          {
+            "col": 2,
+            "correct": false,
+            "predicted_color": 4,
+            "query_color": 1,
+            "row": 3,
+            "target_color": 6
+          },
+          {
+            "col": 7,
+            "correct": true,
+            "predicted_color": 0,
+            "query_color": 7,
+            "row": 3,
+            "target_color": 0
+          },
+          {
+            "col": 8,
+            "correct": true,
+            "predicted_color": 0,
+            "query_color": 7,
+            "row": 3,
+            "target_color": 0
+          },
+          {
+            "col": 1,
+            "correct": false,
+            "predicted_color": 4,
+            "query_color": 1,
+            "row": 4,
+            "target_color": 6
+          },
+          {
+            "col": 2,
+            "correct": false,
+            "predicted_color": 4,
+            "query_color": 1,
+            "row": 4,
+            "target_color": 6
+          },
+          {
+            "col": 6,
+            "correct": false,
+            "predicted_color": 4,
+            "query_color": 1,
+            "row": 4,
+            "target_color": 3
+          },
+          {
+            "col": 7,
+            "correct": false,
+            "predicted_color": 4,
+            "query_color": 1,
+            "row": 4,
+            "target_color": 3
+          },
+          {
+            "col": 8,
+            "correct": false,
+            "predicted_color": 4,
+            "query_color": 1,
+            "row": 4,
+            "target_color": 3
+          },
+          {
+            "col": 9,
+            "correct": false,
+            "predicted_color": 4,
+            "query_color": 1,
+            "row": 4,
+            "target_color": 3
+          },
+          {
+            "col": 0,
+            "correct": false,
+            "predicted_color": 0,
+            "query_color": 1,
+            "row": 5,
+            "target_color": 6
+          },
+          {
+            "col": 7,
+            "correct": false,
+            "predicted_color": 4,
+            "query_color": 1,
+            "row": 5,
+            "target_color": 3
+          },
+          {
+            "col": 9,
+            "correct": false,
+            "predicted_color": 4,
+            "query_color": 1,
+            "row": 5,
+            "target_color": 3
+          },
+          {
+            "col": 8,
+            "correct": false,
+            "predicted_color": 0,
+            "query_color": 1,
+            "row": 6,
+            "target_color": 3
+          },
+          {
+            "col": 4,
+            "correct": true,
+            "predicted_color": 0,
+            "query_color": 7,
+            "row": 8,
+            "target_color": 0
+          },
+          {
+            "col": 5,
+            "correct": true,
+            "predicted_color": 0,
+            "query_color": 7,
+            "row": 8,
+            "target_color": 0
+          },
+          {
+            "col": 5,
+            "correct": true,
+            "predicted_color": 0,
+            "query_color": 7,
+            "row": 9,
+            "target_color": 0
+          },
+          {
+            "col": 3,
+            "correct": false,
+            "predicted_color": 0,
+            "query_color": 1,
+            "row": 10,
+            "target_color": 4
+          },
+          {
+            "col": 4,
+            "correct": true,
+            "predicted_color": 4,
+            "query_color": 1,
+            "row": 10,
+            "target_color": 4
+          },
+          {
+            "col": 6,
+            "correct": true,
+            "predicted_color": 4,
+            "query_color": 1,
+            "row": 10,
+            "target_color": 4
+          },
+          {
+            "col": 9,
+            "correct": true,
+            "predicted_color": 0,
+            "query_color": 7,
+            "row": 10,
+            "target_color": 0
+          },
+          {
+            "col": 3,
+            "correct": true,
+            "predicted_color": 4,
+            "query_color": 1,
+            "row": 11,
+            "target_color": 4
+          },
+          {
+            "col": 5,
+            "correct": true,
+            "predicted_color": 4,
+            "query_color": 1,
+            "row": 11,
+            "target_color": 4
+          },
+          {
+            "col": 9,
+            "correct": true,
+            "predicted_color": 0,
+            "query_color": 7,
+            "row": 11,
+            "target_color": 0
+          },
+          {
+            "col": 10,
+            "correct": true,
+            "predicted_color": 0,
+            "query_color": 7,
+            "row": 11,
+            "target_color": 0
+          },
+          {
+            "col": 4,
+            "correct": true,
+            "predicted_color": 4,
+            "query_color": 1,
+            "row": 12,
+            "target_color": 4
+          },
+          {
+            "col": 5,
+            "correct": true,
+            "predicted_color": 4,
+            "query_color": 1,
+            "row": 12,
+            "target_color": 4
+          },
+          {
+            "col": 8,
+            "correct": false,
+            "predicted_color": 0,
+            "query_color": 1,
+            "row": 12,
+            "target_color": 8
+          },
+          {
+            "col": 9,
+            "correct": false,
+            "predicted_color": 4,
+            "query_color": 1,
+            "row": 12,
+            "target_color": 8
+          },
+          {
+            "col": 11,
+            "correct": false,
+            "predicted_color": 4,
+            "query_color": 1,
+            "row": 12,
+            "target_color": 8
+          },
+          {
+            "col": 9,
+            "correct": false,
+            "predicted_color": 4,
+            "query_color": 1,
+            "row": 13,
+            "target_color": 8
+          },
+          {
+            "col": 10,
+            "correct": false,
+            "predicted_color": 4,
+            "query_color": 1,
+            "row": 13,
+            "target_color": 8
+          },
+          {
+            "col": 11,
+            "correct": false,
+            "predicted_color": 4,
+            "query_color": 1,
+            "row": 13,
+            "target_color": 8
+          },
+          {
+            "col": 8,
+            "correct": false,
+            "predicted_color": 0,
+            "query_color": 1,
+            "row": 14,
+            "target_color": 8
+          },
+          {
+            "col": 9,
+            "correct": false,
+            "predicted_color": 4,
+            "query_color": 1,
+            "row": 14,
+            "target_color": 8
+          }
+        ],
+        "changed_cell_loss_or_nll": null,
+        "exact_grid_match": false,
+        "output_shape_exact_match": true,
+        "predicted_grid": [
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            4,
+            4,
+            4,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            4,
+            4,
+            0,
+            0,
+            0,
+            4,
+            4,
+            4,
+            4,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            4,
+            0,
+            4,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            4,
+            0,
+            4,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            4,
+            0,
+            4,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            4,
+            4,
+            0,
+            0,
+            0,
+            4,
+            0,
+            4
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            4,
+            4,
+            4
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            4,
+            0,
+            0
+          ]
+        ],
+        "target_grid": [
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            6,
+            6,
+            6,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            6,
+            6,
+            0,
+            0,
+            0,
+            3,
+            3,
+            3,
+            3,
+            0,
+            0
+          ],
+          [
+            6,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            3,
+            0,
+            3,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            3,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            4,
+            4,
+            0,
+            4,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            4,
+            0,
+            4,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            4,
+            4,
+            0,
+            0,
+            8,
+            8,
+            0,
+            8
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            8,
+            8,
+            8
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            8,
+            8,
+            0,
+            0
+          ]
+        ],
+        "test_index": 0
+      }
+    ],
+    "total_changed_cells": 40
+  },
+  "mismatch_list_truncated": false,
+  "mismatches": [
+    {
+      "col": 0,
+      "predicted": 4,
+      "row": 3,
+      "target": 6
+    },
+    {
+      "col": 1,
+      "predicted": 4,
+      "row": 3,
+      "target": 6
+    },
+    {
+      "col": 2,
+      "predicted": 4,
+      "row": 3,
+      "target": 6
+    },
+    {
+      "col": 1,
+      "predicted": 4,
+      "row": 4,
+      "target": 6
+    },
+    {
+      "col": 2,
+      "predicted": 4,
+      "row": 4,
+      "target": 6
+    },
+    {
+      "col": 6,
+      "predicted": 4,
+      "row": 4,
+      "target": 3
+    },
+    {
+      "col": 7,
+      "predicted": 4,
+      "row": 4,
+      "target": 3
+    },
+    {
+      "col": 8,
+      "predicted": 4,
+      "row": 4,
+      "target": 3
+    },
+    {
+      "col": 9,
+      "predicted": 4,
+      "row": 4,
+      "target": 3
+    },
+    {
+      "col": 0,
+      "predicted": 0,
+      "row": 5,
+      "target": 6
+    },
+    {
+      "col": 7,
+      "predicted": 4,
+      "row": 5,
+      "target": 3
+    },
+    {
+      "col": 9,
+      "predicted": 4,
+      "row": 5,
+      "target": 3
+    },
+    {
+      "col": 8,
+      "predicted": 0,
+      "row": 6,
+      "target": 3
+    },
+    {
+      "col": 3,
+      "predicted": 0,
+      "row": 10,
+      "target": 4
+    },
+    {
+      "col": 8,
+      "predicted": 0,
+      "row": 12,
+      "target": 8
+    },
+    {
+      "col": 9,
+      "predicted": 4,
+      "row": 12,
+      "target": 8
+    },
+    {
+      "col": 11,
+      "predicted": 4,
+      "row": 12,
+      "target": 8
+    },
+    {
+      "col": 9,
+      "predicted": 4,
+      "row": 13,
+      "target": 8
+    },
+    {
+      "col": 10,
+      "predicted": 4,
+      "row": 13,
+      "target": 8
+    },
+    {
+      "col": 11,
+      "predicted": 4,
+      "row": 13,
+      "target": 8
+    },
+    {
+      "col": 8,
+      "predicted": 0,
+      "row": 14,
+      "target": 8
+    },
+    {
+      "col": 9,
+      "predicted": 4,
+      "row": 14,
+      "target": 8
+    }
+  ],
+  "mode": "RECOVERED_EXISTING_FULL_RUN",
+  "phase1_condition_label": "F1",
+  "predicted_grid": [
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      4,
+      4,
+      4,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      4,
+      0,
+      0,
+      0,
+      4,
+      4,
+      4,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      4,
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      4,
+      0,
+      4,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      4,
+      0,
+      4,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      4,
+      4,
+      0,
+      0,
+      0,
+      4,
+      0,
+      4
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      4,
+      4,
+      4
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      4,
+      0,
+      0
+    ]
+  ],
+  "probability_checkpoint_count": 100,
+  "query_index": 0,
+  "query_nll": 0.31766102670336493,
+  "seed": 20260702,
+  "source_probability_npz": "/mnt/d/VRM/r6a_compressarc/artifacts/phase1_runs/A/604001fa/20260702/F1/probability.npz",
+  "source_solver_json": "/mnt/d/VRM/r6a_compressarc/artifacts/phase1_runs/A/604001fa/20260702/F1/solver.json",
+  "status": "NONEXACT",
+  "target_isolation_checks": {
+    "challenge_json": "/mnt/d/VRM/r6a_compressarc/artifacts/phase1_runs/A/604001fa/20260702/F1/challenge.json",
+    "solution_argument_present": false,
+    "solution_file_path": "/mnt/d/VRM/third_party/compressarc_reference/dataset/arc-agi_evaluation_solutions.json",
+    "solution_file_path_in_solver_command": false,
+    "solver_firewall": {
+      "challenge_json_only": true,
+      "denied_solution_paths": [],
+      "solution_argument_present": false
+    },
+    "test_outputs_present": false
+  },
+  "target_shape": [
+    15,
+    12
+  ],
+  "target_was_solver_visible": false,
+  "task_id": "604001fa"
+}

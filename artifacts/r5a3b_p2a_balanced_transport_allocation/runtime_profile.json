@@ -1,0 +1,106 @@
+{
+  "audit_version": "R5A3B_P2A_BALANCED_RELATION_TRANSPORT_ALLOCATION_PILOT",
+  "fold_count": 100,
+  "slowest_10_folds": [
+    {
+      "candidate_generation_seconds": 216.712751885,
+      "fold_key": "088b5677df69:fold=0",
+      "microproposals_executed": 160,
+      "raw_candidate_count": 32,
+      "total_fold_seconds": 216.71542945099986,
+      "unique_candidate_count": 24
+    },
+    {
+      "candidate_generation_seconds": 213.12699646500005,
+      "fold_key": "088b5677df69:fold=1",
+      "microproposals_executed": 160,
+      "raw_candidate_count": 32,
+      "total_fold_seconds": 213.13120835100017,
+      "unique_candidate_count": 24
+    },
+    {
+      "candidate_generation_seconds": 210.60542584900008,
+      "fold_key": "088b5677df69:fold=3",
+      "microproposals_executed": 160,
+      "raw_candidate_count": 32,
+      "total_fold_seconds": 210.60848043400006,
+      "unique_candidate_count": 23
+    },
+    {
+      "candidate_generation_seconds": 205.71512389999998,
+      "fold_key": "088b5677df69:fold=2",
+      "microproposals_executed": 160,
+      "raw_candidate_count": 32,
+      "total_fold_seconds": 205.71866863700006,
+      "unique_candidate_count": 24
+    },
+    {
+      "candidate_generation_seconds": 0.9598008640000444,
+      "fold_key": "00d50b52b427:fold=1",
+      "microproposals_executed": 160,
+      "raw_candidate_count": 32,
+      "total_fold_seconds": 0.9599082059999091,
+      "unique_candidate_count": 17
+    },
+    {
+      "candidate_generation_seconds": 0.8071926719999283,
+      "fold_key": "2aa102da5d10:fold=4",
+      "microproposals_executed": 160,
+      "raw_candidate_count": 32,
+      "total_fold_seconds": 0.807251640000004,
+      "unique_candidate_count": 21
+    },
+    {
+      "candidate_generation_seconds": 0.7069504850001067,
+      "fold_key": "00d50b52b427:fold=0",
+      "microproposals_executed": 120,
+      "raw_candidate_count": 24,
+      "total_fold_seconds": 0.7070597539998289,
+      "unique_candidate_count": 17
+    },
+    {
+      "candidate_generation_seconds": 0.7005600989998584,
+      "fold_key": "3ff41d671fa4:fold=2",
+      "microproposals_executed": 40,
+      "raw_candidate_count": 12,
+      "total_fold_seconds": 0.7007057830001031,
+      "unique_candidate_count": 9
+    },
+    {
+      "candidate_generation_seconds": 0.6952537219999613,
+      "fold_key": "3ff41d671fa4:fold=0",
+      "microproposals_executed": 40,
+      "raw_candidate_count": 12,
+      "total_fold_seconds": 0.6953375789998972,
+      "unique_candidate_count": 10
+    },
+    {
+      "candidate_generation_seconds": 0.6844336619999467,
+      "fold_key": "3ff41d671fa4:fold=1",
+      "microproposals_executed": 40,
+      "raw_candidate_count": 12,
+      "total_fold_seconds": 0.6844989659998646,
+      "unique_candidate_count": 10
+    }
+  ],
+  "stage_stats": {
+    "candidate_generation_seconds": {
+      "count": 100,
+      "max": 216.712751885,
+      "mean": 8.618234924320008,
+      "median": 0.08000037900001189
+    },
+    "microproposals_executed": {
+      "count": 100,
+      "max": 160.0,
+      "mean": 58.6,
+      "median": 40.0
+    },
+    "total_fold_seconds": {
+      "count": 100,
+      "max": 216.71542945099986,
+      "mean": 8.618428098329993,
+      "median": 0.08005414800015842
+    }
+  }
+}

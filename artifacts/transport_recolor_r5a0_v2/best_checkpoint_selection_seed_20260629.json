@@ -1,0 +1,20 @@
+{
+  "checkpoint_path": "/mnt/d/VRM/checkpoints/transport_recolor_r5a0_v2/transport_recolor_r5a0v2_seed_20260629_best_dev.pt",
+  "sealed_metrics_read_before_checkpoint_selection": false,
+  "seed": 20260629,
+  "selected_epoch": 1,
+  "selection_key": [
+    1.0,
+    1.0,
+    1.0,
+    -0.0,
+    -1
+  ],
+  "selection_order": [
+    "best dev exact on seen mixed classes",
+    "best dev macro exact over all visible classes",
+    "best fixed dev-only mixed counterfactual result",
+    "lowest dev hamming",
+    "earliest epoch"
+  ]
+}

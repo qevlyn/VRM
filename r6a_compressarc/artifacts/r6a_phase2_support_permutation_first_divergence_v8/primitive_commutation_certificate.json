@@ -1,0 +1,313 @@
+{
+  "cases": [
+    {
+      "case_id": "1f876c06_adjacent_0_1",
+      "final_label": "FIRST_DIVERGENCE_AFFINE",
+      "primitive_commutation": {
+        "final_forward_compare": {
+          "first_failure": {
+            "canonical_checksum": "545ff23163032006afde15d51e57abe24121441e800eb491c8044f9d1fe91d19",
+            "first_failing_object": "logits",
+            "inverse_aligned_transformed_checksum": "92b0c6032c6b0f0253a142c1ac6dec877f5476aff36159272360f70aee398842",
+            "max_abs": 4.737215227823391,
+            "max_rel": 0.2218057309389004,
+            "max_ulp": 1333407545924954,
+            "over_tolerance_count": 5600,
+            "over_tolerance_fraction": 1.0,
+            "pass": false,
+            "source_function_or_module": "ARCCompressor.forward"
+          },
+          "pass": false
+        },
+        "tier1": {
+          "first_failure": {
+            "canonical_checksum": "2bb4a97f579d5d0558121dfd68261a2174567cc02288ccb97b61bbe42157746b",
+            "event_index": 3,
+            "event_name": "affine",
+            "input_certified_matched_by_prior_boundaries": true,
+            "inverse_aligned_transformed_checksum": "c7541f508c0803880c6bc0eb4d49bb7548c61ccd9af7d50f40418abe5b1a8e4c",
+            "max_abs": 5.091371618230621,
+            "max_rel": 1.9822553268095746,
+            "max_ulp": 9223280961808676086,
+            "output_index": 0,
+            "output_path": "affine",
+            "over_tolerance_count": 448,
+            "over_tolerance_fraction": 1.0,
+            "pass": false
+          },
+          "label": "FIRST_DIVERGENCE_AFFINE",
+          "pass": false
+        },
+        "tier2": {
+          "reason": "line tracing implemented only for channel_layer in this audit",
+          "status": "FIRST_DIVERGENCE_LOCALIZED_TO_SOURCE_PRIMITIVE_REQUIRES_MANUAL_REVIEW"
+        }
+      }
+    },
+    {
+      "case_id": "1f876c06_adjacent_1_2",
+      "final_label": "FIRST_DIVERGENCE_AFFINE",
+      "primitive_commutation": {
+        "final_forward_compare": {
+          "first_failure": {
+            "canonical_checksum": "545ff23163032006afde15d51e57abe24121441e800eb491c8044f9d1fe91d19",
+            "first_failing_object": "logits",
+            "inverse_aligned_transformed_checksum": "d4a6705d1f3af30d307afb24d15ca6a9baffd10f75e2183e7fdc7dc90da79638",
+            "max_abs": 3.675751548508483,
+            "max_rel": 0.1718108013027936,
+            "max_ulp": 1034632081510583,
+            "over_tolerance_count": 5600,
+            "over_tolerance_fraction": 1.0,
+            "pass": false,
+            "source_function_or_module": "ARCCompressor.forward"
+          },
+          "pass": false
+        },
+        "tier1": {
+          "first_failure": {
+            "canonical_checksum": "2bb4a97f579d5d0558121dfd68261a2174567cc02288ccb97b61bbe42157746b",
+            "event_index": 3,
+            "event_name": "affine",
+            "input_certified_matched_by_prior_boundaries": true,
+            "inverse_aligned_transformed_checksum": "eb93ed233afe98b445538bdb43e7b38294f19a3cee20ada925e7ee51f3979c6e",
+            "max_abs": 3.53916086512002,
+            "max_rel": 1.9783066723392935,
+            "max_ulp": 9223203202426704167,
+            "output_index": 0,
+            "output_path": "affine",
+            "over_tolerance_count": 448,
+            "over_tolerance_fraction": 1.0,
+            "pass": false
+          },
+          "label": "FIRST_DIVERGENCE_AFFINE",
+          "pass": false
+        },
+        "tier2": {
+          "reason": "line tracing implemented only for channel_layer in this audit",
+          "status": "FIRST_DIVERGENCE_LOCALIZED_TO_SOURCE_PRIMITIVE_REQUIRES_MANUAL_REVIEW"
+        }
+      }
+    },
+    {
+      "case_id": "604001fa_adjacent_0_1",
+      "final_label": "FIRST_DIVERGENCE_AFFINE",
+      "primitive_commutation": {
+        "final_forward_compare": {
+          "first_failure": {
+            "canonical_checksum": "35c15724e9d6280c5b26c1d2ade0469e7056eb320008a51bc3e68ea22cfc1cd7",
+            "first_failing_object": "KL_amounts/1",
+            "inverse_aligned_transformed_checksum": "404f087dce4069e9fcc026bf0845092f16e2bce1346b82e63f8c185e5eba835d",
+            "max_abs": 1.9045699031239138,
+            "max_rel": 0.022453582300061524,
+            "max_ulp": 134022192281405,
+            "over_tolerance_count": 48,
+            "over_tolerance_fraction": 0.4,
+            "pass": false,
+            "source_function_or_module": "ARCCompressor.forward"
+          },
+          "pass": false
+        },
+        "tier1": {
+          "first_failure": {
+            "canonical_checksum": "abac969ee09b557e48725700e9f7eee584b04bb184e5f1cde497289c334966aa",
+            "event_index": 888,
+            "event_name": "affine",
+            "input_certified_matched_by_prior_boundaries": true,
+            "inverse_aligned_transformed_checksum": "88a9cad6d6fa912876ea635404ecb51c2412b23c27d6909a83ddd014b751fe41",
+            "max_abs": 3.5327074598967556e-11,
+            "max_rel": 1.436914164263611e-10,
+            "max_ulp": 786432,
+            "output_index": 0,
+            "output_path": "affine",
+            "over_tolerance_count": 1,
+            "over_tolerance_fraction": 1.6276041666666668e-06,
+            "pass": false
+          },
+          "label": "FIRST_DIVERGENCE_AFFINE",
+          "pass": false
+        },
+        "tier2": {
+          "reason": "line tracing implemented only for channel_layer in this audit",
+          "status": "FIRST_DIVERGENCE_LOCALIZED_TO_SOURCE_PRIMITIVE_REQUIRES_MANUAL_REVIEW"
+        }
+      }
+    },
+    {
+      "case_id": "604001fa_adjacent_1_2",
+      "final_label": "FIRST_DIVERGENCE_NORMALIZE",
+      "primitive_commutation": {
+        "final_forward_compare": {
+          "first_failure": {
+            "canonical_checksum": "35c15724e9d6280c5b26c1d2ade0469e7056eb320008a51bc3e68ea22cfc1cd7",
+            "first_failing_object": "KL_amounts/1",
+            "inverse_aligned_transformed_checksum": "e03066b671e2575da2b1c49a945ada644d284de1ec77e3da0bc559f76fb6f7e1",
+            "max_abs": 2.4472611947340113,
+            "max_rel": 0.02843739579821773,
+            "max_ulp": 172210696948162,
+            "over_tolerance_count": 48,
+            "over_tolerance_fraction": 0.4,
+            "pass": false,
+            "source_function_or_module": "ARCCompressor.forward"
+          },
+          "pass": false
+        },
+        "tier1": {
+          "first_failure": {
+            "canonical_checksum": "805f975c85ba75555004fa12d852b418a3c96416cbf6e4735de130ed404c6d4c",
+            "event_index": 887,
+            "event_name": "normalize",
+            "input_certified_matched_by_prior_boundaries": true,
+            "inverse_aligned_transformed_checksum": "7436210a56618d0d5f695047f68b0ec90cc0c714b8982d51369351e696af04e6",
+            "max_abs": 1.7985612998927536e-10,
+            "max_rel": 1.1280215284386207e-10,
+            "max_ulp": 810000,
+            "output_index": 0,
+            "output_path": "normalize",
+            "over_tolerance_count": 2,
+            "over_tolerance_fraction": 6.510416666666667e-06,
+            "pass": false
+          },
+          "label": "FIRST_DIVERGENCE_NORMALIZE",
+          "pass": false
+        },
+        "tier2": {
+          "reason": "line tracing implemented only for channel_layer in this audit",
+          "status": "FIRST_DIVERGENCE_LOCALIZED_TO_SOURCE_PRIMITIVE_REQUIRES_MANUAL_REVIEW"
+        }
+      }
+    },
+    {
+      "case_id": "604001fa_adjacent_2_3",
+      "final_label": "FIRST_DIVERGENCE_AFFINE",
+      "primitive_commutation": {
+        "final_forward_compare": {
+          "first_failure": {
+            "canonical_checksum": "35c15724e9d6280c5b26c1d2ade0469e7056eb320008a51bc3e68ea22cfc1cd7",
+            "first_failing_object": "KL_amounts/1",
+            "inverse_aligned_transformed_checksum": "67829e882efca8bcddfe774cda3f08c5cf6fd6c86ef6fdc07a5a909763ec56ec",
+            "max_abs": 3.188700957894227,
+            "max_rel": 0.03705299271565895,
+            "max_ulp": 224384881965131,
+            "over_tolerance_count": 48,
+            "over_tolerance_fraction": 0.4,
+            "pass": false,
+            "source_function_or_module": "ARCCompressor.forward"
+          },
+          "pass": false
+        },
+        "tier1": {
+          "first_failure": {
+            "canonical_checksum": "abac969ee09b557e48725700e9f7eee584b04bb184e5f1cde497289c334966aa",
+            "event_index": 888,
+            "event_name": "affine",
+            "input_certified_matched_by_prior_boundaries": true,
+            "inverse_aligned_transformed_checksum": "7dfd5c1902b749dfe63df5c4afa21d22e262d341201ef6adbbba46147e005712",
+            "max_abs": 7.065414919793511e-11,
+            "max_rel": 5.301458850625716e-10,
+            "max_ulp": 3407872,
+            "output_index": 0,
+            "output_path": "affine",
+            "over_tolerance_count": 2,
+            "over_tolerance_fraction": 3.2552083333333335e-06,
+            "pass": false
+          },
+          "label": "FIRST_DIVERGENCE_AFFINE",
+          "pass": false
+        },
+        "tier2": {
+          "reason": "line tracing implemented only for channel_layer in this audit",
+          "status": "FIRST_DIVERGENCE_LOCALIZED_TO_SOURCE_PRIMITIVE_REQUIRES_MANUAL_REVIEW"
+        }
+      }
+    },
+    {
+      "case_id": "synthetic_uniform_shape_oracle_adjacent_0_1",
+      "final_label": "FIRST_DIVERGENCE_AFFINE",
+      "primitive_commutation": {
+        "final_forward_compare": {
+          "first_failure": {
+            "canonical_checksum": "a6a9c7270c793917a556ae988d709395fda877bb18e11e1836cc0aace0b21ab1",
+            "first_failing_object": "logits",
+            "inverse_aligned_transformed_checksum": "a0773a6ab7a071f3bdda5d8cb55cf3219c80c360c98d4bb7e66ff640296b79f6",
+            "max_abs": 2.0917503473975856,
+            "max_rel": 0.22320950333621825,
+            "max_ulp": 1583160712254649,
+            "over_tolerance_count": 144,
+            "over_tolerance_fraction": 1.0,
+            "pass": false,
+            "source_function_or_module": "ARCCompressor.forward"
+          },
+          "pass": false
+        },
+        "tier1": {
+          "first_failure": {
+            "canonical_checksum": "e70f2a9ae9a91351fc66edaf03a7154e74aabb8be3645d1799dd4b06f994b734",
+            "event_index": 102,
+            "event_name": "affine",
+            "input_certified_matched_by_prior_boundaries": true,
+            "inverse_aligned_transformed_checksum": "b687b0f3d401c092ec3d79494ff0d6efc694d7a435429aba9a5108b3a3eb6f2d",
+            "max_abs": 5.623845833468977e-11,
+            "max_rel": 1.1846477853353678e-09,
+            "max_ulp": 7134509,
+            "output_index": 0,
+            "output_path": "affine",
+            "over_tolerance_count": 11,
+            "over_tolerance_fraction": 0.002387152777777778,
+            "pass": false
+          },
+          "label": "FIRST_DIVERGENCE_AFFINE",
+          "pass": false
+        },
+        "tier2": {
+          "reason": "line tracing implemented only for channel_layer in this audit",
+          "status": "FIRST_DIVERGENCE_LOCALIZED_TO_SOURCE_PRIMITIVE_REQUIRES_MANUAL_REVIEW"
+        }
+      }
+    },
+    {
+      "case_id": "synthetic_uniform_shape_oracle_adjacent_1_2",
+      "final_label": "FIRST_DIVERGENCE_AFFINE",
+      "primitive_commutation": {
+        "final_forward_compare": {
+          "first_failure": {
+            "canonical_checksum": "a6a9c7270c793917a556ae988d709395fda877bb18e11e1836cc0aace0b21ab1",
+            "first_failing_object": "logits",
+            "inverse_aligned_transformed_checksum": "3bb8b57c69bdb72768fe44f34406481631de900cb70abc9b416f2e6b28d25db3",
+            "max_abs": 1.7523895602950628,
+            "max_rel": 0.22131130598464,
+            "max_ulp": 1930257616424830,
+            "over_tolerance_count": 144,
+            "over_tolerance_fraction": 1.0,
+            "pass": false,
+            "source_function_or_module": "ARCCompressor.forward"
+          },
+          "pass": false
+        },
+        "tier1": {
+          "first_failure": {
+            "canonical_checksum": "3a74103e3647cce24ea67b9588cc9cb9a8290d909492b585969dedd76385c534",
+            "event_index": 99,
+            "event_name": "affine",
+            "input_certified_matched_by_prior_boundaries": true,
+            "inverse_aligned_transformed_checksum": "ab672ff397c097f4813a938d8e289b638aa443c12bebfbccca4a4d8da0dd825b",
+            "max_abs": 9.57296464321189e-11,
+            "max_rel": 1.9495329770215593e-10,
+            "max_ulp": 1330768,
+            "output_index": 0,
+            "output_path": "affine",
+            "over_tolerance_count": 2,
+            "over_tolerance_fraction": 0.0008680555555555555,
+            "pass": false
+          },
+          "label": "FIRST_DIVERGENCE_AFFINE",
+          "pass": false
+        },
+        "tier2": {
+          "reason": "line tracing implemented only for channel_layer in this audit",
+          "status": "FIRST_DIVERGENCE_LOCALIZED_TO_SOURCE_PRIMITIVE_REQUIRES_MANUAL_REVIEW"
+        }
+      }
+    }
+  ],
+  "created_utc": "2026-07-04T04:12:55Z"
+}

@@ -1,0 +1,26 @@
+{
+  "20260628": {
+    "all_legacy_reader_zero": true,
+    "max_gate_grad_norm": 17.566329883664135,
+    "max_legacy_grad_norm": 0.0,
+    "max_reader_grad_norm": 0.0,
+    "min_positive_gate_grad_norm": 3.1863956478214424e-09,
+    "seed": 20260628
+  },
+  "20260629": {
+    "all_legacy_reader_zero": true,
+    "max_gate_grad_norm": 25.676752697639607,
+    "max_legacy_grad_norm": 0.0,
+    "max_reader_grad_norm": 0.0,
+    "min_positive_gate_grad_norm": 4.613089769922791e-09,
+    "seed": 20260629
+  },
+  "20260630": {
+    "all_legacy_reader_zero": true,
+    "max_gate_grad_norm": 19.077992066724757,
+    "max_legacy_grad_norm": 0.0,
+    "max_reader_grad_norm": 0.0,
+    "min_positive_gate_grad_norm": 4.4171101904336375e-09,
+    "seed": 20260630
+  }
+}

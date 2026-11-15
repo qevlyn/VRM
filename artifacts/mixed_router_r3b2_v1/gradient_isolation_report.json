@@ -1,0 +1,29 @@
+{
+  "20260628": {
+    "expert_grad_norm": 0.0,
+    "expert_grad_zero": true,
+    "gate_grad_nonzero": true,
+    "gate_grad_norm": 0.020623362551929307,
+    "loss": 0.10473234951496124,
+    "reader_parameters_require_grad_false": true,
+    "transform_parameters_require_grad_false": true
+  },
+  "20260629": {
+    "expert_grad_norm": 0.0,
+    "expert_grad_zero": true,
+    "gate_grad_nonzero": true,
+    "gate_grad_norm": 0.021365408457476497,
+    "loss": 0.10700410604476929,
+    "reader_parameters_require_grad_false": true,
+    "transform_parameters_require_grad_false": true
+  },
+  "20260630": {
+    "expert_grad_norm": 0.0,
+    "expert_grad_zero": true,
+    "gate_grad_nonzero": true,
+    "gate_grad_norm": 0.025024845292969073,
+    "loss": 0.10474109649658203,
+    "reader_parameters_require_grad_false": true,
+    "transform_parameters_require_grad_false": true
+  }
+}

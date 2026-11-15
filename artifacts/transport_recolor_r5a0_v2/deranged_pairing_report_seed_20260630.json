@@ -1,0 +1,75 @@
+{
+  "ablation": "deranged_pairing",
+  "by_operation_class": {
+    "C": {
+      "deranged_pairing_exact": 0.0,
+      "episode_count": 2880,
+      "normal_to_deranged_pairing_final_grid_change_rate": 1.0
+    },
+    "C->K": {
+      "deranged_pairing_exact": 0.0,
+      "episode_count": 2880,
+      "normal_to_deranged_pairing_final_grid_change_rate": 1.0
+    },
+    "C->L": {
+      "deranged_pairing_exact": 0.0,
+      "episode_count": 2880,
+      "normal_to_deranged_pairing_final_grid_change_rate": 1.0
+    },
+    "H": {
+      "deranged_pairing_exact": 0.0,
+      "episode_count": 2880,
+      "normal_to_deranged_pairing_final_grid_change_rate": 1.0
+    },
+    "H->K": {
+      "deranged_pairing_exact": 0.0,
+      "episode_count": 2880,
+      "normal_to_deranged_pairing_final_grid_change_rate": 1.0
+    },
+    "H->L": {
+      "deranged_pairing_exact": 0.0,
+      "episode_count": 2880,
+      "normal_to_deranged_pairing_final_grid_change_rate": 1.0
+    },
+    "K": {
+      "deranged_pairing_exact": 0.0,
+      "episode_count": 2880,
+      "normal_to_deranged_pairing_final_grid_change_rate": 1.0
+    },
+    "K->C": {
+      "deranged_pairing_exact": 0.0,
+      "episode_count": 2880,
+      "normal_to_deranged_pairing_final_grid_change_rate": 1.0
+    },
+    "K->V": {
+      "deranged_pairing_exact": 0.0,
+      "episode_count": 2880,
+      "normal_to_deranged_pairing_final_grid_change_rate": 1.0
+    },
+    "L": {
+      "deranged_pairing_exact": 0.0,
+      "episode_count": 2880,
+      "normal_to_deranged_pairing_final_grid_change_rate": 1.0
+    },
+    "L->C": {
+      "deranged_pairing_exact": 0.0,
+      "episode_count": 2880,
+      "normal_to_deranged_pairing_final_grid_change_rate": 1.0
+    },
+    "L->H": {
+      "deranged_pairing_exact": 0.0,
+      "episode_count": 2880,
+      "normal_to_deranged_pairing_final_grid_change_rate": 1.0
+    },
+    "V": {
+      "deranged_pairing_exact": 0.0,
+      "episode_count": 2880,
+      "normal_to_deranged_pairing_final_grid_change_rate": 1.0
+    }
+  },
+  "overall": {
+    "deranged_pairing_exact": 0.0,
+    "episode_count": 37440,
+    "normal_to_deranged_pairing_final_grid_change_rate": 1.0
+  }
+}

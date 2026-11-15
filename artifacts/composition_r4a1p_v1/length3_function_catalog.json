@@ -1,0 +1,2107 @@
+{
+  "affine_equivalence_class_count": 21,
+  "all_length3_words": [
+    "CCC",
+    "CCF",
+    "CCT",
+    "CFC",
+    "CFF",
+    "CFT",
+    "CTC",
+    "CTF",
+    "CTT",
+    "FCC",
+    "FCF",
+    "FCT",
+    "FFC",
+    "FFF",
+    "FFT",
+    "FTC",
+    "FTF",
+    "FTT",
+    "TCC",
+    "TCF",
+    "TCT",
+    "TFC",
+    "TFF",
+    "TFT",
+    "TTC",
+    "TTF",
+    "TTT"
+  ],
+  "canonical_groups": [
+    {
+      "affine": {
+        "A": [
+          [
+            0,
+            1
+          ],
+          [
+            -1,
+            0
+          ]
+        ],
+        "affine_key": "{\"A\":[[0,1],[-1,0]],\"b\":[0,6]}",
+        "b": [
+          0,
+          6
+        ],
+        "number_of_T_applications": 0,
+        "sequence_class": "C->C->C",
+        "word": "CCC"
+      },
+      "bad_query_type_examples": [],
+      "canonical_representative": "CCC",
+      "eligibility": true,
+      "equals_prior_function": false,
+      "equivalent_words": [
+        "CCC",
+        "FCF"
+      ],
+      "exclusion_reason": "",
+      "matching_prior_functions": [],
+      "minimum_safe_scenes_per_frozen_query_type": 24,
+      "sequence_class": "C->C->C"
+    },
+    {
+      "affine": {
+        "A": [
+          [
+            1,
+            0
+          ],
+          [
+            0,
+            -1
+          ]
+        ],
+        "affine_key": "{\"A\":[[1,0],[0,-1]],\"b\":[0,6]}",
+        "b": [
+          0,
+          6
+        ],
+        "number_of_T_applications": 0,
+        "sequence_class": "C->C->F",
+        "word": "CCF"
+      },
+      "bad_query_type_examples": [],
+      "canonical_representative": "CCF",
+      "eligibility": true,
+      "equals_prior_function": false,
+      "equivalent_words": [
+        "CCF",
+        "FCC"
+      ],
+      "exclusion_reason": "",
+      "matching_prior_functions": [],
+      "minimum_safe_scenes_per_frozen_query_type": 24,
+      "sequence_class": "C->C->F"
+    },
+    {
+      "affine": {
+        "A": [
+          [
+            -1,
+            0
+          ],
+          [
+            0,
+            -1
+          ]
+        ],
+        "affine_key": "{\"A\":[[-1,0],[0,-1]],\"b\":[7,6]}",
+        "b": [
+          7,
+          6
+        ],
+        "number_of_T_applications": 1,
+        "sequence_class": "C->C->T",
+        "word": "CCT"
+      },
+      "bad_query_type_examples": [],
+      "canonical_representative": "CCT",
+      "eligibility": true,
+      "equals_prior_function": false,
+      "equivalent_words": [
+        "CCT"
+      ],
+      "exclusion_reason": "",
+      "matching_prior_functions": [],
+      "minimum_safe_scenes_per_frozen_query_type": 24,
+      "sequence_class": "C->C->T"
+    },
+    {
+      "affine": {
+        "A": [
+          [
+            -1,
+            0
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "affine_key": "{\"A\":[[-1,0],[0,1]],\"b\":[6,0]}",
+        "b": [
+          6,
+          0
+        ],
+        "number_of_T_applications": 0,
+        "sequence_class": "C->F->C",
+        "word": "CFC"
+      },
+      "bad_query_type_examples": [],
+      "canonical_representative": "CFC",
+      "eligibility": false,
+      "equals_prior_function": true,
+      "equivalent_words": [
+        "CFC",
+        "FFF",
+        "TFT"
+      ],
+      "exclusion_reason": "equals prior function(s): F",
+      "matching_prior_functions": [
+        "F"
+      ],
+      "minimum_safe_scenes_per_frozen_query_type": 24,
+      "sequence_class": "C->F->C"
+    },
+    {
+      "affine": {
+        "A": [
+          [
+            0,
+            -1
+          ],
+          [
+            1,
+            0
+          ]
+        ],
+        "affine_key": "{\"A\":[[0,-1],[1,0]],\"b\":[6,0]}",
+        "b": [
+          6,
+          0
+        ],
+        "number_of_T_applications": 0,
+        "sequence_class": "C->F->F",
+        "word": "CFF"
+      },
+      "bad_query_type_examples": [],
+      "canonical_representative": "CFF",
+      "eligibility": false,
+      "equals_prior_function": true,
+      "equivalent_words": [
+        "CFF",
+        "FFC"
+      ],
+      "exclusion_reason": "equals prior function(s): C",
+      "matching_prior_functions": [
+        "C"
+      ],
+      "minimum_safe_scenes_per_frozen_query_type": 24,
+      "sequence_class": "C->F->F"
+    },
+    {
+      "affine": {
+        "A": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            0
+          ]
+        ],
+        "affine_key": "{\"A\":[[0,1],[1,0]],\"b\":[1,0]}",
+        "b": [
+          1,
+          0
+        ],
+        "number_of_T_applications": 1,
+        "sequence_class": "C->F->T",
+        "word": "CFT"
+      },
+      "bad_query_type_examples": [
+        {
+          "query_type_key": "asymmetric_4_cell_hook|color=2|anchor=interior_lower_left|distractors=2",
+          "reasons": [
+            "step_3_T_foreground_touches_edge"
+          ],
+          "required": 24,
+          "safe_scene_count": 0
+        },
+        {
+          "query_type_key": "asymmetric_4_cell_hook|color=2|anchor=interior_lower_right|distractors=1",
+          "reasons": [
+            "step_3_T_foreground_touches_edge"
+          ],
+          "required": 24,
+          "safe_scene_count": 0
+        },
+        {
+          "query_type_key": "asymmetric_4_cell_hook|color=1|anchor=interior_lower_right|distractors=2",
+          "reasons": [
+            "step_3_T_foreground_touches_edge"
+          ],
+          "required": 24,
+          "safe_scene_count": 0
+        },
+        {
+          "query_type_key": "3_cell_T|color=1|anchor=interior_lower_left|distractors=2",
+          "reasons": [
+            "step_3_T_foreground_touches_edge"
+          ],
+          "required": 24,
+          "safe_scene_count": 20
+        },
+        {
+          "query_type_key": "asymmetric_4_cell_hook|color=4|anchor=interior_lower_right|distractors=2",
+          "reasons": [
+            "step_3_T_foreground_touches_edge"
+          ],
+          "required": 24,
+          "safe_scene_count": 0
+        },
+        {
+          "query_type_key": "asymmetric_4_cell_hook|color=3|anchor=interior_lower_right|distractors=1",
+          "reasons": [
+            "step_3_T_foreground_touches_edge"
+          ],
+          "required": 24,
+          "safe_scene_count": 0
+        },
+        {
+          "query_type_key": "asymmetric_4_cell_hook|color=4|anchor=interior_lower_left|distractors=1",
+          "reasons": [
+            "step_3_T_foreground_touches_edge"
+          ],
+          "required": 24,
+          "safe_scene_count": 0
+        },
+        {
+          "query_type_key": "asymmetric_4_cell_hook|color=3|anchor=interior_lower_left|distractors=1",
+          "reasons": [
+            "step_3_T_foreground_touches_edge"
+          ],
+          "required": 24,
+          "safe_scene_count": 0
+        }
+      ],
+      "canonical_representative": "CFT",
+      "eligibility": false,
+      "equals_prior_function": false,
+      "equivalent_words": [
+        "CFT"
+      ],
+      "exclusion_reason": "not universally renderable across frozen train/sealed query types",
+      "matching_prior_functions": [],
+      "minimum_safe_scenes_per_frozen_query_type": 0,
+      "sequence_class": "C->F->T"
+    },
+    {
+      "affine": {
+        "A": [
+          [
+            -1,
+            0
+          ],
+          [
+            0,
+            -1
+          ]
+        ],
+        "affine_key": "{\"A\":[[-1,0],[0,-1]],\"b\":[6,7]}",
+        "b": [
+          6,
+          7
+        ],
+        "number_of_T_applications": 1,
+        "sequence_class": "C->T->C",
+        "word": "CTC"
+      },
+      "bad_query_type_examples": [],
+      "canonical_representative": "CTC",
+      "eligibility": true,
+      "equals_prior_function": false,
+      "equivalent_words": [
+        "CTC"
+      ],
+      "exclusion_reason": "",
+      "matching_prior_functions": [],
+      "minimum_safe_scenes_per_frozen_query_type": 24,
+      "sequence_class": "C->T->C"
+    },
+    {
+      "affine": {
+        "A": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            0
+          ]
+        ],
+        "affine_key": "{\"A\":[[0,1],[1,0]],\"b\":[-1,0]}",
+        "b": [
+          -1,
+          0
+        ],
+        "number_of_T_applications": 1,
+        "sequence_class": "C->T->F",
+        "word": "CTF"
+      },
+      "bad_query_type_examples": [],
+      "canonical_representative": "CTF",
+      "eligibility": true,
+      "equals_prior_function": false,
+      "equivalent_words": [
+        "CTF"
+      ],
+      "exclusion_reason": "",
+      "matching_prior_functions": [],
+      "minimum_safe_scenes_per_frozen_query_type": 24,
+      "sequence_class": "C->T->F"
+    },
+    {
+      "affine": {
+        "A": [
+          [
+            0,
+            -1
+          ],
+          [
+            1,
+            0
+          ]
+        ],
+        "affine_key": "{\"A\":[[0,-1],[1,0]],\"b\":[8,0]}",
+        "b": [
+          8,
+          0
+        ],
+        "number_of_T_applications": 2,
+        "sequence_class": "C->T->T",
+        "word": "CTT"
+      },
+      "bad_query_type_examples": [
+        {
+          "query_type_key": "asymmetric_4_cell_hook|color=2|anchor=interior_upper_right|distractors=1",
+          "reasons": [
+            "step_3_T_foreground_touches_edge"
+          ],
+          "required": 24,
+          "safe_scene_count": 0
+        },
+        {
+          "query_type_key": "3_cell_L|color=2|anchor=interior_upper_right|distractors=2",
+          "reasons": [
+            "step_3_T_foreground_touches_edge"
+          ],
+          "required": 24,
+          "safe_scene_count": 0
+        },
+        {
+          "query_type_key": "3_cell_zig_zag|color=2|anchor=interior_upper_left|distractors=1",
+          "reasons": [
+            "step_3_T_foreground_touches_edge"
+          ],
+          "required": 24,
+          "safe_scene_count": 0
+        },
+        {
+          "query_type_key": "3_cell_T|color=4|anchor=interior_upper_right|distractors=1",
+          "reasons": [
+            "step_3_T_foreground_touches_edge"
+          ],
+          "required": 24,
+          "safe_scene_count": 0
+        },
+        {
+          "query_type_key": "asymmetric_4_cell_hook|color=2|anchor=interior_upper_left|distractors=2",
+          "reasons": [
+            "step_3_T_foreground_touches_edge"
+          ],
+          "required": 24,
+          "safe_scene_count": 0
+        },
+        {
+          "query_type_key": "3_cell_zig_zag|color=1|anchor=interior_upper_left|distractors=2",
+          "reasons": [
+            "step_3_T_foreground_touches_edge"
+          ],
+          "required": 24,
+          "safe_scene_count": 0
+        },
+        {
+          "query_type_key": "3_cell_zig_zag|color=3|anchor=interior_upper_left|distractors=2",
+          "reasons": [
+            "step_3_T_foreground_touches_edge"
+          ],
+          "required": 24,
+          "safe_scene_count": 0
+        },
+        {
+          "query_type_key": "3_cell_L|color=4|anchor=interior_upper_left|distractors=1",
+          "reasons": [
+            "step_3_T_foreground_touches_edge"
+          ],
+          "required": 24,
+          "safe_scene_count": 0
+        }
+      ],
+      "canonical_representative": "CTT",
+      "eligibility": false,
+      "equals_prior_function": false,
+      "equivalent_words": [
+        "CTT"
+      ],
+      "exclusion_reason": "not universally renderable across frozen train/sealed query types",
+      "matching_prior_functions": [],
+      "minimum_safe_scenes_per_frozen_query_type": 0,
+      "sequence_class": "C->T->T"
+    },
+    {
+      "affine": {
+        "A": [
+          [
+            0,
+            -1
+          ],
+          [
+            -1,
+            0
+          ]
+        ],
+        "affine_key": "{\"A\":[[0,-1],[-1,0]],\"b\":[7,6]}",
+        "b": [
+          7,
+          6
+        ],
+        "number_of_T_applications": 1,
+        "sequence_class": "F->C->T",
+        "word": "FCT"
+      },
+      "bad_query_type_examples": [],
+      "canonical_representative": "FCT",
+      "eligibility": true,
+      "equals_prior_function": false,
+      "equivalent_words": [
+        "FCT"
+      ],
+      "exclusion_reason": "",
+      "matching_prior_functions": [],
+      "minimum_safe_scenes_per_frozen_query_type": 24,
+      "sequence_class": "F->C->T"
+    },
+    {
+      "affine": {
+        "A": [
+          [
+            1,
+            0
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "affine_key": "{\"A\":[[1,0],[0,1]],\"b\":[1,0]}",
+        "b": [
+          1,
+          0
+        ],
+        "number_of_T_applications": 1,
+        "sequence_class": "F->F->T",
+        "word": "FFT"
+      },
+      "bad_query_type_examples": [],
+      "canonical_representative": "FFT",
+      "eligibility": false,
+      "equals_prior_function": true,
+      "equivalent_words": [
+        "FFT",
+        "TFF"
+      ],
+      "exclusion_reason": "equals prior function(s): T",
+      "matching_prior_functions": [
+        "T"
+      ],
+      "minimum_safe_scenes_per_frozen_query_type": 24,
+      "sequence_class": "F->F->T"
+    },
+    {
+      "affine": {
+        "A": [
+          [
+            0,
+            -1
+          ],
+          [
+            -1,
+            0
+          ]
+        ],
+        "affine_key": "{\"A\":[[0,-1],[-1,0]],\"b\":[6,7]}",
+        "b": [
+          6,
+          7
+        ],
+        "number_of_T_applications": 1,
+        "sequence_class": "F->T->C",
+        "word": "FTC"
+      },
+      "bad_query_type_examples": [],
+      "canonical_representative": "FTC",
+      "eligibility": true,
+      "equals_prior_function": false,
+      "equivalent_words": [
+        "FTC"
+      ],
+      "exclusion_reason": "",
+      "matching_prior_functions": [],
+      "minimum_safe_scenes_per_frozen_query_type": 24,
+      "sequence_class": "F->T->C"
+    },
+    {
+      "affine": {
+        "A": [
+          [
+            1,
+            0
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "affine_key": "{\"A\":[[1,0],[0,1]],\"b\":[-1,0]}",
+        "b": [
+          -1,
+          0
+        ],
+        "number_of_T_applications": 1,
+        "sequence_class": "F->T->F",
+        "word": "FTF"
+      },
+      "bad_query_type_examples": [],
+      "canonical_representative": "FTF",
+      "eligibility": true,
+      "equals_prior_function": false,
+      "equivalent_words": [
+        "FTF"
+      ],
+      "exclusion_reason": "",
+      "matching_prior_functions": [],
+      "minimum_safe_scenes_per_frozen_query_type": 24,
+      "sequence_class": "F->T->F"
+    },
+    {
+      "affine": {
+        "A": [
+          [
+            -1,
+            0
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "affine_key": "{\"A\":[[-1,0],[0,1]],\"b\":[8,0]}",
+        "b": [
+          8,
+          0
+        ],
+        "number_of_T_applications": 2,
+        "sequence_class": "F->T->T",
+        "word": "FTT"
+      },
+      "bad_query_type_examples": [
+        {
+          "query_type_key": "3_cell_T|color=4|anchor=interior_lower_left|distractors=2",
+          "reasons": [
+            "step_3_T_foreground_touches_edge"
+          ],
+          "required": 24,
+          "safe_scene_count": 0
+        },
+        {
+          "query_type_key": "3_cell_zig_zag|color=2|anchor=interior_lower_right|distractors=1",
+          "reasons": [
+            "step_3_T_foreground_touches_edge"
+          ],
+          "required": 24,
+          "safe_scene_count": 0
+        },
+        {
+          "query_type_key": "asymmetric_4_cell_hook|color=2|anchor=interior_lower_left|distractors=2",
+          "reasons": [
+            "step_3_T_foreground_touches_edge"
+          ],
+          "required": 24,
+          "safe_scene_count": 0
+        },
+        {
+          "query_type_key": "3_cell_L|color=2|anchor=interior_upper_right|distractors=2",
+          "reasons": [
+            "step_3_T_foreground_touches_edge"
+          ],
+          "required": 24,
+          "safe_scene_count": 16
+        },
+        {
+          "query_type_key": "3_cell_zig_zag|color=2|anchor=interior_upper_left|distractors=1",
+          "reasons": [
+            "step_3_T_foreground_touches_edge"
+          ],
+          "required": 24,
+          "safe_scene_count": 0
+        },
+        {
+          "query_type_key": "3_cell_T|color=4|anchor=interior_upper_right|distractors=1",
+          "reasons": [
+            "step_3_T_foreground_touches_edge"
+          ],
+          "required": 24,
+          "safe_scene_count": 0
+        },
+        {
+          "query_type_key": "asymmetric_4_cell_hook|color=2|anchor=interior_upper_left|distractors=2",
+          "reasons": [
+            "step_3_T_foreground_touches_edge"
+          ],
+          "required": 24,
+          "safe_scene_count": 0
+        },
+        {
+          "query_type_key": "3_cell_zig_zag|color=1|anchor=interior_upper_left|distractors=2",
+          "reasons": [
+            "step_3_T_foreground_touches_edge"
+          ],
+          "required": 24,
+          "safe_scene_count": 0
+        }
+      ],
+      "canonical_representative": "FTT",
+      "eligibility": false,
+      "equals_prior_function": false,
+      "equivalent_words": [
+        "FTT"
+      ],
+      "exclusion_reason": "not universally renderable across frozen train/sealed query types",
+      "matching_prior_functions": [],
+      "minimum_safe_scenes_per_frozen_query_type": 0,
+      "sequence_class": "F->T->T"
+    },
+    {
+      "affine": {
+        "A": [
+          [
+            -1,
+            0
+          ],
+          [
+            0,
+            -1
+          ]
+        ],
+        "affine_key": "{\"A\":[[-1,0],[0,-1]],\"b\":[5,6]}",
+        "b": [
+          5,
+          6
+        ],
+        "number_of_T_applications": 1,
+        "sequence_class": "T->C->C",
+        "word": "TCC"
+      },
+      "bad_query_type_examples": [],
+      "canonical_representative": "TCC",
+      "eligibility": true,
+      "equals_prior_function": false,
+      "equivalent_words": [
+        "TCC"
+      ],
+      "exclusion_reason": "",
+      "matching_prior_functions": [],
+      "minimum_safe_scenes_per_frozen_query_type": 24,
+      "sequence_class": "T->C->C"
+    },
+    {
+      "affine": {
+        "A": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            0
+          ]
+        ],
+        "affine_key": "{\"A\":[[0,1],[1,0]],\"b\":[0,1]}",
+        "b": [
+          0,
+          1
+        ],
+        "number_of_T_applications": 1,
+        "sequence_class": "T->C->F",
+        "word": "TCF"
+      },
+      "bad_query_type_examples": [],
+      "canonical_representative": "TCF",
+      "eligibility": true,
+      "equals_prior_function": false,
+      "equivalent_words": [
+        "TCF"
+      ],
+      "exclusion_reason": "",
+      "matching_prior_functions": [],
+      "minimum_safe_scenes_per_frozen_query_type": 24,
+      "sequence_class": "T->C->F"
+    },
+    {
+      "affine": {
+        "A": [
+          [
+            0,
+            -1
+          ],
+          [
+            1,
+            0
+          ]
+        ],
+        "affine_key": "{\"A\":[[0,-1],[1,0]],\"b\":[7,1]}",
+        "b": [
+          7,
+          1
+        ],
+        "number_of_T_applications": 2,
+        "sequence_class": "T->C->T",
+        "word": "TCT"
+      },
+      "bad_query_type_examples": [],
+      "canonical_representative": "TCT",
+      "eligibility": true,
+      "equals_prior_function": false,
+      "equivalent_words": [
+        "TCT"
+      ],
+      "exclusion_reason": "",
+      "matching_prior_functions": [],
+      "minimum_safe_scenes_per_frozen_query_type": 24,
+      "sequence_class": "T->C->T"
+    },
+    {
+      "affine": {
+        "A": [
+          [
+            0,
+            -1
+          ],
+          [
+            -1,
+            0
+          ]
+        ],
+        "affine_key": "{\"A\":[[0,-1],[-1,0]],\"b\":[6,5]}",
+        "b": [
+          6,
+          5
+        ],
+        "number_of_T_applications": 1,
+        "sequence_class": "T->F->C",
+        "word": "TFC"
+      },
+      "bad_query_type_examples": [],
+      "canonical_representative": "TFC",
+      "eligibility": true,
+      "equals_prior_function": false,
+      "equivalent_words": [
+        "TFC"
+      ],
+      "exclusion_reason": "",
+      "matching_prior_functions": [],
+      "minimum_safe_scenes_per_frozen_query_type": 24,
+      "sequence_class": "T->F->C"
+    },
+    {
+      "affine": {
+        "A": [
+          [
+            0,
+            -1
+          ],
+          [
+            1,
+            0
+          ]
+        ],
+        "affine_key": "{\"A\":[[0,-1],[1,0]],\"b\":[6,2]}",
+        "b": [
+          6,
+          2
+        ],
+        "number_of_T_applications": 2,
+        "sequence_class": "T->T->C",
+        "word": "TTC"
+      },
+      "bad_query_type_examples": [
+        {
+          "query_type_key": "3_cell_T|color=4|anchor=interior_lower_left|distractors=2",
+          "reasons": [
+            "step_2_T_foreground_touches_edge",
+            "step_3_C_foreground_touches_edge"
+          ],
+          "required": 24,
+          "safe_scene_count": 0
+        },
+        {
+          "query_type_key": "3_cell_zig_zag|color=2|anchor=interior_lower_right|distractors=1",
+          "reasons": [
+            "step_2_T_foreground_touches_edge",
+            "step_3_C_foreground_touches_edge"
+          ],
+          "required": 24,
+          "safe_scene_count": 0
+        },
+        {
+          "query_type_key": "asymmetric_4_cell_hook|color=2|anchor=interior_lower_left|distractors=2",
+          "reasons": [
+            "step_2_T_foreground_touches_edge",
+            "step_3_C_foreground_touches_edge"
+          ],
+          "required": 24,
+          "safe_scene_count": 5
+        },
+        {
+          "query_type_key": "asymmetric_4_cell_hook|color=2|anchor=interior_upper_right|distractors=1",
+          "reasons": [
+            "step_2_T_foreground_touches_edge",
+            "step_3_C_foreground_touches_edge"
+          ],
+          "required": 24,
+          "safe_scene_count": 0
+        },
+        {
+          "query_type_key": "3_cell_L|color=2|anchor=interior_upper_right|distractors=2",
+          "reasons": [
+            "step_2_T_foreground_touches_edge",
+            "step_3_C_foreground_touches_edge"
+          ],
+          "required": 24,
+          "safe_scene_count": 0
+        },
+        {
+          "query_type_key": "3_cell_zig_zag|color=2|anchor=interior_upper_left|distractors=1",
+          "reasons": [
+            "step_2_T_foreground_touches_edge",
+            "step_3_C_foreground_touches_edge"
+          ],
+          "required": 24,
+          "safe_scene_count": 0
+        },
+        {
+          "query_type_key": "3_cell_T|color=4|anchor=interior_upper_right|distractors=1",
+          "reasons": [
+            "step_2_T_foreground_touches_edge",
+            "step_3_C_foreground_touches_edge"
+          ],
+          "required": 24,
+          "safe_scene_count": 0
+        },
+        {
+          "query_type_key": "asymmetric_4_cell_hook|color=2|anchor=interior_upper_left|distractors=2",
+          "reasons": [
+            "step_2_T_foreground_touches_edge",
+            "step_3_C_foreground_touches_edge"
+          ],
+          "required": 24,
+          "safe_scene_count": 6
+        }
+      ],
+      "canonical_representative": "TTC",
+      "eligibility": false,
+      "equals_prior_function": false,
+      "equivalent_words": [
+        "TTC"
+      ],
+      "exclusion_reason": "not universally renderable across frozen train/sealed query types",
+      "matching_prior_functions": [],
+      "minimum_safe_scenes_per_frozen_query_type": 0,
+      "sequence_class": "T->T->C"
+    },
+    {
+      "affine": {
+        "A": [
+          [
+            -1,
+            0
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "affine_key": "{\"A\":[[-1,0],[0,1]],\"b\":[4,0]}",
+        "b": [
+          4,
+          0
+        ],
+        "number_of_T_applications": 2,
+        "sequence_class": "T->T->F",
+        "word": "TTF"
+      },
+      "bad_query_type_examples": [
+        {
+          "query_type_key": "3_cell_T|color=4|anchor=interior_lower_left|distractors=2",
+          "reasons": [
+            "step_2_T_foreground_touches_edge",
+            "step_3_F_foreground_touches_edge"
+          ],
+          "required": 24,
+          "safe_scene_count": 0
+        },
+        {
+          "query_type_key": "3_cell_zig_zag|color=2|anchor=interior_lower_right|distractors=1",
+          "reasons": [
+            "step_2_T_foreground_touches_edge",
+            "step_3_F_foreground_touches_edge"
+          ],
+          "required": 24,
+          "safe_scene_count": 0
+        },
+        {
+          "query_type_key": "asymmetric_4_cell_hook|color=2|anchor=interior_lower_left|distractors=2",
+          "reasons": [
+            "step_2_T_foreground_touches_edge",
+            "step_3_F_foreground_touches_edge"
+          ],
+          "required": 24,
+          "safe_scene_count": 9
+        },
+        {
+          "query_type_key": "asymmetric_4_cell_hook|color=2|anchor=interior_upper_right|distractors=1",
+          "reasons": [
+            "step_2_T_foreground_touches_edge",
+            "step_3_F_foreground_touches_edge"
+          ],
+          "required": 24,
+          "safe_scene_count": 0
+        },
+        {
+          "query_type_key": "3_cell_L|color=2|anchor=interior_upper_right|distractors=2",
+          "reasons": [
+            "step_2_T_foreground_touches_edge",
+            "step_3_F_foreground_touches_edge"
+          ],
+          "required": 24,
+          "safe_scene_count": 0
+        },
+        {
+          "query_type_key": "3_cell_zig_zag|color=2|anchor=interior_upper_left|distractors=1",
+          "reasons": [
+            "step_2_T_foreground_touches_edge",
+            "step_3_F_foreground_touches_edge"
+          ],
+          "required": 24,
+          "safe_scene_count": 0
+        },
+        {
+          "query_type_key": "3_cell_T|color=4|anchor=interior_upper_right|distractors=1",
+          "reasons": [
+            "step_2_T_foreground_touches_edge",
+            "step_3_F_foreground_touches_edge"
+          ],
+          "required": 24,
+          "safe_scene_count": 0
+        },
+        {
+          "query_type_key": "asymmetric_4_cell_hook|color=2|anchor=interior_upper_left|distractors=2",
+          "reasons": [
+            "step_2_T_foreground_touches_edge",
+            "step_3_F_foreground_touches_edge"
+          ],
+          "required": 24,
+          "safe_scene_count": 7
+        }
+      ],
+      "canonical_representative": "TTF",
+      "eligibility": false,
+      "equals_prior_function": false,
+      "equivalent_words": [
+        "TTF"
+      ],
+      "exclusion_reason": "not universally renderable across frozen train/sealed query types",
+      "matching_prior_functions": [],
+      "minimum_safe_scenes_per_frozen_query_type": 0,
+      "sequence_class": "T->T->F"
+    },
+    {
+      "affine": {
+        "A": [
+          [
+            1,
+            0
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "affine_key": "{\"A\":[[1,0],[0,1]],\"b\":[3,0]}",
+        "b": [
+          3,
+          0
+        ],
+        "number_of_T_applications": 3,
+        "sequence_class": "T->T->T",
+        "word": "TTT"
+      },
+      "bad_query_type_examples": [
+        {
+          "query_type_key": "3_cell_T|color=4|anchor=interior_lower_left|distractors=2",
+          "reasons": [
+            "step_2_T_foreground_touches_edge",
+            "step_3_T_invalid:T is valid only for x <= 5 on a 7x7 grid"
+          ],
+          "required": 24,
+          "safe_scene_count": 0
+        },
+        {
+          "query_type_key": "3_cell_zig_zag|color=2|anchor=interior_lower_right|distractors=1",
+          "reasons": [
+            "step_2_T_foreground_touches_edge",
+            "step_3_T_invalid:T is valid only for x <= 5 on a 7x7 grid"
+          ],
+          "required": 24,
+          "safe_scene_count": 0
+        },
+        {
+          "query_type_key": "asymmetric_4_cell_hook|color=2|anchor=interior_lower_left|distractors=2",
+          "reasons": [
+            "step_2_T_foreground_touches_edge",
+            "step_3_T_foreground_touches_edge",
+            "step_3_T_invalid:T is valid only for x <= 5 on a 7x7 grid"
+          ],
+          "required": 24,
+          "safe_scene_count": 0
+        },
+        {
+          "query_type_key": "asymmetric_4_cell_hook|color=2|anchor=interior_upper_right|distractors=1",
+          "reasons": [
+            "step_2_T_foreground_touches_edge",
+            "step_3_T_invalid:T is valid only for x <= 5 on a 7x7 grid"
+          ],
+          "required": 24,
+          "safe_scene_count": 0
+        },
+        {
+          "query_type_key": "3_cell_L|color=2|anchor=interior_upper_right|distractors=2",
+          "reasons": [
+            "step_2_T_foreground_touches_edge",
+            "step_3_T_invalid:T is valid only for x <= 5 on a 7x7 grid"
+          ],
+          "required": 24,
+          "safe_scene_count": 0
+        },
+        {
+          "query_type_key": "3_cell_zig_zag|color=2|anchor=interior_upper_left|distractors=1",
+          "reasons": [
+            "step_2_T_foreground_touches_edge",
+            "step_3_T_invalid:T is valid only for x <= 5 on a 7x7 grid"
+          ],
+          "required": 24,
+          "safe_scene_count": 0
+        },
+        {
+          "query_type_key": "3_cell_T|color=4|anchor=interior_upper_right|distractors=1",
+          "reasons": [
+            "step_2_T_foreground_touches_edge",
+            "step_3_T_invalid:T is valid only for x <= 5 on a 7x7 grid"
+          ],
+          "required": 24,
+          "safe_scene_count": 0
+        },
+        {
+          "query_type_key": "asymmetric_4_cell_hook|color=2|anchor=interior_upper_left|distractors=2",
+          "reasons": [
+            "step_2_T_foreground_touches_edge",
+            "step_3_T_foreground_touches_edge",
+            "step_3_T_invalid:T is valid only for x <= 5 on a 7x7 grid"
+          ],
+          "required": 24,
+          "safe_scene_count": 0
+        }
+      ],
+      "canonical_representative": "TTT",
+      "eligibility": false,
+      "equals_prior_function": false,
+      "equivalent_words": [
+        "TTT"
+      ],
+      "exclusion_reason": "not universally renderable across frozen train/sealed query types",
+      "matching_prior_functions": [],
+      "minimum_safe_scenes_per_frozen_query_type": 0,
+      "sequence_class": "T->T->T"
+    }
+  ],
+  "eligible_canonical_sequences": [
+    "C->C->C",
+    "C->C->F",
+    "C->C->T",
+    "C->T->C",
+    "C->T->F",
+    "F->C->T",
+    "F->T->C",
+    "F->T->F",
+    "T->C->C",
+    "T->C->F",
+    "T->C->T",
+    "T->F->C"
+  ],
+  "eligible_canonical_words": [
+    "CCC",
+    "CCF",
+    "CCT",
+    "CTC",
+    "CTF",
+    "FCT",
+    "FTC",
+    "FTF",
+    "TCC",
+    "TCF",
+    "TCT",
+    "TFC"
+  ],
+  "eligible_count": 12,
+  "experiment": "R4A-1P frozen length-three composition probe",
+  "passed": true,
+  "prior_function_set": {
+    "all_two_step": [
+      "C->C",
+      "C->F",
+      "C->T",
+      "F->C",
+      "F->F",
+      "F->T",
+      "T->C",
+      "T->F",
+      "T->T"
+    ],
+    "identity": [
+      "I"
+    ],
+    "single_step": [
+      "C",
+      "F",
+      "T"
+    ]
+  },
+  "query_type_scope_for_universal_feasibility": {
+    "SEALED_VISUAL_TYPES": 24,
+    "TRAIN_VISIBLE_VISUAL_TYPES": 80
+  },
+  "required_minimum_eligible_count": 12,
+  "word_count": 27,
+  "word_entries": [
+    {
+      "affine": {
+        "A": [
+          [
+            0,
+            1
+          ],
+          [
+            -1,
+            0
+          ]
+        ],
+        "affine_key": "{\"A\":[[0,1],[-1,0]],\"b\":[0,6]}",
+        "b": [
+          0,
+          6
+        ],
+        "number_of_T_applications": 0,
+        "sequence_class": "C->C->C",
+        "word": "CCC"
+      },
+      "canonical_representative": "CCC",
+      "eligibility": true,
+      "equals_prior_function": false,
+      "equivalent_words": [
+        "CCC",
+        "FCF"
+      ],
+      "exclusion_reason": "",
+      "matching_prior_functions": [],
+      "sequence_class": "C->C->C",
+      "word": "CCC"
+    },
+    {
+      "affine": {
+        "A": [
+          [
+            1,
+            0
+          ],
+          [
+            0,
+            -1
+          ]
+        ],
+        "affine_key": "{\"A\":[[1,0],[0,-1]],\"b\":[0,6]}",
+        "b": [
+          0,
+          6
+        ],
+        "number_of_T_applications": 0,
+        "sequence_class": "C->C->F",
+        "word": "CCF"
+      },
+      "canonical_representative": "CCF",
+      "eligibility": true,
+      "equals_prior_function": false,
+      "equivalent_words": [
+        "CCF",
+        "FCC"
+      ],
+      "exclusion_reason": "",
+      "matching_prior_functions": [],
+      "sequence_class": "C->C->F",
+      "word": "CCF"
+    },
+    {
+      "affine": {
+        "A": [
+          [
+            -1,
+            0
+          ],
+          [
+            0,
+            -1
+          ]
+        ],
+        "affine_key": "{\"A\":[[-1,0],[0,-1]],\"b\":[7,6]}",
+        "b": [
+          7,
+          6
+        ],
+        "number_of_T_applications": 1,
+        "sequence_class": "C->C->T",
+        "word": "CCT"
+      },
+      "canonical_representative": "CCT",
+      "eligibility": true,
+      "equals_prior_function": false,
+      "equivalent_words": [
+        "CCT"
+      ],
+      "exclusion_reason": "",
+      "matching_prior_functions": [],
+      "sequence_class": "C->C->T",
+      "word": "CCT"
+    },
+    {
+      "affine": {
+        "A": [
+          [
+            -1,
+            0
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "affine_key": "{\"A\":[[-1,0],[0,1]],\"b\":[6,0]}",
+        "b": [
+          6,
+          0
+        ],
+        "number_of_T_applications": 0,
+        "sequence_class": "C->F->C",
+        "word": "CFC"
+      },
+      "canonical_representative": "CFC",
+      "eligibility": false,
+      "equals_prior_function": true,
+      "equivalent_words": [
+        "CFC",
+        "FFF",
+        "TFT"
+      ],
+      "exclusion_reason": "equals prior function(s): F",
+      "matching_prior_functions": [
+        "F"
+      ],
+      "sequence_class": "C->F->C",
+      "word": "CFC"
+    },
+    {
+      "affine": {
+        "A": [
+          [
+            0,
+            -1
+          ],
+          [
+            1,
+            0
+          ]
+        ],
+        "affine_key": "{\"A\":[[0,-1],[1,0]],\"b\":[6,0]}",
+        "b": [
+          6,
+          0
+        ],
+        "number_of_T_applications": 0,
+        "sequence_class": "C->F->F",
+        "word": "CFF"
+      },
+      "canonical_representative": "CFF",
+      "eligibility": false,
+      "equals_prior_function": true,
+      "equivalent_words": [
+        "CFF",
+        "FFC"
+      ],
+      "exclusion_reason": "equals prior function(s): C",
+      "matching_prior_functions": [
+        "C"
+      ],
+      "sequence_class": "C->F->F",
+      "word": "CFF"
+    },
+    {
+      "affine": {
+        "A": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            0
+          ]
+        ],
+        "affine_key": "{\"A\":[[0,1],[1,0]],\"b\":[1,0]}",
+        "b": [
+          1,
+          0
+        ],
+        "number_of_T_applications": 1,
+        "sequence_class": "C->F->T",
+        "word": "CFT"
+      },
+      "canonical_representative": "CFT",
+      "eligibility": false,
+      "equals_prior_function": false,
+      "equivalent_words": [
+        "CFT"
+      ],
+      "exclusion_reason": "not universally renderable across frozen train/sealed query types",
+      "matching_prior_functions": [],
+      "sequence_class": "C->F->T",
+      "word": "CFT"
+    },
+    {
+      "affine": {
+        "A": [
+          [
+            -1,
+            0
+          ],
+          [
+            0,
+            -1
+          ]
+        ],
+        "affine_key": "{\"A\":[[-1,0],[0,-1]],\"b\":[6,7]}",
+        "b": [
+          6,
+          7
+        ],
+        "number_of_T_applications": 1,
+        "sequence_class": "C->T->C",
+        "word": "CTC"
+      },
+      "canonical_representative": "CTC",
+      "eligibility": true,
+      "equals_prior_function": false,
+      "equivalent_words": [
+        "CTC"
+      ],
+      "exclusion_reason": "",
+      "matching_prior_functions": [],
+      "sequence_class": "C->T->C",
+      "word": "CTC"
+    },
+    {
+      "affine": {
+        "A": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            0
+          ]
+        ],
+        "affine_key": "{\"A\":[[0,1],[1,0]],\"b\":[-1,0]}",
+        "b": [
+          -1,
+          0
+        ],
+        "number_of_T_applications": 1,
+        "sequence_class": "C->T->F",
+        "word": "CTF"
+      },
+      "canonical_representative": "CTF",
+      "eligibility": true,
+      "equals_prior_function": false,
+      "equivalent_words": [
+        "CTF"
+      ],
+      "exclusion_reason": "",
+      "matching_prior_functions": [],
+      "sequence_class": "C->T->F",
+      "word": "CTF"
+    },
+    {
+      "affine": {
+        "A": [
+          [
+            0,
+            -1
+          ],
+          [
+            1,
+            0
+          ]
+        ],
+        "affine_key": "{\"A\":[[0,-1],[1,0]],\"b\":[8,0]}",
+        "b": [
+          8,
+          0
+        ],
+        "number_of_T_applications": 2,
+        "sequence_class": "C->T->T",
+        "word": "CTT"
+      },
+      "canonical_representative": "CTT",
+      "eligibility": false,
+      "equals_prior_function": false,
+      "equivalent_words": [
+        "CTT"
+      ],
+      "exclusion_reason": "not universally renderable across frozen train/sealed query types",
+      "matching_prior_functions": [],
+      "sequence_class": "C->T->T",
+      "word": "CTT"
+    },
+    {
+      "affine": {
+        "A": [
+          [
+            1,
+            0
+          ],
+          [
+            0,
+            -1
+          ]
+        ],
+        "affine_key": "{\"A\":[[1,0],[0,-1]],\"b\":[0,6]}",
+        "b": [
+          0,
+          6
+        ],
+        "number_of_T_applications": 0,
+        "sequence_class": "F->C->C",
+        "word": "FCC"
+      },
+      "canonical_representative": "CCF",
+      "eligibility": true,
+      "equals_prior_function": false,
+      "equivalent_words": [
+        "CCF",
+        "FCC"
+      ],
+      "exclusion_reason": "",
+      "matching_prior_functions": [],
+      "sequence_class": "F->C->C",
+      "word": "FCC"
+    },
+    {
+      "affine": {
+        "A": [
+          [
+            0,
+            1
+          ],
+          [
+            -1,
+            0
+          ]
+        ],
+        "affine_key": "{\"A\":[[0,1],[-1,0]],\"b\":[0,6]}",
+        "b": [
+          0,
+          6
+        ],
+        "number_of_T_applications": 0,
+        "sequence_class": "F->C->F",
+        "word": "FCF"
+      },
+      "canonical_representative": "CCC",
+      "eligibility": true,
+      "equals_prior_function": false,
+      "equivalent_words": [
+        "CCC",
+        "FCF"
+      ],
+      "exclusion_reason": "",
+      "matching_prior_functions": [],
+      "sequence_class": "F->C->F",
+      "word": "FCF"
+    },
+    {
+      "affine": {
+        "A": [
+          [
+            0,
+            -1
+          ],
+          [
+            -1,
+            0
+          ]
+        ],
+        "affine_key": "{\"A\":[[0,-1],[-1,0]],\"b\":[7,6]}",
+        "b": [
+          7,
+          6
+        ],
+        "number_of_T_applications": 1,
+        "sequence_class": "F->C->T",
+        "word": "FCT"
+      },
+      "canonical_representative": "FCT",
+      "eligibility": true,
+      "equals_prior_function": false,
+      "equivalent_words": [
+        "FCT"
+      ],
+      "exclusion_reason": "",
+      "matching_prior_functions": [],
+      "sequence_class": "F->C->T",
+      "word": "FCT"
+    },
+    {
+      "affine": {
+        "A": [
+          [
+            0,
+            -1
+          ],
+          [
+            1,
+            0
+          ]
+        ],
+        "affine_key": "{\"A\":[[0,-1],[1,0]],\"b\":[6,0]}",
+        "b": [
+          6,
+          0
+        ],
+        "number_of_T_applications": 0,
+        "sequence_class": "F->F->C",
+        "word": "FFC"
+      },
+      "canonical_representative": "CFF",
+      "eligibility": false,
+      "equals_prior_function": true,
+      "equivalent_words": [
+        "CFF",
+        "FFC"
+      ],
+      "exclusion_reason": "equals prior function(s): C",
+      "matching_prior_functions": [
+        "C"
+      ],
+      "sequence_class": "F->F->C",
+      "word": "FFC"
+    },
+    {
+      "affine": {
+        "A": [
+          [
+            -1,
+            0
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "affine_key": "{\"A\":[[-1,0],[0,1]],\"b\":[6,0]}",
+        "b": [
+          6,
+          0
+        ],
+        "number_of_T_applications": 0,
+        "sequence_class": "F->F->F",
+        "word": "FFF"
+      },
+      "canonical_representative": "CFC",
+      "eligibility": false,
+      "equals_prior_function": true,
+      "equivalent_words": [
+        "CFC",
+        "FFF",
+        "TFT"
+      ],
+      "exclusion_reason": "equals prior function(s): F",
+      "matching_prior_functions": [
+        "F"
+      ],
+      "sequence_class": "F->F->F",
+      "word": "FFF"
+    },
+    {
+      "affine": {
+        "A": [
+          [
+            1,
+            0
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "affine_key": "{\"A\":[[1,0],[0,1]],\"b\":[1,0]}",
+        "b": [
+          1,
+          0
+        ],
+        "number_of_T_applications": 1,
+        "sequence_class": "F->F->T",
+        "word": "FFT"
+      },
+      "canonical_representative": "FFT",
+      "eligibility": false,
+      "equals_prior_function": true,
+      "equivalent_words": [
+        "FFT",
+        "TFF"
+      ],
+      "exclusion_reason": "equals prior function(s): T",
+      "matching_prior_functions": [
+        "T"
+      ],
+      "sequence_class": "F->F->T",
+      "word": "FFT"
+    },
+    {
+      "affine": {
+        "A": [
+          [
+            0,
+            -1
+          ],
+          [
+            -1,
+            0
+          ]
+        ],
+        "affine_key": "{\"A\":[[0,-1],[-1,0]],\"b\":[6,7]}",
+        "b": [
+          6,
+          7
+        ],
+        "number_of_T_applications": 1,
+        "sequence_class": "F->T->C",
+        "word": "FTC"
+      },
+      "canonical_representative": "FTC",
+      "eligibility": true,
+      "equals_prior_function": false,
+      "equivalent_words": [
+        "FTC"
+      ],
+      "exclusion_reason": "",
+      "matching_prior_functions": [],
+      "sequence_class": "F->T->C",
+      "word": "FTC"
+    },
+    {
+      "affine": {
+        "A": [
+          [
+            1,
+            0
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "affine_key": "{\"A\":[[1,0],[0,1]],\"b\":[-1,0]}",
+        "b": [
+          -1,
+          0
+        ],
+        "number_of_T_applications": 1,
+        "sequence_class": "F->T->F",
+        "word": "FTF"
+      },
+      "canonical_representative": "FTF",
+      "eligibility": true,
+      "equals_prior_function": false,
+      "equivalent_words": [
+        "FTF"
+      ],
+      "exclusion_reason": "",
+      "matching_prior_functions": [],
+      "sequence_class": "F->T->F",
+      "word": "FTF"
+    },
+    {
+      "affine": {
+        "A": [
+          [
+            -1,
+            0
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "affine_key": "{\"A\":[[-1,0],[0,1]],\"b\":[8,0]}",
+        "b": [
+          8,
+          0
+        ],
+        "number_of_T_applications": 2,
+        "sequence_class": "F->T->T",
+        "word": "FTT"
+      },
+      "canonical_representative": "FTT",
+      "eligibility": false,
+      "equals_prior_function": false,
+      "equivalent_words": [
+        "FTT"
+      ],
+      "exclusion_reason": "not universally renderable across frozen train/sealed query types",
+      "matching_prior_functions": [],
+      "sequence_class": "F->T->T",
+      "word": "FTT"
+    },
+    {
+      "affine": {
+        "A": [
+          [
+            -1,
+            0
+          ],
+          [
+            0,
+            -1
+          ]
+        ],
+        "affine_key": "{\"A\":[[-1,0],[0,-1]],\"b\":[5,6]}",
+        "b": [
+          5,
+          6
+        ],
+        "number_of_T_applications": 1,
+        "sequence_class": "T->C->C",
+        "word": "TCC"
+      },
+      "canonical_representative": "TCC",
+      "eligibility": true,
+      "equals_prior_function": false,
+      "equivalent_words": [
+        "TCC"
+      ],
+      "exclusion_reason": "",
+      "matching_prior_functions": [],
+      "sequence_class": "T->C->C",
+      "word": "TCC"
+    },
+    {
+      "affine": {
+        "A": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            0
+          ]
+        ],
+        "affine_key": "{\"A\":[[0,1],[1,0]],\"b\":[0,1]}",
+        "b": [
+          0,
+          1
+        ],
+        "number_of_T_applications": 1,
+        "sequence_class": "T->C->F",
+        "word": "TCF"
+      },
+      "canonical_representative": "TCF",
+      "eligibility": true,
+      "equals_prior_function": false,
+      "equivalent_words": [
+        "TCF"
+      ],
+      "exclusion_reason": "",
+      "matching_prior_functions": [],
+      "sequence_class": "T->C->F",
+      "word": "TCF"
+    },
+    {
+      "affine": {
+        "A": [
+          [
+            0,
+            -1
+          ],
+          [
+            1,
+            0
+          ]
+        ],
+        "affine_key": "{\"A\":[[0,-1],[1,0]],\"b\":[7,1]}",
+        "b": [
+          7,
+          1
+        ],
+        "number_of_T_applications": 2,
+        "sequence_class": "T->C->T",
+        "word": "TCT"
+      },
+      "canonical_representative": "TCT",
+      "eligibility": true,
+      "equals_prior_function": false,
+      "equivalent_words": [
+        "TCT"
+      ],
+      "exclusion_reason": "",
+      "matching_prior_functions": [],
+      "sequence_class": "T->C->T",
+      "word": "TCT"
+    },
+    {
+      "affine": {
+        "A": [
+          [
+            0,
+            -1
+          ],
+          [
+            -1,
+            0
+          ]
+        ],
+        "affine_key": "{\"A\":[[0,-1],[-1,0]],\"b\":[6,5]}",
+        "b": [
+          6,
+          5
+        ],
+        "number_of_T_applications": 1,
+        "sequence_class": "T->F->C",
+        "word": "TFC"
+      },
+      "canonical_representative": "TFC",
+      "eligibility": true,
+      "equals_prior_function": false,
+      "equivalent_words": [
+        "TFC"
+      ],
+      "exclusion_reason": "",
+      "matching_prior_functions": [],
+      "sequence_class": "T->F->C",
+      "word": "TFC"
+    },
+    {
+      "affine": {
+        "A": [
+          [
+            1,
+            0
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "affine_key": "{\"A\":[[1,0],[0,1]],\"b\":[1,0]}",
+        "b": [
+          1,
+          0
+        ],
+        "number_of_T_applications": 1,
+        "sequence_class": "T->F->F",
+        "word": "TFF"
+      },
+      "canonical_representative": "FFT",
+      "eligibility": false,
+      "equals_prior_function": true,
+      "equivalent_words": [
+        "FFT",
+        "TFF"
+      ],
+      "exclusion_reason": "equals prior function(s): T",
+      "matching_prior_functions": [
+        "T"
+      ],
+      "sequence_class": "T->F->F",
+      "word": "TFF"
+    },
+    {
+      "affine": {
+        "A": [
+          [
+            -1,
+            0
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "affine_key": "{\"A\":[[-1,0],[0,1]],\"b\":[6,0]}",
+        "b": [
+          6,
+          0
+        ],
+        "number_of_T_applications": 2,
+        "sequence_class": "T->F->T",
+        "word": "TFT"
+      },
+      "canonical_representative": "CFC",
+      "eligibility": false,
+      "equals_prior_function": true,
+      "equivalent_words": [
+        "CFC",
+        "FFF",
+        "TFT"
+      ],
+      "exclusion_reason": "equals prior function(s): F",
+      "matching_prior_functions": [
+        "F"
+      ],
+      "sequence_class": "T->F->T",
+      "word": "TFT"
+    },
+    {
+      "affine": {
+        "A": [
+          [
+            0,
+            -1
+          ],
+          [
+            1,
+            0
+          ]
+        ],
+        "affine_key": "{\"A\":[[0,-1],[1,0]],\"b\":[6,2]}",
+        "b": [
+          6,
+          2
+        ],
+        "number_of_T_applications": 2,
+        "sequence_class": "T->T->C",
+        "word": "TTC"
+      },
+      "canonical_representative": "TTC",
+      "eligibility": false,
+      "equals_prior_function": false,
+      "equivalent_words": [
+        "TTC"
+      ],
+      "exclusion_reason": "not universally renderable across frozen train/sealed query types",
+      "matching_prior_functions": [],
+      "sequence_class": "T->T->C",
+      "word": "TTC"
+    },
+    {
+      "affine": {
+        "A": [
+          [
+            -1,
+            0
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "affine_key": "{\"A\":[[-1,0],[0,1]],\"b\":[4,0]}",
+        "b": [
+          4,
+          0
+        ],
+        "number_of_T_applications": 2,
+        "sequence_class": "T->T->F",
+        "word": "TTF"
+      },
+      "canonical_representative": "TTF",
+      "eligibility": false,
+      "equals_prior_function": false,
+      "equivalent_words": [
+        "TTF"
+      ],
+      "exclusion_reason": "not universally renderable across frozen train/sealed query types",
+      "matching_prior_functions": [],
+      "sequence_class": "T->T->F",
+      "word": "TTF"
+    },
+    {
+      "affine": {
+        "A": [
+          [
+            1,
+            0
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "affine_key": "{\"A\":[[1,0],[0,1]],\"b\":[3,0]}",
+        "b": [
+          3,
+          0
+        ],
+        "number_of_T_applications": 3,
+        "sequence_class": "T->T->T",
+        "word": "TTT"
+      },
+      "canonical_representative": "TTT",
+      "eligibility": false,
+      "equals_prior_function": false,
+      "equivalent_words": [
+        "TTT"
+      ],
+      "exclusion_reason": "not universally renderable across frozen train/sealed query types",
+      "matching_prior_functions": [],
+      "sequence_class": "T->T->T",
+      "word": "TTT"
+    }
+  ]
+}

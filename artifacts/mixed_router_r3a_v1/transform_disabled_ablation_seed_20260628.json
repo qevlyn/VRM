@@ -1,0 +1,11 @@
+{
+  "gate_unchanged": true,
+  "grid_change_rate_by_family": {
+    "HARD_NEGATIVE_NO_MATCH": 1.0,
+    "RETRIEVAL_ELIGIBLE": 0.0,
+    "TRANSFORM_ONLY": 0.9906666666666667
+  },
+  "reader_alpha_unchanged": true,
+  "reader_disabled": false,
+  "transform_disabled": true
+}

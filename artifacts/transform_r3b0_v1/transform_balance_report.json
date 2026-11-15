@@ -1,0 +1,35 @@
+{
+  "dev": {
+    "all_query_types_balanced": true,
+    "episode_count": 9000,
+    "query_type_count": 30,
+    "transform_counts": {
+      "HFLIP": 3000,
+      "ROT180": 3000,
+      "VFLIP": 3000
+    },
+    "transform_independent_of_query_type": true
+  },
+  "sealed": {
+    "all_query_types_balanced": true,
+    "episode_count": 9000,
+    "query_type_count": 30,
+    "transform_counts": {
+      "HFLIP": 3000,
+      "ROT180": 3000,
+      "VFLIP": 3000
+    },
+    "transform_independent_of_query_type": true
+  },
+  "train": {
+    "all_query_types_balanced": true,
+    "episode_count": 36000,
+    "query_type_count": 120,
+    "transform_counts": {
+      "HFLIP": 12000,
+      "ROT180": 12000,
+      "VFLIP": 12000
+    },
+    "transform_independent_of_query_type": true
+  }
+}

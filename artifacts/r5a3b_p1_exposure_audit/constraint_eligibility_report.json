@@ -1,0 +1,5672 @@
+{
+  "all_folds": {
+    "candidate_independent_predicates_considered": 1424,
+    "promoted_to_hard_constraints": 108,
+    "rejected_for_ambiguous_correspondence": 1000,
+    "rejected_for_non_contrastiveness": 1008,
+    "rejected_for_non_mechanical_detectability": 0,
+    "rejected_for_non_universality": 307,
+    "retained_as_soft_signals": 1316
+  },
+  "audit_version": "R5A3B_P1_RELATION_EXPOSURE_CONSTRAINT_EFFICACY_AUDIT",
+  "candidates_pruned_by_hard_constraint": {
+    "border_status_unchanged": 41,
+    "color_unchanged": 73,
+    "position_unchanged": 87,
+    "same_relation_preserved": 8,
+    "shape_unchanged": 26,
+    "size_unchanged": 26
+  },
+  "multi_object_folds": {
+    "candidate_independent_predicates_considered": 1216,
+    "promoted_to_hard_constraints": 71,
+    "rejected_for_ambiguous_correspondence": 952,
+    "rejected_for_non_contrastiveness": 864,
+    "rejected_for_non_mechanical_detectability": 0,
+    "rejected_for_non_universality": 263,
+    "retained_as_soft_signals": 1145
+  },
+  "one_object_folds": {
+    "candidate_independent_predicates_considered": 208,
+    "promoted_to_hard_constraints": 37,
+    "rejected_for_ambiguous_correspondence": 48,
+    "rejected_for_non_contrastiveness": 144,
+    "rejected_for_non_mechanical_detectability": 0,
+    "rejected_for_non_universality": 44,
+    "retained_as_soft_signals": 171
+  },
+  "readable_examples": {
+    "border_status_unchanged": {
+      "candidate_that_was_pruned": {
+        "base_rank_tuple": [
+          0,
+          104,
+          4,
+          "412bd272654828c945dfa1da",
+          "4a728510750335b5a23461571b9c61091e13e08cb66e112ceb3384ac591fa778"
+        ],
+        "candidate_id": "412bd272654828c945dfa1da",
+        "execution_status": "OK",
+        "execution_trace": {
+          "changed_cells": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              3
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              2,
+              4
+            ],
+            [
+              2,
+              5
+            ],
+            [
+              3,
+              4
+            ],
+            [
+              3,
+              5
+            ],
+            [
+              5,
+              1
+            ],
+            [
+              5,
+              2
+            ],
+            [
+              6,
+              1
+            ],
+            [
+              6,
+              2
+            ]
+          ],
+          "output_hash": "4a728510750335b5a23461571b9c61091e13e08cb66e112ceb3384ac591fa778",
+          "program_id": "select=all_objects|ops=translate:(-2, -3)|render=same_canvas",
+          "selected_object_ids": [
+            "color=2|bbox=0,2,1,3|area=4|shape=8256e50dea4d",
+            "color=2|bbox=2,4,3,5|area=4|shape=8256e50dea4d",
+            "color=2|bbox=5,1,6,2|area=4|shape=8256e50dea4d"
+          ],
+          "status": "OK"
+        },
+        "operator_sequence": [
+          "all_objects",
+          "translate:(-2, -3)",
+          "same_canvas"
+        ],
+        "output_grid": [
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            2,
+            2,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            2,
+            2,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "output_hash": "4a728510750335b5a23461571b9c61091e13e08cb66e112ceb3384ac591fa778",
+        "parse_background_color": 0,
+        "parse_connectivity": 4,
+        "parse_hypothesis_id": "bg=0|conn=4|objects=3|hash=dcd4636fc04b",
+        "program_depth": 1,
+        "program_family": "object",
+        "provenance": {
+          "parse_id": "bg=0|conn=4|objects=3|hash=dcd4636fc04b",
+          "program": {
+            "depth": 1,
+            "program_id": "select=all_objects|ops=translate:(-2, -3)|render=same_canvas",
+            "render": "same_canvas",
+            "selector": "all_objects",
+            "transforms": [
+              "translate:(-2, -3)"
+            ]
+          },
+          "source": "R5A3A_structural_program_enumerator_with_relations_disabled"
+        },
+        "raw_ordinal": 2,
+        "relation_predicates_used": [],
+        "source_program_ids": [
+          "select=all_objects|ops=translate:(-2, -3)|render=same_canvas"
+        ],
+        "support_cell_hamming_loss": 104,
+        "support_failed_pair_count": 4,
+        "support_shape_mismatch_count": 0
+      },
+      "fold_key": "157e29bf4dac:fold=0",
+      "predicate_definition": "border_status_unchanged",
+      "pruned_output_matched_held_out_target": false,
+      "visible_support_evidence": {
+        "bg=0|conn=4|objects=3|hash=dcd4636fc04b": {
+          "constraints": [
+            {
+              "ambiguous_count": 0,
+              "contrastive": true,
+              "false_count": 0,
+              "hard": true,
+              "hard_rejection_reasons": [],
+              "mechanically_detectable": true,
+              "predicate": "position_unchanged",
+              "support_count": 4,
+              "true_count": 24,
+              "universal": true
+            },
+            {
+              "ambiguous_count": 0,
+              "contrastive": false,
+              "false_count": 13,
+              "hard": false,
+              "hard_rejection_reasons": [
+                "not_universal_on_visible_supports",
+                "not_contrastive_on_visible_supports"
+              ],
+              "mechanically_detectable": true,
+              "predicate": "color_unchanged",
+              "support_count": 4,
+              "true_count": 11,
+              "universal": false
+            },
+            {
+              "ambiguous_count": 0,
+              "contrastive": false,
+              "false_count": 0,
+              "hard": false,
+              "hard_rejection_reasons": [
+                "not_contrastive_on_visible_supports"
+              ],
+              "mechanically_detectable": true,
+              "predicate": "size_unchanged",
+              "support_count": 4,
+              "true_count": 24,
+              "universal": true
+            },
+            {
+              "ambiguous_count": 0,
+              "contrastive": false,
+              "false_count": 0,
+              "hard": false,
+              "hard_rejection_reasons": [
+                "not_contrastive_on_visible_supports"
+              ],
+              "mechanically_detectable": true,
+              "predicate": "shape_unchanged",
+              "support_count": 4,
+              "true_count": 24,
+              "universal": true
+            },
+            {
+              "ambiguous_count": 0,
+              "contrastive": true,
+              "false_count": 0,
+              "hard": true,
+              "hard_rejection_reasons": [],
+              "mechanically_detectable": true,
+              "predicate": "border_status_unchanged",
+              "support_count": 4,
+              "true_count": 24,
+              "universal": true
+            },
+            {
+              "ambiguous_count": 0,
+              "contrastive": true,
+              "false_count": 57,
+              "hard": false,
+              "hard_rejection_reasons": [
+                "not_universal_on_visible_supports"
+              ],
+              "mechanically_detectable": true,
+              "predicate": "same_relation_preserved",
+              "support_count": 4,
+              "true_count": 89,
+              "universal": false
+            },
+            {
+              "ambiguous_count": 0,
+              "contrastive": false,
+              "false_count": 146,
+              "hard": false,
+              "hard_rejection_reasons": [
+                "not_universal_on_visible_supports",
+                "not_contrastive_on_visible_supports"
+              ],
+              "mechanically_detectable": true,
+              "predicate": "relation_created",
+              "support_count": 4,
+              "true_count": 0,
+              "universal": false
+            },
+            {
+              "ambiguous_count": 0,
+              "contrastive": true,
+              "false_count": 89,
+              "hard": false,
+              "hard_rejection_reasons": [
+                "not_universal_on_visible_supports"
+              ],
+              "mechanically_detectable": true,
+              "predicate": "relation_removed",
+              "support_count": 4,
+              "true_count": 57,
+              "universal": false
+            }
+          ],
+          "hard_constraint_count": 2,
+          "parse_background_color": 0,
+          "parse_connectivity": 4,
+          "source": "visible_supports_only",
+          "support_correspondence_summary": [
+            {
+              "ambiguous_matches": [],
+              "duplicate_output_object_ids": [],
+              "input_object_count": 6,
+              "matched_count": 6,
+              "output_object_count": 6,
+              "support_index": 0,
+              "unambiguous": true,
+              "unmatched_input_object_ids": []
+            },
+            {
+              "ambiguous_matches": [],
+              "duplicate_output_object_ids": [],
+              "input_object_count": 7,
+              "matched_count": 7,
+              "output_object_count": 7,
+              "support_index": 1,
+              "unambiguous": true,
+              "unmatched_input_object_ids": []
+            },
+            {
+              "ambiguous_matches": [],
+              "duplicate_output_object_ids": [],
+              "input_object_count": 2,
+              "matched_count": 2,
+              "output_object_count": 2,
+              "support_index": 2,
+              "unambiguous": true,
+              "unmatched_input_object_ids": []
+            },
+            {
+              "ambiguous_matches": [],
+              "duplicate_output_object_ids": [],
+              "input_object_count": 9,
+              "matched_count": 9,
+              "output_object_count": 9,
+              "support_index": 3,
+              "unambiguous": true,
+              "unmatched_input_object_ids": []
+            }
+          ]
+        },
+        "bg=0|conn=8|objects=2|hash=8073c073c2a0": {
+          "constraints": [
+            {
+              "ambiguous_count": 2,
+              "contrastive": true,
+              "false_count": 0,
+              "hard": false,
+              "hard_rejection_reasons": [
+                "ambiguous_correspondence_present"
+              ],
+              "mechanically_detectable": true,
+              "predicate": "position_unchanged",
+              "support_count": 4,
+              "true_count": 9,
+              "universal": true
+            },
+            {
+              "ambiguous_count": 2,
+              "contrastive": false,
+              "false_count": 5,
+              "hard": false,
+              "hard_rejection_reasons": [
+                "not_universal_on_visible_supports",
+                "ambiguous_correspondence_present",
+                "not_contrastive_on_visible_supports"
+              ],
+              "mechanically_detectable": true,
+              "predicate": "color_unchanged",
+              "support_count": 4,
+              "true_count": 4,
+              "universal": false
+            },
+            {
+              "ambiguous_count": 2,
+              "contrastive": false,
+              "false_count": 0,
+              "hard": false,
+              "hard_rejection_reasons": [
+                "ambiguous_correspondence_present",
+                "not_contrastive_on_visible_supports"
+              ],
+              "mechanically_detectable": true,
+              "predicate": "size_unchanged",
+              "support_count": 4,
+              "true_count": 9,
+              "universal": true
+            },
+            {
+              "ambiguous_count": 2,
+              "contrastive": false,
+              "false_count": 0,
+              "hard": false,
+              "hard_rejection_reasons": [
+                "ambiguous_correspondence_present",
+                "not_contrastive_on_visible_supports"
+              ],
+              "mechanically_detectable": true,
+              "predicate": "shape_unchanged",
+              "support_count": 4,
+              "true_count": 9,
+              "universal": true
+            },
+            {
+              "ambiguous_count": 2,
+              "contrastive": true,
+              "false_count": 0,
+              "hard": false,
+              "hard_rejection_reasons": [
+                "ambiguous_correspondence_present"
+              ],
+              "mechanically_detectable": true,
+              "predicate": "border_status_unchanged",
+              "support_count": 4,
+              "true_count": 9,
+              "universal": true
+            },
+            {
+              "ambiguous_count": 2,
+              "contrastive": true,
+              "false_count": 18,
+              "hard": false,
+              "hard_rejection_reasons": [
+                "not_universal_on_visible_supports",
+                "ambiguous_correspondence_present"
+              ],
+              "mechanically_detectable": true,
+              "predicate": "same_relation_preserved",
+              "support_count": 4,
+              "true_count": 26,
+              "universal": false
+            },
+            {
+              "ambiguous_count": 2,
+              "contrastive": false,
+              "false_count": 44,
+              "hard": false,
+              "hard_rejection_reasons": [
+                "not_universal_on_visible_supports",
+                "ambiguous_correspondence_present",
+                "not_contrastive_on_visible_supports"
+              ],
+              "mechanically_detectable": true,
+              "predicate": "relation_created",
+              "support_count": 4,
+              "true_count": 0,
+              "universal": false
+            },
+            {
+              "ambiguous_count": 2,
+              "contrastive": true,
+              "false_count": 26,
+              "hard": false,
+              "hard_rejection_reasons": [
+                "not_universal_on_visible_supports",
+                "ambiguous_correspondence_present"
+              ],
+              "mechanically_detectable": true,
+              "predicate": "relation_removed",
+              "support_count": 4,
+              "true_count": 18,
+              "universal": false
+            }
+          ],
+          "hard_constraint_count": 0,
+          "parse_background_color": 0,
+          "parse_connectivity": 8,
+          "source": "visible_supports_only",
+          "support_correspondence_summary": [
+            {
+              "ambiguous_matches": [
+                {
+                  "input_object_id": "color=2|bbox=7,2,10,5|area=8|shape=462ef18e27fb",
+                  "overlap": 4,
+                  "tied_output_object_ids": [
+                    "color=2|bbox=9,2,10,3|area=4|shape=8256e50dea4d",
+                    "color=8|bbox=7,4,8,5|area=4|shape=8256e50dea4d"
+                  ]
+                }
+              ],
+              "duplicate_output_object_ids": [],
+              "input_object_count": 5,
+              "matched_count": 4,
+              "output_object_count": 6,
+              "support_index": 0,
+              "unambiguous": false,
+              "unmatched_input_object_ids": []
+            },
+            {
+              "ambiguous_matches": [],
+              "duplicate_output_object_ids": [],
+              "input_object_count": 7,
+              "matched_count": 7,
+              "output_object_count": 7,
+              "support_index": 1,
+              "unambiguous": true,
+              "unmatched_input_object_ids": []
+            },
+            {
+              "ambiguous_matches": [],
+              "duplicate_output_object_ids": [],
+              "input_object_count": 2,
+              "matched_count": 2,
+              "output_object_count": 2,
+              "support_index": 2,
+              "unambiguous": true,
+              "unmatched_input_object_ids": []
+            },
+            {
+              "ambiguous_matches": [
+                {
+                  "input_object_id": "color=2|bbox=13,3,16,6|area=8|shape=5771f8e4801e",
+                  "overlap": 4,
+                  "tied_output_object_ids": [
+                    "color=2|bbox=13,3,14,4|area=4|shape=8256e50dea4d",
+                    "color=8|bbox=15,5,16,6|area=4|shape=8256e50dea4d"
+                  ]
+                }
+              ],
+              "duplicate_output_object_ids": [],
+              "input_object_count": 8,
+              "matched_count": 7,
+              "output_object_count": 9,
+              "support_index": 3,
+              "unambiguous": false,
+              "unmatched_input_object_ids": []
+            }
+          ]
+        }
+      },
+      "why_it_passed_hard_constraint_eligibility": "Recorded hard=true in the frozen P0 constraint model for this parse."
+    },
+    "color_unchanged": {
+      "candidate_that_was_pruned": {
+        "base_rank_tuple": [
+          0,
+          61,
+          2,
+          "051017de23d4217d2bbe2826",
+          "431309b552febe12a984bc6414d93c65790c1c987c3341dd64e19f0f9f9c25b6"
+        ],
+        "candidate_id": "051017de23d4217d2bbe2826",
+        "execution_status": "OK",
+        "execution_trace": {
+          "changed_cells": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              2,
+              0
+            ],
+            [
+              2,
+              1
+            ],
+            [
+              2,
+              2
+            ],
+            [
+              3,
+              0
+            ],
+            [
+              3,
+              1
+            ],
+            [
+              3,
+              2
+            ],
+            [
+              7,
+              0
+            ],
+            [
+              7,
+              1
+            ],
+            [
+              7,
+              2
+            ]
+          ],
+          "output_hash": "431309b552febe12a984bc6414d93c65790c1c987c3341dd64e19f0f9f9c25b6",
+          "program_id": "select=all_objects|ops=recolor:1|render=same_canvas",
+          "selected_object_ids": [
+            "color=2|bbox=2,2,2,2|area=1|shape=b0d317a3ada5",
+            "color=3|bbox=1,0,2,2|area=5|shape=4b82b40d426c",
+            "color=5|bbox=3,0,3,2|area=3|shape=6341fb6c19d4",
+            "color=5|bbox=7,0,7,2|area=3|shape=6341fb6c19d4",
+            "color=6|bbox=0,0,0,2|area=3|shape=6341fb6c19d4"
+          ],
+          "status": "OK"
+        },
+        "operator_sequence": [
+          "all_objects",
+          "recolor:1",
+          "same_canvas"
+        ],
+        "output_grid": [
+          [
+            1,
+            1,
+            1,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            1,
+            1,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            1,
+            1,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0
+          ]
+        ],
+        "output_hash": "431309b552febe12a984bc6414d93c65790c1c987c3341dd64e19f0f9f9c25b6",
+        "parse_background_color": 0,
+        "parse_connectivity": 4,
+        "parse_hypothesis_id": "bg=0|conn=4|objects=5|hash=c242d7dc06e6",
+        "program_depth": 1,
+        "program_family": "object",
+        "provenance": {
+          "parse_id": "bg=0|conn=4|objects=5|hash=c242d7dc06e6",
+          "program": {
+            "depth": 1,
+            "program_id": "select=all_objects|ops=recolor:1|render=same_canvas",
+            "render": "same_canvas",
+            "selector": "all_objects",
+            "transforms": [
+              "recolor:1"
+            ]
+          },
+          "source": "R5A3A_structural_program_enumerator_with_relations_disabled"
+        },
+        "raw_ordinal": 1,
+        "relation_predicates_used": [],
+        "source_program_ids": [
+          "select=all_objects|ops=recolor:1|render=same_canvas"
+        ],
+        "support_cell_hamming_loss": 61,
+        "support_failed_pair_count": 2,
+        "support_shape_mismatch_count": 0
+      },
+      "fold_key": "00a70cb1f01a:fold=0",
+      "predicate_definition": "color_unchanged",
+      "pruned_output_matched_held_out_target": false,
+      "visible_support_evidence": {
+        "bg=0|conn=4|objects=5|hash=c242d7dc06e6": {
+          "constraints": [
+            {
+              "ambiguous_count": 0,
+              "contrastive": true,
+              "false_count": 0,
+              "hard": true,
+              "hard_rejection_reasons": [],
+              "mechanically_detectable": true,
+              "predicate": "position_unchanged",
+              "support_count": 2,
+              "true_count": 10,
+              "universal": true
+            },
+            {
+              "ambiguous_count": 0,
+              "contrastive": true,
+              "false_count": 0,
+              "hard": true,
+              "hard_rejection_reasons": [],
+              "mechanically_detectable": true,
+              "predicate": "color_unchanged",
+              "support_count": 2,
+              "true_count": 10,
+              "universal": true
+            },
+            {
+              "ambiguous_count": 0,
+              "contrastive": true,
+              "false_count": 0,
+              "hard": true,
+              "hard_rejection_reasons": [],
+              "mechanically_detectable": true,
+              "predicate": "size_unchanged",
+              "support_count": 2,
+              "true_count": 10,
+              "universal": true
+            },
+            {
+              "ambiguous_count": 0,
+              "contrastive": true,
+              "false_count": 0,
+              "hard": true,
+              "hard_rejection_reasons": [],
+              "mechanically_detectable": true,
+              "predicate": "shape_unchanged",
+              "support_count": 2,
+              "true_count": 10,
+              "universal": true
+            },
+            {
+              "ambiguous_count": 0,
+              "contrastive": false,
+              "false_count": 0,
+              "hard": false,
+              "hard_rejection_reasons": [
+                "not_contrastive_on_visible_supports"
+              ],
+              "mechanically_detectable": true,
+              "predicate": "border_status_unchanged",
+              "support_count": 2,
+              "true_count": 10,
+              "universal": true
+            },
+            {
+              "ambiguous_count": 0,
+              "contrastive": true,
+              "false_count": 12,
+              "hard": false,
+              "hard_rejection_reasons": [
+                "not_universal_on_visible_supports"
+              ],
+              "mechanically_detectable": true,
+              "predicate": "same_relation_preserved",
+              "support_count": 2,
+              "true_count": 28,
+              "universal": false
+            },
+            {
+              "ambiguous_count": 0,
+              "contrastive": false,
+              "false_count": 40,
+              "hard": false,
+              "hard_rejection_reasons": [
+                "not_universal_on_visible_supports",
+                "not_contrastive_on_visible_supports"
+              ],
+              "mechanically_detectable": true,
+              "predicate": "relation_created",
+              "support_count": 2,
+              "true_count": 0,
+              "universal": false
+            },
+            {
+              "ambiguous_count": 0,
+              "contrastive": true,
+              "false_count": 28,
+              "hard": false,
+              "hard_rejection_reasons": [
+                "not_universal_on_visible_supports"
+              ],
+              "mechanically_detectable": true,
+              "predicate": "relation_removed",
+              "support_count": 2,
+              "true_count": 12,
+              "universal": false
+            }
+          ],
+          "hard_constraint_count": 4,
+          "parse_background_color": 0,
+          "parse_connectivity": 4,
+          "source": "visible_supports_only",
+          "support_correspondence_summary": [
+            {
+              "ambiguous_matches": [],
+              "duplicate_output_object_ids": [],
+              "input_object_count": 5,
+              "matched_count": 5,
+              "output_object_count": 11,
+              "support_index": 0,
+              "unambiguous": true,
+              "unmatched_input_object_ids": []
+            },
+            {
+              "ambiguous_matches": [],
+              "duplicate_output_object_ids": [],
+              "input_object_count": 5,
+              "matched_count": 5,
+              "output_object_count": 11,
+              "support_index": 1,
+              "unambiguous": true,
+              "unmatched_input_object_ids": []
+            }
+          ]
+        }
+      },
+      "why_it_passed_hard_constraint_eligibility": "Recorded hard=true in the frozen P0 constraint model for this parse."
+    },
+    "position_unchanged": {
+      "candidate_that_was_pruned": {
+        "base_rank_tuple": [
+          0,
+          61,
+          2,
+          "051017de23d4217d2bbe2826",
+          "431309b552febe12a984bc6414d93c65790c1c987c3341dd64e19f0f9f9c25b6"
+        ],
+        "candidate_id": "051017de23d4217d2bbe2826",
+        "execution_status": "OK",
+        "execution_trace": {
+          "changed_cells": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              2,
+              0
+            ],
+            [
+              2,
+              1
+            ],
+            [
+              2,
+              2
+            ],
+            [
+              3,
+              0
+            ],
+            [
+              3,
+              1
+            ],
+            [
+              3,
+              2
+            ],
+            [
+              7,
+              0
+            ],
+            [
+              7,
+              1
+            ],
+            [
+              7,
+              2
+            ]
+          ],
+          "output_hash": "431309b552febe12a984bc6414d93c65790c1c987c3341dd64e19f0f9f9c25b6",
+          "program_id": "select=all_objects|ops=recolor:1|render=same_canvas",
+          "selected_object_ids": [
+            "color=2|bbox=2,2,2,2|area=1|shape=b0d317a3ada5",
+            "color=3|bbox=1,0,2,2|area=5|shape=4b82b40d426c",
+            "color=5|bbox=3,0,3,2|area=3|shape=6341fb6c19d4",
+            "color=5|bbox=7,0,7,2|area=3|shape=6341fb6c19d4",
+            "color=6|bbox=0,0,0,2|area=3|shape=6341fb6c19d4"
+          ],
+          "status": "OK"
+        },
+        "operator_sequence": [
+          "all_objects",
+          "recolor:1",
+          "same_canvas"
+        ],
+        "output_grid": [
+          [
+            1,
+            1,
+            1,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            1,
+            1,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            1,
+            1,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0
+          ]
+        ],
+        "output_hash": "431309b552febe12a984bc6414d93c65790c1c987c3341dd64e19f0f9f9c25b6",
+        "parse_background_color": 0,
+        "parse_connectivity": 4,
+        "parse_hypothesis_id": "bg=0|conn=4|objects=5|hash=c242d7dc06e6",
+        "program_depth": 1,
+        "program_family": "object",
+        "provenance": {
+          "parse_id": "bg=0|conn=4|objects=5|hash=c242d7dc06e6",
+          "program": {
+            "depth": 1,
+            "program_id": "select=all_objects|ops=recolor:1|render=same_canvas",
+            "render": "same_canvas",
+            "selector": "all_objects",
+            "transforms": [
+              "recolor:1"
+            ]
+          },
+          "source": "R5A3A_structural_program_enumerator_with_relations_disabled"
+        },
+        "raw_ordinal": 1,
+        "relation_predicates_used": [],
+        "source_program_ids": [
+          "select=all_objects|ops=recolor:1|render=same_canvas"
+        ],
+        "support_cell_hamming_loss": 61,
+        "support_failed_pair_count": 2,
+        "support_shape_mismatch_count": 0
+      },
+      "fold_key": "00a70cb1f01a:fold=0",
+      "predicate_definition": "position_unchanged",
+      "pruned_output_matched_held_out_target": false,
+      "visible_support_evidence": {
+        "bg=0|conn=4|objects=5|hash=c242d7dc06e6": {
+          "constraints": [
+            {
+              "ambiguous_count": 0,
+              "contrastive": true,
+              "false_count": 0,
+              "hard": true,
+              "hard_rejection_reasons": [],
+              "mechanically_detectable": true,
+              "predicate": "position_unchanged",
+              "support_count": 2,
+              "true_count": 10,
+              "universal": true
+            },
+            {
+              "ambiguous_count": 0,
+              "contrastive": true,
+              "false_count": 0,
+              "hard": true,
+              "hard_rejection_reasons": [],
+              "mechanically_detectable": true,
+              "predicate": "color_unchanged",
+              "support_count": 2,
+              "true_count": 10,
+              "universal": true
+            },
+            {
+              "ambiguous_count": 0,
+              "contrastive": true,
+              "false_count": 0,
+              "hard": true,
+              "hard_rejection_reasons": [],
+              "mechanically_detectable": true,
+              "predicate": "size_unchanged",
+              "support_count": 2,
+              "true_count": 10,
+              "universal": true
+            },
+            {
+              "ambiguous_count": 0,
+              "contrastive": true,
+              "false_count": 0,
+              "hard": true,
+              "hard_rejection_reasons": [],
+              "mechanically_detectable": true,
+              "predicate": "shape_unchanged",
+              "support_count": 2,
+              "true_count": 10,
+              "universal": true
+            },
+            {
+              "ambiguous_count": 0,
+              "contrastive": false,
+              "false_count": 0,
+              "hard": false,
+              "hard_rejection_reasons": [
+                "not_contrastive_on_visible_supports"
+              ],
+              "mechanically_detectable": true,
+              "predicate": "border_status_unchanged",
+              "support_count": 2,
+              "true_count": 10,
+              "universal": true
+            },
+            {
+              "ambiguous_count": 0,
+              "contrastive": true,
+              "false_count": 12,
+              "hard": false,
+              "hard_rejection_reasons": [
+                "not_universal_on_visible_supports"
+              ],
+              "mechanically_detectable": true,
+              "predicate": "same_relation_preserved",
+              "support_count": 2,
+              "true_count": 28,
+              "universal": false
+            },
+            {
+              "ambiguous_count": 0,
+              "contrastive": false,
+              "false_count": 40,
+              "hard": false,
+              "hard_rejection_reasons": [
+                "not_universal_on_visible_supports",
+                "not_contrastive_on_visible_supports"
+              ],
+              "mechanically_detectable": true,
+              "predicate": "relation_created",
+              "support_count": 2,
+              "true_count": 0,
+              "universal": false
+            },
+            {
+              "ambiguous_count": 0,
+              "contrastive": true,
+              "false_count": 28,
+              "hard": false,
+              "hard_rejection_reasons": [
+                "not_universal_on_visible_supports"
+              ],
+              "mechanically_detectable": true,
+              "predicate": "relation_removed",
+              "support_count": 2,
+              "true_count": 12,
+              "universal": false
+            }
+          ],
+          "hard_constraint_count": 4,
+          "parse_background_color": 0,
+          "parse_connectivity": 4,
+          "source": "visible_supports_only",
+          "support_correspondence_summary": [
+            {
+              "ambiguous_matches": [],
+              "duplicate_output_object_ids": [],
+              "input_object_count": 5,
+              "matched_count": 5,
+              "output_object_count": 11,
+              "support_index": 0,
+              "unambiguous": true,
+              "unmatched_input_object_ids": []
+            },
+            {
+              "ambiguous_matches": [],
+              "duplicate_output_object_ids": [],
+              "input_object_count": 5,
+              "matched_count": 5,
+              "output_object_count": 11,
+              "support_index": 1,
+              "unambiguous": true,
+              "unmatched_input_object_ids": []
+            }
+          ]
+        }
+      },
+      "why_it_passed_hard_constraint_eligibility": "Recorded hard=true in the frozen P0 constraint model for this parse."
+    },
+    "same_relation_preserved": {
+      "candidate_that_was_pruned": {
+        "base_rank_tuple": [
+          0,
+          687,
+          3,
+          "3eeebc9a0c6e83deaba1ce18",
+          "3faf45e6e99516cfbcfd535dbde98c1acfcae8d8f48f737e0e33e57ccb5debc5"
+        ],
+        "candidate_id": "3eeebc9a0c6e83deaba1ce18",
+        "execution_status": "OK",
+        "execution_trace": {
+          "colliding_destinations": [],
+          "dropped_out_of_bounds": [],
+          "overwritten_destinations": [
+            [
+              0,
+              0,
+              8,
+              0
+            ],
+            [
+              1,
+              0,
+              8,
+              0
+            ],
+            [
+              2,
+              0,
+              8,
+              0
+            ],
+            [
+              3,
+              0,
+              8,
+              0
+            ],
+            [
+              4,
+              0,
+              8,
+              0
+            ],
+            [
+              5,
+              0,
+              8,
+              0
+            ],
+            [
+              6,
+              0,
+              8,
+              0
+            ],
+            [
+              7,
+              0,
+              8,
+              0
+            ],
+            [
+              8,
+              0,
+              8,
+              0
+            ],
+            [
+              9,
+              0,
+              8,
+              0
+            ],
+            [
+              10,
+              0,
+              8,
+              0
+            ],
+            [
+              11,
+              0,
+              8,
+              0
+            ],
+            [
+              12,
+              0,
+              8,
+              0
+            ],
+            [
+              13,
+              0,
+              8,
+              0
+            ],
+            [
+              14,
+              0,
+              8,
+              0
+            ],
+            [
+              15,
+              0,
+              8,
+              0
+            ],
+            [
+              0,
+              1,
+              8,
+              0
+            ],
+            [
+              1,
+              1,
+              8,
+              0
+            ],
+            [
+              2,
+              1,
+              8,
+              0
+            ],
+            [
+              3,
+              1,
+              8,
+              0
+            ],
+            [
+              4,
+              1,
+              8,
+              0
+            ],
+            [
+              5,
+              1,
+              8,
+              0
+            ],
+            [
+              6,
+              1,
+              8,
+              0
+            ],
+            [
+              7,
+              1,
+              8,
+              0
+            ],
+            [
+              8,
+              1,
+              8,
+              0
+            ],
+            [
+              9,
+              1,
+              8,
+              0
+            ],
+            [
+              10,
+              1,
+              8,
+              0
+            ],
+            [
+              11,
+              1,
+              8,
+              0
+            ],
+            [
+              12,
+              1,
+              8,
+              0
+            ],
+            [
+              13,
+              1,
+              8,
+              0
+            ],
+            [
+              14,
+              1,
+              8,
+              0
+            ],
+            [
+              15,
+              1,
+              8,
+              0
+            ],
+            [
+              0,
+              2,
+              8,
+              0
+            ],
+            [
+              1,
+              2,
+              8,
+              0
+            ],
+            [
+              10,
+              2,
+              8,
+              0
+            ],
+            [
+              14,
+              2,
+              8,
+              0
+            ],
+            [
+              15,
+              2,
+              8,
+              0
+            ],
+            [
+              0,
+              3,
+              8,
+              0
+            ],
+            [
+              1,
+              3,
+              8,
+              0
+            ],
+            [
+              14,
+              3,
+              8,
+              0
+            ],
+            [
+              15,
+              3,
+              8,
+              0
+            ],
+            [
+              0,
+              4,
+              8,
+              0
+            ],
+            [
+              1,
+              4,
+              8,
+              0
+            ],
+            [
+              2,
+              4,
+              8,
+              0
+            ],
+            [
+              14,
+              4,
+              8,
+              0
+            ],
+            [
+              15,
+              4,
+              8,
+              0
+            ],
+            [
+              0,
+              5,
+              8,
+              0
+            ],
+            [
+              1,
+              5,
+              8,
+              0
+            ],
+            [
+              14,
+              5,
+              8,
+              0
+            ],
+            [
+              15,
+              5,
+              8,
+              0
+            ],
+            [
+              0,
+              6,
+              8,
+              0
+            ],
+            [
+              1,
+              6,
+              8,
+              0
+            ],
+            [
+              14,
+              6,
+              8,
+              0
+            ],
+            [
+              15,
+              6,
+              8,
+              0
+            ],
+            [
+              0,
+              7,
+              8,
+              0
+            ],
+            [
+              1,
+              7,
+              8,
+              0
+            ],
+            [
+              2,
+              7,
+              8,
+              0
+            ],
+            [
+              3,
+              7,
+              8,
+              0
+            ],
+            [
+              4,
+              7,
+              8,
+              0
+            ],
+            [
+              6,
+              7,
+              8,
+              0
+            ],
+            [
+              7,
+              7,
+              8,
+              0
+            ],
+            [
+              8,
+              7,
+              8,
+              0
+            ],
+            [
+              9,
+              7,
+              8,
+              0
+            ],
+            [
+              10,
+              7,
+              8,
+              0
+            ],
+            [
+              14,
+              7,
+              8,
+              0
+            ],
+            [
+              15,
+              7,
+              8,
+              0
+            ],
+            [
+              0,
+              8,
+              8,
+              0
+            ],
+            [
+              1,
+              8,
+              8,
+              0
+            ],
+            [
+              2,
+              8,
+              8,
+              0
+            ],
+            [
+              3,
+              8,
+              8,
+              0
+            ],
+            [
+              4,
+              8,
+              8,
+              0
+            ],
+            [
+              5,
+              8,
+              8,
+              0
+            ],
+            [
+              6,
+              8,
+              8,
+              0
+            ],
+            [
+              7,
+              8,
+              8,
+              0
+            ],
+            [
+              8,
+              8,
+              8,
+              0
+            ],
+            [
+              9,
+              8,
+              8,
+              0
+            ],
+            [
+              10,
+              8,
+              8,
+              0
+            ],
+            [
+              14,
+              8,
+              8,
+              0
+            ],
+            [
+              15,
+              8,
+              8,
+              0
+            ],
+            [
+              0,
+              9,
+              8,
+              0
+            ],
+            [
+              1,
+              9,
+              8,
+              0
+            ],
+            [
+              2,
+              9,
+              8,
+              0
+            ],
+            [
+              3,
+              9,
+              8,
+              0
+            ],
+            [
+              4,
+              9,
+              8,
+              0
+            ],
+            [
+              5,
+              9,
+              8,
+              0
+            ],
+            [
+              6,
+              9,
+              8,
+              0
+            ],
+            [
+              7,
+              9,
+              8,
+              0
+            ],
+            [
+              8,
+              9,
+              8,
+              0
+            ],
+            [
+              9,
+              9,
+              8,
+              0
+            ],
+            [
+              10,
+              9,
+              8,
+              0
+            ],
+            [
+              14,
+              9,
+              8,
+              0
+            ],
+            [
+              15,
+              9,
+              8,
+              0
+            ],
+            [
+              0,
+              10,
+              8,
+              0
+            ],
+            [
+              1,
+              10,
+              8,
+              0
+            ],
+            [
+              2,
+              10,
+              8,
+              0
+            ],
+            [
+              3,
+              10,
+              8,
+              0
+            ],
+            [
+              4,
+              10,
+              8,
+              0
+            ],
+            [
+              5,
+              10,
+              8,
+              0
+            ],
+            [
+              6,
+              10,
+              8,
+              0
+            ],
+            [
+              7,
+              10,
+              8,
+              0
+            ],
+            [
+              8,
+              10,
+              8,
+              0
+            ],
+            [
+              9,
+              10,
+              8,
+              0
+            ],
+            [
+              10,
+              10,
+              8,
+              0
+            ],
+            [
+              13,
+              10,
+              8,
+              0
+            ],
+            [
+              14,
+              10,
+              8,
+              0
+            ],
+            [
+              15,
+              10,
+              8,
+              0
+            ],
+            [
+              0,
+              11,
+              8,
+              0
+            ],
+            [
+              1,
+              11,
+              8,
+              0
+            ],
+            [
+              2,
+              11,
+              8,
+              0
+            ],
+            [
+              3,
+              11,
+              8,
+              0
+            ],
+            [
+              4,
+              11,
+              8,
+              0
+            ],
+            [
+              5,
+              11,
+              8,
+              0
+            ],
+            [
+              6,
+              11,
+              8,
+              0
+            ],
+            [
+              7,
+              11,
+              8,
+              0
+            ],
+            [
+              8,
+              11,
+              8,
+              0
+            ],
+            [
+              9,
+              11,
+              8,
+              0
+            ],
+            [
+              10,
+              11,
+              8,
+              0
+            ],
+            [
+              14,
+              11,
+              8,
+              0
+            ],
+            [
+              15,
+              11,
+              8,
+              0
+            ],
+            [
+              0,
+              12,
+              8,
+              0
+            ],
+            [
+              1,
+              12,
+              8,
+              0
+            ],
+            [
+              2,
+              12,
+              8,
+              0
+            ],
+            [
+              3,
+              12,
+              8,
+              0
+            ],
+            [
+              4,
+              12,
+              8,
+              0
+            ],
+            [
+              5,
+              12,
+              8,
+              0
+            ],
+            [
+              6,
+              12,
+              8,
+              0
+            ],
+            [
+              7,
+              12,
+              8,
+              0
+            ],
+            [
+              8,
+              12,
+              8,
+              0
+            ],
+            [
+              9,
+              12,
+              8,
+              0
+            ],
+            [
+              10,
+              12,
+              8,
+              0
+            ],
+            [
+              11,
+              12,
+              8,
+              0
+            ],
+            [
+              12,
+              12,
+              8,
+              0
+            ],
+            [
+              13,
+              12,
+              8,
+              0
+            ],
+            [
+              14,
+              12,
+              8,
+              0
+            ],
+            [
+              15,
+              12,
+              8,
+              0
+            ],
+            [
+              0,
+              13,
+              8,
+              0
+            ],
+            [
+              1,
+              13,
+              8,
+              0
+            ],
+            [
+              2,
+              13,
+              8,
+              0
+            ],
+            [
+              3,
+              13,
+              8,
+              0
+            ],
+            [
+              4,
+              13,
+              8,
+              0
+            ],
+            [
+              5,
+              13,
+              8,
+              0
+            ],
+            [
+              6,
+              13,
+              8,
+              0
+            ],
+            [
+              7,
+              13,
+              8,
+              0
+            ],
+            [
+              8,
+              13,
+              8,
+              0
+            ],
+            [
+              9,
+              13,
+              8,
+              0
+            ],
+            [
+              10,
+              13,
+              8,
+              0
+            ],
+            [
+              11,
+              13,
+              8,
+              0
+            ],
+            [
+              12,
+              13,
+              8,
+              0
+            ],
+            [
+              13,
+              13,
+              8,
+              0
+            ],
+            [
+              14,
+              13,
+              8,
+              0
+            ],
+            [
+              15,
+              13,
+              8,
+              0
+            ],
+            [
+              2,
+              2,
+              1,
+              0
+            ],
+            [
+              3,
+              2,
+              1,
+              0
+            ],
+            [
+              4,
+              2,
+              1,
+              0
+            ],
+            [
+              5,
+              2,
+              1,
+              0
+            ],
+            [
+              6,
+              2,
+              1,
+              0
+            ],
+            [
+              7,
+              2,
+              1,
+              0
+            ],
+            [
+              8,
+              2,
+              1,
+              0
+            ],
+            [
+              9,
+              2,
+              1,
+              0
+            ],
+            [
+              11,
+              2,
+              1,
+              0
+            ],
+            [
+              12,
+              2,
+              1,
+              0
+            ],
+            [
+              13,
+              2,
+              1,
+              0
+            ],
+            [
+              2,
+              3,
+              1,
+              0
+            ],
+            [
+              3,
+              3,
+              1,
+              0
+            ],
+            [
+              4,
+              3,
+              1,
+              0
+            ],
+            [
+              5,
+              3,
+              1,
+              0
+            ],
+            [
+              6,
+              3,
+              1,
+              0
+            ],
+            [
+              7,
+              3,
+              1,
+              0
+            ],
+            [
+              8,
+              3,
+              1,
+              0
+            ],
+            [
+              9,
+              3,
+              1,
+              0
+            ],
+            [
+              10,
+              3,
+              1,
+              0
+            ],
+            [
+              11,
+              3,
+              1,
+              0
+            ],
+            [
+              12,
+              3,
+              1,
+              0
+            ],
+            [
+              13,
+              3,
+              1,
+              0
+            ],
+            [
+              3,
+              4,
+              1,
+              0
+            ],
+            [
+              4,
+              4,
+              1,
+              0
+            ],
+            [
+              5,
+              4,
+              1,
+              0
+            ],
+            [
+              6,
+              4,
+              1,
+              0
+            ],
+            [
+              7,
+              4,
+              1,
+              0
+            ],
+            [
+              8,
+              4,
+              1,
+              0
+            ],
+            [
+              9,
+              4,
+              1,
+              0
+            ],
+            [
+              10,
+              4,
+              1,
+              0
+            ],
+            [
+              11,
+              4,
+              1,
+              0
+            ],
+            [
+              12,
+              4,
+              1,
+              0
+            ],
+            [
+              13,
+              4,
+              1,
+              0
+            ],
+            [
+              2,
+              5,
+              1,
+              0
+            ],
+            [
+              3,
+              5,
+              1,
+              0
+            ],
+            [
+              4,
+              5,
+              1,
+              0
+            ],
+            [
+              5,
+              5,
+              1,
+              0
+            ],
+            [
+              6,
+              5,
+              1,
+              0
+            ],
+            [
+              7,
+              5,
+              1,
+              0
+            ],
+            [
+              8,
+              5,
+              1,
+              0
+            ],
+            [
+              9,
+              5,
+              1,
+              0
+            ],
+            [
+              10,
+              5,
+              1,
+              0
+            ],
+            [
+              11,
+              5,
+              1,
+              0
+            ],
+            [
+              12,
+              5,
+              1,
+              0
+            ],
+            [
+              13,
+              5,
+              1,
+              0
+            ],
+            [
+              2,
+              6,
+              1,
+              0
+            ],
+            [
+              3,
+              6,
+              1,
+              0
+            ],
+            [
+              4,
+              6,
+              1,
+              0
+            ],
+            [
+              5,
+              6,
+              1,
+              0
+            ],
+            [
+              6,
+              6,
+              1,
+              0
+            ],
+            [
+              7,
+              6,
+              1,
+              0
+            ],
+            [
+              8,
+              6,
+              1,
+              0
+            ],
+            [
+              9,
+              6,
+              1,
+              0
+            ],
+            [
+              10,
+              6,
+              1,
+              0
+            ],
+            [
+              11,
+              6,
+              1,
+              0
+            ],
+            [
+              12,
+              6,
+              1,
+              0
+            ],
+            [
+              13,
+              6,
+              1,
+              0
+            ],
+            [
+              5,
+              7,
+              1,
+              0
+            ],
+            [
+              11,
+              7,
+              1,
+              0
+            ],
+            [
+              12,
+              7,
+              1,
+              0
+            ],
+            [
+              13,
+              7,
+              1,
+              0
+            ],
+            [
+              11,
+              8,
+              1,
+              0
+            ],
+            [
+              12,
+              8,
+              1,
+              0
+            ],
+            [
+              13,
+              8,
+              1,
+              0
+            ],
+            [
+              11,
+              9,
+              1,
+              0
+            ],
+            [
+              12,
+              9,
+              1,
+              0
+            ],
+            [
+              13,
+              9,
+              1,
+              0
+            ],
+            [
+              11,
+              10,
+              1,
+              0
+            ],
+            [
+              12,
+              10,
+              1,
+              0
+            ],
+            [
+              11,
+              11,
+              1,
+              0
+            ],
+            [
+              12,
+              11,
+              1,
+              0
+            ],
+            [
+              13,
+              11,
+              1,
+              0
+            ]
+          ],
+          "selected_edge_count": 2,
+          "selected_edges": [
+            {
+              "predicates": {
+                "aligned_column": false,
+                "aligned_row": false,
+                "border_relation": "False->True",
+                "contains": false,
+                "nearest": true,
+                "nearest_is_tied": false,
+                "relative_direction": "same_row_same_col",
+                "same_color": false,
+                "same_shape": false,
+                "same_size": false,
+                "touching": true
+              },
+              "source_id": "color=1|bbox=2,2,13,11|area=73|shape=9678e02c880b",
+              "target_id": "color=8|bbox=0,0,15,13|area=151|shape=d1a0c0a4eb46"
+            },
+            {
+              "predicates": {
+                "aligned_column": false,
+                "aligned_row": false,
+                "border_relation": "True->False",
+                "contains": true,
+                "nearest": true,
+                "nearest_is_tied": false,
+                "relative_direction": "same_row_same_col",
+                "same_color": false,
+                "same_shape": false,
+                "same_size": false,
+                "touching": true
+              },
+              "source_id": "color=8|bbox=0,0,15,13|area=151|shape=d1a0c0a4eb46",
+              "target_id": "color=1|bbox=2,2,13,11|area=73|shape=9678e02c880b"
+            }
+          ],
+          "status": "OK"
+        },
+        "operator_sequence": [
+          "edge:nearest:True",
+          "delete_target",
+          "same_canvas"
+        ],
+        "output_grid": [
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "output_hash": "3faf45e6e99516cfbcfd535dbde98c1acfcae8d8f48f737e0e33e57ccb5debc5",
+        "parse_background_color": 0,
+        "parse_connectivity": 4,
+        "parse_hypothesis_id": "bg=0|conn=4|objects=2|hash=0ecf112f8ccd",
+        "program_depth": 1,
+        "program_family": "relation",
+        "provenance": {
+          "parse_id": "bg=0|conn=4|objects=2|hash=0ecf112f8ccd",
+          "program": {
+            "action": "delete_target",
+            "constant_color": 1,
+            "depth": 1,
+            "predicate": "nearest",
+            "predicate_value": true,
+            "program_id": "relation=nearest:True|action=delete_target|render=same_canvas",
+            "render": "same_canvas"
+          },
+          "source": "R5A3B_relation_conditioned_grammar"
+        },
+        "raw_ordinal": 11,
+        "relation_predicates_used": [
+          "nearest"
+        ],
+        "source_program_ids": [
+          "relation=nearest:True|action=delete_target|render=same_canvas"
+        ],
+        "support_cell_hamming_loss": 687,
+        "support_failed_pair_count": 3,
+        "support_shape_mismatch_count": 0
+      },
+      "fold_key": "23b0b31e435e:fold=0",
+      "predicate_definition": "same_relation_preserved",
+      "pruned_output_matched_held_out_target": false,
+      "visible_support_evidence": {
+        "bg=0|conn=4|objects=2|hash=0ecf112f8ccd": {
+          "constraints": [
+            {
+              "ambiguous_count": 0,
+              "contrastive": true,
+              "false_count": 0,
+              "hard": true,
+              "hard_rejection_reasons": [],
+              "mechanically_detectable": true,
+              "predicate": "position_unchanged",
+              "support_count": 3,
+              "true_count": 6,
+              "universal": true
+            },
+            {
+              "ambiguous_count": 0,
+              "contrastive": true,
+              "false_count": 0,
+              "hard": true,
+              "hard_rejection_reasons": [],
+              "mechanically_detectable": true,
+              "predicate": "color_unchanged",
+              "support_count": 3,
+              "true_count": 6,
+              "universal": true
+            },
+            {
+              "ambiguous_count": 0,
+              "contrastive": true,
+              "false_count": 2,
+              "hard": false,
+              "hard_rejection_reasons": [
+                "not_universal_on_visible_supports"
+              ],
+              "mechanically_detectable": true,
+              "predicate": "size_unchanged",
+              "support_count": 3,
+              "true_count": 4,
+              "universal": false
+            },
+            {
+              "ambiguous_count": 0,
+              "contrastive": true,
+              "false_count": 6,
+              "hard": false,
+              "hard_rejection_reasons": [
+                "not_universal_on_visible_supports"
+              ],
+              "mechanically_detectable": true,
+              "predicate": "shape_unchanged",
+              "support_count": 3,
+              "true_count": 0,
+              "universal": false
+            },
+            {
+              "ambiguous_count": 0,
+              "contrastive": true,
+              "false_count": 0,
+              "hard": true,
+              "hard_rejection_reasons": [],
+              "mechanically_detectable": true,
+              "predicate": "border_status_unchanged",
+              "support_count": 3,
+              "true_count": 6,
+              "universal": true
+            },
+            {
+              "ambiguous_count": 0,
+              "contrastive": true,
+              "false_count": 0,
+              "hard": true,
+              "hard_rejection_reasons": [],
+              "mechanically_detectable": true,
+              "predicate": "same_relation_preserved",
+              "support_count": 3,
+              "true_count": 6,
+              "universal": true
+            },
+            {
+              "ambiguous_count": 0,
+              "contrastive": false,
+              "false_count": 6,
+              "hard": false,
+              "hard_rejection_reasons": [
+                "not_universal_on_visible_supports",
+                "not_contrastive_on_visible_supports"
+              ],
+              "mechanically_detectable": true,
+              "predicate": "relation_created",
+              "support_count": 3,
+              "true_count": 0,
+              "universal": false
+            },
+            {
+              "ambiguous_count": 0,
+              "contrastive": false,
+              "false_count": 6,
+              "hard": false,
+              "hard_rejection_reasons": [
+                "not_universal_on_visible_supports",
+                "not_contrastive_on_visible_supports"
+              ],
+              "mechanically_detectable": true,
+              "predicate": "relation_removed",
+              "support_count": 3,
+              "true_count": 0,
+              "universal": false
+            }
+          ],
+          "hard_constraint_count": 4,
+          "parse_background_color": 0,
+          "parse_connectivity": 4,
+          "source": "visible_supports_only",
+          "support_correspondence_summary": [
+            {
+              "ambiguous_matches": [],
+              "duplicate_output_object_ids": [],
+              "input_object_count": 2,
+              "matched_count": 2,
+              "output_object_count": 2,
+              "support_index": 0,
+              "unambiguous": true,
+              "unmatched_input_object_ids": []
+            },
+            {
+              "ambiguous_matches": [],
+              "duplicate_output_object_ids": [],
+              "input_object_count": 2,
+              "matched_count": 2,
+              "output_object_count": 2,
+              "support_index": 1,
+              "unambiguous": true,
+              "unmatched_input_object_ids": []
+            },
+            {
+              "ambiguous_matches": [],
+              "duplicate_output_object_ids": [],
+              "input_object_count": 2,
+              "matched_count": 2,
+              "output_object_count": 2,
+              "support_index": 2,
+              "unambiguous": true,
+              "unmatched_input_object_ids": []
+            }
+          ]
+        },
+        "bg=8|conn=4|objects=1|hash=044a2a79963c": {
+          "constraints": [
+            {
+              "ambiguous_count": 0,
+              "contrastive": true,
+              "false_count": 0,
+              "hard": true,
+              "hard_rejection_reasons": [],
+              "mechanically_detectable": true,
+              "predicate": "position_unchanged",
+              "support_count": 3,
+              "true_count": 3,
+              "universal": true
+            },
+            {
+              "ambiguous_count": 0,
+              "contrastive": false,
+              "false_count": 0,
+              "hard": false,
+              "hard_rejection_reasons": [
+                "not_contrastive_on_visible_supports"
+              ],
+              "mechanically_detectable": true,
+              "predicate": "color_unchanged",
+              "support_count": 3,
+              "true_count": 3,
+              "universal": true
+            },
+            {
+              "ambiguous_count": 0,
+              "contrastive": true,
+              "false_count": 1,
+              "hard": false,
+              "hard_rejection_reasons": [
+                "not_universal_on_visible_supports"
+              ],
+              "mechanically_detectable": true,
+              "predicate": "size_unchanged",
+              "support_count": 3,
+              "true_count": 2,
+              "universal": false
+            },
+            {
+              "ambiguous_count": 0,
+              "contrastive": true,
+              "false_count": 3,
+              "hard": false,
+              "hard_rejection_reasons": [
+                "not_universal_on_visible_supports"
+              ],
+              "mechanically_detectable": true,
+              "predicate": "shape_unchanged",
+              "support_count": 3,
+              "true_count": 0,
+              "universal": false
+            },
+            {
+              "ambiguous_count": 0,
+              "contrastive": false,
+              "false_count": 0,
+              "hard": false,
+              "hard_rejection_reasons": [
+                "not_contrastive_on_visible_supports"
+              ],
+              "mechanically_detectable": true,
+              "predicate": "border_status_unchanged",
+              "support_count": 3,
+              "true_count": 3,
+              "universal": true
+            },
+            {
+              "ambiguous_count": 0,
+              "contrastive": false,
+              "false_count": 0,
+              "hard": false,
+              "hard_rejection_reasons": [
+                "no_unambiguous_visible_observations",
+                "not_contrastive_on_visible_supports"
+              ],
+              "mechanically_detectable": true,
+              "predicate": "same_relation_preserved",
+              "support_count": 3,
+              "true_count": 0,
+              "universal": false
+            },
+            {
+              "ambiguous_count": 0,
+              "contrastive": false,
+              "false_count": 0,
+              "hard": false,
+              "hard_rejection_reasons": [
+                "no_unambiguous_visible_observations",
+                "not_contrastive_on_visible_supports"
+              ],
+              "mechanically_detectable": true,
+              "predicate": "relation_created",
+              "support_count": 3,
+              "true_count": 0,
+              "universal": false
+            },
+            {
+              "ambiguous_count": 0,
+              "contrastive": false,
+              "false_count": 0,
+              "hard": false,
+              "hard_rejection_reasons": [
+                "no_unambiguous_visible_observations",
+                "not_contrastive_on_visible_supports"
+              ],
+              "mechanically_detectable": true,
+              "predicate": "relation_removed",
+              "support_count": 3,
+              "true_count": 0,
+              "universal": false
+            }
+          ],
+          "hard_constraint_count": 1,
+          "parse_background_color": 8,
+          "parse_connectivity": 4,
+          "source": "visible_supports_only",
+          "support_correspondence_summary": [
+            {
+              "ambiguous_matches": [],
+              "duplicate_output_object_ids": [],
+              "input_object_count": 1,
+              "matched_count": 1,
+              "output_object_count": 1,
+              "support_index": 0,
+              "unambiguous": true,
+              "unmatched_input_object_ids": []
+            },
+            {
+              "ambiguous_matches": [],
+              "duplicate_output_object_ids": [],
+              "input_object_count": 1,
+              "matched_count": 1,
+              "output_object_count": 1,
+              "support_index": 1,
+              "unambiguous": true,
+              "unmatched_input_object_ids": []
+            },
+            {
+              "ambiguous_matches": [],
+              "duplicate_output_object_ids": [],
+              "input_object_count": 1,
+              "matched_count": 1,
+              "output_object_count": 1,
+              "support_index": 2,
+              "unambiguous": true,
+              "unmatched_input_object_ids": []
+            }
+          ]
+        }
+      },
+      "why_it_passed_hard_constraint_eligibility": "Recorded hard=true in the frozen P0 constraint model for this parse."
+    },
+    "shape_unchanged": {
+      "candidate_that_was_pruned": {
+        "base_rank_tuple": [
+          0,
+          61,
+          2,
+          "051017de23d4217d2bbe2826",
+          "431309b552febe12a984bc6414d93c65790c1c987c3341dd64e19f0f9f9c25b6"
+        ],
+        "candidate_id": "051017de23d4217d2bbe2826",
+        "execution_status": "OK",
+        "execution_trace": {
+          "changed_cells": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              2,
+              0
+            ],
+            [
+              2,
+              1
+            ],
+            [
+              2,
+              2
+            ],
+            [
+              3,
+              0
+            ],
+            [
+              3,
+              1
+            ],
+            [
+              3,
+              2
+            ],
+            [
+              7,
+              0
+            ],
+            [
+              7,
+              1
+            ],
+            [
+              7,
+              2
+            ]
+          ],
+          "output_hash": "431309b552febe12a984bc6414d93c65790c1c987c3341dd64e19f0f9f9c25b6",
+          "program_id": "select=all_objects|ops=recolor:1|render=same_canvas",
+          "selected_object_ids": [
+            "color=2|bbox=2,2,2,2|area=1|shape=b0d317a3ada5",
+            "color=3|bbox=1,0,2,2|area=5|shape=4b82b40d426c",
+            "color=5|bbox=3,0,3,2|area=3|shape=6341fb6c19d4",
+            "color=5|bbox=7,0,7,2|area=3|shape=6341fb6c19d4",
+            "color=6|bbox=0,0,0,2|area=3|shape=6341fb6c19d4"
+          ],
+          "status": "OK"
+        },
+        "operator_sequence": [
+          "all_objects",
+          "recolor:1",
+          "same_canvas"
+        ],
+        "output_grid": [
+          [
+            1,
+            1,
+            1,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            1,
+            1,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            1,
+            1,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0
+          ]
+        ],
+        "output_hash": "431309b552febe12a984bc6414d93c65790c1c987c3341dd64e19f0f9f9c25b6",
+        "parse_background_color": 0,
+        "parse_connectivity": 4,
+        "parse_hypothesis_id": "bg=0|conn=4|objects=5|hash=c242d7dc06e6",
+        "program_depth": 1,
+        "program_family": "object",
+        "provenance": {
+          "parse_id": "bg=0|conn=4|objects=5|hash=c242d7dc06e6",
+          "program": {
+            "depth": 1,
+            "program_id": "select=all_objects|ops=recolor:1|render=same_canvas",
+            "render": "same_canvas",
+            "selector": "all_objects",
+            "transforms": [
+              "recolor:1"
+            ]
+          },
+          "source": "R5A3A_structural_program_enumerator_with_relations_disabled"
+        },
+        "raw_ordinal": 1,
+        "relation_predicates_used": [],
+        "source_program_ids": [
+          "select=all_objects|ops=recolor:1|render=same_canvas"
+        ],
+        "support_cell_hamming_loss": 61,
+        "support_failed_pair_count": 2,
+        "support_shape_mismatch_count": 0
+      },
+      "fold_key": "00a70cb1f01a:fold=0",
+      "predicate_definition": "shape_unchanged",
+      "pruned_output_matched_held_out_target": false,
+      "visible_support_evidence": {
+        "bg=0|conn=4|objects=5|hash=c242d7dc06e6": {
+          "constraints": [
+            {
+              "ambiguous_count": 0,
+              "contrastive": true,
+              "false_count": 0,
+              "hard": true,
+              "hard_rejection_reasons": [],
+              "mechanically_detectable": true,
+              "predicate": "position_unchanged",
+              "support_count": 2,
+              "true_count": 10,
+              "universal": true
+            },
+            {
+              "ambiguous_count": 0,
+              "contrastive": true,
+              "false_count": 0,
+              "hard": true,
+              "hard_rejection_reasons": [],
+              "mechanically_detectable": true,
+              "predicate": "color_unchanged",
+              "support_count": 2,
+              "true_count": 10,
+              "universal": true
+            },
+            {
+              "ambiguous_count": 0,
+              "contrastive": true,
+              "false_count": 0,
+              "hard": true,
+              "hard_rejection_reasons": [],
+              "mechanically_detectable": true,
+              "predicate": "size_unchanged",
+              "support_count": 2,
+              "true_count": 10,
+              "universal": true
+            },
+            {
+              "ambiguous_count": 0,
+              "contrastive": true,
+              "false_count": 0,
+              "hard": true,
+              "hard_rejection_reasons": [],
+              "mechanically_detectable": true,
+              "predicate": "shape_unchanged",
+              "support_count": 2,
+              "true_count": 10,
+              "universal": true
+            },
+            {
+              "ambiguous_count": 0,
+              "contrastive": false,
+              "false_count": 0,
+              "hard": false,
+              "hard_rejection_reasons": [
+                "not_contrastive_on_visible_supports"
+              ],
+              "mechanically_detectable": true,
+              "predicate": "border_status_unchanged",
+              "support_count": 2,
+              "true_count": 10,
+              "universal": true
+            },
+            {
+              "ambiguous_count": 0,
+              "contrastive": true,
+              "false_count": 12,
+              "hard": false,
+              "hard_rejection_reasons": [
+                "not_universal_on_visible_supports"
+              ],
+              "mechanically_detectable": true,
+              "predicate": "same_relation_preserved",
+              "support_count": 2,
+              "true_count": 28,
+              "universal": false
+            },
+            {
+              "ambiguous_count": 0,
+              "contrastive": false,
+              "false_count": 40,
+              "hard": false,
+              "hard_rejection_reasons": [
+                "not_universal_on_visible_supports",
+                "not_contrastive_on_visible_supports"
+              ],
+              "mechanically_detectable": true,
+              "predicate": "relation_created",
+              "support_count": 2,
+              "true_count": 0,
+              "universal": false
+            },
+            {
+              "ambiguous_count": 0,
+              "contrastive": true,
+              "false_count": 28,
+              "hard": false,
+              "hard_rejection_reasons": [
+                "not_universal_on_visible_supports"
+              ],
+              "mechanically_detectable": true,
+              "predicate": "relation_removed",
+              "support_count": 2,
+              "true_count": 12,
+              "universal": false
+            }
+          ],
+          "hard_constraint_count": 4,
+          "parse_background_color": 0,
+          "parse_connectivity": 4,
+          "source": "visible_supports_only",
+          "support_correspondence_summary": [
+            {
+              "ambiguous_matches": [],
+              "duplicate_output_object_ids": [],
+              "input_object_count": 5,
+              "matched_count": 5,
+              "output_object_count": 11,
+              "support_index": 0,
+              "unambiguous": true,
+              "unmatched_input_object_ids": []
+            },
+            {
+              "ambiguous_matches": [],
+              "duplicate_output_object_ids": [],
+              "input_object_count": 5,
+              "matched_count": 5,
+              "output_object_count": 11,
+              "support_index": 1,
+              "unambiguous": true,
+              "unmatched_input_object_ids": []
+            }
+          ]
+        }
+      },
+      "why_it_passed_hard_constraint_eligibility": "Recorded hard=true in the frozen P0 constraint model for this parse."
+    },
+    "size_unchanged": {
+      "candidate_that_was_pruned": {
+        "base_rank_tuple": [
+          0,
+          61,
+          2,
+          "051017de23d4217d2bbe2826",
+          "431309b552febe12a984bc6414d93c65790c1c987c3341dd64e19f0f9f9c25b6"
+        ],
+        "candidate_id": "051017de23d4217d2bbe2826",
+        "execution_status": "OK",
+        "execution_trace": {
+          "changed_cells": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              2,
+              0
+            ],
+            [
+              2,
+              1
+            ],
+            [
+              2,
+              2
+            ],
+            [
+              3,
+              0
+            ],
+            [
+              3,
+              1
+            ],
+            [
+              3,
+              2
+            ],
+            [
+              7,
+              0
+            ],
+            [
+              7,
+              1
+            ],
+            [
+              7,
+              2
+            ]
+          ],
+          "output_hash": "431309b552febe12a984bc6414d93c65790c1c987c3341dd64e19f0f9f9c25b6",
+          "program_id": "select=all_objects|ops=recolor:1|render=same_canvas",
+          "selected_object_ids": [
+            "color=2|bbox=2,2,2,2|area=1|shape=b0d317a3ada5",
+            "color=3|bbox=1,0,2,2|area=5|shape=4b82b40d426c",
+            "color=5|bbox=3,0,3,2|area=3|shape=6341fb6c19d4",
+            "color=5|bbox=7,0,7,2|area=3|shape=6341fb6c19d4",
+            "color=6|bbox=0,0,0,2|area=3|shape=6341fb6c19d4"
+          ],
+          "status": "OK"
+        },
+        "operator_sequence": [
+          "all_objects",
+          "recolor:1",
+          "same_canvas"
+        ],
+        "output_grid": [
+          [
+            1,
+            1,
+            1,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            1,
+            1,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            1,
+            1,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0
+          ]
+        ],
+        "output_hash": "431309b552febe12a984bc6414d93c65790c1c987c3341dd64e19f0f9f9c25b6",
+        "parse_background_color": 0,
+        "parse_connectivity": 4,
+        "parse_hypothesis_id": "bg=0|conn=4|objects=5|hash=c242d7dc06e6",
+        "program_depth": 1,
+        "program_family": "object",
+        "provenance": {
+          "parse_id": "bg=0|conn=4|objects=5|hash=c242d7dc06e6",
+          "program": {
+            "depth": 1,
+            "program_id": "select=all_objects|ops=recolor:1|render=same_canvas",
+            "render": "same_canvas",
+            "selector": "all_objects",
+            "transforms": [
+              "recolor:1"
+            ]
+          },
+          "source": "R5A3A_structural_program_enumerator_with_relations_disabled"
+        },
+        "raw_ordinal": 1,
+        "relation_predicates_used": [],
+        "source_program_ids": [
+          "select=all_objects|ops=recolor:1|render=same_canvas"
+        ],
+        "support_cell_hamming_loss": 61,
+        "support_failed_pair_count": 2,
+        "support_shape_mismatch_count": 0
+      },
+      "fold_key": "00a70cb1f01a:fold=0",
+      "predicate_definition": "size_unchanged",
+      "pruned_output_matched_held_out_target": false,
+      "visible_support_evidence": {
+        "bg=0|conn=4|objects=5|hash=c242d7dc06e6": {
+          "constraints": [
+            {
+              "ambiguous_count": 0,
+              "contrastive": true,
+              "false_count": 0,
+              "hard": true,
+              "hard_rejection_reasons": [],
+              "mechanically_detectable": true,
+              "predicate": "position_unchanged",
+              "support_count": 2,
+              "true_count": 10,
+              "universal": true
+            },
+            {
+              "ambiguous_count": 0,
+              "contrastive": true,
+              "false_count": 0,
+              "hard": true,
+              "hard_rejection_reasons": [],
+              "mechanically_detectable": true,
+              "predicate": "color_unchanged",
+              "support_count": 2,
+              "true_count": 10,
+              "universal": true
+            },
+            {
+              "ambiguous_count": 0,
+              "contrastive": true,
+              "false_count": 0,
+              "hard": true,
+              "hard_rejection_reasons": [],
+              "mechanically_detectable": true,
+              "predicate": "size_unchanged",
+              "support_count": 2,
+              "true_count": 10,
+              "universal": true
+            },
+            {
+              "ambiguous_count": 0,
+              "contrastive": true,
+              "false_count": 0,
+              "hard": true,
+              "hard_rejection_reasons": [],
+              "mechanically_detectable": true,
+              "predicate": "shape_unchanged",
+              "support_count": 2,
+              "true_count": 10,
+              "universal": true
+            },
+            {
+              "ambiguous_count": 0,
+              "contrastive": false,
+              "false_count": 0,
+              "hard": false,
+              "hard_rejection_reasons": [
+                "not_contrastive_on_visible_supports"
+              ],
+              "mechanically_detectable": true,
+              "predicate": "border_status_unchanged",
+              "support_count": 2,
+              "true_count": 10,
+              "universal": true
+            },
+            {
+              "ambiguous_count": 0,
+              "contrastive": true,
+              "false_count": 12,
+              "hard": false,
+              "hard_rejection_reasons": [
+                "not_universal_on_visible_supports"
+              ],
+              "mechanically_detectable": true,
+              "predicate": "same_relation_preserved",
+              "support_count": 2,
+              "true_count": 28,
+              "universal": false
+            },
+            {
+              "ambiguous_count": 0,
+              "contrastive": false,
+              "false_count": 40,
+              "hard": false,
+              "hard_rejection_reasons": [
+                "not_universal_on_visible_supports",
+                "not_contrastive_on_visible_supports"
+              ],
+              "mechanically_detectable": true,
+              "predicate": "relation_created",
+              "support_count": 2,
+              "true_count": 0,
+              "universal": false
+            },
+            {
+              "ambiguous_count": 0,
+              "contrastive": true,
+              "false_count": 28,
+              "hard": false,
+              "hard_rejection_reasons": [
+                "not_universal_on_visible_supports"
+              ],
+              "mechanically_detectable": true,
+              "predicate": "relation_removed",
+              "support_count": 2,
+              "true_count": 12,
+              "universal": false
+            }
+          ],
+          "hard_constraint_count": 4,
+          "parse_background_color": 0,
+          "parse_connectivity": 4,
+          "source": "visible_supports_only",
+          "support_correspondence_summary": [
+            {
+              "ambiguous_matches": [],
+              "duplicate_output_object_ids": [],
+              "input_object_count": 5,
+              "matched_count": 5,
+              "output_object_count": 11,
+              "support_index": 0,
+              "unambiguous": true,
+              "unmatched_input_object_ids": []
+            },
+            {
+              "ambiguous_matches": [],
+              "duplicate_output_object_ids": [],
+              "input_object_count": 5,
+              "matched_count": 5,
+              "output_object_count": 11,
+              "support_index": 1,
+              "unambiguous": true,
+              "unmatched_input_object_ids": []
+            }
+          ]
+        }
+      },
+      "why_it_passed_hard_constraint_eligibility": "Recorded hard=true in the frozen P0 constraint model for this parse."
+    }
+  },
+  "rows": [
+    {
+      "candidate_independent_predicates_considered": 32,
+      "fold_key": "00203783c277:fold=0",
+      "promoted_to_hard_constraints": 0,
+      "rejected_for_ambiguous_correspondence": 32,
+      "rejected_for_non_contrastiveness": 32,
+      "rejected_for_non_mechanical_detectability": 0,
+      "rejected_for_non_universality": 0,
+      "retained_as_soft_signals": 32,
+      "signature": {
+        "area_bin": "small",
+        "object_slice": "multi_object",
+        "query_input_hash": "7f58e414a1122d1765d5962c118b668396cf08584e23fa30db0f537c444c5a5e",
+        "query_shape": [
+          6,
+          4
+        ]
+      }
+    },
+    {
+      "candidate_independent_predicates_considered": 16,
+      "fold_key": "00203783c277:fold=1",
+      "promoted_to_hard_constraints": 0,
+      "rejected_for_ambiguous_correspondence": 16,
+      "rejected_for_non_contrastiveness": 16,
+      "rejected_for_non_mechanical_detectability": 0,
+      "rejected_for_non_universality": 0,
+      "retained_as_soft_signals": 16,
+      "signature": {
+        "area_bin": "small",
+        "object_slice": "multi_object",
+        "query_input_hash": "ce8b6200552955b4c5dc07e0aa3f6edff2ea2108f17e311cf0517becfb01b8be",
+        "query_shape": [
+          4,
+          6
+        ]
+      }
+    },
+    {
+      "candidate_independent_predicates_considered": 8,
+      "fold_key": "003ab26e8f50:fold=0",
+      "promoted_to_hard_constraints": 0,
+      "rejected_for_ambiguous_correspondence": 0,
+      "rejected_for_non_contrastiveness": 8,
+      "rejected_for_non_mechanical_detectability": 0,
+      "rejected_for_non_universality": 0,
+      "retained_as_soft_signals": 8,
+      "signature": {
+        "area_bin": "medium",
+        "object_slice": "one_object",
+        "query_input_hash": "2ec67bb61e42292e019749cfc583c06dd16714e700eb6cf8d0c9fb1e09b961bb",
+        "query_shape": [
+          12,
+          14
+        ]
+      }
+    },
+    {
+      "candidate_independent_predicates_considered": 8,
+      "fold_key": "003ab26e8f50:fold=1",
+      "promoted_to_hard_constraints": 0,
+      "rejected_for_ambiguous_correspondence": 0,
+      "rejected_for_non_contrastiveness": 8,
+      "rejected_for_non_mechanical_detectability": 0,
+      "rejected_for_non_universality": 0,
+      "retained_as_soft_signals": 8,
+      "signature": {
+        "area_bin": "medium",
+        "object_slice": "one_object",
+        "query_input_hash": "5846eaec6bc70dbf0072cd2996dfc4aa4973f9790a643727fe17a010f30076ff",
+        "query_shape": [
+          18,
+          19
+        ]
+      }
+    },
+    {
+      "candidate_independent_predicates_considered": 8,
+      "fold_key": "00a70cb1f01a:fold=0",
+      "promoted_to_hard_constraints": 4,
+      "rejected_for_ambiguous_correspondence": 0,
+      "rejected_for_non_contrastiveness": 2,
+      "rejected_for_non_mechanical_detectability": 0,
+      "rejected_for_non_universality": 3,
+      "retained_as_soft_signals": 4,
+      "signature": {
+        "area_bin": "small",
+        "object_slice": "multi_object",
+        "query_input_hash": "7134dcc2be6a41123172c6a03c8d0223ade5a31fb5c11f25ad3c19cb1125c001",
+        "query_shape": [
+          3,
+          11
+        ]
+      }
+    },
+    {
+      "candidate_independent_predicates_considered": 8,
+      "fold_key": "00a70cb1f01a:fold=1",
+      "promoted_to_hard_constraints": 4,
+      "rejected_for_ambiguous_correspondence": 0,
+      "rejected_for_non_contrastiveness": 2,
+      "rejected_for_non_mechanical_detectability": 0,
+      "rejected_for_non_universality": 3,
+      "retained_as_soft_signals": 4,
+      "signature": {
+        "area_bin": "small",
+        "object_slice": "multi_object",
+        "query_input_hash": "23af06a302bf0a600e6fd772492aaa3edf81025d2ce2795e604fe79bd34c55a5",
+        "query_shape": [
+          3,
+          11
+        ]
+      }
+    },
+    {
+      "candidate_independent_predicates_considered": 8,
+      "fold_key": "00a70cb1f01a:fold=2",
+      "promoted_to_hard_constraints": 4,
+      "rejected_for_ambiguous_correspondence": 0,
+      "rejected_for_non_contrastiveness": 2,
+      "rejected_for_non_mechanical_detectability": 0,
+      "rejected_for_non_universality": 3,
+      "retained_as_soft_signals": 4,
+      "signature": {
+        "area_bin": "small",
+        "object_slice": "multi_object",
+        "query_input_hash": "3804bf156647ed3da572a8d7d94ab21dae8676a62ec6cbd46eb89eb300f1f59b",
+        "query_shape": [
+          3,
+          11
+        ]
+      }
+    },
+    {
+      "candidate_independent_predicates_considered": 24,
+      "fold_key": "00d50b52b427:fold=0",
+      "promoted_to_hard_constraints": 0,
+      "rejected_for_ambiguous_correspondence": 24,
+      "rejected_for_non_contrastiveness": 24,
+      "rejected_for_non_mechanical_detectability": 0,
+      "rejected_for_non_universality": 0,
+      "retained_as_soft_signals": 24,
+      "signature": {
+        "area_bin": "medium",
+        "object_slice": "multi_object",
+        "query_input_hash": "dfa532d88de044f915b757bb3e6b64ee6f769e1c7d6e57941041dd3652ab58b0",
+        "query_shape": [
+          24,
+          11
+        ]
+      }
+    },
+    {
+      "candidate_independent_predicates_considered": 32,
+      "fold_key": "00d50b52b427:fold=1",
+      "promoted_to_hard_constraints": 0,
+      "rejected_for_ambiguous_correspondence": 32,
+      "rejected_for_non_contrastiveness": 32,
+      "rejected_for_non_mechanical_detectability": 0,
+      "rejected_for_non_universality": 0,
+      "retained_as_soft_signals": 32,
+      "signature": {
+        "area_bin": "medium",
+        "object_slice": "multi_object",
+        "query_input_hash": "d6719d9c07b041fd847390486cd4577ef8ccee54e4a385195fd5d87673f6e9ad",
+        "query_shape": [
+          21,
+          11
+        ]
+      }
+    },
+    {
+      "candidate_independent_predicates_considered": 16,
+      "fold_key": "00d900ed4f5c:fold=0",
+      "promoted_to_hard_constraints": 0,
+      "rejected_for_ambiguous_correspondence": 0,
+      "rejected_for_non_contrastiveness": 0,
+      "rejected_for_non_mechanical_detectability": 0,
+      "rejected_for_non_universality": 16,
+      "retained_as_soft_signals": 16,
+      "signature": {
+        "area_bin": "large",
+        "object_slice": "multi_object",
+        "query_input_hash": "8020a009eba30440855ddded802450f0127dbe9e58efb06508dbb1d5495e29fd",
+        "query_shape": [
+          19,
+          19
+        ]
+      }
+    },
+    {
+      "candidate_independent_predicates_considered": 8,
+      "fold_key": "00d900ed4f5c:fold=1",
+      "promoted_to_hard_constraints": 0,
+      "rejected_for_ambiguous_correspondence": 0,
+      "rejected_for_non_contrastiveness": 0,
+      "rejected_for_non_mechanical_detectability": 0,
+      "rejected_for_non_universality": 8,
+      "retained_as_soft_signals": 8,
+      "signature": {
+        "area_bin": "large",
+        "object_slice": "multi_object",
+        "query_input_hash": "7f794e3ae4bdb5dd85cc6a28d5fb9cb9012eed2b750428584fb5e4fc672c7d83",
+        "query_shape": [
+          14,
+          14
+        ]
+      }
+    },
+    {
+      "candidate_independent_predicates_considered": 8,
+      "fold_key": "014db861a6b7:fold=0",
+      "promoted_to_hard_constraints": 0,
+      "rejected_for_ambiguous_correspondence": 8,
+      "rejected_for_non_contrastiveness": 8,
+      "rejected_for_non_mechanical_detectability": 0,
+      "rejected_for_non_universality": 0,
+      "retained_as_soft_signals": 8,
+      "signature": {
+        "area_bin": "large",
+        "object_slice": "multi_object",
+        "query_input_hash": "30ef1b49c54bd4515cfd68bcf6d1b1e832b47237eb335e730cb5026b02464b2d",
+        "query_shape": [
+          21,
+          21
+        ]
+      }
+    },
+    {
+      "candidate_independent_predicates_considered": 8,
+      "fold_key": "014db861a6b7:fold=1",
+      "promoted_to_hard_constraints": 0,
+      "rejected_for_ambiguous_correspondence": 8,
+      "rejected_for_non_contrastiveness": 8,
+      "rejected_for_non_mechanical_detectability": 0,
+      "rejected_for_non_universality": 0,
+      "retained_as_soft_signals": 8,
+      "signature": {
+        "area_bin": "large",
+        "object_slice": "multi_object",
+        "query_input_hash": "48307f0ffa319e0993f5489615444a4a9ca39b495e7e28c359d81682ab5a1446",
+        "query_shape": [
+          21,
+          21
+        ]
+      }
+    },
+    {
+      "candidate_independent_predicates_considered": 8,
+      "fold_key": "014db861a6b7:fold=2",
+      "promoted_to_hard_constraints": 0,
+      "rejected_for_ambiguous_correspondence": 8,
+      "rejected_for_non_contrastiveness": 8,
+      "rejected_for_non_mechanical_detectability": 0,
+      "rejected_for_non_universality": 0,
+      "retained_as_soft_signals": 8,
+      "signature": {
+        "area_bin": "large",
+        "object_slice": "multi_object",
+        "query_input_hash": "caebb3e587b79b14942f777450e717bfe89f40acd279572c7f5ec58191811155",
+        "query_shape": [
+          21,
+          21
+        ]
+      }
+    },
+    {
+      "candidate_independent_predicates_considered": 16,
+      "fold_key": "01dd2602608c:fold=0",
+      "promoted_to_hard_constraints": 1,
+      "rejected_for_ambiguous_correspondence": 8,
+      "rejected_for_non_contrastiveness": 13,
+      "rejected_for_non_mechanical_detectability": 0,
+      "rejected_for_non_universality": 2,
+      "retained_as_soft_signals": 15,
+      "signature": {
+        "area_bin": "medium",
+        "object_slice": "multi_object",
+        "query_input_hash": "df29e75e6a889a006bf02e538d5dbdd74da394c8ab495573495ef6ae5bd63f73",
+        "query_shape": [
+          15,
+          15
+        ]
+      }
+    },
+    {
+      "candidate_independent_predicates_considered": 16,
+      "fold_key": "01dd2602608c:fold=1",
+      "promoted_to_hard_constraints": 1,
+      "rejected_for_ambiguous_correspondence": 8,
+      "rejected_for_non_contrastiveness": 13,
+      "rejected_for_non_mechanical_detectability": 0,
+      "rejected_for_non_universality": 2,
+      "retained_as_soft_signals": 15,
+      "signature": {
+        "area_bin": "medium",
+        "object_slice": "multi_object",
+        "query_input_hash": "8f65f8956523c5ac9a840ee6e42849b7ae736f9bf79b78fe051bc2e84aebe888",
+        "query_shape": [
+          15,
+          15
+        ]
+      }
+    },
+    {
+      "candidate_independent_predicates_considered": 16,
+      "fold_key": "01dd2602608c:fold=2",
+      "promoted_to_hard_constraints": 1,
+      "rejected_for_ambiguous_correspondence": 8,
+      "rejected_for_non_contrastiveness": 13,
+      "rejected_for_non_mechanical_detectability": 0,
+      "rejected_for_non_universality": 2,
+      "retained_as_soft_signals": 15,
+      "signature": {
+        "area_bin": "medium",
+        "object_slice": "multi_object",
+        "query_input_hash": "caa396cb6b4f50a0b18da8ce784f9474731bbe33975bcb222dde21c26ab10de5",
+        "query_shape": [
+          15,
+          15
+        ]
+      }
+    },
+    {
+      "candidate_independent_predicates_considered": 16,
+      "fold_key": "0205ac0218ff:fold=0",
+      "promoted_to_hard_constraints": 0,
+      "rejected_for_ambiguous_correspondence": 16,
+      "rejected_for_non_contrastiveness": 9,
+      "rejected_for_non_mechanical_detectability": 0,
+      "rejected_for_non_universality": 5,
+      "retained_as_soft_signals": 16,
+      "signature": {
+        "area_bin": "medium",
+        "object_slice": "multi_object",
+        "query_input_hash": "6b0d8b4ea17ccc97ab17d72b8bf00e85b4933c3e7d9a9e4a8eb74e0718f1a4d0",
+        "query_shape": [
+          6,
+          10
+        ]
+      }
+    },
+    {
+      "candidate_independent_predicates_considered": 16,
+      "fold_key": "0205ac0218ff:fold=1",
+      "promoted_to_hard_constraints": 0,
+      "rejected_for_ambiguous_correspondence": 16,
+      "rejected_for_non_contrastiveness": 16,
+      "rejected_for_non_mechanical_detectability": 0,
+      "rejected_for_non_universality": 0,
+      "retained_as_soft_signals": 16,
+      "signature": {
+        "area_bin": "medium",
+        "object_slice": "multi_object",
+        "query_input_hash": "9e40efecc965270ef293e6ef4076dcca0ced7365c946d103035321e6a5eeffa0",
+        "query_shape": [
+          4,
+          9
+        ]
+      }
+    },
+    {
+      "candidate_independent_predicates_considered": 16,
+      "fold_key": "0205ac0218ff:fold=2",
+      "promoted_to_hard_constraints": 0,
+      "rejected_for_ambiguous_correspondence": 16,
+      "rejected_for_non_contrastiveness": 9,
+      "rejected_for_non_mechanical_detectability": 0,
+      "rejected_for_non_universality": 5,
+      "retained_as_soft_signals": 16,
+      "signature": {
+        "area_bin": "medium",
+        "object_slice": "multi_object",
+        "query_input_hash": "ebc1570857b68f2ca439d7d3c0e7ee2d62fb893f0dcd7b9c1782cf5f84ed50f5",
+        "query_shape": [
+          9,
+          10
+        ]
+      }
+    },
+    {
+      "candidate_independent_predicates_considered": 16,
+      "fold_key": "0205ac0218ff:fold=3",
+      "promoted_to_hard_constraints": 0,
+      "rejected_for_ambiguous_correspondence": 16,
+      "rejected_for_non_contrastiveness": 16,
+      "rejected_for_non_mechanical_detectability": 0,
+      "rejected_for_non_universality": 0,
+      "retained_as_soft_signals": 16,
+      "signature": {
+        "area_bin": "medium",
+        "object_slice": "multi_object",
+        "query_input_hash": "9f41be27b47bf85e9240ba70404c46cbed02869d0ce3a5846fa09599dc5f46ca",
+        "query_shape": [
+          6,
+          7
+        ]
+      }
+    },
+    {
+      "candidate_independent_predicates_considered": 16,
+      "fold_key": "0742b02b74a9:fold=0",
+      "promoted_to_hard_constraints": 0,
+      "rejected_for_ambiguous_correspondence": 16,
+      "rejected_for_non_contrastiveness": 16,
+      "rejected_for_non_mechanical_detectability": 0,
+      "rejected_for_non_universality": 0,
+      "retained_as_soft_signals": 16,
+      "signature": {
+        "area_bin": "small",
+        "object_slice": "multi_object",
+        "query_input_hash": "05daa9eddf1956604b6376ef9bf37444c27847034651dc48ce30daf7ac3594d3",
+        "query_shape": [
+          9,
+          9
+        ]
+      }
+    },
+    {
+      "candidate_independent_predicates_considered": 16,
+      "fold_key": "0742b02b74a9:fold=1",
+      "promoted_to_hard_constraints": 0,
+      "rejected_for_ambiguous_correspondence": 16,
+      "rejected_for_non_contrastiveness": 16,
+      "rejected_for_non_mechanical_detectability": 0,
+      "rejected_for_non_universality": 0,
+      "retained_as_soft_signals": 16,
+      "signature": {
+        "area_bin": "small",
+        "object_slice": "multi_object",
+        "query_input_hash": "3cff4c5e8af902801ea1d9170e94fcb0de1d6cc45cad17bf5d9dddf9464071d3",
+        "query_shape": [
+          9,
+          9
+        ]
+      }
+    },
+    {
+      "candidate_independent_predicates_considered": 16,
+      "fold_key": "0742b02b74a9:fold=2",
+      "promoted_to_hard_constraints": 0,
+      "rejected_for_ambiguous_correspondence": 16,
+      "rejected_for_non_contrastiveness": 16,
+      "rejected_for_non_mechanical_detectability": 0,
+      "rejected_for_non_universality": 0,
+      "retained_as_soft_signals": 16,
+      "signature": {
+        "area_bin": "small",
+        "object_slice": "multi_object",
+        "query_input_hash": "2dbf545f93dbe9d2355a43dc55f2767cbe5825052d9f246b90fda24c9e8e0b68",
+        "query_shape": [
+          9,
+          9
+        ]
+      }
+    },
+    {
+      "candidate_independent_predicates_considered": 16,
+      "fold_key": "0742b02b74a9:fold=3",
+      "promoted_to_hard_constraints": 0,
+      "rejected_for_ambiguous_correspondence": 16,
+      "rejected_for_non_contrastiveness": 16,
+      "rejected_for_non_mechanical_detectability": 0,
+      "rejected_for_non_universality": 0,
+      "retained_as_soft_signals": 16,
+      "signature": {
+        "area_bin": "small",
+        "object_slice": "multi_object",
+        "query_input_hash": "eb53807e21dabcad3ee9a4927e9765ab3e098d5aefe3afc9b8e1b19ade8dbfe9",
+        "query_shape": [
+          9,
+          9
+        ]
+      }
+    },
+    {
+      "candidate_independent_predicates_considered": 16,
+      "fold_key": "0742b02b74a9:fold=4",
+      "promoted_to_hard_constraints": 0,
+      "rejected_for_ambiguous_correspondence": 16,
+      "rejected_for_non_contrastiveness": 16,
+      "rejected_for_non_mechanical_detectability": 0,
+      "rejected_for_non_universality": 0,
+      "retained_as_soft_signals": 16,
+      "signature": {
+        "area_bin": "small",
+        "object_slice": "multi_object",
+        "query_input_hash": "3a0be25a86e000e112cc606869d0bbebd233cbe66ee1cc1c61be0ab508a58e95",
+        "query_shape": [
+          9,
+          9
+        ]
+      }
+    },
+    {
+      "candidate_independent_predicates_considered": 16,
+      "fold_key": "0742b02b74a9:fold=5",
+      "promoted_to_hard_constraints": 0,
+      "rejected_for_ambiguous_correspondence": 16,
+      "rejected_for_non_contrastiveness": 16,
+      "rejected_for_non_mechanical_detectability": 0,
+      "rejected_for_non_universality": 0,
+      "retained_as_soft_signals": 16,
+      "signature": {
+        "area_bin": "small",
+        "object_slice": "multi_object",
+        "query_input_hash": "b14e5ac3c10675ddb19b89fd3c5596cd6e2ba0e1fcd0ae2de1a9fcc487040faa",
+        "query_shape": [
+          9,
+          9
+        ]
+      }
+    },
+    {
+      "candidate_independent_predicates_considered": 32,
+      "fold_key": "088b5677df69:fold=0",
+      "promoted_to_hard_constraints": 0,
+      "rejected_for_ambiguous_correspondence": 32,
+      "rejected_for_non_contrastiveness": 32,
+      "rejected_for_non_mechanical_detectability": 0,
+      "rejected_for_non_universality": 0,
+      "retained_as_soft_signals": 32,
+      "signature": {
+        "area_bin": "large",
+        "object_slice": "multi_object",
+        "query_input_hash": "2d4d1501e6e559e634e1b3c522acd3f7dadf354684dc85c0bac89a5108d92de8",
+        "query_shape": [
+          30,
+          30
+        ]
+      }
+    },
+    {
+      "candidate_independent_predicates_considered": 32,
+      "fold_key": "088b5677df69:fold=1",
+      "promoted_to_hard_constraints": 0,
+      "rejected_for_ambiguous_correspondence": 32,
+      "rejected_for_non_contrastiveness": 32,
+      "rejected_for_non_mechanical_detectability": 0,
+      "rejected_for_non_universality": 0,
+      "retained_as_soft_signals": 32,
+      "signature": {
+        "area_bin": "large",
+        "object_slice": "multi_object",
+        "query_input_hash": "2c060d0a90617b04b9d707b54b7e1a526d2531c85be791c0135442ad16252727",
+        "query_shape": [
+          30,
+          30
+        ]
+      }
+    },
+    {
+      "candidate_independent_predicates_considered": 32,
+      "fold_key": "088b5677df69:fold=2",
+      "promoted_to_hard_constraints": 0,
+      "rejected_for_ambiguous_correspondence": 32,
+      "rejected_for_non_contrastiveness": 32,
+      "rejected_for_non_mechanical_detectability": 0,
+      "rejected_for_non_universality": 0,
+      "retained_as_soft_signals": 32,
+      "signature": {
+        "area_bin": "large",
+        "object_slice": "multi_object",
+        "query_input_hash": "b3ebd9c30dc5c801eb970bc27e56512dccb4c97f1dd412910697d84abcaef75f",
+        "query_shape": [
+          30,
+          30
+        ]
+      }
+    },
+    {
+      "candidate_independent_predicates_considered": 32,
+      "fold_key": "088b5677df69:fold=3",
+      "promoted_to_hard_constraints": 0,
+      "rejected_for_ambiguous_correspondence": 32,
+      "rejected_for_non_contrastiveness": 32,
+      "rejected_for_non_mechanical_detectability": 0,
+      "rejected_for_non_universality": 0,
+      "retained_as_soft_signals": 32,
+      "signature": {
+        "area_bin": "large",
+        "object_slice": "multi_object",
+        "query_input_hash": "559b1a8060d792bbb832652b06054e78e3eea05b07dae9ef8372763a37b4c74e",
+        "query_shape": [
+          30,
+          30
+        ]
+      }
+    },
+    {
+      "candidate_independent_predicates_considered": 8,
+      "fold_key": "0c932836daba:fold=0",
+      "promoted_to_hard_constraints": 0,
+      "rejected_for_ambiguous_correspondence": 8,
+      "rejected_for_non_contrastiveness": 8,
+      "rejected_for_non_mechanical_detectability": 0,
+      "rejected_for_non_universality": 0,
+      "retained_as_soft_signals": 8,
+      "signature": {
+        "area_bin": "small",
+        "object_slice": "multi_object",
+        "query_input_hash": "ca7eb05792f0c1efb3c82cfb31cea54799383dd00518e0fd285d725870a43265",
+        "query_shape": [
+          9,
+          9
+        ]
+      }
+    },
+    {
+      "candidate_independent_predicates_considered": 16,
+      "fold_key": "0c932836daba:fold=1",
+      "promoted_to_hard_constraints": 0,
+      "rejected_for_ambiguous_correspondence": 16,
+      "rejected_for_non_contrastiveness": 16,
+      "rejected_for_non_mechanical_detectability": 0,
+      "rejected_for_non_universality": 0,
+      "retained_as_soft_signals": 16,
+      "signature": {
+        "area_bin": "small",
+        "object_slice": "multi_object",
+        "query_input_hash": "c63328ef47204f290dba952789331fb5b7f915af80793e2358d6bc617d0300ff",
+        "query_shape": [
+          9,
+          9
+        ]
+      }
+    },
+    {
+      "candidate_independent_predicates_considered": 16,
+      "fold_key": "0c932836daba:fold=2",
+      "promoted_to_hard_constraints": 0,
+      "rejected_for_ambiguous_correspondence": 16,
+      "rejected_for_non_contrastiveness": 16,
+      "rejected_for_non_mechanical_detectability": 0,
+      "rejected_for_non_universality": 0,
+      "retained_as_soft_signals": 16,
+      "signature": {
+        "area_bin": "small",
+        "object_slice": "multi_object",
+        "query_input_hash": "dc3a9390f329f9756f0b3c0c0f91275bf4a18afb5c2b6bd987ed03c8b2f28fc1",
+        "query_shape": [
+          9,
+          9
+        ]
+      }
+    },
+    {
+      "candidate_independent_predicates_considered": 16,
+      "fold_key": "0c932836daba:fold=3",
+      "promoted_to_hard_constraints": 0,
+      "rejected_for_ambiguous_correspondence": 16,
+      "rejected_for_non_contrastiveness": 16,
+      "rejected_for_non_mechanical_detectability": 0,
+      "rejected_for_non_universality": 0,
+      "retained_as_soft_signals": 16,
+      "signature": {
+        "area_bin": "small",
+        "object_slice": "multi_object",
+        "query_input_hash": "35f3dd187f7cc1b89192b171829e84ea602e11bda390ef0d296867e4f00b1761",
+        "query_shape": [
+          9,
+          9
+        ]
+      }
+    },
+    {
+      "candidate_independent_predicates_considered": 16,
+      "fold_key": "157e29bf4dac:fold=0",
+      "promoted_to_hard_constraints": 2,
+      "rejected_for_ambiguous_correspondence": 8,
+      "rejected_for_non_contrastiveness": 8,
+      "rejected_for_non_mechanical_detectability": 0,
+      "rejected_for_non_universality": 8,
+      "retained_as_soft_signals": 14,
+      "signature": {
+        "area_bin": "medium",
+        "object_slice": "multi_object",
+        "query_input_hash": "647d36637461a05ac585661bd8be349ba4083a2197db0ff6345b90c2f4ea1e89",
+        "query_shape": [
+          7,
+          7
+        ]
+      }
+    },
+    {
+      "candidate_independent_predicates_considered": 16,
+      "fold_key": "157e29bf4dac:fold=1",
+      "promoted_to_hard_constraints": 2,
+      "rejected_for_ambiguous_correspondence": 8,
+      "rejected_for_non_contrastiveness": 8,
+      "rejected_for_non_mechanical_detectability": 0,
+      "rejected_for_non_universality": 8,
+      "retained_as_soft_signals": 14,
+      "signature": {
+        "area_bin": "medium",
+        "object_slice": "multi_object",
+        "query_input_hash": "3d3964b174eea8b7b00c8f7ff38877a8e0ba3b99d4bc3e0f1b5332b0e689abea",
+        "query_shape": [
+          7,
+          14
+        ]
+      }
+    },
+    {
+      "candidate_independent_predicates_considered": 8,
+      "fold_key": "157e29bf4dac:fold=2",
+      "promoted_to_hard_constraints": 2,
+      "rejected_for_ambiguous_correspondence": 0,
+      "rejected_for_non_contrastiveness": 4,
+      "rejected_for_non_mechanical_detectability": 0,
+      "rejected_for_non_universality": 4,
+      "retained_as_soft_signals": 6,
+      "signature": {
+        "area_bin": "medium",
+        "object_slice": "multi_object",
+        "query_input_hash": "5e5803edde0d4a405f98d91e89678341857cf01637976a36f24bf0a17d0840dc",
+        "query_shape": [
+          7,
+          15
+        ]
+      }
+    },
+    {
+      "candidate_independent_predicates_considered": 8,
+      "fold_key": "157e29bf4dac:fold=3",
+      "promoted_to_hard_constraints": 2,
+      "rejected_for_ambiguous_correspondence": 0,
+      "rejected_for_non_contrastiveness": 4,
+      "rejected_for_non_mechanical_detectability": 0,
+      "rejected_for_non_universality": 4,
+      "retained_as_soft_signals": 6,
+      "signature": {
+        "area_bin": "medium",
+        "object_slice": "multi_object",
+        "query_input_hash": "527bd5dfe24dddcbe53fb0fdf657ee6ffed812a0b7d9643ce1e1d5fd83af2519",
+        "query_shape": [
+          7,
+          5
+        ]
+      }
+    },
+    {
+      "candidate_independent_predicates_considered": 16,
+      "fold_key": "157e29bf4dac:fold=4",
+      "promoted_to_hard_constraints": 2,
+      "rejected_for_ambiguous_correspondence": 8,
+      "rejected_for_non_contrastiveness": 8,
+      "rejected_for_non_mechanical_detectability": 0,
+      "rejected_for_non_universality": 8,
+      "retained_as_soft_signals": 14,
+      "signature": {
+        "area_bin": "medium",
+        "object_slice": "multi_object",
+        "query_input_hash": "01a2c650179993731f03ec8abe5a06d10a4a74a8f6195f45491dff370cb0061d",
+        "query_shape": [
+          7,
+          17
+        ]
+      }
+    },
+    {
+      "candidate_independent_predicates_considered": 8,
+      "fold_key": "162b59c1a156:fold=0",
+      "promoted_to_hard_constraints": 4,
+      "rejected_for_ambiguous_correspondence": 0,
+      "rejected_for_non_contrastiveness": 2,
+      "rejected_for_non_mechanical_detectability": 0,
+      "rejected_for_non_universality": 3,
+      "retained_as_soft_signals": 4,
+      "signature": {
+        "area_bin": "small",
+        "object_slice": "multi_object",
+        "query_input_hash": "7b4f48cb506d842d67b5d46a76c0ccf701752bdc4e3768dd4dacc34d664bbe77",
+        "query_shape": [
+          4,
+          4
+        ]
+      }
+    },
+    {
+      "candidate_independent_predicates_considered": 8,
+      "fold_key": "162b59c1a156:fold=1",
+      "promoted_to_hard_constraints": 4,
+      "rejected_for_ambiguous_correspondence": 0,
+      "rejected_for_non_contrastiveness": 2,
+      "rejected_for_non_mechanical_detectability": 0,
+      "rejected_for_non_universality": 3,
+      "retained_as_soft_signals": 4,
+      "signature": {
+        "area_bin": "small",
+        "object_slice": "multi_object",
+        "query_input_hash": "ad2dd42255a58af2e3ff19eb7eb0f33942ba43ec96046370fe8e9ddaad4d0f33",
+        "query_shape": [
+          3,
+          3
+        ]
+      }
+    },
+    {
+      "candidate_independent_predicates_considered": 8,
+      "fold_key": "162b59c1a156:fold=2",
+      "promoted_to_hard_constraints": 2,
+      "rejected_for_ambiguous_correspondence": 0,
+      "rejected_for_non_contrastiveness": 4,
+      "rejected_for_non_mechanical_detectability": 0,
+      "rejected_for_non_universality": 3,
+      "retained_as_soft_signals": 6,
+      "signature": {
+        "area_bin": "small",
+        "object_slice": "multi_object",
+        "query_input_hash": "460377c00093efb5185ef252236b143439ef2f77a8dee68ab81d7f8e3fb0f475",
+        "query_shape": [
+          5,
+          5
+        ]
+      }
+    },
+    {
+      "candidate_independent_predicates_considered": 8,
+      "fold_key": "162b59c1a156:fold=3",
+      "promoted_to_hard_constraints": 4,
+      "rejected_for_ambiguous_correspondence": 0,
+      "rejected_for_non_contrastiveness": 2,
+      "rejected_for_non_mechanical_detectability": 0,
+      "rejected_for_non_universality": 3,
+      "retained_as_soft_signals": 4,
+      "signature": {
+        "area_bin": "small",
+        "object_slice": "multi_object",
+        "query_input_hash": "5ef40d238995f469b1427a0f264bb7974a15391a0862abbfd2e0e2515068284c",
+        "query_shape": [
+          4,
+          4
+        ]
+      }
+    },
+    {
+      "candidate_independent_predicates_considered": 8,
+      "fold_key": "162b59c1a156:fold=4",
+      "promoted_to_hard_constraints": 4,
+      "rejected_for_ambiguous_correspondence": 0,
+      "rejected_for_non_contrastiveness": 2,
+      "rejected_for_non_mechanical_detectability": 0,
+      "rejected_for_non_universality": 3,
+      "retained_as_soft_signals": 4,
+      "signature": {
+        "area_bin": "small",
+        "object_slice": "multi_object",
+        "query_input_hash": "7463293e1c0904d3173f98d24ef5f1c5b2c12446e34fdd7354c28f25a5005642",
+        "query_shape": [
+          2,
+          2
+        ]
+      }
+    },
+    {
+      "candidate_independent_predicates_considered": 8,
+      "fold_key": "18ce90663716:fold=0",
+      "promoted_to_hard_constraints": 0,
+      "rejected_for_ambiguous_correspondence": 0,
+      "rejected_for_non_contrastiveness": 5,
+      "rejected_for_non_mechanical_detectability": 0,
+      "rejected_for_non_universality": 5,
+      "retained_as_soft_signals": 8,
+      "signature": {
+        "area_bin": "medium",
+        "object_slice": "one_object",
+        "query_input_hash": "0407f889c4106ff6e5faea136dc863151d25133bac621bff5165b6a6c4d81610",
+        "query_shape": [
+          5,
+          5
+        ]
+      }
+    },
+    {
+      "candidate_independent_predicates_considered": 8,
+      "fold_key": "18ce90663716:fold=1",
+      "promoted_to_hard_constraints": 0,
+      "rejected_for_ambiguous_correspondence": 0,
+      "rejected_for_non_contrastiveness": 6,
+      "rejected_for_non_mechanical_detectability": 0,
+      "rejected_for_non_universality": 5,
+      "retained_as_soft_signals": 8,
+      "signature": {
+        "area_bin": "medium",
+        "object_slice": "one_object",
+        "query_input_hash": "d68376d62cfff41ee2ce52ad378bb272e78ac42235d9c4066b1cae85eca9266f",
+        "query_shape": [
+          3,
+          3
+        ]
+      }
+    },
+    {
+      "candidate_independent_predicates_considered": 8,
+      "fold_key": "18ce90663716:fold=2",
+      "promoted_to_hard_constraints": 0,
+      "rejected_for_ambiguous_correspondence": 0,
+      "rejected_for_non_contrastiveness": 5,
+      "rejected_for_non_mechanical_detectability": 0,
+      "rejected_for_non_universality": 5,
+      "retained_as_soft_signals": 8,
+      "signature": {
+        "area_bin": "medium",
+        "object_slice": "one_object",
+        "query_input_hash": "3bb1f0bbab7c510e510e91c7d766cf14656c8aa5aba63fc05d63b84034055b1b",
+        "query_shape": [
+          9,
+          9
+        ]
+      }
+    },
+    {
+      "candidate_independent_predicates_considered": 8,
+      "fold_key": "22784a7099b9:fold=0",
+      "promoted_to_hard_constraints": 0,
+      "rejected_for_ambiguous_correspondence": 0,
+      "rejected_for_non_contrastiveness": 8,
+      "rejected_for_non_mechanical_detectability": 0,
+      "rejected_for_non_universality": 0,
+      "retained_as_soft_signals": 8,
+      "signature": {
+        "area_bin": "large",
+        "object_slice": "one_object",
+        "query_input_hash": "c35463f60ac4f2b8cd1d9cdb7797941cd84f5c546976a6a58e4c2ab3682ad8ff",
+        "query_shape": [
+          23,
+          28
+        ]
+      }
+    },
+    {
+      "candidate_independent_predicates_considered": 8,
+      "fold_key": "22784a7099b9:fold=1",
+      "promoted_to_hard_constraints": 0,
+      "rejected_for_ambiguous_correspondence": 0,
+      "rejected_for_non_contrastiveness": 8,
+      "rejected_for_non_mechanical_detectability": 0,
+      "rejected_for_non_universality": 0,
+      "retained_as_soft_signals": 8,
+      "signature": {
+        "area_bin": "large",
+        "object_slice": "one_object",
+        "query_input_hash": "ccaa828e7d7c8a5e032d63e1a0690b0f8d3e3d2baa8062ff44f8a773b7e07dda",
+        "query_shape": [
+          23,
+          28
+        ]
+      }
+    },
+    {
+      "candidate_independent_predicates_considered": 16,
+      "fold_key": "23b0b31e435e:fold=0",
+      "promoted_to_hard_constraints": 5,
+      "rejected_for_ambiguous_correspondence": 0,
+      "rejected_for_non_contrastiveness": 7,
+      "rejected_for_non_mechanical_detectability": 0,
+      "rejected_for_non_universality": 6,
+      "retained_as_soft_signals": 11,
+      "signature": {
+        "area_bin": "medium",
+        "object_slice": "one_object",
+        "query_input_hash": "76343cfe55b7e36ea6e3ebc21adfa80ae87ad5719e08b86c79a5d7a4fa14d695",
+        "query_shape": [
+          14,
+          16
+        ]
+      }
+    },
+    {
+      "candidate_independent_predicates_considered": 16,
+      "fold_key": "23b0b31e435e:fold=1",
+      "promoted_to_hard_constraints": 5,
+      "rejected_for_ambiguous_correspondence": 0,
+      "rejected_for_non_contrastiveness": 7,
+      "rejected_for_non_mechanical_detectability": 0,
+      "rejected_for_non_universality": 6,
+      "retained_as_soft_signals": 11,
+      "signature": {
+        "area_bin": "medium",
+        "object_slice": "one_object",
+        "query_input_hash": "07dc45d042633a91e95373bffc71b22f02a38809a2cb969d8caceea7ce7b66fc",
+        "query_shape": [
+          13,
+          17
+        ]
+      }
+    },
+    {
+      "candidate_independent_predicates_considered": 16,
+      "fold_key": "23b0b31e435e:fold=2",
+      "promoted_to_hard_constraints": 5,
+      "rejected_for_ambiguous_correspondence": 0,
+      "rejected_for_non_contrastiveness": 7,
+      "rejected_for_non_mechanical_detectability": 0,
+      "rejected_for_non_universality": 6,
+      "retained_as_soft_signals": 11,
+      "signature": {
+        "area_bin": "medium",
+        "object_slice": "one_object",
+        "query_input_hash": "d4cb45ae8e6b51eb4f5df9f5b02239607cda8bbc1f37f5f55765bed31fec522c",
+        "query_shape": [
+          16,
+          16
+        ]
+      }
+    },
+    {
+      "candidate_independent_predicates_considered": 16,
+      "fold_key": "23b0b31e435e:fold=3",
+      "promoted_to_hard_constraints": 5,
+      "rejected_for_ambiguous_correspondence": 0,
+      "rejected_for_non_contrastiveness": 7,
+      "rejected_for_non_mechanical_detectability": 0,
+      "rejected_for_non_universality": 6,
+      "retained_as_soft_signals": 11,
+      "signature": {
+        "area_bin": "medium",
+        "object_slice": "one_object",
+        "query_input_hash": "ae6b6a71f5da638bebfd4b4f495091fbb7c2b948aef827671849a0a922999031",
+        "query_shape": [
+          14,
+          15
+        ]
+      }
+    },
+    {
+      "candidate_independent_predicates_considered": 16,
+      "fold_key": "2aa102da5d10:fold=0",
+      "promoted_to_hard_constraints": 0,
+      "rejected_for_ambiguous_correspondence": 16,
+      "rejected_for_non_contrastiveness": 16,
+      "rejected_for_non_mechanical_detectability": 0,
+      "rejected_for_non_universality": 0,
+      "retained_as_soft_signals": 16,
+      "signature": {
+        "area_bin": "small",
+        "object_slice": "multi_object",
+        "query_input_hash": "b149aab2fffe1de48a13802e4daee9361f857c00db01473c42c8565f398e82a5",
+        "query_shape": [
+          7,
+          7
+        ]
+      }
+    },
+    {
+      "candidate_independent_predicates_considered": 16,
+      "fold_key": "2aa102da5d10:fold=1",
+      "promoted_to_hard_constraints": 0,
+      "rejected_for_ambiguous_correspondence": 16,
+      "rejected_for_non_contrastiveness": 16,
+      "rejected_for_non_mechanical_detectability": 0,
+      "rejected_for_non_universality": 0,
+      "retained_as_soft_signals": 16,
+      "signature": {
+        "area_bin": "small",
+        "object_slice": "multi_object",
+        "query_input_hash": "3e24f2b9c703f85e39ad2bd1fd05f9575e3216825df3a3928a6656dc38f4c7c0",
+        "query_shape": [
+          7,
+          7
+        ]
+      }
+    },
+    {
+      "candidate_independent_predicates_considered": 16,
+      "fold_key": "2aa102da5d10:fold=2",
+      "promoted_to_hard_constraints": 0,
+      "rejected_for_ambiguous_correspondence": 16,
+      "rejected_for_non_contrastiveness": 16,
+      "rejected_for_non_mechanical_detectability": 0,
+      "rejected_for_non_universality": 0,
+      "retained_as_soft_signals": 16,
+      "signature": {
+        "area_bin": "small",
+        "object_slice": "multi_object",
+        "query_input_hash": "bcd8b01db80eb09bad0272ed693e3f8575ccefd20c73d14b2bb488e1ff9b1371",
+        "query_shape": [
+          7,
+          7
+        ]
+      }
+    },
+    {
+      "candidate_independent_predicates_considered": 16,
+      "fold_key": "2aa102da5d10:fold=3",
+      "promoted_to_hard_constraints": 0,
+      "rejected_for_ambiguous_correspondence": 16,
+      "rejected_for_non_contrastiveness": 16,
+      "rejected_for_non_mechanical_detectability": 0,
+      "rejected_for_non_universality": 0,
+      "retained_as_soft_signals": 16,
+      "signature": {
+        "area_bin": "small",
+        "object_slice": "multi_object",
+        "query_input_hash": "02e2e6496132eac5aef0bb0bc55391c53af930a74351c65cb7c3bc4272c577cb",
+        "query_shape": [
+          7,
+          7
+        ]
+      }
+    },
+    {
+      "candidate_independent_predicates_considered": 32,
+      "fold_key": "2aa102da5d10:fold=4",
+      "promoted_to_hard_constraints": 0,
+      "rejected_for_ambiguous_correspondence": 32,
+      "rejected_for_non_contrastiveness": 32,
+      "rejected_for_non_mechanical_detectability": 0,
+      "rejected_for_non_universality": 0,
+      "retained_as_soft_signals": 32,
+      "signature": {
+        "area_bin": "small",
+        "object_slice": "multi_object",
+        "query_input_hash": "45670893abfe94beecdce12194dfceaaca9548dc07b985ad8d0290ee588b87d4",
+        "query_shape": [
+          7,
+          7
+        ]
+      }
+    },
+    {
+      "candidate_independent_predicates_considered": 16,
+      "fold_key": "2aa102da5d10:fold=5",
+      "promoted_to_hard_constraints": 0,
+      "rejected_for_ambiguous_correspondence": 16,
+      "rejected_for_non_contrastiveness": 16,
+      "rejected_for_non_mechanical_detectability": 0,
+      "rejected_for_non_universality": 0,
+      "retained_as_soft_signals": 16,
+      "signature": {
+        "area_bin": "small",
+        "object_slice": "multi_object",
+        "query_input_hash": "33d8a190f94ae0f14a054c18d7c3ef3521104b637527df52c851e3e34f20ba77",
+        "query_shape": [
+          7,
+          7
+        ]
+      }
+    },
+    {
+      "candidate_independent_predicates_considered": 16,
+      "fold_key": "2aa102da5d10:fold=6",
+      "promoted_to_hard_constraints": 0,
+      "rejected_for_ambiguous_correspondence": 16,
+      "rejected_for_non_contrastiveness": 16,
+      "rejected_for_non_mechanical_detectability": 0,
+      "rejected_for_non_universality": 0,
+      "retained_as_soft_signals": 16,
+      "signature": {
+        "area_bin": "small",
+        "object_slice": "multi_object",
+        "query_input_hash": "153f452e1640fe05e25e2fc588d03c5f00bade32d14e5401cac103381839ecfd",
+        "query_shape": [
+          7,
+          7
+        ]
+      }
+    },
+    {
+      "candidate_independent_predicates_considered": 16,
+      "fold_key": "3ff41d671fa4:fold=0",
+      "promoted_to_hard_constraints": 0,
+      "rejected_for_ambiguous_correspondence": 16,
+      "rejected_for_non_contrastiveness": 16,
+      "rejected_for_non_mechanical_detectability": 0,
+      "rejected_for_non_universality": 0,
+      "retained_as_soft_signals": 16,
+      "signature": {
+        "area_bin": "large",
+        "object_slice": "one_object",
+        "query_input_hash": "6eb1edbbe2ca36c41ec916d3e1dbe10bb3bf0edd3cde2dc496a49173e294a5e2",
+        "query_shape": [
+          11,
+          11
+        ]
+      }
+    },
+    {
+      "candidate_independent_predicates_considered": 16,
+      "fold_key": "3ff41d671fa4:fold=1",
+      "promoted_to_hard_constraints": 0,
+      "rejected_for_ambiguous_correspondence": 16,
+      "rejected_for_non_contrastiveness": 16,
+      "rejected_for_non_mechanical_detectability": 0,
+      "rejected_for_non_universality": 0,
+      "retained_as_soft_signals": 16,
+      "signature": {
+        "area_bin": "large",
+        "object_slice": "one_object",
+        "query_input_hash": "71b34dbf3b5bb23825dcacae435dea62c404ac6edc571a88647fdae97c10e314",
+        "query_shape": [
+          15,
+          15
+        ]
+      }
+    },
+    {
+      "candidate_independent_predicates_considered": 16,
+      "fold_key": "3ff41d671fa4:fold=2",
+      "promoted_to_hard_constraints": 0,
+      "rejected_for_ambiguous_correspondence": 16,
+      "rejected_for_non_contrastiveness": 16,
+      "rejected_for_non_mechanical_detectability": 0,
+      "rejected_for_non_universality": 0,
+      "retained_as_soft_signals": 16,
+      "signature": {
+        "area_bin": "large",
+        "object_slice": "one_object",
+        "query_input_hash": "632b467a13e08eb598ac18948949f97b866548d55961fc63eaa18e1781d8f6e3",
+        "query_shape": [
+          27,
+          27
+        ]
+      }
+    },
+    {
+      "candidate_independent_predicates_considered": 16,
+      "fold_key": "54b762e754fd:fold=0",
+      "promoted_to_hard_constraints": 0,
+      "rejected_for_ambiguous_correspondence": 16,
+      "rejected_for_non_contrastiveness": 8,
+      "rejected_for_non_mechanical_detectability": 0,
+      "rejected_for_non_universality": 7,
+      "retained_as_soft_signals": 16,
+      "signature": {
+        "area_bin": "large",
+        "object_slice": "multi_object",
+        "query_input_hash": "0963609e100c289bba512841c030e1aef242559c3b505331c721f73f601122ec",
+        "query_shape": [
+          7,
+          7
+        ]
+      }
+    },
+    {
+      "candidate_independent_predicates_considered": 32,
+      "fold_key": "54b762e754fd:fold=1",
+      "promoted_to_hard_constraints": 0,
+      "rejected_for_ambiguous_correspondence": 32,
+      "rejected_for_non_contrastiveness": 10,
+      "rejected_for_non_mechanical_detectability": 0,
+      "rejected_for_non_universality": 18,
+      "retained_as_soft_signals": 32,
+      "signature": {
+        "area_bin": "large",
+        "object_slice": "multi_object",
+        "query_input_hash": "01a48190eb61c8b0b0df0aacab2ad293919f6951a30cf382e9f5659cc9865f7e",
+        "query_shape": [
+          12,
+          12
+        ]
+      }
+    },
+    {
+      "candidate_independent_predicates_considered": 32,
+      "fold_key": "54b762e754fd:fold=2",
+      "promoted_to_hard_constraints": 0,
+      "rejected_for_ambiguous_correspondence": 32,
+      "rejected_for_non_contrastiveness": 16,
+      "rejected_for_non_mechanical_detectability": 0,
+      "rejected_for_non_universality": 15,
+      "retained_as_soft_signals": 32,
+      "signature": {
+        "area_bin": "large",
+        "object_slice": "multi_object",
+        "query_input_hash": "bd8d5496889bfb135aaaf52804264f4c3aae4bb183bab65a24fa46ddadb39608",
+        "query_shape": [
+          17,
+          17
+        ]
+      }
+    },
+    {
+      "candidate_independent_predicates_considered": 16,
+      "fold_key": "54b762e754fd:fold=3",
+      "promoted_to_hard_constraints": 0,
+      "rejected_for_ambiguous_correspondence": 16,
+      "rejected_for_non_contrastiveness": 8,
+      "rejected_for_non_mechanical_detectability": 0,
+      "rejected_for_non_universality": 6,
+      "retained_as_soft_signals": 16,
+      "signature": {
+        "area_bin": "large",
+        "object_slice": "multi_object",
+        "query_input_hash": "9e4fc865688e8c746f44a9ffdf2b36c6c9e6070e6a6d80a5a1edfcb6c2315e7f",
+        "query_shape": [
+          10,
+          10
+        ]
+      }
+    },
+    {
+      "candidate_independent_predicates_considered": 16,
+      "fold_key": "54b762e754fd:fold=4",
+      "promoted_to_hard_constraints": 0,
+      "rejected_for_ambiguous_correspondence": 16,
+      "rejected_for_non_contrastiveness": 8,
+      "rejected_for_non_mechanical_detectability": 0,
+      "rejected_for_non_universality": 7,
+      "retained_as_soft_signals": 16,
+      "signature": {
+        "area_bin": "large",
+        "object_slice": "multi_object",
+        "query_input_hash": "7f135eb8b51f90c583c7887f4c29377bf006569e40b0e1b78063c0c266a49ae6",
+        "query_shape": [
+          9,
+          9
+        ]
+      }
+    },
+    {
+      "candidate_independent_predicates_considered": 8,
+      "fold_key": "66bff05f6a05:fold=0",
+      "promoted_to_hard_constraints": 0,
+      "rejected_for_ambiguous_correspondence": 8,
+      "rejected_for_non_contrastiveness": 8,
+      "rejected_for_non_mechanical_detectability": 0,
+      "rejected_for_non_universality": 0,
+      "retained_as_soft_signals": 8,
+      "signature": {
+        "area_bin": "medium",
+        "object_slice": "multi_object",
+        "query_input_hash": "ad38aa516176aea3ef50a3f5e530d895da16f2e2d43664f79099095163b29be8",
+        "query_shape": [
+          6,
+          7
+        ]
+      }
+    },
+    {
+      "candidate_independent_predicates_considered": 8,
+      "fold_key": "66bff05f6a05:fold=1",
+      "promoted_to_hard_constraints": 0,
+      "rejected_for_ambiguous_correspondence": 8,
+      "rejected_for_non_contrastiveness": 8,
+      "rejected_for_non_mechanical_detectability": 0,
+      "rejected_for_non_universality": 0,
+      "retained_as_soft_signals": 8,
+      "signature": {
+        "area_bin": "medium",
+        "object_slice": "multi_object",
+        "query_input_hash": "ac0991031fa25baaad13aa38827915e23039af18b3a4647f890070445c9fa784",
+        "query_shape": [
+          8,
+          7
+        ]
+      }
+    },
+    {
+      "candidate_independent_predicates_considered": 16,
+      "fold_key": "66bff05f6a05:fold=2",
+      "promoted_to_hard_constraints": 0,
+      "rejected_for_ambiguous_correspondence": 16,
+      "rejected_for_non_contrastiveness": 16,
+      "rejected_for_non_mechanical_detectability": 0,
+      "rejected_for_non_universality": 0,
+      "retained_as_soft_signals": 16,
+      "signature": {
+        "area_bin": "medium",
+        "object_slice": "multi_object",
+        "query_input_hash": "3f5c13bcd152af1e1682559556ab358b27255e0c5b51a42ed23e03efc27b2cf2",
+        "query_shape": [
+          8,
+          7
+        ]
+      }
+    },
+    {
+      "candidate_independent_predicates_considered": 8,
+      "fold_key": "66bff05f6a05:fold=3",
+      "promoted_to_hard_constraints": 0,
+      "rejected_for_ambiguous_correspondence": 8,
+      "rejected_for_non_contrastiveness": 8,
+      "rejected_for_non_mechanical_detectability": 0,
+      "rejected_for_non_universality": 0,
+      "retained_as_soft_signals": 8,
+      "signature": {
+        "area_bin": "medium",
+        "object_slice": "multi_object",
+        "query_input_hash": "7a6cee51f19fbb0f81931211dad6dbe76761a06517818b340de238a2e9ba8af1",
+        "query_shape": [
+          5,
+          4
+        ]
+      }
+    },
+    {
+      "candidate_independent_predicates_considered": 16,
+      "fold_key": "66bff05f6a05:fold=4",
+      "promoted_to_hard_constraints": 0,
+      "rejected_for_ambiguous_correspondence": 16,
+      "rejected_for_non_contrastiveness": 16,
+      "rejected_for_non_mechanical_detectability": 0,
+      "rejected_for_non_universality": 0,
+      "retained_as_soft_signals": 16,
+      "signature": {
+        "area_bin": "medium",
+        "object_slice": "multi_object",
+        "query_input_hash": "2f5d6ff7e01dbdf036e200134fb9be355881252e72285a05b254cf6f864eb62b",
+        "query_shape": [
+          6,
+          5
+        ]
+      }
+    },
+    {
+      "candidate_independent_predicates_considered": 16,
+      "fold_key": "66bff05f6a05:fold=5",
+      "promoted_to_hard_constraints": 0,
+      "rejected_for_ambiguous_correspondence": 16,
+      "rejected_for_non_contrastiveness": 16,
+      "rejected_for_non_mechanical_detectability": 0,
+      "rejected_for_non_universality": 0,
+      "retained_as_soft_signals": 16,
+      "signature": {
+        "area_bin": "medium",
+        "object_slice": "multi_object",
+        "query_input_hash": "879b2e824bbaa0b27e848b98eebe643eae6168e1ea1a61e27a77fc5a05558fb3",
+        "query_shape": [
+          8,
+          7
+        ]
+      }
+    },
+    {
+      "candidate_independent_predicates_considered": 8,
+      "fold_key": "66bff05f6a05:fold=6",
+      "promoted_to_hard_constraints": 0,
+      "rejected_for_ambiguous_correspondence": 8,
+      "rejected_for_non_contrastiveness": 8,
+      "rejected_for_non_mechanical_detectability": 0,
+      "rejected_for_non_universality": 0,
+      "retained_as_soft_signals": 8,
+      "signature": {
+        "area_bin": "medium",
+        "object_slice": "multi_object",
+        "query_input_hash": "36e83f212b7aeca2083e664c24677f960e5cec6e7b7bf27ba73b5ae2a364e335",
+        "query_shape": [
+          15,
+          15
+        ]
+      }
+    },
+    {
+      "candidate_independent_predicates_considered": 8,
+      "fold_key": "a69db6bd21bc:fold=0",
+      "promoted_to_hard_constraints": 4,
+      "rejected_for_ambiguous_correspondence": 0,
+      "rejected_for_non_contrastiveness": 4,
+      "rejected_for_non_mechanical_detectability": 0,
+      "rejected_for_non_universality": 0,
+      "retained_as_soft_signals": 4,
+      "signature": {
+        "area_bin": "large",
+        "object_slice": "one_object",
+        "query_input_hash": "1018deaf34a743e0888798cd936031a43843ba19f2a9f17602235a6c1854bfd1",
+        "query_shape": [
+          16,
+          16
+        ]
+      }
+    },
+    {
+      "candidate_independent_predicates_considered": 16,
+      "fold_key": "a69db6bd21bc:fold=1",
+      "promoted_to_hard_constraints": 5,
+      "rejected_for_ambiguous_correspondence": 0,
+      "rejected_for_non_contrastiveness": 8,
+      "rejected_for_non_mechanical_detectability": 0,
+      "rejected_for_non_universality": 5,
+      "retained_as_soft_signals": 11,
+      "signature": {
+        "area_bin": "large",
+        "object_slice": "one_object",
+        "query_input_hash": "9e9f13e993c8b35feac3d517865ed062f65420ed2c47b96998de234b08acfe6a",
+        "query_shape": [
+          6,
+          6
+        ]
+      }
+    },
+    {
+      "candidate_independent_predicates_considered": 8,
+      "fold_key": "a69db6bd21bc:fold=2",
+      "promoted_to_hard_constraints": 4,
+      "rejected_for_ambiguous_correspondence": 0,
+      "rejected_for_non_contrastiveness": 4,
+      "rejected_for_non_mechanical_detectability": 0,
+      "rejected_for_non_universality": 0,
+      "retained_as_soft_signals": 4,
+      "signature": {
+        "area_bin": "large",
+        "object_slice": "one_object",
+        "query_input_hash": "8ba59c55ea80f8fff7556d81bc890bff27a906aca949a41310ebc3539be85b55",
+        "query_shape": [
+          19,
+          19
+        ]
+      }
+    },
+    {
+      "candidate_independent_predicates_considered": 8,
+      "fold_key": "a69db6bd21bc:fold=3",
+      "promoted_to_hard_constraints": 4,
+      "rejected_for_ambiguous_correspondence": 0,
+      "rejected_for_non_contrastiveness": 4,
+      "rejected_for_non_mechanical_detectability": 0,
+      "rejected_for_non_universality": 0,
+      "retained_as_soft_signals": 4,
+      "signature": {
+        "area_bin": "large",
+        "object_slice": "one_object",
+        "query_input_hash": "0c747351326eb001bc5df352a0fc3cd26f6449fad2c73637e5f16a0230af6119",
+        "query_shape": [
+          13,
+          13
+        ]
+      }
+    },
+    {
+      "candidate_independent_predicates_considered": 16,
+      "fold_key": "bbff85487300:fold=0",
+      "promoted_to_hard_constraints": 0,
+      "rejected_for_ambiguous_correspondence": 16,
+      "rejected_for_non_contrastiveness": 0,
+      "rejected_for_non_mechanical_detectability": 0,
+      "rejected_for_non_universality": 12,
+      "retained_as_soft_signals": 16,
+      "signature": {
+        "area_bin": "large",
+        "object_slice": "multi_object",
+        "query_input_hash": "22c1fe81d726f58b7cc2cd61a8b5cc208ce6b18e52a230ba8ff9af7fe21c4ca8",
+        "query_shape": [
+          14,
+          14
+        ]
+      }
+    },
+    {
+      "candidate_independent_predicates_considered": 16,
+      "fold_key": "bbff85487300:fold=1",
+      "promoted_to_hard_constraints": 0,
+      "rejected_for_ambiguous_correspondence": 16,
+      "rejected_for_non_contrastiveness": 0,
+      "rejected_for_non_mechanical_detectability": 0,
+      "rejected_for_non_universality": 12,
+      "retained_as_soft_signals": 16,
+      "signature": {
+        "area_bin": "large",
+        "object_slice": "multi_object",
+        "query_input_hash": "e9b50a98e5b73d00fcb2fed2251e7f02afecfe7352ebea74a86df2cfba26a68e",
+        "query_shape": [
+          16,
+          13
+        ]
+      }
+    },
+    {
+      "candidate_independent_predicates_considered": 16,
+      "fold_key": "bbff85487300:fold=2",
+      "promoted_to_hard_constraints": 0,
+      "rejected_for_ambiguous_correspondence": 16,
+      "rejected_for_non_contrastiveness": 0,
+      "rejected_for_non_mechanical_detectability": 0,
+      "rejected_for_non_universality": 12,
+      "retained_as_soft_signals": 16,
+      "signature": {
+        "area_bin": "large",
+        "object_slice": "multi_object",
+        "query_input_hash": "c995c4461aa39cf1b448f3ed7c9455704ce5df14d8a733bf0e5bb3ae2867ff25",
+        "query_shape": [
+          8,
+          9
+        ]
+      }
+    },
+    {
+      "candidate_independent_predicates_considered": 16,
+      "fold_key": "bbff85487300:fold=3",
+      "promoted_to_hard_constraints": 0,
+      "rejected_for_ambiguous_correspondence": 16,
+      "rejected_for_non_contrastiveness": 0,
+      "rejected_for_non_mechanical_detectability": 0,
+      "rejected_for_non_universality": 12,
+      "retained_as_soft_signals": 16,
+      "signature": {
+        "area_bin": "large",
+        "object_slice": "multi_object",
+        "query_input_hash": "ad4fe29de7f196a1285b86fd76f3c4db627f325d78962080a88d3e309e3c8d8a",
+        "query_shape": [
+          14,
+          5
+        ]
+      }
+    },
+    {
+      "candidate_independent_predicates_considered": 32,
+      "fold_key": "bbff85487300:fold=4",
+      "promoted_to_hard_constraints": 0,
+      "rejected_for_ambiguous_correspondence": 32,
+      "rejected_for_non_contrastiveness": 16,
+      "rejected_for_non_mechanical_detectability": 0,
+      "rejected_for_non_universality": 12,
+      "retained_as_soft_signals": 32,
+      "signature": {
+        "area_bin": "large",
+        "object_slice": "multi_object",
+        "query_input_hash": "01927cd05f1b3a2a6c5661cb4033bc93c908470ea560fae0e45319ee965de8d7",
+        "query_shape": [
+          8,
+          20
+        ]
+      }
+    },
+    {
+      "candidate_independent_predicates_considered": 16,
+      "fold_key": "bbff85487300:fold=5",
+      "promoted_to_hard_constraints": 0,
+      "rejected_for_ambiguous_correspondence": 16,
+      "rejected_for_non_contrastiveness": 0,
+      "rejected_for_non_mechanical_detectability": 0,
+      "rejected_for_non_universality": 12,
+      "retained_as_soft_signals": 16,
+      "signature": {
+        "area_bin": "large",
+        "object_slice": "multi_object",
+        "query_input_hash": "5320c535e08e44c71e008a5aa944cac1db08a10cd9a518af67ff3a0b8b3506d9",
+        "query_shape": [
+          15,
+          16
+        ]
+      }
+    },
+    {
+      "candidate_independent_predicates_considered": 8,
+      "fold_key": "e90439a0e159:fold=0",
+      "promoted_to_hard_constraints": 2,
+      "rejected_for_ambiguous_correspondence": 0,
+      "rejected_for_non_contrastiveness": 3,
+      "rejected_for_non_mechanical_detectability": 0,
+      "rejected_for_non_universality": 3,
+      "retained_as_soft_signals": 6,
+      "signature": {
+        "area_bin": "medium",
+        "object_slice": "multi_object",
+        "query_input_hash": "3a7272ae23d9866597f9eae105bc55483da06204d9db54228aa26023c685d7d9",
+        "query_shape": [
+          9,
+          6
+        ]
+      }
+    },
+    {
+      "candidate_independent_predicates_considered": 8,
+      "fold_key": "e90439a0e159:fold=1",
+      "promoted_to_hard_constraints": 2,
+      "rejected_for_ambiguous_correspondence": 0,
+      "rejected_for_non_contrastiveness": 3,
+      "rejected_for_non_mechanical_detectability": 0,
+      "rejected_for_non_universality": 3,
+      "retained_as_soft_signals": 6,
+      "signature": {
+        "area_bin": "medium",
+        "object_slice": "multi_object",
+        "query_input_hash": "c35901c786e3649ffea3c6e8c55ce0ba878ae9db9c635d4199b929d323231ae2",
+        "query_shape": [
+          3,
+          3
+        ]
+      }
+    },
+    {
+      "candidate_independent_predicates_considered": 8,
+      "fold_key": "e90439a0e159:fold=2",
+      "promoted_to_hard_constraints": 2,
+      "rejected_for_ambiguous_correspondence": 0,
+      "rejected_for_non_contrastiveness": 3,
+      "rejected_for_non_mechanical_detectability": 0,
+      "rejected_for_non_universality": 3,
+      "retained_as_soft_signals": 6,
+      "signature": {
+        "area_bin": "medium",
+        "object_slice": "multi_object",
+        "query_input_hash": "2efd4da9addf0a4134f1f5f101e529073d8cf5a6854ae7f62fe1e7528e129484",
+        "query_shape": [
+          7,
+          6
+        ]
+      }
+    },
+    {
+      "candidate_independent_predicates_considered": 8,
+      "fold_key": "e90439a0e159:fold=3",
+      "promoted_to_hard_constraints": 2,
+      "rejected_for_ambiguous_correspondence": 0,
+      "rejected_for_non_contrastiveness": 3,
+      "rejected_for_non_mechanical_detectability": 0,
+      "rejected_for_non_universality": 3,
+      "retained_as_soft_signals": 6,
+      "signature": {
+        "area_bin": "medium",
+        "object_slice": "multi_object",
+        "query_input_hash": "d1a84b9cd6eacaadcb998c63906a13d929ae31543823da1253c462aaee369347",
+        "query_shape": [
+          12,
+          11
+        ]
+      }
+    },
+    {
+      "candidate_independent_predicates_considered": 8,
+      "fold_key": "e90439a0e159:fold=4",
+      "promoted_to_hard_constraints": 2,
+      "rejected_for_ambiguous_correspondence": 0,
+      "rejected_for_non_contrastiveness": 3,
+      "rejected_for_non_mechanical_detectability": 0,
+      "rejected_for_non_universality": 3,
+      "retained_as_soft_signals": 6,
+      "signature": {
+        "area_bin": "medium",
+        "object_slice": "multi_object",
+        "query_input_hash": "5b986561163ee692fb5da766126dc5fbc4684858ef4a5d0bdfd1b4d0d5fd6c95",
+        "query_shape": [
+          12,
+          11
+        ]
+      }
+    },
+    {
+      "candidate_independent_predicates_considered": 8,
+      "fold_key": "e90439a0e159:fold=5",
+      "promoted_to_hard_constraints": 2,
+      "rejected_for_ambiguous_correspondence": 0,
+      "rejected_for_non_contrastiveness": 3,
+      "rejected_for_non_mechanical_detectability": 0,
+      "rejected_for_non_universality": 3,
+      "retained_as_soft_signals": 6,
+      "signature": {
+        "area_bin": "medium",
+        "object_slice": "multi_object",
+        "query_input_hash": "ecbb836f1aaf274f97aaf1bea5c67c34d5f142339a46332d8ba99e0d47a2fbe8",
+        "query_shape": [
+          5,
+          6
+        ]
+      }
+    },
+    {
+      "candidate_independent_predicates_considered": 8,
+      "fold_key": "e90439a0e159:fold=6",
+      "promoted_to_hard_constraints": 2,
+      "rejected_for_ambiguous_correspondence": 0,
+      "rejected_for_non_contrastiveness": 3,
+      "rejected_for_non_mechanical_detectability": 0,
+      "rejected_for_non_universality": 3,
+      "retained_as_soft_signals": 6,
+      "signature": {
+        "area_bin": "medium",
+        "object_slice": "multi_object",
+        "query_input_hash": "b1a14395a2e2decc9ad6d9f95817daf24ee82b0c3bc924337163b0f34f6b3534",
+        "query_shape": [
+          7,
+          13
+        ]
+      }
+    },
+    {
+      "candidate_independent_predicates_considered": 8,
+      "fold_key": "e90439a0e159:fold=7",
+      "promoted_to_hard_constraints": 2,
+      "rejected_for_ambiguous_correspondence": 0,
+      "rejected_for_non_contrastiveness": 3,
+      "rejected_for_non_mechanical_detectability": 0,
+      "rejected_for_non_universality": 3,
+      "retained_as_soft_signals": 6,
+      "signature": {
+        "area_bin": "medium",
+        "object_slice": "multi_object",
+        "query_input_hash": "fa00d267dc817f3933c55fd831f993ad9708abdd72972bf8663c127c839b1188",
+        "query_shape": [
+          10,
+          11
+        ]
+      }
+    },
+    {
+      "candidate_independent_predicates_considered": 8,
+      "fold_key": "ec85552b4473:fold=0",
+      "promoted_to_hard_constraints": 2,
+      "rejected_for_ambiguous_correspondence": 0,
+      "rejected_for_non_contrastiveness": 4,
+      "rejected_for_non_mechanical_detectability": 0,
+      "rejected_for_non_universality": 3,
+      "retained_as_soft_signals": 6,
+      "signature": {
+        "area_bin": "medium",
+        "object_slice": "multi_object",
+        "query_input_hash": "e9ead9dc37235a45a26c1fb5d4dd8e0d8879b359e48eefd4d4b8da6ed297980e",
+        "query_shape": [
+          11,
+          11
+        ]
+      }
+    },
+    {
+      "candidate_independent_predicates_considered": 8,
+      "fold_key": "ec85552b4473:fold=1",
+      "promoted_to_hard_constraints": 2,
+      "rejected_for_ambiguous_correspondence": 0,
+      "rejected_for_non_contrastiveness": 3,
+      "rejected_for_non_mechanical_detectability": 0,
+      "rejected_for_non_universality": 3,
+      "retained_as_soft_signals": 6,
+      "signature": {
+        "area_bin": "medium",
+        "object_slice": "multi_object",
+        "query_input_hash": "f340855927add301f1d62d4c94c84d82bc2df7f03ba918aa5b35b37830f875ad",
+        "query_shape": [
+          10,
+          10
+        ]
+      }
+    },
+    {
+      "candidate_independent_predicates_considered": 8,
+      "fold_key": "ec85552b4473:fold=2",
+      "promoted_to_hard_constraints": 2,
+      "rejected_for_ambiguous_correspondence": 0,
+      "rejected_for_non_contrastiveness": 3,
+      "rejected_for_non_mechanical_detectability": 0,
+      "rejected_for_non_universality": 3,
+      "retained_as_soft_signals": 6,
+      "signature": {
+        "area_bin": "medium",
+        "object_slice": "multi_object",
+        "query_input_hash": "ec679c7f15e63efd5c926af5baadcb5c6a5a29a2c18f80d6d5b25241ee9eedc5",
+        "query_shape": [
+          10,
+          10
+        ]
+      }
+    },
+    {
+      "candidate_independent_predicates_considered": 8,
+      "fold_key": "ec85552b4473:fold=3",
+      "promoted_to_hard_constraints": 2,
+      "rejected_for_ambiguous_correspondence": 0,
+      "rejected_for_non_contrastiveness": 3,
+      "rejected_for_non_mechanical_detectability": 0,
+      "rejected_for_non_universality": 3,
+      "retained_as_soft_signals": 6,
+      "signature": {
+        "area_bin": "medium",
+        "object_slice": "multi_object",
+        "query_input_hash": "a65b963e8490d92d82b62b1437e0ce48b0350f93079b0e35fd4c86ab94a8153a",
+        "query_shape": [
+          11,
+          11
+        ]
+      }
+    },
+    {
+      "candidate_independent_predicates_considered": 8,
+      "fold_key": "ec85552b4473:fold=4",
+      "promoted_to_hard_constraints": 2,
+      "rejected_for_ambiguous_correspondence": 0,
+      "rejected_for_non_contrastiveness": 3,
+      "rejected_for_non_mechanical_detectability": 0,
+      "rejected_for_non_universality": 3,
+      "retained_as_soft_signals": 6,
+      "signature": {
+        "area_bin": "medium",
+        "object_slice": "multi_object",
+        "query_input_hash": "f67ecb7b594e8be8085c14e5b7a8660196961a96533f2d91810911272b78b557",
+        "query_shape": [
+          10,
+          10
+        ]
+      }
+    },
+    {
+      "candidate_independent_predicates_considered": 8,
+      "fold_key": "ec85552b4473:fold=5",
+      "promoted_to_hard_constraints": 2,
+      "rejected_for_ambiguous_correspondence": 0,
+      "rejected_for_non_contrastiveness": 3,
+      "rejected_for_non_mechanical_detectability": 0,
+      "rejected_for_non_universality": 3,
+      "retained_as_soft_signals": 6,
+      "signature": {
+        "area_bin": "medium",
+        "object_slice": "multi_object",
+        "query_input_hash": "1dd1c309e141fe77dd5a85b235307c73877d947131b70960d47622ceea612b12",
+        "query_shape": [
+          9,
+          9
+        ]
+      }
+    }
+  ]
+}

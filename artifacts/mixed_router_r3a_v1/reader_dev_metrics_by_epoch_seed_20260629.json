@@ -1,0 +1,125 @@
+{
+  "epochs": [
+    {
+      "all_permutation_same_final_grid_rate": null,
+      "all_permutation_same_logical_pair_rate": null,
+      "direct_grid_exact_accuracy": 1.0,
+      "episode_count": 3000,
+      "epoch_index": 0,
+      "foreground_color_accuracy": 1.0,
+      "global_step": 94,
+      "mean_relevant_pair_mass": 0.9999938040971756,
+      "permutation_presentation_count": 0,
+      "retrieval_top1_accuracy": 1.0
+    },
+    {
+      "all_permutation_same_final_grid_rate": null,
+      "all_permutation_same_logical_pair_rate": null,
+      "direct_grid_exact_accuracy": 1.0,
+      "episode_count": 3000,
+      "epoch_index": 1,
+      "foreground_color_accuracy": 1.0,
+      "global_step": 188,
+      "mean_relevant_pair_mass": 0.9999951388041178,
+      "permutation_presentation_count": 0,
+      "retrieval_top1_accuracy": 1.0
+    },
+    {
+      "all_permutation_same_final_grid_rate": null,
+      "all_permutation_same_logical_pair_rate": null,
+      "direct_grid_exact_accuracy": 1.0,
+      "episode_count": 3000,
+      "epoch_index": 2,
+      "foreground_color_accuracy": 1.0,
+      "global_step": 282,
+      "mean_relevant_pair_mass": 0.9999961197376251,
+      "permutation_presentation_count": 0,
+      "retrieval_top1_accuracy": 1.0
+    },
+    {
+      "all_permutation_same_final_grid_rate": null,
+      "all_permutation_same_logical_pair_rate": null,
+      "direct_grid_exact_accuracy": 1.0,
+      "episode_count": 3000,
+      "epoch_index": 3,
+      "foreground_color_accuracy": 1.0,
+      "global_step": 376,
+      "mean_relevant_pair_mass": 0.9999968498945236,
+      "permutation_presentation_count": 0,
+      "retrieval_top1_accuracy": 1.0
+    },
+    {
+      "all_permutation_same_final_grid_rate": null,
+      "all_permutation_same_logical_pair_rate": null,
+      "direct_grid_exact_accuracy": 1.0,
+      "episode_count": 3000,
+      "epoch_index": 4,
+      "foreground_color_accuracy": 1.0,
+      "global_step": 470,
+      "mean_relevant_pair_mass": 0.9999974340200424,
+      "permutation_presentation_count": 0,
+      "retrieval_top1_accuracy": 1.0
+    },
+    {
+      "all_permutation_same_final_grid_rate": null,
+      "all_permutation_same_logical_pair_rate": null,
+      "direct_grid_exact_accuracy": 1.0,
+      "episode_count": 3000,
+      "epoch_index": 5,
+      "foreground_color_accuracy": 1.0,
+      "global_step": 564,
+      "mean_relevant_pair_mass": 0.9999979142745336,
+      "permutation_presentation_count": 0,
+      "retrieval_top1_accuracy": 1.0
+    },
+    {
+      "all_permutation_same_final_grid_rate": null,
+      "all_permutation_same_logical_pair_rate": null,
+      "direct_grid_exact_accuracy": 1.0,
+      "episode_count": 3000,
+      "epoch_index": 6,
+      "foreground_color_accuracy": 1.0,
+      "global_step": 658,
+      "mean_relevant_pair_mass": 0.9999980177084605,
+      "permutation_presentation_count": 0,
+      "retrieval_top1_accuracy": 1.0
+    },
+    {
+      "all_permutation_same_final_grid_rate": null,
+      "all_permutation_same_logical_pair_rate": null,
+      "direct_grid_exact_accuracy": 1.0,
+      "episode_count": 3000,
+      "epoch_index": 7,
+      "foreground_color_accuracy": 1.0,
+      "global_step": 752,
+      "mean_relevant_pair_mass": 0.9999979977210363,
+      "permutation_presentation_count": 0,
+      "retrieval_top1_accuracy": 1.0
+    },
+    {
+      "all_permutation_same_final_grid_rate": null,
+      "all_permutation_same_logical_pair_rate": null,
+      "direct_grid_exact_accuracy": 1.0,
+      "episode_count": 3000,
+      "epoch_index": 8,
+      "foreground_color_accuracy": 1.0,
+      "global_step": 846,
+      "mean_relevant_pair_mass": 0.9999980177084605,
+      "permutation_presentation_count": 0,
+      "retrieval_top1_accuracy": 1.0
+    },
+    {
+      "all_permutation_same_final_grid_rate": null,
+      "all_permutation_same_logical_pair_rate": null,
+      "direct_grid_exact_accuracy": 1.0,
+      "episode_count": 3000,
+      "epoch_index": 9,
+      "foreground_color_accuracy": 1.0,
+      "global_step": 940,
+      "mean_relevant_pair_mass": 0.9999980177084605,
+      "permutation_presentation_count": 0,
+      "retrieval_top1_accuracy": 1.0
+    }
+  ],
+  "seed": 20260629
+}

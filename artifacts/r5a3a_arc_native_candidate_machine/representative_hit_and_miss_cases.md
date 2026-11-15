@@ -1,0 +1,102 @@
+# R5A-3A Representative Hit And Miss Cases
+
+## Hit evaluation:b6f77b65 fold 0 rank 4
+```text
+900000000000
+000000000000
+000051111000
+000050001000
+000050001000
+006333055700
+006003050700
+006003050700
+042222222270
+040000000070
+040000000070
+040000000070
+```
+
+## Hit test:1cf80156 fold 0 rank 1
+```text
+100
+110
+010
+111
+001
+```
+
+## Hit test:1cf80156 fold 1 rank 1
+```text
+0222
+0020
+2220
+2020
+```
+
+## Hit test:1cf80156 fold 2 rank 1
+```text
+08080
+88880
+00088
+```
+
+## Hit test:22eb0ac0 fold 2 rank 1
+```text
+0000000000
+2000000008
+0000000000
+3000000004
+0000000000
+5000000003
+0000000000
+8000000002
+0000000000
+0000000000
+```
+
+## Misses
+### Miss evaluation:0934a4d8 fold 0 candidates 7
+```text
+9964
+2694
+2694
+9964
+9921
+6999
+4191
+4994
+9439
+```
+
+### Miss evaluation:0934a4d8 fold 1 candidates 7
+```text
+31444
+34144
+66335
+43523
+```
+
+### Miss evaluation:0934a4d8 fold 2 candidates 7
+```text
+3744447
+6779977
+7697796
+```
+
+### Miss evaluation:0934a4d8 fold 3 candidates 7
+```text
+6966
+9399
+3499
+1941
+```
+
+### Miss evaluation:135a2760 fold 0 candidates 7
+```text
+3333333333333
+3222222222223
+3213131313123
+3222222222223
+3333333333333
+```
+

@@ -1,0 +1,167 @@
+{
+  "attrition_breakdown": {
+    "cross_expert_conflict": 0,
+    "grid_size": 1353,
+    "no_unique_topology_hypothesis": 0,
+    "palette_range": 1,
+    "query_count": 135,
+    "raw_interface_rejection": 0,
+    "runtime_interface_rejection": 0,
+    "strict_LOO_mismatch": 0,
+    "support_pair_count": 5
+  },
+  "audit_version": "R5A2D_R1_FROZEN_LIBRARY_ARC_NATIVE_COVERAGE_AUDIT",
+  "corpus_manifest_sha256": "a712951a54f0d1c6701024e0c9298d04a6a04a0c8770afc997be61aef8f5c911",
+  "corpus_name": "arc-prize-2026-arc-agi-2",
+  "corpus_root_relative_or_configured_path": "arc-prize-2026-arc-agi-2",
+  "coverage_lost_after_topology_execution_wrong_hidden_output": 0,
+  "coverage_lost_due_to_frozen_grid_palette_support_count_contract": {
+    "grid_or_palette_ineligible": 1354,
+    "support_count_ineligible_for_topology_LOO": 6
+  },
+  "mandatory_topology_funnel": [
+    {
+      "absolute_task_count": 1360,
+      "denominator": 1360,
+      "numerator": 1360,
+      "rate": 1.0,
+      "stage": "all corpus tasks"
+    },
+    {
+      "absolute_task_count": 7,
+      "denominator": 1360,
+      "numerator": 7,
+      "rate": 0.005147058823529412,
+      "stage": "topology raw grid-size eligible"
+    },
+    {
+      "absolute_task_count": 6,
+      "denominator": 7,
+      "numerator": 6,
+      "rate": 0.8571428571428571,
+      "stage": "topology raw palette eligible"
+    },
+    {
+      "absolute_task_count": 3,
+      "denominator": 6,
+      "numerator": 3,
+      "rate": 0.5,
+      "stage": "topology raw support-count eligible for full support"
+    },
+    {
+      "absolute_task_count": 0,
+      "denominator": 3,
+      "numerator": 0,
+      "rate": 0.0,
+      "stage": "topology full-support fit"
+    },
+    {
+      "absolute_task_count": 0,
+      "denominator": 6,
+      "numerator": 0,
+      "rate": 0.0,
+      "stage": "topology LOO feasible under frozen support contract"
+    },
+    {
+      "absolute_task_count": 0,
+      "denominator": 0,
+      "numerator": 0,
+      "rate": 0.0,
+      "stage": "topology LOO attempted"
+    },
+    {
+      "absolute_task_count": 0,
+      "denominator": 0,
+      "numerator": 0,
+      "rate": 0.0,
+      "stage": "topology LOO failed after execution"
+    },
+    {
+      "absolute_task_count": 0,
+      "denominator": 0,
+      "numerator": 0,
+      "rate": 0.0,
+      "stage": "topology strict LOO validated"
+    }
+  ],
+  "overall_funnel": [
+    {
+      "absolute_task_count": 1360,
+      "denominator": 1360,
+      "numerator": 1360,
+      "rate": 1.0,
+      "stage": "all tasks"
+    },
+    {
+      "absolute_task_count": 1360,
+      "denominator": 1360,
+      "numerator": 1360,
+      "rate": 1.0,
+      "stage": "identity applicable"
+    },
+    {
+      "absolute_task_count": 6,
+      "denominator": 1360,
+      "numerator": 6,
+      "rate": 0.004411764705882353,
+      "stage": "V2 raw-domain applicable"
+    },
+    {
+      "absolute_task_count": 5,
+      "denominator": 1360,
+      "numerator": 5,
+      "rate": 0.003676470588235294,
+      "stage": "topology raw-domain applicable"
+    },
+    {
+      "absolute_task_count": 6,
+      "denominator": 1360,
+      "numerator": 6,
+      "rate": 0.004411764705882353,
+      "stage": "full-support reproduction attempted"
+    },
+    {
+      "absolute_task_count": 0,
+      "denominator": 1360,
+      "numerator": 0,
+      "rate": 0.0,
+      "stage": "full-support fit"
+    },
+    {
+      "absolute_task_count": 1360,
+      "denominator": 1360,
+      "numerator": 1360,
+      "rate": 1.0,
+      "stage": "strict LOO feasible"
+    },
+    {
+      "absolute_task_count": 1360,
+      "denominator": 1360,
+      "numerator": 1360,
+      "rate": 1.0,
+      "stage": "strict LOO attempted"
+    },
+    {
+      "absolute_task_count": 0,
+      "denominator": 1360,
+      "numerator": 0,
+      "rate": 0.0,
+      "stage": "strict LOO validated"
+    },
+    {
+      "absolute_task_count": 0,
+      "denominator": 1360,
+      "numerator": 0,
+      "rate": 0.0,
+      "stage": "cross-expert agreement eligible"
+    },
+    {
+      "absolute_task_count": 0,
+      "denominator": 1360,
+      "numerator": 0,
+      "rate": 0.0,
+      "stage": "unrouted agreement union"
+    }
+  ],
+  "task_count": 1360
+}

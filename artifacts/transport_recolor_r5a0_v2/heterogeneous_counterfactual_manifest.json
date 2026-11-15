@@ -1,0 +1,18 @@
+{
+  "bad_group_count": 0,
+  "bad_group_examples": [],
+  "episode_count": 8000,
+  "group_count": 1000,
+  "passed": true,
+  "required_contexts_or_classes": [
+    "C->K",
+    "C->L",
+    "H->K",
+    "H->L",
+    "K->C",
+    "K->V",
+    "L->C",
+    "L->H"
+  ],
+  "required_group_count": 1000
+}

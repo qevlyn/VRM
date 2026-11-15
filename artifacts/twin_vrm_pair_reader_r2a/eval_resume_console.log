@@ -1,0 +1,27 @@
+{
+  "device": "cuda",
+  "gpu_name": "NVIDIA GeForce RTX 4070 Ti SUPER",
+  "gpu_total_memory_bytes": 17170956288,
+  "platform": "Linux-6.18.33.1-microsoft-standard-WSL2-x86_64-with-glibc2.43",
+  "python": "3.14.4 (main, Apr  8 2026, 04:02:31) [GCC 15.2.0]",
+  "torch": "2.12.1+cu130",
+  "torch_cuda_build": "13.0",
+  "torch_cuda_is_available": true,
+  "torch_threads": 16
+}
+{
+  "aggregate": {
+    "all_seed_gates_passed": true,
+    "failed_gates_by_seed": {},
+    "mean_seed_mean_gate": 1.0,
+    "mean_seed_normal_exact": 1.0,
+    "mean_seed_reader_disabled_change_rate": 1.0,
+    "mean_seed_swap_rate": 1.0,
+    "min_seed_mean_gate": 1.0,
+    "min_seed_normal_exact": 1.0,
+    "min_seed_reader_disabled_change_rate": 1.0,
+    "min_seed_swap_rate": 1.0
+  },
+  "eval_only_resume": true,
+  "verdict": "R2A_PASS"
+}

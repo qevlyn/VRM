@@ -1,0 +1,61 @@
+{
+  "cases": [
+    {
+      "case_id": "1f876c06_adjacent_0_1",
+      "collision_witness_fail_count": 0,
+      "first_failure": null,
+      "identity_alias_class_count": 2776,
+      "permuted_alias_class_count": 30,
+      "status": "SEMANTIC_STATE_ACTION_CERTIFIED"
+    },
+    {
+      "case_id": "1f876c06_adjacent_1_2",
+      "collision_witness_fail_count": 0,
+      "first_failure": null,
+      "identity_alias_class_count": 2776,
+      "permuted_alias_class_count": 30,
+      "status": "SEMANTIC_STATE_ACTION_CERTIFIED"
+    },
+    {
+      "case_id": "604001fa_adjacent_0_1",
+      "collision_witness_fail_count": 0,
+      "first_failure": null,
+      "identity_alias_class_count": 2776,
+      "permuted_alias_class_count": 30,
+      "status": "SEMANTIC_STATE_ACTION_CERTIFIED"
+    },
+    {
+      "case_id": "604001fa_adjacent_1_2",
+      "collision_witness_fail_count": 0,
+      "first_failure": null,
+      "identity_alias_class_count": 2776,
+      "permuted_alias_class_count": 30,
+      "status": "SEMANTIC_STATE_ACTION_CERTIFIED"
+    },
+    {
+      "case_id": "604001fa_adjacent_2_3",
+      "collision_witness_fail_count": 0,
+      "first_failure": null,
+      "identity_alias_class_count": 2776,
+      "permuted_alias_class_count": 30,
+      "status": "SEMANTIC_STATE_ACTION_CERTIFIED"
+    },
+    {
+      "case_id": "synthetic_uniform_shape_oracle_adjacent_0_1",
+      "collision_witness_fail_count": 0,
+      "first_failure": null,
+      "identity_alias_class_count": 2776,
+      "permuted_alias_class_count": 30,
+      "status": "SEMANTIC_STATE_ACTION_CERTIFIED"
+    },
+    {
+      "case_id": "synthetic_uniform_shape_oracle_adjacent_1_2",
+      "collision_witness_fail_count": 0,
+      "first_failure": null,
+      "identity_alias_class_count": 2776,
+      "permuted_alias_class_count": 30,
+      "status": "SEMANTIC_STATE_ACTION_CERTIFIED"
+    }
+  ],
+  "created_utc": "2026-07-04T05:04:39Z"
+}

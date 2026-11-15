@@ -1,0 +1,17 @@
+{
+  "batch_size": 128,
+  "checkpoint_out": "/mnt/d/VRM/checkpoints/composition_r4a0r_v2",
+  "cpu_fallback": false,
+  "cuda_required": true,
+  "data_out": "/mnt/d/VRM/artifacts/composition_r4a0r_v2",
+  "epochs": 10,
+  "learning_rate": 0.0003,
+  "max_batches": 4,
+  "mode": "full",
+  "seeds": [
+    20260628,
+    20260629,
+    20260630
+  ],
+  "weight_decay": 0.01
+}

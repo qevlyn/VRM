@@ -1,0 +1,76 @@
+{
+  "pre_run_patch_hashes_checked_before_inference": true,
+  "rows": [
+    {
+      "expected_sha256": "59cb6e65aaeb39432f143263608d692d558ad532d5e29b0b5ccbf403e1fdb43e",
+      "name": "initial_checkpoint",
+      "ok": true,
+      "path": "/mnt/d/VRM/artifacts/r5a4a_neural_vrm_arc_grounded_preflight/initial_state_before_any_optimizer_step.pt",
+      "sha256": "59cb6e65aaeb39432f143263608d692d558ad532d5e29b0b5ccbf403e1fdb43e"
+    },
+    {
+      "expected_sha256": "19d2b4b0ef225e3a3a2e83e6b42f2100333cee24e38b4b49c36520578ded850e",
+      "name": "selected_checkpoint",
+      "ok": true,
+      "path": "/mnt/d/VRM/artifacts/r5a4a_neural_vrm_arc_grounded_preflight/selected_trained_state.pt",
+      "sha256": "19d2b4b0ef225e3a3a2e83e6b42f2100333cee24e38b4b49c36520578ded850e"
+    },
+    {
+      "expected_sha256": "7a6f5d12625e36c125d21c7f39101f927a81be3c853e7e47a4d21811ff8f8ac4",
+      "name": "sentinel_manifest",
+      "ok": true,
+      "path": "/mnt/d/VRM/artifacts/r5a4a_neural_vrm_arc_grounded_preflight/arc_sentinel_manifest.json",
+      "sha256": "7a6f5d12625e36c125d21c7f39101f927a81be3c853e7e47a4d21811ff8f8ac4"
+    },
+    {
+      "expected_sha256": "f384d23c30305e0e3bedeb91b1740b5325ccb4830516dc1a795798219ed77b5d",
+      "name": "model_interface_audit",
+      "ok": true,
+      "path": "/mnt/d/VRM/artifacts/r5a4a_neural_vrm_arc_grounded_preflight/model_interface_audit.json",
+      "sha256": "f384d23c30305e0e3bedeb91b1740b5325ccb4830516dc1a795798219ed77b5d"
+    },
+    {
+      "expected_sha256": "8eaafd3fa0ce1fe490c2979cc4a0990ad9ea169e5a941d0356e8c883872731c4",
+      "name": "patch_metrics_source",
+      "ok": true,
+      "path": "/mnt/d/VRM/vrm/twin_tasks/r5a4b_prerun_patch_metrics.py",
+      "sha256": "8eaafd3fa0ce1fe490c2979cc4a0990ad9ea169e5a941d0356e8c883872731c4"
+    },
+    {
+      "expected_sha256": "d9857b4638db13c0188a0acf5068208be7fc6bdfdd28ce778616f7ba6315f554",
+      "name": "patch_runner_source",
+      "ok": true,
+      "path": "/mnt/d/VRM/vrm/twin_tasks/run_r5a4b_prerun_patch.py",
+      "sha256": "d9857b4638db13c0188a0acf5068208be7fc6bdfdd28ce778616f7ba6315f554"
+    },
+    {
+      "expected_sha256": "fb0854d5c35fc6f7cee16307b58e739357a1b34511ff04a67ec35b5916a36ec9",
+      "name": "patch_shape_regime_metrics",
+      "ok": true,
+      "path": "/mnt/d/VRM/artifacts/r5a4b_neural_vrm_prerun_patch/shape_regime_metrics.json",
+      "sha256": "fb0854d5c35fc6f7cee16307b58e739357a1b34511ff04a67ec35b5916a36ec9"
+    },
+    {
+      "expected_sha256": "0859c303d3f37634b2209339bab296dc5bd034d5ff43eb7878462d5b23beb547",
+      "name": "patch_dense_prediction_scoring_ledger",
+      "ok": true,
+      "path": "/mnt/d/VRM/artifacts/r5a4b_neural_vrm_prerun_patch/dense_prediction_scoring_ledger.json",
+      "sha256": "0859c303d3f37634b2209339bab296dc5bd034d5ff43eb7878462d5b23beb547"
+    },
+    {
+      "expected_sha256": "2c9cbc1022d42ca99f0d21221fce4d0d3fdbfc6c9053e1065f3ee5a083de9381",
+      "name": "patch_changed_cell_metrics",
+      "ok": true,
+      "path": "/mnt/d/VRM/artifacts/r5a4b_neural_vrm_prerun_patch/changed_cell_pooled_and_macro_metrics.json",
+      "sha256": "2c9cbc1022d42ca99f0d21221fce4d0d3fdbfc6c9053e1065f3ee5a083de9381"
+    },
+    {
+      "expected_sha256": "b42ba8abbff480fee9bb49612500c798317971b8e4e89cdefdb6fdedc913696c",
+      "name": "patch_pairing_rotation_ledger",
+      "ok": true,
+      "path": "/mnt/d/VRM/artifacts/r5a4b_neural_vrm_prerun_patch/pairing_rotation_integrity_ledger.json",
+      "sha256": "b42ba8abbff480fee9bb49612500c798317971b8e4e89cdefdb6fdedc913696c"
+    }
+  ],
+  "status": "FROZEN_INPUT_INTEGRITY_PASS"
+}

@@ -1,0 +1,43 @@
+{
+  "created_utc": "2026-07-01T14:54:31Z",
+  "dataset_files_present": [
+    "dataset/arc-agi_evaluation_challenges.json",
+    "dataset/arc-agi_evaluation_solutions.json",
+    "dataset/arc-agi_test_challenges.json",
+    "dataset/arc-agi_training_challenges.json",
+    "dataset/arc-agi_training_solutions.json",
+    "dataset/sample_submission.json"
+  ],
+  "experiment": "R6A_COMPRESSARC_REFERENCE_SEMANTICS_AUDIT",
+  "git": {
+    "commit_author": "iliao2345 <iliao2345@gmail.com>",
+    "commit_date": "Mon Jan 5 12:56:27 2026 -0500",
+    "commit_hash": "83a22218024d46273eb32b769a906340202ffb4d",
+    "commit_subject": "added code for listing the puzzles that were solved",
+    "repository_url": "https://github.com/iliao2345/CompressARC",
+    "status_short": "?? __pycache__/"
+  },
+  "license": "MIT License",
+  "official_repository": "https://github.com/iliao2345/CompressARC",
+  "official_requirements_txt": [
+    "matplotlib==3.10.0",
+    "numpy==2.2.2",
+    "torch==2.5.1",
+    "tqdm==4.66.6"
+  ],
+  "paper": {
+    "arxiv": "https://arxiv.org/abs/2512.06104",
+    "authors": [
+      "Isaac Liao",
+      "Albert Gu"
+    ],
+    "openreview": "https://openreview.net/forum?id=TbbMyr3E0x",
+    "project_blog": "https://iliao2345.github.io/blog_posts/arc_agi_without_pretraining/arc_agi_without_pretraining.html",
+    "readme_citation_present": true,
+    "title": "ARC-AGI Without Pretraining"
+  },
+  "reference_budgets": {
+    "REFERENCE_BENCHMARK_BUDGET": 2000,
+    "SMOKE_BUDGET": 1500
+  }
+}

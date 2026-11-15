@@ -1,0 +1,5 @@
+{
+  "blocked_before_dataset_generation": true,
+  "generated": false,
+  "reason": "The declared query_type factors produce 4*4*4*2 = 128 combinations, but the requested disjoint split requires 96+24+24 = 144 combinations."
+}

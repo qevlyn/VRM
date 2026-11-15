@@ -1,0 +1,107 @@
+{
+  "20260628": {
+    "architecture": "VRM Pair Reader R2A",
+    "constant_gate_feature": 100.0,
+    "gate_initialization": "final linear weights zero, bias zero; sigmoid output 0.5",
+    "gate_parameters_trainable": 133,
+    "legacy_parameters_trainable": 0,
+    "legacy_vrm_config": {
+      "dropout": 0.0,
+      "hidden_size": 128,
+      "max_grid_height": 30,
+      "max_grid_tokens": 900,
+      "max_grid_width": 30,
+      "max_support_pairs": 16,
+      "num_heads": 4,
+      "output_color_count": 10,
+      "pair_encoder_layers": 1,
+      "rewrite_layers": 2,
+      "rewrite_steps": 4,
+      "rule_slots": 32,
+      "shape_classes": 30,
+      "vocab_size": 11
+    },
+    "reader_config": {
+      "background_color": 0,
+      "color_count": 10,
+      "dropout": 0.0,
+      "hidden_size": 128,
+      "max_height": 7,
+      "max_width": 7,
+      "num_heads": 4,
+      "num_layers": 2,
+      "temperature": 0.1
+    },
+    "reader_parameters_trainable": 0
+  },
+  "20260629": {
+    "architecture": "VRM Pair Reader R2A",
+    "constant_gate_feature": 100.0,
+    "gate_initialization": "final linear weights zero, bias zero; sigmoid output 0.5",
+    "gate_parameters_trainable": 133,
+    "legacy_parameters_trainable": 0,
+    "legacy_vrm_config": {
+      "dropout": 0.0,
+      "hidden_size": 128,
+      "max_grid_height": 30,
+      "max_grid_tokens": 900,
+      "max_grid_width": 30,
+      "max_support_pairs": 16,
+      "num_heads": 4,
+      "output_color_count": 10,
+      "pair_encoder_layers": 1,
+      "rewrite_layers": 2,
+      "rewrite_steps": 4,
+      "rule_slots": 32,
+      "shape_classes": 30,
+      "vocab_size": 11
+    },
+    "reader_config": {
+      "background_color": 0,
+      "color_count": 10,
+      "dropout": 0.0,
+      "hidden_size": 128,
+      "max_height": 7,
+      "max_width": 7,
+      "num_heads": 4,
+      "num_layers": 2,
+      "temperature": 0.1
+    },
+    "reader_parameters_trainable": 0
+  },
+  "20260630": {
+    "architecture": "VRM Pair Reader R2A",
+    "constant_gate_feature": 100.0,
+    "gate_initialization": "final linear weights zero, bias zero; sigmoid output 0.5",
+    "gate_parameters_trainable": 133,
+    "legacy_parameters_trainable": 0,
+    "legacy_vrm_config": {
+      "dropout": 0.0,
+      "hidden_size": 128,
+      "max_grid_height": 30,
+      "max_grid_tokens": 900,
+      "max_grid_width": 30,
+      "max_support_pairs": 16,
+      "num_heads": 4,
+      "output_color_count": 10,
+      "pair_encoder_layers": 1,
+      "rewrite_layers": 2,
+      "rewrite_steps": 4,
+      "rule_slots": 32,
+      "shape_classes": 30,
+      "vocab_size": 11
+    },
+    "reader_config": {
+      "background_color": 0,
+      "color_count": 10,
+      "dropout": 0.0,
+      "hidden_size": 128,
+      "max_height": 7,
+      "max_width": 7,
+      "num_heads": 4,
+      "num_layers": 2,
+      "temperature": 0.1
+    },
+    "reader_parameters_trainable": 0
+  }
+}

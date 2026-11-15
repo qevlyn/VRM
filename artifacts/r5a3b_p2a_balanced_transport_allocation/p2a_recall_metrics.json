@@ -1,0 +1,204 @@
+{
+  "audit_version": "R5A3B_P2A_BALANCED_RELATION_TRANSPORT_ALLOCATION_PILOT",
+  "conditions": {
+    "P0_SHALLOW_RELATION_REPLAY": {
+      "all": {
+        "Recall@1": {
+          "denominator": 100,
+          "numerator": 2,
+          "rate": 0.02
+        },
+        "Recall@128": {
+          "denominator": 100,
+          "numerator": 2,
+          "rate": 0.02
+        },
+        "Recall@16": {
+          "denominator": 100,
+          "numerator": 2,
+          "rate": 0.02
+        },
+        "Recall@4": {
+          "denominator": 100,
+          "numerator": 2,
+          "rate": 0.02
+        },
+        "Recall@64": {
+          "denominator": 100,
+          "numerator": 2,
+          "rate": 0.02
+        },
+        "mean_target_rank_when_target_exists": 1.0,
+        "median_target_rank_when_target_exists": 1.0
+      },
+      "multi_object": {
+        "Recall@1": {
+          "denominator": 82,
+          "numerator": 2,
+          "rate": 0.024390243902439025
+        },
+        "Recall@128": {
+          "denominator": 82,
+          "numerator": 2,
+          "rate": 0.024390243902439025
+        },
+        "Recall@16": {
+          "denominator": 82,
+          "numerator": 2,
+          "rate": 0.024390243902439025
+        },
+        "Recall@4": {
+          "denominator": 82,
+          "numerator": 2,
+          "rate": 0.024390243902439025
+        },
+        "Recall@64": {
+          "denominator": 82,
+          "numerator": 2,
+          "rate": 0.024390243902439025
+        },
+        "mean_target_rank_when_target_exists": 1.0,
+        "median_target_rank_when_target_exists": 1.0
+      },
+      "one_object": {
+        "Recall@1": {
+          "denominator": 18,
+          "numerator": 0,
+          "rate": 0.0
+        },
+        "Recall@128": {
+          "denominator": 18,
+          "numerator": 0,
+          "rate": 0.0
+        },
+        "Recall@16": {
+          "denominator": 18,
+          "numerator": 0,
+          "rate": 0.0
+        },
+        "Recall@4": {
+          "denominator": 18,
+          "numerator": 0,
+          "rate": 0.0
+        },
+        "Recall@64": {
+          "denominator": 18,
+          "numerator": 0,
+          "rate": 0.0
+        },
+        "mean_target_rank_when_target_exists": null,
+        "median_target_rank_when_target_exists": null
+      }
+    },
+    "P2A_BALANCED_TRANSPORT_RELATION": {
+      "all": {
+        "Recall@1": {
+          "denominator": 100,
+          "numerator": 2,
+          "rate": 0.02
+        },
+        "Recall@128": {
+          "denominator": 100,
+          "numerator": 2,
+          "rate": 0.02
+        },
+        "Recall@16": {
+          "denominator": 100,
+          "numerator": 2,
+          "rate": 0.02
+        },
+        "Recall@4": {
+          "denominator": 100,
+          "numerator": 2,
+          "rate": 0.02
+        },
+        "Recall@64": {
+          "denominator": 100,
+          "numerator": 2,
+          "rate": 0.02
+        },
+        "mean_target_rank_when_target_exists": 1.0,
+        "median_target_rank_when_target_exists": 1.0
+      },
+      "multi_object": {
+        "Recall@1": {
+          "denominator": 82,
+          "numerator": 2,
+          "rate": 0.024390243902439025
+        },
+        "Recall@128": {
+          "denominator": 82,
+          "numerator": 2,
+          "rate": 0.024390243902439025
+        },
+        "Recall@16": {
+          "denominator": 82,
+          "numerator": 2,
+          "rate": 0.024390243902439025
+        },
+        "Recall@4": {
+          "denominator": 82,
+          "numerator": 2,
+          "rate": 0.024390243902439025
+        },
+        "Recall@64": {
+          "denominator": 82,
+          "numerator": 2,
+          "rate": 0.024390243902439025
+        },
+        "mean_target_rank_when_target_exists": 1.0,
+        "median_target_rank_when_target_exists": 1.0
+      },
+      "one_object": {
+        "Recall@1": {
+          "denominator": 18,
+          "numerator": 0,
+          "rate": 0.0
+        },
+        "Recall@128": {
+          "denominator": 18,
+          "numerator": 0,
+          "rate": 0.0
+        },
+        "Recall@16": {
+          "denominator": 18,
+          "numerator": 0,
+          "rate": 0.0
+        },
+        "Recall@4": {
+          "denominator": 18,
+          "numerator": 0,
+          "rate": 0.0
+        },
+        "Recall@64": {
+          "denominator": 18,
+          "numerator": 0,
+          "rate": 0.0
+        },
+        "mean_target_rank_when_target_exists": null,
+        "median_target_rank_when_target_exists": null
+      }
+    }
+  },
+  "primary_metrics": {
+    "delta_recall_at_128_all": 0.0,
+    "delta_recall_at_128_multi_object": 0.0,
+    "delta_relation_only_hits": 0,
+    "top_16_hit_change": 0.0,
+    "top_1_hit_change": 0.0,
+    "top_4_hit_change": 0.0
+  },
+  "relation_only_hit_rows": [],
+  "transport_exposure": {
+    "folds_where_transport_action_created_exact_hidden_target_hit": 1,
+    "folds_where_transport_actions_drop_cells_out_of_bounds": 78,
+    "folds_where_transport_actions_have_collisions": 55,
+    "folds_where_transport_actions_only_duplicate_object_outputs": 2,
+    "folds_where_transport_created_relation_only_unique_output": 81,
+    "folds_with_at_least_one_transport_action_emitted": 83,
+    "folds_with_transport_copy_emitted": 83,
+    "folds_with_transport_translate_emitted": 83,
+    "transport_copy_programs_emitted": 150,
+    "transport_translate_programs_emitted": 150
+  }
+}

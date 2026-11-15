@@ -1,0 +1,10 @@
+{
+  "archive_member_count": 296,
+  "archive_path": "/mnt/d/VRM/r6a_compressarc/archives/R6A_PHASE1_FROZEN_FOR_PHASE2_20260704_021634.zip",
+  "created_utc": "2026-07-04T02:16:51Z",
+  "file_count": 295,
+  "integrity_test_passed": true,
+  "note": "Phase 1 files were read and archived only; no Phase 1 artifact path was modified.",
+  "zip_sha256": "47458286d7c16e4f98438e0fa3b2d3f302b80dbcb8fd751820cc32830cc61b53",
+  "zip_size_bytes": 335309472
+}

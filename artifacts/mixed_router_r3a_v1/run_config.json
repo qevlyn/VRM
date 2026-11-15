@@ -1,0 +1,16 @@
+{
+  "batch_size": 128,
+  "checkpoint_out": "/mnt/d/VRM/checkpoints/mixed_router_r3a_v1",
+  "data_out": "/mnt/d/VRM/artifacts/mixed_router_r3a_v1",
+  "experiment": "R3A - Oracle Mixed-Route Router Benchmark",
+  "learning_rate": 0.0003,
+  "mode": "full",
+  "reader_epochs": 10,
+  "router_epochs": 8,
+  "seeds": [
+    20260628,
+    20260629,
+    20260630
+  ],
+  "weight_decay": 0.01
+}

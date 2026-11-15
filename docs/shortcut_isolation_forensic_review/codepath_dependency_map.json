@@ -1,0 +1,107 @@
+{
+  "canonical_dataflow": [
+    {
+      "evidence": [
+        "third_party/compressarc_reference/preprocessing.py:15-26",
+        "third_party/compressarc_reference/preprocessing.py:95-116"
+      ],
+      "meaning": "Task stores raw train/test grids in unprocessed_problem, builds shapes/masks, and converts visible input/output grids into task.problem. Test outputs are omitted when absent.",
+      "stage": "raw support pairs -> Task"
+    },
+    {
+      "evidence": [
+        "third_party/compressarc_reference/train.py:49-108",
+        "r6a_compressarc/scripts/phase1_condition_solver.py:178-196"
+      ],
+      "meaning": "Phase 1 creates Task and ARCCompressor, loads initialization, then train.take_step runs forward, reconstruction error, loss.backward, optimizer.step.",
+      "stage": "Task -> objective / optimization"
+    },
+    {
+      "evidence": [
+        "third_party/compressarc_reference/arc_compressor.py:94-158",
+        "third_party/compressarc_reference/layers.py:71-162"
+      ],
+      "meaning": "ARCCompressor.forward starts from multiposteriors/target capacities through decode_latents/channel_layer; raw support grids are not re-read inside forward except through task masks used by directional layers and postprocessing.",
+      "stage": "posterior state -> forward"
+    },
+    {
+      "evidence": [
+        "third_party/compressarc_reference/arc_compressor.py:118-158",
+        "third_party/compressarc_reference/layers.py:418-570"
+      ],
+      "meaning": "The forward path applies share/softmax/cummax/shift/direction/nonlinear/normalize blocks, then color and shape-mask heads plus postprocess_mask.",
+      "stage": "forward -> logits/x_mask/y_mask"
+    },
+    {
+      "evidence": [
+        "third_party/compressarc_reference/solution_selection.py:40-76",
+        "third_party/compressarc_reference/solution_selection.py:130-162",
+        "r6a_compressarc/scripts/phase1_condition_solver.py:146-148,217-248"
+      ],
+      "meaning": "Logger tracks current query logits and postprocesses predictions; Phase 1 separately saves canonical query probabilities and evaluator-side metrics after solver completion.",
+      "stage": "logits/masks -> decoder or evaluation"
+    }
+  ],
+  "phase1_behavioral_path": {
+    "evidence": [
+      "r6a_compressarc/scripts/phase1_condition_solver.py:195-200",
+      "r6a_compressarc/scripts/phase1_condition_solver.py:217-248",
+      "r6a_compressarc/tests/test_r6a_phase1_multirepeat.py:169-186"
+    ],
+    "executes_training": true,
+    "measures_query_probability": true,
+    "uses_hidden_target_in_solver": false
+  },
+  "phase2_forward_audit_answers": {
+    "v8": {
+      "directly_consumes_raw_support_inputs": false,
+      "directly_consumes_raw_support_outputs": false,
+      "evidence": [
+        "r6a_compressarc/scripts/r6a_phase2_support_permutation_first_divergence_v8_child.py:780-823",
+        "r6a_compressarc/scripts/r6a_phase2_support_permutation_first_divergence_v8_child.py:1261-1298",
+        "r6a_compressarc/artifacts/r6a_phase2_support_permutation_first_divergence_v8/loss_certificate.json:status"
+      ],
+      "executes_loss_backward_optimizer_or_task_adaptation": "Not in actual v8 outcome; code can attempt run_take_step only after forward certification, but artifacts loss/backward/adam report NOT_REACHED_FORWARD_FAILURE.",
+      "measures_query_behavior_after_learned_state": false,
+      "raw_information_entry_points": [
+        "Task construction before model",
+        "task.masks in cummax/shift/postprocess",
+        "fresh initialized posterior state; not Phase 1 optimized state"
+      ]
+    },
+    "v10": {
+      "directly_consumes_raw_support_inputs": false,
+      "directly_consumes_raw_support_outputs": false,
+      "evidence": [
+        "r6a_compressarc/scripts/r6a_phase2_semantic_state_action_decoder_boundary_v10_child.py:277-280",
+        "r6a_compressarc/scripts/r6a_phase2_semantic_state_action_decoder_boundary_v10_child.py:838-846",
+        "r6a_compressarc/tests/test_r6a_phase2_semantic_state_action_decoder_boundary_v10.py:163-168"
+      ],
+      "executes_loss_backward_optimizer_or_task_adaptation": false,
+      "measures_query_behavior_after_learned_state": false,
+      "raw_information_entry_points": [
+        "Task-derived masks/shapes/colors",
+        "fresh ARCCompressor posterior tensors",
+        "semantic_restore of posterior leaves only"
+      ]
+    },
+    "v11_2": {
+      "directly_consumes_raw_support_inputs": false,
+      "directly_consumes_raw_support_outputs": false,
+      "evidence": [
+        "r6a_compressarc/scripts/r6a_phase2_two_pass_semantic_boundary_provenance_v11_2_child.py:532-551",
+        "r6a_compressarc/scripts/r6a_phase2_two_pass_semantic_boundary_provenance_v11_2_child.py:980",
+        "r6a_compressarc/tests/test_r6a_phase2_two_pass_semantic_boundary_provenance_v11_2.py:174-182"
+      ],
+      "executes_loss_backward_optimizer_or_task_adaptation": false,
+      "measures_query_behavior_after_learned_state": false,
+      "raw_information_entry_points": [
+        "Task-derived masks/shapes/colors",
+        "fresh ARCCompressor posterior tensors",
+        "v10 semantic state action",
+        "zero-noise channel_layer"
+      ]
+    }
+  },
+  "review_question": "Why has the current research program not yet isolated a shortcut mechanism?"
+}

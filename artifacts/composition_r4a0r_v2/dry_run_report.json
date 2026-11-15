@@ -1,0 +1,22 @@
+{
+  "algebraic_function_audit_passed": true,
+  "cuda_passed": true,
+  "mode": "dry_run",
+  "pytest_result": {
+    "output_tail": "........................................................................ [ 37%]\n........................................................................ [ 75%]\n..............................................                           [100%]\n=============================== warnings summary ===============================\ntests/test_mixed_router_r3b2.py::test_frozen_wrappers_reproduce_underlying_expert_outputs\ntests/test_mixed_router_r3b2.py::test_expert_parameters_get_zero_gradients_and_gate_gets_signal\ntests/test_mixed_router_r3b2.py::test_endpoint_equivalence_with_forced_gate\ntests/test_mixed_router_r3b2.py::test_reader_disabled_changes_reader_probabilities_for_mix_only\ntests/test_mixed_router_r3b2.py::test_transform_disabled_changes_transform_probabilities_for_mix_only\ntests/test_transform_r3b0.py::test_model_forward_has_no_private_metadata_inputs\ntests/test_transform_r3b0.py::test_forward_shapes_and_output_only_loss\ntests/test_transform_r3b0.py::test_pair_order_permutation_invariance_and_logical_correspondence\ntests/test_transform_r3b0.py::test_zero_support_intervention_only_zeros_context_evidence\n  /mnt/d/VRM/vrm/twin_tasks/transform_r3b0_model.py:45: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True\n    self.relation_encoder = nn.TransformerEncoder(encoder_layer, num_layers=self.config.relation_layers)\n\n-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html\n190 passed, 9 warnings in 298.05s (0:04:58)\n",
+    "passed": true,
+    "returncode": 0
+  },
+  "query_type_preflight_128_of_128": true,
+  "source_protection_hashes": {
+    "added_count": 0,
+    "added_examples": [],
+    "changed_count": 0,
+    "changed_examples": [],
+    "removed_count": 0,
+    "removed_examples": [],
+    "unchanged": true
+  },
+  "split_audit_passed": true,
+  "training_started": false
+}

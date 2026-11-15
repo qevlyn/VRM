@@ -1,0 +1,110 @@
+{
+  "cases": [
+    {
+      "alias_topology_status": "ALIAS_TOPOLOGY_CERTIFIED",
+      "canonical_unique_forward_reachable_tensors": 2806,
+      "case_id": "1f876c06_adjacent_0_1",
+      "example_axis_tensor_count": 232,
+      "non_example_axis_tensor_count": 2574,
+      "rebinding_used": false,
+      "restore_used_in_place_copy": true,
+      "state_compare": {
+        "first_failure": null,
+        "pass": true
+      },
+      "status": "STATE_ACTION_CERTIFIED",
+      "transformed_unique_forward_reachable_tensors": 2806
+    },
+    {
+      "alias_topology_status": "ALIAS_TOPOLOGY_CERTIFIED",
+      "canonical_unique_forward_reachable_tensors": 2806,
+      "case_id": "1f876c06_adjacent_1_2",
+      "example_axis_tensor_count": 232,
+      "non_example_axis_tensor_count": 2574,
+      "rebinding_used": false,
+      "restore_used_in_place_copy": true,
+      "state_compare": {
+        "first_failure": null,
+        "pass": true
+      },
+      "status": "STATE_ACTION_CERTIFIED",
+      "transformed_unique_forward_reachable_tensors": 2806
+    },
+    {
+      "alias_topology_status": "ALIAS_TOPOLOGY_CERTIFIED",
+      "canonical_unique_forward_reachable_tensors": 2806,
+      "case_id": "604001fa_adjacent_0_1",
+      "example_axis_tensor_count": 30,
+      "non_example_axis_tensor_count": 2776,
+      "rebinding_used": false,
+      "restore_used_in_place_copy": true,
+      "state_compare": {
+        "first_failure": null,
+        "pass": true
+      },
+      "status": "STATE_ACTION_CERTIFIED",
+      "transformed_unique_forward_reachable_tensors": 2806
+    },
+    {
+      "alias_topology_status": "ALIAS_TOPOLOGY_CERTIFIED",
+      "canonical_unique_forward_reachable_tensors": 2806,
+      "case_id": "604001fa_adjacent_1_2",
+      "example_axis_tensor_count": 30,
+      "non_example_axis_tensor_count": 2776,
+      "rebinding_used": false,
+      "restore_used_in_place_copy": true,
+      "state_compare": {
+        "first_failure": null,
+        "pass": true
+      },
+      "status": "STATE_ACTION_CERTIFIED",
+      "transformed_unique_forward_reachable_tensors": 2806
+    },
+    {
+      "alias_topology_status": "ALIAS_TOPOLOGY_CERTIFIED",
+      "canonical_unique_forward_reachable_tensors": 2806,
+      "case_id": "604001fa_adjacent_2_3",
+      "example_axis_tensor_count": 30,
+      "non_example_axis_tensor_count": 2776,
+      "rebinding_used": false,
+      "restore_used_in_place_copy": true,
+      "state_compare": {
+        "first_failure": null,
+        "pass": true
+      },
+      "status": "STATE_ACTION_CERTIFIED",
+      "transformed_unique_forward_reachable_tensors": 2806
+    },
+    {
+      "alias_topology_status": "ALIAS_TOPOLOGY_CERTIFIED",
+      "canonical_unique_forward_reachable_tensors": 2806,
+      "case_id": "synthetic_uniform_shape_oracle_adjacent_0_1",
+      "example_axis_tensor_count": 232,
+      "non_example_axis_tensor_count": 2574,
+      "rebinding_used": false,
+      "restore_used_in_place_copy": true,
+      "state_compare": {
+        "first_failure": null,
+        "pass": true
+      },
+      "status": "STATE_ACTION_CERTIFIED",
+      "transformed_unique_forward_reachable_tensors": 2806
+    },
+    {
+      "alias_topology_status": "ALIAS_TOPOLOGY_CERTIFIED",
+      "canonical_unique_forward_reachable_tensors": 2806,
+      "case_id": "synthetic_uniform_shape_oracle_adjacent_1_2",
+      "example_axis_tensor_count": 232,
+      "non_example_axis_tensor_count": 2574,
+      "rebinding_used": false,
+      "restore_used_in_place_copy": true,
+      "state_compare": {
+        "first_failure": null,
+        "pass": true
+      },
+      "status": "STATE_ACTION_CERTIFIED",
+      "transformed_unique_forward_reachable_tensors": 2806
+    }
+  ],
+  "created_utc": "2026-07-04T04:12:55Z"
+}

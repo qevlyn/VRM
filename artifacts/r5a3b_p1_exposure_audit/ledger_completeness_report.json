@@ -1,0 +1,24 @@
+{
+  "audit_version": "R5A3B_P1_RELATION_EXPOSURE_CONSTRAINT_EFFICACY_AUDIT",
+  "candidate_regeneration_required": false,
+  "complete_for_candidate_provenance_audit": true,
+  "condition_candidate_missing_field_records": [],
+  "generated_program_count_present_in_p0": false,
+  "generated_program_count_recomputed_without_candidate_regeneration": true,
+  "hidden_target_flags_computed_posthoc_in_p1": true,
+  "hidden_target_flags_present_in_p0": false,
+  "raw_candidate_fields_checked": [
+    "operator_sequence",
+    "output_hash",
+    "parse_hypothesis_id",
+    "program_family",
+    "raw_ordinal",
+    "relation_predicates_used",
+    "source_program_ids",
+    "support_cell_hamming_loss",
+    "support_failed_pair_count",
+    "support_shape_mismatch_count"
+  ],
+  "raw_candidate_missing_field_records": [],
+  "report_sha256": "c190958aca8a6024670e1775f28c6f855534a07fe0add7096707970dcd166476"
+}

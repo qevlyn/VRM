@@ -1,0 +1,3890 @@
+{
+  "mode": "capacity4",
+  "per_episode_metrics": [
+    {
+      "all_token_correct_count": 22,
+      "all_token_count": 900,
+      "episode_index": 0,
+      "exact_decoded_grid_correct": false,
+      "exact_padded_grid_correct": false,
+      "invalid_padding_pattern": true,
+      "loss": 2.9175400733947754,
+      "nonpad_hamming_error": 29,
+      "nonpad_token_correct_count": 7,
+      "output_shape_match": false,
+      "predicted_shape": [
+        30,
+        30
+      ],
+      "prediction_valid_rectangle": false,
+      "query_pair_index": 0,
+      "step": 0,
+      "support_pair_indices": [
+        1
+      ],
+      "target_nonpad_token_count": 36,
+      "target_shape": [
+        6,
+        6
+      ],
+      "task_id": "00576224",
+      "token_accuracy_all": 0.024444444444444446,
+      "token_accuracy_nonpad": 0.19444444444444445
+    },
+    {
+      "all_token_correct_count": 23,
+      "all_token_count": 900,
+      "episode_index": 1,
+      "exact_decoded_grid_correct": false,
+      "exact_padded_grid_correct": false,
+      "invalid_padding_pattern": true,
+      "loss": 2.8082334995269775,
+      "nonpad_hamming_error": 28,
+      "nonpad_token_correct_count": 8,
+      "output_shape_match": false,
+      "predicted_shape": [
+        30,
+        30
+      ],
+      "prediction_valid_rectangle": false,
+      "query_pair_index": 1,
+      "step": 0,
+      "support_pair_indices": [
+        0
+      ],
+      "target_nonpad_token_count": 36,
+      "target_shape": [
+        6,
+        6
+      ],
+      "task_id": "00576224",
+      "token_accuracy_all": 0.025555555555555557,
+      "token_accuracy_nonpad": 0.2222222222222222
+    },
+    {
+      "all_token_correct_count": 19,
+      "all_token_count": 900,
+      "episode_index": 2,
+      "exact_decoded_grid_correct": false,
+      "exact_padded_grid_correct": false,
+      "invalid_padding_pattern": true,
+      "loss": 3.082453489303589,
+      "nonpad_hamming_error": 76,
+      "nonpad_token_correct_count": 5,
+      "output_shape_match": false,
+      "predicted_shape": [
+        30,
+        30
+      ],
+      "prediction_valid_rectangle": false,
+      "query_pair_index": 0,
+      "step": 0,
+      "support_pair_indices": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "target_nonpad_token_count": 81,
+      "target_shape": [
+        9,
+        9
+      ],
+      "task_id": "007bbfb7",
+      "token_accuracy_all": 0.021111111111111112,
+      "token_accuracy_nonpad": 0.06172839506172839
+    },
+    {
+      "all_token_correct_count": 15,
+      "all_token_count": 900,
+      "episode_index": 3,
+      "exact_decoded_grid_correct": false,
+      "exact_padded_grid_correct": false,
+      "invalid_padding_pattern": true,
+      "loss": 3.2054824829101562,
+      "nonpad_hamming_error": 80,
+      "nonpad_token_correct_count": 1,
+      "output_shape_match": false,
+      "predicted_shape": [
+        30,
+        30
+      ],
+      "prediction_valid_rectangle": false,
+      "query_pair_index": 1,
+      "step": 0,
+      "support_pair_indices": [
+        0,
+        2,
+        3,
+        4
+      ],
+      "target_nonpad_token_count": 81,
+      "target_shape": [
+        9,
+        9
+      ],
+      "task_id": "007bbfb7",
+      "token_accuracy_all": 0.016666666666666666,
+      "token_accuracy_nonpad": 0.012345679012345678
+    },
+    {
+      "all_token_correct_count": 15,
+      "all_token_count": 900,
+      "episode_index": 4,
+      "exact_decoded_grid_correct": false,
+      "exact_padded_grid_correct": false,
+      "invalid_padding_pattern": true,
+      "loss": 3.202253580093384,
+      "nonpad_hamming_error": 80,
+      "nonpad_token_correct_count": 1,
+      "output_shape_match": false,
+      "predicted_shape": [
+        30,
+        30
+      ],
+      "prediction_valid_rectangle": false,
+      "query_pair_index": 2,
+      "step": 0,
+      "support_pair_indices": [
+        0,
+        1,
+        3,
+        4
+      ],
+      "target_nonpad_token_count": 81,
+      "target_shape": [
+        9,
+        9
+      ],
+      "task_id": "007bbfb7",
+      "token_accuracy_all": 0.016666666666666666,
+      "token_accuracy_nonpad": 0.012345679012345678
+    },
+    {
+      "all_token_correct_count": 15,
+      "all_token_count": 900,
+      "episode_index": 5,
+      "exact_decoded_grid_correct": false,
+      "exact_padded_grid_correct": false,
+      "invalid_padding_pattern": true,
+      "loss": 3.2153408527374268,
+      "nonpad_hamming_error": 80,
+      "nonpad_token_correct_count": 1,
+      "output_shape_match": false,
+      "predicted_shape": [
+        30,
+        30
+      ],
+      "prediction_valid_rectangle": false,
+      "query_pair_index": 3,
+      "step": 0,
+      "support_pair_indices": [
+        0,
+        1,
+        2,
+        4
+      ],
+      "target_nonpad_token_count": 81,
+      "target_shape": [
+        9,
+        9
+      ],
+      "task_id": "007bbfb7",
+      "token_accuracy_all": 0.016666666666666666,
+      "token_accuracy_nonpad": 0.012345679012345678
+    },
+    {
+      "all_token_correct_count": 30,
+      "all_token_count": 900,
+      "episode_index": 6,
+      "exact_decoded_grid_correct": false,
+      "exact_padded_grid_correct": false,
+      "invalid_padding_pattern": true,
+      "loss": 2.893542766571045,
+      "nonpad_hamming_error": 65,
+      "nonpad_token_correct_count": 16,
+      "output_shape_match": false,
+      "predicted_shape": [
+        30,
+        30
+      ],
+      "prediction_valid_rectangle": false,
+      "query_pair_index": 4,
+      "step": 0,
+      "support_pair_indices": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "target_nonpad_token_count": 81,
+      "target_shape": [
+        9,
+        9
+      ],
+      "task_id": "007bbfb7",
+      "token_accuracy_all": 0.03333333333333333,
+      "token_accuracy_nonpad": 0.19753086419753085
+    },
+    {
+      "all_token_correct_count": 16,
+      "all_token_count": 900,
+      "episode_index": 7,
+      "exact_decoded_grid_correct": false,
+      "exact_padded_grid_correct": false,
+      "invalid_padding_pattern": true,
+      "loss": 3.2334375381469727,
+      "nonpad_hamming_error": 189,
+      "nonpad_token_correct_count": 7,
+      "output_shape_match": false,
+      "predicted_shape": [
+        30,
+        30
+      ],
+      "prediction_valid_rectangle": false,
+      "query_pair_index": 0,
+      "step": 0,
+      "support_pair_indices": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "target_nonpad_token_count": 196,
+      "target_shape": [
+        14,
+        14
+      ],
+      "task_id": "009d5c81",
+      "token_accuracy_all": 0.017777777777777778,
+      "token_accuracy_nonpad": 0.03571428571428571
+    },
+    {
+      "all_token_correct_count": 8,
+      "all_token_count": 900,
+      "episode_index": 8,
+      "exact_decoded_grid_correct": false,
+      "exact_padded_grid_correct": false,
+      "invalid_padding_pattern": true,
+      "loss": 3.346369981765747,
+      "nonpad_hamming_error": 196,
+      "nonpad_token_correct_count": 0,
+      "output_shape_match": false,
+      "predicted_shape": [
+        30,
+        30
+      ],
+      "prediction_valid_rectangle": false,
+      "query_pair_index": 1,
+      "step": 0,
+      "support_pair_indices": [
+        0,
+        2,
+        3,
+        4
+      ],
+      "target_nonpad_token_count": 196,
+      "target_shape": [
+        14,
+        14
+      ],
+      "task_id": "009d5c81",
+      "token_accuracy_all": 0.008888888888888889,
+      "token_accuracy_nonpad": 0.0
+    },
+    {
+      "all_token_correct_count": 10,
+      "all_token_count": 900,
+      "episode_index": 9,
+      "exact_decoded_grid_correct": false,
+      "exact_padded_grid_correct": false,
+      "invalid_padding_pattern": true,
+      "loss": 3.367410182952881,
+      "nonpad_hamming_error": 195,
+      "nonpad_token_correct_count": 1,
+      "output_shape_match": false,
+      "predicted_shape": [
+        30,
+        30
+      ],
+      "prediction_valid_rectangle": false,
+      "query_pair_index": 2,
+      "step": 0,
+      "support_pair_indices": [
+        0,
+        1,
+        3,
+        4
+      ],
+      "target_nonpad_token_count": 196,
+      "target_shape": [
+        14,
+        14
+      ],
+      "task_id": "009d5c81",
+      "token_accuracy_all": 0.011111111111111112,
+      "token_accuracy_nonpad": 0.00510204081632653
+    },
+    {
+      "all_token_correct_count": 8,
+      "all_token_count": 900,
+      "episode_index": 10,
+      "exact_decoded_grid_correct": false,
+      "exact_padded_grid_correct": false,
+      "invalid_padding_pattern": true,
+      "loss": 3.3479104042053223,
+      "nonpad_hamming_error": 196,
+      "nonpad_token_correct_count": 0,
+      "output_shape_match": false,
+      "predicted_shape": [
+        30,
+        30
+      ],
+      "prediction_valid_rectangle": false,
+      "query_pair_index": 3,
+      "step": 0,
+      "support_pair_indices": [
+        0,
+        1,
+        2,
+        4
+      ],
+      "target_nonpad_token_count": 196,
+      "target_shape": [
+        14,
+        14
+      ],
+      "task_id": "009d5c81",
+      "token_accuracy_all": 0.008888888888888889,
+      "token_accuracy_nonpad": 0.0
+    },
+    {
+      "all_token_correct_count": 10,
+      "all_token_count": 900,
+      "episode_index": 11,
+      "exact_decoded_grid_correct": false,
+      "exact_padded_grid_correct": false,
+      "invalid_padding_pattern": true,
+      "loss": 3.30977201461792,
+      "nonpad_hamming_error": 195,
+      "nonpad_token_correct_count": 1,
+      "output_shape_match": false,
+      "predicted_shape": [
+        30,
+        30
+      ],
+      "prediction_valid_rectangle": false,
+      "query_pair_index": 4,
+      "step": 0,
+      "support_pair_indices": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "target_nonpad_token_count": 196,
+      "target_shape": [
+        14,
+        14
+      ],
+      "task_id": "009d5c81",
+      "token_accuracy_all": 0.011111111111111112,
+      "token_accuracy_nonpad": 0.00510204081632653
+    },
+    {
+      "all_token_correct_count": 17,
+      "all_token_count": 900,
+      "episode_index": 12,
+      "exact_decoded_grid_correct": false,
+      "exact_padded_grid_correct": false,
+      "invalid_padding_pattern": true,
+      "loss": 3.2115366458892822,
+      "nonpad_hamming_error": 97,
+      "nonpad_token_correct_count": 3,
+      "output_shape_match": false,
+      "predicted_shape": [
+        30,
+        30
+      ],
+      "prediction_valid_rectangle": false,
+      "query_pair_index": 0,
+      "step": 0,
+      "support_pair_indices": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "target_nonpad_token_count": 100,
+      "target_shape": [
+        10,
+        10
+      ],
+      "task_id": "00d62c1b",
+      "token_accuracy_all": 0.01888888888888889,
+      "token_accuracy_nonpad": 0.03
+    },
+    {
+      "all_token_correct_count": 14,
+      "all_token_count": 900,
+      "episode_index": 13,
+      "exact_decoded_grid_correct": false,
+      "exact_padded_grid_correct": false,
+      "invalid_padding_pattern": true,
+      "loss": 3.292888641357422,
+      "nonpad_hamming_error": 100,
+      "nonpad_token_correct_count": 0,
+      "output_shape_match": false,
+      "predicted_shape": [
+        30,
+        30
+      ],
+      "prediction_valid_rectangle": false,
+      "query_pair_index": 1,
+      "step": 0,
+      "support_pair_indices": [
+        0,
+        2,
+        3,
+        4
+      ],
+      "target_nonpad_token_count": 100,
+      "target_shape": [
+        10,
+        10
+      ],
+      "task_id": "00d62c1b",
+      "token_accuracy_all": 0.015555555555555555,
+      "token_accuracy_nonpad": 0.0
+    },
+    {
+      "all_token_correct_count": 18,
+      "all_token_count": 900,
+      "episode_index": 14,
+      "exact_decoded_grid_correct": false,
+      "exact_padded_grid_correct": false,
+      "invalid_padding_pattern": true,
+      "loss": 3.2153079509735107,
+      "nonpad_hamming_error": 96,
+      "nonpad_token_correct_count": 4,
+      "output_shape_match": false,
+      "predicted_shape": [
+        30,
+        30
+      ],
+      "prediction_valid_rectangle": false,
+      "query_pair_index": 2,
+      "step": 0,
+      "support_pair_indices": [
+        0,
+        1,
+        3,
+        4
+      ],
+      "target_nonpad_token_count": 100,
+      "target_shape": [
+        10,
+        10
+      ],
+      "task_id": "00d62c1b",
+      "token_accuracy_all": 0.02,
+      "token_accuracy_nonpad": 0.04
+    },
+    {
+      "all_token_correct_count": 13,
+      "all_token_count": 900,
+      "episode_index": 15,
+      "exact_decoded_grid_correct": false,
+      "exact_padded_grid_correct": false,
+      "invalid_padding_pattern": true,
+      "loss": 3.2954394817352295,
+      "nonpad_hamming_error": 393,
+      "nonpad_token_correct_count": 7,
+      "output_shape_match": false,
+      "predicted_shape": [
+        30,
+        30
+      ],
+      "prediction_valid_rectangle": false,
+      "query_pair_index": 3,
+      "step": 0,
+      "support_pair_indices": [
+        0,
+        1,
+        2,
+        4
+      ],
+      "target_nonpad_token_count": 400,
+      "target_shape": [
+        20,
+        20
+      ],
+      "task_id": "00d62c1b",
+      "token_accuracy_all": 0.014444444444444444,
+      "token_accuracy_nonpad": 0.0175
+    },
+    {
+      "all_token_correct_count": 16,
+      "all_token_count": 900,
+      "episode_index": 16,
+      "exact_decoded_grid_correct": false,
+      "exact_padded_grid_correct": false,
+      "invalid_padding_pattern": true,
+      "loss": 3.07326340675354,
+      "nonpad_hamming_error": 35,
+      "nonpad_token_correct_count": 1,
+      "output_shape_match": false,
+      "predicted_shape": [
+        30,
+        30
+      ],
+      "prediction_valid_rectangle": false,
+      "query_pair_index": 4,
+      "step": 0,
+      "support_pair_indices": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "target_nonpad_token_count": 36,
+      "target_shape": [
+        6,
+        6
+      ],
+      "task_id": "00d62c1b",
+      "token_accuracy_all": 0.017777777777777778,
+      "token_accuracy_nonpad": 0.027777777777777776
+    },
+    {
+      "all_token_correct_count": 650,
+      "all_token_count": 900,
+      "episode_index": 0,
+      "exact_decoded_grid_correct": false,
+      "exact_padded_grid_correct": false,
+      "invalid_padding_pattern": true,
+      "loss": 1.3584580421447754,
+      "nonpad_hamming_error": 36,
+      "nonpad_token_correct_count": 0,
+      "output_shape_match": false,
+      "predicted_shape": [
+        22,
+        20
+      ],
+      "prediction_valid_rectangle": false,
+      "query_pair_index": 0,
+      "step": 50,
+      "support_pair_indices": [
+        1
+      ],
+      "target_nonpad_token_count": 36,
+      "target_shape": [
+        6,
+        6
+      ],
+      "task_id": "00576224",
+      "token_accuracy_all": 0.7222222222222222,
+      "token_accuracy_nonpad": 0.0
+    },
+    {
+      "all_token_correct_count": 650,
+      "all_token_count": 900,
+      "episode_index": 1,
+      "exact_decoded_grid_correct": false,
+      "exact_padded_grid_correct": false,
+      "invalid_padding_pattern": true,
+      "loss": 1.4170304536819458,
+      "nonpad_hamming_error": 36,
+      "nonpad_token_correct_count": 0,
+      "output_shape_match": false,
+      "predicted_shape": [
+        22,
+        20
+      ],
+      "prediction_valid_rectangle": false,
+      "query_pair_index": 1,
+      "step": 50,
+      "support_pair_indices": [
+        0
+      ],
+      "target_nonpad_token_count": 36,
+      "target_shape": [
+        6,
+        6
+      ],
+      "task_id": "00576224",
+      "token_accuracy_all": 0.7222222222222222,
+      "token_accuracy_nonpad": 0.0
+    },
+    {
+      "all_token_correct_count": 706,
+      "all_token_count": 900,
+      "episode_index": 2,
+      "exact_decoded_grid_correct": false,
+      "exact_padded_grid_correct": false,
+      "invalid_padding_pattern": true,
+      "loss": 0.8888930082321167,
+      "nonpad_hamming_error": 25,
+      "nonpad_token_correct_count": 56,
+      "output_shape_match": false,
+      "predicted_shape": [
+        22,
+        20
+      ],
+      "prediction_valid_rectangle": false,
+      "query_pair_index": 0,
+      "step": 50,
+      "support_pair_indices": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "target_nonpad_token_count": 81,
+      "target_shape": [
+        9,
+        9
+      ],
+      "task_id": "007bbfb7",
+      "token_accuracy_all": 0.7844444444444445,
+      "token_accuracy_nonpad": 0.691358024691358
+    },
+    {
+      "all_token_correct_count": 722,
+      "all_token_count": 900,
+      "episode_index": 3,
+      "exact_decoded_grid_correct": false,
+      "exact_padded_grid_correct": false,
+      "invalid_padding_pattern": true,
+      "loss": 0.6619390249252319,
+      "nonpad_hamming_error": 9,
+      "nonpad_token_correct_count": 72,
+      "output_shape_match": false,
+      "predicted_shape": [
+        22,
+        20
+      ],
+      "prediction_valid_rectangle": false,
+      "query_pair_index": 1,
+      "step": 50,
+      "support_pair_indices": [
+        0,
+        2,
+        3,
+        4
+      ],
+      "target_nonpad_token_count": 81,
+      "target_shape": [
+        9,
+        9
+      ],
+      "task_id": "007bbfb7",
+      "token_accuracy_all": 0.8022222222222222,
+      "token_accuracy_nonpad": 0.8888888888888888
+    },
+    {
+      "all_token_correct_count": 722,
+      "all_token_count": 900,
+      "episode_index": 4,
+      "exact_decoded_grid_correct": false,
+      "exact_padded_grid_correct": false,
+      "invalid_padding_pattern": true,
+      "loss": 0.6561040282249451,
+      "nonpad_hamming_error": 9,
+      "nonpad_token_correct_count": 72,
+      "output_shape_match": false,
+      "predicted_shape": [
+        22,
+        20
+      ],
+      "prediction_valid_rectangle": false,
+      "query_pair_index": 2,
+      "step": 50,
+      "support_pair_indices": [
+        0,
+        1,
+        3,
+        4
+      ],
+      "target_nonpad_token_count": 81,
+      "target_shape": [
+        9,
+        9
+      ],
+      "task_id": "007bbfb7",
+      "token_accuracy_all": 0.8022222222222222,
+      "token_accuracy_nonpad": 0.8888888888888888
+    },
+    {
+      "all_token_correct_count": 706,
+      "all_token_count": 900,
+      "episode_index": 5,
+      "exact_decoded_grid_correct": false,
+      "exact_padded_grid_correct": false,
+      "invalid_padding_pattern": true,
+      "loss": 0.8428055644035339,
+      "nonpad_hamming_error": 25,
+      "nonpad_token_correct_count": 56,
+      "output_shape_match": false,
+      "predicted_shape": [
+        22,
+        20
+      ],
+      "prediction_valid_rectangle": false,
+      "query_pair_index": 3,
+      "step": 50,
+      "support_pair_indices": [
+        0,
+        1,
+        2,
+        4
+      ],
+      "target_nonpad_token_count": 81,
+      "target_shape": [
+        9,
+        9
+      ],
+      "task_id": "007bbfb7",
+      "token_accuracy_all": 0.7844444444444445,
+      "token_accuracy_nonpad": 0.691358024691358
+    },
+    {
+      "all_token_correct_count": 682,
+      "all_token_count": 900,
+      "episode_index": 6,
+      "exact_decoded_grid_correct": false,
+      "exact_padded_grid_correct": false,
+      "invalid_padding_pattern": true,
+      "loss": 1.1548999547958374,
+      "nonpad_hamming_error": 49,
+      "nonpad_token_correct_count": 32,
+      "output_shape_match": false,
+      "predicted_shape": [
+        22,
+        20
+      ],
+      "prediction_valid_rectangle": false,
+      "query_pair_index": 4,
+      "step": 50,
+      "support_pair_indices": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "target_nonpad_token_count": 81,
+      "target_shape": [
+        9,
+        9
+      ],
+      "task_id": "007bbfb7",
+      "token_accuracy_all": 0.7577777777777778,
+      "token_accuracy_nonpad": 0.3950617283950617
+    },
+    {
+      "all_token_correct_count": 795,
+      "all_token_count": 900,
+      "episode_index": 7,
+      "exact_decoded_grid_correct": false,
+      "exact_padded_grid_correct": false,
+      "invalid_padding_pattern": true,
+      "loss": 0.524703323841095,
+      "nonpad_hamming_error": 31,
+      "nonpad_token_correct_count": 165,
+      "output_shape_match": false,
+      "predicted_shape": [
+        23,
+        20
+      ],
+      "prediction_valid_rectangle": false,
+      "query_pair_index": 0,
+      "step": 50,
+      "support_pair_indices": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "target_nonpad_token_count": 196,
+      "target_shape": [
+        14,
+        14
+      ],
+      "task_id": "009d5c81",
+      "token_accuracy_all": 0.8833333333333333,
+      "token_accuracy_nonpad": 0.8418367346938775
+    },
+    {
+      "all_token_correct_count": 811,
+      "all_token_count": 900,
+      "episode_index": 8,
+      "exact_decoded_grid_correct": false,
+      "exact_padded_grid_correct": false,
+      "invalid_padding_pattern": true,
+      "loss": 0.30171284079551697,
+      "nonpad_hamming_error": 14,
+      "nonpad_token_correct_count": 182,
+      "output_shape_match": false,
+      "predicted_shape": [
+        23,
+        20
+      ],
+      "prediction_valid_rectangle": false,
+      "query_pair_index": 1,
+      "step": 50,
+      "support_pair_indices": [
+        0,
+        2,
+        3,
+        4
+      ],
+      "target_nonpad_token_count": 196,
+      "target_shape": [
+        14,
+        14
+      ],
+      "task_id": "009d5c81",
+      "token_accuracy_all": 0.9011111111111111,
+      "token_accuracy_nonpad": 0.9285714285714286
+    },
+    {
+      "all_token_correct_count": 801,
+      "all_token_count": 900,
+      "episode_index": 9,
+      "exact_decoded_grid_correct": false,
+      "exact_padded_grid_correct": false,
+      "invalid_padding_pattern": true,
+      "loss": 0.4919513463973999,
+      "nonpad_hamming_error": 24,
+      "nonpad_token_correct_count": 172,
+      "output_shape_match": false,
+      "predicted_shape": [
+        23,
+        20
+      ],
+      "prediction_valid_rectangle": false,
+      "query_pair_index": 2,
+      "step": 50,
+      "support_pair_indices": [
+        0,
+        1,
+        3,
+        4
+      ],
+      "target_nonpad_token_count": 196,
+      "target_shape": [
+        14,
+        14
+      ],
+      "task_id": "009d5c81",
+      "token_accuracy_all": 0.89,
+      "token_accuracy_nonpad": 0.8775510204081632
+    },
+    {
+      "all_token_correct_count": 809,
+      "all_token_count": 900,
+      "episode_index": 10,
+      "exact_decoded_grid_correct": false,
+      "exact_padded_grid_correct": false,
+      "invalid_padding_pattern": true,
+      "loss": 0.32319384813308716,
+      "nonpad_hamming_error": 16,
+      "nonpad_token_correct_count": 180,
+      "output_shape_match": false,
+      "predicted_shape": [
+        23,
+        20
+      ],
+      "prediction_valid_rectangle": false,
+      "query_pair_index": 3,
+      "step": 50,
+      "support_pair_indices": [
+        0,
+        1,
+        2,
+        4
+      ],
+      "target_nonpad_token_count": 196,
+      "target_shape": [
+        14,
+        14
+      ],
+      "task_id": "009d5c81",
+      "token_accuracy_all": 0.8988888888888888,
+      "token_accuracy_nonpad": 0.9183673469387755
+    },
+    {
+      "all_token_correct_count": 795,
+      "all_token_count": 900,
+      "episode_index": 11,
+      "exact_decoded_grid_correct": false,
+      "exact_padded_grid_correct": false,
+      "invalid_padding_pattern": true,
+      "loss": 0.5383133888244629,
+      "nonpad_hamming_error": 30,
+      "nonpad_token_correct_count": 166,
+      "output_shape_match": false,
+      "predicted_shape": [
+        23,
+        20
+      ],
+      "prediction_valid_rectangle": false,
+      "query_pair_index": 4,
+      "step": 50,
+      "support_pair_indices": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "target_nonpad_token_count": 196,
+      "target_shape": [
+        14,
+        14
+      ],
+      "task_id": "009d5c81",
+      "token_accuracy_all": 0.8833333333333333,
+      "token_accuracy_nonpad": 0.8469387755102041
+    },
+    {
+      "all_token_correct_count": 701,
+      "all_token_count": 900,
+      "episode_index": 12,
+      "exact_decoded_grid_correct": false,
+      "exact_padded_grid_correct": false,
+      "invalid_padding_pattern": true,
+      "loss": 0.7346490025520325,
+      "nonpad_hamming_error": 35,
+      "nonpad_token_correct_count": 65,
+      "output_shape_match": false,
+      "predicted_shape": [
+        23,
+        20
+      ],
+      "prediction_valid_rectangle": false,
+      "query_pair_index": 0,
+      "step": 50,
+      "support_pair_indices": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "target_nonpad_token_count": 100,
+      "target_shape": [
+        10,
+        10
+      ],
+      "task_id": "00d62c1b",
+      "token_accuracy_all": 0.7788888888888889,
+      "token_accuracy_nonpad": 0.65
+    },
+    {
+      "all_token_correct_count": 718,
+      "all_token_count": 900,
+      "episode_index": 13,
+      "exact_decoded_grid_correct": false,
+      "exact_padded_grid_correct": false,
+      "invalid_padding_pattern": true,
+      "loss": 0.5942104458808899,
+      "nonpad_hamming_error": 16,
+      "nonpad_token_correct_count": 84,
+      "output_shape_match": false,
+      "predicted_shape": [
+        23,
+        20
+      ],
+      "prediction_valid_rectangle": false,
+      "query_pair_index": 1,
+      "step": 50,
+      "support_pair_indices": [
+        0,
+        2,
+        3,
+        4
+      ],
+      "target_nonpad_token_count": 100,
+      "target_shape": [
+        10,
+        10
+      ],
+      "task_id": "00d62c1b",
+      "token_accuracy_all": 0.7977777777777778,
+      "token_accuracy_nonpad": 0.84
+    },
+    {
+      "all_token_correct_count": 704,
+      "all_token_count": 900,
+      "episode_index": 14,
+      "exact_decoded_grid_correct": false,
+      "exact_padded_grid_correct": false,
+      "invalid_padding_pattern": true,
+      "loss": 0.7261005640029907,
+      "nonpad_hamming_error": 31,
+      "nonpad_token_correct_count": 69,
+      "output_shape_match": false,
+      "predicted_shape": [
+        23,
+        20
+      ],
+      "prediction_valid_rectangle": false,
+      "query_pair_index": 2,
+      "step": 50,
+      "support_pair_indices": [
+        0,
+        1,
+        3,
+        4
+      ],
+      "target_nonpad_token_count": 100,
+      "target_shape": [
+        10,
+        10
+      ],
+      "task_id": "00d62c1b",
+      "token_accuracy_all": 0.7822222222222223,
+      "token_accuracy_nonpad": 0.69
+    },
+    {
+      "all_token_correct_count": 713,
+      "all_token_count": 900,
+      "episode_index": 15,
+      "exact_decoded_grid_correct": false,
+      "exact_padded_grid_correct": false,
+      "invalid_padding_pattern": true,
+      "loss": 1.072091817855835,
+      "nonpad_hamming_error": 179,
+      "nonpad_token_correct_count": 221,
+      "output_shape_match": false,
+      "predicted_shape": [
+        24,
+        30
+      ],
+      "prediction_valid_rectangle": false,
+      "query_pair_index": 3,
+      "step": 50,
+      "support_pair_indices": [
+        0,
+        1,
+        2,
+        4
+      ],
+      "target_nonpad_token_count": 400,
+      "target_shape": [
+        20,
+        20
+      ],
+      "task_id": "00d62c1b",
+      "token_accuracy_all": 0.7922222222222223,
+      "token_accuracy_nonpad": 0.5525
+    },
+    {
+      "all_token_correct_count": 671,
+      "all_token_count": 900,
+      "episode_index": 16,
+      "exact_decoded_grid_correct": false,
+      "exact_padded_grid_correct": false,
+      "invalid_padding_pattern": true,
+      "loss": 0.872802197933197,
+      "nonpad_hamming_error": 8,
+      "nonpad_token_correct_count": 28,
+      "output_shape_match": false,
+      "predicted_shape": [
+        22,
+        20
+      ],
+      "prediction_valid_rectangle": false,
+      "query_pair_index": 4,
+      "step": 50,
+      "support_pair_indices": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "target_nonpad_token_count": 36,
+      "target_shape": [
+        6,
+        6
+      ],
+      "task_id": "00d62c1b",
+      "token_accuracy_all": 0.7455555555555555,
+      "token_accuracy_nonpad": 0.7777777777777778
+    },
+    {
+      "all_token_correct_count": 833,
+      "all_token_count": 900,
+      "episode_index": 0,
+      "exact_decoded_grid_correct": false,
+      "exact_padded_grid_correct": false,
+      "invalid_padding_pattern": true,
+      "loss": 0.5035595893859863,
+      "nonpad_hamming_error": 34,
+      "nonpad_token_correct_count": 2,
+      "output_shape_match": false,
+      "predicted_shape": [
+        9,
+        9
+      ],
+      "prediction_valid_rectangle": false,
+      "query_pair_index": 0,
+      "step": 100,
+      "support_pair_indices": [
+        1
+      ],
+      "target_nonpad_token_count": 36,
+      "target_shape": [
+        6,
+        6
+      ],
+      "task_id": "00576224",
+      "token_accuracy_all": 0.9255555555555556,
+      "token_accuracy_nonpad": 0.05555555555555555
+    },
+    {
+      "all_token_correct_count": 832,
+      "all_token_count": 900,
+      "episode_index": 1,
+      "exact_decoded_grid_correct": false,
+      "exact_padded_grid_correct": false,
+      "invalid_padding_pattern": true,
+      "loss": 0.456569105386734,
+      "nonpad_hamming_error": 35,
+      "nonpad_token_correct_count": 1,
+      "output_shape_match": false,
+      "predicted_shape": [
+        9,
+        9
+      ],
+      "prediction_valid_rectangle": false,
+      "query_pair_index": 1,
+      "step": 100,
+      "support_pair_indices": [
+        0
+      ],
+      "target_nonpad_token_count": 36,
+      "target_shape": [
+        6,
+        6
+      ],
+      "task_id": "00576224",
+      "token_accuracy_all": 0.9244444444444444,
+      "token_accuracy_nonpad": 0.027777777777777776
+    },
+    {
+      "all_token_correct_count": 865,
+      "all_token_count": 900,
+      "episode_index": 2,
+      "exact_decoded_grid_correct": false,
+      "exact_padded_grid_correct": false,
+      "invalid_padding_pattern": true,
+      "loss": 0.4180961549282074,
+      "nonpad_hamming_error": 35,
+      "nonpad_token_correct_count": 46,
+      "output_shape_match": false,
+      "predicted_shape": [
+        9,
+        9
+      ],
+      "prediction_valid_rectangle": false,
+      "query_pair_index": 0,
+      "step": 100,
+      "support_pair_indices": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "target_nonpad_token_count": 81,
+      "target_shape": [
+        9,
+        9
+      ],
+      "task_id": "007bbfb7",
+      "token_accuracy_all": 0.9611111111111111,
+      "token_accuracy_nonpad": 0.5679012345679012
+    },
+    {
+      "all_token_correct_count": 879,
+      "all_token_count": 900,
+      "episode_index": 3,
+      "exact_decoded_grid_correct": false,
+      "exact_padded_grid_correct": false,
+      "invalid_padding_pattern": true,
+      "loss": 0.34865930676460266,
+      "nonpad_hamming_error": 21,
+      "nonpad_token_correct_count": 60,
+      "output_shape_match": false,
+      "predicted_shape": [
+        9,
+        9
+      ],
+      "prediction_valid_rectangle": false,
+      "query_pair_index": 1,
+      "step": 100,
+      "support_pair_indices": [
+        0,
+        2,
+        3,
+        4
+      ],
+      "target_nonpad_token_count": 81,
+      "target_shape": [
+        9,
+        9
+      ],
+      "task_id": "007bbfb7",
+      "token_accuracy_all": 0.9766666666666667,
+      "token_accuracy_nonpad": 0.7407407407407407
+    },
+    {
+      "all_token_correct_count": 878,
+      "all_token_count": 900,
+      "episode_index": 4,
+      "exact_decoded_grid_correct": false,
+      "exact_padded_grid_correct": false,
+      "invalid_padding_pattern": true,
+      "loss": 0.33162641525268555,
+      "nonpad_hamming_error": 22,
+      "nonpad_token_correct_count": 59,
+      "output_shape_match": false,
+      "predicted_shape": [
+        9,
+        9
+      ],
+      "prediction_valid_rectangle": false,
+      "query_pair_index": 2,
+      "step": 100,
+      "support_pair_indices": [
+        0,
+        1,
+        3,
+        4
+      ],
+      "target_nonpad_token_count": 81,
+      "target_shape": [
+        9,
+        9
+      ],
+      "task_id": "007bbfb7",
+      "token_accuracy_all": 0.9755555555555555,
+      "token_accuracy_nonpad": 0.7283950617283951
+    },
+    {
+      "all_token_correct_count": 868,
+      "all_token_count": 900,
+      "episode_index": 5,
+      "exact_decoded_grid_correct": false,
+      "exact_padded_grid_correct": false,
+      "invalid_padding_pattern": true,
+      "loss": 0.38447776436805725,
+      "nonpad_hamming_error": 32,
+      "nonpad_token_correct_count": 49,
+      "output_shape_match": false,
+      "predicted_shape": [
+        9,
+        9
+      ],
+      "prediction_valid_rectangle": false,
+      "query_pair_index": 3,
+      "step": 100,
+      "support_pair_indices": [
+        0,
+        1,
+        2,
+        4
+      ],
+      "target_nonpad_token_count": 81,
+      "target_shape": [
+        9,
+        9
+      ],
+      "task_id": "007bbfb7",
+      "token_accuracy_all": 0.9644444444444444,
+      "token_accuracy_nonpad": 0.6049382716049383
+    },
+    {
+      "all_token_correct_count": 855,
+      "all_token_count": 900,
+      "episode_index": 6,
+      "exact_decoded_grid_correct": false,
+      "exact_padded_grid_correct": false,
+      "invalid_padding_pattern": true,
+      "loss": 0.4577208161354065,
+      "nonpad_hamming_error": 45,
+      "nonpad_token_correct_count": 36,
+      "output_shape_match": false,
+      "predicted_shape": [
+        9,
+        9
+      ],
+      "prediction_valid_rectangle": false,
+      "query_pair_index": 4,
+      "step": 100,
+      "support_pair_indices": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "target_nonpad_token_count": 81,
+      "target_shape": [
+        9,
+        9
+      ],
+      "task_id": "007bbfb7",
+      "token_accuracy_all": 0.95,
+      "token_accuracy_nonpad": 0.4444444444444444
+    },
+    {
+      "all_token_correct_count": 796,
+      "all_token_count": 900,
+      "episode_index": 7,
+      "exact_decoded_grid_correct": false,
+      "exact_padded_grid_correct": false,
+      "invalid_padding_pattern": true,
+      "loss": 0.6184549331665039,
+      "nonpad_hamming_error": 104,
+      "nonpad_token_correct_count": 92,
+      "output_shape_match": false,
+      "predicted_shape": [
+        12,
+        14
+      ],
+      "prediction_valid_rectangle": false,
+      "query_pair_index": 0,
+      "step": 100,
+      "support_pair_indices": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "target_nonpad_token_count": 196,
+      "target_shape": [
+        14,
+        14
+      ],
+      "task_id": "009d5c81",
+      "token_accuracy_all": 0.8844444444444445,
+      "token_accuracy_nonpad": 0.46938775510204084
+    },
+    {
+      "all_token_correct_count": 811,
+      "all_token_count": 900,
+      "episode_index": 8,
+      "exact_decoded_grid_correct": false,
+      "exact_padded_grid_correct": false,
+      "invalid_padding_pattern": true,
+      "loss": 0.4577687680721283,
+      "nonpad_hamming_error": 89,
+      "nonpad_token_correct_count": 107,
+      "output_shape_match": false,
+      "predicted_shape": [
+        14,
+        14
+      ],
+      "prediction_valid_rectangle": false,
+      "query_pair_index": 1,
+      "step": 100,
+      "support_pair_indices": [
+        0,
+        2,
+        3,
+        4
+      ],
+      "target_nonpad_token_count": 196,
+      "target_shape": [
+        14,
+        14
+      ],
+      "task_id": "009d5c81",
+      "token_accuracy_all": 0.9011111111111111,
+      "token_accuracy_nonpad": 0.5459183673469388
+    },
+    {
+      "all_token_correct_count": 798,
+      "all_token_count": 900,
+      "episode_index": 9,
+      "exact_decoded_grid_correct": false,
+      "exact_padded_grid_correct": false,
+      "invalid_padding_pattern": true,
+      "loss": 0.5867307186126709,
+      "nonpad_hamming_error": 102,
+      "nonpad_token_correct_count": 94,
+      "output_shape_match": false,
+      "predicted_shape": [
+        14,
+        14
+      ],
+      "prediction_valid_rectangle": false,
+      "query_pair_index": 2,
+      "step": 100,
+      "support_pair_indices": [
+        0,
+        1,
+        3,
+        4
+      ],
+      "target_nonpad_token_count": 196,
+      "target_shape": [
+        14,
+        14
+      ],
+      "task_id": "009d5c81",
+      "token_accuracy_all": 0.8866666666666667,
+      "token_accuracy_nonpad": 0.47959183673469385
+    },
+    {
+      "all_token_correct_count": 810,
+      "all_token_count": 900,
+      "episode_index": 10,
+      "exact_decoded_grid_correct": false,
+      "exact_padded_grid_correct": false,
+      "invalid_padding_pattern": true,
+      "loss": 0.47918272018432617,
+      "nonpad_hamming_error": 90,
+      "nonpad_token_correct_count": 106,
+      "output_shape_match": false,
+      "predicted_shape": [
+        14,
+        14
+      ],
+      "prediction_valid_rectangle": false,
+      "query_pair_index": 3,
+      "step": 100,
+      "support_pair_indices": [
+        0,
+        1,
+        2,
+        4
+      ],
+      "target_nonpad_token_count": 196,
+      "target_shape": [
+        14,
+        14
+      ],
+      "task_id": "009d5c81",
+      "token_accuracy_all": 0.9,
+      "token_accuracy_nonpad": 0.5408163265306123
+    },
+    {
+      "all_token_correct_count": 798,
+      "all_token_count": 900,
+      "episode_index": 11,
+      "exact_decoded_grid_correct": false,
+      "exact_padded_grid_correct": false,
+      "invalid_padding_pattern": true,
+      "loss": 0.6222480535507202,
+      "nonpad_hamming_error": 102,
+      "nonpad_token_correct_count": 94,
+      "output_shape_match": false,
+      "predicted_shape": [
+        14,
+        14
+      ],
+      "prediction_valid_rectangle": false,
+      "query_pair_index": 4,
+      "step": 100,
+      "support_pair_indices": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "target_nonpad_token_count": 196,
+      "target_shape": [
+        14,
+        14
+      ],
+      "task_id": "009d5c81",
+      "token_accuracy_all": 0.8866666666666667,
+      "token_accuracy_nonpad": 0.47959183673469385
+    },
+    {
+      "all_token_correct_count": 862,
+      "all_token_count": 900,
+      "episode_index": 12,
+      "exact_decoded_grid_correct": false,
+      "exact_padded_grid_correct": false,
+      "invalid_padding_pattern": true,
+      "loss": 0.4739503562450409,
+      "nonpad_hamming_error": 38,
+      "nonpad_token_correct_count": 62,
+      "output_shape_match": false,
+      "predicted_shape": [
+        10,
+        10
+      ],
+      "prediction_valid_rectangle": false,
+      "query_pair_index": 0,
+      "step": 100,
+      "support_pair_indices": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "target_nonpad_token_count": 100,
+      "target_shape": [
+        10,
+        10
+      ],
+      "task_id": "00d62c1b",
+      "token_accuracy_all": 0.9577777777777777,
+      "token_accuracy_nonpad": 0.62
+    },
+    {
+      "all_token_correct_count": 884,
+      "all_token_count": 900,
+      "episode_index": 13,
+      "exact_decoded_grid_correct": false,
+      "exact_padded_grid_correct": false,
+      "invalid_padding_pattern": false,
+      "loss": 0.29410552978515625,
+      "nonpad_hamming_error": 16,
+      "nonpad_token_correct_count": 84,
+      "output_shape_match": true,
+      "predicted_shape": [
+        10,
+        10
+      ],
+      "prediction_valid_rectangle": true,
+      "query_pair_index": 1,
+      "step": 100,
+      "support_pair_indices": [
+        0,
+        2,
+        3,
+        4
+      ],
+      "target_nonpad_token_count": 100,
+      "target_shape": [
+        10,
+        10
+      ],
+      "task_id": "00d62c1b",
+      "token_accuracy_all": 0.9822222222222222,
+      "token_accuracy_nonpad": 0.84
+    },
+    {
+      "all_token_correct_count": 868,
+      "all_token_count": 900,
+      "episode_index": 14,
+      "exact_decoded_grid_correct": false,
+      "exact_padded_grid_correct": false,
+      "invalid_padding_pattern": true,
+      "loss": 0.4487909972667694,
+      "nonpad_hamming_error": 32,
+      "nonpad_token_correct_count": 68,
+      "output_shape_match": false,
+      "predicted_shape": [
+        10,
+        10
+      ],
+      "prediction_valid_rectangle": false,
+      "query_pair_index": 2,
+      "step": 100,
+      "support_pair_indices": [
+        0,
+        1,
+        3,
+        4
+      ],
+      "target_nonpad_token_count": 100,
+      "target_shape": [
+        10,
+        10
+      ],
+      "task_id": "00d62c1b",
+      "token_accuracy_all": 0.9644444444444444,
+      "token_accuracy_nonpad": 0.68
+    },
+    {
+      "all_token_correct_count": 625,
+      "all_token_count": 900,
+      "episode_index": 15,
+      "exact_decoded_grid_correct": false,
+      "exact_padded_grid_correct": false,
+      "invalid_padding_pattern": true,
+      "loss": 1.9489526748657227,
+      "nonpad_hamming_error": 275,
+      "nonpad_token_correct_count": 125,
+      "output_shape_match": false,
+      "predicted_shape": [
+        14,
+        14
+      ],
+      "prediction_valid_rectangle": false,
+      "query_pair_index": 3,
+      "step": 100,
+      "support_pair_indices": [
+        0,
+        1,
+        2,
+        4
+      ],
+      "target_nonpad_token_count": 400,
+      "target_shape": [
+        20,
+        20
+      ],
+      "task_id": "00d62c1b",
+      "token_accuracy_all": 0.6944444444444444,
+      "token_accuracy_nonpad": 0.3125
+    },
+    {
+      "all_token_correct_count": 847,
+      "all_token_count": 900,
+      "episode_index": 16,
+      "exact_decoded_grid_correct": false,
+      "exact_padded_grid_correct": false,
+      "invalid_padding_pattern": false,
+      "loss": 0.2697918713092804,
+      "nonpad_hamming_error": 8,
+      "nonpad_token_correct_count": 28,
+      "output_shape_match": false,
+      "predicted_shape": [
+        9,
+        9
+      ],
+      "prediction_valid_rectangle": true,
+      "query_pair_index": 4,
+      "step": 100,
+      "support_pair_indices": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "target_nonpad_token_count": 36,
+      "target_shape": [
+        6,
+        6
+      ],
+      "task_id": "00d62c1b",
+      "token_accuracy_all": 0.9411111111111111,
+      "token_accuracy_nonpad": 0.7777777777777778
+    },
+    {
+      "all_token_correct_count": 828,
+      "all_token_count": 900,
+      "episode_index": 0,
+      "exact_decoded_grid_correct": false,
+      "exact_padded_grid_correct": false,
+      "invalid_padding_pattern": false,
+      "loss": 0.43669867515563965,
+      "nonpad_hamming_error": 27,
+      "nonpad_token_correct_count": 9,
+      "output_shape_match": false,
+      "predicted_shape": [
+        9,
+        9
+      ],
+      "prediction_valid_rectangle": true,
+      "query_pair_index": 0,
+      "step": 250,
+      "support_pair_indices": [
+        1
+      ],
+      "target_nonpad_token_count": 36,
+      "target_shape": [
+        6,
+        6
+      ],
+      "task_id": "00576224",
+      "token_accuracy_all": 0.92,
+      "token_accuracy_nonpad": 0.25
+    },
+    {
+      "all_token_correct_count": 841,
+      "all_token_count": 900,
+      "episode_index": 1,
+      "exact_decoded_grid_correct": false,
+      "exact_padded_grid_correct": false,
+      "invalid_padding_pattern": false,
+      "loss": 0.33368295431137085,
+      "nonpad_hamming_error": 14,
+      "nonpad_token_correct_count": 22,
+      "output_shape_match": false,
+      "predicted_shape": [
+        9,
+        9
+      ],
+      "prediction_valid_rectangle": true,
+      "query_pair_index": 1,
+      "step": 250,
+      "support_pair_indices": [
+        0
+      ],
+      "target_nonpad_token_count": 36,
+      "target_shape": [
+        6,
+        6
+      ],
+      "task_id": "00576224",
+      "token_accuracy_all": 0.9344444444444444,
+      "token_accuracy_nonpad": 0.6111111111111112
+    },
+    {
+      "all_token_correct_count": 872,
+      "all_token_count": 900,
+      "episode_index": 2,
+      "exact_decoded_grid_correct": false,
+      "exact_padded_grid_correct": false,
+      "invalid_padding_pattern": true,
+      "loss": 0.32053041458129883,
+      "nonpad_hamming_error": 25,
+      "nonpad_token_correct_count": 56,
+      "output_shape_match": false,
+      "predicted_shape": [
+        10,
+        10
+      ],
+      "prediction_valid_rectangle": false,
+      "query_pair_index": 0,
+      "step": 250,
+      "support_pair_indices": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "target_nonpad_token_count": 81,
+      "target_shape": [
+        9,
+        9
+      ],
+      "task_id": "007bbfb7",
+      "token_accuracy_all": 0.9688888888888889,
+      "token_accuracy_nonpad": 0.691358024691358
+    },
+    {
+      "all_token_correct_count": 888,
+      "all_token_count": 900,
+      "episode_index": 3,
+      "exact_decoded_grid_correct": false,
+      "exact_padded_grid_correct": false,
+      "invalid_padding_pattern": true,
+      "loss": 0.16985352337360382,
+      "nonpad_hamming_error": 9,
+      "nonpad_token_correct_count": 72,
+      "output_shape_match": false,
+      "predicted_shape": [
+        10,
+        10
+      ],
+      "prediction_valid_rectangle": false,
+      "query_pair_index": 1,
+      "step": 250,
+      "support_pair_indices": [
+        0,
+        2,
+        3,
+        4
+      ],
+      "target_nonpad_token_count": 81,
+      "target_shape": [
+        9,
+        9
+      ],
+      "task_id": "007bbfb7",
+      "token_accuracy_all": 0.9866666666666667,
+      "token_accuracy_nonpad": 0.8888888888888888
+    },
+    {
+      "all_token_correct_count": 889,
+      "all_token_count": 900,
+      "episode_index": 4,
+      "exact_decoded_grid_correct": false,
+      "exact_padded_grid_correct": false,
+      "invalid_padding_pattern": true,
+      "loss": 0.16269813477993011,
+      "nonpad_hamming_error": 9,
+      "nonpad_token_correct_count": 72,
+      "output_shape_match": false,
+      "predicted_shape": [
+        10,
+        9
+      ],
+      "prediction_valid_rectangle": false,
+      "query_pair_index": 2,
+      "step": 250,
+      "support_pair_indices": [
+        0,
+        1,
+        3,
+        4
+      ],
+      "target_nonpad_token_count": 81,
+      "target_shape": [
+        9,
+        9
+      ],
+      "task_id": "007bbfb7",
+      "token_accuracy_all": 0.9877777777777778,
+      "token_accuracy_nonpad": 0.8888888888888888
+    },
+    {
+      "all_token_correct_count": 872,
+      "all_token_count": 900,
+      "episode_index": 5,
+      "exact_decoded_grid_correct": false,
+      "exact_padded_grid_correct": false,
+      "invalid_padding_pattern": true,
+      "loss": 0.281363844871521,
+      "nonpad_hamming_error": 25,
+      "nonpad_token_correct_count": 56,
+      "output_shape_match": false,
+      "predicted_shape": [
+        10,
+        10
+      ],
+      "prediction_valid_rectangle": false,
+      "query_pair_index": 3,
+      "step": 250,
+      "support_pair_indices": [
+        0,
+        1,
+        2,
+        4
+      ],
+      "target_nonpad_token_count": 81,
+      "target_shape": [
+        9,
+        9
+      ],
+      "task_id": "007bbfb7",
+      "token_accuracy_all": 0.9688888888888889,
+      "token_accuracy_nonpad": 0.691358024691358
+    },
+    {
+      "all_token_correct_count": 871,
+      "all_token_count": 900,
+      "episode_index": 6,
+      "exact_decoded_grid_correct": false,
+      "exact_padded_grid_correct": false,
+      "invalid_padding_pattern": false,
+      "loss": 0.28914257884025574,
+      "nonpad_hamming_error": 29,
+      "nonpad_token_correct_count": 52,
+      "output_shape_match": true,
+      "predicted_shape": [
+        9,
+        9
+      ],
+      "prediction_valid_rectangle": true,
+      "query_pair_index": 4,
+      "step": 250,
+      "support_pair_indices": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "target_nonpad_token_count": 81,
+      "target_shape": [
+        9,
+        9
+      ],
+      "task_id": "007bbfb7",
+      "token_accuracy_all": 0.9677777777777777,
+      "token_accuracy_nonpad": 0.6419753086419753
+    },
+    {
+      "all_token_correct_count": 867,
+      "all_token_count": 900,
+      "episode_index": 7,
+      "exact_decoded_grid_correct": false,
+      "exact_padded_grid_correct": false,
+      "invalid_padding_pattern": true,
+      "loss": 0.367007851600647,
+      "nonpad_hamming_error": 31,
+      "nonpad_token_correct_count": 165,
+      "output_shape_match": false,
+      "predicted_shape": [
+        19,
+        14
+      ],
+      "prediction_valid_rectangle": false,
+      "query_pair_index": 0,
+      "step": 250,
+      "support_pair_indices": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "target_nonpad_token_count": 196,
+      "target_shape": [
+        14,
+        14
+      ],
+      "task_id": "009d5c81",
+      "token_accuracy_all": 0.9633333333333334,
+      "token_accuracy_nonpad": 0.8418367346938775
+    },
+    {
+      "all_token_correct_count": 880,
+      "all_token_count": 900,
+      "episode_index": 8,
+      "exact_decoded_grid_correct": false,
+      "exact_padded_grid_correct": false,
+      "invalid_padding_pattern": true,
+      "loss": 0.16094934940338135,
+      "nonpad_hamming_error": 12,
+      "nonpad_token_correct_count": 184,
+      "output_shape_match": false,
+      "predicted_shape": [
+        19,
+        19
+      ],
+      "prediction_valid_rectangle": false,
+      "query_pair_index": 1,
+      "step": 250,
+      "support_pair_indices": [
+        0,
+        2,
+        3,
+        4
+      ],
+      "target_nonpad_token_count": 196,
+      "target_shape": [
+        14,
+        14
+      ],
+      "task_id": "009d5c81",
+      "token_accuracy_all": 0.9777777777777777,
+      "token_accuracy_nonpad": 0.9387755102040817
+    },
+    {
+      "all_token_correct_count": 871,
+      "all_token_count": 900,
+      "episode_index": 9,
+      "exact_decoded_grid_correct": false,
+      "exact_padded_grid_correct": false,
+      "invalid_padding_pattern": true,
+      "loss": 0.2761630117893219,
+      "nonpad_hamming_error": 26,
+      "nonpad_token_correct_count": 170,
+      "output_shape_match": false,
+      "predicted_shape": [
+        19,
+        14
+      ],
+      "prediction_valid_rectangle": false,
+      "query_pair_index": 2,
+      "step": 250,
+      "support_pair_indices": [
+        0,
+        1,
+        3,
+        4
+      ],
+      "target_nonpad_token_count": 196,
+      "target_shape": [
+        14,
+        14
+      ],
+      "task_id": "009d5c81",
+      "token_accuracy_all": 0.9677777777777777,
+      "token_accuracy_nonpad": 0.8673469387755102
+    },
+    {
+      "all_token_correct_count": 877,
+      "all_token_count": 900,
+      "episode_index": 10,
+      "exact_decoded_grid_correct": false,
+      "exact_padded_grid_correct": false,
+      "invalid_padding_pattern": true,
+      "loss": 0.18279330432415009,
+      "nonpad_hamming_error": 14,
+      "nonpad_token_correct_count": 182,
+      "output_shape_match": false,
+      "predicted_shape": [
+        19,
+        19
+      ],
+      "prediction_valid_rectangle": false,
+      "query_pair_index": 3,
+      "step": 250,
+      "support_pair_indices": [
+        0,
+        1,
+        2,
+        4
+      ],
+      "target_nonpad_token_count": 196,
+      "target_shape": [
+        14,
+        14
+      ],
+      "task_id": "009d5c81",
+      "token_accuracy_all": 0.9744444444444444,
+      "token_accuracy_nonpad": 0.9285714285714286
+    },
+    {
+      "all_token_correct_count": 868,
+      "all_token_count": 900,
+      "episode_index": 11,
+      "exact_decoded_grid_correct": false,
+      "exact_padded_grid_correct": false,
+      "invalid_padding_pattern": true,
+      "loss": 0.30503299832344055,
+      "nonpad_hamming_error": 30,
+      "nonpad_token_correct_count": 166,
+      "output_shape_match": false,
+      "predicted_shape": [
+        19,
+        14
+      ],
+      "prediction_valid_rectangle": false,
+      "query_pair_index": 4,
+      "step": 250,
+      "support_pair_indices": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "target_nonpad_token_count": 196,
+      "target_shape": [
+        14,
+        14
+      ],
+      "task_id": "009d5c81",
+      "token_accuracy_all": 0.9644444444444444,
+      "token_accuracy_nonpad": 0.8469387755102041
+    },
+    {
+      "all_token_correct_count": 799,
+      "all_token_count": 900,
+      "episode_index": 12,
+      "exact_decoded_grid_correct": false,
+      "exact_padded_grid_correct": false,
+      "invalid_padding_pattern": true,
+      "loss": 0.4768355190753937,
+      "nonpad_hamming_error": 35,
+      "nonpad_token_correct_count": 65,
+      "output_shape_match": false,
+      "predicted_shape": [
+        14,
+        14
+      ],
+      "prediction_valid_rectangle": false,
+      "query_pair_index": 0,
+      "step": 250,
+      "support_pair_indices": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "target_nonpad_token_count": 100,
+      "target_shape": [
+        10,
+        10
+      ],
+      "task_id": "00d62c1b",
+      "token_accuracy_all": 0.8877777777777778,
+      "token_accuracy_nonpad": 0.65
+    },
+    {
+      "all_token_correct_count": 800,
+      "all_token_count": 900,
+      "episode_index": 13,
+      "exact_decoded_grid_correct": false,
+      "exact_padded_grid_correct": false,
+      "invalid_padding_pattern": true,
+      "loss": 0.29744210839271545,
+      "nonpad_hamming_error": 16,
+      "nonpad_token_correct_count": 84,
+      "output_shape_match": false,
+      "predicted_shape": [
+        14,
+        14
+      ],
+      "prediction_valid_rectangle": false,
+      "query_pair_index": 1,
+      "step": 250,
+      "support_pair_indices": [
+        0,
+        2,
+        3,
+        4
+      ],
+      "target_nonpad_token_count": 100,
+      "target_shape": [
+        10,
+        10
+      ],
+      "task_id": "00d62c1b",
+      "token_accuracy_all": 0.8888888888888888,
+      "token_accuracy_nonpad": 0.84
+    },
+    {
+      "all_token_correct_count": 790,
+      "all_token_count": 900,
+      "episode_index": 14,
+      "exact_decoded_grid_correct": false,
+      "exact_padded_grid_correct": false,
+      "invalid_padding_pattern": true,
+      "loss": 0.44679033756256104,
+      "nonpad_hamming_error": 31,
+      "nonpad_token_correct_count": 69,
+      "output_shape_match": false,
+      "predicted_shape": [
+        14,
+        14
+      ],
+      "prediction_valid_rectangle": false,
+      "query_pair_index": 2,
+      "step": 250,
+      "support_pair_indices": [
+        0,
+        1,
+        3,
+        4
+      ],
+      "target_nonpad_token_count": 100,
+      "target_shape": [
+        10,
+        10
+      ],
+      "task_id": "00d62c1b",
+      "token_accuracy_all": 0.8777777777777778,
+      "token_accuracy_nonpad": 0.69
+    },
+    {
+      "all_token_correct_count": 831,
+      "all_token_count": 900,
+      "episode_index": 15,
+      "exact_decoded_grid_correct": false,
+      "exact_padded_grid_correct": false,
+      "invalid_padding_pattern": true,
+      "loss": 0.4087921679019928,
+      "nonpad_hamming_error": 67,
+      "nonpad_token_correct_count": 333,
+      "output_shape_match": false,
+      "predicted_shape": [
+        20,
+        24
+      ],
+      "prediction_valid_rectangle": false,
+      "query_pair_index": 3,
+      "step": 250,
+      "support_pair_indices": [
+        0,
+        1,
+        2,
+        4
+      ],
+      "target_nonpad_token_count": 400,
+      "target_shape": [
+        20,
+        20
+      ],
+      "task_id": "00d62c1b",
+      "token_accuracy_all": 0.9233333333333333,
+      "token_accuracy_nonpad": 0.8325
+    },
+    {
+      "all_token_correct_count": 832,
+      "all_token_count": 900,
+      "episode_index": 16,
+      "exact_decoded_grid_correct": false,
+      "exact_padded_grid_correct": false,
+      "invalid_padding_pattern": true,
+      "loss": 0.41966158151626587,
+      "nonpad_hamming_error": 8,
+      "nonpad_token_correct_count": 28,
+      "output_shape_match": false,
+      "predicted_shape": [
+        11,
+        13
+      ],
+      "prediction_valid_rectangle": false,
+      "query_pair_index": 4,
+      "step": 250,
+      "support_pair_indices": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "target_nonpad_token_count": 36,
+      "target_shape": [
+        6,
+        6
+      ],
+      "task_id": "00d62c1b",
+      "token_accuracy_all": 0.9244444444444444,
+      "token_accuracy_nonpad": 0.7777777777777778
+    },
+    {
+      "all_token_correct_count": 879,
+      "all_token_count": 900,
+      "episode_index": 0,
+      "exact_decoded_grid_correct": false,
+      "exact_padded_grid_correct": false,
+      "invalid_padding_pattern": false,
+      "loss": 0.16340337693691254,
+      "nonpad_hamming_error": 21,
+      "nonpad_token_correct_count": 15,
+      "output_shape_match": true,
+      "predicted_shape": [
+        6,
+        6
+      ],
+      "prediction_valid_rectangle": true,
+      "query_pair_index": 0,
+      "step": 500,
+      "support_pair_indices": [
+        1
+      ],
+      "target_nonpad_token_count": 36,
+      "target_shape": [
+        6,
+        6
+      ],
+      "task_id": "00576224",
+      "token_accuracy_all": 0.9766666666666667,
+      "token_accuracy_nonpad": 0.4166666666666667
+    },
+    {
+      "all_token_correct_count": 886,
+      "all_token_count": 900,
+      "episode_index": 1,
+      "exact_decoded_grid_correct": false,
+      "exact_padded_grid_correct": false,
+      "invalid_padding_pattern": false,
+      "loss": 0.12642616033554077,
+      "nonpad_hamming_error": 14,
+      "nonpad_token_correct_count": 22,
+      "output_shape_match": true,
+      "predicted_shape": [
+        6,
+        6
+      ],
+      "prediction_valid_rectangle": true,
+      "query_pair_index": 1,
+      "step": 500,
+      "support_pair_indices": [
+        0
+      ],
+      "target_nonpad_token_count": 36,
+      "target_shape": [
+        6,
+        6
+      ],
+      "task_id": "00576224",
+      "token_accuracy_all": 0.9844444444444445,
+      "token_accuracy_nonpad": 0.6111111111111112
+    },
+    {
+      "all_token_correct_count": 877,
+      "all_token_count": 900,
+      "episode_index": 2,
+      "exact_decoded_grid_correct": false,
+      "exact_padded_grid_correct": false,
+      "invalid_padding_pattern": false,
+      "loss": 0.22110921144485474,
+      "nonpad_hamming_error": 23,
+      "nonpad_token_correct_count": 58,
+      "output_shape_match": true,
+      "predicted_shape": [
+        9,
+        9
+      ],
+      "prediction_valid_rectangle": true,
+      "query_pair_index": 0,
+      "step": 500,
+      "support_pair_indices": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "target_nonpad_token_count": 81,
+      "target_shape": [
+        9,
+        9
+      ],
+      "task_id": "007bbfb7",
+      "token_accuracy_all": 0.9744444444444444,
+      "token_accuracy_nonpad": 0.7160493827160493
+    },
+    {
+      "all_token_correct_count": 890,
+      "all_token_count": 900,
+      "episode_index": 3,
+      "exact_decoded_grid_correct": false,
+      "exact_padded_grid_correct": false,
+      "invalid_padding_pattern": false,
+      "loss": 0.1296306848526001,
+      "nonpad_hamming_error": 10,
+      "nonpad_token_correct_count": 71,
+      "output_shape_match": true,
+      "predicted_shape": [
+        9,
+        9
+      ],
+      "prediction_valid_rectangle": true,
+      "query_pair_index": 1,
+      "step": 500,
+      "support_pair_indices": [
+        0,
+        2,
+        3,
+        4
+      ],
+      "target_nonpad_token_count": 81,
+      "target_shape": [
+        9,
+        9
+      ],
+      "task_id": "007bbfb7",
+      "token_accuracy_all": 0.9888888888888889,
+      "token_accuracy_nonpad": 0.8765432098765432
+    },
+    {
+      "all_token_correct_count": 892,
+      "all_token_count": 900,
+      "episode_index": 4,
+      "exact_decoded_grid_correct": false,
+      "exact_padded_grid_correct": false,
+      "invalid_padding_pattern": false,
+      "loss": 0.11927332729101181,
+      "nonpad_hamming_error": 8,
+      "nonpad_token_correct_count": 73,
+      "output_shape_match": true,
+      "predicted_shape": [
+        9,
+        9
+      ],
+      "prediction_valid_rectangle": true,
+      "query_pair_index": 2,
+      "step": 500,
+      "support_pair_indices": [
+        0,
+        1,
+        3,
+        4
+      ],
+      "target_nonpad_token_count": 81,
+      "target_shape": [
+        9,
+        9
+      ],
+      "task_id": "007bbfb7",
+      "token_accuracy_all": 0.9911111111111112,
+      "token_accuracy_nonpad": 0.9012345679012346
+    },
+    {
+      "all_token_correct_count": 876,
+      "all_token_count": 900,
+      "episode_index": 5,
+      "exact_decoded_grid_correct": false,
+      "exact_padded_grid_correct": false,
+      "invalid_padding_pattern": false,
+      "loss": 0.18855886161327362,
+      "nonpad_hamming_error": 24,
+      "nonpad_token_correct_count": 57,
+      "output_shape_match": true,
+      "predicted_shape": [
+        9,
+        9
+      ],
+      "prediction_valid_rectangle": true,
+      "query_pair_index": 3,
+      "step": 500,
+      "support_pair_indices": [
+        0,
+        1,
+        2,
+        4
+      ],
+      "target_nonpad_token_count": 81,
+      "target_shape": [
+        9,
+        9
+      ],
+      "task_id": "007bbfb7",
+      "token_accuracy_all": 0.9733333333333334,
+      "token_accuracy_nonpad": 0.7037037037037037
+    },
+    {
+      "all_token_correct_count": 897,
+      "all_token_count": 900,
+      "episode_index": 6,
+      "exact_decoded_grid_correct": false,
+      "exact_padded_grid_correct": false,
+      "invalid_padding_pattern": false,
+      "loss": 0.042257409542798996,
+      "nonpad_hamming_error": 3,
+      "nonpad_token_correct_count": 78,
+      "output_shape_match": true,
+      "predicted_shape": [
+        9,
+        9
+      ],
+      "prediction_valid_rectangle": true,
+      "query_pair_index": 4,
+      "step": 500,
+      "support_pair_indices": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "target_nonpad_token_count": 81,
+      "target_shape": [
+        9,
+        9
+      ],
+      "task_id": "007bbfb7",
+      "token_accuracy_all": 0.9966666666666667,
+      "token_accuracy_nonpad": 0.9629629629629629
+    },
+    {
+      "all_token_correct_count": 865,
+      "all_token_count": 900,
+      "episode_index": 7,
+      "exact_decoded_grid_correct": false,
+      "exact_padded_grid_correct": false,
+      "invalid_padding_pattern": false,
+      "loss": 0.3495367765426636,
+      "nonpad_hamming_error": 35,
+      "nonpad_token_correct_count": 161,
+      "output_shape_match": true,
+      "predicted_shape": [
+        14,
+        14
+      ],
+      "prediction_valid_rectangle": true,
+      "query_pair_index": 0,
+      "step": 500,
+      "support_pair_indices": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "target_nonpad_token_count": 196,
+      "target_shape": [
+        14,
+        14
+      ],
+      "task_id": "009d5c81",
+      "token_accuracy_all": 0.9611111111111111,
+      "token_accuracy_nonpad": 0.8214285714285714
+    },
+    {
+      "all_token_correct_count": 893,
+      "all_token_count": 900,
+      "episode_index": 8,
+      "exact_decoded_grid_correct": false,
+      "exact_padded_grid_correct": false,
+      "invalid_padding_pattern": false,
+      "loss": 0.08572838455438614,
+      "nonpad_hamming_error": 7,
+      "nonpad_token_correct_count": 189,
+      "output_shape_match": true,
+      "predicted_shape": [
+        14,
+        14
+      ],
+      "prediction_valid_rectangle": true,
+      "query_pair_index": 1,
+      "step": 500,
+      "support_pair_indices": [
+        0,
+        2,
+        3,
+        4
+      ],
+      "target_nonpad_token_count": 196,
+      "target_shape": [
+        14,
+        14
+      ],
+      "task_id": "009d5c81",
+      "token_accuracy_all": 0.9922222222222222,
+      "token_accuracy_nonpad": 0.9642857142857143
+    },
+    {
+      "all_token_correct_count": 872,
+      "all_token_count": 900,
+      "episode_index": 9,
+      "exact_decoded_grid_correct": false,
+      "exact_padded_grid_correct": false,
+      "invalid_padding_pattern": false,
+      "loss": 0.2638449966907501,
+      "nonpad_hamming_error": 28,
+      "nonpad_token_correct_count": 168,
+      "output_shape_match": true,
+      "predicted_shape": [
+        14,
+        14
+      ],
+      "prediction_valid_rectangle": true,
+      "query_pair_index": 2,
+      "step": 500,
+      "support_pair_indices": [
+        0,
+        1,
+        3,
+        4
+      ],
+      "target_nonpad_token_count": 196,
+      "target_shape": [
+        14,
+        14
+      ],
+      "task_id": "009d5c81",
+      "token_accuracy_all": 0.9688888888888889,
+      "token_accuracy_nonpad": 0.8571428571428571
+    },
+    {
+      "all_token_correct_count": 891,
+      "all_token_count": 900,
+      "episode_index": 10,
+      "exact_decoded_grid_correct": false,
+      "exact_padded_grid_correct": false,
+      "invalid_padding_pattern": false,
+      "loss": 0.10014262795448303,
+      "nonpad_hamming_error": 9,
+      "nonpad_token_correct_count": 187,
+      "output_shape_match": true,
+      "predicted_shape": [
+        14,
+        14
+      ],
+      "prediction_valid_rectangle": true,
+      "query_pair_index": 3,
+      "step": 500,
+      "support_pair_indices": [
+        0,
+        1,
+        2,
+        4
+      ],
+      "target_nonpad_token_count": 196,
+      "target_shape": [
+        14,
+        14
+      ],
+      "task_id": "009d5c81",
+      "token_accuracy_all": 0.99,
+      "token_accuracy_nonpad": 0.9540816326530612
+    },
+    {
+      "all_token_correct_count": 868,
+      "all_token_count": 900,
+      "episode_index": 11,
+      "exact_decoded_grid_correct": false,
+      "exact_padded_grid_correct": false,
+      "invalid_padding_pattern": false,
+      "loss": 0.28906556963920593,
+      "nonpad_hamming_error": 32,
+      "nonpad_token_correct_count": 164,
+      "output_shape_match": true,
+      "predicted_shape": [
+        14,
+        14
+      ],
+      "prediction_valid_rectangle": true,
+      "query_pair_index": 4,
+      "step": 500,
+      "support_pair_indices": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "target_nonpad_token_count": 196,
+      "target_shape": [
+        14,
+        14
+      ],
+      "task_id": "009d5c81",
+      "token_accuracy_all": 0.9644444444444444,
+      "token_accuracy_nonpad": 0.8367346938775511
+    },
+    {
+      "all_token_correct_count": 880,
+      "all_token_count": 900,
+      "episode_index": 12,
+      "exact_decoded_grid_correct": false,
+      "exact_padded_grid_correct": false,
+      "invalid_padding_pattern": false,
+      "loss": 0.214547798037529,
+      "nonpad_hamming_error": 20,
+      "nonpad_token_correct_count": 80,
+      "output_shape_match": true,
+      "predicted_shape": [
+        10,
+        10
+      ],
+      "prediction_valid_rectangle": true,
+      "query_pair_index": 0,
+      "step": 500,
+      "support_pair_indices": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "target_nonpad_token_count": 100,
+      "target_shape": [
+        10,
+        10
+      ],
+      "task_id": "00d62c1b",
+      "token_accuracy_all": 0.9777777777777777,
+      "token_accuracy_nonpad": 0.8
+    },
+    {
+      "all_token_correct_count": 873,
+      "all_token_count": 900,
+      "episode_index": 13,
+      "exact_decoded_grid_correct": false,
+      "exact_padded_grid_correct": false,
+      "invalid_padding_pattern": true,
+      "loss": 0.21911634504795074,
+      "nonpad_hamming_error": 26,
+      "nonpad_token_correct_count": 74,
+      "output_shape_match": false,
+      "predicted_shape": [
+        10,
+        11
+      ],
+      "prediction_valid_rectangle": false,
+      "query_pair_index": 1,
+      "step": 500,
+      "support_pair_indices": [
+        0,
+        2,
+        3,
+        4
+      ],
+      "target_nonpad_token_count": 100,
+      "target_shape": [
+        10,
+        10
+      ],
+      "task_id": "00d62c1b",
+      "token_accuracy_all": 0.97,
+      "token_accuracy_nonpad": 0.74
+    },
+    {
+      "all_token_correct_count": 879,
+      "all_token_count": 900,
+      "episode_index": 14,
+      "exact_decoded_grid_correct": false,
+      "exact_padded_grid_correct": false,
+      "invalid_padding_pattern": false,
+      "loss": 0.23068632185459137,
+      "nonpad_hamming_error": 21,
+      "nonpad_token_correct_count": 79,
+      "output_shape_match": true,
+      "predicted_shape": [
+        10,
+        10
+      ],
+      "prediction_valid_rectangle": true,
+      "query_pair_index": 2,
+      "step": 500,
+      "support_pair_indices": [
+        0,
+        1,
+        3,
+        4
+      ],
+      "target_nonpad_token_count": 100,
+      "target_shape": [
+        10,
+        10
+      ],
+      "task_id": "00d62c1b",
+      "token_accuracy_all": 0.9766666666666667,
+      "token_accuracy_nonpad": 0.79
+    },
+    {
+      "all_token_correct_count": 878,
+      "all_token_count": 900,
+      "episode_index": 15,
+      "exact_decoded_grid_correct": false,
+      "exact_padded_grid_correct": false,
+      "invalid_padding_pattern": false,
+      "loss": 0.15720298886299133,
+      "nonpad_hamming_error": 22,
+      "nonpad_token_correct_count": 378,
+      "output_shape_match": true,
+      "predicted_shape": [
+        20,
+        20
+      ],
+      "prediction_valid_rectangle": true,
+      "query_pair_index": 3,
+      "step": 500,
+      "support_pair_indices": [
+        0,
+        1,
+        2,
+        4
+      ],
+      "target_nonpad_token_count": 400,
+      "target_shape": [
+        20,
+        20
+      ],
+      "task_id": "00d62c1b",
+      "token_accuracy_all": 0.9755555555555555,
+      "token_accuracy_nonpad": 0.945
+    },
+    {
+      "all_token_correct_count": 879,
+      "all_token_count": 900,
+      "episode_index": 16,
+      "exact_decoded_grid_correct": false,
+      "exact_padded_grid_correct": false,
+      "invalid_padding_pattern": true,
+      "loss": 0.15351219475269318,
+      "nonpad_hamming_error": 9,
+      "nonpad_token_correct_count": 27,
+      "output_shape_match": false,
+      "predicted_shape": [
+        9,
+        9
+      ],
+      "prediction_valid_rectangle": false,
+      "query_pair_index": 4,
+      "step": 500,
+      "support_pair_indices": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "target_nonpad_token_count": 36,
+      "target_shape": [
+        6,
+        6
+      ],
+      "task_id": "00d62c1b",
+      "token_accuracy_all": 0.9766666666666667,
+      "token_accuracy_nonpad": 0.75
+    },
+    {
+      "all_token_correct_count": 892,
+      "all_token_count": 900,
+      "episode_index": 0,
+      "exact_decoded_grid_correct": false,
+      "exact_padded_grid_correct": false,
+      "invalid_padding_pattern": false,
+      "loss": 0.06482045352458954,
+      "nonpad_hamming_error": 8,
+      "nonpad_token_correct_count": 28,
+      "output_shape_match": true,
+      "predicted_shape": [
+        6,
+        6
+      ],
+      "prediction_valid_rectangle": true,
+      "query_pair_index": 0,
+      "step": 1000,
+      "support_pair_indices": [
+        1
+      ],
+      "target_nonpad_token_count": 36,
+      "target_shape": [
+        6,
+        6
+      ],
+      "task_id": "00576224",
+      "token_accuracy_all": 0.9911111111111112,
+      "token_accuracy_nonpad": 0.7777777777777778
+    },
+    {
+      "all_token_correct_count": 900,
+      "all_token_count": 900,
+      "episode_index": 1,
+      "exact_decoded_grid_correct": true,
+      "exact_padded_grid_correct": true,
+      "invalid_padding_pattern": false,
+      "loss": 0.0180763341486454,
+      "nonpad_hamming_error": 0,
+      "nonpad_token_correct_count": 36,
+      "output_shape_match": true,
+      "predicted_shape": [
+        6,
+        6
+      ],
+      "prediction_valid_rectangle": true,
+      "query_pair_index": 1,
+      "step": 1000,
+      "support_pair_indices": [
+        0
+      ],
+      "target_nonpad_token_count": 36,
+      "target_shape": [
+        6,
+        6
+      ],
+      "task_id": "00576224",
+      "token_accuracy_all": 1.0,
+      "token_accuracy_nonpad": 1.0
+    },
+    {
+      "all_token_correct_count": 882,
+      "all_token_count": 900,
+      "episode_index": 2,
+      "exact_decoded_grid_correct": false,
+      "exact_padded_grid_correct": false,
+      "invalid_padding_pattern": false,
+      "loss": 0.10830018669366837,
+      "nonpad_hamming_error": 18,
+      "nonpad_token_correct_count": 63,
+      "output_shape_match": true,
+      "predicted_shape": [
+        9,
+        9
+      ],
+      "prediction_valid_rectangle": true,
+      "query_pair_index": 0,
+      "step": 1000,
+      "support_pair_indices": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "target_nonpad_token_count": 81,
+      "target_shape": [
+        9,
+        9
+      ],
+      "task_id": "007bbfb7",
+      "token_accuracy_all": 0.98,
+      "token_accuracy_nonpad": 0.7777777777777778
+    },
+    {
+      "all_token_correct_count": 900,
+      "all_token_count": 900,
+      "episode_index": 3,
+      "exact_decoded_grid_correct": true,
+      "exact_padded_grid_correct": true,
+      "invalid_padding_pattern": false,
+      "loss": 0.010436647571623325,
+      "nonpad_hamming_error": 0,
+      "nonpad_token_correct_count": 81,
+      "output_shape_match": true,
+      "predicted_shape": [
+        9,
+        9
+      ],
+      "prediction_valid_rectangle": true,
+      "query_pair_index": 1,
+      "step": 1000,
+      "support_pair_indices": [
+        0,
+        2,
+        3,
+        4
+      ],
+      "target_nonpad_token_count": 81,
+      "target_shape": [
+        9,
+        9
+      ],
+      "task_id": "007bbfb7",
+      "token_accuracy_all": 1.0,
+      "token_accuracy_nonpad": 1.0
+    },
+    {
+      "all_token_correct_count": 900,
+      "all_token_count": 900,
+      "episode_index": 4,
+      "exact_decoded_grid_correct": true,
+      "exact_padded_grid_correct": true,
+      "invalid_padding_pattern": false,
+      "loss": 0.007127292919903994,
+      "nonpad_hamming_error": 0,
+      "nonpad_token_correct_count": 81,
+      "output_shape_match": true,
+      "predicted_shape": [
+        9,
+        9
+      ],
+      "prediction_valid_rectangle": true,
+      "query_pair_index": 2,
+      "step": 1000,
+      "support_pair_indices": [
+        0,
+        1,
+        3,
+        4
+      ],
+      "target_nonpad_token_count": 81,
+      "target_shape": [
+        9,
+        9
+      ],
+      "task_id": "007bbfb7",
+      "token_accuracy_all": 1.0,
+      "token_accuracy_nonpad": 1.0
+    },
+    {
+      "all_token_correct_count": 886,
+      "all_token_count": 900,
+      "episode_index": 5,
+      "exact_decoded_grid_correct": false,
+      "exact_padded_grid_correct": false,
+      "invalid_padding_pattern": false,
+      "loss": 0.09882322698831558,
+      "nonpad_hamming_error": 14,
+      "nonpad_token_correct_count": 67,
+      "output_shape_match": true,
+      "predicted_shape": [
+        9,
+        9
+      ],
+      "prediction_valid_rectangle": true,
+      "query_pair_index": 3,
+      "step": 1000,
+      "support_pair_indices": [
+        0,
+        1,
+        2,
+        4
+      ],
+      "target_nonpad_token_count": 81,
+      "target_shape": [
+        9,
+        9
+      ],
+      "task_id": "007bbfb7",
+      "token_accuracy_all": 0.9844444444444445,
+      "token_accuracy_nonpad": 0.8271604938271605
+    },
+    {
+      "all_token_correct_count": 900,
+      "all_token_count": 900,
+      "episode_index": 6,
+      "exact_decoded_grid_correct": true,
+      "exact_padded_grid_correct": true,
+      "invalid_padding_pattern": false,
+      "loss": 0.0035080984234809875,
+      "nonpad_hamming_error": 0,
+      "nonpad_token_correct_count": 81,
+      "output_shape_match": true,
+      "predicted_shape": [
+        9,
+        9
+      ],
+      "prediction_valid_rectangle": true,
+      "query_pair_index": 4,
+      "step": 1000,
+      "support_pair_indices": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "target_nonpad_token_count": 81,
+      "target_shape": [
+        9,
+        9
+      ],
+      "task_id": "007bbfb7",
+      "token_accuracy_all": 1.0,
+      "token_accuracy_nonpad": 1.0
+    },
+    {
+      "all_token_correct_count": 900,
+      "all_token_count": 900,
+      "episode_index": 7,
+      "exact_decoded_grid_correct": true,
+      "exact_padded_grid_correct": true,
+      "invalid_padding_pattern": false,
+      "loss": 0.02568797953426838,
+      "nonpad_hamming_error": 0,
+      "nonpad_token_correct_count": 196,
+      "output_shape_match": true,
+      "predicted_shape": [
+        14,
+        14
+      ],
+      "prediction_valid_rectangle": true,
+      "query_pair_index": 0,
+      "step": 1000,
+      "support_pair_indices": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "target_nonpad_token_count": 196,
+      "target_shape": [
+        14,
+        14
+      ],
+      "task_id": "009d5c81",
+      "token_accuracy_all": 1.0,
+      "token_accuracy_nonpad": 1.0
+    },
+    {
+      "all_token_correct_count": 894,
+      "all_token_count": 900,
+      "episode_index": 8,
+      "exact_decoded_grid_correct": false,
+      "exact_padded_grid_correct": false,
+      "invalid_padding_pattern": false,
+      "loss": 0.054785795509815216,
+      "nonpad_hamming_error": 6,
+      "nonpad_token_correct_count": 190,
+      "output_shape_match": true,
+      "predicted_shape": [
+        14,
+        14
+      ],
+      "prediction_valid_rectangle": true,
+      "query_pair_index": 1,
+      "step": 1000,
+      "support_pair_indices": [
+        0,
+        2,
+        3,
+        4
+      ],
+      "target_nonpad_token_count": 196,
+      "target_shape": [
+        14,
+        14
+      ],
+      "task_id": "009d5c81",
+      "token_accuracy_all": 0.9933333333333333,
+      "token_accuracy_nonpad": 0.9693877551020408
+    },
+    {
+      "all_token_correct_count": 887,
+      "all_token_count": 900,
+      "episode_index": 9,
+      "exact_decoded_grid_correct": false,
+      "exact_padded_grid_correct": false,
+      "invalid_padding_pattern": false,
+      "loss": 0.08648530393838882,
+      "nonpad_hamming_error": 13,
+      "nonpad_token_correct_count": 183,
+      "output_shape_match": true,
+      "predicted_shape": [
+        14,
+        14
+      ],
+      "prediction_valid_rectangle": true,
+      "query_pair_index": 2,
+      "step": 1000,
+      "support_pair_indices": [
+        0,
+        1,
+        3,
+        4
+      ],
+      "target_nonpad_token_count": 196,
+      "target_shape": [
+        14,
+        14
+      ],
+      "task_id": "009d5c81",
+      "token_accuracy_all": 0.9855555555555555,
+      "token_accuracy_nonpad": 0.9336734693877551
+    },
+    {
+      "all_token_correct_count": 891,
+      "all_token_count": 900,
+      "episode_index": 10,
+      "exact_decoded_grid_correct": false,
+      "exact_padded_grid_correct": false,
+      "invalid_padding_pattern": false,
+      "loss": 0.06942887604236603,
+      "nonpad_hamming_error": 9,
+      "nonpad_token_correct_count": 187,
+      "output_shape_match": true,
+      "predicted_shape": [
+        14,
+        14
+      ],
+      "prediction_valid_rectangle": true,
+      "query_pair_index": 3,
+      "step": 1000,
+      "support_pair_indices": [
+        0,
+        1,
+        2,
+        4
+      ],
+      "target_nonpad_token_count": 196,
+      "target_shape": [
+        14,
+        14
+      ],
+      "task_id": "009d5c81",
+      "token_accuracy_all": 0.99,
+      "token_accuracy_nonpad": 0.9540816326530612
+    },
+    {
+      "all_token_correct_count": 875,
+      "all_token_count": 900,
+      "episode_index": 11,
+      "exact_decoded_grid_correct": false,
+      "exact_padded_grid_correct": false,
+      "invalid_padding_pattern": false,
+      "loss": 0.11199799925088882,
+      "nonpad_hamming_error": 25,
+      "nonpad_token_correct_count": 171,
+      "output_shape_match": true,
+      "predicted_shape": [
+        14,
+        14
+      ],
+      "prediction_valid_rectangle": true,
+      "query_pair_index": 4,
+      "step": 1000,
+      "support_pair_indices": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "target_nonpad_token_count": 196,
+      "target_shape": [
+        14,
+        14
+      ],
+      "task_id": "009d5c81",
+      "token_accuracy_all": 0.9722222222222222,
+      "token_accuracy_nonpad": 0.8724489795918368
+    },
+    {
+      "all_token_correct_count": 882,
+      "all_token_count": 900,
+      "episode_index": 12,
+      "exact_decoded_grid_correct": false,
+      "exact_padded_grid_correct": false,
+      "invalid_padding_pattern": false,
+      "loss": 0.13323168456554413,
+      "nonpad_hamming_error": 18,
+      "nonpad_token_correct_count": 82,
+      "output_shape_match": true,
+      "predicted_shape": [
+        10,
+        10
+      ],
+      "prediction_valid_rectangle": true,
+      "query_pair_index": 0,
+      "step": 1000,
+      "support_pair_indices": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "target_nonpad_token_count": 100,
+      "target_shape": [
+        10,
+        10
+      ],
+      "task_id": "00d62c1b",
+      "token_accuracy_all": 0.98,
+      "token_accuracy_nonpad": 0.82
+    },
+    {
+      "all_token_correct_count": 888,
+      "all_token_count": 900,
+      "episode_index": 13,
+      "exact_decoded_grid_correct": false,
+      "exact_padded_grid_correct": false,
+      "invalid_padding_pattern": false,
+      "loss": 0.1066843792796135,
+      "nonpad_hamming_error": 12,
+      "nonpad_token_correct_count": 88,
+      "output_shape_match": true,
+      "predicted_shape": [
+        10,
+        10
+      ],
+      "prediction_valid_rectangle": true,
+      "query_pair_index": 1,
+      "step": 1000,
+      "support_pair_indices": [
+        0,
+        2,
+        3,
+        4
+      ],
+      "target_nonpad_token_count": 100,
+      "target_shape": [
+        10,
+        10
+      ],
+      "task_id": "00d62c1b",
+      "token_accuracy_all": 0.9866666666666667,
+      "token_accuracy_nonpad": 0.88
+    },
+    {
+      "all_token_correct_count": 885,
+      "all_token_count": 900,
+      "episode_index": 14,
+      "exact_decoded_grid_correct": false,
+      "exact_padded_grid_correct": false,
+      "invalid_padding_pattern": false,
+      "loss": 0.13749684393405914,
+      "nonpad_hamming_error": 15,
+      "nonpad_token_correct_count": 85,
+      "output_shape_match": true,
+      "predicted_shape": [
+        10,
+        10
+      ],
+      "prediction_valid_rectangle": true,
+      "query_pair_index": 2,
+      "step": 1000,
+      "support_pair_indices": [
+        0,
+        1,
+        3,
+        4
+      ],
+      "target_nonpad_token_count": 100,
+      "target_shape": [
+        10,
+        10
+      ],
+      "task_id": "00d62c1b",
+      "token_accuracy_all": 0.9833333333333333,
+      "token_accuracy_nonpad": 0.85
+    },
+    {
+      "all_token_correct_count": 898,
+      "all_token_count": 900,
+      "episode_index": 15,
+      "exact_decoded_grid_correct": false,
+      "exact_padded_grid_correct": false,
+      "invalid_padding_pattern": false,
+      "loss": 0.02936372719705105,
+      "nonpad_hamming_error": 2,
+      "nonpad_token_correct_count": 398,
+      "output_shape_match": true,
+      "predicted_shape": [
+        20,
+        20
+      ],
+      "prediction_valid_rectangle": true,
+      "query_pair_index": 3,
+      "step": 1000,
+      "support_pair_indices": [
+        0,
+        1,
+        2,
+        4
+      ],
+      "target_nonpad_token_count": 400,
+      "target_shape": [
+        20,
+        20
+      ],
+      "task_id": "00d62c1b",
+      "token_accuracy_all": 0.9977777777777778,
+      "token_accuracy_nonpad": 0.995
+    },
+    {
+      "all_token_correct_count": 897,
+      "all_token_count": 900,
+      "episode_index": 16,
+      "exact_decoded_grid_correct": false,
+      "exact_padded_grid_correct": false,
+      "invalid_padding_pattern": false,
+      "loss": 0.03848516196012497,
+      "nonpad_hamming_error": 3,
+      "nonpad_token_correct_count": 33,
+      "output_shape_match": true,
+      "predicted_shape": [
+        6,
+        6
+      ],
+      "prediction_valid_rectangle": true,
+      "query_pair_index": 4,
+      "step": 1000,
+      "support_pair_indices": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "target_nonpad_token_count": 36,
+      "target_shape": [
+        6,
+        6
+      ],
+      "task_id": "00d62c1b",
+      "token_accuracy_all": 0.9966666666666667,
+      "token_accuracy_nonpad": 0.9166666666666666
+    },
+    {
+      "all_token_correct_count": 900,
+      "all_token_count": 900,
+      "episode_index": 0,
+      "exact_decoded_grid_correct": true,
+      "exact_padded_grid_correct": true,
+      "invalid_padding_pattern": false,
+      "loss": 0.0027496370021253824,
+      "nonpad_hamming_error": 0,
+      "nonpad_token_correct_count": 36,
+      "output_shape_match": true,
+      "predicted_shape": [
+        6,
+        6
+      ],
+      "prediction_valid_rectangle": true,
+      "query_pair_index": 0,
+      "step": 1500,
+      "support_pair_indices": [
+        1
+      ],
+      "target_nonpad_token_count": 36,
+      "target_shape": [
+        6,
+        6
+      ],
+      "task_id": "00576224",
+      "token_accuracy_all": 1.0,
+      "token_accuracy_nonpad": 1.0
+    },
+    {
+      "all_token_correct_count": 900,
+      "all_token_count": 900,
+      "episode_index": 1,
+      "exact_decoded_grid_correct": true,
+      "exact_padded_grid_correct": true,
+      "invalid_padding_pattern": false,
+      "loss": 0.002175479894503951,
+      "nonpad_hamming_error": 0,
+      "nonpad_token_correct_count": 36,
+      "output_shape_match": true,
+      "predicted_shape": [
+        6,
+        6
+      ],
+      "prediction_valid_rectangle": true,
+      "query_pair_index": 1,
+      "step": 1500,
+      "support_pair_indices": [
+        0
+      ],
+      "target_nonpad_token_count": 36,
+      "target_shape": [
+        6,
+        6
+      ],
+      "task_id": "00576224",
+      "token_accuracy_all": 1.0,
+      "token_accuracy_nonpad": 1.0
+    },
+    {
+      "all_token_correct_count": 900,
+      "all_token_count": 900,
+      "episode_index": 2,
+      "exact_decoded_grid_correct": true,
+      "exact_padded_grid_correct": true,
+      "invalid_padding_pattern": false,
+      "loss": 0.009089958854019642,
+      "nonpad_hamming_error": 0,
+      "nonpad_token_correct_count": 81,
+      "output_shape_match": true,
+      "predicted_shape": [
+        9,
+        9
+      ],
+      "prediction_valid_rectangle": true,
+      "query_pair_index": 0,
+      "step": 1500,
+      "support_pair_indices": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "target_nonpad_token_count": 81,
+      "target_shape": [
+        9,
+        9
+      ],
+      "task_id": "007bbfb7",
+      "token_accuracy_all": 1.0,
+      "token_accuracy_nonpad": 1.0
+    },
+    {
+      "all_token_correct_count": 900,
+      "all_token_count": 900,
+      "episode_index": 3,
+      "exact_decoded_grid_correct": true,
+      "exact_padded_grid_correct": true,
+      "invalid_padding_pattern": false,
+      "loss": 0.0067278677597641945,
+      "nonpad_hamming_error": 0,
+      "nonpad_token_correct_count": 81,
+      "output_shape_match": true,
+      "predicted_shape": [
+        9,
+        9
+      ],
+      "prediction_valid_rectangle": true,
+      "query_pair_index": 1,
+      "step": 1500,
+      "support_pair_indices": [
+        0,
+        2,
+        3,
+        4
+      ],
+      "target_nonpad_token_count": 81,
+      "target_shape": [
+        9,
+        9
+      ],
+      "task_id": "007bbfb7",
+      "token_accuracy_all": 1.0,
+      "token_accuracy_nonpad": 1.0
+    },
+    {
+      "all_token_correct_count": 900,
+      "all_token_count": 900,
+      "episode_index": 4,
+      "exact_decoded_grid_correct": true,
+      "exact_padded_grid_correct": true,
+      "invalid_padding_pattern": false,
+      "loss": 0.002697664313018322,
+      "nonpad_hamming_error": 0,
+      "nonpad_token_correct_count": 81,
+      "output_shape_match": true,
+      "predicted_shape": [
+        9,
+        9
+      ],
+      "prediction_valid_rectangle": true,
+      "query_pair_index": 2,
+      "step": 1500,
+      "support_pair_indices": [
+        0,
+        1,
+        3,
+        4
+      ],
+      "target_nonpad_token_count": 81,
+      "target_shape": [
+        9,
+        9
+      ],
+      "task_id": "007bbfb7",
+      "token_accuracy_all": 1.0,
+      "token_accuracy_nonpad": 1.0
+    },
+    {
+      "all_token_correct_count": 900,
+      "all_token_count": 900,
+      "episode_index": 5,
+      "exact_decoded_grid_correct": true,
+      "exact_padded_grid_correct": true,
+      "invalid_padding_pattern": false,
+      "loss": 0.005093659274280071,
+      "nonpad_hamming_error": 0,
+      "nonpad_token_correct_count": 81,
+      "output_shape_match": true,
+      "predicted_shape": [
+        9,
+        9
+      ],
+      "prediction_valid_rectangle": true,
+      "query_pair_index": 3,
+      "step": 1500,
+      "support_pair_indices": [
+        0,
+        1,
+        2,
+        4
+      ],
+      "target_nonpad_token_count": 81,
+      "target_shape": [
+        9,
+        9
+      ],
+      "task_id": "007bbfb7",
+      "token_accuracy_all": 1.0,
+      "token_accuracy_nonpad": 1.0
+    },
+    {
+      "all_token_correct_count": 900,
+      "all_token_count": 900,
+      "episode_index": 6,
+      "exact_decoded_grid_correct": true,
+      "exact_padded_grid_correct": true,
+      "invalid_padding_pattern": false,
+      "loss": 0.0010235090740025043,
+      "nonpad_hamming_error": 0,
+      "nonpad_token_correct_count": 81,
+      "output_shape_match": true,
+      "predicted_shape": [
+        9,
+        9
+      ],
+      "prediction_valid_rectangle": true,
+      "query_pair_index": 4,
+      "step": 1500,
+      "support_pair_indices": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "target_nonpad_token_count": 81,
+      "target_shape": [
+        9,
+        9
+      ],
+      "task_id": "007bbfb7",
+      "token_accuracy_all": 1.0,
+      "token_accuracy_nonpad": 1.0
+    },
+    {
+      "all_token_correct_count": 900,
+      "all_token_count": 900,
+      "episode_index": 7,
+      "exact_decoded_grid_correct": true,
+      "exact_padded_grid_correct": true,
+      "invalid_padding_pattern": false,
+      "loss": 0.018256407231092453,
+      "nonpad_hamming_error": 0,
+      "nonpad_token_correct_count": 196,
+      "output_shape_match": true,
+      "predicted_shape": [
+        14,
+        14
+      ],
+      "prediction_valid_rectangle": true,
+      "query_pair_index": 0,
+      "step": 1500,
+      "support_pair_indices": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "target_nonpad_token_count": 196,
+      "target_shape": [
+        14,
+        14
+      ],
+      "task_id": "009d5c81",
+      "token_accuracy_all": 1.0,
+      "token_accuracy_nonpad": 1.0
+    },
+    {
+      "all_token_correct_count": 892,
+      "all_token_count": 900,
+      "episode_index": 8,
+      "exact_decoded_grid_correct": false,
+      "exact_padded_grid_correct": false,
+      "invalid_padding_pattern": false,
+      "loss": 0.041465677320957184,
+      "nonpad_hamming_error": 8,
+      "nonpad_token_correct_count": 188,
+      "output_shape_match": true,
+      "predicted_shape": [
+        14,
+        14
+      ],
+      "prediction_valid_rectangle": true,
+      "query_pair_index": 1,
+      "step": 1500,
+      "support_pair_indices": [
+        0,
+        2,
+        3,
+        4
+      ],
+      "target_nonpad_token_count": 196,
+      "target_shape": [
+        14,
+        14
+      ],
+      "task_id": "009d5c81",
+      "token_accuracy_all": 0.9911111111111112,
+      "token_accuracy_nonpad": 0.9591836734693877
+    },
+    {
+      "all_token_correct_count": 876,
+      "all_token_count": 900,
+      "episode_index": 9,
+      "exact_decoded_grid_correct": false,
+      "exact_padded_grid_correct": false,
+      "invalid_padding_pattern": false,
+      "loss": 0.10405470430850983,
+      "nonpad_hamming_error": 24,
+      "nonpad_token_correct_count": 172,
+      "output_shape_match": true,
+      "predicted_shape": [
+        14,
+        14
+      ],
+      "prediction_valid_rectangle": true,
+      "query_pair_index": 2,
+      "step": 1500,
+      "support_pair_indices": [
+        0,
+        1,
+        3,
+        4
+      ],
+      "target_nonpad_token_count": 196,
+      "target_shape": [
+        14,
+        14
+      ],
+      "task_id": "009d5c81",
+      "token_accuracy_all": 0.9733333333333334,
+      "token_accuracy_nonpad": 0.8775510204081632
+    },
+    {
+      "all_token_correct_count": 897,
+      "all_token_count": 900,
+      "episode_index": 10,
+      "exact_decoded_grid_correct": false,
+      "exact_padded_grid_correct": false,
+      "invalid_padding_pattern": false,
+      "loss": 0.028818393126130104,
+      "nonpad_hamming_error": 3,
+      "nonpad_token_correct_count": 193,
+      "output_shape_match": true,
+      "predicted_shape": [
+        14,
+        14
+      ],
+      "prediction_valid_rectangle": true,
+      "query_pair_index": 3,
+      "step": 1500,
+      "support_pair_indices": [
+        0,
+        1,
+        2,
+        4
+      ],
+      "target_nonpad_token_count": 196,
+      "target_shape": [
+        14,
+        14
+      ],
+      "task_id": "009d5c81",
+      "token_accuracy_all": 0.9966666666666667,
+      "token_accuracy_nonpad": 0.9846938775510204
+    },
+    {
+      "all_token_correct_count": 893,
+      "all_token_count": 900,
+      "episode_index": 11,
+      "exact_decoded_grid_correct": false,
+      "exact_padded_grid_correct": false,
+      "invalid_padding_pattern": false,
+      "loss": 0.05851338803768158,
+      "nonpad_hamming_error": 7,
+      "nonpad_token_correct_count": 189,
+      "output_shape_match": true,
+      "predicted_shape": [
+        14,
+        14
+      ],
+      "prediction_valid_rectangle": true,
+      "query_pair_index": 4,
+      "step": 1500,
+      "support_pair_indices": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "target_nonpad_token_count": 196,
+      "target_shape": [
+        14,
+        14
+      ],
+      "task_id": "009d5c81",
+      "token_accuracy_all": 0.9922222222222222,
+      "token_accuracy_nonpad": 0.9642857142857143
+    },
+    {
+      "all_token_correct_count": 899,
+      "all_token_count": 900,
+      "episode_index": 12,
+      "exact_decoded_grid_correct": false,
+      "exact_padded_grid_correct": false,
+      "invalid_padding_pattern": false,
+      "loss": 0.020816883072257042,
+      "nonpad_hamming_error": 1,
+      "nonpad_token_correct_count": 99,
+      "output_shape_match": true,
+      "predicted_shape": [
+        10,
+        10
+      ],
+      "prediction_valid_rectangle": true,
+      "query_pair_index": 0,
+      "step": 1500,
+      "support_pair_indices": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "target_nonpad_token_count": 100,
+      "target_shape": [
+        10,
+        10
+      ],
+      "task_id": "00d62c1b",
+      "token_accuracy_all": 0.9988888888888889,
+      "token_accuracy_nonpad": 0.99
+    },
+    {
+      "all_token_correct_count": 897,
+      "all_token_count": 900,
+      "episode_index": 13,
+      "exact_decoded_grid_correct": false,
+      "exact_padded_grid_correct": false,
+      "invalid_padding_pattern": false,
+      "loss": 0.05023304745554924,
+      "nonpad_hamming_error": 3,
+      "nonpad_token_correct_count": 97,
+      "output_shape_match": true,
+      "predicted_shape": [
+        10,
+        10
+      ],
+      "prediction_valid_rectangle": true,
+      "query_pair_index": 1,
+      "step": 1500,
+      "support_pair_indices": [
+        0,
+        2,
+        3,
+        4
+      ],
+      "target_nonpad_token_count": 100,
+      "target_shape": [
+        10,
+        10
+      ],
+      "task_id": "00d62c1b",
+      "token_accuracy_all": 0.9966666666666667,
+      "token_accuracy_nonpad": 0.97
+    },
+    {
+      "all_token_correct_count": 897,
+      "all_token_count": 900,
+      "episode_index": 14,
+      "exact_decoded_grid_correct": false,
+      "exact_padded_grid_correct": false,
+      "invalid_padding_pattern": false,
+      "loss": 0.041791461408138275,
+      "nonpad_hamming_error": 3,
+      "nonpad_token_correct_count": 97,
+      "output_shape_match": true,
+      "predicted_shape": [
+        10,
+        10
+      ],
+      "prediction_valid_rectangle": true,
+      "query_pair_index": 2,
+      "step": 1500,
+      "support_pair_indices": [
+        0,
+        1,
+        3,
+        4
+      ],
+      "target_nonpad_token_count": 100,
+      "target_shape": [
+        10,
+        10
+      ],
+      "task_id": "00d62c1b",
+      "token_accuracy_all": 0.9966666666666667,
+      "token_accuracy_nonpad": 0.97
+    },
+    {
+      "all_token_correct_count": 900,
+      "all_token_count": 900,
+      "episode_index": 15,
+      "exact_decoded_grid_correct": true,
+      "exact_padded_grid_correct": true,
+      "invalid_padding_pattern": false,
+      "loss": 0.009973166510462761,
+      "nonpad_hamming_error": 0,
+      "nonpad_token_correct_count": 400,
+      "output_shape_match": true,
+      "predicted_shape": [
+        20,
+        20
+      ],
+      "prediction_valid_rectangle": true,
+      "query_pair_index": 3,
+      "step": 1500,
+      "support_pair_indices": [
+        0,
+        1,
+        2,
+        4
+      ],
+      "target_nonpad_token_count": 400,
+      "target_shape": [
+        20,
+        20
+      ],
+      "task_id": "00d62c1b",
+      "token_accuracy_all": 1.0,
+      "token_accuracy_nonpad": 1.0
+    },
+    {
+      "all_token_correct_count": 900,
+      "all_token_count": 900,
+      "episode_index": 16,
+      "exact_decoded_grid_correct": true,
+      "exact_padded_grid_correct": true,
+      "invalid_padding_pattern": false,
+      "loss": 0.005371068138629198,
+      "nonpad_hamming_error": 0,
+      "nonpad_token_correct_count": 36,
+      "output_shape_match": true,
+      "predicted_shape": [
+        6,
+        6
+      ],
+      "prediction_valid_rectangle": true,
+      "query_pair_index": 4,
+      "step": 1500,
+      "support_pair_indices": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "target_nonpad_token_count": 36,
+      "target_shape": [
+        6,
+        6
+      ],
+      "task_id": "00d62c1b",
+      "token_accuracy_all": 1.0,
+      "token_accuracy_nonpad": 1.0
+    }
+  ]
+}

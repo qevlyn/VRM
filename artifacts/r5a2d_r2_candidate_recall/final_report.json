@@ -1,0 +1,1203 @@
+{
+  "audit_version": "R5A2D_R2_FROZEN_CANDIDATE_RECALL",
+  "candidate_attrition_report": {
+    "V2": {
+      "candidate_funnel": [
+        {
+          "denominator": 1360,
+          "numerator": 1360,
+          "rate": 1.0,
+          "stage": "all ARC tasks"
+        },
+        {
+          "denominator": 1360,
+          "numerator": 7,
+          "rate": 0.005147058823529412,
+          "stage": "raw grid-domain eligible"
+        },
+        {
+          "denominator": 1360,
+          "numerator": 6,
+          "rate": 0.004411764705882353,
+          "stage": "raw palette-domain eligible"
+        },
+        {
+          "denominator": 1360,
+          "numerator": 6,
+          "rate": 0.004411764705882353,
+          "stage": "support/query contract eligible"
+        },
+        {
+          "denominator": 1360,
+          "numerator": 1360,
+          "rate": 1.0,
+          "stage": "candidate enumeration available"
+        },
+        {
+          "denominator": 1360,
+          "numerator": 6,
+          "rate": 0.004411764705882353,
+          "stage": "at least one executable candidate"
+        },
+        {
+          "denominator": 1360,
+          "numerator": 6,
+          "rate": 0.004411764705882353,
+          "stage": "strict LOO candidate fold attempted"
+        },
+        {
+          "denominator": 4357,
+          "numerator": 0,
+          "rate": 0.0,
+          "stage": "Recall@1 hit"
+        },
+        {
+          "denominator": 4357,
+          "numerator": 0,
+          "rate": 0.0,
+          "stage": "Recall@4 hit"
+        },
+        {
+          "denominator": 4357,
+          "numerator": 0,
+          "rate": 0.0,
+          "stage": "Recall@16 hit"
+        },
+        {
+          "denominator": 4357,
+          "numerator": 0,
+          "rate": 0.0,
+          "stage": "Recall@64 hit"
+        },
+        {
+          "denominator": 4357,
+          "numerator": 0,
+          "rate": 0.0,
+          "stage": "Recall@128 hit"
+        }
+      ],
+      "fold_status_counts": {
+        "OK": 15,
+        "OUT_OF_GRID_DOMAIN": 4339,
+        "OUT_OF_PALETTE_DOMAIN": 3
+      },
+      "status_counts": {
+        "OK": 15,
+        "OUT_OF_GRID_DOMAIN": 4339,
+        "OUT_OF_PALETTE_DOMAIN": 3
+      }
+    },
+    "audit_version": "R5A2D_R2_FROZEN_CANDIDATE_RECALL",
+    "distinct_attrition_categories": [
+      "domain/contract attrition",
+      "candidate enumeration unavailable",
+      "candidate execution failure",
+      "target absent from candidate catalog outputs",
+      "target present but ranked below K"
+    ],
+    "merged_union": {
+      "candidate_funnel": [
+        {
+          "denominator": 4357,
+          "numerator": 4357,
+          "rate": 1.0,
+          "stage": "all strict LOO folds"
+        },
+        {
+          "denominator": 4357,
+          "numerator": 0,
+          "rate": 0.0,
+          "stage": "merged Recall@1 hit"
+        },
+        {
+          "denominator": 4357,
+          "numerator": 0,
+          "rate": 0.0,
+          "stage": "merged Recall@4 hit"
+        },
+        {
+          "denominator": 4357,
+          "numerator": 0,
+          "rate": 0.0,
+          "stage": "merged Recall@16 hit"
+        },
+        {
+          "denominator": 4357,
+          "numerator": 0,
+          "rate": 0.0,
+          "stage": "merged Recall@64 hit"
+        },
+        {
+          "denominator": 4357,
+          "numerator": 0,
+          "rate": 0.0,
+          "stage": "merged Recall@128 hit"
+        }
+      ]
+    },
+    "topology": {
+      "candidate_funnel": [
+        {
+          "denominator": 1360,
+          "numerator": 1360,
+          "rate": 1.0,
+          "stage": "all ARC tasks"
+        },
+        {
+          "denominator": 1360,
+          "numerator": 7,
+          "rate": 0.005147058823529412,
+          "stage": "raw grid-domain eligible"
+        },
+        {
+          "denominator": 1360,
+          "numerator": 6,
+          "rate": 0.004411764705882353,
+          "stage": "raw palette-domain eligible"
+        },
+        {
+          "denominator": 1360,
+          "numerator": 0,
+          "rate": 0.0,
+          "stage": "support/query contract eligible"
+        },
+        {
+          "denominator": 1360,
+          "numerator": 1360,
+          "rate": 1.0,
+          "stage": "candidate enumeration available"
+        },
+        {
+          "denominator": 1360,
+          "numerator": 0,
+          "rate": 0.0,
+          "stage": "at least one executable candidate"
+        },
+        {
+          "denominator": 1360,
+          "numerator": 0,
+          "rate": 0.0,
+          "stage": "strict LOO candidate fold attempted"
+        },
+        {
+          "denominator": 4357,
+          "numerator": 0,
+          "rate": 0.0,
+          "stage": "Recall@1 hit"
+        },
+        {
+          "denominator": 4357,
+          "numerator": 0,
+          "rate": 0.0,
+          "stage": "Recall@4 hit"
+        },
+        {
+          "denominator": 4357,
+          "numerator": 0,
+          "rate": 0.0,
+          "stage": "Recall@16 hit"
+        },
+        {
+          "denominator": 4357,
+          "numerator": 0,
+          "rate": 0.0,
+          "stage": "Recall@64 hit"
+        },
+        {
+          "denominator": 4357,
+          "numerator": 0,
+          "rate": 0.0,
+          "stage": "Recall@128 hit"
+        }
+      ],
+      "fold_status_counts": {
+        "OUT_OF_GRID_DOMAIN": 4339,
+        "OUT_OF_PALETTE_DOMAIN": 3,
+        "TOPOLOGY_LOO_INFEASIBLE_SUPPORT_CONTRACT": 15
+      },
+      "status_counts": {
+        "OUT_OF_GRID_DOMAIN": 4339,
+        "OUT_OF_PALETTE_DOMAIN": 3,
+        "TOPOLOGY_LOO_INFEASIBLE_SUPPORT_CONTRACT": 15
+      }
+    }
+  },
+  "candidate_recall_metrics": {
+    "all_corpus_fold_denominator": 4357,
+    "all_corpus_task_denominator": 1360,
+    "candidate_diversity_diagnostics": {
+      "R5A-2C-R2_compiled_topology:EXACT_SUPPORT_CANDIDATE_RECALL": {
+        "best_target_rank_distribution": {},
+        "candidate_count_histogram": {
+          "0": 4357
+        },
+        "candidate_enumeration_feasible_fold_count": 0,
+        "mean_deduplication_ratio": null,
+        "mean_raw_candidate_count": 0.0,
+        "mean_unique_output_count": 0.0,
+        "median_raw_candidate_count": 0,
+        "median_unique_output_count": 0,
+        "recall_gain_128_minus_64": 0.0,
+        "recall_gain_16_minus_4": 0.0,
+        "recall_gain_4_minus_1": 0.0,
+        "recall_gain_64_minus_16": 0.0,
+        "recall_gain_K_minus_1": 0.0,
+        "target_rank_at_hit_distribution": {},
+        "zero_candidate_fold_count": 4357
+      },
+      "R5A-2C-R2_compiled_topology:RANKED_ALL_CATALOG_CANDIDATE_RECALL": {
+        "best_target_rank_distribution": {},
+        "candidate_count_histogram": {
+          "0": 4357
+        },
+        "candidate_enumeration_feasible_fold_count": 0,
+        "mean_deduplication_ratio": null,
+        "mean_raw_candidate_count": 0.0,
+        "mean_unique_output_count": 0.0,
+        "median_raw_candidate_count": 0,
+        "median_unique_output_count": 0,
+        "recall_gain_128_minus_64": 0.0,
+        "recall_gain_16_minus_4": 0.0,
+        "recall_gain_4_minus_1": 0.0,
+        "recall_gain_64_minus_16": 0.0,
+        "recall_gain_K_minus_1": 0.0,
+        "target_rank_at_hit_distribution": {},
+        "zero_candidate_fold_count": 4357
+      },
+      "V2_transport_recolor:EXACT_SUPPORT_CANDIDATE_RECALL": {
+        "best_target_rank_distribution": {},
+        "candidate_count_histogram": {
+          "0": 4357
+        },
+        "candidate_enumeration_feasible_fold_count": 15,
+        "mean_deduplication_ratio": 0.5025641025641026,
+        "mean_raw_candidate_count": 0.044755565756254306,
+        "mean_unique_output_count": 0.0,
+        "median_raw_candidate_count": 0,
+        "median_unique_output_count": 0,
+        "recall_gain_128_minus_64": 0.0,
+        "recall_gain_16_minus_4": 0.0,
+        "recall_gain_4_minus_1": 0.0,
+        "recall_gain_64_minus_16": 0.0,
+        "recall_gain_K_minus_1": 0.0,
+        "target_rank_at_hit_distribution": {},
+        "zero_candidate_fold_count": 4357
+      },
+      "V2_transport_recolor:RANKED_ALL_CATALOG_CANDIDATE_RECALL": {
+        "best_target_rank_distribution": {},
+        "candidate_count_histogram": {
+          "0": 4342,
+          "10": 2,
+          "13": 2,
+          "3": 1,
+          "4": 6,
+          "5": 2,
+          "7": 2
+        },
+        "candidate_enumeration_feasible_fold_count": 15,
+        "mean_deduplication_ratio": 0.5025641025641026,
+        "mean_raw_candidate_count": 0.044755565756254306,
+        "mean_unique_output_count": 0.02226302501721368,
+        "median_raw_candidate_count": 0,
+        "median_unique_output_count": 0,
+        "recall_gain_128_minus_64": 0.0,
+        "recall_gain_16_minus_4": 0.0,
+        "recall_gain_4_minus_1": 0.0,
+        "recall_gain_64_minus_16": 0.0,
+        "recall_gain_K_minus_1": 0.0,
+        "target_rank_at_hit_distribution": {},
+        "zero_candidate_fold_count": 4342
+      }
+    },
+    "per_expert": {
+      "R5A-2C-R2_compiled_topology": {
+        "EXACT_SUPPORT_CANDIDATE_RECALL": {
+          "all_folds_denominator": 4357,
+          "all_folds_per_task_recall": {
+            "recall_at_1": {
+              "all_corpus_denominator": {
+                "denominator": 1360,
+                "numerator": 0,
+                "rate": 0.0
+              },
+              "candidate_enumeration_feasible_denominator": {
+                "denominator": 0,
+                "numerator": 0,
+                "rate": 0.0
+              }
+            },
+            "recall_at_128": {
+              "all_corpus_denominator": {
+                "denominator": 1360,
+                "numerator": 0,
+                "rate": 0.0
+              },
+              "candidate_enumeration_feasible_denominator": {
+                "denominator": 0,
+                "numerator": 0,
+                "rate": 0.0
+              }
+            },
+            "recall_at_16": {
+              "all_corpus_denominator": {
+                "denominator": 1360,
+                "numerator": 0,
+                "rate": 0.0
+              },
+              "candidate_enumeration_feasible_denominator": {
+                "denominator": 0,
+                "numerator": 0,
+                "rate": 0.0
+              }
+            },
+            "recall_at_4": {
+              "all_corpus_denominator": {
+                "denominator": 1360,
+                "numerator": 0,
+                "rate": 0.0
+              },
+              "candidate_enumeration_feasible_denominator": {
+                "denominator": 0,
+                "numerator": 0,
+                "rate": 0.0
+              }
+            },
+            "recall_at_64": {
+              "all_corpus_denominator": {
+                "denominator": 1360,
+                "numerator": 0,
+                "rate": 0.0
+              },
+              "candidate_enumeration_feasible_denominator": {
+                "denominator": 0,
+                "numerator": 0,
+                "rate": 0.0
+              }
+            }
+          },
+          "candidate_enumeration_feasible_denominator": 0,
+          "catalog_ranked_top1": {
+            "available_fold_count": 4357,
+            "hit_count": 0,
+            "hit_rate": 0.0
+          },
+          "fold_recall": {
+            "recall_at_1": {
+              "all_corpus_denominator": {
+                "denominator": 4357,
+                "numerator": 0,
+                "rate": 0.0
+              },
+              "candidate_enumeration_feasible_denominator": {
+                "denominator": 0,
+                "numerator": 0,
+                "rate": 0.0
+              }
+            },
+            "recall_at_128": {
+              "all_corpus_denominator": {
+                "denominator": 4357,
+                "numerator": 0,
+                "rate": 0.0
+              },
+              "candidate_enumeration_feasible_denominator": {
+                "denominator": 0,
+                "numerator": 0,
+                "rate": 0.0
+              }
+            },
+            "recall_at_16": {
+              "all_corpus_denominator": {
+                "denominator": 4357,
+                "numerator": 0,
+                "rate": 0.0
+              },
+              "candidate_enumeration_feasible_denominator": {
+                "denominator": 0,
+                "numerator": 0,
+                "rate": 0.0
+              }
+            },
+            "recall_at_4": {
+              "all_corpus_denominator": {
+                "denominator": 4357,
+                "numerator": 0,
+                "rate": 0.0
+              },
+              "candidate_enumeration_feasible_denominator": {
+                "denominator": 0,
+                "numerator": 0,
+                "rate": 0.0
+              }
+            },
+            "recall_at_64": {
+              "all_corpus_denominator": {
+                "denominator": 4357,
+                "numerator": 0,
+                "rate": 0.0
+              },
+              "candidate_enumeration_feasible_denominator": {
+                "denominator": 0,
+                "numerator": 0,
+                "rate": 0.0
+              }
+            }
+          },
+          "original_frozen_executor_top1": {
+            "available_fold_count": 0,
+            "hit_count": 0,
+            "hit_rate": null
+          }
+        },
+        "RANKED_ALL_CATALOG_CANDIDATE_RECALL": {
+          "all_folds_denominator": 4357,
+          "all_folds_per_task_recall": {
+            "recall_at_1": {
+              "all_corpus_denominator": {
+                "denominator": 1360,
+                "numerator": 0,
+                "rate": 0.0
+              },
+              "candidate_enumeration_feasible_denominator": {
+                "denominator": 0,
+                "numerator": 0,
+                "rate": 0.0
+              }
+            },
+            "recall_at_128": {
+              "all_corpus_denominator": {
+                "denominator": 1360,
+                "numerator": 0,
+                "rate": 0.0
+              },
+              "candidate_enumeration_feasible_denominator": {
+                "denominator": 0,
+                "numerator": 0,
+                "rate": 0.0
+              }
+            },
+            "recall_at_16": {
+              "all_corpus_denominator": {
+                "denominator": 1360,
+                "numerator": 0,
+                "rate": 0.0
+              },
+              "candidate_enumeration_feasible_denominator": {
+                "denominator": 0,
+                "numerator": 0,
+                "rate": 0.0
+              }
+            },
+            "recall_at_4": {
+              "all_corpus_denominator": {
+                "denominator": 1360,
+                "numerator": 0,
+                "rate": 0.0
+              },
+              "candidate_enumeration_feasible_denominator": {
+                "denominator": 0,
+                "numerator": 0,
+                "rate": 0.0
+              }
+            },
+            "recall_at_64": {
+              "all_corpus_denominator": {
+                "denominator": 1360,
+                "numerator": 0,
+                "rate": 0.0
+              },
+              "candidate_enumeration_feasible_denominator": {
+                "denominator": 0,
+                "numerator": 0,
+                "rate": 0.0
+              }
+            }
+          },
+          "candidate_enumeration_feasible_denominator": 0,
+          "catalog_ranked_top1": {
+            "available_fold_count": 4357,
+            "hit_count": 0,
+            "hit_rate": 0.0
+          },
+          "fold_recall": {
+            "recall_at_1": {
+              "all_corpus_denominator": {
+                "denominator": 4357,
+                "numerator": 0,
+                "rate": 0.0
+              },
+              "candidate_enumeration_feasible_denominator": {
+                "denominator": 0,
+                "numerator": 0,
+                "rate": 0.0
+              }
+            },
+            "recall_at_128": {
+              "all_corpus_denominator": {
+                "denominator": 4357,
+                "numerator": 0,
+                "rate": 0.0
+              },
+              "candidate_enumeration_feasible_denominator": {
+                "denominator": 0,
+                "numerator": 0,
+                "rate": 0.0
+              }
+            },
+            "recall_at_16": {
+              "all_corpus_denominator": {
+                "denominator": 4357,
+                "numerator": 0,
+                "rate": 0.0
+              },
+              "candidate_enumeration_feasible_denominator": {
+                "denominator": 0,
+                "numerator": 0,
+                "rate": 0.0
+              }
+            },
+            "recall_at_4": {
+              "all_corpus_denominator": {
+                "denominator": 4357,
+                "numerator": 0,
+                "rate": 0.0
+              },
+              "candidate_enumeration_feasible_denominator": {
+                "denominator": 0,
+                "numerator": 0,
+                "rate": 0.0
+              }
+            },
+            "recall_at_64": {
+              "all_corpus_denominator": {
+                "denominator": 4357,
+                "numerator": 0,
+                "rate": 0.0
+              },
+              "candidate_enumeration_feasible_denominator": {
+                "denominator": 0,
+                "numerator": 0,
+                "rate": 0.0
+              }
+            }
+          },
+          "original_frozen_executor_top1": {
+            "available_fold_count": 0,
+            "hit_count": 0,
+            "hit_rate": null
+          }
+        }
+      },
+      "V2_transport_recolor": {
+        "EXACT_SUPPORT_CANDIDATE_RECALL": {
+          "all_folds_denominator": 4357,
+          "all_folds_per_task_recall": {
+            "recall_at_1": {
+              "all_corpus_denominator": {
+                "denominator": 1360,
+                "numerator": 0,
+                "rate": 0.0
+              },
+              "candidate_enumeration_feasible_denominator": {
+                "denominator": 6,
+                "numerator": 0,
+                "rate": 0.0
+              }
+            },
+            "recall_at_128": {
+              "all_corpus_denominator": {
+                "denominator": 1360,
+                "numerator": 0,
+                "rate": 0.0
+              },
+              "candidate_enumeration_feasible_denominator": {
+                "denominator": 6,
+                "numerator": 0,
+                "rate": 0.0
+              }
+            },
+            "recall_at_16": {
+              "all_corpus_denominator": {
+                "denominator": 1360,
+                "numerator": 0,
+                "rate": 0.0
+              },
+              "candidate_enumeration_feasible_denominator": {
+                "denominator": 6,
+                "numerator": 0,
+                "rate": 0.0
+              }
+            },
+            "recall_at_4": {
+              "all_corpus_denominator": {
+                "denominator": 1360,
+                "numerator": 0,
+                "rate": 0.0
+              },
+              "candidate_enumeration_feasible_denominator": {
+                "denominator": 6,
+                "numerator": 0,
+                "rate": 0.0
+              }
+            },
+            "recall_at_64": {
+              "all_corpus_denominator": {
+                "denominator": 1360,
+                "numerator": 0,
+                "rate": 0.0
+              },
+              "candidate_enumeration_feasible_denominator": {
+                "denominator": 6,
+                "numerator": 0,
+                "rate": 0.0
+              }
+            }
+          },
+          "candidate_enumeration_feasible_denominator": 15,
+          "catalog_ranked_top1": {
+            "available_fold_count": 4357,
+            "hit_count": 0,
+            "hit_rate": 0.0
+          },
+          "fold_recall": {
+            "recall_at_1": {
+              "all_corpus_denominator": {
+                "denominator": 4357,
+                "numerator": 0,
+                "rate": 0.0
+              },
+              "candidate_enumeration_feasible_denominator": {
+                "denominator": 15,
+                "numerator": 0,
+                "rate": 0.0
+              }
+            },
+            "recall_at_128": {
+              "all_corpus_denominator": {
+                "denominator": 4357,
+                "numerator": 0,
+                "rate": 0.0
+              },
+              "candidate_enumeration_feasible_denominator": {
+                "denominator": 15,
+                "numerator": 0,
+                "rate": 0.0
+              }
+            },
+            "recall_at_16": {
+              "all_corpus_denominator": {
+                "denominator": 4357,
+                "numerator": 0,
+                "rate": 0.0
+              },
+              "candidate_enumeration_feasible_denominator": {
+                "denominator": 15,
+                "numerator": 0,
+                "rate": 0.0
+              }
+            },
+            "recall_at_4": {
+              "all_corpus_denominator": {
+                "denominator": 4357,
+                "numerator": 0,
+                "rate": 0.0
+              },
+              "candidate_enumeration_feasible_denominator": {
+                "denominator": 15,
+                "numerator": 0,
+                "rate": 0.0
+              }
+            },
+            "recall_at_64": {
+              "all_corpus_denominator": {
+                "denominator": 4357,
+                "numerator": 0,
+                "rate": 0.0
+              },
+              "candidate_enumeration_feasible_denominator": {
+                "denominator": 15,
+                "numerator": 0,
+                "rate": 0.0
+              }
+            }
+          },
+          "original_frozen_executor_top1": {
+            "available_fold_count": 0,
+            "hit_count": 0,
+            "hit_rate": null
+          }
+        },
+        "RANKED_ALL_CATALOG_CANDIDATE_RECALL": {
+          "all_folds_denominator": 4357,
+          "all_folds_per_task_recall": {
+            "recall_at_1": {
+              "all_corpus_denominator": {
+                "denominator": 1360,
+                "numerator": 0,
+                "rate": 0.0
+              },
+              "candidate_enumeration_feasible_denominator": {
+                "denominator": 6,
+                "numerator": 0,
+                "rate": 0.0
+              }
+            },
+            "recall_at_128": {
+              "all_corpus_denominator": {
+                "denominator": 1360,
+                "numerator": 0,
+                "rate": 0.0
+              },
+              "candidate_enumeration_feasible_denominator": {
+                "denominator": 6,
+                "numerator": 0,
+                "rate": 0.0
+              }
+            },
+            "recall_at_16": {
+              "all_corpus_denominator": {
+                "denominator": 1360,
+                "numerator": 0,
+                "rate": 0.0
+              },
+              "candidate_enumeration_feasible_denominator": {
+                "denominator": 6,
+                "numerator": 0,
+                "rate": 0.0
+              }
+            },
+            "recall_at_4": {
+              "all_corpus_denominator": {
+                "denominator": 1360,
+                "numerator": 0,
+                "rate": 0.0
+              },
+              "candidate_enumeration_feasible_denominator": {
+                "denominator": 6,
+                "numerator": 0,
+                "rate": 0.0
+              }
+            },
+            "recall_at_64": {
+              "all_corpus_denominator": {
+                "denominator": 1360,
+                "numerator": 0,
+                "rate": 0.0
+              },
+              "candidate_enumeration_feasible_denominator": {
+                "denominator": 6,
+                "numerator": 0,
+                "rate": 0.0
+              }
+            }
+          },
+          "candidate_enumeration_feasible_denominator": 15,
+          "catalog_ranked_top1": {
+            "available_fold_count": 4357,
+            "hit_count": 0,
+            "hit_rate": 0.0
+          },
+          "fold_recall": {
+            "recall_at_1": {
+              "all_corpus_denominator": {
+                "denominator": 4357,
+                "numerator": 0,
+                "rate": 0.0
+              },
+              "candidate_enumeration_feasible_denominator": {
+                "denominator": 15,
+                "numerator": 0,
+                "rate": 0.0
+              }
+            },
+            "recall_at_128": {
+              "all_corpus_denominator": {
+                "denominator": 4357,
+                "numerator": 0,
+                "rate": 0.0
+              },
+              "candidate_enumeration_feasible_denominator": {
+                "denominator": 15,
+                "numerator": 0,
+                "rate": 0.0
+              }
+            },
+            "recall_at_16": {
+              "all_corpus_denominator": {
+                "denominator": 4357,
+                "numerator": 0,
+                "rate": 0.0
+              },
+              "candidate_enumeration_feasible_denominator": {
+                "denominator": 15,
+                "numerator": 0,
+                "rate": 0.0
+              }
+            },
+            "recall_at_4": {
+              "all_corpus_denominator": {
+                "denominator": 4357,
+                "numerator": 0,
+                "rate": 0.0
+              },
+              "candidate_enumeration_feasible_denominator": {
+                "denominator": 15,
+                "numerator": 0,
+                "rate": 0.0
+              }
+            },
+            "recall_at_64": {
+              "all_corpus_denominator": {
+                "denominator": 4357,
+                "numerator": 0,
+                "rate": 0.0
+              },
+              "candidate_enumeration_feasible_denominator": {
+                "denominator": 15,
+                "numerator": 0,
+                "rate": 0.0
+              }
+            }
+          },
+          "original_frozen_executor_top1": {
+            "available_fold_count": 0,
+            "hit_count": 0,
+            "hit_rate": null
+          }
+        }
+      }
+    },
+    "topology_seed_only_report": {
+      "note": "Hit subfamily counts remain zero unless a topology hit is observed; candidate trace IDs preserve the immutable convention name for manual inspection.",
+      "topology_border_or_enclosed_hits": 0,
+      "topology_seed_only_hits": 0,
+      "topology_total_hits": 0
+    },
+    "union_metrics": {
+      "EXACT_SUPPORT_CANDIDATE_RECALL": {
+        "ORACLE_PER_EXPERT_CANDIDATE_UNION_AT_K": {
+          "recall_at_1": {
+            "denominator": 4357,
+            "numerator": 0,
+            "rate": 0.0
+          },
+          "recall_at_128": {
+            "denominator": 4357,
+            "numerator": 0,
+            "rate": 0.0
+          },
+          "recall_at_16": {
+            "denominator": 4357,
+            "numerator": 0,
+            "rate": 0.0
+          },
+          "recall_at_4": {
+            "denominator": 4357,
+            "numerator": 0,
+            "rate": 0.0
+          },
+          "recall_at_64": {
+            "denominator": 4357,
+            "numerator": 0,
+            "rate": 0.0
+          }
+        },
+        "UNROUTED_MERGED_CANDIDATE_POOL_RECALL_AT_K": {
+          "recall_at_1": {
+            "denominator": 4357,
+            "numerator": 0,
+            "rate": 0.0
+          },
+          "recall_at_128": {
+            "denominator": 4357,
+            "numerator": 0,
+            "rate": 0.0
+          },
+          "recall_at_16": {
+            "denominator": 4357,
+            "numerator": 0,
+            "rate": 0.0
+          },
+          "recall_at_4": {
+            "denominator": 4357,
+            "numerator": 0,
+            "rate": 0.0
+          },
+          "recall_at_64": {
+            "denominator": 4357,
+            "numerator": 0,
+            "rate": 0.0
+          }
+        }
+      },
+      "RANKED_ALL_CATALOG_CANDIDATE_RECALL": {
+        "ORACLE_PER_EXPERT_CANDIDATE_UNION_AT_K": {
+          "recall_at_1": {
+            "denominator": 4357,
+            "numerator": 0,
+            "rate": 0.0
+          },
+          "recall_at_128": {
+            "denominator": 4357,
+            "numerator": 0,
+            "rate": 0.0
+          },
+          "recall_at_16": {
+            "denominator": 4357,
+            "numerator": 0,
+            "rate": 0.0
+          },
+          "recall_at_4": {
+            "denominator": 4357,
+            "numerator": 0,
+            "rate": 0.0
+          },
+          "recall_at_64": {
+            "denominator": 4357,
+            "numerator": 0,
+            "rate": 0.0
+          }
+        },
+        "UNROUTED_MERGED_CANDIDATE_POOL_RECALL_AT_K": {
+          "recall_at_1": {
+            "denominator": 4357,
+            "numerator": 0,
+            "rate": 0.0
+          },
+          "recall_at_128": {
+            "denominator": 4357,
+            "numerator": 0,
+            "rate": 0.0
+          },
+          "recall_at_16": {
+            "denominator": 4357,
+            "numerator": 0,
+            "rate": 0.0
+          },
+          "recall_at_4": {
+            "denominator": 4357,
+            "numerator": 0,
+            "rate": 0.0
+          },
+          "recall_at_64": {
+            "denominator": 4357,
+            "numerator": 0,
+            "rate": 0.0
+          }
+        }
+      }
+    }
+  },
+  "candidate_surface_summary": {
+    "all_available": true,
+    "audit_version": "R5A2D_R2_FROZEN_CANDIDATE_RECALL",
+    "surfaces": [
+      {
+        "availability_verdict": "CANDIDATE_ENUMERATION_AVAILABLE",
+        "candidate_enumeration_available": true,
+        "candidate_execution_path": "read-only call to existing transport_recolor_r5a0v2_oracles.apply_sequence_to_grid(candidate_id)",
+        "existing_candidate_catalog_hash": "c22b36be00baba5886285cd50689c3ad25bf15a40779a45f0057effe5f3ee1b4",
+        "existing_candidate_catalog_name": "transport_recolor_r5a0v2_oracles.SEALED_CLASSES",
+        "expert_name": "V2_transport_recolor",
+        "frozen_forward_parameters": [
+          "self",
+          "query_grids",
+          "support_input_grids",
+          "support_output_grids",
+          "zero_support",
+          "force_identity_transport",
+          "force_identity_color"
+        ],
+        "frozen_source_hash": "2e427a417e31e88ba6106a23d42e964989508d003677bc6a400c0a7730293de4",
+        "raw_candidate_count": 13,
+        "requires_forward_signature_change": false,
+        "requires_new_runtime_argument": false,
+        "requires_source_modification": false
+      },
+      {
+        "availability_verdict": "CANDIDATE_ENUMERATION_AVAILABLE",
+        "candidate_enumeration_available": true,
+        "candidate_execution_path": "read-only enumeration of compiled_topology_r5a2c_r2_data.candidate_hypotheses() and existing execute_hypothesis(grid, hypothesis)",
+        "existing_candidate_catalog_hash": "a08bb6db8dfd0cfd3055121e163592736f3626ec6c8faf3dd3b6fe6d1d594311",
+        "existing_candidate_catalog_name": "compiled_topology_r5a2c_r2_data.candidate_hypotheses()",
+        "expert_name": "R5A-2C-R2_compiled_topology",
+        "frozen_execute_from_raw_grids_parameters": [
+          "support_input_grids",
+          "support_output_grids",
+          "query_input_grid",
+          "ablation"
+        ],
+        "frozen_execute_hypothesis_parameters": [
+          "grid",
+          "hypothesis",
+          "ablation"
+        ],
+        "frozen_source_hash": "fe1f9b2d4468d9567732117ef0dd02e1701ebc8ba91a4f34f0cc858f4bc9ffc2",
+        "raw_candidate_count": 24,
+        "requires_forward_signature_change": false,
+        "requires_new_runtime_argument": false,
+        "requires_source_modification": false
+      }
+    ]
+  },
+  "corpus_manifest_verification": {
+    "audit_version": "R5A2D_R2_FROZEN_CANDIDATE_RECALL",
+    "exact_match": true,
+    "file_records_match": true,
+    "manifest_hash_match": true,
+    "no_corpus_fallback_or_reselection": true,
+    "r5a2d_r1_corpus_manifest_sha256": "a712951a54f0d1c6701024e0c9298d04a6a04a0c8770afc997be61aef8f5c911",
+    "r5a2d_r1_task_count": 1360,
+    "reconstructed_corpus_manifest_sha256": "a712951a54f0d1c6701024e0c9298d04a6a04a0c8770afc997be61aef8f5c911",
+    "required_corpus_root": "/mnt/d/VRM/arc-prize-2026-arc-agi-2",
+    "required_previous_corpus_manifest_sha256": "a712951a54f0d1c6701024e0c9298d04a6a04a0c8770afc997be61aef8f5c911",
+    "task_count": 1360,
+    "task_count_match": true,
+    "task_files": [
+      {
+        "byte_size": 984679,
+        "corpus_relative_path": "arc-agi_evaluation_challenges.json",
+        "relative_path": "arc-prize-2026-arc-agi-2/arc-agi_evaluation_challenges.json",
+        "sha256": "e7c62a4bd211867c6b538f66b8013b81f299663c82ca062f49a52bf439d6e4e8"
+      },
+      {
+        "byte_size": 223838,
+        "corpus_relative_path": "arc-agi_evaluation_solutions.json",
+        "relative_path": "arc-prize-2026-arc-agi-2/arc-agi_evaluation_solutions.json",
+        "sha256": "84be4f4f39b79e82c36d565fc878830988b094917f052ee7069aef30b33ca8f1"
+      },
+      {
+        "byte_size": 1015295,
+        "corpus_relative_path": "arc-agi_test_challenges.json",
+        "relative_path": "arc-prize-2026-arc-agi-2/arc-agi_test_challenges.json",
+        "sha256": "232264c58f825ee77327dcfc9f4e5cb2f83b8d997eb69032be1bf2205bbe1a83"
+      },
+      {
+        "byte_size": 4010050,
+        "corpus_relative_path": "arc-agi_training_challenges.json",
+        "relative_path": "arc-prize-2026-arc-agi-2/arc-agi_training_challenges.json",
+        "sha256": "779eaba89790ebad9af02514a7efc0aefaf2cf8236f046a31bbf8b9ec48f20f5"
+      },
+      {
+        "byte_size": 658743,
+        "corpus_relative_path": "arc-agi_training_solutions.json",
+        "relative_path": "arc-prize-2026-arc-agi-2/arc-agi_training_solutions.json",
+        "sha256": "9f07a38bd25af5e83aa5bf85c5cb1a1fefdb30f6a755256fa65429e697ca97f9"
+      }
+    ]
+  },
+  "created_utc": "2026-06-30T10:55:49Z",
+  "final_verdict": "R5A2D_R2_CANDIDATE_RECALL_MEASURED",
+  "mandatory_scope_boundary": "This audit measures deterministic candidate recall from pre-existing frozen\ncandidate catalogs on the already-inspected ARC-AGI-2 corpus manifest.\n\nIt does not measure:\n- stochastic sampling;\n- learned candidate generation;\n- ARC generality;\n- a deployable final-answer solver;\n- learned routing;\n- learned verification or ranking;\n- test-time training;\n- new primitives;\n- expanded V2 classes;\n- expanded topology hypotheses;\n- performance on a fresh held-out corpus.\n\nBecause ARC-AGI-2 was previously used for the R5A-2D-R1 diagnostic,\nthis candidate-recall audit is exploratory on a development-burned corpus.\nIt may reveal whether frozen candidate diversity exists, but it is not\nconfirmatory evidence for future library design changes.",
+  "narrowest_justified_next_action": "Inspect the first RANKED_ALL_CATALOG_CANDIDATE_RECALL K=128 misses by reason category without changing frozen catalogs or adding a router.",
+  "observed_runtime_seconds": 88.38682703400002,
+  "optional_sealed_post_hoc_candidate_recall": {
+    "metric_label": "SEALED_POST_HOC_CANDIDATE_RECALL_AT_K",
+    "metrics": {
+      "recall_at_1": {
+        "denominator": 1248,
+        "numerator": 0,
+        "rate": 0.0
+      },
+      "recall_at_128": {
+        "denominator": 1248,
+        "numerator": 0,
+        "rate": 0.0
+      },
+      "recall_at_16": {
+        "denominator": 1248,
+        "numerator": 0,
+        "rate": 0.0
+      },
+      "recall_at_4": {
+        "denominator": 1248,
+        "numerator": 0,
+        "rate": 0.0
+      },
+      "recall_at_64": {
+        "denominator": 1248,
+        "numerator": 0,
+        "rate": 0.0
+      }
+    },
+    "scoring_available_query_count": 1248
+  },
+  "parameter_free_integrity": {
+    "forbidden_code_terms_found": [],
+    "passed": true,
+    "scan_excludes_strings_and_comments": true
+  },
+  "protected_hashes_after": {
+    "/mnt/d/VRM/artifacts/r5a2d_r1_frozen_library_coverage/corpus_manifest_precommit.json": "c68a4fc2ba30984d8813f0c21ff4cd3db9588be101ccd49ecb52bcd48ef549be",
+    "/mnt/d/VRM/artifacts/r5a2d_r1_frozen_library_coverage/coverage_profile.json": "f72421922fe1be48f8bdf90400ffb7ed053468e4536bbaf13b30c5a4f525d324",
+    "/mnt/d/VRM/artifacts/r5a2d_r1_frozen_library_coverage/domain_attrition_report.json": "18d6a102eda681d69292a4197ea15133d5c3d1f51c908e73f6b1e56696bacd50",
+    "/mnt/d/VRM/artifacts/r5a2d_r1_frozen_library_coverage/final_report.json": "b03106c4a3eafd947883849a1c344998512ce8a479395c0abbc54b5ee89b994f",
+    "/mnt/d/VRM/artifacts/r5a2d_r1_frozen_library_coverage/library_contract_report.json": "9c9cf302cc7d9080fbe447a54682a01202f8c8c73d5f9427d1736d80d580a7a9",
+    "/mnt/d/VRM/artifacts/r5a2d_r1_frozen_library_coverage/optional_sealed_test_scoring.json": "888be81c9fa5fd66f5f24fe66330c75c576956ee258bfff85212013b5ec1f14b",
+    "/mnt/d/VRM/artifacts/r5a2d_r1_frozen_library_coverage/task_ledger.json": "8e9493032afca74a18135da1bc3aad0f1119ef18c9a4e175cf1b8379cc510c45",
+    "/mnt/d/VRM/artifacts/transport_recolor_r5a2c_r2_topology/closure_domain.json": "445136a641adcad8e382071acfd517dc65ff5006059f9abd47f904e42c30f990",
+    "/mnt/d/VRM/artifacts/transport_recolor_r5a2c_r2_topology/shortcut_catalog.json": "7ce9eec708e81f083263e2785405b52ac695c62e2ce595b4d2e7b871791668f5",
+    "/mnt/d/VRM/vrm/twin_tasks/compiled_topology_r5a2c_r2_checker.py": "60e603bd9ead19b929a6b3ff3a8cccaefac0bfa4417c88560c812d200a24ed80",
+    "/mnt/d/VRM/vrm/twin_tasks/compiled_topology_r5a2c_r2_data.py": "251e620ffca8e4ea9f9c6d2534aaeaded1cade5ccf2e5274ee3a95182dd68998",
+    "/mnt/d/VRM/vrm/twin_tasks/compiled_topology_r5a2c_r2_executor.py": "fe1f9b2d4468d9567732117ef0dd02e1701ebc8ba91a4f34f0cc858f4bc9ffc2",
+    "/mnt/d/VRM/vrm/twin_tasks/r5a2d_r1_corpus_resolver.py": "ea58d1ee895cba240b9b1a13e8afb7e5a7062832ad768470945148ff0d0a8c8c",
+    "/mnt/d/VRM/vrm/twin_tasks/r5a2d_r1_coverage_audit.py": "2be6ab25867888b7a119c6f4085bafa7efd3cde03dd155444f16e74e21050521",
+    "/mnt/d/VRM/vrm/twin_tasks/r5a2d_r1_raw_grid_fidelity.py": "2227608cf014b73ec8b2946bf75dd3215589c869ef7f753bafa700807c36ac4b",
+    "/mnt/d/VRM/vrm/twin_tasks/run_compiled_topology_r5a2c_r2_audit.py": "e6fd3df74e226ecb347c8768f0f2cbaa20b31c4d9915b9599bdaa083200e890e",
+    "/mnt/d/VRM/vrm/twin_tasks/run_r5a2d_r1_frozen_library_coverage.py": "f09f79928f78bd858029ebb3d4083d960fd51296cf7cc8c3ce69fbbba9b59b3d",
+    "/mnt/d/VRM/vrm/twin_tasks/run_transport_recolor_r5a0v2.py": "46bef01b4f545c36df8ede5087269515fd80377f2540f9a382bf5c8bd71ebf39",
+    "/mnt/d/VRM/vrm/twin_tasks/transport_recolor_r5a0v2_data.py": "8ba05be9b30f10eeaf17ec368a5b6482f28e769e8f81098a082cd581e8488279",
+    "/mnt/d/VRM/vrm/twin_tasks/transport_recolor_r5a0v2_model.py": "1ba3582f80fbf59b3eab142dde4d651e92e761ccb4c907835a421b1e13bc473e",
+    "/mnt/d/VRM/vrm/twin_tasks/transport_recolor_r5a0v2_oracles.py": "2e427a417e31e88ba6106a23d42e964989508d003677bc6a400c0a7730293de4"
+  },
+  "protected_hashes_before": {
+    "/mnt/d/VRM/artifacts/r5a2d_r1_frozen_library_coverage/corpus_manifest_precommit.json": "c68a4fc2ba30984d8813f0c21ff4cd3db9588be101ccd49ecb52bcd48ef549be",
+    "/mnt/d/VRM/artifacts/r5a2d_r1_frozen_library_coverage/coverage_profile.json": "f72421922fe1be48f8bdf90400ffb7ed053468e4536bbaf13b30c5a4f525d324",
+    "/mnt/d/VRM/artifacts/r5a2d_r1_frozen_library_coverage/domain_attrition_report.json": "18d6a102eda681d69292a4197ea15133d5c3d1f51c908e73f6b1e56696bacd50",
+    "/mnt/d/VRM/artifacts/r5a2d_r1_frozen_library_coverage/final_report.json": "b03106c4a3eafd947883849a1c344998512ce8a479395c0abbc54b5ee89b994f",
+    "/mnt/d/VRM/artifacts/r5a2d_r1_frozen_library_coverage/library_contract_report.json": "9c9cf302cc7d9080fbe447a54682a01202f8c8c73d5f9427d1736d80d580a7a9",
+    "/mnt/d/VRM/artifacts/r5a2d_r1_frozen_library_coverage/optional_sealed_test_scoring.json": "888be81c9fa5fd66f5f24fe66330c75c576956ee258bfff85212013b5ec1f14b",
+    "/mnt/d/VRM/artifacts/r5a2d_r1_frozen_library_coverage/task_ledger.json": "8e9493032afca74a18135da1bc3aad0f1119ef18c9a4e175cf1b8379cc510c45",
+    "/mnt/d/VRM/artifacts/transport_recolor_r5a2c_r2_topology/closure_domain.json": "445136a641adcad8e382071acfd517dc65ff5006059f9abd47f904e42c30f990",
+    "/mnt/d/VRM/artifacts/transport_recolor_r5a2c_r2_topology/shortcut_catalog.json": "7ce9eec708e81f083263e2785405b52ac695c62e2ce595b4d2e7b871791668f5",
+    "/mnt/d/VRM/vrm/twin_tasks/compiled_topology_r5a2c_r2_checker.py": "60e603bd9ead19b929a6b3ff3a8cccaefac0bfa4417c88560c812d200a24ed80",
+    "/mnt/d/VRM/vrm/twin_tasks/compiled_topology_r5a2c_r2_data.py": "251e620ffca8e4ea9f9c6d2534aaeaded1cade5ccf2e5274ee3a95182dd68998",
+    "/mnt/d/VRM/vrm/twin_tasks/compiled_topology_r5a2c_r2_executor.py": "fe1f9b2d4468d9567732117ef0dd02e1701ebc8ba91a4f34f0cc858f4bc9ffc2",
+    "/mnt/d/VRM/vrm/twin_tasks/r5a2d_r1_corpus_resolver.py": "ea58d1ee895cba240b9b1a13e8afb7e5a7062832ad768470945148ff0d0a8c8c",
+    "/mnt/d/VRM/vrm/twin_tasks/r5a2d_r1_coverage_audit.py": "2be6ab25867888b7a119c6f4085bafa7efd3cde03dd155444f16e74e21050521",
+    "/mnt/d/VRM/vrm/twin_tasks/r5a2d_r1_raw_grid_fidelity.py": "2227608cf014b73ec8b2946bf75dd3215589c869ef7f753bafa700807c36ac4b",
+    "/mnt/d/VRM/vrm/twin_tasks/run_compiled_topology_r5a2c_r2_audit.py": "e6fd3df74e226ecb347c8768f0f2cbaa20b31c4d9915b9599bdaa083200e890e",
+    "/mnt/d/VRM/vrm/twin_tasks/run_r5a2d_r1_frozen_library_coverage.py": "f09f79928f78bd858029ebb3d4083d960fd51296cf7cc8c3ce69fbbba9b59b3d",
+    "/mnt/d/VRM/vrm/twin_tasks/run_transport_recolor_r5a0v2.py": "46bef01b4f545c36df8ede5087269515fd80377f2540f9a382bf5c8bd71ebf39",
+    "/mnt/d/VRM/vrm/twin_tasks/transport_recolor_r5a0v2_data.py": "8ba05be9b30f10eeaf17ec368a5b6482f28e769e8f81098a082cd581e8488279",
+    "/mnt/d/VRM/vrm/twin_tasks/transport_recolor_r5a0v2_model.py": "1ba3582f80fbf59b3eab142dde4d651e92e761ccb4c907835a421b1e13bc473e",
+    "/mnt/d/VRM/vrm/twin_tasks/transport_recolor_r5a0v2_oracles.py": "2e427a417e31e88ba6106a23d42e964989508d003677bc6a400c0a7730293de4"
+  },
+  "protected_hashes_unchanged": true,
+  "stable_two_run_hashes": {
+    "differing_files": [],
+    "matching": true,
+    "run1": {
+      "candidate_attrition_report.json": "65dd3959588fde9bb5001862e12877204e240b6c5826fcbe262db5a3eab0b786",
+      "candidate_ranking_spec.json": "34964e81e92c9c5ac030d8d3fcf2fa3eba13d8ff35c44eac75e41b91043ba6fe",
+      "candidate_recall_metrics.json": "e3c630e3d1c472bc3ab069ba5a49caa26d113fabb80738ae9d91662a7d3fbf37",
+      "candidate_surface_report.json": "cb1f57814c6c3eca3f33f80b4b223571b07eb503b80c184919e4367724ed599e",
+      "corpus_manifest_verification.json": "f2235e6ff2889b89ffaa11ea6e8c76aeaf6bd58212384c5df0981b6f00248d2b",
+      "final_report.json": "076df35ce8df719c31ebe8b85f65167e569575ba8b7cc628f1df63553a9dfa7b",
+      "loo_candidate_ledger.json": "5329399b1dcc82c12d0d260d6e94787fd024e0884a92b9087442c8d78853b92b",
+      "optional_sealed_test_candidate_recall.json": "4ce8e9f5dba39c0efc4abd9154531ec522a9c0547c2ab49609c71c6a5cb9affa",
+      "pre_score_test_candidate_commitment.json": "4118b38a4277cbae3625bc444343671d8590517bb1451a3626c968ae76ab3b64"
+    },
+    "run2": {
+      "candidate_attrition_report.json": "65dd3959588fde9bb5001862e12877204e240b6c5826fcbe262db5a3eab0b786",
+      "candidate_ranking_spec.json": "34964e81e92c9c5ac030d8d3fcf2fa3eba13d8ff35c44eac75e41b91043ba6fe",
+      "candidate_recall_metrics.json": "e3c630e3d1c472bc3ab069ba5a49caa26d113fabb80738ae9d91662a7d3fbf37",
+      "candidate_surface_report.json": "cb1f57814c6c3eca3f33f80b4b223571b07eb503b80c184919e4367724ed599e",
+      "corpus_manifest_verification.json": "f2235e6ff2889b89ffaa11ea6e8c76aeaf6bd58212384c5df0981b6f00248d2b",
+      "final_report.json": "076df35ce8df719c31ebe8b85f65167e569575ba8b7cc628f1df63553a9dfa7b",
+      "loo_candidate_ledger.json": "5329399b1dcc82c12d0d260d6e94787fd024e0884a92b9087442c8d78853b92b",
+      "optional_sealed_test_candidate_recall.json": "4ce8e9f5dba39c0efc4abd9154531ec522a9c0547c2ab49609c71c6a5cb9affa",
+      "pre_score_test_candidate_commitment.json": "4118b38a4277cbae3625bc444343671d8590517bb1451a3626c968ae76ab3b64"
+    }
+  }
+}

@@ -1,0 +1,2240 @@
+{
+  "arc_candidate_recall_metrics": {
+    "audit_version": "R5A3A_ARC_NATIVE_STRUCTURAL_CANDIDATE_MACHINE_V0",
+    "full_depth2_metrics": {
+      "accepted_fold_count": 4357,
+      "candidate_count_distribution": {
+        "count": 4357,
+        "histogram": {
+          "2": 21,
+          "3": 14,
+          "4": 97,
+          "5": 321,
+          "6": 436,
+          "7": 2063,
+          "8": 1405
+        },
+        "mean": 6.971310534771632,
+        "median": 7
+      },
+      "fold_count": 4357,
+      "recall": {
+        "recall_at_1": {
+          "denominator": 4357,
+          "numerator": 30,
+          "rate": 0.006885471654808354
+        },
+        "recall_at_128": {
+          "denominator": 4357,
+          "numerator": 37,
+          "rate": 0.008492081707596971
+        },
+        "recall_at_16": {
+          "denominator": 4357,
+          "numerator": 37,
+          "rate": 0.008492081707596971
+        },
+        "recall_at_4": {
+          "denominator": 4357,
+          "numerator": 37,
+          "rate": 0.008492081707596971
+        },
+        "recall_at_64": {
+          "denominator": 4357,
+          "numerator": 37,
+          "rate": 0.008492081707596971
+        }
+      },
+      "recall_splits": {
+        "change_signature": {
+          "multi_change": {
+            "recall_at_1": {
+              "denominator": 4303,
+              "numerator": 17,
+              "rate": 0.0039507320474087846
+            },
+            "recall_at_128": {
+              "denominator": 4303,
+              "numerator": 22,
+              "rate": 0.005112712061352545
+            },
+            "recall_at_16": {
+              "denominator": 4303,
+              "numerator": 22,
+              "rate": 0.005112712061352545
+            },
+            "recall_at_4": {
+              "denominator": 4303,
+              "numerator": 22,
+              "rate": 0.005112712061352545
+            },
+            "recall_at_64": {
+              "denominator": 4303,
+              "numerator": 22,
+              "rate": 0.005112712061352545
+            }
+          },
+          "one_step": {
+            "recall_at_1": {
+              "denominator": 54,
+              "numerator": 13,
+              "rate": 0.24074074074074073
+            },
+            "recall_at_128": {
+              "denominator": 54,
+              "numerator": 15,
+              "rate": 0.2777777777777778
+            },
+            "recall_at_16": {
+              "denominator": 54,
+              "numerator": 15,
+              "rate": 0.2777777777777778
+            },
+            "recall_at_4": {
+              "denominator": 54,
+              "numerator": 15,
+              "rate": 0.2777777777777778
+            },
+            "recall_at_64": {
+              "denominator": 54,
+              "numerator": 15,
+              "rate": 0.2777777777777778
+            }
+          }
+        },
+        "object_slice": {
+          "multi_object": {
+            "recall_at_1": {
+              "denominator": 4034,
+              "numerator": 13,
+              "rate": 0.0032226078334159644
+            },
+            "recall_at_128": {
+              "denominator": 4034,
+              "numerator": 17,
+              "rate": 0.00421417947446703
+            },
+            "recall_at_16": {
+              "denominator": 4034,
+              "numerator": 17,
+              "rate": 0.00421417947446703
+            },
+            "recall_at_4": {
+              "denominator": 4034,
+              "numerator": 17,
+              "rate": 0.00421417947446703
+            },
+            "recall_at_64": {
+              "denominator": 4034,
+              "numerator": 17,
+              "rate": 0.00421417947446703
+            }
+          },
+          "one_object": {
+            "recall_at_1": {
+              "denominator": 323,
+              "numerator": 17,
+              "rate": 0.05263157894736842
+            },
+            "recall_at_128": {
+              "denominator": 323,
+              "numerator": 20,
+              "rate": 0.06191950464396285
+            },
+            "recall_at_16": {
+              "denominator": 323,
+              "numerator": 20,
+              "rate": 0.06191950464396285
+            },
+            "recall_at_4": {
+              "denominator": 323,
+              "numerator": 20,
+              "rate": 0.06191950464396285
+            },
+            "recall_at_64": {
+              "denominator": 323,
+              "numerator": 20,
+              "rate": 0.06191950464396285
+            }
+          }
+        },
+        "same_shape": {
+          "changed_shape": {
+            "recall_at_1": {
+              "denominator": 1477,
+              "numerator": 6,
+              "rate": 0.004062288422477996
+            },
+            "recall_at_128": {
+              "denominator": 1477,
+              "numerator": 7,
+              "rate": 0.004739336492890996
+            },
+            "recall_at_16": {
+              "denominator": 1477,
+              "numerator": 7,
+              "rate": 0.004739336492890996
+            },
+            "recall_at_4": {
+              "denominator": 1477,
+              "numerator": 7,
+              "rate": 0.004739336492890996
+            },
+            "recall_at_64": {
+              "denominator": 1477,
+              "numerator": 7,
+              "rate": 0.004739336492890996
+            }
+          },
+          "same_shape": {
+            "recall_at_1": {
+              "denominator": 2880,
+              "numerator": 24,
+              "rate": 0.008333333333333333
+            },
+            "recall_at_128": {
+              "denominator": 2880,
+              "numerator": 30,
+              "rate": 0.010416666666666666
+            },
+            "recall_at_16": {
+              "denominator": 2880,
+              "numerator": 30,
+              "rate": 0.010416666666666666
+            },
+            "recall_at_4": {
+              "denominator": 2880,
+              "numerator": 30,
+              "rate": 0.010416666666666666
+            },
+            "recall_at_64": {
+              "denominator": 2880,
+              "numerator": 30,
+              "rate": 0.010416666666666666
+            }
+          }
+        }
+      }
+    },
+    "metrics_by_ablation": {
+      "A_full_depth2_structural_machine": {
+        "accepted_fold_count": 4357,
+        "candidate_count_distribution": {
+          "count": 4357,
+          "histogram": {
+            "2": 21,
+            "3": 14,
+            "4": 97,
+            "5": 321,
+            "6": 436,
+            "7": 2063,
+            "8": 1405
+          },
+          "mean": 6.971310534771632,
+          "median": 7
+        },
+        "fold_count": 4357,
+        "recall": {
+          "recall_at_1": {
+            "denominator": 4357,
+            "numerator": 30,
+            "rate": 0.006885471654808354
+          },
+          "recall_at_128": {
+            "denominator": 4357,
+            "numerator": 37,
+            "rate": 0.008492081707596971
+          },
+          "recall_at_16": {
+            "denominator": 4357,
+            "numerator": 37,
+            "rate": 0.008492081707596971
+          },
+          "recall_at_4": {
+            "denominator": 4357,
+            "numerator": 37,
+            "rate": 0.008492081707596971
+          },
+          "recall_at_64": {
+            "denominator": 4357,
+            "numerator": 37,
+            "rate": 0.008492081707596971
+          }
+        },
+        "recall_splits": {
+          "change_signature": {
+            "multi_change": {
+              "recall_at_1": {
+                "denominator": 4303,
+                "numerator": 17,
+                "rate": 0.0039507320474087846
+              },
+              "recall_at_128": {
+                "denominator": 4303,
+                "numerator": 22,
+                "rate": 0.005112712061352545
+              },
+              "recall_at_16": {
+                "denominator": 4303,
+                "numerator": 22,
+                "rate": 0.005112712061352545
+              },
+              "recall_at_4": {
+                "denominator": 4303,
+                "numerator": 22,
+                "rate": 0.005112712061352545
+              },
+              "recall_at_64": {
+                "denominator": 4303,
+                "numerator": 22,
+                "rate": 0.005112712061352545
+              }
+            },
+            "one_step": {
+              "recall_at_1": {
+                "denominator": 54,
+                "numerator": 13,
+                "rate": 0.24074074074074073
+              },
+              "recall_at_128": {
+                "denominator": 54,
+                "numerator": 15,
+                "rate": 0.2777777777777778
+              },
+              "recall_at_16": {
+                "denominator": 54,
+                "numerator": 15,
+                "rate": 0.2777777777777778
+              },
+              "recall_at_4": {
+                "denominator": 54,
+                "numerator": 15,
+                "rate": 0.2777777777777778
+              },
+              "recall_at_64": {
+                "denominator": 54,
+                "numerator": 15,
+                "rate": 0.2777777777777778
+              }
+            }
+          },
+          "object_slice": {
+            "multi_object": {
+              "recall_at_1": {
+                "denominator": 4034,
+                "numerator": 13,
+                "rate": 0.0032226078334159644
+              },
+              "recall_at_128": {
+                "denominator": 4034,
+                "numerator": 17,
+                "rate": 0.00421417947446703
+              },
+              "recall_at_16": {
+                "denominator": 4034,
+                "numerator": 17,
+                "rate": 0.00421417947446703
+              },
+              "recall_at_4": {
+                "denominator": 4034,
+                "numerator": 17,
+                "rate": 0.00421417947446703
+              },
+              "recall_at_64": {
+                "denominator": 4034,
+                "numerator": 17,
+                "rate": 0.00421417947446703
+              }
+            },
+            "one_object": {
+              "recall_at_1": {
+                "denominator": 323,
+                "numerator": 17,
+                "rate": 0.05263157894736842
+              },
+              "recall_at_128": {
+                "denominator": 323,
+                "numerator": 20,
+                "rate": 0.06191950464396285
+              },
+              "recall_at_16": {
+                "denominator": 323,
+                "numerator": 20,
+                "rate": 0.06191950464396285
+              },
+              "recall_at_4": {
+                "denominator": 323,
+                "numerator": 20,
+                "rate": 0.06191950464396285
+              },
+              "recall_at_64": {
+                "denominator": 323,
+                "numerator": 20,
+                "rate": 0.06191950464396285
+              }
+            }
+          },
+          "same_shape": {
+            "changed_shape": {
+              "recall_at_1": {
+                "denominator": 1477,
+                "numerator": 6,
+                "rate": 0.004062288422477996
+              },
+              "recall_at_128": {
+                "denominator": 1477,
+                "numerator": 7,
+                "rate": 0.004739336492890996
+              },
+              "recall_at_16": {
+                "denominator": 1477,
+                "numerator": 7,
+                "rate": 0.004739336492890996
+              },
+              "recall_at_4": {
+                "denominator": 1477,
+                "numerator": 7,
+                "rate": 0.004739336492890996
+              },
+              "recall_at_64": {
+                "denominator": 1477,
+                "numerator": 7,
+                "rate": 0.004739336492890996
+              }
+            },
+            "same_shape": {
+              "recall_at_1": {
+                "denominator": 2880,
+                "numerator": 24,
+                "rate": 0.008333333333333333
+              },
+              "recall_at_128": {
+                "denominator": 2880,
+                "numerator": 30,
+                "rate": 0.010416666666666666
+              },
+              "recall_at_16": {
+                "denominator": 2880,
+                "numerator": 30,
+                "rate": 0.010416666666666666
+              },
+              "recall_at_4": {
+                "denominator": 2880,
+                "numerator": 30,
+                "rate": 0.010416666666666666
+              },
+              "recall_at_64": {
+                "denominator": 2880,
+                "numerator": 30,
+                "rate": 0.010416666666666666
+              }
+            }
+          }
+        }
+      },
+      "B_depth1_only": {
+        "accepted_fold_count": 4357,
+        "candidate_count_distribution": {
+          "count": 4357,
+          "histogram": {
+            "2": 21,
+            "3": 9,
+            "4": 85,
+            "5": 258,
+            "6": 373,
+            "7": 2178,
+            "8": 1433
+          },
+          "mean": 7.033968326830388,
+          "median": 7
+        },
+        "fold_count": 4357,
+        "recall": {
+          "recall_at_1": {
+            "denominator": 4357,
+            "numerator": 30,
+            "rate": 0.006885471654808354
+          },
+          "recall_at_128": {
+            "denominator": 4357,
+            "numerator": 37,
+            "rate": 0.008492081707596971
+          },
+          "recall_at_16": {
+            "denominator": 4357,
+            "numerator": 37,
+            "rate": 0.008492081707596971
+          },
+          "recall_at_4": {
+            "denominator": 4357,
+            "numerator": 37,
+            "rate": 0.008492081707596971
+          },
+          "recall_at_64": {
+            "denominator": 4357,
+            "numerator": 37,
+            "rate": 0.008492081707596971
+          }
+        },
+        "recall_splits": {
+          "change_signature": {
+            "multi_change": {
+              "recall_at_1": {
+                "denominator": 4303,
+                "numerator": 17,
+                "rate": 0.0039507320474087846
+              },
+              "recall_at_128": {
+                "denominator": 4303,
+                "numerator": 22,
+                "rate": 0.005112712061352545
+              },
+              "recall_at_16": {
+                "denominator": 4303,
+                "numerator": 22,
+                "rate": 0.005112712061352545
+              },
+              "recall_at_4": {
+                "denominator": 4303,
+                "numerator": 22,
+                "rate": 0.005112712061352545
+              },
+              "recall_at_64": {
+                "denominator": 4303,
+                "numerator": 22,
+                "rate": 0.005112712061352545
+              }
+            },
+            "one_step": {
+              "recall_at_1": {
+                "denominator": 54,
+                "numerator": 13,
+                "rate": 0.24074074074074073
+              },
+              "recall_at_128": {
+                "denominator": 54,
+                "numerator": 15,
+                "rate": 0.2777777777777778
+              },
+              "recall_at_16": {
+                "denominator": 54,
+                "numerator": 15,
+                "rate": 0.2777777777777778
+              },
+              "recall_at_4": {
+                "denominator": 54,
+                "numerator": 15,
+                "rate": 0.2777777777777778
+              },
+              "recall_at_64": {
+                "denominator": 54,
+                "numerator": 15,
+                "rate": 0.2777777777777778
+              }
+            }
+          },
+          "object_slice": {
+            "multi_object": {
+              "recall_at_1": {
+                "denominator": 4034,
+                "numerator": 11,
+                "rate": 0.002726822012890431
+              },
+              "recall_at_128": {
+                "denominator": 4034,
+                "numerator": 17,
+                "rate": 0.00421417947446703
+              },
+              "recall_at_16": {
+                "denominator": 4034,
+                "numerator": 17,
+                "rate": 0.00421417947446703
+              },
+              "recall_at_4": {
+                "denominator": 4034,
+                "numerator": 17,
+                "rate": 0.00421417947446703
+              },
+              "recall_at_64": {
+                "denominator": 4034,
+                "numerator": 17,
+                "rate": 0.00421417947446703
+              }
+            },
+            "one_object": {
+              "recall_at_1": {
+                "denominator": 323,
+                "numerator": 19,
+                "rate": 0.058823529411764705
+              },
+              "recall_at_128": {
+                "denominator": 323,
+                "numerator": 20,
+                "rate": 0.06191950464396285
+              },
+              "recall_at_16": {
+                "denominator": 323,
+                "numerator": 20,
+                "rate": 0.06191950464396285
+              },
+              "recall_at_4": {
+                "denominator": 323,
+                "numerator": 20,
+                "rate": 0.06191950464396285
+              },
+              "recall_at_64": {
+                "denominator": 323,
+                "numerator": 20,
+                "rate": 0.06191950464396285
+              }
+            }
+          },
+          "same_shape": {
+            "changed_shape": {
+              "recall_at_1": {
+                "denominator": 1477,
+                "numerator": 6,
+                "rate": 0.004062288422477996
+              },
+              "recall_at_128": {
+                "denominator": 1477,
+                "numerator": 7,
+                "rate": 0.004739336492890996
+              },
+              "recall_at_16": {
+                "denominator": 1477,
+                "numerator": 7,
+                "rate": 0.004739336492890996
+              },
+              "recall_at_4": {
+                "denominator": 1477,
+                "numerator": 7,
+                "rate": 0.004739336492890996
+              },
+              "recall_at_64": {
+                "denominator": 1477,
+                "numerator": 7,
+                "rate": 0.004739336492890996
+              }
+            },
+            "same_shape": {
+              "recall_at_1": {
+                "denominator": 2880,
+                "numerator": 24,
+                "rate": 0.008333333333333333
+              },
+              "recall_at_128": {
+                "denominator": 2880,
+                "numerator": 30,
+                "rate": 0.010416666666666666
+              },
+              "recall_at_16": {
+                "denominator": 2880,
+                "numerator": 30,
+                "rate": 0.010416666666666666
+              },
+              "recall_at_4": {
+                "denominator": 2880,
+                "numerator": 30,
+                "rate": 0.010416666666666666
+              },
+              "recall_at_64": {
+                "denominator": 2880,
+                "numerator": 30,
+                "rate": 0.010416666666666666
+              }
+            }
+          }
+        }
+      },
+      "C_no_object_selection_relations": {
+        "accepted_fold_count": 4357,
+        "candidate_count_distribution": {
+          "count": 4357,
+          "histogram": {
+            "2": 21,
+            "3": 14,
+            "4": 97,
+            "5": 321,
+            "6": 436,
+            "7": 2063,
+            "8": 1405
+          },
+          "mean": 6.971310534771632,
+          "median": 7
+        },
+        "fold_count": 4357,
+        "recall": {
+          "recall_at_1": {
+            "denominator": 4357,
+            "numerator": 30,
+            "rate": 0.006885471654808354
+          },
+          "recall_at_128": {
+            "denominator": 4357,
+            "numerator": 37,
+            "rate": 0.008492081707596971
+          },
+          "recall_at_16": {
+            "denominator": 4357,
+            "numerator": 37,
+            "rate": 0.008492081707596971
+          },
+          "recall_at_4": {
+            "denominator": 4357,
+            "numerator": 37,
+            "rate": 0.008492081707596971
+          },
+          "recall_at_64": {
+            "denominator": 4357,
+            "numerator": 37,
+            "rate": 0.008492081707596971
+          }
+        },
+        "recall_splits": {
+          "change_signature": {
+            "multi_change": {
+              "recall_at_1": {
+                "denominator": 4303,
+                "numerator": 17,
+                "rate": 0.0039507320474087846
+              },
+              "recall_at_128": {
+                "denominator": 4303,
+                "numerator": 22,
+                "rate": 0.005112712061352545
+              },
+              "recall_at_16": {
+                "denominator": 4303,
+                "numerator": 22,
+                "rate": 0.005112712061352545
+              },
+              "recall_at_4": {
+                "denominator": 4303,
+                "numerator": 22,
+                "rate": 0.005112712061352545
+              },
+              "recall_at_64": {
+                "denominator": 4303,
+                "numerator": 22,
+                "rate": 0.005112712061352545
+              }
+            },
+            "one_step": {
+              "recall_at_1": {
+                "denominator": 54,
+                "numerator": 13,
+                "rate": 0.24074074074074073
+              },
+              "recall_at_128": {
+                "denominator": 54,
+                "numerator": 15,
+                "rate": 0.2777777777777778
+              },
+              "recall_at_16": {
+                "denominator": 54,
+                "numerator": 15,
+                "rate": 0.2777777777777778
+              },
+              "recall_at_4": {
+                "denominator": 54,
+                "numerator": 15,
+                "rate": 0.2777777777777778
+              },
+              "recall_at_64": {
+                "denominator": 54,
+                "numerator": 15,
+                "rate": 0.2777777777777778
+              }
+            }
+          },
+          "object_slice": {
+            "multi_object": {
+              "recall_at_1": {
+                "denominator": 4034,
+                "numerator": 13,
+                "rate": 0.0032226078334159644
+              },
+              "recall_at_128": {
+                "denominator": 4034,
+                "numerator": 17,
+                "rate": 0.00421417947446703
+              },
+              "recall_at_16": {
+                "denominator": 4034,
+                "numerator": 17,
+                "rate": 0.00421417947446703
+              },
+              "recall_at_4": {
+                "denominator": 4034,
+                "numerator": 17,
+                "rate": 0.00421417947446703
+              },
+              "recall_at_64": {
+                "denominator": 4034,
+                "numerator": 17,
+                "rate": 0.00421417947446703
+              }
+            },
+            "one_object": {
+              "recall_at_1": {
+                "denominator": 323,
+                "numerator": 17,
+                "rate": 0.05263157894736842
+              },
+              "recall_at_128": {
+                "denominator": 323,
+                "numerator": 20,
+                "rate": 0.06191950464396285
+              },
+              "recall_at_16": {
+                "denominator": 323,
+                "numerator": 20,
+                "rate": 0.06191950464396285
+              },
+              "recall_at_4": {
+                "denominator": 323,
+                "numerator": 20,
+                "rate": 0.06191950464396285
+              },
+              "recall_at_64": {
+                "denominator": 323,
+                "numerator": 20,
+                "rate": 0.06191950464396285
+              }
+            }
+          },
+          "same_shape": {
+            "changed_shape": {
+              "recall_at_1": {
+                "denominator": 1477,
+                "numerator": 6,
+                "rate": 0.004062288422477996
+              },
+              "recall_at_128": {
+                "denominator": 1477,
+                "numerator": 7,
+                "rate": 0.004739336492890996
+              },
+              "recall_at_16": {
+                "denominator": 1477,
+                "numerator": 7,
+                "rate": 0.004739336492890996
+              },
+              "recall_at_4": {
+                "denominator": 1477,
+                "numerator": 7,
+                "rate": 0.004739336492890996
+              },
+              "recall_at_64": {
+                "denominator": 1477,
+                "numerator": 7,
+                "rate": 0.004739336492890996
+              }
+            },
+            "same_shape": {
+              "recall_at_1": {
+                "denominator": 2880,
+                "numerator": 24,
+                "rate": 0.008333333333333333
+              },
+              "recall_at_128": {
+                "denominator": 2880,
+                "numerator": 30,
+                "rate": 0.010416666666666666
+              },
+              "recall_at_16": {
+                "denominator": 2880,
+                "numerator": 30,
+                "rate": 0.010416666666666666
+              },
+              "recall_at_4": {
+                "denominator": 2880,
+                "numerator": 30,
+                "rate": 0.010416666666666666
+              },
+              "recall_at_64": {
+                "denominator": 2880,
+                "numerator": 30,
+                "rate": 0.010416666666666666
+              }
+            }
+          }
+        }
+      },
+      "D_no_changed_shape_render_hypotheses": {
+        "accepted_fold_count": 4357,
+        "candidate_count_distribution": {
+          "count": 4357,
+          "histogram": {
+            "1": 20,
+            "2": 6,
+            "3": 39,
+            "4": 85,
+            "5": 293,
+            "6": 313,
+            "7": 349,
+            "8": 3252
+          },
+          "mean": 7.4112921735138855,
+          "median": 8
+        },
+        "fold_count": 4357,
+        "recall": {
+          "recall_at_1": {
+            "denominator": 4357,
+            "numerator": 22,
+            "rate": 0.005049345880192793
+          },
+          "recall_at_128": {
+            "denominator": 4357,
+            "numerator": 30,
+            "rate": 0.006885471654808354
+          },
+          "recall_at_16": {
+            "denominator": 4357,
+            "numerator": 30,
+            "rate": 0.006885471654808354
+          },
+          "recall_at_4": {
+            "denominator": 4357,
+            "numerator": 29,
+            "rate": 0.006655955932981409
+          },
+          "recall_at_64": {
+            "denominator": 4357,
+            "numerator": 30,
+            "rate": 0.006885471654808354
+          }
+        },
+        "recall_splits": {
+          "change_signature": {
+            "multi_change": {
+              "recall_at_1": {
+                "denominator": 4303,
+                "numerator": 9,
+                "rate": 0.0020915640250987683
+              },
+              "recall_at_128": {
+                "denominator": 4303,
+                "numerator": 15,
+                "rate": 0.0034859400418312805
+              },
+              "recall_at_16": {
+                "denominator": 4303,
+                "numerator": 15,
+                "rate": 0.0034859400418312805
+              },
+              "recall_at_4": {
+                "denominator": 4303,
+                "numerator": 15,
+                "rate": 0.0034859400418312805
+              },
+              "recall_at_64": {
+                "denominator": 4303,
+                "numerator": 15,
+                "rate": 0.0034859400418312805
+              }
+            },
+            "one_step": {
+              "recall_at_1": {
+                "denominator": 54,
+                "numerator": 13,
+                "rate": 0.24074074074074073
+              },
+              "recall_at_128": {
+                "denominator": 54,
+                "numerator": 15,
+                "rate": 0.2777777777777778
+              },
+              "recall_at_16": {
+                "denominator": 54,
+                "numerator": 15,
+                "rate": 0.2777777777777778
+              },
+              "recall_at_4": {
+                "denominator": 54,
+                "numerator": 14,
+                "rate": 0.25925925925925924
+              },
+              "recall_at_64": {
+                "denominator": 54,
+                "numerator": 15,
+                "rate": 0.2777777777777778
+              }
+            }
+          },
+          "object_slice": {
+            "multi_object": {
+              "recall_at_1": {
+                "denominator": 4034,
+                "numerator": 11,
+                "rate": 0.002726822012890431
+              },
+              "recall_at_128": {
+                "denominator": 4034,
+                "numerator": 17,
+                "rate": 0.00421417947446703
+              },
+              "recall_at_16": {
+                "denominator": 4034,
+                "numerator": 17,
+                "rate": 0.00421417947446703
+              },
+              "recall_at_4": {
+                "denominator": 4034,
+                "numerator": 16,
+                "rate": 0.0039662865642042635
+              },
+              "recall_at_64": {
+                "denominator": 4034,
+                "numerator": 17,
+                "rate": 0.00421417947446703
+              }
+            },
+            "one_object": {
+              "recall_at_1": {
+                "denominator": 323,
+                "numerator": 11,
+                "rate": 0.034055727554179564
+              },
+              "recall_at_128": {
+                "denominator": 323,
+                "numerator": 13,
+                "rate": 0.04024767801857585
+              },
+              "recall_at_16": {
+                "denominator": 323,
+                "numerator": 13,
+                "rate": 0.04024767801857585
+              },
+              "recall_at_4": {
+                "denominator": 323,
+                "numerator": 13,
+                "rate": 0.04024767801857585
+              },
+              "recall_at_64": {
+                "denominator": 323,
+                "numerator": 13,
+                "rate": 0.04024767801857585
+              }
+            }
+          },
+          "same_shape": {
+            "changed_shape": {
+              "recall_at_1": {
+                "denominator": 1477,
+                "numerator": 0,
+                "rate": 0.0
+              },
+              "recall_at_128": {
+                "denominator": 1477,
+                "numerator": 0,
+                "rate": 0.0
+              },
+              "recall_at_16": {
+                "denominator": 1477,
+                "numerator": 0,
+                "rate": 0.0
+              },
+              "recall_at_4": {
+                "denominator": 1477,
+                "numerator": 0,
+                "rate": 0.0
+              },
+              "recall_at_64": {
+                "denominator": 1477,
+                "numerator": 0,
+                "rate": 0.0
+              }
+            },
+            "same_shape": {
+              "recall_at_1": {
+                "denominator": 2880,
+                "numerator": 22,
+                "rate": 0.007638888888888889
+              },
+              "recall_at_128": {
+                "denominator": 2880,
+                "numerator": 30,
+                "rate": 0.010416666666666666
+              },
+              "recall_at_16": {
+                "denominator": 2880,
+                "numerator": 30,
+                "rate": 0.010416666666666666
+              },
+              "recall_at_4": {
+                "denominator": 2880,
+                "numerator": 29,
+                "rate": 0.010069444444444445
+              },
+              "recall_at_64": {
+                "denominator": 2880,
+                "numerator": 30,
+                "rate": 0.010416666666666666
+              }
+            }
+          }
+        }
+      },
+      "E_identity_only_baseline": {
+        "accepted_fold_count": 4357,
+        "candidate_count_distribution": {
+          "count": 4357,
+          "histogram": {
+            "1": 4357
+          },
+          "mean": 1.0,
+          "median": 1
+        },
+        "fold_count": 4357,
+        "recall": {
+          "recall_at_1": {
+            "denominator": 4357,
+            "numerator": 14,
+            "rate": 0.003213220105577232
+          },
+          "recall_at_128": {
+            "denominator": 4357,
+            "numerator": 14,
+            "rate": 0.003213220105577232
+          },
+          "recall_at_16": {
+            "denominator": 4357,
+            "numerator": 14,
+            "rate": 0.003213220105577232
+          },
+          "recall_at_4": {
+            "denominator": 4357,
+            "numerator": 14,
+            "rate": 0.003213220105577232
+          },
+          "recall_at_64": {
+            "denominator": 4357,
+            "numerator": 14,
+            "rate": 0.003213220105577232
+          }
+        },
+        "recall_splits": {
+          "change_signature": {
+            "multi_change": {
+              "recall_at_1": {
+                "denominator": 4303,
+                "numerator": 0,
+                "rate": 0.0
+              },
+              "recall_at_128": {
+                "denominator": 4303,
+                "numerator": 0,
+                "rate": 0.0
+              },
+              "recall_at_16": {
+                "denominator": 4303,
+                "numerator": 0,
+                "rate": 0.0
+              },
+              "recall_at_4": {
+                "denominator": 4303,
+                "numerator": 0,
+                "rate": 0.0
+              },
+              "recall_at_64": {
+                "denominator": 4303,
+                "numerator": 0,
+                "rate": 0.0
+              }
+            },
+            "one_step": {
+              "recall_at_1": {
+                "denominator": 54,
+                "numerator": 14,
+                "rate": 0.25925925925925924
+              },
+              "recall_at_128": {
+                "denominator": 54,
+                "numerator": 14,
+                "rate": 0.25925925925925924
+              },
+              "recall_at_16": {
+                "denominator": 54,
+                "numerator": 14,
+                "rate": 0.25925925925925924
+              },
+              "recall_at_4": {
+                "denominator": 54,
+                "numerator": 14,
+                "rate": 0.25925925925925924
+              },
+              "recall_at_64": {
+                "denominator": 54,
+                "numerator": 14,
+                "rate": 0.25925925925925924
+              }
+            }
+          },
+          "object_slice": {
+            "multi_object": {
+              "recall_at_1": {
+                "denominator": 4034,
+                "numerator": 9,
+                "rate": 0.0022310361923648984
+              },
+              "recall_at_128": {
+                "denominator": 4034,
+                "numerator": 9,
+                "rate": 0.0022310361923648984
+              },
+              "recall_at_16": {
+                "denominator": 4034,
+                "numerator": 9,
+                "rate": 0.0022310361923648984
+              },
+              "recall_at_4": {
+                "denominator": 4034,
+                "numerator": 9,
+                "rate": 0.0022310361923648984
+              },
+              "recall_at_64": {
+                "denominator": 4034,
+                "numerator": 9,
+                "rate": 0.0022310361923648984
+              }
+            },
+            "one_object": {
+              "recall_at_1": {
+                "denominator": 323,
+                "numerator": 5,
+                "rate": 0.015479876160990712
+              },
+              "recall_at_128": {
+                "denominator": 323,
+                "numerator": 5,
+                "rate": 0.015479876160990712
+              },
+              "recall_at_16": {
+                "denominator": 323,
+                "numerator": 5,
+                "rate": 0.015479876160990712
+              },
+              "recall_at_4": {
+                "denominator": 323,
+                "numerator": 5,
+                "rate": 0.015479876160990712
+              },
+              "recall_at_64": {
+                "denominator": 323,
+                "numerator": 5,
+                "rate": 0.015479876160990712
+              }
+            }
+          },
+          "same_shape": {
+            "changed_shape": {
+              "recall_at_1": {
+                "denominator": 1477,
+                "numerator": 0,
+                "rate": 0.0
+              },
+              "recall_at_128": {
+                "denominator": 1477,
+                "numerator": 0,
+                "rate": 0.0
+              },
+              "recall_at_16": {
+                "denominator": 1477,
+                "numerator": 0,
+                "rate": 0.0
+              },
+              "recall_at_4": {
+                "denominator": 1477,
+                "numerator": 0,
+                "rate": 0.0
+              },
+              "recall_at_64": {
+                "denominator": 1477,
+                "numerator": 0,
+                "rate": 0.0
+              }
+            },
+            "same_shape": {
+              "recall_at_1": {
+                "denominator": 2880,
+                "numerator": 14,
+                "rate": 0.004861111111111111
+              },
+              "recall_at_128": {
+                "denominator": 2880,
+                "numerator": 14,
+                "rate": 0.004861111111111111
+              },
+              "recall_at_16": {
+                "denominator": 2880,
+                "numerator": 14,
+                "rate": 0.004861111111111111
+              },
+              "recall_at_4": {
+                "denominator": 2880,
+                "numerator": 14,
+                "rate": 0.004861111111111111
+              },
+              "recall_at_64": {
+                "denominator": 2880,
+                "numerator": 14,
+                "rate": 0.004861111111111111
+              }
+            }
+          }
+        }
+      }
+    },
+    "primary_ablation": "A_full_depth2_structural_machine"
+  },
+  "arc_input_acceptance_report": {
+    "audit_version": "R5A3A_ARC_NATIVE_STRUCTURAL_CANDIDATE_MACHINE_V0",
+    "candidate_emission_rate": {
+      "denominator": 4357,
+      "numerator": 4357,
+      "rate": 1.0
+    },
+    "fold_acceptance_rate": {
+      "denominator": 4357,
+      "numerator": 4357,
+      "rate": 1.0
+    },
+    "raw_grid_fidelity": {
+      "failed_count": 0,
+      "passed_count": 4357
+    },
+    "task_input_acceptance_rate": {
+      "denominator": 4357,
+      "numerator": 4357,
+      "rate": 1.0
+    },
+    "unique_candidate_count_distribution": {
+      "count": 4357,
+      "histogram": {
+        "2": 21,
+        "3": 14,
+        "4": 97,
+        "5": 321,
+        "6": 436,
+        "7": 2063,
+        "8": 1405
+      },
+      "mean": 6.971310534771632,
+      "median": 7
+    }
+  },
+  "audit_version": "R5A3A_ARC_NATIVE_STRUCTURAL_CANDIDATE_MACHINE_V0",
+  "candidate_breakdown_report": {
+    "audit_version": "R5A3A_ARC_NATIVE_STRUCTURAL_CANDIDATE_MACHINE_V0",
+    "operator_breakdown_top32_per_fold": {
+      "all_objects": 30374,
+      "copy:(-1, -1)": 58,
+      "copy:(-1, -10)": 4,
+      "copy:(-1, -12)": 2,
+      "copy:(-1, -13)": 2,
+      "copy:(-1, -15)": 2,
+      "copy:(-1, -2)": 11,
+      "copy:(-1, -23)": 1,
+      "copy:(-1, -3)": 5,
+      "copy:(-1, -4)": 10,
+      "copy:(-1, -5)": 1,
+      "copy:(-1, -6)": 3,
+      "copy:(-1, -7)": 9,
+      "copy:(-1, -8)": 5,
+      "copy:(-1, -9)": 7,
+      "copy:(-1, 0)": 47,
+      "copy:(-1, 1)": 31,
+      "copy:(-1, 12)": 3,
+      "copy:(-1, 14)": 1,
+      "copy:(-1, 2)": 8,
+      "copy:(-1, 3)": 1,
+      "copy:(-1, 4)": 3,
+      "copy:(-1, 5)": 1,
+      "copy:(-1, 6)": 2,
+      "copy:(-10, -1)": 4,
+      "copy:(-10, -10)": 1,
+      "copy:(-10, -11)": 8,
+      "copy:(-10, 0)": 21,
+      "copy:(-10, 1)": 1,
+      "copy:(-10, 10)": 1,
+      "copy:(-10, 3)": 2,
+      "copy:(-10, 4)": 2,
+      "copy:(-11, -2)": 1,
+      "copy:(-11, -5)": 2,
+      "copy:(-11, -9)": 2,
+      "copy:(-11, 0)": 6,
+      "copy:(-11, 5)": 1,
+      "copy:(-12, -1)": 6,
+      "copy:(-12, -12)": 8,
+      "copy:(-12, -13)": 1,
+      "copy:(-12, -14)": 1,
+      "copy:(-12, -16)": 4,
+      "copy:(-12, -19)": 1,
+      "copy:(-12, -3)": 6,
+      "copy:(-12, -6)": 1,
+      "copy:(-12, 0)": 5,
+      "copy:(-12, 6)": 4,
+      "copy:(-13, -1)": 2,
+      "copy:(-13, -13)": 1,
+      "copy:(-13, -4)": 3,
+      "copy:(-13, -7)": 4,
+      "copy:(-13, 0)": 5,
+      "copy:(-13, 14)": 1,
+      "copy:(-14, -14)": 2,
+      "copy:(-14, -15)": 2,
+      "copy:(-14, -17)": 2,
+      "copy:(-14, -9)": 2,
+      "copy:(-15, -14)": 1,
+      "copy:(-15, -9)": 2,
+      "copy:(-15, 5)": 1,
+      "copy:(-16, -14)": 2,
+      "copy:(-16, -5)": 1,
+      "copy:(-17, -10)": 2,
+      "copy:(-17, -16)": 2,
+      "copy:(-17, -22)": 2,
+      "copy:(-17, -3)": 1,
+      "copy:(-18, -7)": 3,
+      "copy:(-18, 1)": 2,
+      "copy:(-18, 6)": 1,
+      "copy:(-19, 5)": 2,
+      "copy:(-2, -1)": 37,
+      "copy:(-2, -11)": 1,
+      "copy:(-2, -13)": 4,
+      "copy:(-2, -15)": 1,
+      "copy:(-2, -2)": 41,
+      "copy:(-2, -3)": 13,
+      "copy:(-2, -4)": 2,
+      "copy:(-2, -5)": 1,
+      "copy:(-2, -6)": 5,
+      "copy:(-2, -7)": 6,
+      "copy:(-2, 0)": 19,
+      "copy:(-2, 1)": 5,
+      "copy:(-2, 11)": 1,
+      "copy:(-2, 2)": 11,
+      "copy:(-2, 4)": 2,
+      "copy:(-2, 5)": 5,
+      "copy:(-20, 1)": 4,
+      "copy:(-23, -2)": 2,
+      "copy:(-23, -25)": 1,
+      "copy:(-25, -14)": 2,
+      "copy:(-3, -1)": 3,
+      "copy:(-3, -10)": 5,
+      "copy:(-3, -15)": 5,
+      "copy:(-3, -17)": 1,
+      "copy:(-3, -19)": 1,
+      "copy:(-3, -2)": 8,
+      "copy:(-3, -3)": 9,
+      "copy:(-3, -4)": 10,
+      "copy:(-3, -5)": 4,
+      "copy:(-3, -6)": 1,
+      "copy:(-3, -8)": 3,
+      "copy:(-3, -9)": 6,
+      "copy:(-3, 0)": 22,
+      "copy:(-3, 1)": 2,
+      "copy:(-3, 11)": 2,
+      "copy:(-3, 12)": 1,
+      "copy:(-3, 16)": 1,
+      "copy:(-3, 2)": 2,
+      "copy:(-3, 3)": 7,
+      "copy:(-3, 4)": 1,
+      "copy:(-3, 7)": 2,
+      "copy:(-4, -1)": 9,
+      "copy:(-4, -12)": 2,
+      "copy:(-4, -15)": 1,
+      "copy:(-4, -2)": 11,
+      "copy:(-4, -3)": 6,
+      "copy:(-4, -4)": 28,
+      "copy:(-4, -5)": 7,
+      "copy:(-4, -6)": 3,
+      "copy:(-4, -8)": 1,
+      "copy:(-4, -9)": 5,
+      "copy:(-4, 0)": 31,
+      "copy:(-4, 1)": 1,
+      "copy:(-4, 11)": 1,
+      "copy:(-4, 2)": 2,
+      "copy:(-4, 3)": 1,
+      "copy:(-4, 4)": 10,
+      "copy:(-4, 5)": 2,
+      "copy:(-4, 7)": 4,
+      "copy:(-4, 8)": 4,
+      "copy:(-5, -1)": 7,
+      "copy:(-5, -10)": 4,
+      "copy:(-5, -12)": 2,
+      "copy:(-5, -14)": 1,
+      "copy:(-5, -15)": 1,
+      "copy:(-5, -17)": 1,
+      "copy:(-5, -2)": 2,
+      "copy:(-5, -20)": 1,
+      "copy:(-5, -4)": 3,
+      "copy:(-5, -5)": 3,
+      "copy:(-5, -6)": 7,
+      "copy:(-5, -8)": 1,
+      "copy:(-5, -9)": 2,
+      "copy:(-5, 0)": 40,
+      "copy:(-5, 2)": 5,
+      "copy:(-5, 3)": 2,
+      "copy:(-5, 6)": 2,
+      "copy:(-6, -12)": 1,
+      "copy:(-6, -18)": 2,
+      "copy:(-6, -2)": 8,
+      "copy:(-6, -3)": 5,
+      "copy:(-6, -4)": 2,
+      "copy:(-6, -5)": 1,
+      "copy:(-6, -6)": 4,
+      "copy:(-6, -7)": 3,
+      "copy:(-6, -8)": 1,
+      "copy:(-6, 0)": 51,
+      "copy:(-6, 1)": 1,
+      "copy:(-6, 3)": 1,
+      "copy:(-6, 4)": 5,
+      "copy:(-6, 5)": 2,
+      "copy:(-6, 6)": 1,
+      "copy:(-7, -12)": 2,
+      "copy:(-7, -13)": 1,
+      "copy:(-7, -26)": 1,
+      "copy:(-7, -3)": 5,
+      "copy:(-7, -7)": 1,
+      "copy:(-7, 0)": 5,
+      "copy:(-7, 1)": 3,
+      "copy:(-7, 15)": 2,
+      "copy:(-7, 2)": 3,
+      "copy:(-8, -11)": 1,
+      "copy:(-8, -19)": 1,
+      "copy:(-8, -2)": 2,
+      "copy:(-8, -22)": 1,
+      "copy:(-8, -3)": 1,
+      "copy:(-8, -4)": 5,
+      "copy:(-8, -5)": 3,
+      "copy:(-8, -6)": 2,
+      "copy:(-8, -8)": 4,
+      "copy:(-8, -9)": 3,
+      "copy:(-8, 0)": 8,
+      "copy:(-8, 1)": 2,
+      "copy:(-9, -1)": 2,
+      "copy:(-9, -17)": 2,
+      "copy:(-9, -18)": 1,
+      "copy:(-9, -23)": 2,
+      "copy:(-9, -3)": 4,
+      "copy:(-9, -5)": 2,
+      "copy:(-9, -8)": 3,
+      "copy:(-9, -9)": 2,
+      "copy:(-9, 0)": 5,
+      "copy:(-9, 1)": 1,
+      "copy:(0, -1)": 31,
+      "copy:(0, -10)": 11,
+      "copy:(0, -11)": 2,
+      "copy:(0, -13)": 4,
+      "copy:(0, -14)": 2,
+      "copy:(0, -15)": 3,
+      "copy:(0, -16)": 2,
+      "copy:(0, -17)": 1,
+      "copy:(0, -2)": 50,
+      "copy:(0, -26)": 1,
+      "copy:(0, -3)": 41,
+      "copy:(0, -4)": 22,
+      "copy:(0, -5)": 14,
+      "copy:(0, -6)": 27,
+      "copy:(0, -7)": 7,
+      "copy:(0, -8)": 7,
+      "copy:(0, -9)": 4,
+      "copy:(0, 1)": 42,
+      "copy:(0, 10)": 9,
+      "copy:(0, 11)": 6,
+      "copy:(0, 12)": 7,
+      "copy:(0, 14)": 5,
+      "copy:(0, 16)": 2,
+      "copy:(0, 18)": 5,
+      "copy:(0, 2)": 102,
+      "copy:(0, 3)": 88,
+      "copy:(0, 4)": 67,
+      "copy:(0, 5)": 54,
+      "copy:(0, 6)": 52,
+      "copy:(0, 7)": 5,
+      "copy:(0, 8)": 11,
+      "copy:(0, 9)": 9,
+      "copy:(1, -1)": 113,
+      "copy:(1, -11)": 1,
+      "copy:(1, -12)": 2,
+      "copy:(1, -2)": 7,
+      "copy:(1, -3)": 9,
+      "copy:(1, -4)": 5,
+      "copy:(1, -5)": 5,
+      "copy:(1, -6)": 2,
+      "copy:(1, -7)": 12,
+      "copy:(1, -8)": 2,
+      "copy:(1, 0)": 1362,
+      "copy:(1, 1)": 118,
+      "copy:(1, 10)": 1,
+      "copy:(1, 2)": 21,
+      "copy:(1, 3)": 12,
+      "copy:(1, 4)": 5,
+      "copy:(1, 6)": 8,
+      "copy:(1, 9)": 2,
+      "copy:(10, 12)": 4,
+      "copy:(10, 13)": 3,
+      "copy:(10, 14)": 1,
+      "copy:(10, 3)": 2,
+      "copy:(10, 9)": 1,
+      "copy:(11, 0)": 2,
+      "copy:(11, 10)": 3,
+      "copy:(11, 8)": 1,
+      "copy:(12, -1)": 2,
+      "copy:(12, -3)": 1,
+      "copy:(12, -9)": 2,
+      "copy:(12, 0)": 10,
+      "copy:(12, 12)": 2,
+      "copy:(12, 2)": 1,
+      "copy:(12, 3)": 2,
+      "copy:(13, -1)": 1,
+      "copy:(13, 0)": 3,
+      "copy:(13, 1)": 1,
+      "copy:(14, -3)": 1,
+      "copy:(14, -8)": 1,
+      "copy:(14, 0)": 1,
+      "copy:(15, -1)": 1,
+      "copy:(16, 0)": 4,
+      "copy:(19, -14)": 1,
+      "copy:(19, 0)": 4,
+      "copy:(2, -1)": 22,
+      "copy:(2, -11)": 1,
+      "copy:(2, -2)": 24,
+      "copy:(2, -3)": 15,
+      "copy:(2, -4)": 5,
+      "copy:(2, -5)": 1,
+      "copy:(2, -6)": 1,
+      "copy:(2, -7)": 1,
+      "copy:(2, -8)": 1,
+      "copy:(2, 0)": 99,
+      "copy:(2, 1)": 13,
+      "copy:(2, 10)": 1,
+      "copy:(2, 2)": 21,
+      "copy:(2, 3)": 5,
+      "copy:(2, 4)": 2,
+      "copy:(2, 5)": 7,
+      "copy:(2, 6)": 1,
+      "copy:(2, 7)": 2,
+      "copy:(2, 9)": 1,
+      "copy:(21, 14)": 1,
+      "copy:(23, 0)": 3,
+      "copy:(3, -1)": 18,
+      "copy:(3, -2)": 4,
+      "copy:(3, -3)": 9,
+      "copy:(3, -4)": 1,
+      "copy:(3, -5)": 4,
+      "copy:(3, -6)": 1,
+      "copy:(3, -7)": 2,
+      "copy:(3, 0)": 75,
+      "copy:(3, 1)": 11,
+      "copy:(3, 10)": 3,
+      "copy:(3, 2)": 12,
+      "copy:(3, 21)": 4,
+      "copy:(3, 3)": 18,
+      "copy:(3, 4)": 4,
+      "copy:(3, 5)": 10,
+      "copy:(3, 6)": 23,
+      "copy:(4, -1)": 4,
+      "copy:(4, -11)": 1,
+      "copy:(4, -2)": 8,
+      "copy:(4, -4)": 4,
+      "copy:(4, -5)": 2,
+      "copy:(4, -6)": 4,
+      "copy:(4, -7)": 1,
+      "copy:(4, -8)": 3,
+      "copy:(4, -9)": 1,
+      "copy:(4, 0)": 59,
+      "copy:(4, 1)": 2,
+      "copy:(4, 12)": 2,
+      "copy:(4, 2)": 2,
+      "copy:(4, 3)": 13,
+      "copy:(4, 4)": 24,
+      "copy:(4, 5)": 2,
+      "copy:(4, 6)": 6,
+      "copy:(4, 7)": 2,
+      "copy:(5, -10)": 4,
+      "copy:(5, -2)": 4,
+      "copy:(5, -3)": 1,
+      "copy:(5, -5)": 5,
+      "copy:(5, -6)": 2,
+      "copy:(5, -7)": 5,
+      "copy:(5, 0)": 35,
+      "copy:(5, 11)": 1,
+      "copy:(5, 12)": 1,
+      "copy:(5, 2)": 3,
+      "copy:(5, 4)": 5,
+      "copy:(5, 5)": 9,
+      "copy:(5, 6)": 4,
+      "copy:(5, 7)": 2,
+      "copy:(6, -15)": 4,
+      "copy:(6, -2)": 1,
+      "copy:(6, -3)": 5,
+      "copy:(6, -4)": 4,
+      "copy:(6, -6)": 10,
+      "copy:(6, -7)": 1,
+      "copy:(6, -8)": 1,
+      "copy:(6, 0)": 33,
+      "copy:(6, 1)": 6,
+      "copy:(6, 11)": 1,
+      "copy:(6, 2)": 4,
+      "copy:(6, 3)": 1,
+      "copy:(6, 5)": 2,
+      "copy:(6, 6)": 10,
+      "copy:(6, 7)": 1,
+      "copy:(6, 9)": 2,
+      "copy:(7, -1)": 2,
+      "copy:(7, -2)": 1,
+      "copy:(7, -4)": 1,
+      "copy:(7, -5)": 1,
+      "copy:(7, -7)": 2,
+      "copy:(7, -8)": 2,
+      "copy:(7, 0)": 7,
+      "copy:(7, 10)": 2,
+      "copy:(7, 11)": 2,
+      "copy:(7, 3)": 1,
+      "copy:(7, 4)": 2,
+      "copy:(7, 5)": 1,
+      "copy:(7, 6)": 5,
+      "copy:(7, 7)": 6,
+      "copy:(8, -3)": 2,
+      "copy:(8, -4)": 3,
+      "copy:(8, -6)": 2,
+      "copy:(8, -7)": 2,
+      "copy:(8, -8)": 2,
+      "copy:(8, 0)": 13,
+      "copy:(8, 1)": 3,
+      "copy:(8, 11)": 1,
+      "copy:(8, 4)": 2,
+      "copy:(8, 8)": 2,
+      "copy:(8, 9)": 1,
+      "copy:(9, -11)": 1,
+      "copy:(9, -3)": 2,
+      "copy:(9, -4)": 1,
+      "copy:(9, -6)": 4,
+      "copy:(9, -7)": 1,
+      "copy:(9, -9)": 2,
+      "copy:(9, 0)": 15,
+      "copy:(9, 1)": 4,
+      "copy:(9, 10)": 4,
+      "copy:(9, 12)": 1,
+      "copy:(9, 2)": 1,
+      "copy:(9, 3)": 1,
+      "copy:(9, 4)": 2,
+      "copy:(9, 8)": 1,
+      "copy:(9, 9)": 3,
+      "keep": 6031,
+      "recolor:0": 4,
+      "recolor:1": 4641,
+      "recolor:2": 2016,
+      "recolor:3": 709,
+      "recolor:4": 367,
+      "recolor:5": 203,
+      "recolor:6": 99,
+      "recolor:7": 96,
+      "recolor:8": 161,
+      "recolor:9": 14,
+      "reflect:horizontal": 3911,
+      "rotate:90": 4025,
+      "same_canvas": 28314,
+      "selected_bbox_canvas": 2060,
+      "translate:(-1, -1)": 114,
+      "translate:(-1, -10)": 10,
+      "translate:(-1, -12)": 4,
+      "translate:(-1, -13)": 4,
+      "translate:(-1, -15)": 4,
+      "translate:(-1, -2)": 21,
+      "translate:(-1, -23)": 2,
+      "translate:(-1, -3)": 10,
+      "translate:(-1, -4)": 20,
+      "translate:(-1, -5)": 2,
+      "translate:(-1, -6)": 6,
+      "translate:(-1, -7)": 18,
+      "translate:(-1, -8)": 12,
+      "translate:(-1, -9)": 14,
+      "translate:(-1, 0)": 94,
+      "translate:(-1, 1)": 62,
+      "translate:(-1, 12)": 9,
+      "translate:(-1, 14)": 2,
+      "translate:(-1, 2)": 14,
+      "translate:(-1, 3)": 2,
+      "translate:(-1, 4)": 6,
+      "translate:(-1, 5)": 2,
+      "translate:(-1, 6)": 4,
+      "translate:(-10, -1)": 8,
+      "translate:(-10, -10)": 2,
+      "translate:(-10, -11)": 14,
+      "translate:(-10, 0)": 34,
+      "translate:(-10, 1)": 3,
+      "translate:(-10, 10)": 1,
+      "translate:(-10, 3)": 4,
+      "translate:(-10, 4)": 3,
+      "translate:(-11, -2)": 2,
+      "translate:(-11, -5)": 4,
+      "translate:(-11, -9)": 4,
+      "translate:(-11, 0)": 12,
+      "translate:(-11, 13)": 2,
+      "translate:(-11, 5)": 2,
+      "translate:(-12, -1)": 12,
+      "translate:(-12, -12)": 16,
+      "translate:(-12, -13)": 2,
+      "translate:(-12, -14)": 1,
+      "translate:(-12, -16)": 5,
+      "translate:(-12, -19)": 2,
+      "translate:(-12, -3)": 12,
+      "translate:(-12, -6)": 2,
+      "translate:(-12, 0)": 10,
+      "translate:(-12, 6)": 8,
+      "translate:(-13, -1)": 4,
+      "translate:(-13, -13)": 2,
+      "translate:(-13, -4)": 6,
+      "translate:(-13, -7)": 8,
+      "translate:(-13, 0)": 7,
+      "translate:(-13, 14)": 3,
+      "translate:(-14, -14)": 4,
+      "translate:(-14, -15)": 2,
+      "translate:(-14, -17)": 4,
+      "translate:(-14, -9)": 4,
+      "translate:(-15, -14)": 2,
+      "translate:(-15, -9)": 4,
+      "translate:(-15, 5)": 2,
+      "translate:(-16, -14)": 4,
+      "translate:(-16, -5)": 2,
+      "translate:(-17, -10)": 4,
+      "translate:(-17, -16)": 2,
+      "translate:(-17, -22)": 4,
+      "translate:(-17, -3)": 2,
+      "translate:(-18, -7)": 3,
+      "translate:(-18, 1)": 4,
+      "translate:(-18, 6)": 1,
+      "translate:(-19, 5)": 3,
+      "translate:(-2, -1)": 72,
+      "translate:(-2, -11)": 2,
+      "translate:(-2, -13)": 8,
+      "translate:(-2, -15)": 2,
+      "translate:(-2, -2)": 80,
+      "translate:(-2, -3)": 23,
+      "translate:(-2, -4)": 4,
+      "translate:(-2, -5)": 2,
+      "translate:(-2, -6)": 10,
+      "translate:(-2, -7)": 6,
+      "translate:(-2, 0)": 38,
+      "translate:(-2, 1)": 10,
+      "translate:(-2, 11)": 2,
+      "translate:(-2, 2)": 20,
+      "translate:(-2, 4)": 4,
+      "translate:(-2, 5)": 6,
+      "translate:(-20, 1)": 8,
+      "translate:(-23, -2)": 3,
+      "translate:(-23, -25)": 2,
+      "translate:(-25, -14)": 4,
+      "translate:(-3, -1)": 6,
+      "translate:(-3, -10)": 10,
+      "translate:(-3, -15)": 10,
+      "translate:(-3, -17)": 2,
+      "translate:(-3, -19)": 2,
+      "translate:(-3, -2)": 14,
+      "translate:(-3, -3)": 16,
+      "translate:(-3, -4)": 20,
+      "translate:(-3, -5)": 8,
+      "translate:(-3, -6)": 2,
+      "translate:(-3, -8)": 4,
+      "translate:(-3, -9)": 12,
+      "translate:(-3, 0)": 43,
+      "translate:(-3, 1)": 4,
+      "translate:(-3, 11)": 8,
+      "translate:(-3, 12)": 2,
+      "translate:(-3, 16)": 2,
+      "translate:(-3, 2)": 3,
+      "translate:(-3, 3)": 14,
+      "translate:(-3, 4)": 2,
+      "translate:(-3, 7)": 2,
+      "translate:(-4, -1)": 16,
+      "translate:(-4, -12)": 4,
+      "translate:(-4, -15)": 2,
+      "translate:(-4, -2)": 22,
+      "translate:(-4, -3)": 12,
+      "translate:(-4, -4)": 54,
+      "translate:(-4, -5)": 14,
+      "translate:(-4, -6)": 6,
+      "translate:(-4, -8)": 2,
+      "translate:(-4, -9)": 10,
+      "translate:(-4, 0)": 59,
+      "translate:(-4, 1)": 2,
+      "translate:(-4, 11)": 2,
+      "translate:(-4, 2)": 4,
+      "translate:(-4, 3)": 2,
+      "translate:(-4, 4)": 21,
+      "translate:(-4, 5)": 4,
+      "translate:(-4, 7)": 8,
+      "translate:(-4, 8)": 8,
+      "translate:(-5, -1)": 14,
+      "translate:(-5, -10)": 8,
+      "translate:(-5, -12)": 4,
+      "translate:(-5, -14)": 2,
+      "translate:(-5, -15)": 2,
+      "translate:(-5, -17)": 2,
+      "translate:(-5, -2)": 4,
+      "translate:(-5, -20)": 2,
+      "translate:(-5, -4)": 6,
+      "translate:(-5, -5)": 6,
+      "translate:(-5, -6)": 14,
+      "translate:(-5, -8)": 2,
+      "translate:(-5, -9)": 4,
+      "translate:(-5, 0)": 79,
+      "translate:(-5, 11)": 1,
+      "translate:(-5, 2)": 8,
+      "translate:(-5, 3)": 4,
+      "translate:(-5, 6)": 4,
+      "translate:(-6, -12)": 3,
+      "translate:(-6, -18)": 4,
+      "translate:(-6, -2)": 16,
+      "translate:(-6, -3)": 9,
+      "translate:(-6, -4)": 4,
+      "translate:(-6, -5)": 2,
+      "translate:(-6, -6)": 8,
+      "translate:(-6, -7)": 5,
+      "translate:(-6, -8)": 2,
+      "translate:(-6, 0)": 105,
+      "translate:(-6, 1)": 2,
+      "translate:(-6, 3)": 2,
+      "translate:(-6, 4)": 10,
+      "translate:(-6, 5)": 4,
+      "translate:(-6, 6)": 1,
+      "translate:(-7, -12)": 4,
+      "translate:(-7, -13)": 2,
+      "translate:(-7, -26)": 1,
+      "translate:(-7, -3)": 10,
+      "translate:(-7, -7)": 2,
+      "translate:(-7, 0)": 11,
+      "translate:(-7, 1)": 6,
+      "translate:(-7, 15)": 4,
+      "translate:(-7, 2)": 6,
+      "translate:(-8, -11)": 2,
+      "translate:(-8, -19)": 2,
+      "translate:(-8, -2)": 4,
+      "translate:(-8, -22)": 2,
+      "translate:(-8, -3)": 2,
+      "translate:(-8, -4)": 9,
+      "translate:(-8, -5)": 6,
+      "translate:(-8, -6)": 4,
+      "translate:(-8, -8)": 4,
+      "translate:(-8, -9)": 6,
+      "translate:(-8, 0)": 13,
+      "translate:(-8, 1)": 3,
+      "translate:(-9, -1)": 6,
+      "translate:(-9, -17)": 4,
+      "translate:(-9, -18)": 2,
+      "translate:(-9, -23)": 4,
+      "translate:(-9, -3)": 8,
+      "translate:(-9, -5)": 4,
+      "translate:(-9, -8)": 6,
+      "translate:(-9, -9)": 4,
+      "translate:(-9, 0)": 9,
+      "translate:(-9, 1)": 2,
+      "translate:(-9, 2)": 1,
+      "translate:(0, -1)": 62,
+      "translate:(0, -10)": 20,
+      "translate:(0, -11)": 4,
+      "translate:(0, -13)": 8,
+      "translate:(0, -14)": 4,
+      "translate:(0, -15)": 4,
+      "translate:(0, -16)": 4,
+      "translate:(0, -17)": 2,
+      "translate:(0, -2)": 100,
+      "translate:(0, -26)": 2,
+      "translate:(0, -3)": 82,
+      "translate:(0, -4)": 44,
+      "translate:(0, -5)": 28,
+      "translate:(0, -6)": 48,
+      "translate:(0, -7)": 10,
+      "translate:(0, -8)": 13,
+      "translate:(0, -9)": 9,
+      "translate:(0, 1)": 78,
+      "translate:(0, 10)": 14,
+      "translate:(0, 11)": 11,
+      "translate:(0, 12)": 12,
+      "translate:(0, 14)": 5,
+      "translate:(0, 16)": 4,
+      "translate:(0, 18)": 6,
+      "translate:(0, 2)": 188,
+      "translate:(0, 3)": 151,
+      "translate:(0, 4)": 115,
+      "translate:(0, 5)": 95,
+      "translate:(0, 6)": 97,
+      "translate:(0, 7)": 11,
+      "translate:(0, 8)": 20,
+      "translate:(0, 9)": 19,
+      "translate:(1, -1)": 226,
+      "translate:(1, -11)": 2,
+      "translate:(1, -12)": 2,
+      "translate:(1, -2)": 12,
+      "translate:(1, -3)": 18,
+      "translate:(1, -4)": 10,
+      "translate:(1, -5)": 10,
+      "translate:(1, -6)": 6,
+      "translate:(1, -7)": 24,
+      "translate:(1, -8)": 4,
+      "translate:(1, 0)": 2598,
+      "translate:(1, 1)": 219,
+      "translate:(1, 10)": 2,
+      "translate:(1, 2)": 41,
+      "translate:(1, 3)": 24,
+      "translate:(1, 4)": 10,
+      "translate:(1, 6)": 16,
+      "translate:(1, 9)": 4,
+      "translate:(10, 12)": 5,
+      "translate:(10, 13)": 6,
+      "translate:(10, 14)": 2,
+      "translate:(10, 3)": 5,
+      "translate:(10, 9)": 2,
+      "translate:(11, 0)": 2,
+      "translate:(11, 10)": 6,
+      "translate:(11, 6)": 2,
+      "translate:(11, 8)": 2,
+      "translate:(12, -1)": 2,
+      "translate:(12, -3)": 2,
+      "translate:(12, -9)": 4,
+      "translate:(12, 0)": 19,
+      "translate:(12, 12)": 2,
+      "translate:(12, 2)": 2,
+      "translate:(12, 3)": 4,
+      "translate:(13, -1)": 2,
+      "translate:(13, 0)": 6,
+      "translate:(13, 1)": 2,
+      "translate:(14, -3)": 2,
+      "translate:(14, -8)": 2,
+      "translate:(14, 0)": 2,
+      "translate:(15, -1)": 2,
+      "translate:(16, 0)": 4,
+      "translate:(19, -14)": 2,
+      "translate:(19, 0)": 7,
+      "translate:(2, -1)": 38,
+      "translate:(2, -11)": 2,
+      "translate:(2, -2)": 41,
+      "translate:(2, -3)": 30,
+      "translate:(2, -4)": 9,
+      "translate:(2, -5)": 2,
+      "translate:(2, -6)": 2,
+      "translate:(2, -7)": 2,
+      "translate:(2, -8)": 2,
+      "translate:(2, -9)": 1,
+      "translate:(2, 0)": 190,
+      "translate:(2, 1)": 26,
+      "translate:(2, 10)": 2,
+      "translate:(2, 2)": 40,
+      "translate:(2, 3)": 9,
+      "translate:(2, 4)": 4,
+      "translate:(2, 5)": 14,
+      "translate:(2, 6)": 1,
+      "translate:(2, 7)": 4,
+      "translate:(2, 9)": 2,
+      "translate:(21, 14)": 2,
+      "translate:(23, 0)": 6,
+      "translate:(3, -1)": 35,
+      "translate:(3, -2)": 8,
+      "translate:(3, -3)": 21,
+      "translate:(3, -4)": 2,
+      "translate:(3, -5)": 8,
+      "translate:(3, -6)": 2,
+      "translate:(3, -7)": 7,
+      "translate:(3, 0)": 137,
+      "translate:(3, 1)": 22,
+      "translate:(3, 10)": 6,
+      "translate:(3, 2)": 23,
+      "translate:(3, 21)": 8,
+      "translate:(3, 3)": 31,
+      "translate:(3, 4)": 7,
+      "translate:(3, 5)": 14,
+      "translate:(3, 6)": 30,
+      "translate:(4, -1)": 7,
+      "translate:(4, -11)": 2,
+      "translate:(4, -2)": 16,
+      "translate:(4, -4)": 8,
+      "translate:(4, -5)": 3,
+      "translate:(4, -6)": 7,
+      "translate:(4, -7)": 2,
+      "translate:(4, -8)": 6,
+      "translate:(4, -9)": 2,
+      "translate:(4, 0)": 112,
+      "translate:(4, 1)": 4,
+      "translate:(4, 12)": 4,
+      "translate:(4, 2)": 6,
+      "translate:(4, 3)": 18,
+      "translate:(4, 4)": 32,
+      "translate:(4, 5)": 3,
+      "translate:(4, 6)": 10,
+      "translate:(4, 7)": 4,
+      "translate:(5, -10)": 8,
+      "translate:(5, -2)": 6,
+      "translate:(5, -3)": 2,
+      "translate:(5, -5)": 9,
+      "translate:(5, -6)": 2,
+      "translate:(5, -7)": 9,
+      "translate:(5, 0)": 58,
+      "translate:(5, 11)": 2,
+      "translate:(5, 12)": 2,
+      "translate:(5, 2)": 5,
+      "translate:(5, 4)": 10,
+      "translate:(5, 5)": 15,
+      "translate:(5, 6)": 8,
+      "translate:(5, 7)": 2,
+      "translate:(6, -15)": 6,
+      "translate:(6, -2)": 2,
+      "translate:(6, -3)": 9,
+      "translate:(6, -4)": 7,
+      "translate:(6, -6)": 20,
+      "translate:(6, -7)": 2,
+      "translate:(6, -8)": 2,
+      "translate:(6, 0)": 53,
+      "translate:(6, 1)": 11,
+      "translate:(6, 11)": 2,
+      "translate:(6, 2)": 8,
+      "translate:(6, 3)": 2,
+      "translate:(6, 5)": 4,
+      "translate:(6, 6)": 11,
+      "translate:(6, 7)": 2,
+      "translate:(6, 9)": 3,
+      "translate:(7, -1)": 2,
+      "translate:(7, -2)": 2,
+      "translate:(7, -4)": 2,
+      "translate:(7, -5)": 1,
+      "translate:(7, -7)": 4,
+      "translate:(7, -8)": 6,
+      "translate:(7, 0)": 13,
+      "translate:(7, 1)": 1,
+      "translate:(7, 10)": 2,
+      "translate:(7, 11)": 4,
+      "translate:(7, 3)": 2,
+      "translate:(7, 4)": 4,
+      "translate:(7, 5)": 2,
+      "translate:(7, 6)": 10,
+      "translate:(7, 7)": 8,
+      "translate:(8, -3)": 4,
+      "translate:(8, -4)": 6,
+      "translate:(8, -6)": 2,
+      "translate:(8, -7)": 2,
+      "translate:(8, -8)": 4,
+      "translate:(8, 0)": 23,
+      "translate:(8, 1)": 6,
+      "translate:(8, 11)": 2,
+      "translate:(8, 4)": 4,
+      "translate:(8, 8)": 4,
+      "translate:(8, 9)": 2,
+      "translate:(9, -10)": 2,
+      "translate:(9, -11)": 2,
+      "translate:(9, -3)": 4,
+      "translate:(9, -4)": 2,
+      "translate:(9, -6)": 16,
+      "translate:(9, -7)": 4,
+      "translate:(9, -9)": 4,
+      "translate:(9, 0)": 25,
+      "translate:(9, 1)": 8,
+      "translate:(9, 10)": 6,
+      "translate:(9, 12)": 1,
+      "translate:(9, 2)": 2,
+      "translate:(9, 3)": 2,
+      "translate:(9, 4)": 4,
+      "translate:(9, 8)": 1,
+      "translate:(9, 9)": 4
+    },
+    "program_depth_breakdown_top128_per_fold": {
+      "1": 26155,
+      "2": 4219
+    }
+  },
+  "created_utc": "2026-06-30T15:33:06Z",
+  "depth2_contributes_recall_beyond_depth1": false,
+  "depth_ablation_report": {
+    "audit_version": "R5A3A_ARC_NATIVE_STRUCTURAL_CANDIDATE_MACHINE_V0",
+    "delta_recall_depth2_minus_depth1": {
+      "recall_at_1": 0.0,
+      "recall_at_128": 0.0,
+      "recall_at_16": 0.0,
+      "recall_at_4": 0.0,
+      "recall_at_64": 0.0
+    },
+    "delta_recall_depth2_minus_depth1_on_multi_change_slice": {
+      "recall_at_1": 0.0,
+      "recall_at_128": 0.0,
+      "recall_at_16": 0.0,
+      "recall_at_4": 0.0,
+      "recall_at_64": 0.0
+    },
+    "interpretation_rule_triggered": true
+  },
+  "integrity_verification": {
+    "audit_version": "R5A3A_ARC_NATIVE_STRUCTURAL_CANDIDATE_MACHINE_V0",
+    "hidden_target_used_before_scoring": false,
+    "no_task_id_used_as_candidate_runtime_input": true,
+    "parameter_free": {
+      "forbidden_terms_found": [],
+      "passed": true,
+      "scan_excludes_strings_and_comments": true
+    },
+    "protected_hashes_after": {
+      "/mnt/d/VRM/artifacts/r5a2d_r1_frozen_library_coverage/final_report.json": "b03106c4a3eafd947883849a1c344998512ce8a479395c0abbc54b5ee89b994f",
+      "/mnt/d/VRM/artifacts/r5a2d_r2_candidate_recall/final_report.json": "f5c5d9874fe2cf3279b008914468c0325f743ac5fa88adca447a631618a233b3",
+      "/mnt/d/VRM/vrm/twin_tasks/compiled_topology_r5a2c_r2_checker.py": "60e603bd9ead19b929a6b3ff3a8cccaefac0bfa4417c88560c812d200a24ed80",
+      "/mnt/d/VRM/vrm/twin_tasks/compiled_topology_r5a2c_r2_data.py": "251e620ffca8e4ea9f9c6d2534aaeaded1cade5ccf2e5274ee3a95182dd68998",
+      "/mnt/d/VRM/vrm/twin_tasks/compiled_topology_r5a2c_r2_executor.py": "fe1f9b2d4468d9567732117ef0dd02e1701ebc8ba91a4f34f0cc858f4bc9ffc2",
+      "/mnt/d/VRM/vrm/twin_tasks/r5a2d_r1_coverage_audit.py": "2be6ab25867888b7a119c6f4085bafa7efd3cde03dd155444f16e74e21050521",
+      "/mnt/d/VRM/vrm/twin_tasks/r5a2d_r2_candidate_recall_audit.py": "d5bcdaa0022e012896772bb6fd67df608e2c08fc09e09aa19125677df5eeb209",
+      "/mnt/d/VRM/vrm/twin_tasks/transport_recolor_r5a0v2_data.py": "8ba05be9b30f10eeaf17ec368a5b6482f28e769e8f81098a082cd581e8488279",
+      "/mnt/d/VRM/vrm/twin_tasks/transport_recolor_r5a0v2_model.py": "1ba3582f80fbf59b3eab142dde4d651e92e761ccb4c907835a421b1e13bc473e",
+      "/mnt/d/VRM/vrm/twin_tasks/transport_recolor_r5a0v2_oracles.py": "2e427a417e31e88ba6106a23d42e964989508d003677bc6a400c0a7730293de4"
+    },
+    "protected_hashes_before": {
+      "/mnt/d/VRM/artifacts/r5a2d_r1_frozen_library_coverage/final_report.json": "b03106c4a3eafd947883849a1c344998512ce8a479395c0abbc54b5ee89b994f",
+      "/mnt/d/VRM/artifacts/r5a2d_r2_candidate_recall/final_report.json": "f5c5d9874fe2cf3279b008914468c0325f743ac5fa88adca447a631618a233b3",
+      "/mnt/d/VRM/vrm/twin_tasks/compiled_topology_r5a2c_r2_checker.py": "60e603bd9ead19b929a6b3ff3a8cccaefac0bfa4417c88560c812d200a24ed80",
+      "/mnt/d/VRM/vrm/twin_tasks/compiled_topology_r5a2c_r2_data.py": "251e620ffca8e4ea9f9c6d2534aaeaded1cade5ccf2e5274ee3a95182dd68998",
+      "/mnt/d/VRM/vrm/twin_tasks/compiled_topology_r5a2c_r2_executor.py": "fe1f9b2d4468d9567732117ef0dd02e1701ebc8ba91a4f34f0cc858f4bc9ffc2",
+      "/mnt/d/VRM/vrm/twin_tasks/r5a2d_r1_coverage_audit.py": "2be6ab25867888b7a119c6f4085bafa7efd3cde03dd155444f16e74e21050521",
+      "/mnt/d/VRM/vrm/twin_tasks/r5a2d_r2_candidate_recall_audit.py": "d5bcdaa0022e012896772bb6fd67df608e2c08fc09e09aa19125677df5eeb209",
+      "/mnt/d/VRM/vrm/twin_tasks/transport_recolor_r5a0v2_data.py": "8ba05be9b30f10eeaf17ec368a5b6482f28e769e8f81098a082cd581e8488279",
+      "/mnt/d/VRM/vrm/twin_tasks/transport_recolor_r5a0v2_model.py": "1ba3582f80fbf59b3eab142dde4d651e92e761ccb4c907835a421b1e13bc473e",
+      "/mnt/d/VRM/vrm/twin_tasks/transport_recolor_r5a0v2_oracles.py": "2e427a417e31e88ba6106a23d42e964989508d003677bc6a400c0a7730293de4"
+    },
+    "protected_hashes_unchanged": true,
+    "query_test_outputs_used": false,
+    "raw_cell_level_fidelity_maintained": true,
+    "two_identical_runs_stable_hashes": {
+      "differing_files": [],
+      "matching": true,
+      "run1": {
+        "arc_candidate_ledger.json": "382d00ac2781a37c35fbdbaeb845935982bd2fefb78509af6002297ba0c8afea",
+        "arc_candidate_recall_metrics.json": "821168a41dc7734f021d58f5714cabf408bf6e2467b56cbff157da4e440f3d2f",
+        "arc_input_acceptance_report.json": "887087f3580ccb4809f6ba39323933466145b5f1d520167f80d7d83cbd91c89a",
+        "candidate_breakdown_report.json": "a5a465f3089b314b9aebdbdb9b0d9de12ad20d8d9de7513e6db3ee2a93f020bd",
+        "candidate_surface_spec.json": "46a1b5aeecfd2e7a637364bfc19115024d35e313ee57b61c71bbb9817766e372",
+        "depth_ablation_report.json": "0e0e5a3a827ce61bdbe9ea1742d948a91be2eb5c060b7b58eab772f6c14d602a",
+        "final_report.json": "11b0897d113741363e6516d77e4d185542b2bea30dd08a95bb8056acfbe79b64",
+        "integrity_verification.json": "97be8531d7506180c699c424ee41a1f304afe02616a14b9d839d1816d9a34e78",
+        "mechanism_preflight_report.json": "0a3166d5420cbe5a2c8d2ae28099645901c8694ff1a2321534ef263e1fa23bc7",
+        "pre_arc_audit_commitment.json": "28e5e54706174a44e23e5d7e24368759e1d584515048564e8f0620ca1ae15ac7",
+        "property_test_report.json": "fd8035e4ced42428671478f5aa400a37dc1aa5c569dcb0189b1d7faf9d0fb30f"
+      },
+      "run2": {
+        "arc_candidate_ledger.json": "382d00ac2781a37c35fbdbaeb845935982bd2fefb78509af6002297ba0c8afea",
+        "arc_candidate_recall_metrics.json": "821168a41dc7734f021d58f5714cabf408bf6e2467b56cbff157da4e440f3d2f",
+        "arc_input_acceptance_report.json": "887087f3580ccb4809f6ba39323933466145b5f1d520167f80d7d83cbd91c89a",
+        "candidate_breakdown_report.json": "a5a465f3089b314b9aebdbdb9b0d9de12ad20d8d9de7513e6db3ee2a93f020bd",
+        "candidate_surface_spec.json": "46a1b5aeecfd2e7a637364bfc19115024d35e313ee57b61c71bbb9817766e372",
+        "depth_ablation_report.json": "0e0e5a3a827ce61bdbe9ea1742d948a91be2eb5c060b7b58eab772f6c14d602a",
+        "final_report.json": "11b0897d113741363e6516d77e4d185542b2bea30dd08a95bb8056acfbe79b64",
+        "integrity_verification.json": "97be8531d7506180c699c424ee41a1f304afe02616a14b9d839d1816d9a34e78",
+        "mechanism_preflight_report.json": "0a3166d5420cbe5a2c8d2ae28099645901c8694ff1a2321534ef263e1fa23bc7",
+        "pre_arc_audit_commitment.json": "28e5e54706174a44e23e5d7e24368759e1d584515048564e8f0620ca1ae15ac7",
+        "property_test_report.json": "fd8035e4ced42428671478f5aa400a37dc1aa5c569dcb0189b1d7faf9d0fb30f"
+      }
+    }
+  },
+  "measured_failure_boundary_next": "depth-2 did not improve Recall@128 over depth-1 on the multi-change slice",
+  "mechanism_preflight_passed": true,
+  "model_can_participate_across_arc_native_inputs": true,
+  "no_unmeasured_reasoning_claim": true,
+  "property_test_passed": true,
+  "runtime_seconds": 232.04500244300016,
+  "target_outputs_enter_candidate_pool_at_any_K": true
+}

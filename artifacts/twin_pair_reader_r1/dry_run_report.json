@@ -1,0 +1,15 @@
+{
+  "batches_run": 4,
+  "candidate_metadata_excluded": true,
+  "cuda_device": "NVIDIA GeForce RTX 4070 Ti SUPER",
+  "finite_parameters": true,
+  "fresh_initialization": true,
+  "global_step": 4,
+  "last_batch_mean_relevant_pair_mass": 0.9992409944534302,
+  "last_batch_retrieval_top1_accuracy": 1.0,
+  "last_train_loss": 0.0008379924693144858,
+  "loaded_checkpoint": false,
+  "mode": "dry_run",
+  "protected_hashes_unchanged": true,
+  "target_excluded_from_forward": true
+}

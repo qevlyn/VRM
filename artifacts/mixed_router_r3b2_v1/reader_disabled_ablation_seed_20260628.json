@@ -1,0 +1,20 @@
+{
+  "disabled_branch": "reader",
+  "families": {
+    "RETRIEVAL_CLEAR": {
+      "episode_count": 3000,
+      "max_gate_difference": 0.0,
+      "normal_to_disabled_hard_route_grid_change_rate": 1.0
+    },
+    "TRANSFORM_CLEAR": {
+      "episode_count": 3000,
+      "max_gate_difference": 0.0,
+      "normal_to_disabled_hard_route_grid_change_rate": 0.0
+    },
+    "TRANSFORM_HARD_NEGATIVE": {
+      "episode_count": 3000,
+      "max_gate_difference": 0.0,
+      "normal_to_disabled_hard_route_grid_change_rate": 0.0
+    }
+  }
+}

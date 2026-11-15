@@ -1,0 +1,21 @@
+{
+  "held_out_mixed_sealed_only": [
+    "L->C",
+    "H->L",
+    "C->K",
+    "K->C"
+  ],
+  "seen_mixed_train_dev": [
+    "C->L",
+    "L->H",
+    "H->K",
+    "K->V"
+  ],
+  "single": [
+    "C",
+    "H",
+    "V",
+    "L",
+    "K"
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "all_available": true,
+  "audit_version": "R5A2D_R2_FROZEN_CANDIDATE_RECALL",
+  "surfaces": [
+    {
+      "availability_verdict": "CANDIDATE_ENUMERATION_AVAILABLE",
+      "candidate_enumeration_available": true,
+      "candidate_execution_path": "read-only call to existing transport_recolor_r5a0v2_oracles.apply_sequence_to_grid(candidate_id)",
+      "existing_candidate_catalog_hash": "c22b36be00baba5886285cd50689c3ad25bf15a40779a45f0057effe5f3ee1b4",
+      "existing_candidate_catalog_name": "transport_recolor_r5a0v2_oracles.SEALED_CLASSES",
+      "expert_name": "V2_transport_recolor",
+      "frozen_forward_parameters": [
+        "self",
+        "query_grids",
+        "support_input_grids",
+        "support_output_grids",
+        "zero_support",
+        "force_identity_transport",
+        "force_identity_color"
+      ],
+      "frozen_source_hash": "2e427a417e31e88ba6106a23d42e964989508d003677bc6a400c0a7730293de4",
+      "raw_candidate_count": 13,
+      "requires_forward_signature_change": false,
+      "requires_new_runtime_argument": false,
+      "requires_source_modification": false
+    },
+    {
+      "availability_verdict": "CANDIDATE_ENUMERATION_AVAILABLE",
+      "candidate_enumeration_available": true,
+      "candidate_execution_path": "read-only enumeration of compiled_topology_r5a2c_r2_data.candidate_hypotheses() and existing execute_hypothesis(grid, hypothesis)",
+      "existing_candidate_catalog_hash": "a08bb6db8dfd0cfd3055121e163592736f3626ec6c8faf3dd3b6fe6d1d594311",
+      "existing_candidate_catalog_name": "compiled_topology_r5a2c_r2_data.candidate_hypotheses()",
+      "expert_name": "R5A-2C-R2_compiled_topology",
+      "frozen_execute_from_raw_grids_parameters": [
+        "support_input_grids",
+        "support_output_grids",
+        "query_input_grid",
+        "ablation"
+      ],
+      "frozen_execute_hypothesis_parameters": [
+        "grid",
+        "hypothesis",
+        "ablation"
+      ],
+      "frozen_source_hash": "fe1f9b2d4468d9567732117ef0dd02e1701ebc8ba91a4f34f0cc858f4bc9ffc2",
+      "raw_candidate_count": 24,
+      "requires_forward_signature_change": false,
+      "requires_new_runtime_argument": false,
+      "requires_source_modification": false
+    }
+  ]
+}

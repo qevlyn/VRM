@@ -1,0 +1,88 @@
+{
+  "conditions": {
+    "NORMAL": {
+      "all_cell_color_accuracy": 0.9318979591836735,
+      "candidate_exact_match_rate": 0.6025,
+      "candidate_nearest_score": 0.49875,
+      "candidate_tie_rate": 0.3075,
+      "condition": "NORMAL",
+      "derived_relevant_pair_output_rate": 0.3045,
+      "direct_grid_exact_accuracy": 0.3045,
+      "episode_count": 2000,
+      "foreground_cell_count_per_episode": {
+        "expected_informative_foreground_count_verified": true,
+        "mean": 5.0,
+        "unique": [
+          5
+        ]
+      },
+      "foreground_color_accuracy": 0.3326,
+      "loss": 0.12146742939949036,
+      "mean_target_rectangle_hamming_error": 3.337,
+      "median_target_rectangle_hamming_error": 5.0,
+      "predictions_matching_any_support_output_rate": 0.9085,
+      "shape_match_rate": 1.0,
+      "split": "sealed"
+    },
+    "PAIR_ORDER_SHUFFLED": {
+      "all_cell_color_accuracy": 0.932234693877551,
+      "candidate_exact_match_rate": 0.6005,
+      "candidate_nearest_score": 0.505,
+      "candidate_tie_rate": 0.306,
+      "condition": "PAIR_ORDER_SHUFFLED",
+      "derived_relevant_pair_output_rate": 0.304,
+      "direct_grid_exact_accuracy": 0.304,
+      "episode_count": 2000,
+      "foreground_cell_count_per_episode": {
+        "expected_informative_foreground_count_verified": true,
+        "mean": 5.0,
+        "unique": [
+          5
+        ]
+      },
+      "foreground_color_accuracy": 0.3359,
+      "loss": 0.1214005623459816,
+      "mean_target_rectangle_hamming_error": 3.3205,
+      "median_target_rectangle_hamming_error": 5.0,
+      "predictions_matching_any_support_output_rate": 0.9035,
+      "shape_match_rate": 1.0,
+      "split": "sealed"
+    },
+    "TWIN_SWAP_SUPPORTS": {
+      "all_cell_color_accuracy": 0.9317551020408164,
+      "candidate_exact_match_rate": 0.6025,
+      "candidate_nearest_score": 0.50125,
+      "candidate_tie_rate": 0.3075,
+      "condition": "TWIN_SWAP_SUPPORTS",
+      "derived_relevant_pair_output_rate": 0.298,
+      "direct_grid_exact_accuracy": 0.298,
+      "episode_count": 2000,
+      "foreground_cell_count_per_episode": {
+        "expected_informative_foreground_count_verified": true,
+        "mean": 5.0,
+        "unique": [
+          5
+        ]
+      },
+      "foreground_color_accuracy": 0.3312,
+      "loss": 0.12167941427230836,
+      "mean_target_rectangle_hamming_error": 3.344,
+      "median_target_rectangle_hamming_error": 5.0,
+      "predictions_matching_any_support_output_rate": 0.9085,
+      "shape_match_rate": 1.0,
+      "split": "sealed"
+    }
+  },
+  "derived_metrics": {
+    "base_pair_count": 1000,
+    "correct_counterfactual_switch_rate": 0.026,
+    "normal_to_swapped_candidate_change_rate": 0.051,
+    "normal_to_swapped_grid_change_rate": 0.244,
+    "normal_vs_pair_order_same_candidate_rate": 0.813,
+    "normal_vs_pair_order_same_grid_rate": 0.726,
+    "twin_pair_joint_normal_accuracy": 0.026,
+    "twin_pair_mapping_flip_consistency": 0.026,
+    "twin_same_candidate_decision_rate": 0.826,
+    "twin_same_predicted_grid_rate": 0.756
+  }
+}

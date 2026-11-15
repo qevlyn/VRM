@@ -1,0 +1,166 @@
+{
+  "examples": [
+    {
+      "gates": {
+        "RETRIEVAL_CLEAR": 0.9999833106994629,
+        "TRANSFORM_CLEAR": 0.00031143127125687897,
+        "TRANSFORM_HARD_NEGATIVE": 0.006436001509428024
+      },
+      "group_id": "sealed:marker_0|color=1|anchor=upper_left|distractors=0:group=9749199:attempt=0",
+      "routes": {
+        "RETRIEVAL_CLEAR": "reader",
+        "TRANSFORM_CLEAR": "transform",
+        "TRANSFORM_HARD_NEGATIVE": "transform"
+      }
+    },
+    {
+      "gates": {
+        "RETRIEVAL_CLEAR": 0.9999040365219116,
+        "TRANSFORM_CLEAR": 7.080922659952193e-05,
+        "TRANSFORM_HARD_NEGATIVE": 0.0036917373072355986
+      },
+      "group_id": "sealed:marker_0|color=4|anchor=lower_right|distractors=1:group=8153016:attempt=0",
+      "routes": {
+        "RETRIEVAL_CLEAR": "reader",
+        "TRANSFORM_CLEAR": "transform",
+        "TRANSFORM_HARD_NEGATIVE": "transform"
+      }
+    },
+    {
+      "gates": {
+        "RETRIEVAL_CLEAR": 0.9996470212936401,
+        "TRANSFORM_CLEAR": 0.0006636037142015994,
+        "TRANSFORM_HARD_NEGATIVE": 0.0063032833859324455
+      },
+      "group_id": "sealed:marker_3|color=1|anchor=lower_right|distractors=0:group=2864799:attempt=0",
+      "routes": {
+        "RETRIEVAL_CLEAR": "reader",
+        "TRANSFORM_CLEAR": "transform",
+        "TRANSFORM_HARD_NEGATIVE": "transform"
+      }
+    },
+    {
+      "gates": {
+        "RETRIEVAL_CLEAR": 0.9993337988853455,
+        "TRANSFORM_CLEAR": 0.00028759834822267294,
+        "TRANSFORM_HARD_NEGATIVE": 0.0004598657542373985
+      },
+      "group_id": "sealed:marker_3|color=3|anchor=lower_right|distractors=2:group=1811989:attempt=0",
+      "routes": {
+        "RETRIEVAL_CLEAR": "reader",
+        "TRANSFORM_CLEAR": "transform",
+        "TRANSFORM_HARD_NEGATIVE": "transform"
+      }
+    },
+    {
+      "gates": {
+        "RETRIEVAL_CLEAR": 0.9999361038208008,
+        "TRANSFORM_CLEAR": 0.00011007666034856811,
+        "TRANSFORM_HARD_NEGATIVE": 0.00024255708558484912
+      },
+      "group_id": "sealed:marker_1|color=1|anchor=upper_right|distractors=2:group=7395103:attempt=0",
+      "routes": {
+        "RETRIEVAL_CLEAR": "reader",
+        "TRANSFORM_CLEAR": "transform",
+        "TRANSFORM_HARD_NEGATIVE": "transform"
+      }
+    },
+    {
+      "gates": {
+        "RETRIEVAL_CLEAR": 0.9998283386230469,
+        "TRANSFORM_CLEAR": 0.0002300868945894763,
+        "TRANSFORM_HARD_NEGATIVE": 0.004003566224128008
+      },
+      "group_id": "sealed:marker_0|color=3|anchor=upper_right|distractors=1:group=1318447:attempt=0",
+      "routes": {
+        "RETRIEVAL_CLEAR": "reader",
+        "TRANSFORM_CLEAR": "transform",
+        "TRANSFORM_HARD_NEGATIVE": "transform"
+      }
+    },
+    {
+      "gates": {
+        "RETRIEVAL_CLEAR": 0.9999327659606934,
+        "TRANSFORM_CLEAR": 0.0002765539102256298,
+        "TRANSFORM_HARD_NEGATIVE": 0.0013958066701889038
+      },
+      "group_id": "sealed:marker_3|color=2|anchor=lower_right|distractors=1:group=8245913:attempt=0",
+      "routes": {
+        "RETRIEVAL_CLEAR": "reader",
+        "TRANSFORM_CLEAR": "transform",
+        "TRANSFORM_HARD_NEGATIVE": "transform"
+      }
+    },
+    {
+      "gates": {
+        "RETRIEVAL_CLEAR": 0.9999394416809082,
+        "TRANSFORM_CLEAR": 0.00021219730842858553,
+        "TRANSFORM_HARD_NEGATIVE": 0.00026822646032087505
+      },
+      "group_id": "sealed:marker_1|color=1|anchor=upper_right|distractors=2:group=9871098:attempt=0",
+      "routes": {
+        "RETRIEVAL_CLEAR": "reader",
+        "TRANSFORM_CLEAR": "transform",
+        "TRANSFORM_HARD_NEGATIVE": "transform"
+      }
+    },
+    {
+      "gates": {
+        "RETRIEVAL_CLEAR": 0.9998995065689087,
+        "TRANSFORM_CLEAR": 0.0020056942012161016,
+        "TRANSFORM_HARD_NEGATIVE": 0.013574416749179363
+      },
+      "group_id": "sealed:marker_0|color=3|anchor=upper_left|distractors=0:group=325776:attempt=0",
+      "routes": {
+        "RETRIEVAL_CLEAR": "reader",
+        "TRANSFORM_CLEAR": "transform",
+        "TRANSFORM_HARD_NEGATIVE": "transform"
+      }
+    },
+    {
+      "gates": {
+        "RETRIEVAL_CLEAR": 0.9999659061431885,
+        "TRANSFORM_CLEAR": 0.0005866130231879652,
+        "TRANSFORM_HARD_NEGATIVE": 0.0004418615426402539
+      },
+      "group_id": "sealed:marker_0|color=1|anchor=lower_right|distractors=2:group=7848260:attempt=0",
+      "routes": {
+        "RETRIEVAL_CLEAR": "reader",
+        "TRANSFORM_CLEAR": "transform",
+        "TRANSFORM_HARD_NEGATIVE": "transform"
+      }
+    },
+    {
+      "gates": {
+        "RETRIEVAL_CLEAR": 0.999955415725708,
+        "TRANSFORM_CLEAR": 0.00016860145842656493,
+        "TRANSFORM_HARD_NEGATIVE": 0.00031859794398769736
+      },
+      "group_id": "sealed:marker_3|color=1|anchor=upper_right|distractors=2:group=5395229:attempt=0",
+      "routes": {
+        "RETRIEVAL_CLEAR": "reader",
+        "TRANSFORM_CLEAR": "transform",
+        "TRANSFORM_HARD_NEGATIVE": "transform"
+      }
+    },
+    {
+      "gates": {
+        "RETRIEVAL_CLEAR": 0.9999903440475464,
+        "TRANSFORM_CLEAR": 0.00016530074935872108,
+        "TRANSFORM_HARD_NEGATIVE": 0.0002130250068148598
+      },
+      "group_id": "sealed:marker_1|color=1|anchor=upper_right|distractors=2:group=8816670:attempt=0",
+      "routes": {
+        "RETRIEVAL_CLEAR": "reader",
+        "TRANSFORM_CLEAR": "transform",
+        "TRANSFORM_HARD_NEGATIVE": "transform"
+      }
+    }
+  ],
+  "group_count": 3000,
+  "mean_retrieval_to_transform_gate_drop": 0.9942794282639661,
+  "output_switch_correctness": 1.0,
+  "passed": true,
+  "route_flip_correctness": 1.0,
+  "same_query_support_sensitive_route_rate": 1.0
+}

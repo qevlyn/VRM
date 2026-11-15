@@ -1,0 +1,2211 @@
+# VRM Twin Probe v0 prediction examples
+
+selected_base_pair_count: 12
+
+## strongest_correct_mapping_flip: marker_to_output_bijection_v1_00009037
+
+support pairs for Twin A:
+support pair 0 input:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 1 0 0
+0 0 0 0 0 0 0
+support pair 0 output:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 7 0 0 0
+0 0 7 7 7 0 0
+0 0 0 7 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+support pair 1 input:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 7 7 0 0 0
+0 0 7 0 0 0 0
+0 0 0 0 0 0 0
+support pair 1 output:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 9 0 0 0
+0 0 9 9 9 0 0
+0 0 0 9 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+support pair 2 input:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 6 0 0 0 0
+0 0 6 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+support pair 2 output:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 5 0 0 0
+0 0 5 5 5 0 0
+0 0 0 5 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+support pairs for Twin B:
+support pair 0 input:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 1 0 0
+0 0 0 0 0 0 0
+support pair 0 output:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 9 0 0 0
+0 0 9 9 9 0 0
+0 0 0 9 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+support pair 1 input:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 6 0 0 0 0
+0 0 6 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+support pair 1 output:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 7 0 0 0
+0 0 7 7 7 0 0
+0 0 0 7 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+support pair 2 input:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 7 7 0 0 0
+0 0 7 0 0 0 0
+0 0 0 0 0 0 0
+support pair 2 output:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 5 0 0 0
+0 0 5 5 5 0 0
+0 0 0 5 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+shared query:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 1 0 0
+0 0 0 0 0 0 0
+candidate_0:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 9 0 0 0
+0 0 9 9 9 0 0
+0 0 0 9 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+candidate_1:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 7 0 0 0
+0 0 7 7 7 0 0
+0 0 0 7 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+correct label A: 1
+correct label B: 0
+### Twin A
+normal prediction: decision=1 distances=(5,0) predicted_shape=[7, 7] exact=True
+decoded grid:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 7 0 0 0
+0 0 7 7 7 0 0
+0 0 0 7 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+swapped-support prediction: decision=0 distances=(0,5) predicted_shape=[7, 7] exact=False
+decoded grid:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 9 0 0 0
+0 0 9 9 9 0 0
+0 0 0 9 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+pair-order-shuffled prediction: decision=0 distances=(0,5) predicted_shape=[7, 7] exact=False
+decoded grid:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 9 0 0 0
+0 0 9 9 9 0 0
+0 0 0 9 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+### Twin B
+normal prediction: decision=0 distances=(0,5) predicted_shape=[7, 7] exact=True
+decoded grid:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 9 0 0 0
+0 0 9 9 9 0 0
+0 0 0 9 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+swapped-support prediction: decision=1 distances=(5,0) predicted_shape=[7, 7] exact=False
+decoded grid:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 7 0 0 0
+0 0 7 7 7 0 0
+0 0 0 7 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+pair-order-shuffled prediction: decision=1 distances=(5,0) predicted_shape=[7, 7] exact=False
+decoded grid:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 7 0 0 0
+0 0 7 7 7 0 0
+0 0 0 7 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+mapping-flip status: True
+
+## strongest_correct_mapping_flip: marker_to_output_bijection_v1_00009051
+
+support pairs for Twin A:
+support pair 0 input:
+0 0 0 0 0 3 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+support pair 0 output:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 6 0 0 0
+0 0 6 6 6 0 0
+0 0 0 6 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+support pair 1 input:
+9 9 0 0 0 0 0
+9 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+support pair 1 output:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 8 0 0 0
+0 0 8 8 8 0 0
+0 0 0 8 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+support pair 2 input:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 8
+0 0 0 0 0 0 8
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+support pair 2 output:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 2 0 0 0
+0 0 2 2 2 0 0
+0 0 0 2 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+support pairs for Twin B:
+support pair 0 input:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 8
+0 0 0 0 0 0 8
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+support pair 0 output:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 8 0 0 0
+0 0 8 8 8 0 0
+0 0 0 8 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+support pair 1 input:
+9 9 0 0 0 0 0
+9 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+support pair 1 output:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 6 0 0 0
+0 0 6 6 6 0 0
+0 0 0 6 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+support pair 2 input:
+0 0 0 0 0 3 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+support pair 2 output:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 2 0 0 0
+0 0 2 2 2 0 0
+0 0 0 2 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+shared query:
+0 0 0 0 0 3 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+candidate_0:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 6 0 0 0
+0 0 6 6 6 0 0
+0 0 0 6 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+candidate_1:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 2 0 0 0
+0 0 2 2 2 0 0
+0 0 0 2 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+correct label A: 0
+correct label B: 1
+### Twin A
+normal prediction: decision=0 distances=(0,5) predicted_shape=[7, 7] exact=True
+decoded grid:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 6 0 0 0
+0 0 6 6 6 0 0
+0 0 0 6 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+swapped-support prediction: decision=1 distances=(4,1) predicted_shape=[7, 7] exact=False
+decoded grid:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 2 0 0 0
+0 0 2 2 2 0 0
+0 0 0 6 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+pair-order-shuffled prediction: decision=TIE distances=(5,5) predicted_shape=[7, 7] exact=False
+decoded grid:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 8 0 0 0
+0 0 8 8 8 0 0
+0 0 0 8 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+### Twin B
+normal prediction: decision=1 distances=(4,1) predicted_shape=[7, 7] exact=False
+decoded grid:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 2 0 0 0
+0 0 2 2 2 0 0
+0 0 0 6 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+swapped-support prediction: decision=0 distances=(0,5) predicted_shape=[7, 7] exact=False
+decoded grid:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 6 0 0 0
+0 0 6 6 6 0 0
+0 0 0 6 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+pair-order-shuffled prediction: decision=0 distances=(0,5) predicted_shape=[7, 7] exact=False
+decoded grid:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 6 0 0 0
+0 0 6 6 6 0 0
+0 0 0 6 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+mapping-flip status: True
+
+## strongest_correct_mapping_flip: marker_to_output_bijection_v1_00009053
+
+support pairs for Twin A:
+support pair 0 input:
+0 0 3 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+support pair 0 output:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 4 0 0 0
+0 0 4 4 4 0 0
+0 0 0 4 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+support pair 1 input:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+7 0 0 0 0 0 0
+7 0 0 0 0 0 0
+0 0 0 0 0 0 0
+support pair 1 output:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 5 0 0 0
+0 0 5 5 5 0 0
+0 0 0 5 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+support pair 2 input:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 4 4 0 0 0
+0 0 4 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+support pair 2 output:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 7 0 0 0
+0 0 7 7 7 0 0
+0 0 0 7 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+support pairs for Twin B:
+support pair 0 input:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+7 0 0 0 0 0 0
+7 0 0 0 0 0 0
+0 0 0 0 0 0 0
+support pair 0 output:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 7 0 0 0
+0 0 7 7 7 0 0
+0 0 0 7 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+support pair 1 input:
+0 0 3 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+support pair 1 output:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 5 0 0 0
+0 0 5 5 5 0 0
+0 0 0 5 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+support pair 2 input:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 4 4 0 0 0
+0 0 4 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+support pair 2 output:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 4 0 0 0
+0 0 4 4 4 0 0
+0 0 0 4 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+shared query:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+7 0 0 0 0 0 0
+7 0 0 0 0 0 0
+0 0 0 0 0 0 0
+candidate_0:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 7 0 0 0
+0 0 7 7 7 0 0
+0 0 0 7 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+candidate_1:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 5 0 0 0
+0 0 5 5 5 0 0
+0 0 0 5 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+correct label A: 1
+correct label B: 0
+### Twin A
+normal prediction: decision=1 distances=(5,0) predicted_shape=[7, 7] exact=True
+decoded grid:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 5 0 0 0
+0 0 5 5 5 0 0
+0 0 0 5 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+swapped-support prediction: decision=0 distances=(0,5) predicted_shape=[7, 7] exact=False
+decoded grid:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 7 0 0 0
+0 0 7 7 7 0 0
+0 0 0 7 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+pair-order-shuffled prediction: decision=1 distances=(5,0) predicted_shape=[7, 7] exact=True
+decoded grid:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 5 0 0 0
+0 0 5 5 5 0 0
+0 0 0 5 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+### Twin B
+normal prediction: decision=0 distances=(0,5) predicted_shape=[7, 7] exact=True
+decoded grid:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 7 0 0 0
+0 0 7 7 7 0 0
+0 0 0 7 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+swapped-support prediction: decision=1 distances=(5,0) predicted_shape=[7, 7] exact=False
+decoded grid:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 5 0 0 0
+0 0 5 5 5 0 0
+0 0 0 5 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+pair-order-shuffled prediction: decision=1 distances=(5,0) predicted_shape=[7, 7] exact=False
+decoded grid:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 5 0 0 0
+0 0 5 5 5 0 0
+0 0 0 5 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+mapping-flip status: True
+
+## strongest_correct_mapping_flip: marker_to_output_bijection_v1_00009064
+
+support pairs for Twin A:
+support pair 0 input:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 9 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+support pair 0 output:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 5 0 0 0
+0 0 5 5 5 0 0
+0 0 0 5 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+support pair 1 input:
+0 0 2 0 0 0 0
+0 0 2 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+support pair 1 output:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 9 0 0 0
+0 0 9 9 9 0 0
+0 0 0 9 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+support pair 2 input:
+0 0 0 0 0 0 0
+0 8 8 0 0 0 0
+0 8 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+support pair 2 output:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 8 0 0 0
+0 0 8 8 8 0 0
+0 0 0 8 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+support pairs for Twin B:
+support pair 0 input:
+0 0 0 0 0 0 0
+0 8 8 0 0 0 0
+0 8 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+support pair 0 output:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 9 0 0 0
+0 0 9 9 9 0 0
+0 0 0 9 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+support pair 1 input:
+0 0 2 0 0 0 0
+0 0 2 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+support pair 1 output:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 5 0 0 0
+0 0 5 5 5 0 0
+0 0 0 5 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+support pair 2 input:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 9 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+support pair 2 output:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 8 0 0 0
+0 0 8 8 8 0 0
+0 0 0 8 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+shared query:
+0 0 0 0 0 0 0
+0 8 8 0 0 0 0
+0 8 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+candidate_0:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 8 0 0 0
+0 0 8 8 8 0 0
+0 0 0 8 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+candidate_1:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 9 0 0 0
+0 0 9 9 9 0 0
+0 0 0 9 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+correct label A: 0
+correct label B: 1
+### Twin A
+normal prediction: decision=0 distances=(0,5) predicted_shape=[7, 7] exact=True
+decoded grid:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 8 0 0 0
+0 0 8 8 8 0 0
+0 0 0 8 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+swapped-support prediction: decision=1 distances=(5,0) predicted_shape=[7, 7] exact=False
+decoded grid:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 9 0 0 0
+0 0 9 9 9 0 0
+0 0 0 9 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+pair-order-shuffled prediction: decision=1 distances=(5,0) predicted_shape=[7, 7] exact=False
+decoded grid:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 9 0 0 0
+0 0 9 9 9 0 0
+0 0 0 9 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+### Twin B
+normal prediction: decision=1 distances=(5,0) predicted_shape=[7, 7] exact=True
+decoded grid:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 9 0 0 0
+0 0 9 9 9 0 0
+0 0 0 9 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+swapped-support prediction: decision=0 distances=(0,5) predicted_shape=[7, 7] exact=False
+decoded grid:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 8 0 0 0
+0 0 8 8 8 0 0
+0 0 0 8 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+pair-order-shuffled prediction: decision=0 distances=(0,5) predicted_shape=[7, 7] exact=False
+decoded grid:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 8 0 0 0
+0 0 8 8 8 0 0
+0 0 0 8 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+mapping-flip status: True
+
+## failure: marker_to_output_bijection_v1_00009000
+
+support pairs for Twin A:
+support pair 0 input:
+0 9 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+support pair 0 output:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 8 0 0 0
+0 0 8 8 8 0 0
+0 0 0 8 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+support pair 1 input:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 8
+0 0 0 0 0 0 8
+0 0 0 0 0 0 0
+support pair 1 output:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 9 0 0 0
+0 0 9 9 9 0 0
+0 0 0 9 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+support pair 2 input:
+0 0 0 0 0 0 0
+0 6 6 0 0 0 0
+0 6 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+support pair 2 output:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 1 0 0 0
+0 0 1 1 1 0 0
+0 0 0 1 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+support pairs for Twin B:
+support pair 0 input:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 8
+0 0 0 0 0 0 8
+0 0 0 0 0 0 0
+support pair 0 output:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 1 0 0 0
+0 0 1 1 1 0 0
+0 0 0 1 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+support pair 1 input:
+0 0 0 0 0 0 0
+0 6 6 0 0 0 0
+0 6 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+support pair 1 output:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 8 0 0 0
+0 0 8 8 8 0 0
+0 0 0 8 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+support pair 2 input:
+0 9 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+support pair 2 output:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 9 0 0 0
+0 0 9 9 9 0 0
+0 0 0 9 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+shared query:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 8
+0 0 0 0 0 0 8
+0 0 0 0 0 0 0
+candidate_0:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 9 0 0 0
+0 0 9 9 9 0 0
+0 0 0 9 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+candidate_1:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 1 0 0 0
+0 0 1 1 1 0 0
+0 0 0 1 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+correct label A: 0
+correct label B: 1
+### Twin A
+normal prediction: decision=1 distances=(5,0) predicted_shape=[7, 7] exact=False
+decoded grid:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 1 0 0 0
+0 0 1 1 1 0 0
+0 0 0 1 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+swapped-support prediction: decision=0 distances=(1,5) predicted_shape=[7, 7] exact=False
+decoded grid:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 9 0 0 0
+0 0 9 8 9 0 0
+0 0 0 9 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+pair-order-shuffled prediction: decision=0 distances=(2,5) predicted_shape=[7, 7] exact=False
+decoded grid:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 9 0 0 0
+0 0 9 8 8 0 0
+0 0 0 9 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+### Twin B
+normal prediction: decision=0 distances=(1,5) predicted_shape=[7, 7] exact=False
+decoded grid:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 9 0 0 0
+0 0 9 8 9 0 0
+0 0 0 9 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+swapped-support prediction: decision=1 distances=(5,0) predicted_shape=[7, 7] exact=True
+decoded grid:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 1 0 0 0
+0 0 1 1 1 0 0
+0 0 0 1 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+pair-order-shuffled prediction: decision=0 distances=(0,5) predicted_shape=[7, 7] exact=False
+decoded grid:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 9 0 0 0
+0 0 9 9 9 0 0
+0 0 0 9 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+mapping-flip status: False
+
+## failure: marker_to_output_bijection_v1_00009001
+
+support pairs for Twin A:
+support pair 0 input:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 4 4 0 0 0 0
+0 4 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+support pair 0 output:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 3 0 0 0
+0 0 3 3 3 0 0
+0 0 0 3 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+support pair 1 input:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 1 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+support pair 1 output:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 2 0 0 0
+0 0 2 2 2 0 0
+0 0 0 2 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+support pair 2 input:
+0 0 0 0 0 0 0
+3 0 0 0 0 0 0
+3 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+support pair 2 output:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 5 0 0 0
+0 0 5 5 5 0 0
+0 0 0 5 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+support pairs for Twin B:
+support pair 0 input:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 4 4 0 0 0 0
+0 4 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+support pair 0 output:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 2 0 0 0
+0 0 2 2 2 0 0
+0 0 0 2 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+support pair 1 input:
+0 0 0 0 0 0 0
+3 0 0 0 0 0 0
+3 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+support pair 1 output:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 3 0 0 0
+0 0 3 3 3 0 0
+0 0 0 3 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+support pair 2 input:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 1 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+support pair 2 output:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 5 0 0 0
+0 0 5 5 5 0 0
+0 0 0 5 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+shared query:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 1 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+candidate_0:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 5 0 0 0
+0 0 5 5 5 0 0
+0 0 0 5 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+candidate_1:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 2 0 0 0
+0 0 2 2 2 0 0
+0 0 0 2 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+correct label A: 1
+correct label B: 0
+### Twin A
+normal prediction: decision=1 distances=(5,0) predicted_shape=[7, 7] exact=True
+decoded grid:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 2 0 0 0
+0 0 2 2 2 0 0
+0 0 0 2 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+swapped-support prediction: decision=1 distances=(5,0) predicted_shape=[7, 7] exact=True
+decoded grid:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 2 0 0 0
+0 0 2 2 2 0 0
+0 0 0 2 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+pair-order-shuffled prediction: decision=1 distances=(5,0) predicted_shape=[7, 7] exact=True
+decoded grid:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 2 0 0 0
+0 0 2 2 2 0 0
+0 0 0 2 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+### Twin B
+normal prediction: decision=1 distances=(5,0) predicted_shape=[7, 7] exact=False
+decoded grid:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 2 0 0 0
+0 0 2 2 2 0 0
+0 0 0 2 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+swapped-support prediction: decision=1 distances=(5,0) predicted_shape=[7, 7] exact=False
+decoded grid:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 2 0 0 0
+0 0 2 2 2 0 0
+0 0 0 2 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+pair-order-shuffled prediction: decision=1 distances=(5,0) predicted_shape=[7, 7] exact=False
+decoded grid:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 2 0 0 0
+0 0 2 2 2 0 0
+0 0 0 2 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+mapping-flip status: False
+
+## failure: marker_to_output_bijection_v1_00009002
+
+support pairs for Twin A:
+support pair 0 input:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 5 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+support pair 0 output:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 7 0 0 0
+0 0 7 7 7 0 0
+0 0 0 7 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+support pair 1 input:
+0 0 4 0 0 0 0
+0 0 4 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+support pair 1 output:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 8 0 0 0
+0 0 8 8 8 0 0
+0 0 0 8 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+support pair 2 input:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 1 1 0 0 0
+0 0 1 0 0 0 0
+support pair 2 output:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 1 0 0 0
+0 0 1 1 1 0 0
+0 0 0 1 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+support pairs for Twin B:
+support pair 0 input:
+0 0 4 0 0 0 0
+0 0 4 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+support pair 0 output:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 7 0 0 0
+0 0 7 7 7 0 0
+0 0 0 7 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+support pair 1 input:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 5 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+support pair 1 output:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 1 0 0 0
+0 0 1 1 1 0 0
+0 0 0 1 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+support pair 2 input:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 1 1 0 0 0
+0 0 1 0 0 0 0
+support pair 2 output:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 8 0 0 0
+0 0 8 8 8 0 0
+0 0 0 8 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+shared query:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 5 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+candidate_0:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 1 0 0 0
+0 0 1 1 1 0 0
+0 0 0 1 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+candidate_1:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 7 0 0 0
+0 0 7 7 7 0 0
+0 0 0 7 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+correct label A: 1
+correct label B: 0
+### Twin A
+normal prediction: decision=1 distances=(5,0) predicted_shape=[7, 7] exact=True
+decoded grid:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 7 0 0 0
+0 0 7 7 7 0 0
+0 0 0 7 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+swapped-support prediction: decision=1 distances=(5,0) predicted_shape=[7, 7] exact=True
+decoded grid:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 7 0 0 0
+0 0 7 7 7 0 0
+0 0 0 7 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+pair-order-shuffled prediction: decision=1 distances=(5,0) predicted_shape=[7, 7] exact=True
+decoded grid:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 7 0 0 0
+0 0 7 7 7 0 0
+0 0 0 7 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+### Twin B
+normal prediction: decision=1 distances=(5,0) predicted_shape=[7, 7] exact=False
+decoded grid:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 7 0 0 0
+0 0 7 7 7 0 0
+0 0 0 7 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+swapped-support prediction: decision=1 distances=(5,0) predicted_shape=[7, 7] exact=False
+decoded grid:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 7 0 0 0
+0 0 7 7 7 0 0
+0 0 0 7 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+pair-order-shuffled prediction: decision=TIE distances=(5,5) predicted_shape=[7, 7] exact=False
+decoded grid:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 8 0 0 0
+0 0 8 8 8 0 0
+0 0 0 8 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+mapping-flip status: False
+
+## failure: marker_to_output_bijection_v1_00009003
+
+support pairs for Twin A:
+support pair 0 input:
+0 0 0 0 0 0 0
+0 2 0 0 0 0 0
+0 2 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+support pair 0 output:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 1 0 0 0
+0 0 1 1 1 0 0
+0 0 0 1 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+support pair 1 input:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 6 6 0
+0 0 0 0 6 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+support pair 1 output:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 3 0 0 0
+0 0 3 3 3 0 0
+0 0 0 3 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+support pair 2 input:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 3
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+support pair 2 output:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 2 0 0 0
+0 0 2 2 2 0 0
+0 0 0 2 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+support pairs for Twin B:
+support pair 0 input:
+0 0 0 0 0 0 0
+0 2 0 0 0 0 0
+0 2 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+support pair 0 output:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 3 0 0 0
+0 0 3 3 3 0 0
+0 0 0 3 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+support pair 1 input:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 3
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+support pair 1 output:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 1 0 0 0
+0 0 1 1 1 0 0
+0 0 0 1 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+support pair 2 input:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 6 6 0
+0 0 0 0 6 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+support pair 2 output:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 2 0 0 0
+0 0 2 2 2 0 0
+0 0 0 2 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+shared query:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 3
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+candidate_0:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 1 0 0 0
+0 0 1 1 1 0 0
+0 0 0 1 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+candidate_1:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 2 0 0 0
+0 0 2 2 2 0 0
+0 0 0 2 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+correct label A: 1
+correct label B: 0
+### Twin A
+normal prediction: decision=TIE distances=(5,5) predicted_shape=[7, 7] exact=False
+decoded grid:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 3 0 0 0
+0 0 3 3 3 0 0
+0 0 0 3 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+swapped-support prediction: decision=1 distances=(5,4) predicted_shape=[7, 7] exact=False
+decoded grid:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 3 0 0 0
+0 0 3 3 2 0 0
+0 0 0 3 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+pair-order-shuffled prediction: decision=TIE distances=(5,5) predicted_shape=[7, 7] exact=False
+decoded grid:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 3 0 0 0
+0 0 3 3 3 0 0
+0 0 0 3 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+### Twin B
+normal prediction: decision=1 distances=(5,4) predicted_shape=[7, 7] exact=False
+decoded grid:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 3 0 0 0
+0 0 3 3 2 0 0
+0 0 0 3 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+swapped-support prediction: decision=TIE distances=(5,5) predicted_shape=[7, 7] exact=False
+decoded grid:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 3 0 0 0
+0 0 3 3 3 0 0
+0 0 0 3 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+pair-order-shuffled prediction: decision=TIE distances=(5,5) predicted_shape=[7, 7] exact=False
+decoded grid:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 3 0 0 0
+0 0 3 3 3 0 0
+0 0 0 3 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+mapping-flip status: False
+
+## supplemental: marker_to_output_bijection_v1_00009004
+
+support pairs for Twin A:
+support pair 0 input:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 1 0
+0 0 0 0 0 1 0
+support pair 0 output:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 5 0 0 0
+0 0 5 5 5 0 0
+0 0 0 5 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+support pair 1 input:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 8 8
+0 0 0 0 0 8 0
+support pair 1 output:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 3 0 0 0
+0 0 3 3 3 0 0
+0 0 0 3 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+support pair 2 input:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 7
+support pair 2 output:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 2 0 0 0
+0 0 2 2 2 0 0
+0 0 0 2 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+support pairs for Twin B:
+support pair 0 input:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 1 0
+0 0 0 0 0 1 0
+support pair 0 output:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 2 0 0 0
+0 0 2 2 2 0 0
+0 0 0 2 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+support pair 1 input:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 7
+support pair 1 output:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 3 0 0 0
+0 0 3 3 3 0 0
+0 0 0 3 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+support pair 2 input:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 8 8
+0 0 0 0 0 8 0
+support pair 2 output:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 5 0 0 0
+0 0 5 5 5 0 0
+0 0 0 5 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+shared query:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 8 8
+0 0 0 0 0 8 0
+candidate_0:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 3 0 0 0
+0 0 3 3 3 0 0
+0 0 0 3 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+candidate_1:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 5 0 0 0
+0 0 5 5 5 0 0
+0 0 0 5 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+correct label A: 0
+correct label B: 1
+### Twin A
+normal prediction: decision=TIE distances=(5,5) predicted_shape=[7, 7] exact=False
+decoded grid:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 2 0 0 0
+0 0 2 2 2 0 0
+0 0 0 2 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+swapped-support prediction: decision=TIE distances=(5,5) predicted_shape=[7, 7] exact=False
+decoded grid:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 2 0 0 0
+0 0 2 2 2 0 0
+0 0 0 2 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+pair-order-shuffled prediction: decision=TIE distances=(5,5) predicted_shape=[7, 7] exact=False
+decoded grid:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 2 0 0 0
+0 0 2 2 2 0 0
+0 0 0 2 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+### Twin B
+normal prediction: decision=TIE distances=(5,5) predicted_shape=[7, 7] exact=False
+decoded grid:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 2 0 0 0
+0 0 2 2 2 0 0
+0 0 0 2 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+swapped-support prediction: decision=TIE distances=(5,5) predicted_shape=[7, 7] exact=False
+decoded grid:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 2 0 0 0
+0 0 2 2 2 0 0
+0 0 0 2 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+pair-order-shuffled prediction: decision=TIE distances=(5,5) predicted_shape=[7, 7] exact=False
+decoded grid:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 2 0 0 0
+0 0 2 2 2 0 0
+0 0 0 2 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+mapping-flip status: False
+
+## supplemental: marker_to_output_bijection_v1_00009005
+
+support pairs for Twin A:
+support pair 0 input:
+3 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+support pair 0 output:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 5 0 0 0
+0 0 5 5 5 0 0
+0 0 0 5 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+support pair 1 input:
+0 0 0 0 0 0 0
+0 0 0 0 0 9 9
+0 0 0 0 0 9 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+support pair 1 output:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 8 0 0 0
+0 0 8 8 8 0 0
+0 0 0 8 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+support pair 2 input:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 7
+0 0 0 0 0 0 7
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+support pair 2 output:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 7 0 0 0
+0 0 7 7 7 0 0
+0 0 0 7 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+support pairs for Twin B:
+support pair 0 input:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 7
+0 0 0 0 0 0 7
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+support pair 0 output:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 8 0 0 0
+0 0 8 8 8 0 0
+0 0 0 8 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+support pair 1 input:
+3 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+support pair 1 output:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 7 0 0 0
+0 0 7 7 7 0 0
+0 0 0 7 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+support pair 2 input:
+0 0 0 0 0 0 0
+0 0 0 0 0 9 9
+0 0 0 0 0 9 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+support pair 2 output:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 5 0 0 0
+0 0 5 5 5 0 0
+0 0 0 5 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+shared query:
+3 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+candidate_0:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 7 0 0 0
+0 0 7 7 7 0 0
+0 0 0 7 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+candidate_1:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 5 0 0 0
+0 0 5 5 5 0 0
+0 0 0 5 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+correct label A: 1
+correct label B: 0
+### Twin A
+normal prediction: decision=TIE distances=(5,5) predicted_shape=[7, 7] exact=False
+decoded grid:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 8 0 0 0
+0 0 8 8 8 0 0
+0 0 0 8 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+swapped-support prediction: decision=TIE distances=(5,5) predicted_shape=[7, 7] exact=False
+decoded grid:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 8 0 0 0
+0 0 8 8 8 0 0
+0 0 0 8 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+pair-order-shuffled prediction: decision=TIE distances=(5,5) predicted_shape=[7, 7] exact=False
+decoded grid:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 8 0 0 0
+0 0 8 8 8 0 0
+0 0 0 8 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+### Twin B
+normal prediction: decision=TIE distances=(5,5) predicted_shape=[7, 7] exact=False
+decoded grid:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 8 0 0 0
+0 0 8 8 8 0 0
+0 0 0 8 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+swapped-support prediction: decision=TIE distances=(5,5) predicted_shape=[7, 7] exact=False
+decoded grid:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 8 0 0 0
+0 0 8 8 8 0 0
+0 0 0 8 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+pair-order-shuffled prediction: decision=TIE distances=(5,5) predicted_shape=[7, 7] exact=False
+decoded grid:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 8 0 0 0
+0 0 8 8 8 0 0
+0 0 0 8 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+mapping-flip status: False
+
+## supplemental: marker_to_output_bijection_v1_00009006
+
+support pairs for Twin A:
+support pair 0 input:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 6 6 0 0
+0 0 0 6 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+support pair 0 output:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 5 0 0 0
+0 0 5 5 5 0 0
+0 0 0 5 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+support pair 1 input:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 3 0
+0 0 0 0 0 3 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+support pair 1 output:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 3 0 0 0
+0 0 3 3 3 0 0
+0 0 0 3 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+support pair 2 input:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 1 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+support pair 2 output:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 7 0 0 0
+0 0 7 7 7 0 0
+0 0 0 7 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+support pairs for Twin B:
+support pair 0 input:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 3 0
+0 0 0 0 0 3 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+support pair 0 output:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 5 0 0 0
+0 0 5 5 5 0 0
+0 0 0 5 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+support pair 1 input:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 1 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+support pair 1 output:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 3 0 0 0
+0 0 3 3 3 0 0
+0 0 0 3 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+support pair 2 input:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 6 6 0 0
+0 0 0 6 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+support pair 2 output:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 7 0 0 0
+0 0 7 7 7 0 0
+0 0 0 7 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+shared query:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 3 0
+0 0 0 0 0 3 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+candidate_0:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 5 0 0 0
+0 0 5 5 5 0 0
+0 0 0 5 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+candidate_1:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 3 0 0 0
+0 0 3 3 3 0 0
+0 0 0 3 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+correct label A: 1
+correct label B: 0
+### Twin A
+normal prediction: decision=1 distances=(5,0) predicted_shape=[7, 7] exact=True
+decoded grid:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 3 0 0 0
+0 0 3 3 3 0 0
+0 0 0 3 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+swapped-support prediction: decision=1 distances=(5,0) predicted_shape=[7, 7] exact=True
+decoded grid:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 3 0 0 0
+0 0 3 3 3 0 0
+0 0 0 3 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+pair-order-shuffled prediction: decision=1 distances=(5,0) predicted_shape=[7, 7] exact=True
+decoded grid:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 3 0 0 0
+0 0 3 3 3 0 0
+0 0 0 3 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+### Twin B
+normal prediction: decision=1 distances=(5,0) predicted_shape=[7, 7] exact=False
+decoded grid:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 3 0 0 0
+0 0 3 3 3 0 0
+0 0 0 3 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+swapped-support prediction: decision=1 distances=(5,0) predicted_shape=[7, 7] exact=False
+decoded grid:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 3 0 0 0
+0 0 3 3 3 0 0
+0 0 0 3 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+pair-order-shuffled prediction: decision=1 distances=(5,0) predicted_shape=[7, 7] exact=False
+decoded grid:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 3 0 0 0
+0 0 3 3 3 0 0
+0 0 0 3 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+mapping-flip status: False
+
+## supplemental: marker_to_output_bijection_v1_00009007
+
+support pairs for Twin A:
+support pair 0 input:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 5 0 0
+0 0 0 0 5 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+support pair 0 output:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 8 0 0 0
+0 0 8 8 8 0 0
+0 0 0 8 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+support pair 1 input:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+7 7 0 0 0 0 0
+7 0 0 0 0 0 0
+0 0 0 0 0 0 0
+support pair 1 output:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 9 0 0 0
+0 0 9 9 9 0 0
+0 0 0 9 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+support pair 2 input:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 6 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+support pair 2 output:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 5 0 0 0
+0 0 5 5 5 0 0
+0 0 0 5 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+support pairs for Twin B:
+support pair 0 input:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 5 0 0
+0 0 0 0 5 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+support pair 0 output:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 5 0 0 0
+0 0 5 5 5 0 0
+0 0 0 5 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+support pair 1 input:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+7 7 0 0 0 0 0
+7 0 0 0 0 0 0
+0 0 0 0 0 0 0
+support pair 1 output:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 8 0 0 0
+0 0 8 8 8 0 0
+0 0 0 8 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+support pair 2 input:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 6 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+support pair 2 output:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 9 0 0 0
+0 0 9 9 9 0 0
+0 0 0 9 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+shared query:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+7 7 0 0 0 0 0
+7 0 0 0 0 0 0
+0 0 0 0 0 0 0
+candidate_0:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 8 0 0 0
+0 0 8 8 8 0 0
+0 0 0 8 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+candidate_1:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 9 0 0 0
+0 0 9 9 9 0 0
+0 0 0 9 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+correct label A: 1
+correct label B: 0
+### Twin A
+normal prediction: decision=0 distances=(0,5) predicted_shape=[7, 7] exact=False
+decoded grid:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 8 0 0 0
+0 0 8 8 8 0 0
+0 0 0 8 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+swapped-support prediction: decision=0 distances=(0,5) predicted_shape=[7, 7] exact=False
+decoded grid:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 8 0 0 0
+0 0 8 8 8 0 0
+0 0 0 8 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+pair-order-shuffled prediction: decision=1 distances=(5,0) predicted_shape=[7, 7] exact=True
+decoded grid:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 9 0 0 0
+0 0 9 9 9 0 0
+0 0 0 9 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+### Twin B
+normal prediction: decision=0 distances=(0,5) predicted_shape=[7, 7] exact=True
+decoded grid:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 8 0 0 0
+0 0 8 8 8 0 0
+0 0 0 8 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+swapped-support prediction: decision=0 distances=(0,5) predicted_shape=[7, 7] exact=True
+decoded grid:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 8 0 0 0
+0 0 8 8 8 0 0
+0 0 0 8 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+pair-order-shuffled prediction: decision=0 distances=(0,5) predicted_shape=[7, 7] exact=True
+decoded grid:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 8 0 0 0
+0 0 8 8 8 0 0
+0 0 0 8 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+mapping-flip status: False

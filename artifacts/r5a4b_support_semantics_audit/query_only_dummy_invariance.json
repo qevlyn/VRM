@@ -1,0 +1,226 @@
+{
+  "fold_count": 20,
+  "rows": [
+    {
+      "all_equal": true,
+      "audit_index": 0,
+      "decoded_grid_equal": true,
+      "dense_color_logits_equal": true,
+      "height_logits_equal": true,
+      "predicted_shape_equal": true,
+      "query_pair_index": 2,
+      "task_id": "5a719d11",
+      "width_logits_equal": true
+    },
+    {
+      "all_equal": true,
+      "audit_index": 1,
+      "decoded_grid_equal": true,
+      "dense_color_logits_equal": true,
+      "height_logits_equal": true,
+      "predicted_shape_equal": true,
+      "query_pair_index": 1,
+      "task_id": "84db8fc4",
+      "width_logits_equal": true
+    },
+    {
+      "all_equal": true,
+      "audit_index": 2,
+      "decoded_grid_equal": true,
+      "dense_color_logits_equal": true,
+      "height_logits_equal": true,
+      "predicted_shape_equal": true,
+      "query_pair_index": 1,
+      "task_id": "d94c3b52",
+      "width_logits_equal": true
+    },
+    {
+      "all_equal": true,
+      "audit_index": 3,
+      "decoded_grid_equal": true,
+      "dense_color_logits_equal": true,
+      "height_logits_equal": true,
+      "predicted_shape_equal": true,
+      "query_pair_index": 1,
+      "task_id": "b6afb2da",
+      "width_logits_equal": true
+    },
+    {
+      "all_equal": true,
+      "audit_index": 4,
+      "decoded_grid_equal": true,
+      "dense_color_logits_equal": true,
+      "height_logits_equal": true,
+      "predicted_shape_equal": true,
+      "query_pair_index": 0,
+      "task_id": "963e52fc",
+      "width_logits_equal": true
+    },
+    {
+      "all_equal": true,
+      "audit_index": 5,
+      "decoded_grid_equal": true,
+      "dense_color_logits_equal": true,
+      "height_logits_equal": true,
+      "predicted_shape_equal": true,
+      "query_pair_index": 2,
+      "task_id": "7b6016b9",
+      "width_logits_equal": true
+    },
+    {
+      "all_equal": true,
+      "audit_index": 6,
+      "decoded_grid_equal": true,
+      "dense_color_logits_equal": true,
+      "height_logits_equal": true,
+      "predicted_shape_equal": true,
+      "query_pair_index": 1,
+      "task_id": "2f767503",
+      "width_logits_equal": true
+    },
+    {
+      "all_equal": true,
+      "audit_index": 7,
+      "decoded_grid_equal": true,
+      "dense_color_logits_equal": true,
+      "height_logits_equal": true,
+      "predicted_shape_equal": true,
+      "query_pair_index": 0,
+      "task_id": "e9b4f6fc",
+      "width_logits_equal": true
+    },
+    {
+      "all_equal": true,
+      "audit_index": 8,
+      "decoded_grid_equal": true,
+      "dense_color_logits_equal": true,
+      "height_logits_equal": true,
+      "predicted_shape_equal": true,
+      "query_pair_index": 2,
+      "task_id": "a699fb00",
+      "width_logits_equal": true
+    },
+    {
+      "all_equal": true,
+      "audit_index": 9,
+      "decoded_grid_equal": true,
+      "dense_color_logits_equal": true,
+      "height_logits_equal": true,
+      "predicted_shape_equal": true,
+      "query_pair_index": 0,
+      "task_id": "5a719d11",
+      "width_logits_equal": true
+    },
+    {
+      "all_equal": true,
+      "audit_index": 10,
+      "decoded_grid_equal": true,
+      "dense_color_logits_equal": true,
+      "height_logits_equal": true,
+      "predicted_shape_equal": true,
+      "query_pair_index": 0,
+      "task_id": "7df24a62",
+      "width_logits_equal": true
+    },
+    {
+      "all_equal": true,
+      "audit_index": 11,
+      "decoded_grid_equal": true,
+      "dense_color_logits_equal": true,
+      "height_logits_equal": true,
+      "predicted_shape_equal": true,
+      "query_pair_index": 1,
+      "task_id": "0e206a2e",
+      "width_logits_equal": true
+    },
+    {
+      "all_equal": true,
+      "audit_index": 12,
+      "decoded_grid_equal": true,
+      "dense_color_logits_equal": true,
+      "height_logits_equal": true,
+      "predicted_shape_equal": true,
+      "query_pair_index": 2,
+      "task_id": "9f27f097",
+      "width_logits_equal": true
+    },
+    {
+      "all_equal": true,
+      "audit_index": 13,
+      "decoded_grid_equal": true,
+      "dense_color_logits_equal": true,
+      "height_logits_equal": true,
+      "predicted_shape_equal": true,
+      "query_pair_index": 0,
+      "task_id": "ac605cbb",
+      "width_logits_equal": true
+    },
+    {
+      "all_equal": true,
+      "audit_index": 14,
+      "decoded_grid_equal": true,
+      "dense_color_logits_equal": true,
+      "height_logits_equal": true,
+      "predicted_shape_equal": true,
+      "query_pair_index": 0,
+      "task_id": "d492a647",
+      "width_logits_equal": true
+    },
+    {
+      "all_equal": true,
+      "audit_index": 15,
+      "decoded_grid_equal": true,
+      "dense_color_logits_equal": true,
+      "height_logits_equal": true,
+      "predicted_shape_equal": true,
+      "query_pair_index": 3,
+      "task_id": "7df24a62",
+      "width_logits_equal": true
+    },
+    {
+      "all_equal": true,
+      "audit_index": 16,
+      "decoded_grid_equal": true,
+      "dense_color_logits_equal": true,
+      "height_logits_equal": true,
+      "predicted_shape_equal": true,
+      "query_pair_index": 3,
+      "task_id": "b2862040",
+      "width_logits_equal": true
+    },
+    {
+      "all_equal": true,
+      "audit_index": 17,
+      "decoded_grid_equal": true,
+      "dense_color_logits_equal": true,
+      "height_logits_equal": true,
+      "predicted_shape_equal": true,
+      "query_pair_index": 5,
+      "task_id": "281123b4",
+      "width_logits_equal": true
+    },
+    {
+      "all_equal": true,
+      "audit_index": 18,
+      "decoded_grid_equal": true,
+      "dense_color_logits_equal": true,
+      "height_logits_equal": true,
+      "predicted_shape_equal": true,
+      "query_pair_index": 0,
+      "task_id": "7b6016b9",
+      "width_logits_equal": true
+    },
+    {
+      "all_equal": true,
+      "audit_index": 19,
+      "decoded_grid_equal": true,
+      "dense_color_logits_equal": true,
+      "height_logits_equal": true,
+      "predicted_shape_equal": true,
+      "query_pair_index": 1,
+      "task_id": "496994bd",
+      "width_logits_equal": true
+    }
+  ],
+  "status": "QUERY_ONLY_BYPASS_VALID"
+}

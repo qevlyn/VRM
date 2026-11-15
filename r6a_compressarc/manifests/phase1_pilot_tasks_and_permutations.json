@@ -1,0 +1,3785 @@
+{
+  "candidate_pool_count": 24,
+  "candidate_pool_task_ids": [
+    "08573cc6",
+    "0934a4d8",
+    "136b0064",
+    "16b78196",
+    "1e97544e",
+    "3ed85e70",
+    "477d2879",
+    "47996f11",
+    "4aab4007",
+    "55783887",
+    "604001fa",
+    "67b4a34d",
+    "79fb03f4",
+    "903d1b4a",
+    "929ab4e9",
+    "981571dc",
+    "aa4ec2a5",
+    "af22c60d",
+    "c663677b",
+    "ca8f78db",
+    "da515329",
+    "e66aafb8",
+    "e95e3d8e",
+    "f4081712"
+  ],
+  "created_utc": "2026-07-01T14:55:16Z",
+  "optimization_budget": 1500,
+  "outcomes_read_before_freeze": false,
+  "pool_label": "UNTOUCHED_ARC_AGI_1_EVALUATION_POOL",
+  "run_seed": 0,
+  "selected_task_ids": [
+    "604001fa",
+    "79fb03f4",
+    "981571dc",
+    "3ed85e70",
+    "aa4ec2a5",
+    "929ab4e9"
+  ],
+  "selection_seed": 20260701,
+  "split": "ARC-AGI-1 evaluation",
+  "task_metadata": {
+    "3ed85e70": {
+      "b1_derangements": [
+        {
+          "permutation": [
+            1,
+            2,
+            0
+          ],
+          "total_output_hamming": 1283
+        },
+        {
+          "permutation": [
+            2,
+            0,
+            1
+          ],
+          "total_output_hamming": 1283
+        }
+      ],
+      "b1_selected_permutation": [
+        1,
+        2,
+        0
+      ],
+      "b1_status": "B1_ELIGIBLE",
+      "b2_derangements": [
+        {
+          "permutation": [
+            1,
+            2,
+            0
+          ],
+          "total_output_hamming": 1283
+        },
+        {
+          "permutation": [
+            2,
+            0,
+            1
+          ],
+          "total_output_hamming": 1283
+        }
+      ],
+      "b2_selected_permutation": [
+        1,
+        2,
+        0
+      ],
+      "b2_status": "CONTENT_PAIRING_ELIGIBLE",
+      "n_test": 1,
+      "n_train": 3,
+      "task_id": "3ed85e70",
+      "test_input_shapes": [
+        [
+          30,
+          30
+        ]
+      ],
+      "train_input_shapes": [
+        [
+          30,
+          30
+        ],
+        [
+          30,
+          30
+        ],
+        [
+          30,
+          30
+        ]
+      ],
+      "train_output_shapes": [
+        [
+          30,
+          30
+        ],
+        [
+          30,
+          30
+        ],
+        [
+          30,
+          30
+        ]
+      ]
+    },
+    "604001fa": {
+      "b1_derangements": [
+        {
+          "permutation": [
+            1,
+            0,
+            3,
+            2
+          ],
+          "total_output_hamming": 650
+        },
+        {
+          "permutation": [
+            1,
+            2,
+            3,
+            0
+          ],
+          "total_output_hamming": 640
+        },
+        {
+          "permutation": [
+            3,
+            0,
+            1,
+            2
+          ],
+          "total_output_hamming": 640
+        },
+        {
+          "permutation": [
+            1,
+            3,
+            0,
+            2
+          ],
+          "total_output_hamming": 633
+        },
+        {
+          "permutation": [
+            2,
+            0,
+            3,
+            1
+          ],
+          "total_output_hamming": 633
+        },
+        {
+          "permutation": [
+            3,
+            2,
+            1,
+            0
+          ],
+          "total_output_hamming": 630
+        },
+        {
+          "permutation": [
+            2,
+            3,
+            1,
+            0
+          ],
+          "total_output_hamming": 623
+        },
+        {
+          "permutation": [
+            3,
+            2,
+            0,
+            1
+          ],
+          "total_output_hamming": 623
+        },
+        {
+          "permutation": [
+            2,
+            3,
+            0,
+            1
+          ],
+          "total_output_hamming": 616
+        }
+      ],
+      "b1_selected_permutation": [
+        1,
+        0,
+        3,
+        2
+      ],
+      "b1_status": "B1_ELIGIBLE",
+      "b2_derangements": [],
+      "b2_selected_permutation": null,
+      "b2_status": "CONTENT_PAIRING_INELIGIBLE_NO_SHAPE_PRESERVING_DERANGEMENT",
+      "n_test": 1,
+      "n_train": 4,
+      "task_id": "604001fa",
+      "test_input_shapes": [
+        [
+          15,
+          12
+        ]
+      ],
+      "train_input_shapes": [
+        [
+          20,
+          16
+        ],
+        [
+          8,
+          6
+        ],
+        [
+          9,
+          11
+        ],
+        [
+          8,
+          12
+        ]
+      ],
+      "train_output_shapes": [
+        [
+          20,
+          16
+        ],
+        [
+          8,
+          6
+        ],
+        [
+          9,
+          11
+        ],
+        [
+          8,
+          12
+        ]
+      ]
+    },
+    "79fb03f4": {
+      "b1_derangements": [
+        {
+          "permutation": [
+            5,
+            3,
+            4,
+            1,
+            2,
+            0
+          ],
+          "total_output_hamming": 1236
+        },
+        {
+          "permutation": [
+            2,
+            3,
+            4,
+            1,
+            5,
+            0
+          ],
+          "total_output_hamming": 1232
+        },
+        {
+          "permutation": [
+            5,
+            3,
+            0,
+            1,
+            2,
+            4
+          ],
+          "total_output_hamming": 1232
+        },
+        {
+          "permutation": [
+            5,
+            2,
+            4,
+            1,
+            3,
+            0
+          ],
+          "total_output_hamming": 1231
+        },
+        {
+          "permutation": [
+            5,
+            3,
+            1,
+            4,
+            2,
+            0
+          ],
+          "total_output_hamming": 1231
+        },
+        {
+          "permutation": [
+            2,
+            3,
+            0,
+            1,
+            5,
+            4
+          ],
+          "total_output_hamming": 1228
+        },
+        {
+          "permutation": [
+            2,
+            3,
+            1,
+            4,
+            5,
+            0
+          ],
+          "total_output_hamming": 1227
+        },
+        {
+          "permutation": [
+            5,
+            2,
+            0,
+            1,
+            3,
+            4
+          ],
+          "total_output_hamming": 1227
+        },
+        {
+          "permutation": [
+            5,
+            2,
+            1,
+            4,
+            3,
+            0
+          ],
+          "total_output_hamming": 1226
+        },
+        {
+          "permutation": [
+            2,
+            5,
+            4,
+            1,
+            3,
+            0
+          ],
+          "total_output_hamming": 1224
+        },
+        {
+          "permutation": [
+            5,
+            3,
+            0,
+            4,
+            2,
+            1
+          ],
+          "total_output_hamming": 1224
+        },
+        {
+          "permutation": [
+            2,
+            3,
+            0,
+            4,
+            5,
+            1
+          ],
+          "total_output_hamming": 1220
+        },
+        {
+          "permutation": [
+            2,
+            5,
+            0,
+            1,
+            3,
+            4
+          ],
+          "total_output_hamming": 1220
+        },
+        {
+          "permutation": [
+            3,
+            2,
+            4,
+            1,
+            5,
+            0
+          ],
+          "total_output_hamming": 1220
+        },
+        {
+          "permutation": [
+            5,
+            3,
+            1,
+            0,
+            2,
+            4
+          ],
+          "total_output_hamming": 1220
+        },
+        {
+          "permutation": [
+            2,
+            5,
+            1,
+            4,
+            3,
+            0
+          ],
+          "total_output_hamming": 1219
+        },
+        {
+          "permutation": [
+            5,
+            2,
+            0,
+            4,
+            3,
+            1
+          ],
+          "total_output_hamming": 1219
+        },
+        {
+          "permutation": [
+            3,
+            5,
+            4,
+            1,
+            2,
+            0
+          ],
+          "total_output_hamming": 1217
+        },
+        {
+          "permutation": [
+            5,
+            3,
+            4,
+            0,
+            2,
+            1
+          ],
+          "total_output_hamming": 1217
+        },
+        {
+          "permutation": [
+            2,
+            3,
+            1,
+            0,
+            5,
+            4
+          ],
+          "total_output_hamming": 1216
+        },
+        {
+          "permutation": [
+            3,
+            2,
+            0,
+            1,
+            5,
+            4
+          ],
+          "total_output_hamming": 1216
+        },
+        {
+          "permutation": [
+            3,
+            2,
+            1,
+            4,
+            5,
+            0
+          ],
+          "total_output_hamming": 1215
+        },
+        {
+          "permutation": [
+            5,
+            2,
+            1,
+            0,
+            3,
+            4
+          ],
+          "total_output_hamming": 1215
+        },
+        {
+          "permutation": [
+            2,
+            3,
+            4,
+            0,
+            5,
+            1
+          ],
+          "total_output_hamming": 1213
+        },
+        {
+          "permutation": [
+            3,
+            5,
+            0,
+            1,
+            2,
+            4
+          ],
+          "total_output_hamming": 1213
+        },
+        {
+          "permutation": [
+            2,
+            5,
+            0,
+            4,
+            3,
+            1
+          ],
+          "total_output_hamming": 1212
+        },
+        {
+          "permutation": [
+            3,
+            5,
+            1,
+            4,
+            2,
+            0
+          ],
+          "total_output_hamming": 1212
+        },
+        {
+          "permutation": [
+            5,
+            2,
+            4,
+            0,
+            3,
+            1
+          ],
+          "total_output_hamming": 1212
+        },
+        {
+          "permutation": [
+            2,
+            5,
+            1,
+            0,
+            3,
+            4
+          ],
+          "total_output_hamming": 1208
+        },
+        {
+          "permutation": [
+            3,
+            2,
+            0,
+            4,
+            5,
+            1
+          ],
+          "total_output_hamming": 1208
+        },
+        {
+          "permutation": [
+            2,
+            5,
+            4,
+            0,
+            3,
+            1
+          ],
+          "total_output_hamming": 1205
+        },
+        {
+          "permutation": [
+            3,
+            5,
+            0,
+            4,
+            2,
+            1
+          ],
+          "total_output_hamming": 1205
+        },
+        {
+          "permutation": [
+            3,
+            2,
+            1,
+            0,
+            5,
+            4
+          ],
+          "total_output_hamming": 1204
+        },
+        {
+          "permutation": [
+            3,
+            2,
+            4,
+            0,
+            5,
+            1
+          ],
+          "total_output_hamming": 1201
+        },
+        {
+          "permutation": [
+            3,
+            5,
+            1,
+            0,
+            2,
+            4
+          ],
+          "total_output_hamming": 1201
+        },
+        {
+          "permutation": [
+            3,
+            5,
+            4,
+            0,
+            2,
+            1
+          ],
+          "total_output_hamming": 1198
+        },
+        {
+          "permutation": [
+            1,
+            3,
+            4,
+            5,
+            2,
+            0
+          ],
+          "total_output_hamming": 1164
+        },
+        {
+          "permutation": [
+            5,
+            0,
+            4,
+            1,
+            2,
+            3
+          ],
+          "total_output_hamming": 1164
+        },
+        {
+          "permutation": [
+            1,
+            3,
+            5,
+            4,
+            2,
+            0
+          ],
+          "total_output_hamming": 1161
+        },
+        {
+          "permutation": [
+            5,
+            0,
+            4,
+            1,
+            3,
+            2
+          ],
+          "total_output_hamming": 1161
+        },
+        {
+          "permutation": [
+            1,
+            3,
+            0,
+            5,
+            2,
+            4
+          ],
+          "total_output_hamming": 1160
+        },
+        {
+          "permutation": [
+            2,
+            0,
+            4,
+            1,
+            5,
+            3
+          ],
+          "total_output_hamming": 1160
+        },
+        {
+          "permutation": [
+            1,
+            2,
+            4,
+            5,
+            3,
+            0
+          ],
+          "total_output_hamming": 1159
+        },
+        {
+          "permutation": [
+            5,
+            0,
+            1,
+            4,
+            2,
+            3
+          ],
+          "total_output_hamming": 1159
+        },
+        {
+          "permutation": [
+            2,
+            3,
+            4,
+            5,
+            1,
+            0
+          ],
+          "total_output_hamming": 1158
+        },
+        {
+          "permutation": [
+            5,
+            4,
+            0,
+            1,
+            2,
+            3
+          ],
+          "total_output_hamming": 1158
+        },
+        {
+          "permutation": [
+            1,
+            3,
+            0,
+            4,
+            5,
+            2
+          ],
+          "total_output_hamming": 1157
+        },
+        {
+          "permutation": [
+            2,
+            0,
+            5,
+            1,
+            3,
+            4
+          ],
+          "total_output_hamming": 1157
+        },
+        {
+          "permutation": [
+            1,
+            2,
+            5,
+            4,
+            3,
+            0
+          ],
+          "total_output_hamming": 1156
+        },
+        {
+          "permutation": [
+            5,
+            0,
+            1,
+            4,
+            3,
+            2
+          ],
+          "total_output_hamming": 1156
+        },
+        {
+          "permutation": [
+            1,
+            2,
+            0,
+            4,
+            5,
+            3
+          ],
+          "total_output_hamming": 1155
+        },
+        {
+          "permutation": [
+            1,
+            2,
+            0,
+            5,
+            3,
+            4
+          ],
+          "total_output_hamming": 1155
+        },
+        {
+          "permutation": [
+            2,
+            0,
+            1,
+            4,
+            5,
+            3
+          ],
+          "total_output_hamming": 1155
+        },
+        {
+          "permutation": [
+            2,
+            0,
+            1,
+            5,
+            3,
+            4
+          ],
+          "total_output_hamming": 1155
+        },
+        {
+          "permutation": [
+            2,
+            3,
+            5,
+            4,
+            1,
+            0
+          ],
+          "total_output_hamming": 1155
+        },
+        {
+          "permutation": [
+            2,
+            4,
+            5,
+            1,
+            3,
+            0
+          ],
+          "total_output_hamming": 1155
+        },
+        {
+          "permutation": [
+            5,
+            3,
+            0,
+            4,
+            1,
+            2
+          ],
+          "total_output_hamming": 1155
+        },
+        {
+          "permutation": [
+            5,
+            4,
+            0,
+            1,
+            3,
+            2
+          ],
+          "total_output_hamming": 1155
+        },
+        {
+          "permutation": [
+            2,
+            3,
+            0,
+            5,
+            1,
+            4
+          ],
+          "total_output_hamming": 1154
+        },
+        {
+          "permutation": [
+            2,
+            4,
+            0,
+            1,
+            5,
+            3
+          ],
+          "total_output_hamming": 1154
+        },
+        {
+          "permutation": [
+            2,
+            4,
+            1,
+            5,
+            3,
+            0
+          ],
+          "total_output_hamming": 1153
+        },
+        {
+          "permutation": [
+            5,
+            2,
+            0,
+            4,
+            1,
+            3
+          ],
+          "total_output_hamming": 1153
+        },
+        {
+          "permutation": [
+            1,
+            5,
+            0,
+            4,
+            2,
+            3
+          ],
+          "total_output_hamming": 1152
+        },
+        {
+          "permutation": [
+            2,
+            0,
+            4,
+            5,
+            3,
+            1
+          ],
+          "total_output_hamming": 1152
+        },
+        {
+          "permutation": [
+            1,
+            3,
+            4,
+            0,
+            5,
+            2
+          ],
+          "total_output_hamming": 1150
+        },
+        {
+          "permutation": [
+            1,
+            3,
+            5,
+            0,
+            2,
+            4
+          ],
+          "total_output_hamming": 1150
+        },
+        {
+          "permutation": [
+            3,
+            0,
+            4,
+            1,
+            5,
+            2
+          ],
+          "total_output_hamming": 1150
+        },
+        {
+          "permutation": [
+            3,
+            0,
+            5,
+            1,
+            2,
+            4
+          ],
+          "total_output_hamming": 1150
+        },
+        {
+          "permutation": [
+            1,
+            5,
+            0,
+            4,
+            3,
+            2
+          ],
+          "total_output_hamming": 1149
+        },
+        {
+          "permutation": [
+            2,
+            0,
+            5,
+            4,
+            3,
+            1
+          ],
+          "total_output_hamming": 1149
+        },
+        {
+          "permutation": [
+            1,
+            2,
+            4,
+            0,
+            5,
+            3
+          ],
+          "total_output_hamming": 1148
+        },
+        {
+          "permutation": [
+            3,
+            0,
+            1,
+            5,
+            2,
+            4
+          ],
+          "total_output_hamming": 1148
+        },
+        {
+          "permutation": [
+            3,
+            4,
+            5,
+            1,
+            2,
+            0
+          ],
+          "total_output_hamming": 1148
+        },
+        {
+          "permutation": [
+            5,
+            3,
+            4,
+            0,
+            1,
+            2
+          ],
+          "total_output_hamming": 1148
+        },
+        {
+          "permutation": [
+            2,
+            4,
+            0,
+            5,
+            3,
+            1
+          ],
+          "total_output_hamming": 1146
+        },
+        {
+          "permutation": [
+            2,
+            5,
+            0,
+            4,
+            1,
+            3
+          ],
+          "total_output_hamming": 1146
+        },
+        {
+          "permutation": [
+            3,
+            2,
+            4,
+            5,
+            1,
+            0
+          ],
+          "total_output_hamming": 1146
+        },
+        {
+          "permutation": [
+            3,
+            4,
+            1,
+            5,
+            2,
+            0
+          ],
+          "total_output_hamming": 1146
+        },
+        {
+          "permutation": [
+            5,
+            2,
+            4,
+            0,
+            1,
+            3
+          ],
+          "total_output_hamming": 1146
+        },
+        {
+          "permutation": [
+            5,
+            4,
+            1,
+            0,
+            2,
+            3
+          ],
+          "total_output_hamming": 1146
+        },
+        {
+          "permutation": [
+            1,
+            2,
+            5,
+            0,
+            3,
+            4
+          ],
+          "total_output_hamming": 1145
+        },
+        {
+          "permutation": [
+            1,
+            5,
+            4,
+            0,
+            2,
+            3
+          ],
+          "total_output_hamming": 1145
+        },
+        {
+          "permutation": [
+            3,
+            0,
+            1,
+            4,
+            5,
+            2
+          ],
+          "total_output_hamming": 1145
+        },
+        {
+          "permutation": [
+            3,
+            0,
+            4,
+            5,
+            2,
+            1
+          ],
+          "total_output_hamming": 1145
+        },
+        {
+          "permutation": [
+            2,
+            3,
+            5,
+            0,
+            1,
+            4
+          ],
+          "total_output_hamming": 1144
+        },
+        {
+          "permutation": [
+            3,
+            4,
+            0,
+            1,
+            5,
+            2
+          ],
+          "total_output_hamming": 1144
+        },
+        {
+          "permutation": [
+            3,
+            2,
+            5,
+            4,
+            1,
+            0
+          ],
+          "total_output_hamming": 1143
+        },
+        {
+          "permutation": [
+            5,
+            4,
+            1,
+            0,
+            3,
+            2
+          ],
+          "total_output_hamming": 1143
+        },
+        {
+          "permutation": [
+            1,
+            5,
+            4,
+            0,
+            3,
+            2
+          ],
+          "total_output_hamming": 1142
+        },
+        {
+          "permutation": [
+            2,
+            4,
+            1,
+            0,
+            5,
+            3
+          ],
+          "total_output_hamming": 1142
+        },
+        {
+          "permutation": [
+            3,
+            0,
+            5,
+            4,
+            2,
+            1
+          ],
+          "total_output_hamming": 1142
+        },
+        {
+          "permutation": [
+            3,
+            2,
+            0,
+            5,
+            1,
+            4
+          ],
+          "total_output_hamming": 1142
+        },
+        {
+          "permutation": [
+            1,
+            3,
+            4,
+            2,
+            5,
+            0
+          ],
+          "total_output_hamming": 1141
+        },
+        {
+          "permutation": [
+            5,
+            0,
+            3,
+            1,
+            2,
+            4
+          ],
+          "total_output_hamming": 1141
+        },
+        {
+          "permutation": [
+            2,
+            5,
+            4,
+            0,
+            1,
+            3
+          ],
+          "total_output_hamming": 1139
+        },
+        {
+          "permutation": [
+            3,
+            4,
+            0,
+            5,
+            2,
+            1
+          ],
+          "total_output_hamming": 1139
+        },
+        {
+          "permutation": [
+            5,
+            3,
+            4,
+            2,
+            1,
+            0
+          ],
+          "total_output_hamming": 1139
+        },
+        {
+          "permutation": [
+            5,
+            4,
+            3,
+            1,
+            2,
+            0
+          ],
+          "total_output_hamming": 1139
+        },
+        {
+          "permutation": [
+            1,
+            3,
+            0,
+            2,
+            5,
+            4
+          ],
+          "total_output_hamming": 1137
+        },
+        {
+          "permutation": [
+            2,
+            0,
+            3,
+            1,
+            5,
+            4
+          ],
+          "total_output_hamming": 1137
+        },
+        {
+          "permutation": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            0
+          ],
+          "total_output_hamming": 1136
+        },
+        {
+          "permutation": [
+            2,
+            4,
+            5,
+            0,
+            3,
+            1
+          ],
+          "total_output_hamming": 1136
+        },
+        {
+          "permutation": [
+            3,
+            5,
+            0,
+            4,
+            1,
+            2
+          ],
+          "total_output_hamming": 1136
+        },
+        {
+          "permutation": [
+            5,
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "total_output_hamming": 1136
+        },
+        {
+          "permutation": [
+            2,
+            4,
+            3,
+            1,
+            5,
+            0
+          ],
+          "total_output_hamming": 1135
+        },
+        {
+          "permutation": [
+            5,
+            3,
+            0,
+            2,
+            1,
+            4
+          ],
+          "total_output_hamming": 1135
+        },
+        {
+          "permutation": [
+            5,
+            2,
+            3,
+            4,
+            1,
+            0
+          ],
+          "total_output_hamming": 1134
+        },
+        {
+          "permutation": [
+            5,
+            4,
+            1,
+            2,
+            3,
+            0
+          ],
+          "total_output_hamming": 1134
+        },
+        {
+          "permutation": [
+            1,
+            5,
+            3,
+            4,
+            2,
+            0
+          ],
+          "total_output_hamming": 1133
+        },
+        {
+          "permutation": [
+            1,
+            5,
+            4,
+            2,
+            3,
+            0
+          ],
+          "total_output_hamming": 1133
+        },
+        {
+          "permutation": [
+            5,
+            0,
+            3,
+            4,
+            2,
+            1
+          ],
+          "total_output_hamming": 1133
+        },
+        {
+          "permutation": [
+            5,
+            0,
+            4,
+            2,
+            3,
+            1
+          ],
+          "total_output_hamming": 1133
+        },
+        {
+          "permutation": [
+            3,
+            2,
+            5,
+            0,
+            1,
+            4
+          ],
+          "total_output_hamming": 1132
+        },
+        {
+          "permutation": [
+            3,
+            4,
+            1,
+            0,
+            5,
+            2
+          ],
+          "total_output_hamming": 1132
+        },
+        {
+          "permutation": [
+            1,
+            5,
+            0,
+            2,
+            3,
+            4
+          ],
+          "total_output_hamming": 1129
+        },
+        {
+          "permutation": [
+            2,
+            0,
+            3,
+            4,
+            5,
+            1
+          ],
+          "total_output_hamming": 1129
+        },
+        {
+          "permutation": [
+            3,
+            4,
+            5,
+            0,
+            2,
+            1
+          ],
+          "total_output_hamming": 1129
+        },
+        {
+          "permutation": [
+            3,
+            5,
+            4,
+            0,
+            1,
+            2
+          ],
+          "total_output_hamming": 1129
+        },
+        {
+          "permutation": [
+            2,
+            5,
+            3,
+            4,
+            1,
+            0
+          ],
+          "total_output_hamming": 1127
+        },
+        {
+          "permutation": [
+            5,
+            4,
+            0,
+            2,
+            3,
+            1
+          ],
+          "total_output_hamming": 1127
+        },
+        {
+          "permutation": [
+            1,
+            2,
+            3,
+            0,
+            5,
+            4
+          ],
+          "total_output_hamming": 1125
+        },
+        {
+          "permutation": [
+            3,
+            0,
+            1,
+            2,
+            5,
+            4
+          ],
+          "total_output_hamming": 1125
+        },
+        {
+          "permutation": [
+            3,
+            4,
+            1,
+            2,
+            5,
+            0
+          ],
+          "total_output_hamming": 1123
+        },
+        {
+          "permutation": [
+            5,
+            2,
+            3,
+            0,
+            1,
+            4
+          ],
+          "total_output_hamming": 1123
+        },
+        {
+          "permutation": [
+            1,
+            5,
+            3,
+            0,
+            2,
+            4
+          ],
+          "total_output_hamming": 1122
+        },
+        {
+          "permutation": [
+            3,
+            0,
+            4,
+            2,
+            5,
+            1
+          ],
+          "total_output_hamming": 1122
+        },
+        {
+          "permutation": [
+            3,
+            5,
+            4,
+            2,
+            1,
+            0
+          ],
+          "total_output_hamming": 1120
+        },
+        {
+          "permutation": [
+            5,
+            4,
+            3,
+            0,
+            2,
+            1
+          ],
+          "total_output_hamming": 1120
+        },
+        {
+          "permutation": [
+            2,
+            4,
+            3,
+            0,
+            5,
+            1
+          ],
+          "total_output_hamming": 1116
+        },
+        {
+          "permutation": [
+            2,
+            5,
+            3,
+            0,
+            1,
+            4
+          ],
+          "total_output_hamming": 1116
+        },
+        {
+          "permutation": [
+            3,
+            4,
+            0,
+            2,
+            5,
+            1
+          ],
+          "total_output_hamming": 1116
+        },
+        {
+          "permutation": [
+            3,
+            5,
+            0,
+            2,
+            1,
+            4
+          ],
+          "total_output_hamming": 1116
+        },
+        {
+          "permutation": [
+            1,
+            0,
+            4,
+            5,
+            2,
+            3
+          ],
+          "total_output_hamming": 1092
+        },
+        {
+          "permutation": [
+            1,
+            0,
+            4,
+            5,
+            3,
+            2
+          ],
+          "total_output_hamming": 1089
+        },
+        {
+          "permutation": [
+            1,
+            0,
+            5,
+            4,
+            2,
+            3
+          ],
+          "total_output_hamming": 1089
+        },
+        {
+          "permutation": [
+            1,
+            0,
+            5,
+            4,
+            3,
+            2
+          ],
+          "total_output_hamming": 1086
+        },
+        {
+          "permutation": [
+            1,
+            4,
+            0,
+            5,
+            2,
+            3
+          ],
+          "total_output_hamming": 1086
+        },
+        {
+          "permutation": [
+            2,
+            0,
+            4,
+            5,
+            1,
+            3
+          ],
+          "total_output_hamming": 1086
+        },
+        {
+          "permutation": [
+            1,
+            4,
+            0,
+            5,
+            3,
+            2
+          ],
+          "total_output_hamming": 1083
+        },
+        {
+          "permutation": [
+            2,
+            0,
+            5,
+            4,
+            1,
+            3
+          ],
+          "total_output_hamming": 1083
+        },
+        {
+          "permutation": [
+            2,
+            4,
+            0,
+            5,
+            1,
+            3
+          ],
+          "total_output_hamming": 1080
+        },
+        {
+          "permutation": [
+            1,
+            4,
+            5,
+            0,
+            2,
+            3
+          ],
+          "total_output_hamming": 1076
+        },
+        {
+          "permutation": [
+            3,
+            0,
+            4,
+            5,
+            1,
+            2
+          ],
+          "total_output_hamming": 1076
+        },
+        {
+          "permutation": [
+            1,
+            4,
+            5,
+            0,
+            3,
+            2
+          ],
+          "total_output_hamming": 1073
+        },
+        {
+          "permutation": [
+            3,
+            0,
+            5,
+            4,
+            1,
+            2
+          ],
+          "total_output_hamming": 1073
+        },
+        {
+          "permutation": [
+            2,
+            4,
+            5,
+            0,
+            1,
+            3
+          ],
+          "total_output_hamming": 1070
+        },
+        {
+          "permutation": [
+            3,
+            4,
+            0,
+            5,
+            1,
+            2
+          ],
+          "total_output_hamming": 1070
+        },
+        {
+          "permutation": [
+            1,
+            0,
+            3,
+            5,
+            2,
+            4
+          ],
+          "total_output_hamming": 1069
+        },
+        {
+          "permutation": [
+            1,
+            0,
+            4,
+            2,
+            5,
+            3
+          ],
+          "total_output_hamming": 1069
+        },
+        {
+          "permutation": [
+            1,
+            4,
+            3,
+            5,
+            2,
+            0
+          ],
+          "total_output_hamming": 1067
+        },
+        {
+          "permutation": [
+            5,
+            0,
+            4,
+            2,
+            1,
+            3
+          ],
+          "total_output_hamming": 1067
+        },
+        {
+          "permutation": [
+            1,
+            0,
+            3,
+            4,
+            5,
+            2
+          ],
+          "total_output_hamming": 1066
+        },
+        {
+          "permutation": [
+            1,
+            0,
+            5,
+            2,
+            3,
+            4
+          ],
+          "total_output_hamming": 1066
+        },
+        {
+          "permutation": [
+            1,
+            4,
+            5,
+            2,
+            3,
+            0
+          ],
+          "total_output_hamming": 1064
+        },
+        {
+          "permutation": [
+            5,
+            0,
+            3,
+            4,
+            1,
+            2
+          ],
+          "total_output_hamming": 1064
+        },
+        {
+          "permutation": [
+            1,
+            4,
+            0,
+            2,
+            5,
+            3
+          ],
+          "total_output_hamming": 1063
+        },
+        {
+          "permutation": [
+            2,
+            0,
+            3,
+            5,
+            1,
+            4
+          ],
+          "total_output_hamming": 1063
+        },
+        {
+          "permutation": [
+            4,
+            3,
+            5,
+            1,
+            2,
+            0
+          ],
+          "total_output_hamming": 1062
+        },
+        {
+          "permutation": [
+            5,
+            3,
+            4,
+            1,
+            0,
+            2
+          ],
+          "total_output_hamming": 1062
+        },
+        {
+          "permutation": [
+            2,
+            4,
+            3,
+            5,
+            1,
+            0
+          ],
+          "total_output_hamming": 1061
+        },
+        {
+          "permutation": [
+            5,
+            4,
+            0,
+            2,
+            1,
+            3
+          ],
+          "total_output_hamming": 1061
+        },
+        {
+          "permutation": [
+            3,
+            4,
+            5,
+            0,
+            1,
+            2
+          ],
+          "total_output_hamming": 1060
+        },
+        {
+          "permutation": [
+            4,
+            3,
+            1,
+            5,
+            2,
+            0
+          ],
+          "total_output_hamming": 1060
+        },
+        {
+          "permutation": [
+            5,
+            2,
+            4,
+            1,
+            0,
+            3
+          ],
+          "total_output_hamming": 1060
+        },
+        {
+          "permutation": [
+            2,
+            3,
+            5,
+            1,
+            0,
+            4
+          ],
+          "total_output_hamming": 1058
+        },
+        {
+          "permutation": [
+            4,
+            3,
+            0,
+            1,
+            5,
+            2
+          ],
+          "total_output_hamming": 1058
+        },
+        {
+          "permutation": [
+            4,
+            2,
+            5,
+            1,
+            3,
+            0
+          ],
+          "total_output_hamming": 1057
+        },
+        {
+          "permutation": [
+            5,
+            3,
+            1,
+            4,
+            0,
+            2
+          ],
+          "total_output_hamming": 1057
+        },
+        {
+          "permutation": [
+            2,
+            3,
+            1,
+            5,
+            0,
+            4
+          ],
+          "total_output_hamming": 1056
+        },
+        {
+          "permutation": [
+            4,
+            2,
+            0,
+            1,
+            5,
+            3
+          ],
+          "total_output_hamming": 1056
+        },
+        {
+          "permutation": [
+            4,
+            2,
+            1,
+            5,
+            3,
+            0
+          ],
+          "total_output_hamming": 1055
+        },
+        {
+          "permutation": [
+            5,
+            2,
+            1,
+            4,
+            0,
+            3
+          ],
+          "total_output_hamming": 1055
+        },
+        {
+          "permutation": [
+            1,
+            4,
+            3,
+            0,
+            5,
+            2
+          ],
+          "total_output_hamming": 1053
+        },
+        {
+          "permutation": [
+            2,
+            3,
+            4,
+            5,
+            0,
+            1
+          ],
+          "total_output_hamming": 1053
+        },
+        {
+          "permutation": [
+            2,
+            5,
+            4,
+            1,
+            0,
+            3
+          ],
+          "total_output_hamming": 1053
+        },
+        {
+          "permutation": [
+            3,
+            0,
+            5,
+            2,
+            1,
+            4
+          ],
+          "total_output_hamming": 1053
+        },
+        {
+          "permutation": [
+            4,
+            3,
+            0,
+            5,
+            2,
+            1
+          ],
+          "total_output_hamming": 1053
+        },
+        {
+          "permutation": [
+            4,
+            5,
+            0,
+            1,
+            2,
+            3
+          ],
+          "total_output_hamming": 1053
+        },
+        {
+          "permutation": [
+            3,
+            4,
+            5,
+            2,
+            1,
+            0
+          ],
+          "total_output_hamming": 1051
+        },
+        {
+          "permutation": [
+            5,
+            4,
+            3,
+            0,
+            1,
+            2
+          ],
+          "total_output_hamming": 1051
+        },
+        {
+          "permutation": [
+            2,
+            3,
+            5,
+            4,
+            0,
+            1
+          ],
+          "total_output_hamming": 1050
+        },
+        {
+          "permutation": [
+            4,
+            5,
+            0,
+            1,
+            3,
+            2
+          ],
+          "total_output_hamming": 1050
+        },
+        {
+          "permutation": [
+            2,
+            5,
+            1,
+            4,
+            0,
+            3
+          ],
+          "total_output_hamming": 1048
+        },
+        {
+          "permutation": [
+            4,
+            2,
+            0,
+            5,
+            3,
+            1
+          ],
+          "total_output_hamming": 1048
+        },
+        {
+          "permutation": [
+            1,
+            0,
+            3,
+            2,
+            5,
+            4
+          ],
+          "total_output_hamming": 1046
+        },
+        {
+          "permutation": [
+            3,
+            2,
+            5,
+            1,
+            0,
+            4
+          ],
+          "total_output_hamming": 1046
+        },
+        {
+          "permutation": [
+            4,
+            3,
+            1,
+            0,
+            5,
+            2
+          ],
+          "total_output_hamming": 1046
+        },
+        {
+          "permutation": [
+            1,
+            4,
+            3,
+            2,
+            5,
+            0
+          ],
+          "total_output_hamming": 1044
+        },
+        {
+          "permutation": [
+            3,
+            2,
+            1,
+            5,
+            0,
+            4
+          ],
+          "total_output_hamming": 1044
+        },
+        {
+          "permutation": [
+            4,
+            2,
+            1,
+            0,
+            5,
+            3
+          ],
+          "total_output_hamming": 1044
+        },
+        {
+          "permutation": [
+            5,
+            0,
+            3,
+            2,
+            1,
+            4
+          ],
+          "total_output_hamming": 1044
+        },
+        {
+          "permutation": [
+            3,
+            5,
+            4,
+            1,
+            0,
+            2
+          ],
+          "total_output_hamming": 1043
+        },
+        {
+          "permutation": [
+            4,
+            3,
+            5,
+            0,
+            2,
+            1
+          ],
+          "total_output_hamming": 1043
+        },
+        {
+          "permutation": [
+            5,
+            4,
+            3,
+            2,
+            1,
+            0
+          ],
+          "total_output_hamming": 1042
+        },
+        {
+          "permutation": [
+            3,
+            2,
+            4,
+            5,
+            0,
+            1
+          ],
+          "total_output_hamming": 1041
+        },
+        {
+          "permutation": [
+            4,
+            5,
+            1,
+            0,
+            2,
+            3
+          ],
+          "total_output_hamming": 1041
+        },
+        {
+          "permutation": [
+            3,
+            2,
+            5,
+            4,
+            0,
+            1
+          ],
+          "total_output_hamming": 1038
+        },
+        {
+          "permutation": [
+            3,
+            5,
+            1,
+            4,
+            0,
+            2
+          ],
+          "total_output_hamming": 1038
+        },
+        {
+          "permutation": [
+            4,
+            2,
+            5,
+            0,
+            3,
+            1
+          ],
+          "total_output_hamming": 1038
+        },
+        {
+          "permutation": [
+            4,
+            5,
+            1,
+            0,
+            3,
+            2
+          ],
+          "total_output_hamming": 1038
+        },
+        {
+          "permutation": [
+            4,
+            2,
+            3,
+            1,
+            5,
+            0
+          ],
+          "total_output_hamming": 1037
+        },
+        {
+          "permutation": [
+            4,
+            3,
+            1,
+            2,
+            5,
+            0
+          ],
+          "total_output_hamming": 1037
+        },
+        {
+          "permutation": [
+            5,
+            2,
+            3,
+            1,
+            0,
+            4
+          ],
+          "total_output_hamming": 1037
+        },
+        {
+          "permutation": [
+            5,
+            3,
+            1,
+            2,
+            0,
+            4
+          ],
+          "total_output_hamming": 1037
+        },
+        {
+          "permutation": [
+            4,
+            5,
+            3,
+            1,
+            2,
+            0
+          ],
+          "total_output_hamming": 1034
+        },
+        {
+          "permutation": [
+            5,
+            3,
+            4,
+            2,
+            0,
+            1
+          ],
+          "total_output_hamming": 1034
+        },
+        {
+          "permutation": [
+            2,
+            5,
+            3,
+            1,
+            0,
+            4
+          ],
+          "total_output_hamming": 1030
+        },
+        {
+          "permutation": [
+            4,
+            3,
+            0,
+            2,
+            5,
+            1
+          ],
+          "total_output_hamming": 1030
+        },
+        {
+          "permutation": [
+            4,
+            5,
+            1,
+            2,
+            3,
+            0
+          ],
+          "total_output_hamming": 1029
+        },
+        {
+          "permutation": [
+            5,
+            2,
+            3,
+            4,
+            0,
+            1
+          ],
+          "total_output_hamming": 1029
+        },
+        {
+          "permutation": [
+            2,
+            5,
+            3,
+            4,
+            0,
+            1
+          ],
+          "total_output_hamming": 1022
+        },
+        {
+          "permutation": [
+            4,
+            5,
+            0,
+            2,
+            3,
+            1
+          ],
+          "total_output_hamming": 1022
+        },
+        {
+          "permutation": [
+            3,
+            5,
+            1,
+            2,
+            0,
+            4
+          ],
+          "total_output_hamming": 1018
+        },
+        {
+          "permutation": [
+            4,
+            2,
+            3,
+            0,
+            5,
+            1
+          ],
+          "total_output_hamming": 1018
+        },
+        {
+          "permutation": [
+            3,
+            5,
+            4,
+            2,
+            0,
+            1
+          ],
+          "total_output_hamming": 1015
+        },
+        {
+          "permutation": [
+            4,
+            5,
+            3,
+            0,
+            2,
+            1
+          ],
+          "total_output_hamming": 1015
+        },
+        {
+          "permutation": [
+            1,
+            3,
+            4,
+            5,
+            0,
+            2
+          ],
+          "total_output_hamming": 990
+        },
+        {
+          "permutation": [
+            4,
+            0,
+            5,
+            1,
+            2,
+            3
+          ],
+          "total_output_hamming": 990
+        },
+        {
+          "permutation": [
+            1,
+            2,
+            4,
+            5,
+            0,
+            3
+          ],
+          "total_output_hamming": 988
+        },
+        {
+          "permutation": [
+            4,
+            0,
+            1,
+            5,
+            2,
+            3
+          ],
+          "total_output_hamming": 988
+        },
+        {
+          "permutation": [
+            1,
+            3,
+            5,
+            4,
+            0,
+            2
+          ],
+          "total_output_hamming": 987
+        },
+        {
+          "permutation": [
+            4,
+            0,
+            5,
+            1,
+            3,
+            2
+          ],
+          "total_output_hamming": 987
+        },
+        {
+          "permutation": [
+            1,
+            2,
+            5,
+            4,
+            0,
+            3
+          ],
+          "total_output_hamming": 985
+        },
+        {
+          "permutation": [
+            4,
+            0,
+            1,
+            5,
+            3,
+            2
+          ],
+          "total_output_hamming": 985
+        },
+        {
+          "permutation": [
+            2,
+            4,
+            5,
+            1,
+            0,
+            3
+          ],
+          "total_output_hamming": 984
+        },
+        {
+          "permutation": [
+            4,
+            3,
+            0,
+            5,
+            1,
+            2
+          ],
+          "total_output_hamming": 984
+        },
+        {
+          "permutation": [
+            2,
+            4,
+            1,
+            5,
+            0,
+            3
+          ],
+          "total_output_hamming": 982
+        },
+        {
+          "permutation": [
+            4,
+            2,
+            0,
+            5,
+            1,
+            3
+          ],
+          "total_output_hamming": 982
+        },
+        {
+          "permutation": [
+            3,
+            4,
+            5,
+            1,
+            0,
+            2
+          ],
+          "total_output_hamming": 974
+        },
+        {
+          "permutation": [
+            4,
+            3,
+            5,
+            0,
+            1,
+            2
+          ],
+          "total_output_hamming": 974
+        },
+        {
+          "permutation": [
+            3,
+            4,
+            1,
+            5,
+            0,
+            2
+          ],
+          "total_output_hamming": 972
+        },
+        {
+          "permutation": [
+            4,
+            2,
+            5,
+            0,
+            1,
+            3
+          ],
+          "total_output_hamming": 972
+        },
+        {
+          "permutation": [
+            1,
+            3,
+            5,
+            2,
+            0,
+            4
+          ],
+          "total_output_hamming": 967
+        },
+        {
+          "permutation": [
+            4,
+            0,
+            3,
+            1,
+            5,
+            2
+          ],
+          "total_output_hamming": 967
+        },
+        {
+          "permutation": [
+            1,
+            2,
+            3,
+            5,
+            0,
+            4
+          ],
+          "total_output_hamming": 965
+        },
+        {
+          "permutation": [
+            4,
+            0,
+            1,
+            2,
+            5,
+            3
+          ],
+          "total_output_hamming": 965
+        },
+        {
+          "permutation": [
+            4,
+            3,
+            5,
+            2,
+            1,
+            0
+          ],
+          "total_output_hamming": 965
+        },
+        {
+          "permutation": [
+            5,
+            4,
+            3,
+            1,
+            0,
+            2
+          ],
+          "total_output_hamming": 965
+        },
+        {
+          "permutation": [
+            4,
+            2,
+            3,
+            5,
+            1,
+            0
+          ],
+          "total_output_hamming": 963
+        },
+        {
+          "permutation": [
+            5,
+            4,
+            1,
+            2,
+            0,
+            3
+          ],
+          "total_output_hamming": 963
+        },
+        {
+          "permutation": [
+            1,
+            5,
+            4,
+            2,
+            0,
+            3
+          ],
+          "total_output_hamming": 962
+        },
+        {
+          "permutation": [
+            4,
+            0,
+            3,
+            5,
+            2,
+            1
+          ],
+          "total_output_hamming": 962
+        },
+        {
+          "permutation": [
+            1,
+            5,
+            3,
+            4,
+            0,
+            2
+          ],
+          "total_output_hamming": 959
+        },
+        {
+          "permutation": [
+            4,
+            0,
+            5,
+            2,
+            3,
+            1
+          ],
+          "total_output_hamming": 959
+        },
+        {
+          "permutation": [
+            2,
+            4,
+            3,
+            5,
+            0,
+            1
+          ],
+          "total_output_hamming": 956
+        },
+        {
+          "permutation": [
+            4,
+            5,
+            0,
+            2,
+            1,
+            3
+          ],
+          "total_output_hamming": 956
+        },
+        {
+          "permutation": [
+            3,
+            4,
+            5,
+            2,
+            0,
+            1
+          ],
+          "total_output_hamming": 946
+        },
+        {
+          "permutation": [
+            4,
+            5,
+            3,
+            0,
+            1,
+            2
+          ],
+          "total_output_hamming": 946
+        },
+        {
+          "permutation": [
+            1,
+            5,
+            3,
+            2,
+            0,
+            4
+          ],
+          "total_output_hamming": 939
+        },
+        {
+          "permutation": [
+            4,
+            0,
+            3,
+            2,
+            5,
+            1
+          ],
+          "total_output_hamming": 939
+        },
+        {
+          "permutation": [
+            4,
+            5,
+            3,
+            2,
+            1,
+            0
+          ],
+          "total_output_hamming": 937
+        },
+        {
+          "permutation": [
+            5,
+            4,
+            3,
+            2,
+            0,
+            1
+          ],
+          "total_output_hamming": 937
+        },
+        {
+          "permutation": [
+            1,
+            4,
+            3,
+            5,
+            0,
+            2
+          ],
+          "total_output_hamming": 893
+        },
+        {
+          "permutation": [
+            1,
+            4,
+            5,
+            2,
+            0,
+            3
+          ],
+          "total_output_hamming": 893
+        },
+        {
+          "permutation": [
+            4,
+            0,
+            3,
+            5,
+            1,
+            2
+          ],
+          "total_output_hamming": 893
+        },
+        {
+          "permutation": [
+            4,
+            0,
+            5,
+            2,
+            1,
+            3
+          ],
+          "total_output_hamming": 893
+        },
+        {
+          "permutation": [
+            4,
+            3,
+            5,
+            1,
+            0,
+            2
+          ],
+          "total_output_hamming": 888
+        },
+        {
+          "permutation": [
+            4,
+            2,
+            5,
+            1,
+            0,
+            3
+          ],
+          "total_output_hamming": 886
+        },
+        {
+          "permutation": [
+            4,
+            3,
+            1,
+            5,
+            0,
+            2
+          ],
+          "total_output_hamming": 886
+        },
+        {
+          "permutation": [
+            4,
+            2,
+            1,
+            5,
+            0,
+            3
+          ],
+          "total_output_hamming": 884
+        },
+        {
+          "permutation": [
+            4,
+            3,
+            5,
+            2,
+            0,
+            1
+          ],
+          "total_output_hamming": 860
+        },
+        {
+          "permutation": [
+            4,
+            5,
+            3,
+            1,
+            0,
+            2
+          ],
+          "total_output_hamming": 860
+        },
+        {
+          "permutation": [
+            4,
+            2,
+            3,
+            5,
+            0,
+            1
+          ],
+          "total_output_hamming": 858
+        },
+        {
+          "permutation": [
+            4,
+            5,
+            1,
+            2,
+            0,
+            3
+          ],
+          "total_output_hamming": 858
+        },
+        {
+          "permutation": [
+            4,
+            5,
+            3,
+            2,
+            0,
+            1
+          ],
+          "total_output_hamming": 832
+        }
+      ],
+      "b1_selected_permutation": [
+        5,
+        3,
+        4,
+        1,
+        2,
+        0
+      ],
+      "b1_status": "B1_ELIGIBLE",
+      "b2_derangements": [],
+      "b2_selected_permutation": null,
+      "b2_status": "CONTENT_PAIRING_INELIGIBLE_NO_SHAPE_PRESERVING_DERANGEMENT",
+      "n_test": 1,
+      "n_train": 6,
+      "task_id": "79fb03f4",
+      "test_input_shapes": [
+        [
+          26,
+          26
+        ]
+      ],
+      "train_input_shapes": [
+        [
+          20,
+          20
+        ],
+        [
+          10,
+          10
+        ],
+        [
+          6,
+          6
+        ],
+        [
+          6,
+          6
+        ],
+        [
+          13,
+          13
+        ],
+        [
+          7,
+          7
+        ]
+      ],
+      "train_output_shapes": [
+        [
+          20,
+          20
+        ],
+        [
+          10,
+          10
+        ],
+        [
+          6,
+          6
+        ],
+        [
+          6,
+          6
+        ],
+        [
+          13,
+          13
+        ],
+        [
+          7,
+          7
+        ]
+      ]
+    },
+    "929ab4e9": {
+      "b1_derangements": [
+        {
+          "permutation": [
+            3,
+            2,
+            1,
+            0
+          ],
+          "total_output_hamming": 2088
+        },
+        {
+          "permutation": [
+            1,
+            2,
+            3,
+            0
+          ],
+          "total_output_hamming": 2060
+        },
+        {
+          "permutation": [
+            3,
+            0,
+            1,
+            2
+          ],
+          "total_output_hamming": 2060
+        },
+        {
+          "permutation": [
+            1,
+            0,
+            3,
+            2
+          ],
+          "total_output_hamming": 2032
+        },
+        {
+          "permutation": [
+            2,
+            3,
+            1,
+            0
+          ],
+          "total_output_hamming": 2020
+        },
+        {
+          "permutation": [
+            3,
+            2,
+            0,
+            1
+          ],
+          "total_output_hamming": 2020
+        },
+        {
+          "permutation": [
+            1,
+            3,
+            0,
+            2
+          ],
+          "total_output_hamming": 1992
+        },
+        {
+          "permutation": [
+            2,
+            0,
+            3,
+            1
+          ],
+          "total_output_hamming": 1992
+        },
+        {
+          "permutation": [
+            2,
+            3,
+            0,
+            1
+          ],
+          "total_output_hamming": 1952
+        }
+      ],
+      "b1_selected_permutation": [
+        3,
+        2,
+        1,
+        0
+      ],
+      "b1_status": "B1_ELIGIBLE",
+      "b2_derangements": [
+        {
+          "permutation": [
+            3,
+            2,
+            1,
+            0
+          ],
+          "total_output_hamming": 2088
+        },
+        {
+          "permutation": [
+            1,
+            2,
+            3,
+            0
+          ],
+          "total_output_hamming": 2060
+        },
+        {
+          "permutation": [
+            3,
+            0,
+            1,
+            2
+          ],
+          "total_output_hamming": 2060
+        },
+        {
+          "permutation": [
+            1,
+            0,
+            3,
+            2
+          ],
+          "total_output_hamming": 2032
+        },
+        {
+          "permutation": [
+            2,
+            3,
+            1,
+            0
+          ],
+          "total_output_hamming": 2020
+        },
+        {
+          "permutation": [
+            3,
+            2,
+            0,
+            1
+          ],
+          "total_output_hamming": 2020
+        },
+        {
+          "permutation": [
+            1,
+            3,
+            0,
+            2
+          ],
+          "total_output_hamming": 1992
+        },
+        {
+          "permutation": [
+            2,
+            0,
+            3,
+            1
+          ],
+          "total_output_hamming": 1992
+        },
+        {
+          "permutation": [
+            2,
+            3,
+            0,
+            1
+          ],
+          "total_output_hamming": 1952
+        }
+      ],
+      "b2_selected_permutation": [
+        3,
+        2,
+        1,
+        0
+      ],
+      "b2_status": "CONTENT_PAIRING_ELIGIBLE",
+      "n_test": 1,
+      "n_train": 4,
+      "task_id": "929ab4e9",
+      "test_input_shapes": [
+        [
+          24,
+          24
+        ]
+      ],
+      "train_input_shapes": [
+        [
+          24,
+          24
+        ],
+        [
+          24,
+          24
+        ],
+        [
+          24,
+          24
+        ],
+        [
+          24,
+          24
+        ]
+      ],
+      "train_output_shapes": [
+        [
+          24,
+          24
+        ],
+        [
+          24,
+          24
+        ],
+        [
+          24,
+          24
+        ],
+        [
+          24,
+          24
+        ]
+      ]
+    },
+    "981571dc": {
+      "b1_derangements": [
+        {
+          "permutation": [
+            2,
+            3,
+            0,
+            1
+          ],
+          "total_output_hamming": 3360
+        },
+        {
+          "permutation": [
+            1,
+            3,
+            0,
+            2
+          ],
+          "total_output_hamming": 3294
+        },
+        {
+          "permutation": [
+            2,
+            0,
+            3,
+            1
+          ],
+          "total_output_hamming": 3294
+        },
+        {
+          "permutation": [
+            2,
+            3,
+            1,
+            0
+          ],
+          "total_output_hamming": 3284
+        },
+        {
+          "permutation": [
+            3,
+            2,
+            0,
+            1
+          ],
+          "total_output_hamming": 3284
+        },
+        {
+          "permutation": [
+            1,
+            0,
+            3,
+            2
+          ],
+          "total_output_hamming": 3228
+        },
+        {
+          "permutation": [
+            1,
+            2,
+            3,
+            0
+          ],
+          "total_output_hamming": 3218
+        },
+        {
+          "permutation": [
+            3,
+            0,
+            1,
+            2
+          ],
+          "total_output_hamming": 3218
+        },
+        {
+          "permutation": [
+            3,
+            2,
+            1,
+            0
+          ],
+          "total_output_hamming": 3208
+        }
+      ],
+      "b1_selected_permutation": [
+        2,
+        3,
+        0,
+        1
+      ],
+      "b1_status": "B1_ELIGIBLE",
+      "b2_derangements": [
+        {
+          "permutation": [
+            2,
+            3,
+            0,
+            1
+          ],
+          "total_output_hamming": 3360
+        },
+        {
+          "permutation": [
+            1,
+            3,
+            0,
+            2
+          ],
+          "total_output_hamming": 3294
+        },
+        {
+          "permutation": [
+            2,
+            0,
+            3,
+            1
+          ],
+          "total_output_hamming": 3294
+        },
+        {
+          "permutation": [
+            2,
+            3,
+            1,
+            0
+          ],
+          "total_output_hamming": 3284
+        },
+        {
+          "permutation": [
+            3,
+            2,
+            0,
+            1
+          ],
+          "total_output_hamming": 3284
+        },
+        {
+          "permutation": [
+            1,
+            0,
+            3,
+            2
+          ],
+          "total_output_hamming": 3228
+        },
+        {
+          "permutation": [
+            1,
+            2,
+            3,
+            0
+          ],
+          "total_output_hamming": 3218
+        },
+        {
+          "permutation": [
+            3,
+            0,
+            1,
+            2
+          ],
+          "total_output_hamming": 3218
+        },
+        {
+          "permutation": [
+            3,
+            2,
+            1,
+            0
+          ],
+          "total_output_hamming": 3208
+        }
+      ],
+      "b2_selected_permutation": [
+        2,
+        3,
+        0,
+        1
+      ],
+      "b2_status": "CONTENT_PAIRING_ELIGIBLE",
+      "n_test": 1,
+      "n_train": 4,
+      "task_id": "981571dc",
+      "test_input_shapes": [
+        [
+          30,
+          30
+        ]
+      ],
+      "train_input_shapes": [
+        [
+          30,
+          30
+        ],
+        [
+          30,
+          30
+        ],
+        [
+          30,
+          30
+        ],
+        [
+          30,
+          30
+        ]
+      ],
+      "train_output_shapes": [
+        [
+          30,
+          30
+        ],
+        [
+          30,
+          30
+        ],
+        [
+          30,
+          30
+        ],
+        [
+          30,
+          30
+        ]
+      ]
+    },
+    "aa4ec2a5": {
+      "b1_derangements": [
+        {
+          "permutation": [
+            1,
+            2,
+            0
+          ],
+          "total_output_hamming": 1419
+        },
+        {
+          "permutation": [
+            2,
+            0,
+            1
+          ],
+          "total_output_hamming": 1419
+        }
+      ],
+      "b1_selected_permutation": [
+        1,
+        2,
+        0
+      ],
+      "b1_status": "B1_ELIGIBLE",
+      "b2_derangements": [],
+      "b2_selected_permutation": null,
+      "b2_status": "CONTENT_PAIRING_INELIGIBLE_NO_SHAPE_PRESERVING_DERANGEMENT",
+      "n_test": 1,
+      "n_train": 3,
+      "task_id": "aa4ec2a5",
+      "test_input_shapes": [
+        [
+          26,
+          27
+        ]
+      ],
+      "train_input_shapes": [
+        [
+          28,
+          23
+        ],
+        [
+          23,
+          25
+        ],
+        [
+          20,
+          15
+        ]
+      ],
+      "train_output_shapes": [
+        [
+          28,
+          23
+        ],
+        [
+          23,
+          25
+        ],
+        [
+          20,
+          15
+        ]
+      ]
+    }
+  }
+}

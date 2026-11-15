@@ -1,0 +1,43 @@
+{
+  "architecture": "VRM V1.1 - Masked Query Spatial Evidence Rewrite",
+  "batch_size": 1,
+  "checkpoint_interval": 1000,
+  "command": "/home/quyen/.venvs/vrm/bin/python -m vrm.twin_tasks.run_r5a4a_neural_vrm_arc_preflight --max-steps 12000 --batch-size 1 --device auto --torch-threads 4 --bootstrap-replicates 10000",
+  "device": "cuda",
+  "experiment": "R5A-4A ARC-Grounded Neural VRM Preflight",
+  "initialization_seed": 20260701,
+  "maximum_optimizer_steps": 12000,
+  "model_config": {
+    "dropout": 0.0,
+    "hidden_size": 128,
+    "max_grid_height": 30,
+    "max_grid_tokens": 900,
+    "max_grid_width": 30,
+    "max_support_pairs": 16,
+    "num_heads": 4,
+    "output_color_count": 10,
+    "pair_encoder_layers": 1,
+    "rewrite_layers": 2,
+    "rewrite_steps": 4,
+    "rule_slots": 32,
+    "shape_classes": 30,
+    "vocab_size": 11
+  },
+  "optimizer": {
+    "betas": [
+      0.9,
+      0.95
+    ],
+    "grad_clip_norm": 1.0,
+    "learning_rate": 0.0002,
+    "minimum_learning_rate": 2e-05,
+    "name": "AdamW",
+    "source": "existing VRM V1.1 optimizer/loss conventions",
+    "warmup_steps": 100,
+    "weight_decay": 0.01
+  },
+  "python_version": "3.14.4 (main, Apr  8 2026, 04:02:31) [GCC 15.2.0]",
+  "shape_loss_weight": 0.5,
+  "torch_version": "2.12.1+cu130",
+  "validation_interval": 1000
+}

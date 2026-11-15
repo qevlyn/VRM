@@ -1,0 +1,34 @@
+{
+  "G_C_plus_G_H": {
+    "count": 1000,
+    "exact_any_required_target_rate": 0.0,
+    "source_context_identities": {
+      "transition_from": "G_H",
+      "transport_from": "G_C"
+    }
+  },
+  "G_C_plus_POST_L": {
+    "count": 1000,
+    "exact_any_required_target_rate": 0.0,
+    "source_context_identities": {
+      "transition_from": "POST_L",
+      "transport_from": "G_C"
+    }
+  },
+  "G_H_plus_PRE_L": {
+    "count": 1000,
+    "exact_any_required_target_rate": 0.0,
+    "source_context_identities": {
+      "transition_from": "PRE_L",
+      "transport_from": "G_H"
+    }
+  },
+  "G_V_plus_POST_K": {
+    "count": 1000,
+    "exact_any_required_target_rate": 0.0,
+    "source_context_identities": {
+      "transition_from": "POST_K",
+      "transport_from": "G_V"
+    }
+  }
+}

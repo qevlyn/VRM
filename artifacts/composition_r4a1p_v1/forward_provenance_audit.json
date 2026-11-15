@@ -1,0 +1,39 @@
+{
+  "dynamic_audit": {
+    "20260628": {
+      "legal_model_inputs_identical_after_forbidden_metadata_mutation": true,
+      "max_abs_output_probability_difference": 0.0,
+      "max_abs_pointer_difference": 0.0,
+      "max_abs_task_context_difference": 0.0,
+      "passed": true
+    },
+    "20260629": {
+      "legal_model_inputs_identical_after_forbidden_metadata_mutation": true,
+      "max_abs_output_probability_difference": 0.0,
+      "max_abs_pointer_difference": 0.0,
+      "max_abs_task_context_difference": 0.0,
+      "passed": true
+    },
+    "20260630": {
+      "legal_model_inputs_identical_after_forbidden_metadata_mutation": true,
+      "max_abs_output_probability_difference": 0.0,
+      "max_abs_pointer_difference": 0.0,
+      "max_abs_task_context_difference": 0.0,
+      "passed": true
+    }
+  },
+  "passed": true,
+  "static_audit": {
+    "batch_builder_source_file": "/mnt/d/VRM/vrm/twin_tasks/composition_r4a0r_data.py",
+    "forbidden_parameters_present": [],
+    "forward_signature_parameters": [
+      "self",
+      "query_grids",
+      "support_input_grids",
+      "support_output_grids",
+      "zero_support"
+    ],
+    "forward_source_file": "/mnt/d/VRM/vrm/twin_tasks/run_composition_r4a0r.py",
+    "passed": true
+  }
+}

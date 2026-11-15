@@ -1,0 +1,20 @@
+{
+  "ablation": "zero_support",
+  "groups": {
+    "heldout_pairs": {
+      "episode_count": 4320,
+      "exact_accuracy": 0.0,
+      "normal_to_ablation_grid_change_rate": 1.0
+    },
+    "seen_pairs": {
+      "episode_count": 4320,
+      "exact_accuracy": 0.0,
+      "normal_to_ablation_grid_change_rate": 1.0
+    },
+    "singles": {
+      "episode_count": 4320,
+      "exact_accuracy": 0.0,
+      "normal_to_ablation_grid_change_rate": 1.0
+    }
+  }
+}

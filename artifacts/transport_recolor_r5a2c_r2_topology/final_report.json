@@ -1,0 +1,813 @@
+{
+  "ablation_summary": {
+    "ablations": {
+      "barrier_ignored": {
+        "absolute_drop_vs_normal": {
+          "border_reachable_recolor": 1.0,
+          "enclosed_region_recolor": 1.0,
+          "seed_reachable_recolor": 1.0
+        },
+        "exact_by_convention": {
+          "border_reachable_recolor": 0.0,
+          "enclosed_region_recolor": 0.0,
+          "seed_reachable_recolor": 0.0
+        },
+        "first_counterexample": {
+          "consistent_hypotheses": [],
+          "convention": "seed_reachable_recolor",
+          "episode_id": "golden_suite:seed_reachable_recolor:p1:o7:m5:gdiagonal_bridge_a:v0",
+          "exact": false,
+          "output_grid": null,
+          "selected_hypothesis": null,
+          "status": "no_consistent_hypothesis",
+          "suite_name": "golden_suite"
+        },
+        "generator_stress_suite_exact": 0.0,
+        "passes_relevant_drop_threshold": true,
+        "randomized_suite_exact": 0.0
+      },
+      "border_seed_disabled": {
+        "absolute_drop_vs_normal": {
+          "border_reachable_recolor": 1.0,
+          "enclosed_region_recolor": 1.0,
+          "seed_reachable_recolor": 0.0
+        },
+        "exact_by_convention": {
+          "border_reachable_recolor": 0.0,
+          "enclosed_region_recolor": 0.0,
+          "seed_reachable_recolor": 1.0
+        },
+        "first_counterexample": {
+          "consistent_hypotheses": [],
+          "convention": "border_reachable_recolor",
+          "episode_id": "golden_suite:border_reachable_recolor:p2:o8:mNone:gdiagonal_bridge_b:v1",
+          "exact": false,
+          "output_grid": null,
+          "selected_hypothesis": null,
+          "status": "no_consistent_hypothesis",
+          "suite_name": "golden_suite"
+        },
+        "generator_stress_suite_exact": 0.3333333333333333,
+        "passes_relevant_drop_threshold": true,
+        "randomized_suite_exact": 0.3333333333333333
+      },
+      "no_propagation": {
+        "absolute_drop_vs_normal": {
+          "border_reachable_recolor": 1.0,
+          "enclosed_region_recolor": 1.0,
+          "seed_reachable_recolor": 1.0
+        },
+        "exact_by_convention": {
+          "border_reachable_recolor": 0.0,
+          "enclosed_region_recolor": 0.0,
+          "seed_reachable_recolor": 0.0
+        },
+        "first_counterexample": {
+          "consistent_hypotheses": [],
+          "convention": "seed_reachable_recolor",
+          "episode_id": "golden_suite:seed_reachable_recolor:p1:o7:m5:gdiagonal_bridge_a:v0",
+          "exact": false,
+          "output_grid": null,
+          "selected_hypothesis": null,
+          "status": "no_consistent_hypothesis",
+          "suite_name": "golden_suite"
+        },
+        "generator_stress_suite_exact": 0.0,
+        "passes_relevant_drop_threshold": true,
+        "randomized_suite_exact": 0.0
+      },
+      "one_step_only": {
+        "absolute_drop_vs_normal": {
+          "border_reachable_recolor": 1.0,
+          "enclosed_region_recolor": 1.0,
+          "seed_reachable_recolor": 0.0
+        },
+        "exact_by_convention": {
+          "border_reachable_recolor": 0.0,
+          "enclosed_region_recolor": 0.0,
+          "seed_reachable_recolor": 1.0
+        },
+        "first_counterexample": {
+          "consistent_hypotheses": [],
+          "convention": "border_reachable_recolor",
+          "episode_id": "golden_suite:border_reachable_recolor:p2:o8:mNone:gdiagonal_bridge_b:v1",
+          "exact": false,
+          "output_grid": null,
+          "selected_hypothesis": null,
+          "status": "no_consistent_hypothesis",
+          "suite_name": "golden_suite"
+        },
+        "generator_stress_suite_exact": 0.3333333333333333,
+        "passes_relevant_drop_threshold": true,
+        "randomized_suite_exact": 0.3333333333333333
+      },
+      "support_consistency_disabled": {
+        "absolute_drop_vs_normal": {
+          "border_reachable_recolor": 0.8367346938775511,
+          "enclosed_region_recolor": 1.0,
+          "seed_reachable_recolor": 1.0
+        },
+        "exact_by_convention": {
+          "border_reachable_recolor": 0.16326530612244897,
+          "enclosed_region_recolor": 0.0,
+          "seed_reachable_recolor": 0.0
+        },
+        "first_counterexample": {
+          "consistent_hypotheses": [
+            {
+              "adjacency": "4_connected",
+              "barrier_color": 4,
+              "convention": "border_reachable_recolor",
+              "marker_color_or_none": null,
+              "output_recolor_color": 7,
+              "passable_color": 1,
+              "seed_condition_or_none": null
+            }
+          ],
+          "convention": "seed_reachable_recolor",
+          "episode_id": "golden_suite:seed_reachable_recolor:p1:o7:m5:gdiagonal_bridge_a:v0",
+          "exact": false,
+          "output_grid": [
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              0,
+              4,
+              1,
+              1,
+              0
+            ],
+            [
+              0,
+              5,
+              1,
+              1,
+              4,
+              1,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              4,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          "selected_hypothesis": {
+            "adjacency": "4_connected",
+            "barrier_color": 4,
+            "convention": "border_reachable_recolor",
+            "marker_color_or_none": null,
+            "output_recolor_color": 7,
+            "passable_color": 1,
+            "seed_condition_or_none": null
+          },
+          "status": "support_consistency_disabled",
+          "suite_name": "golden_suite"
+        },
+        "generator_stress_suite_exact": 0.05555555555555555,
+        "passes_relevant_drop_threshold": true,
+        "randomized_suite_exact": 0.05555555555555555
+      },
+      "wrong_adjacency_8_connected": {
+        "absolute_drop_vs_normal": {
+          "border_reachable_recolor": 1.0,
+          "enclosed_region_recolor": 1.0,
+          "seed_reachable_recolor": 1.0
+        },
+        "exact_by_convention": {
+          "border_reachable_recolor": 0.0,
+          "enclosed_region_recolor": 0.0,
+          "seed_reachable_recolor": 0.0
+        },
+        "first_counterexample": {
+          "consistent_hypotheses": [],
+          "convention": "seed_reachable_recolor",
+          "episode_id": "golden_suite:seed_reachable_recolor:p1:o7:m5:gdiagonal_bridge_a:v0",
+          "exact": false,
+          "output_grid": null,
+          "selected_hypothesis": null,
+          "status": "no_consistent_hypothesis",
+          "suite_name": "golden_suite"
+        },
+        "generator_stress_suite_exact": 0.0,
+        "passes_relevant_drop_threshold": true,
+        "randomized_suite_exact": 0.0
+      }
+    },
+    "adjacency_discrimination": {
+      "absolute_drop_on_adjacency_slice": 1.0,
+      "adjacency_discrimination_episode_count": 140,
+      "adjacency_discrimination_episode_fraction": 0.9722222222222222,
+      "first_adjacency_counterexample": {
+        "consistent_hypotheses": [],
+        "convention": "seed_reachable_recolor",
+        "episode_id": "randomized_suite:seed_reachable_recolor:p1:o7:m5:gdiagonal_bridge_a:v0",
+        "exact": false,
+        "output_grid": null,
+        "selected_hypothesis": null,
+        "status": "no_consistent_hypothesis",
+        "suite_name": "randomized_suite"
+      },
+      "normal_4_connected_exact_on_adjacency_slice": 1.0,
+      "passes": true,
+      "wrong_8_connected_exact_on_adjacency_slice": 0.0
+    },
+    "all_relevant_ablations_pass_drop_threshold": true,
+    "normal_exact_by_convention": {
+      "border_reachable_recolor": 1.0,
+      "enclosed_region_recolor": 1.0,
+      "seed_reachable_recolor": 1.0
+    },
+    "normal_overall_exact": 1.0
+  },
+  "accepted_vs_rejected_geometry_distributions": {
+    "accepted": {
+      "barrier_density": {
+        "count": 147,
+        "histogram_or_bucketed_distribution": {
+          "0.061224489795918366": 37,
+          "0.10204081632653061": 110
+        },
+        "max": 0.10204081632653061,
+        "mean": 0.09176731917256699,
+        "median": 0.10204081632653061,
+        "min": 0.061224489795918366
+      },
+      "enclosed_region_size": {
+        "count": 147,
+        "histogram_or_bucketed_distribution": {
+          "3": 8,
+          "4": 50,
+          "5": 56,
+          "6": 4,
+          "7": 29
+        },
+        "max": 7,
+        "mean": 4.9727891156462585,
+        "median": 5,
+        "min": 3
+      },
+      "marker_to_target_distance": {
+        "count": 147,
+        "histogram_or_bucketed_distribution": {
+          "1": 49
+        },
+        "max": 1,
+        "mean": 1.0,
+        "median": 1,
+        "min": 1
+      },
+      "number_of_candidate_hypotheses_before_support_filtering": {
+        "count": 147,
+        "histogram_or_bucketed_distribution": {
+          "24": 147
+        },
+        "max": 24,
+        "mean": 24.0,
+        "median": 24,
+        "min": 24
+      },
+      "number_of_enclosed_components": {
+        "count": 147,
+        "histogram_or_bucketed_distribution": {
+          "1": 42,
+          "2": 68,
+          "3": 37
+        },
+        "max": 3,
+        "mean": 1.965986394557823,
+        "median": 2,
+        "min": 1
+      },
+      "number_of_passable_components": {
+        "count": 147,
+        "histogram_or_bucketed_distribution": {
+          "3": 87,
+          "4": 60
+        },
+        "max": 4,
+        "mean": 3.4081632653061225,
+        "median": 3,
+        "min": 3
+      },
+      "reachable_region_size": {
+        "count": 147,
+        "histogram_or_bucketed_distribution": {
+          "2": 4,
+          "3": 4,
+          "4": 114,
+          "5": 25
+        },
+        "max": 5,
+        "mean": 4.08843537414966,
+        "median": 4,
+        "min": 2
+      },
+      "seed_to_border_shortest_distance": {
+        "count": 147,
+        "histogram_or_bucketed_distribution": {
+          "0": 98,
+          "1": 45,
+          "2": 4
+        },
+        "max": 2,
+        "mean": 0.36054421768707484,
+        "median": 0,
+        "min": 0
+      }
+    },
+    "rejected": {
+      "barrier_density": {
+        "count": 8,
+        "histogram_or_bucketed_distribution": {
+          "0.0": 8
+        },
+        "max": 0.0,
+        "mean": 0.0,
+        "median": 0.0,
+        "min": 0.0
+      },
+      "enclosed_region_size": {
+        "count": 8,
+        "histogram_or_bucketed_distribution": {
+          "0": 8
+        },
+        "max": 0,
+        "mean": 0.0,
+        "median": 0.0,
+        "min": 0
+      },
+      "marker_to_target_distance": {
+        "count": 8,
+        "histogram_or_bucketed_distribution": {},
+        "max": null,
+        "mean": null,
+        "median": null,
+        "min": null
+      },
+      "number_of_candidate_hypotheses_before_support_filtering": {
+        "count": 8,
+        "histogram_or_bucketed_distribution": {
+          "24": 8
+        },
+        "max": 24,
+        "mean": 24.0,
+        "median": 24.0,
+        "min": 24
+      },
+      "number_of_enclosed_components": {
+        "count": 8,
+        "histogram_or_bucketed_distribution": {
+          "0": 8
+        },
+        "max": 0,
+        "mean": 0.0,
+        "median": 0.0,
+        "min": 0
+      },
+      "number_of_passable_components": {
+        "count": 8,
+        "histogram_or_bucketed_distribution": {
+          "0": 8
+        },
+        "max": 0,
+        "mean": 0.0,
+        "median": 0.0,
+        "min": 0
+      },
+      "reachable_region_size": {
+        "count": 8,
+        "histogram_or_bucketed_distribution": {
+          "0": 8
+        },
+        "max": 0,
+        "mean": 0.0,
+        "median": 0.0,
+        "min": 0
+      },
+      "seed_to_border_shortest_distance": {
+        "count": 8,
+        "histogram_or_bucketed_distribution": {},
+        "max": null,
+        "mean": null,
+        "median": null,
+        "min": null
+      }
+    },
+    "selection_effect_statement": "Rejected episodes are intentionally empty ambiguous controls; the gate selects valid nonempty topology instances rather than a geometrically easier subset of valid topology tasks."
+  },
+  "audit_version": "R5A2C_R2_COMPILED_TOPOLOGY_AUDIT_V1",
+  "checker_independence_report": {
+    "forbidden_import_or_call_terms": [],
+    "passed": true
+  },
+  "closure_domain_sha256": "bdad945425fd734ed443788c39d21c4c48d629c09f05c92ad7c62c8cfb554329",
+  "complete_tuple_uniqueness_results": {
+    "accepted_episode_count": 147,
+    "accepted_with_exactly_one_complete_tuple": 147,
+    "all_accepted_unique": true
+  },
+  "counterbalancing_summary": {
+    "empty_or_underrepresented_cells": [],
+    "marginal_contingency_summaries": {
+      "barrier_color": {
+        "4": 147
+      },
+      "barrier_geometry": {
+        "diagonal_bridge_a": 37,
+        "diagonal_bridge_b": 37,
+        "diagonal_bridge_c": 37,
+        "diagonal_bridge_d": 36
+      },
+      "convention": {
+        "border_reachable_recolor": 49,
+        "enclosed_region_recolor": 49,
+        "seed_reachable_recolor": 49
+      },
+      "marker_color_or_none": {
+        "5": 25,
+        "6": 24,
+        "None": 98
+      },
+      "output_recolor_color": {
+        "7": 74,
+        "8": 73
+      },
+      "passable_color": {
+        "1": 49,
+        "2": 49,
+        "3": 49
+      }
+    },
+    "pairwise_contingency_summaries": {
+      "barrier_color__x__barrier_geometry": {
+        "4|diagonal_bridge_a": 37,
+        "4|diagonal_bridge_b": 37,
+        "4|diagonal_bridge_c": 37,
+        "4|diagonal_bridge_d": 36
+      },
+      "barrier_color__x__marker_color_or_none": {
+        "4|5": 25,
+        "4|6": 24,
+        "4|None": 98
+      },
+      "barrier_color__x__output_recolor_color": {
+        "4|7": 74,
+        "4|8": 73
+      },
+      "convention__x__barrier_color": {
+        "border_reachable_recolor|4": 49,
+        "enclosed_region_recolor|4": 49,
+        "seed_reachable_recolor|4": 49
+      },
+      "convention__x__barrier_geometry": {
+        "border_reachable_recolor|diagonal_bridge_a": 12,
+        "border_reachable_recolor|diagonal_bridge_b": 13,
+        "border_reachable_recolor|diagonal_bridge_c": 12,
+        "border_reachable_recolor|diagonal_bridge_d": 12,
+        "enclosed_region_recolor|diagonal_bridge_a": 12,
+        "enclosed_region_recolor|diagonal_bridge_b": 12,
+        "enclosed_region_recolor|diagonal_bridge_c": 13,
+        "enclosed_region_recolor|diagonal_bridge_d": 12,
+        "seed_reachable_recolor|diagonal_bridge_a": 13,
+        "seed_reachable_recolor|diagonal_bridge_b": 12,
+        "seed_reachable_recolor|diagonal_bridge_c": 12,
+        "seed_reachable_recolor|diagonal_bridge_d": 12
+      },
+      "convention__x__marker_color_or_none": {
+        "border_reachable_recolor|None": 49,
+        "enclosed_region_recolor|None": 49,
+        "seed_reachable_recolor|5": 25,
+        "seed_reachable_recolor|6": 24
+      },
+      "convention__x__output_recolor_color": {
+        "border_reachable_recolor|7": 24,
+        "border_reachable_recolor|8": 25,
+        "enclosed_region_recolor|7": 25,
+        "enclosed_region_recolor|8": 24,
+        "seed_reachable_recolor|7": 25,
+        "seed_reachable_recolor|8": 24
+      },
+      "convention__x__passable_color": {
+        "border_reachable_recolor|1": 16,
+        "border_reachable_recolor|2": 17,
+        "border_reachable_recolor|3": 16,
+        "enclosed_region_recolor|1": 16,
+        "enclosed_region_recolor|2": 16,
+        "enclosed_region_recolor|3": 17,
+        "seed_reachable_recolor|1": 17,
+        "seed_reachable_recolor|2": 16,
+        "seed_reachable_recolor|3": 16
+      },
+      "marker_color_or_none__x__barrier_geometry": {
+        "5|diagonal_bridge_a": 13,
+        "5|diagonal_bridge_c": 12,
+        "6|diagonal_bridge_b": 12,
+        "6|diagonal_bridge_d": 12,
+        "None|diagonal_bridge_a": 24,
+        "None|diagonal_bridge_b": 25,
+        "None|diagonal_bridge_c": 25,
+        "None|diagonal_bridge_d": 24
+      },
+      "marker_color_or_none__x__output_recolor_color": {
+        "5|7": 13,
+        "5|8": 12,
+        "6|7": 12,
+        "6|8": 12,
+        "None|7": 49,
+        "None|8": 49
+      },
+      "output_recolor_color__x__barrier_geometry": {
+        "7|diagonal_bridge_a": 19,
+        "7|diagonal_bridge_b": 18,
+        "7|diagonal_bridge_c": 19,
+        "7|diagonal_bridge_d": 18,
+        "8|diagonal_bridge_a": 18,
+        "8|diagonal_bridge_b": 19,
+        "8|diagonal_bridge_c": 18,
+        "8|diagonal_bridge_d": 18
+      },
+      "passable_color__x__barrier_color": {
+        "1|4": 49,
+        "2|4": 49,
+        "3|4": 49
+      },
+      "passable_color__x__barrier_geometry": {
+        "1|diagonal_bridge_a": 13,
+        "1|diagonal_bridge_b": 12,
+        "1|diagonal_bridge_c": 12,
+        "1|diagonal_bridge_d": 12,
+        "2|diagonal_bridge_a": 12,
+        "2|diagonal_bridge_b": 13,
+        "2|diagonal_bridge_c": 12,
+        "2|diagonal_bridge_d": 12,
+        "3|diagonal_bridge_a": 12,
+        "3|diagonal_bridge_b": 12,
+        "3|diagonal_bridge_c": 13,
+        "3|diagonal_bridge_d": 12
+      },
+      "passable_color__x__marker_color_or_none": {
+        "1|5": 9,
+        "1|6": 8,
+        "1|None": 32,
+        "2|5": 8,
+        "2|6": 8,
+        "2|None": 33,
+        "3|5": 8,
+        "3|6": 8,
+        "3|None": 33
+      },
+      "passable_color__x__output_recolor_color": {
+        "1|7": 25,
+        "1|8": 24,
+        "2|7": 24,
+        "2|8": 25,
+        "3|7": 25,
+        "3|8": 24
+      }
+    }
+  },
+  "created_utc": "2026-06-30T09:02:29+00:00",
+  "generated_artifact_hashes": {
+    "ablation_report.json": "f44640fc6af7f038ac114e2a0d0bbd9e9df4eb0a387c671d0f0624d2825db64c",
+    "closure_domain.json": "445136a641adcad8e382071acfd517dc65ff5006059f9abd47f904e42c30f990",
+    "evaluation_report.json": "58e01bdb05b6aa4b8c2d1041a3f147a5b15e2a9c4cdad27eae95c0ebc34c5f49",
+    "generator_audit.json": "4e51dd2c10f3f351ae10b9ba8e645cc1f87a7a80ca25cf101eec40dc00f300c3",
+    "shortcut_audit.json": "e31345ef45a4c71c7e8f316c1f23ccd3ca57880cb3c1fbb304aeffd715079d29",
+    "shortcut_catalog.json": "7ce9eec708e81f083263e2785405b52ac695c62e2ce595b4d2e7b871791668f5"
+  },
+  "generator_stress_result": {
+    "exact": 1.0,
+    "interpretation": "generator/domain stress evidence only; not learner-style held-out generalization evidence."
+  },
+  "generator_summary": {
+    "accepted_episode_count": 147,
+    "all_generated_episode_count": 155,
+    "identifiability_gate_activity_label": "IDENTIFIABILITY_GATE_ACTIVE",
+    "identifiability_gate_activity_rate": 0.05161290322580645,
+    "rejected_episode_count": 8,
+    "rejection_reason_counts": {
+      "multiple_consistent_hypotheses": 8
+    }
+  },
+  "golden_case_report": {
+    "golden_case_count": 3,
+    "passed": true,
+    "rows": [
+      {
+        "border_reachability_checked": true,
+        "complete_tuple_unique": true,
+        "component_validity": true,
+        "consistent_hypotheses": [
+          {
+            "adjacency": "4_connected",
+            "barrier_color": 4,
+            "convention": "seed_reachable_recolor",
+            "marker_color_or_none": 5,
+            "output_recolor_color": 7,
+            "passable_color": 1,
+            "seed_condition_or_none": "marker_adjacent_4_connected"
+          }
+        ],
+        "consistent_hypothesis_count": 1,
+        "convention": "seed_reachable_recolor",
+        "domain_containment": true,
+        "domain_reasons": [],
+        "enclosed_region_complement_checked": true,
+        "episode_id": "golden_suite:seed_reachable_recolor:p1:o7:m5:gdiagonal_bridge_a:v0",
+        "expected_output_matches_checker": true,
+        "fixed_point_reachability_checked": true,
+        "grid_validity": true,
+        "marker_validity": true,
+        "passable_and_barrier_masks_valid": true,
+        "passed": true,
+        "query_target_unique": true,
+        "support_consistency": true,
+        "wrong_adjacency_output_differs": true
+      },
+      {
+        "border_reachability_checked": true,
+        "complete_tuple_unique": true,
+        "component_validity": true,
+        "consistent_hypotheses": [
+          {
+            "adjacency": "4_connected",
+            "barrier_color": 4,
+            "convention": "border_reachable_recolor",
+            "marker_color_or_none": null,
+            "output_recolor_color": 8,
+            "passable_color": 2,
+            "seed_condition_or_none": null
+          }
+        ],
+        "consistent_hypothesis_count": 1,
+        "convention": "border_reachable_recolor",
+        "domain_containment": true,
+        "domain_reasons": [],
+        "enclosed_region_complement_checked": true,
+        "episode_id": "golden_suite:border_reachable_recolor:p2:o8:mNone:gdiagonal_bridge_b:v1",
+        "expected_output_matches_checker": true,
+        "fixed_point_reachability_checked": true,
+        "grid_validity": true,
+        "marker_validity": true,
+        "passable_and_barrier_masks_valid": true,
+        "passed": true,
+        "query_target_unique": true,
+        "support_consistency": true,
+        "wrong_adjacency_output_differs": true
+      },
+      {
+        "border_reachability_checked": true,
+        "complete_tuple_unique": true,
+        "component_validity": true,
+        "consistent_hypotheses": [
+          {
+            "adjacency": "4_connected",
+            "barrier_color": 4,
+            "convention": "enclosed_region_recolor",
+            "marker_color_or_none": null,
+            "output_recolor_color": 7,
+            "passable_color": 3,
+            "seed_condition_or_none": null
+          }
+        ],
+        "consistent_hypothesis_count": 1,
+        "convention": "enclosed_region_recolor",
+        "domain_containment": true,
+        "domain_reasons": [],
+        "enclosed_region_complement_checked": true,
+        "episode_id": "golden_suite:enclosed_region_recolor:p3:o7:mNone:gdiagonal_bridge_c:v2",
+        "expected_output_matches_checker": true,
+        "fixed_point_reachability_checked": true,
+        "grid_validity": true,
+        "marker_validity": true,
+        "passable_and_barrier_masks_valid": true,
+        "passed": true,
+        "query_target_unique": true,
+        "support_consistency": true,
+        "wrong_adjacency_output_differs": true
+      }
+    ]
+  },
+  "hard_gates": {
+    "adjacency_discrimination_coverage_ge_25_percent": true,
+    "adjacency_discrimination_drop_ge_0_30": true,
+    "checker_independent": true,
+    "complete_tuple_uniqueness": true,
+    "domain_containment": true,
+    "generator_stress_suite_exact_ge_0_99": true,
+    "golden_cases_pass": true,
+    "parameter_free_no_training": true,
+    "protected_hashes_unchanged": true,
+    "pytest_passed_if_provided": true,
+    "randomized_suite_exact_ge_0_99": true,
+    "relevant_ablations_collapse": true,
+    "shortcut_ceiling_not_exceeded": true
+  },
+  "mandatory_non_claim": "This audit measures only whether one additional narrow compiled specialist can\nbe implemented and validated under a declared finite topology hypothesis language.\n\nIt does not measure:\n- the human design/search cost of discovering that hypothesis language;\n- coverage of the language on real ARC tasks;\n- routing among a large specialist library;\n- search cost when a future library becomes large;\n- ARC generality;\n- zero-compute ARC solving;\n- hidden-tool emergence.",
+  "narrowest_justified_next_action": "stop; do not automatically build another compiled specialist or outer learner",
+  "normal_executor_exact_by_convention": {
+    "border_reachable_recolor": 1.0,
+    "enclosed_region_recolor": 1.0,
+    "seed_reachable_recolor": 1.0
+  },
+  "parameter_free_no_training_evidence": {
+    "forbidden_code_terms_found": [],
+    "no_backward_called": true,
+    "no_checkpoint_path_read": true,
+    "no_checkpoint_path_written": true,
+    "no_nn_module_with_trainable_parameters_exists": true,
+    "no_nn_parameter_exists": true,
+    "no_optimizer_constructed": true,
+    "passed": true
+  },
+  "protected_hashes_after": {
+    "/mnt/d/VRM/artifacts/transport_recolor_r5a0_v2/learning_dependency_audit_report.json": "8fd126b338c8f45f9bfd7a51e38b857aa6c53d6387cc982ff78a343fcca47969",
+    "/mnt/d/VRM/artifacts/transport_recolor_r5a2a_frontier/final_report.json": "4c6bb09c0917347ede1f229704f3f6a275094c2250596946ec80ac98a7e085da",
+    "/mnt/d/VRM/vrm/twin_tasks/run_transport_recolor_r5a0v2.py": "46bef01b4f545c36df8ede5087269515fd80377f2540f9a382bf5c8bd71ebf39",
+    "/mnt/d/VRM/vrm/twin_tasks/transport_recolor_r5a0v2_data.py": "8ba05be9b30f10eeaf17ec368a5b6482f28e769e8f81098a082cd581e8488279",
+    "/mnt/d/VRM/vrm/twin_tasks/transport_recolor_r5a0v2_model.py": "1ba3582f80fbf59b3eab142dde4d651e92e761ccb4c907835a421b1e13bc473e",
+    "/mnt/d/VRM/vrm/twin_tasks/transport_recolor_r5a0v2_oracles.py": "2e427a417e31e88ba6106a23d42e964989508d003677bc6a400c0a7730293de4",
+    "/mnt/d/VRM/vrm/twin_tasks/transport_recolor_r5a2a_frontier_audit.py": "3d734aa02fa72c03ba4be490ef61013581ab8b30b2170a5c12a97280aea24af4"
+  },
+  "protected_hashes_before": {
+    "/mnt/d/VRM/artifacts/transport_recolor_r5a0_v2/learning_dependency_audit_report.json": "8fd126b338c8f45f9bfd7a51e38b857aa6c53d6387cc982ff78a343fcca47969",
+    "/mnt/d/VRM/artifacts/transport_recolor_r5a2a_frontier/final_report.json": "4c6bb09c0917347ede1f229704f3f6a275094c2250596946ec80ac98a7e085da",
+    "/mnt/d/VRM/vrm/twin_tasks/run_transport_recolor_r5a0v2.py": "46bef01b4f545c36df8ede5087269515fd80377f2540f9a382bf5c8bd71ebf39",
+    "/mnt/d/VRM/vrm/twin_tasks/transport_recolor_r5a0v2_data.py": "8ba05be9b30f10eeaf17ec368a5b6482f28e769e8f81098a082cd581e8488279",
+    "/mnt/d/VRM/vrm/twin_tasks/transport_recolor_r5a0v2_model.py": "1ba3582f80fbf59b3eab142dde4d651e92e761ccb4c907835a421b1e13bc473e",
+    "/mnt/d/VRM/vrm/twin_tasks/transport_recolor_r5a0v2_oracles.py": "2e427a417e31e88ba6106a23d42e964989508d003677bc6a400c0a7730293de4",
+    "/mnt/d/VRM/vrm/twin_tasks/transport_recolor_r5a2a_frontier_audit.py": "3d734aa02fa72c03ba4be490ef61013581ab8b30b2170a5c12a97280aea24af4"
+  },
+  "pytest_result": {
+    "passed": true,
+    "path": "artifacts/transport_recolor_r5a2c_r2_topology/pytest_result.txt",
+    "provided": true,
+    "sha256": "993d73d0767e336eea41a06d771d0dbd77b5b83bff100f5d7465098c4e55c0fa",
+    "summary": "349 passed, 9 warnings in 582.99s (0:09:42)"
+  },
+  "randomized_suite_result": 1.0,
+  "report_body_sha256_excluding_timestamp": "a505f81d227a8ce5a35627f1490a72a403432d893d11c9251a576dde93de380e",
+  "scope_boundary": "These are one reachability primitive exercised under three support-conditioned conventions. They are not three independent primitive discoveries.",
+  "shortcut_catalog_sha256": "3bf2a8d64a6b1b0ab989750c2023d84b792b65cd6986888c1934d4af346abf2a",
+  "shortcut_summary": {
+    "best_conjunctive_rule_exact": 0.17006802721088435,
+    "best_lexicographic_rule_exact": 0.17006802721088435,
+    "best_shortcut_exact": 0.3333333333333333,
+    "best_shortcut_name": "one_step_only",
+    "best_single_rule_exact": 0.3333333333333333,
+    "lexicographic_rule_count": 90,
+    "pairwise_conjunction_count": 45,
+    "single_rule_count": 11,
+    "total_rule_count": 146
+  },
+  "stable_two_run_hash_comparison_required": true,
+  "status": "R5A2C_R2_COMPILED_TOPOLOGY_PRIMITIVE_PASS",
+  "top_level_mechanism_finding": {
+    "adjacency_discrimination_collapse": true,
+    "domain_and_identifiability_gates_pass": true,
+    "normal_executor_exact": 1.0,
+    "relevant_ablation_collapse": true,
+    "shortcut_ceiling_not_exceeded": true
+  }
+}

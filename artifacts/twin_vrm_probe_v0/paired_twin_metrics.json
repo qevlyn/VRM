@@ -1,0 +1,16 @@
+{
+  "dev": {
+    "base_pair_count": 1000,
+    "correct_mapping_switch_rate": 0.025,
+    "counterfactual_switch_rate": 0.044,
+    "twin_pair_joint_normal_accuracy": 0.025,
+    "twin_pair_mapping_flip_consistency": 0.025
+  },
+  "sealed": {
+    "base_pair_count": 1000,
+    "correct_mapping_switch_rate": 0.035,
+    "counterfactual_switch_rate": 0.061,
+    "twin_pair_joint_normal_accuracy": 0.035,
+    "twin_pair_mapping_flip_consistency": 0.035
+  }
+}

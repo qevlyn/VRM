@@ -1,0 +1,125 @@
+{
+  "best_checkpoint": "/mnt/d/VRM/checkpoints/composition_r4a0r_v2/composition_r4a0r_seed_20260628_best_dev.pt",
+  "seed": 20260628,
+  "selected_dev_metrics": {
+    "by_group": {
+      "seen_pairs": {
+        "all_cell_color_accuracy": 1.0,
+        "direct_grid_exact_accuracy": 1.0,
+        "episode_count": 4320,
+        "foreground_color_accuracy": 1.0,
+        "hamming_error": 0.0,
+        "mean_max_pointer_probability": 0.2603082060813904,
+        "mean_pointer_entropy": 2.9387238025665283,
+        "pointer_source_position_accuracy": 1.0,
+        "task_context_mean": 0.0033319450449198484,
+        "task_context_norm": 2.309401273727417,
+        "task_context_std": 0.04701270971498969
+      },
+      "singles": {
+        "all_cell_color_accuracy": 1.0,
+        "direct_grid_exact_accuracy": 1.0,
+        "episode_count": 4320,
+        "foreground_color_accuracy": 1.0,
+        "hamming_error": 0.0,
+        "mean_max_pointer_probability": 0.2603082060813904,
+        "mean_pointer_entropy": 2.9387238025665283,
+        "pointer_source_position_accuracy": 1.0,
+        "task_context_mean": 0.0033319450449198484,
+        "task_context_norm": 2.3094012342669346,
+        "task_context_std": 0.047012712138153064
+      }
+    },
+    "by_sequence": {
+      "C": {
+        "all_cell_color_accuracy": 1.0,
+        "direct_grid_exact_accuracy": 1.0,
+        "episode_count": 1440,
+        "foreground_color_accuracy": 1.0,
+        "hamming_error": 0.0,
+        "mean_max_pointer_probability": 0.2603082060813904,
+        "mean_pointer_entropy": 2.9387238025665283,
+        "pointer_source_position_accuracy": 1.0,
+        "task_context_mean": 0.0033319450449198484,
+        "task_context_norm": 2.309401273727417,
+        "task_context_std": 0.0470127108015327
+      },
+      "C->F": {
+        "all_cell_color_accuracy": 1.0,
+        "direct_grid_exact_accuracy": 1.0,
+        "episode_count": 1440,
+        "foreground_color_accuracy": 1.0,
+        "hamming_error": 0.0,
+        "mean_max_pointer_probability": 0.2603082060813904,
+        "mean_pointer_entropy": 2.9387238025665283,
+        "pointer_source_position_accuracy": 1.0,
+        "task_context_mean": 0.0033319450449198484,
+        "task_context_norm": 2.309401273727417,
+        "task_context_std": 0.04701270908117294
+      },
+      "F": {
+        "all_cell_color_accuracy": 1.0,
+        "direct_grid_exact_accuracy": 1.0,
+        "episode_count": 1440,
+        "foreground_color_accuracy": 1.0,
+        "hamming_error": 0.0,
+        "mean_max_pointer_probability": 0.2603082060813904,
+        "mean_pointer_entropy": 2.9387238025665283,
+        "pointer_source_position_accuracy": 1.0,
+        "task_context_mean": 0.0033319450449198484,
+        "task_context_norm": 2.309401273727417,
+        "task_context_std": 0.04701271280646324
+      },
+      "F->T": {
+        "all_cell_color_accuracy": 1.0,
+        "direct_grid_exact_accuracy": 1.0,
+        "episode_count": 1440,
+        "foreground_color_accuracy": 1.0,
+        "hamming_error": 0.0,
+        "mean_max_pointer_probability": 0.2603082060813904,
+        "mean_pointer_entropy": 2.9387238025665283,
+        "pointer_source_position_accuracy": 1.0,
+        "task_context_mean": 0.0033319450449198484,
+        "task_context_norm": 2.309401273727417,
+        "task_context_std": 0.0470127109826232
+      },
+      "T": {
+        "all_cell_color_accuracy": 1.0,
+        "direct_grid_exact_accuracy": 1.0,
+        "episode_count": 1440,
+        "foreground_color_accuracy": 1.0,
+        "hamming_error": 0.0,
+        "mean_max_pointer_probability": 0.2603082060813904,
+        "mean_pointer_entropy": 2.9387238025665283,
+        "pointer_source_position_accuracy": 1.0,
+        "task_context_mean": 0.0033319450449198484,
+        "task_context_norm": 2.3094011553459697,
+        "task_context_std": 0.04701271280646324
+      },
+      "T->C": {
+        "all_cell_color_accuracy": 1.0,
+        "direct_grid_exact_accuracy": 1.0,
+        "episode_count": 1440,
+        "foreground_color_accuracy": 1.0,
+        "hamming_error": 0.0,
+        "mean_max_pointer_probability": 0.2603082060813904,
+        "mean_pointer_entropy": 2.9387238025665283,
+        "pointer_source_position_accuracy": 1.0,
+        "task_context_mean": 0.0033319450449198484,
+        "task_context_norm": 2.309401273727417,
+        "task_context_std": 0.04701270908117294
+      }
+    },
+    "heldout_composition_macro_exact": 0.0,
+    "train_visible_macro_exact": 1.0
+  },
+  "selected_epoch": 0,
+  "selected_global_step": 225,
+  "selection_order": [
+    "dev exact on seen two-step sequences",
+    "dev macro exact on all train-visible classes",
+    "dev fixed order-counterfactual score",
+    "lowest dev hamming error",
+    "earliest epoch"
+  ]
+}

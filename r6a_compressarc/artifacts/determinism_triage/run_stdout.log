@@ -1,0 +1,773 @@
+{
+  "baseline_trace_comparison": {
+    "comparison": {
+      "classification": "BACKWARD_OR_OPTIMIZER_DIVERGENCE",
+      "first_divergence_checkpoint": "after_optimizer_step_1:model_parameter_state_hash",
+      "left": "c9d5bf38e421697393113f5f259edfcb0287a567358f04d3eb335092f4922ec6",
+      "right": "f9a1ace467d2cf284d11f6eb883ed736c4d6eb0dd77af4e0991ef8db0e4735b0"
+    },
+    "runs": {
+      "baseline_a": {
+        "cmd": [
+          "/home/<user>/.venvs/vrm/bin/python",
+          "/mnt/d/VRM/r6a_compressarc/scripts/determinism_trace_solver.py",
+          "--compressarc-root",
+          "/mnt/d/VRM/third_party/compressarc_reference",
+          "--challenge-json",
+          "/mnt/d/VRM/r6a_compressarc/artifacts/phase0_smoke/903d1b4a/FULL/challenge.json",
+          "--task-id",
+          "903d1b4a",
+          "--condition",
+          "FULL",
+          "--run-label",
+          "baseline_a",
+          "--steps",
+          "1500",
+          "--trace-interval",
+          "25",
+          "--seed",
+          "0",
+          "--device",
+          "cuda",
+          "--output-json",
+          "/mnt/d/VRM/r6a_compressarc/artifacts/determinism_triage/baseline_a.json"
+        ],
+        "returncode": 0,
+        "runtime_seconds": 1542.95269198,
+        "stdout": "       7,\n          9,\n          7,\n          8,\n          6,\n          8,\n          6,\n          6,\n          8,\n          6,\n          8,\n          7,\n          9,\n          7,\n          9\n        ],\n        [\n          8,\n          1,\n          2,\n          8,\n          7,\n          1,\n          9,\n          9,\n          9,\n          9,\n          1,\n          7,\n          8,\n          2,\n          1,\n          8\n        ],\n        [\n          2,\n          1,\n          1,\n          2,\n          9,\n          1,\n          9,\n          9,\n          9,\n          9,\n          1,\n          9,\n          2,\n          1,\n          1,\n          2\n        ],\n        [\n          8,\n          8,\n          1,\n          1,\n          7,\n          9,\n          1,\n          1,\n          1,\n          1,\n          9,\n          7,\n          1,\n          1,\n          8,\n          8\n        ],\n        [\n          1,\n          8,\n          2,\n          8,\n          9,\n          7,\n          9,\n          7,\n          7,\n          9,\n          7,\n          9,\n          8,\n          2,\n          8,\n          1\n        ]\n      ],\n      \"attempt_2\": [\n        [\n          1,\n          8,\n          2,\n          8,\n          9,\n          7,\n          9,\n          7,\n          7,\n          9,\n          7,\n          9,\n          8,\n          2,\n          8,\n          1\n        ],\n        [\n          8,\n          8,\n          1,\n          1,\n          7,\n          9,\n          1,\n          1,\n          1,\n          1,\n          9,\n          7,\n          1,\n          1,\n          8,\n          8\n        ],\n        [\n          2,\n          1,\n          1,\n          2,\n          9,\n          1,\n          9,\n          9,\n          9,\n          9,\n          1,\n          9,\n          2,\n          1,\n          1,\n          2\n        ],\n        [\n          8,\n          1,\n          2,\n          8,\n          7,\n          1,\n          9,\n          9,\n          9,\n          9,\n          1,\n          7,\n          8,\n          2,\n          1,\n          8\n        ],\n        [\n          9,\n          7,\n          9,\n          7,\n          8,\n          6,\n          8,\n          6,\n          6,\n          8,\n          6,\n          8,\n          7,\n          9,\n          7,\n          9\n        ],\n        [\n          7,\n          9,\n          1,\n          1,\n          6,\n          4,\n          6,\n          8,\n          8,\n          6,\n          4,\n          6,\n          1,\n          1,\n          9,\n          7\n        ],\n        [\n          9,\n          1,\n          9,\n          9,\n          8,\n          6,\n          6,\n          6,\n          6,\n          6,\n          6,\n          8,\n          9,\n          9,\n          1,\n          9\n        ],\n        [\n          7,\n          1,\n          9,\n          9,\n          6,\n          8,\n          6,\n          8,\n          8,\n          6,\n          8,\n          6,\n          9,\n          9,\n          1,\n          7\n        ],\n        [\n          7,\n          1,\n          9,\n          9,\n          6,\n          8,\n          6,\n          8,\n          8,\n          6,\n          8,\n          6,\n          9,\n          9,\n          1,\n          7\n        ],\n        [\n          9,\n          1,\n          9,\n          9,\n          8,\n          6,\n          6,\n          6,\n          6,\n          6,\n          6,\n          8,\n          9,\n          9,\n          1,\n          9\n        ],\n        [\n          7,\n          9,\n          1,\n          9,\n          6,\n          4,\n          6,\n          8,\n          8,\n          6,\n          4,\n          6,\n          1,\n          1,\n          9,\n          7\n        ],\n        [\n          9,\n          7,\n          9,\n          7,\n          8,\n          6,\n          8,\n          6,\n          6,\n          8,\n          6,\n          8,\n          7,\n          9,\n          7,\n          9\n        ],\n        [\n          8,\n          1,\n          2,\n          8,\n          7,\n          1,\n          9,\n          9,\n          9,\n          9,\n          1,\n          7,\n          8,\n          2,\n          1,\n          8\n        ],\n        [\n          2,\n          1,\n          1,\n          2,\n          9,\n          1,\n          9,\n          9,\n          9,\n          9,\n          1,\n          9,\n          2,\n          1,\n          1,\n          2\n        ],\n        [\n          8,\n          8,\n          1,\n          1,\n          7,\n          9,\n          1,\n          1,\n          1,\n          1,\n          9,\n          7,\n          1,\n          1,\n          8,\n          8\n        ],\n        [\n          1,\n          8,\n          2,\n          8,\n          9,\n          7,\n          9,\n          7,\n          7,\n          9,\n          7,\n          9,\n          8,\n          2,\n          8,\n          1\n        ]\n      ]\n    }\n  ],\n  \"rng_state_immediately_before_task_model_construction\": {\n    \"numpy_random_state_hash\": \"4a3d09c9f71849f43d8153bb687d4fcf4d5615b2f714c52d90d5b24da93599a0\",\n    \"python_random_state_hash\": \"1539c4c1f0d84bdfcbb8146e676254aafc4d27a780cf39d6f54f090dcb63a418\",\n    \"torch_cpu_rng_state_hash\": \"3e67bbe1233a7341902d413bc0d8047d917c2c8d3c23d6b1253225b9391167dd\",\n    \"torch_cuda_rng_state_hash\": \"cbaddb7a65f470b7a8a90b0a6e79e1148d759a48d812a54b5b99ed0de4c0a8a7\"\n  },\n  \"run_label\": \"baseline_a\",\n  \"runtime_seconds\": 1535.7915098459998,\n  \"seed\": 0,\n  \"solver_process_firewall\": {\n    \"challenge_json_only\": true,\n    \"denied_solution_paths\": [],\n    \"solution_argument_present\": false\n  },\n  \"status\": \"TRACE_COMPLETED\",\n  \"steps_requested\": 1500,\n  \"strict_deterministic_requested\": false,\n  \"structured_log_hash_excluding_wall_clock\": \"4b8fe83fecc1c936db6fe0369f45e2c9c139844b08492251476364bd276cd1d0\",\n  \"task_id\": \"903d1b4a\",\n  \"torch_are_deterministic_algorithms_enabled\": false,\n  \"torch_backends_cuda_matmul_allow_tf32\": false,\n  \"torch_backends_cudnn_allow_tf32\": true,\n  \"torch_backends_cudnn_benchmark\": false,\n  \"torch_backends_cudnn_deterministic\": false,\n  \"trace_interval\": 25\n}\n"
+      },
+      "baseline_b": {
+        "cmd": [
+          "/home/<user>/.venvs/vrm/bin/python",
+          "/mnt/d/VRM/r6a_compressarc/scripts/determinism_trace_solver.py",
+          "--compressarc-root",
+          "/mnt/d/VRM/third_party/compressarc_reference",
+          "--challenge-json",
+          "/mnt/d/VRM/r6a_compressarc/artifacts/phase0_smoke/903d1b4a/FULL/challenge.json",
+          "--task-id",
+          "903d1b4a",
+          "--condition",
+          "FULL",
+          "--run-label",
+          "baseline_b",
+          "--steps",
+          "1500",
+          "--trace-interval",
+          "25",
+          "--seed",
+          "0",
+          "--device",
+          "cuda",
+          "--output-json",
+          "/mnt/d/VRM/r6a_compressarc/artifacts/determinism_triage/baseline_b.json"
+        ],
+        "returncode": 0,
+        "runtime_seconds": 1449.2594389499998,
+        "stdout": "\n          7,\n          9,\n          7,\n          8,\n          6,\n          8,\n          6,\n          6,\n          8,\n          6,\n          8,\n          7,\n          9,\n          7,\n          9\n        ],\n        [\n          8,\n          1,\n          2,\n          8,\n          7,\n          1,\n          9,\n          9,\n          9,\n          9,\n          1,\n          7,\n          8,\n          2,\n          1,\n          8\n        ],\n        [\n          2,\n          1,\n          1,\n          2,\n          9,\n          1,\n          9,\n          9,\n          9,\n          9,\n          1,\n          9,\n          2,\n          1,\n          1,\n          2\n        ],\n        [\n          8,\n          8,\n          1,\n          1,\n          7,\n          9,\n          1,\n          1,\n          1,\n          1,\n          9,\n          7,\n          1,\n          1,\n          8,\n          8\n        ],\n        [\n          1,\n          8,\n          2,\n          8,\n          9,\n          7,\n          9,\n          7,\n          7,\n          9,\n          7,\n          9,\n          8,\n          2,\n          8,\n          1\n        ]\n      ],\n      \"attempt_2\": [\n        [\n          1,\n          8,\n          2,\n          8,\n          9,\n          7,\n          9,\n          7,\n          7,\n          9,\n          7,\n          9,\n          8,\n          2,\n          8,\n          1\n        ],\n        [\n          8,\n          8,\n          1,\n          1,\n          7,\n          9,\n          1,\n          1,\n          1,\n          1,\n          9,\n          7,\n          1,\n          1,\n          8,\n          8\n        ],\n        [\n          2,\n          1,\n          1,\n          2,\n          9,\n          1,\n          9,\n          9,\n          9,\n          9,\n          1,\n          9,\n          2,\n          1,\n          1,\n          2\n        ],\n        [\n          8,\n          1,\n          2,\n          8,\n          7,\n          1,\n          9,\n          9,\n          9,\n          9,\n          1,\n          7,\n          8,\n          2,\n          1,\n          8\n        ],\n        [\n          9,\n          7,\n          9,\n          7,\n          8,\n          6,\n          8,\n          6,\n          6,\n          8,\n          6,\n          8,\n          7,\n          9,\n          7,\n          9\n        ],\n        [\n          7,\n          9,\n          1,\n          1,\n          6,\n          4,\n          6,\n          8,\n          8,\n          6,\n          4,\n          6,\n          1,\n          1,\n          9,\n          7\n        ],\n        [\n          9,\n          1,\n          9,\n          9,\n          8,\n          6,\n          6,\n          6,\n          6,\n          6,\n          6,\n          8,\n          9,\n          9,\n          1,\n          9\n        ],\n        [\n          7,\n          1,\n          9,\n          9,\n          6,\n          8,\n          6,\n          8,\n          8,\n          6,\n          8,\n          6,\n          9,\n          9,\n          1,\n          7\n        ],\n        [\n          7,\n          9,\n          9,\n          9,\n          6,\n          8,\n          6,\n          8,\n          8,\n          6,\n          8,\n          6,\n          9,\n          9,\n          1,\n          7\n        ],\n        [\n          9,\n          1,\n          9,\n          9,\n          8,\n          6,\n          6,\n          6,\n          6,\n          6,\n          6,\n          8,\n          9,\n          9,\n          1,\n          9\n        ],\n        [\n          7,\n          9,\n          1,\n          1,\n          6,\n          4,\n          6,\n          8,\n          8,\n          6,\n          4,\n          6,\n          1,\n          1,\n          9,\n          7\n        ],\n        [\n          9,\n          7,\n          9,\n          7,\n          8,\n          6,\n          8,\n          6,\n          6,\n          8,\n          6,\n          8,\n          7,\n          9,\n          7,\n          9\n        ],\n        [\n          8,\n          1,\n          2,\n          8,\n          7,\n          1,\n          9,\n          9,\n          9,\n          9,\n          1,\n          7,\n          8,\n          2,\n          1,\n          8\n        ],\n        [\n          2,\n          1,\n          1,\n          2,\n          9,\n          1,\n          9,\n          9,\n          9,\n          9,\n          1,\n          9,\n          2,\n          1,\n          1,\n          2\n        ],\n        [\n          8,\n          8,\n          1,\n          1,\n          7,\n          9,\n          1,\n          1,\n          1,\n          1,\n          9,\n          7,\n          1,\n          1,\n          8,\n          8\n        ],\n        [\n          1,\n          8,\n          2,\n          8,\n          9,\n          7,\n          9,\n          7,\n          7,\n          9,\n          7,\n          9,\n          8,\n          2,\n          8,\n          1\n        ]\n      ]\n    }\n  ],\n  \"rng_state_immediately_before_task_model_construction\": {\n    \"numpy_random_state_hash\": \"4a3d09c9f71849f43d8153bb687d4fcf4d5615b2f714c52d90d5b24da93599a0\",\n    \"python_random_state_hash\": \"1539c4c1f0d84bdfcbb8146e676254aafc4d27a780cf39d6f54f090dcb63a418\",\n    \"torch_cpu_rng_state_hash\": \"3e67bbe1233a7341902d413bc0d8047d917c2c8d3c23d6b1253225b9391167dd\",\n    \"torch_cuda_rng_state_hash\": \"cbaddb7a65f470b7a8a90b0a6e79e1148d759a48d812a54b5b99ed0de4c0a8a7\"\n  },\n  \"run_label\": \"baseline_b\",\n  \"runtime_seconds\": 1445.286878758,\n  \"seed\": 0,\n  \"solver_process_firewall\": {\n    \"challenge_json_only\": true,\n    \"denied_solution_paths\": [],\n    \"solution_argument_present\": false\n  },\n  \"status\": \"TRACE_COMPLETED\",\n  \"steps_requested\": 1500,\n  \"strict_deterministic_requested\": false,\n  \"structured_log_hash_excluding_wall_clock\": \"b94d74a40053c40ab55ca1a6bcccfcfb2b6ce10bab18d75274b9924e7bff6715\",\n  \"task_id\": \"903d1b4a\",\n  \"torch_are_deterministic_algorithms_enabled\": false,\n  \"torch_backends_cuda_matmul_allow_tf32\": false,\n  \"torch_backends_cudnn_allow_tf32\": true,\n  \"torch_backends_cudnn_benchmark\": false,\n  \"torch_backends_cudnn_deterministic\": false,\n  \"trace_interval\": 25\n}\n"
+      }
+    }
+  },
+  "cpu_prefix_comparison": {
+    "comparison": {
+      "classification": "NO_DIVERGENCE_FOUND",
+      "first_divergence_checkpoint": null
+    },
+    "runs": {
+      "cpu_prefix_a": {
+        "cmd": [
+          "/home/<user>/.venvs/vrm/bin/python",
+          "/mnt/d/VRM/r6a_compressarc/scripts/determinism_trace_solver.py",
+          "--compressarc-root",
+          "/mnt/d/VRM/third_party/compressarc_reference",
+          "--challenge-json",
+          "/mnt/d/VRM/r6a_compressarc/artifacts/phase0_smoke/903d1b4a/FULL/challenge.json",
+          "--task-id",
+          "903d1b4a",
+          "--condition",
+          "FULL",
+          "--run-label",
+          "cpu_prefix_a",
+          "--steps",
+          "20",
+          "--trace-interval",
+          "25",
+          "--seed",
+          "0",
+          "--device",
+          "cpu",
+          "--output-json",
+          "/mnt/d/VRM/r6a_compressarc/artifacts/determinism_triage/cpu_prefix_a.json"
+        ],
+        "returncode": 0,
+        "runtime_seconds": 20.56892266099976,
+        "stdout": "       3,\n          3,\n          3,\n          3,\n          6,\n          8,\n          6,\n          6,\n          8,\n          6,\n          8,\n          7,\n          9,\n          7,\n          9\n        ],\n        [\n          8,\n          1,\n          2,\n          8,\n          7,\n          1,\n          9,\n          9,\n          9,\n          9,\n          1,\n          7,\n          8,\n          2,\n          1,\n          8\n        ],\n        [\n          2,\n          1,\n          1,\n          2,\n          9,\n          1,\n          9,\n          9,\n          9,\n          9,\n          1,\n          9,\n          2,\n          1,\n          1,\n          2\n        ],\n        [\n          8,\n          8,\n          1,\n          1,\n          7,\n          9,\n          1,\n          1,\n          1,\n          1,\n          9,\n          7,\n          1,\n          1,\n          8,\n          8\n        ],\n        [\n          1,\n          8,\n          2,\n          8,\n          9,\n          7,\n          9,\n          7,\n          7,\n          9,\n          7,\n          9,\n          8,\n          2,\n          8,\n          1\n        ]\n      ],\n      \"attempt_2\": [\n        [\n          1,\n          8,\n          2,\n          8,\n          9,\n          7,\n          9,\n          7,\n          7,\n          9,\n          7,\n          9,\n          8,\n          2,\n          9,\n          1\n        ],\n        [\n          8,\n          8,\n          1,\n          1,\n          7,\n          9,\n          1,\n          1,\n          1,\n          1,\n          9,\n          7,\n          1,\n          1,\n          8,\n          8\n        ],\n        [\n          2,\n          1,\n          1,\n          2,\n          9,\n          1,\n          9,\n          9,\n          9,\n          9,\n          1,\n          9,\n          2,\n          1,\n          1,\n          2\n        ],\n        [\n          8,\n          1,\n          2,\n          8,\n          7,\n          1,\n          9,\n          9,\n          9,\n          9,\n          1,\n          7,\n          8,\n          2,\n          1,\n          8\n        ],\n        [\n          9,\n          7,\n          9,\n          7,\n          8,\n          6,\n          8,\n          6,\n          6,\n          8,\n          6,\n          8,\n          7,\n          9,\n          7,\n          9\n        ],\n        [\n          7,\n          3,\n          3,\n          3,\n          6,\n          4,\n          6,\n          8,\n          8,\n          6,\n          4,\n          7,\n          1,\n          1,\n          9,\n          7\n        ],\n        [\n          9,\n          3,\n          3,\n          3,\n          8,\n          6,\n          6,\n          6,\n          6,\n          6,\n          6,\n          8,\n          9,\n          9,\n          1,\n          9\n        ],\n        [\n          7,\n          3,\n          3,\n          3,\n          6,\n          8,\n          6,\n          8,\n          8,\n          6,\n          8,\n          6,\n          9,\n          9,\n          1,\n          7\n        ],\n        [\n          7,\n          3,\n          3,\n          3,\n          6,\n          8,\n          6,\n          8,\n          8,\n          6,\n          8,\n          7,\n          9,\n          9,\n          1,\n          7\n        ],\n        [\n          9,\n          1,\n          9,\n          9,\n          8,\n          6,\n          6,\n          6,\n          6,\n          6,\n          6,\n          8,\n          9,\n          9,\n          1,\n          9\n        ],\n        [\n          7,\n          3,\n          3,\n          3,\n          3,\n          4,\n          6,\n          8,\n          8,\n          6,\n          4,\n          6,\n          1,\n          1,\n          9,\n          7\n        ],\n        [\n          9,\n          3,\n          3,\n          3,\n          3,\n          6,\n          6,\n          6,\n          6,\n          8,\n          6,\n          8,\n          7,\n          9,\n          7,\n          9\n        ],\n        [\n          8,\n          1,\n          2,\n          8,\n          7,\n          1,\n          9,\n          9,\n          9,\n          9,\n          1,\n          7,\n          8,\n          2,\n          1,\n          8\n        ],\n        [\n          2,\n          1,\n          1,\n          2,\n          9,\n          1,\n          9,\n          9,\n          9,\n          9,\n          1,\n          9,\n          2,\n          1,\n          1,\n          2\n        ],\n        [\n          8,\n          8,\n          1,\n          1,\n          7,\n          9,\n          1,\n          1,\n          1,\n          1,\n          9,\n          7,\n          1,\n          1,\n          8,\n          8\n        ],\n        [\n          7,\n          8,\n          2,\n          3,\n          9,\n          7,\n          9,\n          7,\n          7,\n          9,\n          7,\n          9,\n          8,\n          2,\n          8,\n          1\n        ]\n      ]\n    }\n  ],\n  \"rng_state_immediately_before_task_model_construction\": {\n    \"numpy_random_state_hash\": \"4a3d09c9f71849f43d8153bb687d4fcf4d5615b2f714c52d90d5b24da93599a0\",\n    \"python_random_state_hash\": \"1539c4c1f0d84bdfcbb8146e676254aafc4d27a780cf39d6f54f090dcb63a418\",\n    \"torch_cpu_rng_state_hash\": \"3e67bbe1233a7341902d413bc0d8047d917c2c8d3c23d6b1253225b9391167dd\",\n    \"torch_cuda_rng_state_hash\": \"cbaddb7a65f470b7a8a90b0a6e79e1148d759a48d812a54b5b99ed0de4c0a8a7\"\n  },\n  \"run_label\": \"cpu_prefix_a\",\n  \"runtime_seconds\": 17.776507153999773,\n  \"seed\": 0,\n  \"solver_process_firewall\": {\n    \"challenge_json_only\": true,\n    \"denied_solution_paths\": [],\n    \"solution_argument_present\": false\n  },\n  \"status\": \"TRACE_COMPLETED\",\n  \"steps_requested\": 20,\n  \"strict_deterministic_requested\": false,\n  \"structured_log_hash_excluding_wall_clock\": \"90050c8c85c85dc6a304f3a8367ec22d2af64f86e1d97266dde8e3bc5adabb1c\",\n  \"task_id\": \"903d1b4a\",\n  \"torch_are_deterministic_algorithms_enabled\": false,\n  \"torch_backends_cuda_matmul_allow_tf32\": false,\n  \"torch_backends_cudnn_allow_tf32\": true,\n  \"torch_backends_cudnn_benchmark\": false,\n  \"torch_backends_cudnn_deterministic\": false,\n  \"trace_interval\": 25\n}\n"
+      },
+      "cpu_prefix_b": {
+        "cmd": [
+          "/home/<user>/.venvs/vrm/bin/python",
+          "/mnt/d/VRM/r6a_compressarc/scripts/determinism_trace_solver.py",
+          "--compressarc-root",
+          "/mnt/d/VRM/third_party/compressarc_reference",
+          "--challenge-json",
+          "/mnt/d/VRM/r6a_compressarc/artifacts/phase0_smoke/903d1b4a/FULL/challenge.json",
+          "--task-id",
+          "903d1b4a",
+          "--condition",
+          "FULL",
+          "--run-label",
+          "cpu_prefix_b",
+          "--steps",
+          "20",
+          "--trace-interval",
+          "25",
+          "--seed",
+          "0",
+          "--device",
+          "cpu",
+          "--output-json",
+          "/mnt/d/VRM/r6a_compressarc/artifacts/determinism_triage/cpu_prefix_b.json"
+        ],
+        "returncode": 0,
+        "runtime_seconds": 20.855727657999978,
+        "stdout": "       3,\n          3,\n          3,\n          3,\n          6,\n          8,\n          6,\n          6,\n          8,\n          6,\n          8,\n          7,\n          9,\n          7,\n          9\n        ],\n        [\n          8,\n          1,\n          2,\n          8,\n          7,\n          1,\n          9,\n          9,\n          9,\n          9,\n          1,\n          7,\n          8,\n          2,\n          1,\n          8\n        ],\n        [\n          2,\n          1,\n          1,\n          2,\n          9,\n          1,\n          9,\n          9,\n          9,\n          9,\n          1,\n          9,\n          2,\n          1,\n          1,\n          2\n        ],\n        [\n          8,\n          8,\n          1,\n          1,\n          7,\n          9,\n          1,\n          1,\n          1,\n          1,\n          9,\n          7,\n          1,\n          1,\n          8,\n          8\n        ],\n        [\n          1,\n          8,\n          2,\n          8,\n          9,\n          7,\n          9,\n          7,\n          7,\n          9,\n          7,\n          9,\n          8,\n          2,\n          8,\n          1\n        ]\n      ],\n      \"attempt_2\": [\n        [\n          1,\n          8,\n          2,\n          8,\n          9,\n          7,\n          9,\n          7,\n          7,\n          9,\n          7,\n          9,\n          8,\n          2,\n          9,\n          1\n        ],\n        [\n          8,\n          8,\n          1,\n          1,\n          7,\n          9,\n          1,\n          1,\n          1,\n          1,\n          9,\n          7,\n          1,\n          1,\n          8,\n          8\n        ],\n        [\n          2,\n          1,\n          1,\n          2,\n          9,\n          1,\n          9,\n          9,\n          9,\n          9,\n          1,\n          9,\n          2,\n          1,\n          1,\n          2\n        ],\n        [\n          8,\n          1,\n          2,\n          8,\n          7,\n          1,\n          9,\n          9,\n          9,\n          9,\n          1,\n          7,\n          8,\n          2,\n          1,\n          8\n        ],\n        [\n          9,\n          7,\n          9,\n          7,\n          8,\n          6,\n          8,\n          6,\n          6,\n          8,\n          6,\n          8,\n          7,\n          9,\n          7,\n          9\n        ],\n        [\n          7,\n          3,\n          3,\n          3,\n          6,\n          4,\n          6,\n          8,\n          8,\n          6,\n          4,\n          7,\n          1,\n          1,\n          9,\n          7\n        ],\n        [\n          9,\n          3,\n          3,\n          3,\n          8,\n          6,\n          6,\n          6,\n          6,\n          6,\n          6,\n          8,\n          9,\n          9,\n          1,\n          9\n        ],\n        [\n          7,\n          3,\n          3,\n          3,\n          6,\n          8,\n          6,\n          8,\n          8,\n          6,\n          8,\n          6,\n          9,\n          9,\n          1,\n          7\n        ],\n        [\n          7,\n          3,\n          3,\n          3,\n          6,\n          8,\n          6,\n          8,\n          8,\n          6,\n          8,\n          7,\n          9,\n          9,\n          1,\n          7\n        ],\n        [\n          9,\n          1,\n          9,\n          9,\n          8,\n          6,\n          6,\n          6,\n          6,\n          6,\n          6,\n          8,\n          9,\n          9,\n          1,\n          9\n        ],\n        [\n          7,\n          3,\n          3,\n          3,\n          3,\n          4,\n          6,\n          8,\n          8,\n          6,\n          4,\n          6,\n          1,\n          1,\n          9,\n          7\n        ],\n        [\n          9,\n          3,\n          3,\n          3,\n          3,\n          6,\n          6,\n          6,\n          6,\n          8,\n          6,\n          8,\n          7,\n          9,\n          7,\n          9\n        ],\n        [\n          8,\n          1,\n          2,\n          8,\n          7,\n          1,\n          9,\n          9,\n          9,\n          9,\n          1,\n          7,\n          8,\n          2,\n          1,\n          8\n        ],\n        [\n          2,\n          1,\n          1,\n          2,\n          9,\n          1,\n          9,\n          9,\n          9,\n          9,\n          1,\n          9,\n          2,\n          1,\n          1,\n          2\n        ],\n        [\n          8,\n          8,\n          1,\n          1,\n          7,\n          9,\n          1,\n          1,\n          1,\n          1,\n          9,\n          7,\n          1,\n          1,\n          8,\n          8\n        ],\n        [\n          7,\n          8,\n          2,\n          3,\n          9,\n          7,\n          9,\n          7,\n          7,\n          9,\n          7,\n          9,\n          8,\n          2,\n          8,\n          1\n        ]\n      ]\n    }\n  ],\n  \"rng_state_immediately_before_task_model_construction\": {\n    \"numpy_random_state_hash\": \"4a3d09c9f71849f43d8153bb687d4fcf4d5615b2f714c52d90d5b24da93599a0\",\n    \"python_random_state_hash\": \"1539c4c1f0d84bdfcbb8146e676254aafc4d27a780cf39d6f54f090dcb63a418\",\n    \"torch_cpu_rng_state_hash\": \"3e67bbe1233a7341902d413bc0d8047d917c2c8d3c23d6b1253225b9391167dd\",\n    \"torch_cuda_rng_state_hash\": \"cbaddb7a65f470b7a8a90b0a6e79e1148d759a48d812a54b5b99ed0de4c0a8a7\"\n  },\n  \"run_label\": \"cpu_prefix_b\",\n  \"runtime_seconds\": 17.988509230999625,\n  \"seed\": 0,\n  \"solver_process_firewall\": {\n    \"challenge_json_only\": true,\n    \"denied_solution_paths\": [],\n    \"solution_argument_present\": false\n  },\n  \"status\": \"TRACE_COMPLETED\",\n  \"steps_requested\": 20,\n  \"strict_deterministic_requested\": false,\n  \"structured_log_hash_excluding_wall_clock\": \"90050c8c85c85dc6a304f3a8367ec22d2af64f86e1d97266dde8e3bc5adabb1c\",\n  \"task_id\": \"903d1b4a\",\n  \"torch_are_deterministic_algorithms_enabled\": false,\n  \"torch_backends_cuda_matmul_allow_tf32\": false,\n  \"torch_backends_cudnn_allow_tf32\": true,\n  \"torch_backends_cudnn_benchmark\": false,\n  \"torch_backends_cudnn_deterministic\": false,\n  \"trace_interval\": 25\n}\n"
+      }
+    }
+  },
+  "environment": {
+    "active_environment": {
+      "cuda_driver_query": {
+        "cmd": [
+          "nvidia-smi",
+          "--query-gpu=name,driver_version,cuda_version",
+          "--format=csv,noheader"
+        ],
+        "returncode": 2,
+        "stdout": "Field \"cuda_version\" is not a valid field to query.\n\n"
+      },
+      "env": {
+        "CUBLAS_WORKSPACE_CONFIG": null,
+        "CUDA_VISIBLE_DEVICES": null,
+        "MKL_NUM_THREADS": null,
+        "NVIDIA_VISIBLE_DEVICES": null,
+        "OMP_NUM_THREADS": null,
+        "PYTHONHASHSEED": null,
+        "TORCH_DETERMINISTIC": null
+      },
+      "gpu_name": "NVIDIA GeForce RTX 4070 Ti SUPER",
+      "matplotlib_version": "3.11.0",
+      "numpy_version": "2.5.0",
+      "platform": "Linux-6.18.33.1-microsoft-standard-WSL2-x86_64-with-glibc2.43",
+      "python_executable": "/home/<user>/.venvs/vrm/bin/python",
+      "python_version": "3.14.4 (main, Apr  8 2026, 04:02:31) [GCC 15.2.0]",
+      "torch_are_deterministic_algorithms_enabled": false,
+      "torch_backends_cuda_matmul_allow_tf32": false,
+      "torch_backends_cudnn_allow_tf32": true,
+      "torch_backends_cudnn_benchmark": false,
+      "torch_backends_cudnn_deterministic": false,
+      "torch_cuda_is_available": true,
+      "torch_cuda_runtime_version": "13.0",
+      "torch_cudnn_version": 92000,
+      "torch_version": "2.12.1+cu130",
+      "torch_version_cuda": "13.0",
+      "tqdm_version": "4.68.3"
+    },
+    "created_utc": "2026-07-01T15:35:19Z",
+    "environment_label": "ENVIRONMENT_DIFFERS_BUT_COMPATIBLE",
+    "exact_reference_reproduction_claim_allowed": false,
+    "installed_versions": {
+      "matplotlib": "3.11.0",
+      "numpy": "2.5.0",
+      "torch": "2.12.1+cu130",
+      "tqdm": "4.68.3"
+    },
+    "official_requirements": [
+      "matplotlib==3.10.0",
+      "numpy==2.2.2",
+      "torch==2.5.1",
+      "tqdm==4.66.6"
+    ],
+    "separate_environment_attempts": [
+      {
+        "cmd": [
+          "existing_path"
+        ],
+        "returncode": 0,
+        "stdout": "/home/<user>/.venvs/compressarc already exists"
+      },
+      {
+        "cmd": [
+          "/home/<user>/.venvs/compressarc/bin/python",
+          "-m",
+          "pip",
+          "install",
+          "-r",
+          "/mnt/d/VRM/third_party/compressarc_reference/requirements.txt"
+        ],
+        "returncode": 1,
+        "stdout": "/home/<user>/.venvs/compressarc/bin/python: No module named pip\n"
+      }
+    ],
+    "version_differences": {
+      "matplotlib": {
+        "expected": "3.10.0",
+        "installed": "3.11.0",
+        "matches": false
+      },
+      "numpy": {
+        "expected": "2.2.2",
+        "installed": "2.5.0",
+        "matches": false
+      },
+      "torch": {
+        "expected": "2.5.1",
+        "installed": "2.12.1+cu130",
+        "matches": false
+      },
+      "tqdm": {
+        "expected": "4.66.6",
+        "installed": "4.68.3",
+        "matches": false
+      }
+    }
+  },
+  "experiment": "R6A_0C_DETERMINISM_TRIAGE",
+  "future_pairing_initialization_proof": {
+    "all_conditions_begin_byte_identical": true,
+    "artifact_root": "/mnt/d/VRM/r6a_compressarc/artifacts/determinism_triage/future_pairing_initialization_artifacts",
+    "proofs": [
+      {
+        "all_model_hashes_identical": true,
+        "all_optimizer_hashes_identical": true,
+        "conditions": [
+          "ALL_PAIRING_SWAP",
+          "CONTENT_PAIRING_SWAP",
+          "FULL"
+        ],
+        "loaded_hashes": {
+          "ALL_PAIRING_SWAP": {
+            "model_hash_after_loading_shared_initialization": "b9630974606bd106700d719d41b5142472daa57fa902389ebc0f9054ddbbf2f8",
+            "optimizer_hash_after_construction": "303dfc88384552ee65180297eee2929b9103e91ba38ee03e5a6c10ac4237b9d5"
+          },
+          "CONTENT_PAIRING_SWAP": {
+            "model_hash_after_loading_shared_initialization": "b9630974606bd106700d719d41b5142472daa57fa902389ebc0f9054ddbbf2f8",
+            "optimizer_hash_after_construction": "303dfc88384552ee65180297eee2929b9103e91ba38ee03e5a6c10ac4237b9d5"
+          },
+          "FULL": {
+            "model_hash_after_loading_shared_initialization": "b9630974606bd106700d719d41b5142472daa57fa902389ebc0f9054ddbbf2f8",
+            "optimizer_hash_after_construction": "303dfc88384552ee65180297eee2929b9103e91ba38ee03e5a6c10ac4237b9d5"
+          }
+        },
+        "task_id": "3ed85e70"
+      },
+      {
+        "all_model_hashes_identical": true,
+        "all_optimizer_hashes_identical": true,
+        "conditions": [
+          "ALL_PAIRING_SWAP",
+          "FULL"
+        ],
+        "loaded_hashes": {
+          "ALL_PAIRING_SWAP": {
+            "model_hash_after_loading_shared_initialization": "d7e02e3e85257b62edc645c4b40928752ab34fd9dfde1800615e60d3dc47a91d",
+            "optimizer_hash_after_construction": "303dfc88384552ee65180297eee2929b9103e91ba38ee03e5a6c10ac4237b9d5"
+          },
+          "FULL": {
+            "model_hash_after_loading_shared_initialization": "d7e02e3e85257b62edc645c4b40928752ab34fd9dfde1800615e60d3dc47a91d",
+            "optimizer_hash_after_construction": "303dfc88384552ee65180297eee2929b9103e91ba38ee03e5a6c10ac4237b9d5"
+          }
+        },
+        "task_id": "604001fa"
+      },
+      {
+        "all_model_hashes_identical": true,
+        "all_optimizer_hashes_identical": true,
+        "conditions": [
+          "ALL_PAIRING_SWAP",
+          "FULL"
+        ],
+        "loaded_hashes": {
+          "ALL_PAIRING_SWAP": {
+            "model_hash_after_loading_shared_initialization": "02a196964c550abfc24c52ddabfbbb5377515c3b55fc0a3b370b90c260f3b388",
+            "optimizer_hash_after_construction": "303dfc88384552ee65180297eee2929b9103e91ba38ee03e5a6c10ac4237b9d5"
+          },
+          "FULL": {
+            "model_hash_after_loading_shared_initialization": "02a196964c550abfc24c52ddabfbbb5377515c3b55fc0a3b370b90c260f3b388",
+            "optimizer_hash_after_construction": "303dfc88384552ee65180297eee2929b9103e91ba38ee03e5a6c10ac4237b9d5"
+          }
+        },
+        "task_id": "79fb03f4"
+      },
+      {
+        "all_model_hashes_identical": true,
+        "all_optimizer_hashes_identical": true,
+        "conditions": [
+          "ALL_PAIRING_SWAP",
+          "CONTENT_PAIRING_SWAP",
+          "FULL"
+        ],
+        "loaded_hashes": {
+          "ALL_PAIRING_SWAP": {
+            "model_hash_after_loading_shared_initialization": "951c8eab55f0414196538a1d9739c5b78eeefd1350e33c51f050d2c69f58f27c",
+            "optimizer_hash_after_construction": "303dfc88384552ee65180297eee2929b9103e91ba38ee03e5a6c10ac4237b9d5"
+          },
+          "CONTENT_PAIRING_SWAP": {
+            "model_hash_after_loading_shared_initialization": "951c8eab55f0414196538a1d9739c5b78eeefd1350e33c51f050d2c69f58f27c",
+            "optimizer_hash_after_construction": "303dfc88384552ee65180297eee2929b9103e91ba38ee03e5a6c10ac4237b9d5"
+          },
+          "FULL": {
+            "model_hash_after_loading_shared_initialization": "951c8eab55f0414196538a1d9739c5b78eeefd1350e33c51f050d2c69f58f27c",
+            "optimizer_hash_after_construction": "303dfc88384552ee65180297eee2929b9103e91ba38ee03e5a6c10ac4237b9d5"
+          }
+        },
+        "task_id": "929ab4e9"
+      },
+      {
+        "all_model_hashes_identical": true,
+        "all_optimizer_hashes_identical": true,
+        "conditions": [
+          "ALL_PAIRING_SWAP",
+          "CONTENT_PAIRING_SWAP",
+          "FULL"
+        ],
+        "loaded_hashes": {
+          "ALL_PAIRING_SWAP": {
+            "model_hash_after_loading_shared_initialization": "410f1ec5beae564f241d62a7a3630cba06657070f0d64f06b0104bca23aadec5",
+            "optimizer_hash_after_construction": "303dfc88384552ee65180297eee2929b9103e91ba38ee03e5a6c10ac4237b9d5"
+          },
+          "CONTENT_PAIRING_SWAP": {
+            "model_hash_after_loading_shared_initialization": "410f1ec5beae564f241d62a7a3630cba06657070f0d64f06b0104bca23aadec5",
+            "optimizer_hash_after_construction": "303dfc88384552ee65180297eee2929b9103e91ba38ee03e5a6c10ac4237b9d5"
+          },
+          "FULL": {
+            "model_hash_after_loading_shared_initialization": "410f1ec5beae564f241d62a7a3630cba06657070f0d64f06b0104bca23aadec5",
+            "optimizer_hash_after_construction": "303dfc88384552ee65180297eee2929b9103e91ba38ee03e5a6c10ac4237b9d5"
+          }
+        },
+        "task_id": "981571dc"
+      },
+      {
+        "all_model_hashes_identical": true,
+        "all_optimizer_hashes_identical": true,
+        "conditions": [
+          "ALL_PAIRING_SWAP",
+          "FULL"
+        ],
+        "loaded_hashes": {
+          "ALL_PAIRING_SWAP": {
+            "model_hash_after_loading_shared_initialization": "db1ae833f4ac2d1705bfc6b5a824e8e804812ef7bcf0c6a0b0d2ed25cff28b89",
+            "optimizer_hash_after_construction": "303dfc88384552ee65180297eee2929b9103e91ba38ee03e5a6c10ac4237b9d5"
+          },
+          "FULL": {
+            "model_hash_after_loading_shared_initialization": "db1ae833f4ac2d1705bfc6b5a824e8e804812ef7bcf0c6a0b0d2ed25cff28b89",
+            "optimizer_hash_after_construction": "303dfc88384552ee65180297eee2929b9103e91ba38ee03e5a6c10ac4237b9d5"
+          }
+        },
+        "task_id": "aa4ec2a5"
+      }
+    ]
+  },
+  "randomness_audit": {
+    "rows": [
+      {
+        "hits": [
+          {
+            "line": 33,
+            "text": "np.random.seed(0)"
+          },
+          {
+            "line": 34,
+            "text": "torch.manual_seed(0)"
+          }
+        ],
+        "path": "third_party/compressarc_reference/analyze_example.py"
+      },
+      {
+        "hits": [
+          {
+            "line": 8,
+            "text": "np.random.seed(0)"
+          },
+          {
+            "line": 9,
+            "text": "torch.manual_seed(0)"
+          }
+        ],
+        "path": "third_party/compressarc_reference/arc_compressor.py"
+      },
+      {
+        "hits": [
+          {
+            "line": 6,
+            "text": "np.random.seed(0)"
+          },
+          {
+            "line": 7,
+            "text": "torch.manual_seed(0)"
+          },
+          {
+            "line": 44,
+            "text": "weight = scale * torch.randn(n_in, n_out)"
+          },
+          {
+            "line": 45,
+            "text": "bias = scale * torch.randn(n_out)"
+          },
+          {
+            "line": 64,
+            "text": "mean = 0.01 * torch.randn(shape)"
+          }
+        ],
+        "path": "third_party/compressarc_reference/initializers.py"
+      },
+      {
+        "hits": [
+          {
+            "line": 13,
+            "text": "np.random.seed(0)"
+          },
+          {
+            "line": 14,
+            "text": "torch.manual_seed(0)"
+          },
+          {
+            "line": 124,
+            "text": "z = signal_std*normalized_mean + noise_std*torch.randn(normalized_mean.shape)"
+          }
+        ],
+        "path": "third_party/compressarc_reference/layers.py"
+      },
+      {
+        "hits": [
+          {
+            "line": 5,
+            "text": "np.random.seed(0)"
+          },
+          {
+            "line": 6,
+            "text": "torch.manual_seed(0)"
+          }
+        ],
+        "path": "third_party/compressarc_reference/multitensor_systems.py"
+      },
+      {
+        "hits": [
+          {
+            "line": 66,
+            "text": "memory_dict = manager.dict()"
+          },
+          {
+            "line": 67,
+            "text": "solutions_dict = manager.dict()"
+          },
+          {
+            "line": 111,
+            "text": "memory_dict = dict(memory_dict)"
+          },
+          {
+            "line": 112,
+            "text": "solutions_dict = dict(solutions_dict)"
+          }
+        ],
+        "path": "third_party/compressarc_reference/parallel_train.py"
+      },
+      {
+        "hits": [
+          {
+            "line": 6,
+            "text": "np.random.seed(0)"
+          },
+          {
+            "line": 7,
+            "text": "torch.manual_seed(0)"
+          }
+        ],
+        "path": "third_party/compressarc_reference/preprocessing.py"
+      },
+      {
+        "hits": [
+          {
+            "line": 5,
+            "text": "np.random.seed(0)"
+          },
+          {
+            "line": 6,
+            "text": "torch.manual_seed(0)"
+          }
+        ],
+        "path": "third_party/compressarc_reference/solution_selection.py"
+      },
+      {
+        "hits": [
+          {
+            "line": 19,
+            "text": "np.random.seed(0)"
+          },
+          {
+            "line": 20,
+            "text": "torch.manual_seed(0)"
+          }
+        ],
+        "path": "third_party/compressarc_reference/train.py"
+      },
+      {
+        "hits": [
+          {
+            "line": 12,
+            "text": "np.random.seed(0)"
+          },
+          {
+            "line": 13,
+            "text": "torch.manual_seed(0)"
+          }
+        ],
+        "path": "third_party/compressarc_reference/visualization.py"
+      },
+      {
+        "hits": [
+          {
+            "line": 9,
+            "text": "import random"
+          },
+          {
+            "line": 57,
+            "text": "state = optimizer.state_dict()"
+          },
+          {
+            "line": 78,
+            "text": "\"python_random_state_hash\": json_hash(repr(random.getstate())),"
+          },
+          {
+            "line": 79,
+            "text": "\"numpy_random_state_hash\": json_hash(repr(np.random.get_state())),"
+          },
+          {
+            "line": 80,
+            "text": "\"torch_cpu_rng_state_hash\": tensor_hash(torch.random.get_rng_state()),"
+          },
+          {
+            "line": 190,
+            "text": "random.seed(args.seed)"
+          },
+          {
+            "line": 191,
+            "text": "np.random.seed(args.seed)"
+          },
+          {
+            "line": 192,
+            "text": "torch.manual_seed(args.seed)"
+          },
+          {
+            "line": 194,
+            "text": "torch.cuda.manual_seed_all(args.seed)"
+          }
+        ],
+        "path": "r6a_compressarc/scripts/determinism_trace_solver.py"
+      },
+      {
+        "hits": [
+          {
+            "line": 6,
+            "text": "import random"
+          },
+          {
+            "line": 205,
+            "text": "rng = random.Random(seed)"
+          }
+        ],
+        "path": "r6a_compressarc/scripts/r6a_common.py"
+      },
+      {
+        "hits": [
+          {
+            "line": 66,
+            "text": "(\"python_random_state_immediately_before_task_model_construction\", left.get(\"rng_state_immediately_before_task_model_construction\", {}).get(\"python_random_state_hash\"), right.get(\"rng_state_immediately_before_task_model_construction\", {}).get(\"python_random_state_hash\"), \"RNG_STATE_DRIFT\"),"
+          },
+          {
+            "line": 67,
+            "text": "(\"numpy_random_state_immediately_before_task_model_construction\", left.get(\"rng_state_immediately_before_task_model_construction\", {}).get(\"numpy_random_state_hash\"), right.get(\"rng_state_immediately_before_task_model_construction\", {}).get(\"numpy_random_state_hash\"), \"RNG_STATE_DRIFT\"),"
+          },
+          {
+            "line": 79,
+            "text": "for step in sorted(set(left_by_step) & set(right_by_step)):"
+          },
+          {
+            "line": 94,
+            "text": "def randomness_audit() -> dict[str, Any]:"
+          },
+          {
+            "line": 95,
+            "text": "terms = [\"random\", \"np.random\", \"torch.manual_seed\", \"torch.cuda.manual_seed_all\", \"torch.Generator\", \"torch.randn\", \"torch.rand\", \"randn_like\", \"set(\", \"dict(\"]"
+          },
+          {
+            "line": 109,
+            "text": "import random"
+          },
+          {
+            "line": 125,
+            "text": "random.seed(RUN_SEED)"
+          },
+          {
+            "line": 126,
+            "text": "np.random.seed(RUN_SEED)"
+          },
+          {
+            "line": 127,
+            "text": "torch.manual_seed(RUN_SEED)"
+          },
+          {
+            "line": 129,
+            "text": "torch.cuda.manual_seed_all(RUN_SEED)"
+          },
+          {
+            "line": 137,
+            "text": "torch.save(optimizer.state_dict(), task_dir / \"initial_optimizer_state.pt\")"
+          },
+          {
+            "line": 266,
+            "text": "\"randomness_audit\": randomness_audit(),"
+          }
+        ],
+        "path": "r6a_compressarc/scripts/run_determinism_triage.py"
+      },
+      {
+        "hits": [
+          {
+            "line": 108,
+            "text": "used: set[str] = set()"
+          },
+          {
+            "line": 134,
+            "text": "untouched = sorted(set(eval_challenges) - used)"
+          },
+          {
+            "line": 335,
+            "text": "def verdict(preflight_ok: bool, smoke_ok: bool, phase1_rows: list[dict[str, Any]], phase1_summary: dict[str, Any]) -> tuple[str, str]:"
+          },
+          {
+            "line": 493,
+            "text": "final_verdict, next_action = verdict(preflight_ok, smoke_ok, phase1_rows, phase1_summary)"
+          }
+        ],
+        "path": "r6a_compressarc/scripts/run_r6a_compressarc_audit.py"
+      },
+      {
+        "hits": [
+          {
+            "line": 7,
+            "text": "import random"
+          },
+          {
+            "line": 106,
+            "text": "np.random.seed(args.seed)"
+          },
+          {
+            "line": 107,
+            "text": "random.seed(args.seed)"
+          },
+          {
+            "line": 108,
+            "text": "torch.manual_seed(args.seed)"
+          },
+          {
+            "line": 110,
+            "text": "torch.cuda.manual_seed_all(args.seed)"
+          }
+        ],
+        "path": "r6a_compressarc/scripts/solve_challenge_only.py"
+      }
+    ],
+    "terms": [
+      "random",
+      "np.random",
+      "torch.manual_seed",
+      "torch.cuda.manual_seed_all",
+      "torch.Generator",
+      "torch.randn",
+      "torch.rand",
+      "randn_like",
+      "set(",
+      "dict("
+    ]
+  },
+  "root_cause": {
+    "recommendation": "C. Repair a concrete source/wrapper seed or logging defect, then rerun Phase 0B.",
+    "root_cause_layer": "source-level",
+    "strict_result_classification": "UNSUPPORTED_STRICT_DETERMINISM_OPERATION"
+  },
+  "smoke_budget": 1500,
+  "strict_trace_comparison": {
+    "comparison": {
+      "classification": "NO_DIVERGENCE_FOUND",
+      "first_divergence_checkpoint": null
+    },
+    "runs": {
+      "strict_a": {
+        "cmd": [
+          "/home/<user>/.venvs/vrm/bin/python",
+          "/mnt/d/VRM/r6a_compressarc/scripts/determinism_trace_solver.py",
+          "--compressarc-root",
+          "/mnt/d/VRM/third_party/compressarc_reference",
+          "--challenge-json",
+          "/mnt/d/VRM/r6a_compressarc/artifacts/phase0_smoke/903d1b4a/FULL/challenge.json",
+          "--task-id",
+          "903d1b4a",
+          "--condition",
+          "FULL",
+          "--run-label",
+          "strict_a",
+          "--steps",
+          "1500",
+          "--trace-interval",
+          "25",
+          "--seed",
+          "0",
+          "--device",
+          "cuda",
+          "--output-json",
+          "/mnt/d/VRM/r6a_compressarc/artifacts/determinism_triage/strict_a.json",
+          "--strict-deterministic"
+        ],
+        "returncode": 2,
+        "runtime_seconds": 4.026437982999596,
+        "stdout": "{\n  \"experiment\": \"R6A_0C_DETERMINISM_TRIAGE\",\n  \"failure\": {\n    \"message\": \"nll_loss2d_forward_out_cuda_template does not have a deterministic implementation, but you set 'torch.use_deterministic_algorithms(True)'. You can turn off determinism just for this operation, or you can use the 'warn_only=True' option, if that's acceptable for your application. You can also file an issue at https://github.com/pytorch/pytorch/issues to help us prioritize adding deterministic support for this operation.\",\n    \"occurred_before_trace_payload\": true,\n    \"traceback\": \"Traceback (most recent call last):\\n  File \\\"/mnt/d/VRM/r6a_compressarc/scripts/determinism_trace_solver.py\\\", line 318, in main\\n    payload = run_trace(args)\\n  File \\\"/mnt/d/VRM/r6a_compressarc/scripts/determinism_trace_solver.py\\\", line 209, in run_trace\\n    pre_update_step0 = compute_loss_components(task, model, 0)\\n  File \\\"/mnt/d/VRM/r6a_compressarc/scripts/determinism_trace_solver.py\\\", line 153, in compute_loss_components\\n    logprob = logprob - torch.nn.functional.cross_entropy(logits_crop[None, ...], target_crop[None, ...], reduction=\\\"sum\\\")\\n                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\\n  File \\\"/home/<user>/.venvs/vrm/lib/python3.14/site-packages/torch/nn/functional.py\\\", line 3493, in cross_entropy\\n    return handle_torch_function(\\n        cross_entropy,\\n    ...<8 lines>...\\n        label_smoothing=label_smoothing,\\n    )\\n  File \\\"/home/<user>/.venvs/vrm/lib/python3.14/site-packages/torch/overrides.py\\\", line 1774, in handle_torch_function\\n    result = mode.__torch_function__(public_api, types, args, kwargs)\\n  File \\\"/home/<user>/.venvs/vrm/lib/python3.14/site-packages/torch/utils/_device.py\\\", line 122, in __torch_function__\\n    return func(*args, **kwargs)\\n  File \\\"/home/<user>/.venvs/vrm/lib/python3.14/site-packages/torch/nn/functional.py\\\", line 3507, in cross_entropy\\n    return torch._C._nn.cross_entropy_loss(\\n           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^\\n        input,\\n        ^^^^^^\\n    ...<5 lines>...\\n        label_smoothing,\\n        ^^^^^^^^^^^^^^^^\\n    )\\n    ^\\nRuntimeError: nll_loss2d_forward_out_cuda_template does not have a deterministic implementation, but you set 'torch.use_deterministic_algorithms(True)'. You can turn off determinism just for this operation, or you can use the 'warn_only=True' option, if that's acceptable for your application. You can also file an issue at https://github.com/pytorch/pytorch/issues to help us prioritize adding deterministic support for this operation.\\n\",\n    \"type\": \"RuntimeError\"\n  },\n  \"run_label\": \"strict_a\",\n  \"status\": \"TRACE_FAILED\"\n}\n"
+      },
+      "strict_b": {
+        "cmd": [
+          "/home/<user>/.venvs/vrm/bin/python",
+          "/mnt/d/VRM/r6a_compressarc/scripts/determinism_trace_solver.py",
+          "--compressarc-root",
+          "/mnt/d/VRM/third_party/compressarc_reference",
+          "--challenge-json",
+          "/mnt/d/VRM/r6a_compressarc/artifacts/phase0_smoke/903d1b4a/FULL/challenge.json",
+          "--task-id",
+          "903d1b4a",
+          "--condition",
+          "FULL",
+          "--run-label",
+          "strict_b",
+          "--steps",
+          "1500",
+          "--trace-interval",
+          "25",
+          "--seed",
+          "0",
+          "--device",
+          "cuda",
+          "--output-json",
+          "/mnt/d/VRM/r6a_compressarc/artifacts/determinism_triage/strict_b.json",
+          "--strict-deterministic"
+        ],
+        "returncode": 2,
+        "runtime_seconds": 3.947159787000146,
+        "stdout": "{\n  \"experiment\": \"R6A_0C_DETERMINISM_TRIAGE\",\n  \"failure\": {\n    \"message\": \"nll_loss2d_forward_out_cuda_template does not have a deterministic implementation, but you set 'torch.use_deterministic_algorithms(True)'. You can turn off determinism just for this operation, or you can use the 'warn_only=True' option, if that's acceptable for your application. You can also file an issue at https://github.com/pytorch/pytorch/issues to help us prioritize adding deterministic support for this operation.\",\n    \"occurred_before_trace_payload\": true,\n    \"traceback\": \"Traceback (most recent call last):\\n  File \\\"/mnt/d/VRM/r6a_compressarc/scripts/determinism_trace_solver.py\\\", line 318, in main\\n    payload = run_trace(args)\\n  File \\\"/mnt/d/VRM/r6a_compressarc/scripts/determinism_trace_solver.py\\\", line 209, in run_trace\\n    pre_update_step0 = compute_loss_components(task, model, 0)\\n  File \\\"/mnt/d/VRM/r6a_compressarc/scripts/determinism_trace_solver.py\\\", line 153, in compute_loss_components\\n    logprob = logprob - torch.nn.functional.cross_entropy(logits_crop[None, ...], target_crop[None, ...], reduction=\\\"sum\\\")\\n                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\\n  File \\\"/home/<user>/.venvs/vrm/lib/python3.14/site-packages/torch/nn/functional.py\\\", line 3493, in cross_entropy\\n    return handle_torch_function(\\n        cross_entropy,\\n    ...<8 lines>...\\n        label_smoothing=label_smoothing,\\n    )\\n  File \\\"/home/<user>/.venvs/vrm/lib/python3.14/site-packages/torch/overrides.py\\\", line 1774, in handle_torch_function\\n    result = mode.__torch_function__(public_api, types, args, kwargs)\\n  File \\\"/home/<user>/.venvs/vrm/lib/python3.14/site-packages/torch/utils/_device.py\\\", line 122, in __torch_function__\\n    return func(*args, **kwargs)\\n  File \\\"/home/<user>/.venvs/vrm/lib/python3.14/site-packages/torch/nn/functional.py\\\", line 3507, in cross_entropy\\n    return torch._C._nn.cross_entropy_loss(\\n           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^\\n        input,\\n        ^^^^^^\\n    ...<5 lines>...\\n        label_smoothing,\\n        ^^^^^^^^^^^^^^^^\\n    )\\n    ^\\nRuntimeError: nll_loss2d_forward_out_cuda_template does not have a deterministic implementation, but you set 'torch.use_deterministic_algorithms(True)'. You can turn off determinism just for this operation, or you can use the 'warn_only=True' option, if that's acceptable for your application. You can also file an issue at https://github.com/pytorch/pytorch/issues to help us prioritize adding deterministic support for this operation.\\n\",\n    \"type\": \"RuntimeError\"\n  },\n  \"run_label\": \"strict_b\",\n  \"status\": \"TRACE_FAILED\"\n}\n"
+      }
+    },
+    "unsupported_operation": {
+      "message": "nll_loss2d_forward_out_cuda_template does not have a deterministic implementation, but you set 'torch.use_deterministic_algorithms(True)'. You can turn off determinism just for this operation, or you can use the 'warn_only=True' option, if that's acceptable for your application. You can also file an issue at https://github.com/pytorch/pytorch/issues to help us prioritize adding deterministic support for this operation.",
+      "occurred_before_trace_payload": true,
+      "traceback": "Traceback (most recent call last):\n  File \"/mnt/d/VRM/r6a_compressarc/scripts/determinism_trace_solver.py\", line 318, in main\n    payload = run_trace(args)\n  File \"/mnt/d/VRM/r6a_compressarc/scripts/determinism_trace_solver.py\", line 209, in run_trace\n    pre_update_step0 = compute_loss_components(task, model, 0)\n  File \"/mnt/d/VRM/r6a_compressarc/scripts/determinism_trace_solver.py\", line 153, in compute_loss_components\n    logprob = logprob - torch.nn.functional.cross_entropy(logits_crop[None, ...], target_crop[None, ...], reduction=\"sum\")\n                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/<user>/.venvs/vrm/lib/python3.14/site-packages/torch/nn/functional.py\", line 3493, in cross_entropy\n    return handle_torch_function(\n        cross_entropy,\n    ...<8 lines>...\n        label_smoothing=label_smoothing,\n    )\n  File \"/home/<user>/.venvs/vrm/lib/python3.14/site-packages/torch/overrides.py\", line 1774, in handle_torch_function\n    result = mode.__torch_function__(public_api, types, args, kwargs)\n  File \"/home/<user>/.venvs/vrm/lib/python3.14/site-packages/torch/utils/_device.py\", line 122, in __torch_function__\n    return func(*args, **kwargs)\n  File \"/home/<user>/.venvs/vrm/lib/python3.14/site-packages/torch/nn/functional.py\", line 3507, in cross_entropy\n    return torch._C._nn.cross_entropy_loss(\n           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^\n        input,\n        ^^^^^^\n    ...<5 lines>...\n        label_smoothing,\n        ^^^^^^^^^^^^^^^^\n    )\n    ^\nRuntimeError: nll_loss2d_forward_out_cuda_template does not have a deterministic implementation, but you set 'torch.use_deterministic_algorithms(True)'. You can turn off determinism just for this operation, or you can use the 'warn_only=True' option, if that's acceptable for your application. You can also file an issue at https://github.com/pytorch/pytorch/issues to help us prioritize adding deterministic support for this operation.\n",
+      "type": "RuntimeError"
+    }
+  },
+  "task_id": "903d1b4a"
+}

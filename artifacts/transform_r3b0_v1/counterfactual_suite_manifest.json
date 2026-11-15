@@ -1,0 +1,7 @@
+{
+  "bad_group_count": 0,
+  "bad_group_examples": [],
+  "counterfactual_group_count": 1500,
+  "episode_count": 4500,
+  "passed": true
+}

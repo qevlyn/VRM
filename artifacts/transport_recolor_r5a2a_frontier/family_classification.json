@@ -1,0 +1,275 @@
+{
+  "audit_version": "R5A2A_CAPABILITY_FRONTIER_PREFLIGHT_V1",
+  "by_family": {
+    "border_relation_select_then_v2_transform": {
+      "classification": "GENERATOR_INVALID",
+      "classification_reasons": [
+        "generator, support, closure, or shortcut validity gate failed"
+      ],
+      "closure_status": {
+        "episode_count": 24,
+        "full_scene_closure_representable_count": 0,
+        "outside_declared_closure_within_audit_domain": true
+      },
+      "full_scene_v2_result": {
+        "fresh_checkpoint_same_output_rate_min": 1.0,
+        "held_out_exact_min_across_sources": 0.0,
+        "max_macro_exact_across_sources": 0.0,
+        "min_macro_exact_across_sources": 0.0
+      },
+      "generator_validity": false,
+      "held_out_composition_result": {
+        "fresh_checkpoint_same_output_rate_min": 1.0,
+        "full_scene_held_out_exact_min_across_sources": 0.0,
+        "isolated_target_held_out_exact_min_across_sources": 0.0
+      },
+      "isolated_target_v2_result": {
+        "fresh_checkpoint_same_output_rate_min": 1.0,
+        "held_out_exact_min_across_sources": 0.0,
+        "max_macro_exact_across_sources": 0.041666666666666664,
+        "min_macro_exact_across_sources": 0.041666666666666664
+      },
+      "probe_family": "border_relation_select_then_v2_transform",
+      "shortcut_results": {
+        "max_shortcut_exact": 0.75,
+        "passes_threshold": false,
+        "shortcut_scores": {
+          "always_choose_fixed_position": {
+            "episode_count": 24,
+            "exact": 0.375,
+            "exact_count": 9
+          },
+          "always_choose_largest": {
+            "episode_count": 24,
+            "exact": 0.20833333333333334,
+            "exact_count": 5
+          },
+          "always_choose_nearest_corner": {
+            "episode_count": 24,
+            "exact": 0.75,
+            "exact_count": 18
+          },
+          "always_choose_rarest_color": {
+            "episode_count": 24,
+            "exact": 0.20833333333333334,
+            "exact_count": 5
+          },
+          "always_choose_smallest": {
+            "episode_count": 24,
+            "exact": 0.2916666666666667,
+            "exact_count": 7
+          },
+          "always_transform_all_objects": {
+            "episode_count": 24,
+            "exact": 0.0,
+            "exact_count": 0
+          }
+        },
+        "threshold": 0.6
+      }
+    },
+    "largest_component_select_then_v2_transform": {
+      "classification": "GENERATOR_INVALID",
+      "classification_reasons": [
+        "generator, support, closure, or shortcut validity gate failed"
+      ],
+      "closure_status": {
+        "episode_count": 24,
+        "full_scene_closure_representable_count": 0,
+        "outside_declared_closure_within_audit_domain": true
+      },
+      "full_scene_v2_result": {
+        "fresh_checkpoint_same_output_rate_min": 1.0,
+        "held_out_exact_min_across_sources": 0.0,
+        "max_macro_exact_across_sources": 0.0,
+        "min_macro_exact_across_sources": 0.0
+      },
+      "generator_validity": false,
+      "held_out_composition_result": {
+        "fresh_checkpoint_same_output_rate_min": 1.0,
+        "full_scene_held_out_exact_min_across_sources": 0.0,
+        "isolated_target_held_out_exact_min_across_sources": 0.0
+      },
+      "isolated_target_v2_result": {
+        "fresh_checkpoint_same_output_rate_min": 1.0,
+        "held_out_exact_min_across_sources": 0.0,
+        "max_macro_exact_across_sources": 0.0,
+        "min_macro_exact_across_sources": 0.0
+      },
+      "probe_family": "largest_component_select_then_v2_transform",
+      "shortcut_results": {
+        "max_shortcut_exact": 1.0,
+        "passes_threshold": false,
+        "shortcut_scores": {
+          "always_choose_fixed_position": {
+            "episode_count": 24,
+            "exact": 0.4166666666666667,
+            "exact_count": 10
+          },
+          "always_choose_largest": {
+            "episode_count": 24,
+            "exact": 1.0,
+            "exact_count": 24
+          },
+          "always_choose_nearest_corner": {
+            "episode_count": 24,
+            "exact": 0.16666666666666666,
+            "exact_count": 4
+          },
+          "always_choose_rarest_color": {
+            "episode_count": 24,
+            "exact": 0.4583333333333333,
+            "exact_count": 11
+          },
+          "always_choose_smallest": {
+            "episode_count": 24,
+            "exact": 0.0,
+            "exact_count": 0
+          },
+          "always_transform_all_objects": {
+            "episode_count": 24,
+            "exact": 0.0,
+            "exact_count": 0
+          }
+        },
+        "threshold": 0.6
+      }
+    },
+    "nearest_marker_select_then_v2_transform": {
+      "classification": "OUT_OF_CLOSURE_V2_NOT_USEFUL",
+      "classification_reasons": [
+        "isolated-target V2 fails materially"
+      ],
+      "closure_status": {
+        "episode_count": 24,
+        "full_scene_closure_representable_count": 0,
+        "outside_declared_closure_within_audit_domain": true
+      },
+      "full_scene_v2_result": {
+        "fresh_checkpoint_same_output_rate_min": 1.0,
+        "held_out_exact_min_across_sources": 0.0,
+        "max_macro_exact_across_sources": 0.0,
+        "min_macro_exact_across_sources": 0.0
+      },
+      "generator_validity": true,
+      "held_out_composition_result": {
+        "fresh_checkpoint_same_output_rate_min": 1.0,
+        "full_scene_held_out_exact_min_across_sources": 0.0,
+        "isolated_target_held_out_exact_min_across_sources": 0.08333333333333333
+      },
+      "isolated_target_v2_result": {
+        "fresh_checkpoint_same_output_rate_min": 1.0,
+        "held_out_exact_min_across_sources": 0.08333333333333333,
+        "max_macro_exact_across_sources": 0.08333333333333333,
+        "min_macro_exact_across_sources": 0.08333333333333333
+      },
+      "probe_family": "nearest_marker_select_then_v2_transform",
+      "shortcut_results": {
+        "max_shortcut_exact": 0.4166666666666667,
+        "passes_threshold": true,
+        "shortcut_scores": {
+          "always_choose_fixed_position": {
+            "episode_count": 24,
+            "exact": 0.16666666666666666,
+            "exact_count": 4
+          },
+          "always_choose_largest": {
+            "episode_count": 24,
+            "exact": 0.16666666666666666,
+            "exact_count": 4
+          },
+          "always_choose_nearest_corner": {
+            "episode_count": 24,
+            "exact": 0.2916666666666667,
+            "exact_count": 7
+          },
+          "always_choose_rarest_color": {
+            "episode_count": 24,
+            "exact": 0.4166666666666667,
+            "exact_count": 10
+          },
+          "always_choose_smallest": {
+            "episode_count": 24,
+            "exact": 0.16666666666666666,
+            "exact_count": 4
+          },
+          "always_transform_all_objects": {
+            "episode_count": 24,
+            "exact": 0.0,
+            "exact_count": 0
+          }
+        },
+        "threshold": 0.6
+      }
+    },
+    "unique_shape_select_then_v2_transform": {
+      "classification": "OUT_OF_CLOSURE_V2_NOT_USEFUL",
+      "classification_reasons": [
+        "isolated-target V2 fails materially"
+      ],
+      "closure_status": {
+        "episode_count": 24,
+        "full_scene_closure_representable_count": 0,
+        "outside_declared_closure_within_audit_domain": true
+      },
+      "full_scene_v2_result": {
+        "fresh_checkpoint_same_output_rate_min": 1.0,
+        "held_out_exact_min_across_sources": 0.0,
+        "max_macro_exact_across_sources": 0.0,
+        "min_macro_exact_across_sources": 0.0
+      },
+      "generator_validity": true,
+      "held_out_composition_result": {
+        "fresh_checkpoint_same_output_rate_min": 1.0,
+        "full_scene_held_out_exact_min_across_sources": 0.0,
+        "isolated_target_held_out_exact_min_across_sources": 0.0
+      },
+      "isolated_target_v2_result": {
+        "fresh_checkpoint_same_output_rate_min": 1.0,
+        "held_out_exact_min_across_sources": 0.0,
+        "max_macro_exact_across_sources": 0.041666666666666664,
+        "min_macro_exact_across_sources": 0.041666666666666664
+      },
+      "probe_family": "unique_shape_select_then_v2_transform",
+      "shortcut_results": {
+        "max_shortcut_exact": 0.5,
+        "passes_threshold": true,
+        "shortcut_scores": {
+          "always_choose_fixed_position": {
+            "episode_count": 24,
+            "exact": 0.25,
+            "exact_count": 6
+          },
+          "always_choose_largest": {
+            "episode_count": 24,
+            "exact": 0.2916666666666667,
+            "exact_count": 7
+          },
+          "always_choose_nearest_corner": {
+            "episode_count": 24,
+            "exact": 0.5,
+            "exact_count": 12
+          },
+          "always_choose_rarest_color": {
+            "episode_count": 24,
+            "exact": 0.3333333333333333,
+            "exact_count": 8
+          },
+          "always_choose_smallest": {
+            "episode_count": 24,
+            "exact": 0.2916666666666667,
+            "exact_count": 7
+          },
+          "always_transform_all_objects": {
+            "episode_count": 24,
+            "exact": 0.0,
+            "exact_count": 0
+          }
+        },
+        "threshold": 0.6
+      }
+    }
+  },
+  "global_verdict": "R5A2A_FRONTIER_NO_CLEAN_V2_EXTENSION_CANDIDATE",
+  "recommended_first_family": null
+}

@@ -1,0 +1,186 @@
+{
+  "created_utc": "2026-07-04T03:15:38Z",
+  "new_file_count": 30,
+  "new_files": [
+    {
+      "mtime_ns": 1783133783890367500,
+      "path": "r6a_compressarc/archives/r6a_phase2_role_preserving_pstrict_noise_tape_closure_v4/r6a_phase2_role_preserving_pstrict_noise_tape_closure_v4_phase1_archive_20260704_025409.zip",
+      "sha256": "4a884324f9e4e33861a1c502d8950e0f8d594e82f88c1ba491e8d7b5f88cd8d9",
+      "size_bytes": 2308084621
+    },
+    {
+      "mtime_ns": 1783134206999987800,
+      "path": "r6a_compressarc/archives/r6a_phase2_role_preserving_pstrict_noise_tape_closure_v4/r6a_phase2_role_preserving_pstrict_noise_tape_closure_v4_phase1_archive_20260704_030108.zip",
+      "sha256": "4a884324f9e4e33861a1c502d8950e0f8d594e82f88c1ba491e8d7b5f88cd8d9",
+      "size_bytes": 2308084621
+    },
+    {
+      "mtime_ns": 1783134645346421600,
+      "path": "r6a_compressarc/archives/r6a_phase2_role_preserving_pstrict_noise_tape_closure_v4/r6a_phase2_role_preserving_pstrict_noise_tape_closure_v4_phase1_archive_20260704_030841.zip",
+      "sha256": "4a884324f9e4e33861a1c502d8950e0f8d594e82f88c1ba491e8d7b5f88cd8d9",
+      "size_bytes": 2308084621
+    },
+    {
+      "mtime_ns": 1783134697770919100,
+      "path": "r6a_compressarc/artifacts/r6a_phase2_role_preserving_pstrict_noise_tape_closure_v4/alias_graph.json",
+      "sha256": "be58ed174d7039bbfb8ac9cd90887a0116ecc2f429ba3a7982b216ada1b7a55b",
+      "size_bytes": 3726662
+    },
+    {
+      "mtime_ns": 1783134699986006000,
+      "path": "r6a_compressarc/artifacts/r6a_phase2_role_preserving_pstrict_noise_tape_closure_v4/child_stdout.log",
+      "sha256": "665c873b72c75b4d9b1bd1cd35ddab06223018601e82c0e65e17a32d024bd339",
+      "size_bytes": 297
+    },
+    {
+      "mtime_ns": 1783134699997045400,
+      "path": "r6a_compressarc/artifacts/r6a_phase2_role_preserving_pstrict_noise_tape_closure_v4/child_summary.json",
+      "sha256": "a4d02df0ec07eb0ee059028b9c40f0b8f40f19c58b182316f0253d6b8ded1089",
+      "size_bytes": 686
+    },
+    {
+      "mtime_ns": 1783134697784919100,
+      "path": "r6a_compressarc/artifacts/r6a_phase2_role_preserving_pstrict_noise_tape_closure_v4/closure_results.json",
+      "sha256": "f3486def256ace62db441957d5172e7c44ec929b4c1aa69ed84ffb50a16fab7d",
+      "size_bytes": 7235
+    },
+    {
+      "mtime_ns": 1783134682627341000,
+      "path": "r6a_compressarc/artifacts/r6a_phase2_role_preserving_pstrict_noise_tape_closure_v4/cpu_execution_proof.json",
+      "sha256": "4c11a6aaf9d75466ecc20cae3d67d53c87aa9a404c27e59d3e5fea128c88e2e0",
+      "size_bytes": 3002
+    },
+    {
+      "mtime_ns": 1783134678473390300,
+      "path": "r6a_compressarc/artifacts/r6a_phase2_role_preserving_pstrict_noise_tape_closure_v4/cycle_invariant_effects.csv",
+      "sha256": "98566915479fe503cc5cf33c6d417e35e502ba9a438361e1e3ea52724d226857",
+      "size_bytes": 2807
+    },
+    {
+      "mtime_ns": 1783134678467388800,
+      "path": "r6a_compressarc/artifacts/r6a_phase2_role_preserving_pstrict_noise_tape_closure_v4/cycle_invariant_effects.json",
+      "sha256": "aba2b37b28edada2ad73a838c10b7d247c6b9cb364fcf53e3a6a5efb883290fc",
+      "size_bytes": 9393
+    },
+    {
+      "mtime_ns": 1783134678480391100,
+      "path": "r6a_compressarc/artifacts/r6a_phase2_role_preserving_pstrict_noise_tape_closure_v4/cycle_invariant_effects.md",
+      "sha256": "e4b6a8d3b9cf595c6295096756e2cf461eb599bbed5e67896bfff91f90bd5443",
+      "size_bytes": 171
+    },
+    {
+      "mtime_ns": 1783134679195039400,
+      "path": "r6a_compressarc/artifacts/r6a_phase2_role_preserving_pstrict_noise_tape_closure_v4/figure_cycle_invariant_pairing_vs_noise.pdf",
+      "sha256": "97d7a05ca870f71ab22478b02da585da4df5a974263dedb3bbe1c4db392dc680",
+      "size_bytes": 16546
+    },
+    {
+      "mtime_ns": 1783134679056204900,
+      "path": "r6a_compressarc/artifacts/r6a_phase2_role_preserving_pstrict_noise_tape_closure_v4/figure_cycle_invariant_pairing_vs_noise.png",
+      "sha256": "e81731c8497871b07c95d66d3e1d557363e0917f7fb8b84a7c7d41914fb87ccb",
+      "size_bytes": 34822
+    },
+    {
+      "mtime_ns": 1783134697742907200,
+      "path": "r6a_compressarc/artifacts/r6a_phase2_role_preserving_pstrict_noise_tape_closure_v4/forward_reachable_state_inventory.csv",
+      "sha256": "e783e4823ddefd45f399f3619c3d13e5b6f0dd13ffa2042bf4152f09d6585044",
+      "size_bytes": 5960386
+    },
+    {
+      "mtime_ns": 1783134697792919300,
+      "path": "r6a_compressarc/artifacts/r6a_phase2_role_preserving_pstrict_noise_tape_closure_v4/noise_tape_manifest.json",
+      "sha256": "a504d3719a64ff4230b534af354521febb08e54d7d62ac6fec36a042c4832780",
+      "size_bytes": 13538
+    },
+    {
+      "mtime_ns": 1783134697800919000,
+      "path": "r6a_compressarc/artifacts/r6a_phase2_role_preserving_pstrict_noise_tape_closure_v4/noise_tape_runtime_trace.json",
+      "sha256": "c0fcd1f13e8e4cd4dc61e6baf95fcd509baf9fe5c1e20b9f5873c0d8c617123d",
+      "size_bytes": 95077
+    },
+    {
+      "mtime_ns": 1783134697806919100,
+      "path": "r6a_compressarc/artifacts/r6a_phase2_role_preserving_pstrict_noise_tape_closure_v4/noise_tape_unhandled_call_report.json",
+      "sha256": "deae9ddc172e3ee578ce490910adfd676ff98d0f06c54a263b730891efb1cec1",
+      "size_bytes": 69
+    },
+    {
+      "mtime_ns": 1783134679230211900,
+      "path": "r6a_compressarc/artifacts/r6a_phase2_role_preserving_pstrict_noise_tape_closure_v4/prior_pstrict_scope_classification.json",
+      "sha256": "123ed806c9d3805d719398ec59ddbf38bff0705ee209a2983500c774d672237e",
+      "size_bytes": 818
+    },
+    {
+      "mtime_ns": 1783134888138651300,
+      "path": "r6a_compressarc/artifacts/r6a_phase2_role_preserving_pstrict_noise_tape_closure_v4/r6a_phase2_role_preserving_pstrict_noise_tape_closure_v4_pytest.txt",
+      "sha256": "f8a58269113712a0791e28409a101eb21ca493afb03c9f6ebcaa4804c6573270",
+      "size_bytes": 99
+    },
+    {
+      "mtime_ns": 1783134697777919300,
+      "path": "r6a_compressarc/artifacts/r6a_phase2_role_preserving_pstrict_noise_tape_closure_v4/snapshot_restore_audit.json",
+      "sha256": "5c4ac5addedfc85b5131448284344af77442dd2add0722d510ffa800a773ae7b",
+      "size_bytes": 939
+    },
+    {
+      "mtime_ns": 1783134837081476500,
+      "path": "r6a_compressarc/artifacts/r6a_phase2_role_preserving_pstrict_noise_tape_closure_v4/summary.json",
+      "sha256": "e042678b580b4f71bdb61aab107cea341675afbbb06e2492e1e6c7d1beb7d103",
+      "size_bytes": 670
+    },
+    {
+      "mtime_ns": 1783134778614689900,
+      "path": "r6a_compressarc/manifests/r6a_phase2_role_preserving_pstrict_noise_tape_closure_v4/preflight_integrity_after.json",
+      "sha256": "67a1fc63d7d71e51ba5a68225a4eff220aae0c28205578f0782836cf130afaf7",
+      "size_bytes": 331844
+    },
+    {
+      "mtime_ns": 1783134672385003700,
+      "path": "r6a_compressarc/manifests/r6a_phase2_role_preserving_pstrict_noise_tape_closure_v4/preflight_integrity_before.json",
+      "sha256": "beb592e84270ca246fb3a9c3ff148fe93d5feb5ade0949b2b5ba0980bb32bf0d",
+      "size_bytes": 342427
+    },
+    {
+      "mtime_ns": 1783134672450513900,
+      "path": "r6a_compressarc/manifests/r6a_phase2_role_preserving_pstrict_noise_tape_closure_v4/upstream_source_pin_verification.json",
+      "sha256": "8674786b5e5c0b3307f92a1ac7da4786decb48f05746b3c8e042d02f9a43f35c",
+      "size_bytes": 144
+    },
+    {
+      "mtime_ns": 1783134861422074000,
+      "path": "r6a_compressarc/manifests/r6a_phase2_role_preserving_pstrict_noise_tape_closure_v4/write_ledger.json",
+      "sha256": "5147b605b0d3ee719f776c2286266e9eb9523a73b8bc119dc3c33c2a1be00712",
+      "size_bytes": 8668
+    },
+    {
+      "mtime_ns": 1783134778809721700,
+      "path": "r6a_compressarc/reports/r6a_phase2_role_preserving_pstrict_noise_tape_closure_v4/R6A_PHASE2_ROLE_PRESERVING_PSTRICT_CLOSURE_V4_REPORT.md",
+      "sha256": "4d7a84d32e8332de4ba4546f4036178845366ccf4097a2f2e0a2822962affec3",
+      "size_bytes": 4386373
+    },
+    {
+      "mtime_ns": 1783134676727421200,
+      "path": "r6a_compressarc/reports/r6a_phase2_role_preserving_pstrict_noise_tape_closure_v4/integrity_scope_reconciliation.json",
+      "sha256": "a9b38ddea63e35f5dacc9de17e2eacef20b339f5a35e05ca4ee22fb32a9af365",
+      "size_bytes": 315234
+    },
+    {
+      "mtime_ns": 1783134430971344500,
+      "path": "r6a_compressarc/scripts/r6a_phase2_role_preserving_pstrict_noise_tape_closure_v4_child.py",
+      "sha256": "6832ca898e47aebffe45a2999cbfe9557fc3190cb7311c71b9af2b8bae26f6c6",
+      "size_bytes": 50565
+    },
+    {
+      "mtime_ns": 1783133489257100100,
+      "path": "r6a_compressarc/scripts/r6a_phase2_role_preserving_pstrict_noise_tape_closure_v4_run.py",
+      "sha256": "c1e2cf3a77c1e697464cb42f868f309915dcca6cd50ba29a531d86c2a8cdb7b3",
+      "size_bytes": 24524
+    },
+    {
+      "mtime_ns": 1783134883053418600,
+      "path": "r6a_compressarc/tests/test_r6a_phase2_role_preserving_pstrict_noise_tape_closure_v4.py",
+      "sha256": "f96d4a6114eaa2d5fe7d88db5e0a107533e757b566612141473efff6e1e45ed0",
+      "size_bytes": 10626
+    }
+  ]
+}

@@ -1,0 +1,2756 @@
+{
+  "created_utc": "2026-07-04T04:12:55Z",
+  "leaves": [
+    {
+      "case_id": "1f876c06_adjacent_0_1",
+      "dims": [
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      "local_capacity_object_id": 136812158830800,
+      "mean_object_id": 136812158829520,
+      "mean_shape": [
+        7,
+        4
+      ],
+      "ordinal": 0,
+      "posterior_structural_path": "multiposteriors[(0, 1, 0, 0, 0)]",
+      "target_capacity_object_id": 136812137291088,
+      "true_example_axis": false
+    },
+    {
+      "case_id": "1f876c06_adjacent_0_1",
+      "dims": [
+        1,
+        1,
+        0,
+        0,
+        0
+      ],
+      "local_capacity_object_id": 136812158834000,
+      "mean_object_id": 136812158830288,
+      "mean_shape": [
+        4,
+        7,
+        4
+      ],
+      "ordinal": 1,
+      "posterior_structural_path": "multiposteriors[(1, 1, 0, 0, 0)]",
+      "target_capacity_object_id": 136812137291216,
+      "true_example_axis": true
+    },
+    {
+      "case_id": "1f876c06_adjacent_0_1",
+      "dims": [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "local_capacity_object_id": 136812158834896,
+      "mean_object_id": 136812158834768,
+      "mean_shape": [
+        8,
+        4
+      ],
+      "ordinal": 2,
+      "posterior_structural_path": "multiposteriors[(0, 0, 1, 0, 0)]",
+      "target_capacity_object_id": 136812137291344,
+      "true_example_axis": false
+    },
+    {
+      "case_id": "1f876c06_adjacent_0_1",
+      "dims": [
+        1,
+        0,
+        1,
+        0,
+        0
+      ],
+      "local_capacity_object_id": 136812158830160,
+      "mean_object_id": 136812158830032,
+      "mean_shape": [
+        4,
+        8,
+        4
+      ],
+      "ordinal": 3,
+      "posterior_structural_path": "multiposteriors[(1, 0, 1, 0, 0)]",
+      "target_capacity_object_id": 136812137291472,
+      "true_example_axis": true
+    },
+    {
+      "case_id": "1f876c06_adjacent_0_1",
+      "dims": [
+        0,
+        1,
+        1,
+        0,
+        0
+      ],
+      "local_capacity_object_id": 136812158833104,
+      "mean_object_id": 136812158832592,
+      "mean_shape": [
+        7,
+        8,
+        4
+      ],
+      "ordinal": 4,
+      "posterior_structural_path": "multiposteriors[(0, 1, 1, 0, 0)]",
+      "target_capacity_object_id": 136812137291600,
+      "true_example_axis": false
+    },
+    {
+      "case_id": "1f876c06_adjacent_0_1",
+      "dims": [
+        1,
+        1,
+        1,
+        0,
+        0
+      ],
+      "local_capacity_object_id": 136812158833744,
+      "mean_object_id": 136812158833616,
+      "mean_shape": [
+        4,
+        7,
+        8,
+        4
+      ],
+      "ordinal": 5,
+      "posterior_structural_path": "multiposteriors[(1, 1, 1, 0, 0)]",
+      "target_capacity_object_id": 136812137291728,
+      "true_example_axis": true
+    },
+    {
+      "case_id": "1f876c06_adjacent_0_1",
+      "dims": [
+        1,
+        0,
+        0,
+        1,
+        0
+      ],
+      "local_capacity_object_id": 136812158832976,
+      "mean_object_id": 136812158833872,
+      "mean_shape": [
+        4,
+        10,
+        4
+      ],
+      "ordinal": 6,
+      "posterior_structural_path": "multiposteriors[(1, 0, 0, 1, 0)]",
+      "target_capacity_object_id": 136812137291856,
+      "true_example_axis": true
+    },
+    {
+      "case_id": "1f876c06_adjacent_0_1",
+      "dims": [
+        1,
+        1,
+        0,
+        1,
+        0
+      ],
+      "local_capacity_object_id": 136812158837584,
+      "mean_object_id": 136812158837456,
+      "mean_shape": [
+        4,
+        7,
+        10,
+        4
+      ],
+      "ordinal": 7,
+      "posterior_structural_path": "multiposteriors[(1, 1, 0, 1, 0)]",
+      "target_capacity_object_id": 136812137291984,
+      "true_example_axis": true
+    },
+    {
+      "case_id": "1f876c06_adjacent_0_1",
+      "dims": [
+        1,
+        0,
+        1,
+        1,
+        0
+      ],
+      "local_capacity_object_id": 136812158832720,
+      "mean_object_id": 136812158837968,
+      "mean_shape": [
+        4,
+        8,
+        10,
+        4
+      ],
+      "ordinal": 8,
+      "posterior_structural_path": "multiposteriors[(1, 0, 1, 1, 0)]",
+      "target_capacity_object_id": 136812137292112,
+      "true_example_axis": true
+    },
+    {
+      "case_id": "1f876c06_adjacent_0_1",
+      "dims": [
+        1,
+        1,
+        1,
+        1,
+        0
+      ],
+      "local_capacity_object_id": 136812158837200,
+      "mean_object_id": 136812158838096,
+      "mean_shape": [
+        4,
+        7,
+        8,
+        10,
+        4
+      ],
+      "ordinal": 9,
+      "posterior_structural_path": "multiposteriors[(1, 1, 1, 1, 0)]",
+      "target_capacity_object_id": 136812137292240,
+      "true_example_axis": true
+    },
+    {
+      "case_id": "1f876c06_adjacent_0_1",
+      "dims": [
+        1,
+        0,
+        0,
+        0,
+        1
+      ],
+      "local_capacity_object_id": 136812158835792,
+      "mean_object_id": 136812158835664,
+      "mean_shape": [
+        4,
+        10,
+        4
+      ],
+      "ordinal": 10,
+      "posterior_structural_path": "multiposteriors[(1, 0, 0, 0, 1)]",
+      "target_capacity_object_id": 136812137292368,
+      "true_example_axis": true
+    },
+    {
+      "case_id": "1f876c06_adjacent_0_1",
+      "dims": [
+        1,
+        1,
+        0,
+        0,
+        1
+      ],
+      "local_capacity_object_id": 136812158836944,
+      "mean_object_id": 136812158836560,
+      "mean_shape": [
+        4,
+        7,
+        10,
+        4
+      ],
+      "ordinal": 11,
+      "posterior_structural_path": "multiposteriors[(1, 1, 0, 0, 1)]",
+      "target_capacity_object_id": 136812137292496,
+      "true_example_axis": true
+    },
+    {
+      "case_id": "1f876c06_adjacent_0_1",
+      "dims": [
+        1,
+        0,
+        1,
+        0,
+        1
+      ],
+      "local_capacity_object_id": 136812158836304,
+      "mean_object_id": 136812158830416,
+      "mean_shape": [
+        4,
+        8,
+        10,
+        4
+      ],
+      "ordinal": 12,
+      "posterior_structural_path": "multiposteriors[(1, 0, 1, 0, 1)]",
+      "target_capacity_object_id": 136812137292624,
+      "true_example_axis": true
+    },
+    {
+      "case_id": "1f876c06_adjacent_0_1",
+      "dims": [
+        1,
+        1,
+        1,
+        0,
+        1
+      ],
+      "local_capacity_object_id": 136812158836688,
+      "mean_object_id": 136812158836176,
+      "mean_shape": [
+        4,
+        7,
+        8,
+        10,
+        4
+      ],
+      "ordinal": 13,
+      "posterior_structural_path": "multiposteriors[(1, 1, 1, 0, 1)]",
+      "target_capacity_object_id": 136812137292752,
+      "true_example_axis": true
+    },
+    {
+      "case_id": "1f876c06_adjacent_0_1",
+      "dims": [
+        1,
+        0,
+        0,
+        1,
+        1
+      ],
+      "local_capacity_object_id": 136812137285584,
+      "mean_object_id": 136812158836432,
+      "mean_shape": [
+        4,
+        10,
+        10,
+        4
+      ],
+      "ordinal": 14,
+      "posterior_structural_path": "multiposteriors[(1, 0, 0, 1, 1)]",
+      "target_capacity_object_id": 136812137292880,
+      "true_example_axis": true
+    },
+    {
+      "case_id": "1f876c06_adjacent_0_1",
+      "dims": [
+        1,
+        1,
+        0,
+        1,
+        1
+      ],
+      "local_capacity_object_id": 136812137286224,
+      "mean_object_id": 136812137285456,
+      "mean_shape": [
+        4,
+        7,
+        10,
+        10,
+        4
+      ],
+      "ordinal": 15,
+      "posterior_structural_path": "multiposteriors[(1, 1, 0, 1, 1)]",
+      "target_capacity_object_id": 136812137293008,
+      "true_example_axis": true
+    },
+    {
+      "case_id": "1f876c06_adjacent_0_1",
+      "dims": [
+        1,
+        0,
+        1,
+        1,
+        1
+      ],
+      "local_capacity_object_id": 136812137286480,
+      "mean_object_id": 136812137286096,
+      "mean_shape": [
+        4,
+        8,
+        10,
+        10,
+        4
+      ],
+      "ordinal": 16,
+      "posterior_structural_path": "multiposteriors[(1, 0, 1, 1, 1)]",
+      "target_capacity_object_id": 136812137293136,
+      "true_example_axis": true
+    },
+    {
+      "case_id": "1f876c06_adjacent_0_1",
+      "dims": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "local_capacity_object_id": 136812137286736,
+      "mean_object_id": 136812137286352,
+      "mean_shape": [
+        4,
+        7,
+        8,
+        10,
+        10,
+        4
+      ],
+      "ordinal": 17,
+      "posterior_structural_path": "multiposteriors[(1, 1, 1, 1, 1)]",
+      "target_capacity_object_id": 136812137293264,
+      "true_example_axis": true
+    },
+    {
+      "case_id": "1f876c06_adjacent_1_2",
+      "dims": [
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      "local_capacity_object_id": 136812137288400,
+      "mean_object_id": 136812137297872,
+      "mean_shape": [
+        7,
+        4
+      ],
+      "ordinal": 0,
+      "posterior_structural_path": "multiposteriors[(0, 1, 0, 0, 0)]",
+      "target_capacity_object_id": 136812091972176,
+      "true_example_axis": false
+    },
+    {
+      "case_id": "1f876c06_adjacent_1_2",
+      "dims": [
+        1,
+        1,
+        0,
+        0,
+        0
+      ],
+      "local_capacity_object_id": 136812137296080,
+      "mean_object_id": 136812137296592,
+      "mean_shape": [
+        4,
+        7,
+        4
+      ],
+      "ordinal": 1,
+      "posterior_structural_path": "multiposteriors[(1, 1, 0, 0, 0)]",
+      "target_capacity_object_id": 136812091972048,
+      "true_example_axis": true
+    },
+    {
+      "case_id": "1f876c06_adjacent_1_2",
+      "dims": [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "local_capacity_object_id": 136812137289808,
+      "mean_object_id": 136812137295440,
+      "mean_shape": [
+        8,
+        4
+      ],
+      "ordinal": 2,
+      "posterior_structural_path": "multiposteriors[(0, 0, 1, 0, 0)]",
+      "target_capacity_object_id": 136812091971920,
+      "true_example_axis": false
+    },
+    {
+      "case_id": "1f876c06_adjacent_1_2",
+      "dims": [
+        1,
+        0,
+        1,
+        0,
+        0
+      ],
+      "local_capacity_object_id": 136812137288528,
+      "mean_object_id": 136812137295952,
+      "mean_shape": [
+        4,
+        8,
+        4
+      ],
+      "ordinal": 3,
+      "posterior_structural_path": "multiposteriors[(1, 0, 1, 0, 0)]",
+      "target_capacity_object_id": 136812091971792,
+      "true_example_axis": true
+    },
+    {
+      "case_id": "1f876c06_adjacent_1_2",
+      "dims": [
+        0,
+        1,
+        1,
+        0,
+        0
+      ],
+      "local_capacity_object_id": 136812137290448,
+      "mean_object_id": 136812137288656,
+      "mean_shape": [
+        7,
+        8,
+        4
+      ],
+      "ordinal": 4,
+      "posterior_structural_path": "multiposteriors[(0, 1, 1, 0, 0)]",
+      "target_capacity_object_id": 136812091972560,
+      "true_example_axis": false
+    },
+    {
+      "case_id": "1f876c06_adjacent_1_2",
+      "dims": [
+        1,
+        1,
+        1,
+        0,
+        0
+      ],
+      "local_capacity_object_id": 136812137296976,
+      "mean_object_id": 136812137287376,
+      "mean_shape": [
+        4,
+        7,
+        8,
+        4
+      ],
+      "ordinal": 5,
+      "posterior_structural_path": "multiposteriors[(1, 1, 1, 0, 0)]",
+      "target_capacity_object_id": 136812091972432,
+      "true_example_axis": true
+    },
+    {
+      "case_id": "1f876c06_adjacent_1_2",
+      "dims": [
+        1,
+        0,
+        0,
+        1,
+        0
+      ],
+      "local_capacity_object_id": 136812137288912,
+      "mean_object_id": 136812137289936,
+      "mean_shape": [
+        4,
+        10,
+        4
+      ],
+      "ordinal": 6,
+      "posterior_structural_path": "multiposteriors[(1, 0, 0, 1, 0)]",
+      "target_capacity_object_id": 136812091973584,
+      "true_example_axis": true
+    },
+    {
+      "case_id": "1f876c06_adjacent_1_2",
+      "dims": [
+        1,
+        1,
+        0,
+        1,
+        0
+      ],
+      "local_capacity_object_id": 136812137293520,
+      "mean_object_id": 136812137293904,
+      "mean_shape": [
+        4,
+        7,
+        10,
+        4
+      ],
+      "ordinal": 7,
+      "posterior_structural_path": "multiposteriors[(1, 1, 0, 1, 0)]",
+      "target_capacity_object_id": 136812091971664,
+      "true_example_axis": true
+    },
+    {
+      "case_id": "1f876c06_adjacent_1_2",
+      "dims": [
+        1,
+        0,
+        1,
+        1,
+        0
+      ],
+      "local_capacity_object_id": 136812137290576,
+      "mean_object_id": 136812137288784,
+      "mean_shape": [
+        4,
+        8,
+        10,
+        4
+      ],
+      "ordinal": 8,
+      "posterior_structural_path": "multiposteriors[(1, 0, 1, 1, 0)]",
+      "target_capacity_object_id": 136812091971536,
+      "true_example_axis": true
+    },
+    {
+      "case_id": "1f876c06_adjacent_1_2",
+      "dims": [
+        1,
+        1,
+        1,
+        1,
+        0
+      ],
+      "local_capacity_object_id": 136812137290320,
+      "mean_object_id": 136812137290704,
+      "mean_shape": [
+        4,
+        7,
+        8,
+        10,
+        4
+      ],
+      "ordinal": 9,
+      "posterior_structural_path": "multiposteriors[(1, 1, 1, 1, 0)]",
+      "target_capacity_object_id": 136812091971408,
+      "true_example_axis": true
+    },
+    {
+      "case_id": "1f876c06_adjacent_1_2",
+      "dims": [
+        1,
+        0,
+        0,
+        0,
+        1
+      ],
+      "local_capacity_object_id": 136812137293776,
+      "mean_object_id": 136812137290064,
+      "mean_shape": [
+        4,
+        10,
+        4
+      ],
+      "ordinal": 10,
+      "posterior_structural_path": "multiposteriors[(1, 0, 0, 0, 1)]",
+      "target_capacity_object_id": 136812091971280,
+      "true_example_axis": true
+    },
+    {
+      "case_id": "1f876c06_adjacent_1_2",
+      "dims": [
+        1,
+        1,
+        0,
+        0,
+        1
+      ],
+      "local_capacity_object_id": 136812137289040,
+      "mean_object_id": 136812137292240,
+      "mean_shape": [
+        4,
+        7,
+        10,
+        4
+      ],
+      "ordinal": 11,
+      "posterior_structural_path": "multiposteriors[(1, 1, 0, 0, 1)]",
+      "target_capacity_object_id": 136812091971152,
+      "true_example_axis": true
+    },
+    {
+      "case_id": "1f876c06_adjacent_1_2",
+      "dims": [
+        1,
+        0,
+        1,
+        0,
+        1
+      ],
+      "local_capacity_object_id": 136812137290960,
+      "mean_object_id": 136812137293648,
+      "mean_shape": [
+        4,
+        8,
+        10,
+        4
+      ],
+      "ordinal": 12,
+      "posterior_structural_path": "multiposteriors[(1, 0, 1, 0, 1)]",
+      "target_capacity_object_id": 136812091971024,
+      "true_example_axis": true
+    },
+    {
+      "case_id": "1f876c06_adjacent_1_2",
+      "dims": [
+        1,
+        1,
+        1,
+        0,
+        1
+      ],
+      "local_capacity_object_id": 136812137293008,
+      "mean_object_id": 136812137286608,
+      "mean_shape": [
+        4,
+        7,
+        8,
+        10,
+        4
+      ],
+      "ordinal": 13,
+      "posterior_structural_path": "multiposteriors[(1, 1, 1, 0, 1)]",
+      "target_capacity_object_id": 136812091970896,
+      "true_example_axis": true
+    },
+    {
+      "case_id": "1f876c06_adjacent_1_2",
+      "dims": [
+        1,
+        0,
+        0,
+        1,
+        1
+      ],
+      "local_capacity_object_id": 136812137292368,
+      "mean_object_id": 136812137290832,
+      "mean_shape": [
+        4,
+        10,
+        10,
+        4
+      ],
+      "ordinal": 14,
+      "posterior_structural_path": "multiposteriors[(1, 0, 0, 1, 1)]",
+      "target_capacity_object_id": 136812091970768,
+      "true_example_axis": true
+    },
+    {
+      "case_id": "1f876c06_adjacent_1_2",
+      "dims": [
+        1,
+        1,
+        0,
+        1,
+        1
+      ],
+      "local_capacity_object_id": 136812137286992,
+      "mean_object_id": 136812137292496,
+      "mean_shape": [
+        4,
+        7,
+        10,
+        10,
+        4
+      ],
+      "ordinal": 15,
+      "posterior_structural_path": "multiposteriors[(1, 1, 0, 1, 1)]",
+      "target_capacity_object_id": 136812091970640,
+      "true_example_axis": true
+    },
+    {
+      "case_id": "1f876c06_adjacent_1_2",
+      "dims": [
+        1,
+        0,
+        1,
+        1,
+        1
+      ],
+      "local_capacity_object_id": 136812137293136,
+      "mean_object_id": 136812137292112,
+      "mean_shape": [
+        4,
+        8,
+        10,
+        10,
+        4
+      ],
+      "ordinal": 16,
+      "posterior_structural_path": "multiposteriors[(1, 0, 1, 1, 1)]",
+      "target_capacity_object_id": 136812091970512,
+      "true_example_axis": true
+    },
+    {
+      "case_id": "1f876c06_adjacent_1_2",
+      "dims": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "local_capacity_object_id": 136812137288144,
+      "mean_object_id": 136812137293264,
+      "mean_shape": [
+        4,
+        7,
+        8,
+        10,
+        10,
+        4
+      ],
+      "ordinal": 17,
+      "posterior_structural_path": "multiposteriors[(1, 1, 1, 1, 1)]",
+      "target_capacity_object_id": 136812091970384,
+      "true_example_axis": true
+    },
+    {
+      "case_id": "604001fa_adjacent_0_1",
+      "dims": [
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      "local_capacity_object_id": 136812091965904,
+      "mean_object_id": 136812091966032,
+      "mean_shape": [
+        6,
+        4
+      ],
+      "ordinal": 0,
+      "posterior_structural_path": "multiposteriors[(0, 1, 0, 0, 0)]",
+      "target_capacity_object_id": 136811869960400,
+      "true_example_axis": false
+    },
+    {
+      "case_id": "604001fa_adjacent_0_1",
+      "dims": [
+        1,
+        1,
+        0,
+        0,
+        0
+      ],
+      "local_capacity_object_id": 136812091968592,
+      "mean_object_id": 136812091965776,
+      "mean_shape": [
+        5,
+        6,
+        4
+      ],
+      "ordinal": 1,
+      "posterior_structural_path": "multiposteriors[(1, 1, 0, 0, 0)]",
+      "target_capacity_object_id": 136811869960528,
+      "true_example_axis": true
+    },
+    {
+      "case_id": "604001fa_adjacent_0_1",
+      "dims": [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "local_capacity_object_id": 136812091966160,
+      "mean_object_id": 136812091968336,
+      "mean_shape": [
+        8,
+        4
+      ],
+      "ordinal": 2,
+      "posterior_structural_path": "multiposteriors[(0, 0, 1, 0, 0)]",
+      "target_capacity_object_id": 136811869960656,
+      "true_example_axis": false
+    },
+    {
+      "case_id": "604001fa_adjacent_0_1",
+      "dims": [
+        1,
+        0,
+        1,
+        0,
+        0
+      ],
+      "local_capacity_object_id": 136812091968976,
+      "mean_object_id": 136812091966288,
+      "mean_shape": [
+        5,
+        8,
+        4
+      ],
+      "ordinal": 3,
+      "posterior_structural_path": "multiposteriors[(1, 0, 1, 0, 0)]",
+      "target_capacity_object_id": 136811869959632,
+      "true_example_axis": true
+    },
+    {
+      "case_id": "604001fa_adjacent_0_1",
+      "dims": [
+        0,
+        1,
+        1,
+        0,
+        0
+      ],
+      "local_capacity_object_id": 136812091969360,
+      "mean_object_id": 136812091966544,
+      "mean_shape": [
+        6,
+        8,
+        4
+      ],
+      "ordinal": 4,
+      "posterior_structural_path": "multiposteriors[(0, 1, 1, 0, 0)]",
+      "target_capacity_object_id": 136811869956816,
+      "true_example_axis": false
+    },
+    {
+      "case_id": "604001fa_adjacent_0_1",
+      "dims": [
+        1,
+        1,
+        1,
+        0,
+        0
+      ],
+      "local_capacity_object_id": 136812091971280,
+      "mean_object_id": 136812091966416,
+      "mean_shape": [
+        5,
+        6,
+        8,
+        4
+      ],
+      "ordinal": 5,
+      "posterior_structural_path": "multiposteriors[(1, 1, 1, 0, 0)]",
+      "target_capacity_object_id": 136811869957072,
+      "true_example_axis": true
+    },
+    {
+      "case_id": "604001fa_adjacent_0_1",
+      "dims": [
+        1,
+        0,
+        0,
+        1,
+        0
+      ],
+      "local_capacity_object_id": 136812091965648,
+      "mean_object_id": 136812091970512,
+      "mean_shape": [
+        5,
+        20,
+        4
+      ],
+      "ordinal": 6,
+      "posterior_structural_path": "multiposteriors[(1, 0, 0, 1, 0)]",
+      "target_capacity_object_id": 136811869953104,
+      "true_example_axis": true
+    },
+    {
+      "case_id": "604001fa_adjacent_0_1",
+      "dims": [
+        1,
+        1,
+        0,
+        1,
+        0
+      ],
+      "local_capacity_object_id": 136812091968848,
+      "mean_object_id": 136812091970000,
+      "mean_shape": [
+        5,
+        6,
+        20,
+        4
+      ],
+      "ordinal": 7,
+      "posterior_structural_path": "multiposteriors[(1, 1, 0, 1, 0)]",
+      "target_capacity_object_id": 136811869946832,
+      "true_example_axis": true
+    },
+    {
+      "case_id": "604001fa_adjacent_0_1",
+      "dims": [
+        1,
+        0,
+        1,
+        1,
+        0
+      ],
+      "local_capacity_object_id": 136812091969232,
+      "mean_object_id": 136812091965520,
+      "mean_shape": [
+        5,
+        8,
+        20,
+        4
+      ],
+      "ordinal": 8,
+      "posterior_structural_path": "multiposteriors[(1, 0, 1, 1, 0)]",
+      "target_capacity_object_id": 136811869952976,
+      "true_example_axis": true
+    },
+    {
+      "case_id": "604001fa_adjacent_0_1",
+      "dims": [
+        1,
+        1,
+        1,
+        1,
+        0
+      ],
+      "local_capacity_object_id": 136812091971792,
+      "mean_object_id": 136812091969104,
+      "mean_shape": [
+        5,
+        6,
+        8,
+        20,
+        4
+      ],
+      "ordinal": 9,
+      "posterior_structural_path": "multiposteriors[(1, 1, 1, 1, 0)]",
+      "target_capacity_object_id": 136811869958352,
+      "true_example_axis": true
+    },
+    {
+      "case_id": "604001fa_adjacent_0_1",
+      "dims": [
+        1,
+        0,
+        0,
+        0,
+        1
+      ],
+      "local_capacity_object_id": 136812091972048,
+      "mean_object_id": 136812091970384,
+      "mean_shape": [
+        5,
+        16,
+        4
+      ],
+      "ordinal": 10,
+      "posterior_structural_path": "multiposteriors[(1, 0, 0, 0, 1)]",
+      "target_capacity_object_id": 136811869957456,
+      "true_example_axis": true
+    },
+    {
+      "case_id": "604001fa_adjacent_0_1",
+      "dims": [
+        1,
+        1,
+        0,
+        0,
+        1
+      ],
+      "local_capacity_object_id": 136812091971664,
+      "mean_object_id": 136812091971920,
+      "mean_shape": [
+        5,
+        6,
+        16,
+        4
+      ],
+      "ordinal": 11,
+      "posterior_structural_path": "multiposteriors[(1, 1, 0, 0, 1)]",
+      "target_capacity_object_id": 136811869957712,
+      "true_example_axis": true
+    },
+    {
+      "case_id": "604001fa_adjacent_0_1",
+      "dims": [
+        1,
+        0,
+        1,
+        0,
+        1
+      ],
+      "local_capacity_object_id": 136812091972432,
+      "mean_object_id": 136812091972176,
+      "mean_shape": [
+        5,
+        8,
+        16,
+        4
+      ],
+      "ordinal": 12,
+      "posterior_structural_path": "multiposteriors[(1, 0, 1, 0, 1)]",
+      "target_capacity_object_id": 136811869960912,
+      "true_example_axis": true
+    },
+    {
+      "case_id": "604001fa_adjacent_0_1",
+      "dims": [
+        1,
+        1,
+        1,
+        0,
+        1
+      ],
+      "local_capacity_object_id": 136812091969488,
+      "mean_object_id": 136812091976912,
+      "mean_shape": [
+        5,
+        6,
+        8,
+        16,
+        4
+      ],
+      "ordinal": 13,
+      "posterior_structural_path": "multiposteriors[(1, 1, 1, 0, 1)]",
+      "target_capacity_object_id": 136811869956944,
+      "true_example_axis": true
+    },
+    {
+      "case_id": "604001fa_adjacent_0_1",
+      "dims": [
+        1,
+        0,
+        0,
+        1,
+        1
+      ],
+      "local_capacity_object_id": 136812091970896,
+      "mean_object_id": 136812091972560,
+      "mean_shape": [
+        5,
+        20,
+        16,
+        4
+      ],
+      "ordinal": 14,
+      "posterior_structural_path": "multiposteriors[(1, 0, 0, 1, 1)]",
+      "target_capacity_object_id": 136811869946704,
+      "true_example_axis": true
+    },
+    {
+      "case_id": "604001fa_adjacent_0_1",
+      "dims": [
+        1,
+        1,
+        0,
+        1,
+        1
+      ],
+      "local_capacity_object_id": 136812091969872,
+      "mean_object_id": 136812091969616,
+      "mean_shape": [
+        5,
+        6,
+        20,
+        16,
+        4
+      ],
+      "ordinal": 15,
+      "posterior_structural_path": "multiposteriors[(1, 1, 0, 1, 1)]",
+      "target_capacity_object_id": 136811869952080,
+      "true_example_axis": true
+    },
+    {
+      "case_id": "604001fa_adjacent_0_1",
+      "dims": [
+        1,
+        0,
+        1,
+        1,
+        1
+      ],
+      "local_capacity_object_id": 136812091978960,
+      "mean_object_id": 136812091968720,
+      "mean_shape": [
+        5,
+        8,
+        20,
+        16,
+        4
+      ],
+      "ordinal": 16,
+      "posterior_structural_path": "multiposteriors[(1, 0, 1, 1, 1)]",
+      "target_capacity_object_id": 136811869953616,
+      "true_example_axis": true
+    },
+    {
+      "case_id": "604001fa_adjacent_0_1",
+      "dims": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "local_capacity_object_id": 136812091976144,
+      "mean_object_id": 136812091974864,
+      "mean_shape": [
+        5,
+        6,
+        8,
+        20,
+        16,
+        4
+      ],
+      "ordinal": 17,
+      "posterior_structural_path": "multiposteriors[(1, 1, 1, 1, 1)]",
+      "target_capacity_object_id": 136811869951952,
+      "true_example_axis": true
+    },
+    {
+      "case_id": "604001fa_adjacent_1_2",
+      "dims": [
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      "local_capacity_object_id": 136811869962064,
+      "mean_object_id": 136811869948240,
+      "mean_shape": [
+        6,
+        4
+      ],
+      "ordinal": 0,
+      "posterior_structural_path": "multiposteriors[(0, 1, 0, 0, 0)]",
+      "target_capacity_object_id": 136811875877712,
+      "true_example_axis": false
+    },
+    {
+      "case_id": "604001fa_adjacent_1_2",
+      "dims": [
+        1,
+        1,
+        0,
+        0,
+        0
+      ],
+      "local_capacity_object_id": 136811869961168,
+      "mean_object_id": 136811869957840,
+      "mean_shape": [
+        5,
+        6,
+        4
+      ],
+      "ordinal": 1,
+      "posterior_structural_path": "multiposteriors[(1, 1, 0, 0, 0)]",
+      "target_capacity_object_id": 136811875877968,
+      "true_example_axis": true
+    },
+    {
+      "case_id": "604001fa_adjacent_1_2",
+      "dims": [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "local_capacity_object_id": 136811869947088,
+      "mean_object_id": 136811869961552,
+      "mean_shape": [
+        8,
+        4
+      ],
+      "ordinal": 2,
+      "posterior_structural_path": "multiposteriors[(0, 0, 1, 0, 0)]",
+      "target_capacity_object_id": 136811875878096,
+      "true_example_axis": false
+    },
+    {
+      "case_id": "604001fa_adjacent_1_2",
+      "dims": [
+        1,
+        0,
+        1,
+        0,
+        0
+      ],
+      "local_capacity_object_id": 136811869951696,
+      "mean_object_id": 136811869957584,
+      "mean_shape": [
+        5,
+        8,
+        4
+      ],
+      "ordinal": 3,
+      "posterior_structural_path": "multiposteriors[(1, 0, 1, 0, 0)]",
+      "target_capacity_object_id": 136811875878224,
+      "true_example_axis": true
+    },
+    {
+      "case_id": "604001fa_adjacent_1_2",
+      "dims": [
+        0,
+        1,
+        1,
+        0,
+        0
+      ],
+      "local_capacity_object_id": 136811869952464,
+      "mean_object_id": 136811869961936,
+      "mean_shape": [
+        6,
+        8,
+        4
+      ],
+      "ordinal": 4,
+      "posterior_structural_path": "multiposteriors[(0, 1, 1, 0, 0)]",
+      "target_capacity_object_id": 136811875878352,
+      "true_example_axis": false
+    },
+    {
+      "case_id": "604001fa_adjacent_1_2",
+      "dims": [
+        1,
+        1,
+        1,
+        0,
+        0
+      ],
+      "local_capacity_object_id": 136811869952592,
+      "mean_object_id": 136811869956304,
+      "mean_shape": [
+        5,
+        6,
+        8,
+        4
+      ],
+      "ordinal": 5,
+      "posterior_structural_path": "multiposteriors[(1, 1, 1, 0, 0)]",
+      "target_capacity_object_id": 136811875889232,
+      "true_example_axis": true
+    },
+    {
+      "case_id": "604001fa_adjacent_1_2",
+      "dims": [
+        1,
+        0,
+        0,
+        1,
+        0
+      ],
+      "local_capacity_object_id": 136811869961808,
+      "mean_object_id": 136811869948880,
+      "mean_shape": [
+        5,
+        20,
+        4
+      ],
+      "ordinal": 6,
+      "posterior_structural_path": "multiposteriors[(1, 0, 0, 1, 0)]",
+      "target_capacity_object_id": 136811875888848,
+      "true_example_axis": true
+    },
+    {
+      "case_id": "604001fa_adjacent_1_2",
+      "dims": [
+        1,
+        1,
+        0,
+        1,
+        0
+      ],
+      "local_capacity_object_id": 136811869952208,
+      "mean_object_id": 136811869949008,
+      "mean_shape": [
+        5,
+        6,
+        20,
+        4
+      ],
+      "ordinal": 7,
+      "posterior_structural_path": "multiposteriors[(1, 1, 0, 1, 0)]",
+      "target_capacity_object_id": 136811875888976,
+      "true_example_axis": true
+    },
+    {
+      "case_id": "604001fa_adjacent_1_2",
+      "dims": [
+        1,
+        0,
+        1,
+        1,
+        0
+      ],
+      "local_capacity_object_id": 136811869959888,
+      "mean_object_id": 136811869958096,
+      "mean_shape": [
+        5,
+        8,
+        20,
+        4
+      ],
+      "ordinal": 8,
+      "posterior_structural_path": "multiposteriors[(1, 0, 1, 1, 0)]",
+      "target_capacity_object_id": 136811875889488,
+      "true_example_axis": true
+    },
+    {
+      "case_id": "604001fa_adjacent_1_2",
+      "dims": [
+        1,
+        1,
+        1,
+        1,
+        0
+      ],
+      "local_capacity_object_id": 136811869955664,
+      "mean_object_id": 136811869956560,
+      "mean_shape": [
+        5,
+        6,
+        8,
+        20,
+        4
+      ],
+      "ordinal": 9,
+      "posterior_structural_path": "multiposteriors[(1, 1, 1, 1, 0)]",
+      "target_capacity_object_id": 136811875878480,
+      "true_example_axis": true
+    },
+    {
+      "case_id": "604001fa_adjacent_1_2",
+      "dims": [
+        1,
+        0,
+        0,
+        0,
+        1
+      ],
+      "local_capacity_object_id": 136811869958992,
+      "mean_object_id": 136811869960912,
+      "mean_shape": [
+        5,
+        16,
+        4
+      ],
+      "ordinal": 10,
+      "posterior_structural_path": "multiposteriors[(1, 0, 0, 0, 1)]",
+      "target_capacity_object_id": 136811875878608,
+      "true_example_axis": true
+    },
+    {
+      "case_id": "604001fa_adjacent_1_2",
+      "dims": [
+        1,
+        1,
+        0,
+        0,
+        1
+      ],
+      "local_capacity_object_id": 136811869948752,
+      "mean_object_id": 136811869953104,
+      "mean_shape": [
+        5,
+        6,
+        16,
+        4
+      ],
+      "ordinal": 11,
+      "posterior_structural_path": "multiposteriors[(1, 1, 0, 0, 1)]",
+      "target_capacity_object_id": 136811875889872,
+      "true_example_axis": true
+    },
+    {
+      "case_id": "604001fa_adjacent_1_2",
+      "dims": [
+        1,
+        0,
+        1,
+        0,
+        1
+      ],
+      "local_capacity_object_id": 136811869960400,
+      "mean_object_id": 136811869948624,
+      "mean_shape": [
+        5,
+        8,
+        16,
+        4
+      ],
+      "ordinal": 12,
+      "posterior_structural_path": "multiposteriors[(1, 0, 1, 0, 1)]",
+      "target_capacity_object_id": 136811875890000,
+      "true_example_axis": true
+    },
+    {
+      "case_id": "604001fa_adjacent_1_2",
+      "dims": [
+        1,
+        1,
+        1,
+        0,
+        1
+      ],
+      "local_capacity_object_id": 136811869958224,
+      "mean_object_id": 136811869960528,
+      "mean_shape": [
+        5,
+        6,
+        8,
+        16,
+        4
+      ],
+      "ordinal": 13,
+      "posterior_structural_path": "multiposteriors[(1, 1, 1, 0, 1)]",
+      "target_capacity_object_id": 136811875890128,
+      "true_example_axis": true
+    },
+    {
+      "case_id": "604001fa_adjacent_1_2",
+      "dims": [
+        1,
+        0,
+        0,
+        1,
+        1
+      ],
+      "local_capacity_object_id": 136811869959248,
+      "mean_object_id": 136811869945936,
+      "mean_shape": [
+        5,
+        20,
+        16,
+        4
+      ],
+      "ordinal": 14,
+      "posterior_structural_path": "multiposteriors[(1, 0, 0, 1, 1)]",
+      "target_capacity_object_id": 136811875883344,
+      "true_example_axis": true
+    },
+    {
+      "case_id": "604001fa_adjacent_1_2",
+      "dims": [
+        1,
+        1,
+        0,
+        1,
+        1
+      ],
+      "local_capacity_object_id": 136811869951824,
+      "mean_object_id": 136811869958352,
+      "mean_shape": [
+        5,
+        6,
+        20,
+        16,
+        4
+      ],
+      "ordinal": 15,
+      "posterior_structural_path": "multiposteriors[(1, 1, 0, 1, 1)]",
+      "target_capacity_object_id": 136811875885648,
+      "true_example_axis": true
+    },
+    {
+      "case_id": "604001fa_adjacent_1_2",
+      "dims": [
+        1,
+        0,
+        1,
+        1,
+        1
+      ],
+      "local_capacity_object_id": 136811869960784,
+      "mean_object_id": 136811869952336,
+      "mean_shape": [
+        5,
+        8,
+        20,
+        16,
+        4
+      ],
+      "ordinal": 16,
+      "posterior_structural_path": "multiposteriors[(1, 0, 1, 1, 1)]",
+      "target_capacity_object_id": 136811875889616,
+      "true_example_axis": true
+    },
+    {
+      "case_id": "604001fa_adjacent_1_2",
+      "dims": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "local_capacity_object_id": 136811869960656,
+      "mean_object_id": 136811869957072,
+      "mean_shape": [
+        5,
+        6,
+        8,
+        20,
+        16,
+        4
+      ],
+      "ordinal": 17,
+      "posterior_structural_path": "multiposteriors[(1, 1, 1, 1, 1)]",
+      "target_capacity_object_id": 136811875889744,
+      "true_example_axis": true
+    },
+    {
+      "case_id": "604001fa_adjacent_2_3",
+      "dims": [
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      "local_capacity_object_id": 136811875890128,
+      "mean_object_id": 136811875883344,
+      "mean_shape": [
+        6,
+        4
+      ],
+      "ordinal": 0,
+      "posterior_structural_path": "multiposteriors[(0, 1, 0, 0, 0)]",
+      "target_capacity_object_id": 136811889607248,
+      "true_example_axis": false
+    },
+    {
+      "case_id": "604001fa_adjacent_2_3",
+      "dims": [
+        1,
+        1,
+        0,
+        0,
+        0
+      ],
+      "local_capacity_object_id": 136811875889616,
+      "mean_object_id": 136811875878608,
+      "mean_shape": [
+        5,
+        6,
+        4
+      ],
+      "ordinal": 1,
+      "posterior_structural_path": "multiposteriors[(1, 1, 0, 0, 0)]",
+      "target_capacity_object_id": 136811889616464,
+      "true_example_axis": true
+    },
+    {
+      "case_id": "604001fa_adjacent_2_3",
+      "dims": [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "local_capacity_object_id": 136811875885648,
+      "mean_object_id": 136811875883856,
+      "mean_shape": [
+        8,
+        4
+      ],
+      "ordinal": 2,
+      "posterior_structural_path": "multiposteriors[(0, 0, 1, 0, 0)]",
+      "target_capacity_object_id": 136811889614544,
+      "true_example_axis": false
+    },
+    {
+      "case_id": "604001fa_adjacent_2_3",
+      "dims": [
+        1,
+        0,
+        1,
+        0,
+        0
+      ],
+      "local_capacity_object_id": 136811875878992,
+      "mean_object_id": 136811875889744,
+      "mean_shape": [
+        5,
+        8,
+        4
+      ],
+      "ordinal": 3,
+      "posterior_structural_path": "multiposteriors[(1, 0, 1, 0, 0)]",
+      "target_capacity_object_id": 136811889614928,
+      "true_example_axis": true
+    },
+    {
+      "case_id": "604001fa_adjacent_2_3",
+      "dims": [
+        0,
+        1,
+        1,
+        0,
+        0
+      ],
+      "local_capacity_object_id": 136811875877200,
+      "mean_object_id": 136811875878736,
+      "mean_shape": [
+        6,
+        8,
+        4
+      ],
+      "ordinal": 4,
+      "posterior_structural_path": "multiposteriors[(0, 1, 1, 0, 0)]",
+      "target_capacity_object_id": 136811889621456,
+      "true_example_axis": false
+    },
+    {
+      "case_id": "604001fa_adjacent_2_3",
+      "dims": [
+        1,
+        1,
+        1,
+        0,
+        0
+      ],
+      "local_capacity_object_id": 136811875889488,
+      "mean_object_id": 136811875890000,
+      "mean_shape": [
+        5,
+        6,
+        8,
+        4
+      ],
+      "ordinal": 5,
+      "posterior_structural_path": "multiposteriors[(1, 1, 1, 0, 0)]",
+      "target_capacity_object_id": 136811889618128,
+      "true_example_axis": true
+    },
+    {
+      "case_id": "604001fa_adjacent_2_3",
+      "dims": [
+        1,
+        0,
+        0,
+        1,
+        0
+      ],
+      "local_capacity_object_id": 136811875888848,
+      "mean_object_id": 136811875878480,
+      "mean_shape": [
+        5,
+        20,
+        4
+      ],
+      "ordinal": 6,
+      "posterior_structural_path": "multiposteriors[(1, 0, 0, 1, 0)]",
+      "target_capacity_object_id": 136811889613648,
+      "true_example_axis": true
+    },
+    {
+      "case_id": "604001fa_adjacent_2_3",
+      "dims": [
+        1,
+        1,
+        0,
+        1,
+        0
+      ],
+      "local_capacity_object_id": 136811895577296,
+      "mean_object_id": 136811875888976,
+      "mean_shape": [
+        5,
+        6,
+        20,
+        4
+      ],
+      "ordinal": 7,
+      "posterior_structural_path": "multiposteriors[(1, 1, 0, 1, 0)]",
+      "target_capacity_object_id": 136811889612240,
+      "true_example_axis": true
+    },
+    {
+      "case_id": "604001fa_adjacent_2_3",
+      "dims": [
+        1,
+        0,
+        1,
+        1,
+        0
+      ],
+      "local_capacity_object_id": 136811895572688,
+      "mean_object_id": 136811895579856,
+      "mean_shape": [
+        5,
+        8,
+        20,
+        4
+      ],
+      "ordinal": 8,
+      "posterior_structural_path": "multiposteriors[(1, 0, 1, 1, 0)]",
+      "target_capacity_object_id": 136811889619920,
+      "true_example_axis": true
+    },
+    {
+      "case_id": "604001fa_adjacent_2_3",
+      "dims": [
+        1,
+        1,
+        1,
+        1,
+        0
+      ],
+      "local_capacity_object_id": 136811895579088,
+      "mean_object_id": 136811895572304,
+      "mean_shape": [
+        5,
+        6,
+        8,
+        20,
+        4
+      ],
+      "ordinal": 9,
+      "posterior_structural_path": "multiposteriors[(1, 1, 1, 1, 0)]",
+      "target_capacity_object_id": 136811889619152,
+      "true_example_axis": true
+    },
+    {
+      "case_id": "604001fa_adjacent_2_3",
+      "dims": [
+        1,
+        0,
+        0,
+        0,
+        1
+      ],
+      "local_capacity_object_id": 136811895579344,
+      "mean_object_id": 136811875887696,
+      "mean_shape": [
+        5,
+        16,
+        4
+      ],
+      "ordinal": 10,
+      "posterior_structural_path": "multiposteriors[(1, 0, 0, 0, 1)]",
+      "target_capacity_object_id": 136811889617744,
+      "true_example_axis": true
+    },
+    {
+      "case_id": "604001fa_adjacent_2_3",
+      "dims": [
+        1,
+        1,
+        0,
+        0,
+        1
+      ],
+      "local_capacity_object_id": 136811895581776,
+      "mean_object_id": 136811895579216,
+      "mean_shape": [
+        5,
+        6,
+        16,
+        4
+      ],
+      "ordinal": 11,
+      "posterior_structural_path": "multiposteriors[(1, 1, 0, 0, 1)]",
+      "target_capacity_object_id": 136811889611216,
+      "true_example_axis": true
+    },
+    {
+      "case_id": "604001fa_adjacent_2_3",
+      "dims": [
+        1,
+        0,
+        1,
+        0,
+        1
+      ],
+      "local_capacity_object_id": 136811895576272,
+      "mean_object_id": 136811895579472,
+      "mean_shape": [
+        5,
+        8,
+        16,
+        4
+      ],
+      "ordinal": 12,
+      "posterior_structural_path": "multiposteriors[(1, 0, 1, 0, 1)]",
+      "target_capacity_object_id": 136811889621840,
+      "true_example_axis": true
+    },
+    {
+      "case_id": "604001fa_adjacent_2_3",
+      "dims": [
+        1,
+        1,
+        1,
+        0,
+        1
+      ],
+      "local_capacity_object_id": 136811895572432,
+      "mean_object_id": 136811895576144,
+      "mean_shape": [
+        5,
+        6,
+        8,
+        16,
+        4
+      ],
+      "ordinal": 13,
+      "posterior_structural_path": "multiposteriors[(1, 1, 1, 0, 1)]",
+      "target_capacity_object_id": 136811889619280,
+      "true_example_axis": true
+    },
+    {
+      "case_id": "604001fa_adjacent_2_3",
+      "dims": [
+        1,
+        0,
+        0,
+        1,
+        1
+      ],
+      "local_capacity_object_id": 136811895573456,
+      "mean_object_id": 136811895578960,
+      "mean_shape": [
+        5,
+        20,
+        16,
+        4
+      ],
+      "ordinal": 14,
+      "posterior_structural_path": "multiposteriors[(1, 0, 0, 1, 1)]",
+      "target_capacity_object_id": 136811889618256,
+      "true_example_axis": true
+    },
+    {
+      "case_id": "604001fa_adjacent_2_3",
+      "dims": [
+        1,
+        1,
+        0,
+        1,
+        1
+      ],
+      "local_capacity_object_id": 136811895572944,
+      "mean_object_id": 136811895572560,
+      "mean_shape": [
+        5,
+        6,
+        20,
+        16,
+        4
+      ],
+      "ordinal": 15,
+      "posterior_structural_path": "multiposteriors[(1, 1, 0, 1, 1)]",
+      "target_capacity_object_id": 136811889616080,
+      "true_example_axis": true
+    },
+    {
+      "case_id": "604001fa_adjacent_2_3",
+      "dims": [
+        1,
+        0,
+        1,
+        1,
+        1
+      ],
+      "local_capacity_object_id": 136811895579600,
+      "mean_object_id": 136811895572816,
+      "mean_shape": [
+        5,
+        8,
+        20,
+        16,
+        4
+      ],
+      "ordinal": 16,
+      "posterior_structural_path": "multiposteriors[(1, 0, 1, 1, 1)]",
+      "target_capacity_object_id": 136811889620048,
+      "true_example_axis": true
+    },
+    {
+      "case_id": "604001fa_adjacent_2_3",
+      "dims": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "local_capacity_object_id": 136811895575888,
+      "mean_object_id": 136811895583312,
+      "mean_shape": [
+        5,
+        6,
+        8,
+        20,
+        16,
+        4
+      ],
+      "ordinal": 17,
+      "posterior_structural_path": "multiposteriors[(1, 1, 1, 1, 1)]",
+      "target_capacity_object_id": 136811889622352,
+      "true_example_axis": true
+    },
+    {
+      "case_id": "synthetic_uniform_shape_oracle_adjacent_0_1",
+      "dims": [
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      "local_capacity_object_id": 136811875888976,
+      "mean_object_id": 136811875889744,
+      "mean_shape": [
+        2,
+        4
+      ],
+      "ordinal": 0,
+      "posterior_structural_path": "multiposteriors[(0, 1, 0, 0, 0)]",
+      "target_capacity_object_id": 136811889617488,
+      "true_example_axis": false
+    },
+    {
+      "case_id": "synthetic_uniform_shape_oracle_adjacent_0_1",
+      "dims": [
+        1,
+        1,
+        0,
+        0,
+        0
+      ],
+      "local_capacity_object_id": 136811875889616,
+      "mean_object_id": 136811875889872,
+      "mean_shape": [
+        4,
+        2,
+        4
+      ],
+      "ordinal": 1,
+      "posterior_structural_path": "multiposteriors[(1, 1, 0, 0, 0)]",
+      "target_capacity_object_id": 136811889615952,
+      "true_example_axis": true
+    },
+    {
+      "case_id": "synthetic_uniform_shape_oracle_adjacent_0_1",
+      "dims": [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "local_capacity_object_id": 136811875890128,
+      "mean_object_id": 136811875884240,
+      "mean_shape": [
+        8,
+        4
+      ],
+      "ordinal": 2,
+      "posterior_structural_path": "multiposteriors[(0, 0, 1, 0, 0)]",
+      "target_capacity_object_id": 136811889613392,
+      "true_example_axis": false
+    },
+    {
+      "case_id": "synthetic_uniform_shape_oracle_adjacent_0_1",
+      "dims": [
+        1,
+        0,
+        1,
+        0,
+        0
+      ],
+      "local_capacity_object_id": 136811895581648,
+      "mean_object_id": 136811875878608,
+      "mean_shape": [
+        4,
+        8,
+        4
+      ],
+      "ordinal": 3,
+      "posterior_structural_path": "multiposteriors[(1, 0, 1, 0, 0)]",
+      "target_capacity_object_id": 136811889620176,
+      "true_example_axis": true
+    },
+    {
+      "case_id": "synthetic_uniform_shape_oracle_adjacent_0_1",
+      "dims": [
+        0,
+        1,
+        1,
+        0,
+        0
+      ],
+      "local_capacity_object_id": 136811895578832,
+      "mean_object_id": 136811875883344,
+      "mean_shape": [
+        2,
+        8,
+        4
+      ],
+      "ordinal": 4,
+      "posterior_structural_path": "multiposteriors[(0, 1, 1, 0, 0)]",
+      "target_capacity_object_id": 136811889612368,
+      "true_example_axis": false
+    },
+    {
+      "case_id": "synthetic_uniform_shape_oracle_adjacent_0_1",
+      "dims": [
+        1,
+        1,
+        1,
+        0,
+        0
+      ],
+      "local_capacity_object_id": 136811895577168,
+      "mean_object_id": 136811895573712,
+      "mean_shape": [
+        4,
+        2,
+        8,
+        4
+      ],
+      "ordinal": 5,
+      "posterior_structural_path": "multiposteriors[(1, 1, 1, 0, 0)]",
+      "target_capacity_object_id": 136811889611728,
+      "true_example_axis": true
+    },
+    {
+      "case_id": "synthetic_uniform_shape_oracle_adjacent_0_1",
+      "dims": [
+        1,
+        0,
+        0,
+        1,
+        0
+      ],
+      "local_capacity_object_id": 136811895577424,
+      "mean_object_id": 136811895576016,
+      "mean_shape": [
+        4,
+        3,
+        4
+      ],
+      "ordinal": 6,
+      "posterior_structural_path": "multiposteriors[(1, 0, 0, 1, 0)]",
+      "target_capacity_object_id": 136811889618640,
+      "true_example_axis": true
+    },
+    {
+      "case_id": "synthetic_uniform_shape_oracle_adjacent_0_1",
+      "dims": [
+        1,
+        1,
+        0,
+        1,
+        0
+      ],
+      "local_capacity_object_id": 136811895583696,
+      "mean_object_id": 136811895581520,
+      "mean_shape": [
+        4,
+        2,
+        3,
+        4
+      ],
+      "ordinal": 7,
+      "posterior_structural_path": "multiposteriors[(1, 1, 0, 1, 0)]",
+      "target_capacity_object_id": 136811889620432,
+      "true_example_axis": true
+    },
+    {
+      "case_id": "synthetic_uniform_shape_oracle_adjacent_0_1",
+      "dims": [
+        1,
+        0,
+        1,
+        1,
+        0
+      ],
+      "local_capacity_object_id": 136811895583056,
+      "mean_object_id": 136811895573584,
+      "mean_shape": [
+        4,
+        8,
+        3,
+        4
+      ],
+      "ordinal": 8,
+      "posterior_structural_path": "multiposteriors[(1, 0, 1, 1, 0)]",
+      "target_capacity_object_id": 136811889619792,
+      "true_example_axis": true
+    },
+    {
+      "case_id": "synthetic_uniform_shape_oracle_adjacent_0_1",
+      "dims": [
+        1,
+        1,
+        1,
+        1,
+        0
+      ],
+      "local_capacity_object_id": 136811895583184,
+      "mean_object_id": 136811895581904,
+      "mean_shape": [
+        4,
+        2,
+        8,
+        3,
+        4
+      ],
+      "ordinal": 9,
+      "posterior_structural_path": "multiposteriors[(1, 1, 1, 1, 0)]",
+      "target_capacity_object_id": 136811889616592,
+      "true_example_axis": true
+    },
+    {
+      "case_id": "synthetic_uniform_shape_oracle_adjacent_0_1",
+      "dims": [
+        1,
+        0,
+        0,
+        0,
+        1
+      ],
+      "local_capacity_object_id": 136811895573328,
+      "mean_object_id": 136811895573968,
+      "mean_shape": [
+        4,
+        3,
+        4
+      ],
+      "ordinal": 10,
+      "posterior_structural_path": "multiposteriors[(1, 0, 0, 0, 1)]",
+      "target_capacity_object_id": 136811889610704,
+      "true_example_axis": true
+    },
+    {
+      "case_id": "synthetic_uniform_shape_oracle_adjacent_0_1",
+      "dims": [
+        1,
+        1,
+        0,
+        0,
+        1
+      ],
+      "local_capacity_object_id": 136811895573200,
+      "mean_object_id": 136811895583440,
+      "mean_shape": [
+        4,
+        2,
+        3,
+        4
+      ],
+      "ordinal": 11,
+      "posterior_structural_path": "multiposteriors[(1, 1, 0, 0, 1)]",
+      "target_capacity_object_id": 136811889612880,
+      "true_example_axis": true
+    },
+    {
+      "case_id": "synthetic_uniform_shape_oracle_adjacent_0_1",
+      "dims": [
+        1,
+        0,
+        1,
+        0,
+        1
+      ],
+      "local_capacity_object_id": 136811895573072,
+      "mean_object_id": 136811895574224,
+      "mean_shape": [
+        4,
+        8,
+        3,
+        4
+      ],
+      "ordinal": 12,
+      "posterior_structural_path": "multiposteriors[(1, 0, 1, 0, 1)]",
+      "target_capacity_object_id": 136811889619024,
+      "true_example_axis": true
+    },
+    {
+      "case_id": "synthetic_uniform_shape_oracle_adjacent_0_1",
+      "dims": [
+        1,
+        1,
+        1,
+        0,
+        1
+      ],
+      "local_capacity_object_id": 136811895575888,
+      "mean_object_id": 136811895583568,
+      "mean_shape": [
+        4,
+        2,
+        8,
+        3,
+        4
+      ],
+      "ordinal": 13,
+      "posterior_structural_path": "multiposteriors[(1, 1, 1, 0, 1)]",
+      "target_capacity_object_id": 136811889613776,
+      "true_example_axis": true
+    },
+    {
+      "case_id": "synthetic_uniform_shape_oracle_adjacent_0_1",
+      "dims": [
+        1,
+        0,
+        0,
+        1,
+        1
+      ],
+      "local_capacity_object_id": 136811895579600,
+      "mean_object_id": 136811895579728,
+      "mean_shape": [
+        4,
+        3,
+        3,
+        4
+      ],
+      "ordinal": 14,
+      "posterior_structural_path": "multiposteriors[(1, 0, 0, 1, 1)]",
+      "target_capacity_object_id": 136811889621200,
+      "true_example_axis": true
+    },
+    {
+      "case_id": "synthetic_uniform_shape_oracle_adjacent_0_1",
+      "dims": [
+        1,
+        1,
+        0,
+        1,
+        1
+      ],
+      "local_capacity_object_id": 136811895572944,
+      "mean_object_id": 136811895583312,
+      "mean_shape": [
+        4,
+        2,
+        3,
+        3,
+        4
+      ],
+      "ordinal": 15,
+      "posterior_structural_path": "multiposteriors[(1, 1, 0, 1, 1)]",
+      "target_capacity_object_id": 136811889609424,
+      "true_example_axis": true
+    },
+    {
+      "case_id": "synthetic_uniform_shape_oracle_adjacent_0_1",
+      "dims": [
+        1,
+        0,
+        1,
+        1,
+        1
+      ],
+      "local_capacity_object_id": 136811895573456,
+      "mean_object_id": 136811895572816,
+      "mean_shape": [
+        4,
+        8,
+        3,
+        3,
+        4
+      ],
+      "ordinal": 16,
+      "posterior_structural_path": "multiposteriors[(1, 0, 1, 1, 1)]",
+      "target_capacity_object_id": 136811889616208,
+      "true_example_axis": true
+    },
+    {
+      "case_id": "synthetic_uniform_shape_oracle_adjacent_0_1",
+      "dims": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "local_capacity_object_id": 136811895572432,
+      "mean_object_id": 136811895572560,
+      "mean_shape": [
+        4,
+        2,
+        8,
+        3,
+        3,
+        4
+      ],
+      "ordinal": 17,
+      "posterior_structural_path": "multiposteriors[(1, 1, 1, 1, 1)]",
+      "target_capacity_object_id": 136811889616336,
+      "true_example_axis": true
+    },
+    {
+      "case_id": "synthetic_uniform_shape_oracle_adjacent_1_2",
+      "dims": [
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      "local_capacity_object_id": 136811829181520,
+      "mean_object_id": 136811829175120,
+      "mean_shape": [
+        2,
+        4
+      ],
+      "ordinal": 0,
+      "posterior_structural_path": "multiposteriors[(0, 1, 0, 0, 0)]",
+      "target_capacity_object_id": 136811889614928,
+      "true_example_axis": false
+    },
+    {
+      "case_id": "synthetic_uniform_shape_oracle_adjacent_1_2",
+      "dims": [
+        1,
+        1,
+        0,
+        0,
+        0
+      ],
+      "local_capacity_object_id": 136812137283408,
+      "mean_object_id": 136811829182288,
+      "mean_shape": [
+        4,
+        2,
+        4
+      ],
+      "ordinal": 1,
+      "posterior_structural_path": "multiposteriors[(1, 1, 0, 0, 0)]",
+      "target_capacity_object_id": 136811889621456,
+      "true_example_axis": true
+    },
+    {
+      "case_id": "synthetic_uniform_shape_oracle_adjacent_1_2",
+      "dims": [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "local_capacity_object_id": 136811895574096,
+      "mean_object_id": 136811829179728,
+      "mean_shape": [
+        8,
+        4
+      ],
+      "ordinal": 2,
+      "posterior_structural_path": "multiposteriors[(0, 0, 1, 0, 0)]",
+      "target_capacity_object_id": 136811889618128,
+      "true_example_axis": false
+    },
+    {
+      "case_id": "synthetic_uniform_shape_oracle_adjacent_1_2",
+      "dims": [
+        1,
+        0,
+        1,
+        0,
+        0
+      ],
+      "local_capacity_object_id": 136811895581264,
+      "mean_object_id": 136812158770896,
+      "mean_shape": [
+        4,
+        8,
+        4
+      ],
+      "ordinal": 3,
+      "posterior_structural_path": "multiposteriors[(1, 0, 1, 0, 0)]",
+      "target_capacity_object_id": 136811889613648,
+      "true_example_axis": true
+    },
+    {
+      "case_id": "synthetic_uniform_shape_oracle_adjacent_1_2",
+      "dims": [
+        0,
+        1,
+        1,
+        0,
+        0
+      ],
+      "local_capacity_object_id": 136811895581008,
+      "mean_object_id": 136811895581392,
+      "mean_shape": [
+        2,
+        8,
+        4
+      ],
+      "ordinal": 4,
+      "posterior_structural_path": "multiposteriors[(0, 1, 1, 0, 0)]",
+      "target_capacity_object_id": 136811889612240,
+      "true_example_axis": false
+    },
+    {
+      "case_id": "synthetic_uniform_shape_oracle_adjacent_1_2",
+      "dims": [
+        1,
+        1,
+        1,
+        0,
+        0
+      ],
+      "local_capacity_object_id": 136811895577296,
+      "mean_object_id": 136811895581136,
+      "mean_shape": [
+        4,
+        2,
+        8,
+        4
+      ],
+      "ordinal": 5,
+      "posterior_structural_path": "multiposteriors[(1, 1, 1, 0, 0)]",
+      "target_capacity_object_id": 136811889619920,
+      "true_example_axis": true
+    },
+    {
+      "case_id": "synthetic_uniform_shape_oracle_adjacent_1_2",
+      "dims": [
+        1,
+        0,
+        0,
+        1,
+        0
+      ],
+      "local_capacity_object_id": 136811895572688,
+      "mean_object_id": 136811895580752,
+      "mean_shape": [
+        4,
+        3,
+        4
+      ],
+      "ordinal": 6,
+      "posterior_structural_path": "multiposteriors[(1, 0, 0, 1, 0)]",
+      "target_capacity_object_id": 136811889619152,
+      "true_example_axis": true
+    },
+    {
+      "case_id": "synthetic_uniform_shape_oracle_adjacent_1_2",
+      "dims": [
+        1,
+        1,
+        0,
+        1,
+        0
+      ],
+      "local_capacity_object_id": 136811895579088,
+      "mean_object_id": 136811895579856,
+      "mean_shape": [
+        4,
+        2,
+        3,
+        4
+      ],
+      "ordinal": 7,
+      "posterior_structural_path": "multiposteriors[(1, 1, 0, 1, 0)]",
+      "target_capacity_object_id": 136811889617744,
+      "true_example_axis": true
+    },
+    {
+      "case_id": "synthetic_uniform_shape_oracle_adjacent_1_2",
+      "dims": [
+        1,
+        0,
+        1,
+        1,
+        0
+      ],
+      "local_capacity_object_id": 136811895579216,
+      "mean_object_id": 136811895572304,
+      "mean_shape": [
+        4,
+        8,
+        3,
+        4
+      ],
+      "ordinal": 8,
+      "posterior_structural_path": "multiposteriors[(1, 0, 1, 1, 0)]",
+      "target_capacity_object_id": 136811889611216,
+      "true_example_axis": true
+    },
+    {
+      "case_id": "synthetic_uniform_shape_oracle_adjacent_1_2",
+      "dims": [
+        1,
+        1,
+        1,
+        1,
+        0
+      ],
+      "local_capacity_object_id": 136811895581776,
+      "mean_object_id": 136811895579344,
+      "mean_shape": [
+        4,
+        2,
+        8,
+        3,
+        4
+      ],
+      "ordinal": 9,
+      "posterior_structural_path": "multiposteriors[(1, 1, 1, 1, 0)]",
+      "target_capacity_object_id": 136811889621840,
+      "true_example_axis": true
+    },
+    {
+      "case_id": "synthetic_uniform_shape_oracle_adjacent_1_2",
+      "dims": [
+        1,
+        0,
+        0,
+        0,
+        1
+      ],
+      "local_capacity_object_id": 136811895576272,
+      "mean_object_id": 136811895580880,
+      "mean_shape": [
+        4,
+        3,
+        4
+      ],
+      "ordinal": 10,
+      "posterior_structural_path": "multiposteriors[(1, 0, 0, 0, 1)]",
+      "target_capacity_object_id": 136811889616720,
+      "true_example_axis": true
+    },
+    {
+      "case_id": "synthetic_uniform_shape_oracle_adjacent_1_2",
+      "dims": [
+        1,
+        1,
+        0,
+        0,
+        1
+      ],
+      "local_capacity_object_id": 136811895578960,
+      "mean_object_id": 136811895579472,
+      "mean_shape": [
+        4,
+        2,
+        3,
+        4
+      ],
+      "ordinal": 11,
+      "posterior_structural_path": "multiposteriors[(1, 1, 0, 0, 1)]",
+      "target_capacity_object_id": 136811889609552,
+      "true_example_axis": true
+    },
+    {
+      "case_id": "synthetic_uniform_shape_oracle_adjacent_1_2",
+      "dims": [
+        1,
+        0,
+        1,
+        0,
+        1
+      ],
+      "local_capacity_object_id": 136811895572560,
+      "mean_object_id": 136811895576144,
+      "mean_shape": [
+        4,
+        8,
+        3,
+        4
+      ],
+      "ordinal": 12,
+      "posterior_structural_path": "multiposteriors[(1, 0, 1, 0, 1)]",
+      "target_capacity_object_id": 136811889609680,
+      "true_example_axis": true
+    },
+    {
+      "case_id": "synthetic_uniform_shape_oracle_adjacent_1_2",
+      "dims": [
+        1,
+        1,
+        1,
+        0,
+        1
+      ],
+      "local_capacity_object_id": 136811895572816,
+      "mean_object_id": 136811895572432,
+      "mean_shape": [
+        4,
+        2,
+        8,
+        3,
+        4
+      ],
+      "ordinal": 13,
+      "posterior_structural_path": "multiposteriors[(1, 1, 1, 0, 1)]",
+      "target_capacity_object_id": 136811889618512,
+      "true_example_axis": true
+    },
+    {
+      "case_id": "synthetic_uniform_shape_oracle_adjacent_1_2",
+      "dims": [
+        1,
+        0,
+        0,
+        1,
+        1
+      ],
+      "local_capacity_object_id": 136811895583312,
+      "mean_object_id": 136811895573456,
+      "mean_shape": [
+        4,
+        3,
+        3,
+        4
+      ],
+      "ordinal": 14,
+      "posterior_structural_path": "multiposteriors[(1, 0, 0, 1, 1)]",
+      "target_capacity_object_id": 136811889610960,
+      "true_example_axis": true
+    },
+    {
+      "case_id": "synthetic_uniform_shape_oracle_adjacent_1_2",
+      "dims": [
+        1,
+        1,
+        0,
+        1,
+        1
+      ],
+      "local_capacity_object_id": 136811895579728,
+      "mean_object_id": 136811895572944,
+      "mean_shape": [
+        4,
+        2,
+        3,
+        3,
+        4
+      ],
+      "ordinal": 15,
+      "posterior_structural_path": "multiposteriors[(1, 1, 0, 1, 1)]",
+      "target_capacity_object_id": 136811889614160,
+      "true_example_axis": true
+    },
+    {
+      "case_id": "synthetic_uniform_shape_oracle_adjacent_1_2",
+      "dims": [
+        1,
+        0,
+        1,
+        1,
+        1
+      ],
+      "local_capacity_object_id": 136811895583568,
+      "mean_object_id": 136811895579600,
+      "mean_shape": [
+        4,
+        8,
+        3,
+        3,
+        4
+      ],
+      "ordinal": 16,
+      "posterior_structural_path": "multiposteriors[(1, 0, 1, 1, 1)]",
+      "target_capacity_object_id": 136811889618896,
+      "true_example_axis": true
+    },
+    {
+      "case_id": "synthetic_uniform_shape_oracle_adjacent_1_2",
+      "dims": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "local_capacity_object_id": 136811895574224,
+      "mean_object_id": 136811895575888,
+      "mean_shape": [
+        4,
+        2,
+        8,
+        3,
+        3,
+        4
+      ],
+      "ordinal": 17,
+      "posterior_structural_path": "multiposteriors[(1, 1, 1, 1, 1)]",
+      "target_capacity_object_id": 136811889615184,
+      "true_example_axis": true
+    }
+  ]
+}

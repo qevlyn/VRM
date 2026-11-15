@@ -1,0 +1,19 @@
+{
+  "bad_examples": [],
+  "exact_accuracy": {
+    "HARD_NEGATIVE_NO_MATCH": 1.0,
+    "RETRIEVAL_ELIGIBLE": 0.0,
+    "TRANSFORM_ONLY": 1.0
+  },
+  "exact_counts": {
+    "HARD_NEGATIVE_NO_MATCH": 18000,
+    "RETRIEVAL_ELIGIBLE": 0,
+    "TRANSFORM_ONLY": 18000
+  },
+  "family_counts": {
+    "HARD_NEGATIVE_NO_MATCH": 18000,
+    "RETRIEVAL_ELIGIBLE": 18000,
+    "TRANSFORM_ONLY": 18000
+  },
+  "passed": true
+}

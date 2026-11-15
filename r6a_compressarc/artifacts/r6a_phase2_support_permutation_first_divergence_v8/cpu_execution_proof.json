@@ -1,0 +1,174 @@
+{
+  "all_new_floating_preflight_tensors_float64": true,
+  "all_runtime_tensors_under_audit_cpu": true,
+  "created_utc": "2026-07-04T04:11:51Z",
+  "cuda_available": true,
+  "cuda_memory_allocated": 0,
+  "effective_default_device": "cpu",
+  "effective_default_dtype": "torch.float64",
+  "final_seed_probe_after_imports": {
+    "numpy_random_first": 0.6366826804702569,
+    "python_random_first": 0.717434086842874,
+    "seed": 20260702,
+    "torch_random_first": 0.9261273525561634
+  },
+  "fixed_seed": 20260702,
+  "import_intercept_log": [
+    {
+      "effective": "cpu",
+      "redirected": true,
+      "requested": "cuda"
+    },
+    {
+      "effective": "cpu",
+      "redirected": false,
+      "requested": "cpu"
+    },
+    {
+      "effective": "cpu",
+      "redirected": false,
+      "requested": "cpu"
+    },
+    {
+      "effective": "cpu",
+      "redirected": false,
+      "requested": "cpu"
+    },
+    {
+      "effective": "cpu",
+      "redirected": false,
+      "requested": "cpu"
+    },
+    {
+      "effective": "cpu",
+      "redirected": false,
+      "requested": "cpu"
+    },
+    {
+      "effective": "cpu",
+      "redirected": false,
+      "requested": "cpu"
+    }
+  ],
+  "no_cuda_execution": true,
+  "no_production_source_file_changed": true,
+  "post_import_seed_probe": {
+    "numpy_random_first": 0.6366826804702569,
+    "python_random_first": 0.717434086842874,
+    "seed": 20260702,
+    "torch_random_first": 0.9261273525561634
+  },
+  "tensor_proof": [
+    {
+      "device": "cpu",
+      "dtype": "torch.float64",
+      "name": "task.masks"
+    },
+    {
+      "device": "cpu",
+      "dtype": "torch.int64",
+      "name": "task.problem"
+    },
+    {
+      "device": "cpu",
+      "dtype": "torch.float64",
+      "name": "weight_0"
+    },
+    {
+      "device": "cpu",
+      "dtype": "torch.float64",
+      "name": "weight_1"
+    },
+    {
+      "device": "cpu",
+      "dtype": "torch.float64",
+      "name": "weight_2"
+    },
+    {
+      "device": "cpu",
+      "dtype": "torch.float64",
+      "name": "weight_3"
+    },
+    {
+      "device": "cpu",
+      "dtype": "torch.float64",
+      "name": "weight_4"
+    },
+    {
+      "device": "cpu",
+      "dtype": "torch.float64",
+      "name": "weight_5"
+    },
+    {
+      "device": "cpu",
+      "dtype": "torch.float64",
+      "name": "weight_6"
+    },
+    {
+      "device": "cpu",
+      "dtype": "torch.float64",
+      "name": "weight_7"
+    },
+    {
+      "device": "cpu",
+      "dtype": "torch.float64",
+      "name": "weight_8"
+    },
+    {
+      "device": "cpu",
+      "dtype": "torch.float64",
+      "name": "weight_9"
+    },
+    {
+      "device": "cpu",
+      "dtype": "torch.float64",
+      "name": "weight_10"
+    },
+    {
+      "device": "cpu",
+      "dtype": "torch.float64",
+      "name": "weight_11"
+    },
+    {
+      "device": "cpu",
+      "dtype": "torch.float64",
+      "name": "weight_12"
+    },
+    {
+      "device": "cpu",
+      "dtype": "torch.float64",
+      "name": "weight_13"
+    },
+    {
+      "device": "cpu",
+      "dtype": "torch.float64",
+      "name": "weight_14"
+    },
+    {
+      "device": "cpu",
+      "dtype": "torch.float64",
+      "name": "weight_15"
+    },
+    {
+      "device": "cpu",
+      "dtype": "torch.float64",
+      "name": "weight_16"
+    },
+    {
+      "device": "cpu",
+      "dtype": "torch.float64",
+      "name": "weight_17"
+    },
+    {
+      "device": "cpu",
+      "dtype": "torch.float64",
+      "name": "weight_18"
+    },
+    {
+      "device": "cpu",
+      "dtype": "torch.float64",
+      "name": "weight_19"
+    }
+  ],
+  "torch_num_threads": 1
+}

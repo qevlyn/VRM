@@ -1,0 +1,367 @@
+{
+  "aggregate_exact": 1.0,
+  "query_type_count": 24,
+  "query_types": {
+    "3_cell_L|color=1|anchor=interior_lower_left|distractors=1": {
+      "direct_grid_exact_accuracy": 1.0,
+      "episode_count": 540,
+      "sequences": [
+        "C",
+        "C->F",
+        "C->T",
+        "F",
+        "F->C",
+        "F->T",
+        "T",
+        "T->C",
+        "T->F"
+      ]
+    },
+    "3_cell_L|color=1|anchor=interior_upper_left|distractors=1": {
+      "direct_grid_exact_accuracy": 1.0,
+      "episode_count": 540,
+      "sequences": [
+        "C",
+        "C->F",
+        "C->T",
+        "F",
+        "F->C",
+        "F->T",
+        "T",
+        "T->C",
+        "T->F"
+      ]
+    },
+    "3_cell_L|color=2|anchor=interior_upper_left|distractors=2": {
+      "direct_grid_exact_accuracy": 1.0,
+      "episode_count": 540,
+      "sequences": [
+        "C",
+        "C->F",
+        "C->T",
+        "F",
+        "F->C",
+        "F->T",
+        "T",
+        "T->C",
+        "T->F"
+      ]
+    },
+    "3_cell_L|color=3|anchor=interior_lower_right|distractors=2": {
+      "direct_grid_exact_accuracy": 1.0,
+      "episode_count": 540,
+      "sequences": [
+        "C",
+        "C->F",
+        "C->T",
+        "F",
+        "F->C",
+        "F->T",
+        "T",
+        "T->C",
+        "T->F"
+      ]
+    },
+    "3_cell_L|color=3|anchor=interior_upper_right|distractors=2": {
+      "direct_grid_exact_accuracy": 1.0,
+      "episode_count": 540,
+      "sequences": [
+        "C",
+        "C->F",
+        "C->T",
+        "F",
+        "F->C",
+        "F->T",
+        "T",
+        "T->C",
+        "T->F"
+      ]
+    },
+    "3_cell_L|color=4|anchor=interior_lower_right|distractors=2": {
+      "direct_grid_exact_accuracy": 1.0,
+      "episode_count": 540,
+      "sequences": [
+        "C",
+        "C->F",
+        "C->T",
+        "F",
+        "F->C",
+        "F->T",
+        "T",
+        "T->C",
+        "T->F"
+      ]
+    },
+    "3_cell_T|color=1|anchor=interior_lower_right|distractors=2": {
+      "direct_grid_exact_accuracy": 1.0,
+      "episode_count": 540,
+      "sequences": [
+        "C",
+        "C->F",
+        "C->T",
+        "F",
+        "F->C",
+        "F->T",
+        "T",
+        "T->C",
+        "T->F"
+      ]
+    },
+    "3_cell_T|color=1|anchor=interior_upper_right|distractors=1": {
+      "direct_grid_exact_accuracy": 1.0,
+      "episode_count": 540,
+      "sequences": [
+        "C",
+        "C->F",
+        "C->T",
+        "F",
+        "F->C",
+        "F->T",
+        "T",
+        "T->C",
+        "T->F"
+      ]
+    },
+    "3_cell_T|color=2|anchor=interior_lower_left|distractors=2": {
+      "direct_grid_exact_accuracy": 1.0,
+      "episode_count": 540,
+      "sequences": [
+        "C",
+        "C->F",
+        "C->T",
+        "F",
+        "F->C",
+        "F->T",
+        "T",
+        "T->C",
+        "T->F"
+      ]
+    },
+    "3_cell_T|color=3|anchor=interior_lower_left|distractors=2": {
+      "direct_grid_exact_accuracy": 1.0,
+      "episode_count": 540,
+      "sequences": [
+        "C",
+        "C->F",
+        "C->T",
+        "F",
+        "F->C",
+        "F->T",
+        "T",
+        "T->C",
+        "T->F"
+      ]
+    },
+    "3_cell_T|color=3|anchor=interior_upper_left|distractors=2": {
+      "direct_grid_exact_accuracy": 1.0,
+      "episode_count": 540,
+      "sequences": [
+        "C",
+        "C->F",
+        "C->T",
+        "F",
+        "F->C",
+        "F->T",
+        "T",
+        "T->C",
+        "T->F"
+      ]
+    },
+    "3_cell_T|color=4|anchor=interior_upper_left|distractors=2": {
+      "direct_grid_exact_accuracy": 1.0,
+      "episode_count": 540,
+      "sequences": [
+        "C",
+        "C->F",
+        "C->T",
+        "F",
+        "F->C",
+        "F->T",
+        "T",
+        "T->C",
+        "T->F"
+      ]
+    },
+    "3_cell_zig_zag|color=1|anchor=interior_lower_left|distractors=1": {
+      "direct_grid_exact_accuracy": 1.0,
+      "episode_count": 540,
+      "sequences": [
+        "C",
+        "C->F",
+        "C->T",
+        "F",
+        "F->C",
+        "F->T",
+        "T",
+        "T->C",
+        "T->F"
+      ]
+    },
+    "3_cell_zig_zag|color=1|anchor=interior_lower_left|distractors=2": {
+      "direct_grid_exact_accuracy": 1.0,
+      "episode_count": 540,
+      "sequences": [
+        "C",
+        "C->F",
+        "C->T",
+        "F",
+        "F->C",
+        "F->T",
+        "T",
+        "T->C",
+        "T->F"
+      ]
+    },
+    "3_cell_zig_zag|color=1|anchor=interior_upper_right|distractors=1": {
+      "direct_grid_exact_accuracy": 1.0,
+      "episode_count": 540,
+      "sequences": [
+        "C",
+        "C->F",
+        "C->T",
+        "F",
+        "F->C",
+        "F->T",
+        "T",
+        "T->C",
+        "T->F"
+      ]
+    },
+    "3_cell_zig_zag|color=1|anchor=interior_upper_right|distractors=2": {
+      "direct_grid_exact_accuracy": 1.0,
+      "episode_count": 540,
+      "sequences": [
+        "C",
+        "C->F",
+        "C->T",
+        "F",
+        "F->C",
+        "F->T",
+        "T",
+        "T->C",
+        "T->F"
+      ]
+    },
+    "3_cell_zig_zag|color=2|anchor=interior_lower_left|distractors=1": {
+      "direct_grid_exact_accuracy": 1.0,
+      "episode_count": 540,
+      "sequences": [
+        "C",
+        "C->F",
+        "C->T",
+        "F",
+        "F->C",
+        "F->T",
+        "T",
+        "T->C",
+        "T->F"
+      ]
+    },
+    "3_cell_zig_zag|color=3|anchor=interior_lower_right|distractors=1": {
+      "direct_grid_exact_accuracy": 1.0,
+      "episode_count": 540,
+      "sequences": [
+        "C",
+        "C->F",
+        "C->T",
+        "F",
+        "F->C",
+        "F->T",
+        "T",
+        "T->C",
+        "T->F"
+      ]
+    },
+    "asymmetric_4_cell_hook|color=1|anchor=interior_lower_left|distractors=2": {
+      "direct_grid_exact_accuracy": 1.0,
+      "episode_count": 540,
+      "sequences": [
+        "C",
+        "C->F",
+        "C->T",
+        "F",
+        "F->C",
+        "F->T",
+        "T",
+        "T->C",
+        "T->F"
+      ]
+    },
+    "asymmetric_4_cell_hook|color=1|anchor=interior_lower_right|distractors=1": {
+      "direct_grid_exact_accuracy": 1.0,
+      "episode_count": 540,
+      "sequences": [
+        "C",
+        "C->F",
+        "C->T",
+        "F",
+        "F->C",
+        "F->T",
+        "T",
+        "T->C",
+        "T->F"
+      ]
+    },
+    "asymmetric_4_cell_hook|color=1|anchor=interior_upper_left|distractors=2": {
+      "direct_grid_exact_accuracy": 1.0,
+      "episode_count": 540,
+      "sequences": [
+        "C",
+        "C->F",
+        "C->T",
+        "F",
+        "F->C",
+        "F->T",
+        "T",
+        "T->C",
+        "T->F"
+      ]
+    },
+    "asymmetric_4_cell_hook|color=2|anchor=interior_lower_right|distractors=2": {
+      "direct_grid_exact_accuracy": 1.0,
+      "episode_count": 540,
+      "sequences": [
+        "C",
+        "C->F",
+        "C->T",
+        "F",
+        "F->C",
+        "F->T",
+        "T",
+        "T->C",
+        "T->F"
+      ]
+    },
+    "asymmetric_4_cell_hook|color=3|anchor=interior_upper_left|distractors=2": {
+      "direct_grid_exact_accuracy": 1.0,
+      "episode_count": 540,
+      "sequences": [
+        "C",
+        "C->F",
+        "C->T",
+        "F",
+        "F->C",
+        "F->T",
+        "T",
+        "T->C",
+        "T->F"
+      ]
+    },
+    "asymmetric_4_cell_hook|color=3|anchor=interior_upper_right|distractors=2": {
+      "direct_grid_exact_accuracy": 1.0,
+      "episode_count": 540,
+      "sequences": [
+        "C",
+        "C->F",
+        "C->T",
+        "F",
+        "F->C",
+        "F->T",
+        "T",
+        "T->C",
+        "T->F"
+      ]
+    }
+  },
+  "worst_query_type_exact": 1.0
+}

@@ -1,0 +1,35 @@
+{
+  "archive": {
+    "archive_member_count": 296,
+    "archive_path": "/mnt/d/VRM/r6a_compressarc/archives/R6A_PHASE1_FROZEN_FOR_PHASE2_20260704_021634.zip",
+    "created_utc": "2026-07-04T02:16:51Z",
+    "file_count": 295,
+    "integrity_test_passed": true,
+    "note": "Phase 1 files were read and archived only; no Phase 1 artifact path was modified.",
+    "zip_sha256": "47458286d7c16e4f98438e0fa3b2d3f302b80dbcb8fd751820cc32830cc61b53",
+    "zip_size_bytes": 335309472
+  },
+  "cpu_child": {
+    "c_raw_preflight": "/mnt/d/VRM/r6a_compressarc/artifacts/r6a_phase2_symmetry_preflight/c_raw_color_preflight.json",
+    "child_command": [
+      "/home/quyen/.venvs/vrm/bin/python",
+      "/mnt/d/VRM/r6a_compressarc/scripts/phase2_cpu_preflight_child.py"
+    ],
+    "child_returncode": 0,
+    "child_stdout_tail": "{\n  \"c_raw_preflight\": \"/mnt/d/VRM/r6a_compressarc/artifacts/r6a_phase2_symmetry_preflight/c_raw_color_preflight.json\",\n  \"cpu_execution_proof\": \"/mnt/d/VRM/r6a_compressarc/artifacts/r6a_phase2_symmetry_preflight/cpu_execution_proof.json\",\n  \"created_utc\": \"2026-07-04T02:17:55Z\",\n  \"p_strict_preflight\": \"/mnt/d/VRM/r6a_compressarc/artifacts/r6a_phase2_symmetry_preflight/p_strict_preflight.json\",\n  \"status\": \"CPU_CHILD_PREFLIGHT_COMPLETE\",\n  \"structural_path\": \"/mnt/d/VRM/r6a_compressarc/artifacts/r6a_phase2_symmetry_preflight/s_cycle_invariance_structural_reanalysis.json\",\n  \"structural_sha256\": \"d16147b6b2a10acb3d1de0d846cd03ca1da96511a393309800949151a19e63af\"\n}\n",
+    "cpu_execution_proof": "/mnt/d/VRM/r6a_compressarc/artifacts/r6a_phase2_symmetry_preflight/cpu_execution_proof.json",
+    "created_utc": "2026-07-04T02:17:55Z",
+    "p_strict_preflight": "/mnt/d/VRM/r6a_compressarc/artifacts/r6a_phase2_symmetry_preflight/p_strict_preflight.json",
+    "status": "CPU_CHILD_PREFLIGHT_COMPLETE",
+    "structural_path": "/mnt/d/VRM/r6a_compressarc/artifacts/r6a_phase2_symmetry_preflight/s_cycle_invariance_structural_reanalysis.json",
+    "structural_sha256": "d16147b6b2a10acb3d1de0d846cd03ca1da96511a393309800949151a19e63af"
+  },
+  "created_utc": "2026-07-04T02:18:01Z",
+  "phase1_immutability": {
+    "all_match_before": true,
+    "file_count": 295
+  },
+  "report": "/mnt/d/VRM/r6a_compressarc/reports/r6a_phase2_symmetry_preflight_report.md",
+  "source_pin_verified": true,
+  "status": "R6A_PHASE2_PREFLIGHT_COMPLETE"
+}

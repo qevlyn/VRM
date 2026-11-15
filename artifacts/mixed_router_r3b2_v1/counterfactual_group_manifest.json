@@ -1,0 +1,20 @@
+{
+  "dev": {
+    "bad_group_count": 0,
+    "bad_group_examples": [],
+    "group_count": 3000,
+    "passed": true
+  },
+  "sealed": {
+    "bad_group_count": 0,
+    "bad_group_examples": [],
+    "group_count": 3000,
+    "passed": true
+  },
+  "train": {
+    "bad_group_count": 0,
+    "bad_group_examples": [],
+    "group_count": 12000,
+    "passed": true
+  }
+}

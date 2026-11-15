@@ -1,0 +1,82 @@
+{
+  "audit_version": "R5A2D_R1_FROZEN_LIBRARY_ARC_NATIVE_COVERAGE_AUDIT",
+  "corpus_manifest_sha256": "a712951a54f0d1c6701024e0c9298d04a6a04a0c8770afc997be61aef8f5c911",
+  "corpus_name": "arc-prize-2026-arc-agi-2",
+  "corpus_root_relative_or_configured_path": "arc-prize-2026-arc-agi-2",
+  "frozen_library": [
+    "identity_baseline",
+    "V2_transport_recolor_executor",
+    "R5A-2C-R2_compiled_topology_executor"
+  ],
+  "identity_contract": {
+    "output": "input",
+    "runtime_inputs": [
+      "query_input_grid"
+    ]
+  },
+  "task_count": 1360,
+  "topology_contract": {
+    "closure_domain_hash": "bdad945425fd734ed443788c39d21c4c48d629c09f05c92ad7c62c8cfb554329",
+    "grid_size": "7x7",
+    "hypothesis_catalog_hash": "bdad945425fd734ed443788c39d21c4c48d629c09f05c92ad7c62c8cfb554329",
+    "palette": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "query_count_behavior": "exactly 1 query grid per invocation",
+    "raw_input_fields": [
+      "support_input_grids",
+      "support_output_grids",
+      "query_input_grid"
+    ],
+    "runtime_error_behavior": "invalid support count, ambiguous support consistency, or no consistent hypothesis returns no executable output",
+    "shortcut_catalog_hash": "3bf2a8d64a6b1b0ab989750c2023d84b792b65cd6986888c1934d4af346abf2a",
+    "support_pair_count_behavior": "exactly 3 support pairs"
+  },
+  "topology_seed_caveat": {
+    "border_reachable_recolor": "reported in topology_border_or_enclosed",
+    "enclosed_region_recolor": "reported in topology_border_or_enclosed",
+    "seed_reachable_recolor": "reported separately as topology_seed_only and not presented as multi-step reachability coverage evidence"
+  },
+  "v2_contract": {
+    "accepted_grid_sizes": [
+      "7x7"
+    ],
+    "accepted_palette_range": [
+      0,
+      8
+    ],
+    "accepted_query_count_behavior": "one raw query grid per invocation; multiple ARC test inputs are invoked independently",
+    "accepted_support_pair_count_behavior": "variable raw support-pair count for exact support-consistency over the frozen SEALED_CLASSES operation set; no support duplication, deletion, or fabrication",
+    "checkpoint_read": false,
+    "frozen_operation_classes": [
+      "C",
+      "H",
+      "V",
+      "L",
+      "K",
+      "C->L",
+      "L->H",
+      "H->K",
+      "K->V",
+      "L->C",
+      "H->L",
+      "C->K",
+      "K->C"
+    ],
+    "neural_model_constructed": false,
+    "raw_input_fields": [
+      "support_input_grids",
+      "support_output_grids",
+      "query_input_grid"
+    ],
+    "runtime_error_behavior": "operation collision or non-unique support-consistent sequence returns no executable output"
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "P1_QUERY_ONLY": {
+    "dev_accuracies": [
+      0.5,
+      0.5,
+      0.5
+    ],
+    "dev_binomial_ci95": [
+      0.487352302703989,
+      0.512647697296011
+    ],
+    "dev_mean_accuracy": 0.5,
+    "dev_std_accuracy": 0.0,
+    "expected_result": "chance",
+    "input_view": "query + candidates",
+    "parameter_count": 1,
+    "probe": "P1_QUERY_ONLY"
+  },
+  "P2_SUPPORT_INPUT_BAG_ONLY": {
+    "dev_accuracies": [
+      0.5,
+      0.5,
+      0.5
+    ],
+    "dev_binomial_ci95": [
+      0.487352302703989,
+      0.512647697296011
+    ],
+    "dev_mean_accuracy": 0.5,
+    "dev_std_accuracy": 0.0,
+    "expected_result": "chance",
+    "input_view": "query + candidates + canonical support input bag",
+    "parameter_count": 1,
+    "probe": "P2_SUPPORT_INPUT_BAG_ONLY"
+  },
+  "P3_SUPPORT_OUTPUT_BAG_ONLY": {
+    "dev_accuracies": [
+      0.5,
+      0.5,
+      0.5
+    ],
+    "dev_binomial_ci95": [
+      0.487352302703989,
+      0.512647697296011
+    ],
+    "dev_mean_accuracy": 0.5,
+    "dev_std_accuracy": 0.0,
+    "expected_result": "chance",
+    "input_view": "query + candidates + canonical support output bag",
+    "parameter_count": 1,
+    "probe": "P3_SUPPORT_OUTPUT_BAG_ONLY"
+  },
+  "P4_UNPAIRED_SUPPORT_BAG": {
+    "dev_accuracies": [
+      0.5,
+      0.5,
+      0.5
+    ],
+    "dev_binomial_ci95": [
+      0.487352302703989,
+      0.512647697296011
+    ],
+    "dev_mean_accuracy": 0.5,
+    "dev_std_accuracy": 0.0,
+    "expected_result": "chance",
+    "input_view": "query + candidates + canonical input/output bags",
+    "parameter_count": 1,
+    "probe": "P4_UNPAIRED_SUPPORT_BAG"
+  },
+  "P5_RELATION_AWARE_PAIRED": {
+    "dev_accuracies": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "dev_binomial_ci95": [
+      0.9993601430124339,
+      1.0
+    ],
+    "dev_mean_accuracy": 1.0,
+    "dev_std_accuracy": 0.0,
+    "expected_result": "above_chance",
+    "input_view": "query + candidates + coherent support pairs",
+    "parameter_count": 1,
+    "probe": "P5_RELATION_AWARE_PAIRED"
+  },
+  "P6_RELATION_AWARE_DERANGED": {
+    "dev_accuracies": [
+      0.24400000274181366,
+      0.26100000739097595,
+      0.2395000010728836
+    ],
+    "dev_binomial_ci95": [
+      0.23740029446965058,
+      0.2592553134997535
+    ],
+    "dev_mean_accuracy": 0.24816667040189108,
+    "dev_std_accuracy": 0.009258632277021409,
+    "expected_result": "deranged_control_le_55",
+    "input_view": "query + candidates + deranged support pairs",
+    "parameter_count": 1,
+    "probe": "P6_RELATION_AWARE_DERANGED"
+  }
+}

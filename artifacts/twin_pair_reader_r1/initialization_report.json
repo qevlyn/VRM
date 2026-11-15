@@ -1,0 +1,23 @@
+{
+  "architecture": "Pair Key-Value Reader R1",
+  "config": {
+    "background_color": 0,
+    "color_count": 10,
+    "dropout": 0.0,
+    "hidden_size": 128,
+    "max_height": 7,
+    "max_width": 7,
+    "num_heads": 4,
+    "num_layers": 2,
+    "temperature": 0.1
+  },
+  "foreground_strategy": "foreground-only tokenization of non-background cells with color, row, and column embeddings; empty foreground matcher grids are treated as dataset errors",
+  "parameter_count": {
+    "total": 400000,
+    "trainable": 400000
+  },
+  "query_and_support_input_encoder_share_weights": true,
+  "uses_pair_index_embedding": false,
+  "uses_pair_position_embedding": false,
+  "value_route": "raw support output one-hot grids mixed only by retrieval alpha"
+}

@@ -1,0 +1,133 @@
+{
+  "artifact_hash_verification": {
+    "/mnt/d/VRM/artifacts/r5a3b_relation_constraint_pilot/condition_candidate_ledgers.json": {
+      "current": "3a447308e83cc4ff148c96b6389a12947bfd22705a62f7349f9421193b3888dc",
+      "expected": "3a447308e83cc4ff148c96b6389a12947bfd22705a62f7349f9421193b3888dc",
+      "matches": true
+    },
+    "/mnt/d/VRM/artifacts/r5a3b_relation_constraint_pilot/constraint_acquisition_report.json": {
+      "current": "3e9a219d1e23f3fd017448e8e4a1b7f860256356bdc6a714bf1bc6ebcdf22009",
+      "expected": "3e9a219d1e23f3fd017448e8e4a1b7f860256356bdc6a714bf1bc6ebcdf22009",
+      "matches": true
+    },
+    "/mnt/d/VRM/artifacts/r5a3b_relation_constraint_pilot/final_report.json": {
+      "current": "49a6d573c0502fbdb344dec05584ef5d7bef210e2eb287e72ed70e409b1b737d",
+      "expected": "49a6d573c0502fbdb344dec05584ef5d7bef210e2eb287e72ed70e409b1b737d",
+      "matches": true
+    },
+    "/mnt/d/VRM/artifacts/r5a3b_relation_constraint_pilot/matched_random_prune_report.json": {
+      "current": "00fae6f17f2370a07d20cdee1cff41e74433c6ca2f7b644dc96cfaefd8670d00",
+      "expected": "00fae6f17f2370a07d20cdee1cff41e74433c6ca2f7b644dc96cfaefd8670d00",
+      "matches": true
+    },
+    "/mnt/d/VRM/artifacts/r5a3b_relation_constraint_pilot/pilot_manifest.json": {
+      "current": "cb7f8ed8108042d56c94e3d9ac257a8584874d3802c21f0ba75debf87e274ffd",
+      "expected": "cb7f8ed8108042d56c94e3d9ac257a8584874d3802c21f0ba75debf87e274ffd",
+      "matches": true
+    },
+    "/mnt/d/VRM/artifacts/r5a3b_relation_constraint_pilot/pilot_recall_metrics.json": {
+      "current": "6c95fcc3306915ccc9f355f516763515293ab072a5e30901c46d9cecf251d8a3",
+      "expected": "6c95fcc3306915ccc9f355f516763515293ab072a5e30901c46d9cecf251d8a3",
+      "matches": true
+    },
+    "/mnt/d/VRM/artifacts/r5a3b_relation_constraint_pilot/pre_hidden_pilot_commitment.json": {
+      "current": "5731399eb9c8918e669f9e78673908fd94c0befdf1fa3a36205ec7a96ef90f05",
+      "expected": "5731399eb9c8918e669f9e78673908fd94c0befdf1fa3a36205ec7a96ef90f05",
+      "matches": true
+    },
+    "/mnt/d/VRM/artifacts/r5a3b_relation_constraint_pilot/raw_candidate_universe_ledger.json": {
+      "current": "14aa74058182e1603cc5d58f6f2afd44eaa327e3e74a5cb4f81fd4f0b34bf984",
+      "expected": "14aa74058182e1603cc5d58f6f2afd44eaa327e3e74a5cb4f81fd4f0b34bf984",
+      "matches": true
+    },
+    "/mnt/d/VRM/artifacts/r5a3b_relation_constraint_pilot/runtime_profile.json": {
+      "current": "79dcb915a1fa3398593d8e7769f67cb2fd720ea027bc5ef7ecda8a1dd7e8f03e",
+      "expected": "79dcb915a1fa3398593d8e7769f67cb2fd720ea027bc5ef7ecda8a1dd7e8f03e",
+      "matches": true
+    }
+  },
+  "audit_version": "R5A3B_P2A_BALANCED_TRANSPORT_ALLOCATION",
+  "max_raw_programs_per_parse": 8,
+  "p0_object_candidate_count_range_per_fold": [
+    4,
+    16
+  ],
+  "p0_object_program_allocation_slots": 4,
+  "p0_relation_action_counts_expected": {
+    "copy_source_by_relation_vector": 0,
+    "delete_target": 150,
+    "keep_relation_endpoints": 150,
+    "recolor_source_to_target": 150,
+    "recolor_target_to_source": 150,
+    "translate_target_by_relation_vector": 0
+  },
+  "p0_relation_action_counts_match_expected": true,
+  "p0_relation_action_counts_observed": {
+    "copy_source_by_relation_vector": 0,
+    "delete_target": 150,
+    "keep_relation_endpoints": 150,
+    "recolor_source_to_target": 150,
+    "recolor_target_to_source": 150,
+    "translate_target_by_relation_vector": 0
+  },
+  "p0_relation_action_menu_order": [
+    "keep_relation_endpoints",
+    "recolor_target_to_source",
+    "recolor_source_to_target",
+    "delete_target",
+    "copy_source_by_relation_vector",
+    "translate_target_by_relation_vector",
+    "recolor_target_constant"
+  ],
+  "p0_relation_candidate_count_range_per_fold": [
+    0,
+    16
+  ],
+  "p0_relation_program_allocation_slots": 4,
+  "protected_p0_artifact_hashes_match_p1_record": true,
+  "protected_p0_source_hashes_match": true,
+  "r5a3a_default_enumeration_depth_first_over_selectors_and_all_objects_first": true,
+  "source_hash_verification": {
+    "/mnt/d/VRM/docs/R5A3B_P0_RELATION_CONSTRAINT_CAUSAL_PILOT.md": {
+      "current": "1dbc771ebe67f2201eb591fcd18c419914f56593e2f979f3454bd0f8fe2f9813",
+      "expected": "1dbc771ebe67f2201eb591fcd18c419914f56593e2f979f3454bd0f8fe2f9813",
+      "matches": true
+    },
+    "/mnt/d/VRM/tests/test_r5a3b_relation_constraint_pilot.py": {
+      "current": "a7e871eda4839f7bbacba5d310563c2d8235fb6a3fafbaa2f2bdc3a55bc39b8d",
+      "expected": "a7e871eda4839f7bbacba5d310563c2d8235fb6a3fafbaa2f2bdc3a55bc39b8d",
+      "matches": true
+    },
+    "/mnt/d/VRM/vrm/twin_tasks/r5a3b_constraint_acquisition.py": {
+      "current": "12d0974fc3c33a3b25690ba911bfbaa0862981af97d0920eda11d17078f8d1a4",
+      "expected": "12d0974fc3c33a3b25690ba911bfbaa0862981af97d0920eda11d17078f8d1a4",
+      "matches": true
+    },
+    "/mnt/d/VRM/vrm/twin_tasks/r5a3b_object_graph.py": {
+      "current": "4abe15346e9855e02b78f4b7acaa44e9207b2b502669047212b29997bc4e0ed9",
+      "expected": "4abe15346e9855e02b78f4b7acaa44e9207b2b502669047212b29997bc4e0ed9",
+      "matches": true
+    },
+    "/mnt/d/VRM/vrm/twin_tasks/r5a3b_parse_hypotheses.py": {
+      "current": "a64b0428c1904e1409191e0c72c54a51f9d20895699ddfdd7cc6a2f798696f90",
+      "expected": "a64b0428c1904e1409191e0c72c54a51f9d20895699ddfdd7cc6a2f798696f90",
+      "matches": true
+    },
+    "/mnt/d/VRM/vrm/twin_tasks/r5a3b_relation_constraint_pilot.py": {
+      "current": "c0bd75c60aba6d0dcf21fe8477631faf80ca75ff2cad83f1c879522a13b0974a",
+      "expected": "c0bd75c60aba6d0dcf21fe8477631faf80ca75ff2cad83f1c879522a13b0974a",
+      "matches": true
+    },
+    "/mnt/d/VRM/vrm/twin_tasks/r5a3b_relation_programs.py": {
+      "current": "a7ea9228fca6d8ff3cbe7ca8afd3e26f36fdb93276f46d5c85fce9a7bf816c6f",
+      "expected": "a7ea9228fca6d8ff3cbe7ca8afd3e26f36fdb93276f46d5c85fce9a7bf816c6f",
+      "matches": true
+    },
+    "/mnt/d/VRM/vrm/twin_tasks/run_r5a3b_relation_constraint_pilot.py": {
+      "current": "f0f283c39d1a719abf0ceb4d407d1be74e50a2886c97801b9202ddf1be0b691a",
+      "expected": "f0f283c39d1a719abf0ceb4d407d1be74e50a2886c97801b9202ddf1be0b691a",
+      "matches": true
+    }
+  },
+  "status": "PASS"
+}

@@ -1,0 +1,1145 @@
+{
+  "conjunction_depth_bound": 2,
+  "lexicographic_rule_count": 90,
+  "pairwise_conjunction_count": 45,
+  "rules": [
+    {
+      "kind": "single",
+      "name": "always_border_reachable",
+      "predicates": []
+    },
+    {
+      "kind": "single",
+      "name": "always_enclosed",
+      "predicates": []
+    },
+    {
+      "kind": "single",
+      "name": "always_largest_passable_component",
+      "predicates": []
+    },
+    {
+      "kind": "single",
+      "name": "always_marker_adjacent_component",
+      "predicates": []
+    },
+    {
+      "kind": "single",
+      "name": "always_non_border_component",
+      "predicates": []
+    },
+    {
+      "kind": "single",
+      "name": "always_seed_reachable",
+      "predicates": []
+    },
+    {
+      "kind": "single",
+      "name": "barrier_ignored",
+      "predicates": []
+    },
+    {
+      "kind": "pairwise_conjunction",
+      "name": "conjunction::does_not_touch_border__AND__has_barrier_density_above_median",
+      "predicates": [
+        "does_not_touch_border",
+        "has_barrier_density_above_median"
+      ]
+    },
+    {
+      "kind": "pairwise_conjunction",
+      "name": "conjunction::does_not_touch_border__AND__has_region_size_above_median",
+      "predicates": [
+        "does_not_touch_border",
+        "has_region_size_above_median"
+      ]
+    },
+    {
+      "kind": "pairwise_conjunction",
+      "name": "conjunction::does_not_touch_border__AND__has_region_size_below_median",
+      "predicates": [
+        "does_not_touch_border",
+        "has_region_size_below_median"
+      ]
+    },
+    {
+      "kind": "pairwise_conjunction",
+      "name": "conjunction::does_not_touch_border__AND__has_seed_distance_above_median",
+      "predicates": [
+        "does_not_touch_border",
+        "has_seed_distance_above_median"
+      ]
+    },
+    {
+      "kind": "pairwise_conjunction",
+      "name": "conjunction::does_not_touch_border__AND__is_marker_adjacent",
+      "predicates": [
+        "does_not_touch_border",
+        "is_marker_adjacent"
+      ]
+    },
+    {
+      "kind": "pairwise_conjunction",
+      "name": "conjunction::does_not_touch_border__AND__is_not_marker_adjacent",
+      "predicates": [
+        "does_not_touch_border",
+        "is_not_marker_adjacent"
+      ]
+    },
+    {
+      "kind": "pairwise_conjunction",
+      "name": "conjunction::has_barrier_density_above_median__AND__has_seed_distance_above_median",
+      "predicates": [
+        "has_barrier_density_above_median",
+        "has_seed_distance_above_median"
+      ]
+    },
+    {
+      "kind": "pairwise_conjunction",
+      "name": "conjunction::has_region_size_above_median__AND__has_barrier_density_above_median",
+      "predicates": [
+        "has_region_size_above_median",
+        "has_barrier_density_above_median"
+      ]
+    },
+    {
+      "kind": "pairwise_conjunction",
+      "name": "conjunction::has_region_size_above_median__AND__has_region_size_below_median",
+      "predicates": [
+        "has_region_size_above_median",
+        "has_region_size_below_median"
+      ]
+    },
+    {
+      "kind": "pairwise_conjunction",
+      "name": "conjunction::has_region_size_above_median__AND__has_seed_distance_above_median",
+      "predicates": [
+        "has_region_size_above_median",
+        "has_seed_distance_above_median"
+      ]
+    },
+    {
+      "kind": "pairwise_conjunction",
+      "name": "conjunction::has_region_size_below_median__AND__has_barrier_density_above_median",
+      "predicates": [
+        "has_region_size_below_median",
+        "has_barrier_density_above_median"
+      ]
+    },
+    {
+      "kind": "pairwise_conjunction",
+      "name": "conjunction::has_region_size_below_median__AND__has_seed_distance_above_median",
+      "predicates": [
+        "has_region_size_below_median",
+        "has_seed_distance_above_median"
+      ]
+    },
+    {
+      "kind": "pairwise_conjunction",
+      "name": "conjunction::is_largest_component__AND__does_not_touch_border",
+      "predicates": [
+        "is_largest_component",
+        "does_not_touch_border"
+      ]
+    },
+    {
+      "kind": "pairwise_conjunction",
+      "name": "conjunction::is_largest_component__AND__has_barrier_density_above_median",
+      "predicates": [
+        "is_largest_component",
+        "has_barrier_density_above_median"
+      ]
+    },
+    {
+      "kind": "pairwise_conjunction",
+      "name": "conjunction::is_largest_component__AND__has_region_size_above_median",
+      "predicates": [
+        "is_largest_component",
+        "has_region_size_above_median"
+      ]
+    },
+    {
+      "kind": "pairwise_conjunction",
+      "name": "conjunction::is_largest_component__AND__has_region_size_below_median",
+      "predicates": [
+        "is_largest_component",
+        "has_region_size_below_median"
+      ]
+    },
+    {
+      "kind": "pairwise_conjunction",
+      "name": "conjunction::is_largest_component__AND__has_seed_distance_above_median",
+      "predicates": [
+        "is_largest_component",
+        "has_seed_distance_above_median"
+      ]
+    },
+    {
+      "kind": "pairwise_conjunction",
+      "name": "conjunction::is_largest_component__AND__is_marker_adjacent",
+      "predicates": [
+        "is_largest_component",
+        "is_marker_adjacent"
+      ]
+    },
+    {
+      "kind": "pairwise_conjunction",
+      "name": "conjunction::is_largest_component__AND__is_not_marker_adjacent",
+      "predicates": [
+        "is_largest_component",
+        "is_not_marker_adjacent"
+      ]
+    },
+    {
+      "kind": "pairwise_conjunction",
+      "name": "conjunction::is_largest_component__AND__is_smallest_component",
+      "predicates": [
+        "is_largest_component",
+        "is_smallest_component"
+      ]
+    },
+    {
+      "kind": "pairwise_conjunction",
+      "name": "conjunction::is_largest_component__AND__touches_border",
+      "predicates": [
+        "is_largest_component",
+        "touches_border"
+      ]
+    },
+    {
+      "kind": "pairwise_conjunction",
+      "name": "conjunction::is_marker_adjacent__AND__has_barrier_density_above_median",
+      "predicates": [
+        "is_marker_adjacent",
+        "has_barrier_density_above_median"
+      ]
+    },
+    {
+      "kind": "pairwise_conjunction",
+      "name": "conjunction::is_marker_adjacent__AND__has_region_size_above_median",
+      "predicates": [
+        "is_marker_adjacent",
+        "has_region_size_above_median"
+      ]
+    },
+    {
+      "kind": "pairwise_conjunction",
+      "name": "conjunction::is_marker_adjacent__AND__has_region_size_below_median",
+      "predicates": [
+        "is_marker_adjacent",
+        "has_region_size_below_median"
+      ]
+    },
+    {
+      "kind": "pairwise_conjunction",
+      "name": "conjunction::is_marker_adjacent__AND__has_seed_distance_above_median",
+      "predicates": [
+        "is_marker_adjacent",
+        "has_seed_distance_above_median"
+      ]
+    },
+    {
+      "kind": "pairwise_conjunction",
+      "name": "conjunction::is_marker_adjacent__AND__is_not_marker_adjacent",
+      "predicates": [
+        "is_marker_adjacent",
+        "is_not_marker_adjacent"
+      ]
+    },
+    {
+      "kind": "pairwise_conjunction",
+      "name": "conjunction::is_not_marker_adjacent__AND__has_barrier_density_above_median",
+      "predicates": [
+        "is_not_marker_adjacent",
+        "has_barrier_density_above_median"
+      ]
+    },
+    {
+      "kind": "pairwise_conjunction",
+      "name": "conjunction::is_not_marker_adjacent__AND__has_region_size_above_median",
+      "predicates": [
+        "is_not_marker_adjacent",
+        "has_region_size_above_median"
+      ]
+    },
+    {
+      "kind": "pairwise_conjunction",
+      "name": "conjunction::is_not_marker_adjacent__AND__has_region_size_below_median",
+      "predicates": [
+        "is_not_marker_adjacent",
+        "has_region_size_below_median"
+      ]
+    },
+    {
+      "kind": "pairwise_conjunction",
+      "name": "conjunction::is_not_marker_adjacent__AND__has_seed_distance_above_median",
+      "predicates": [
+        "is_not_marker_adjacent",
+        "has_seed_distance_above_median"
+      ]
+    },
+    {
+      "kind": "pairwise_conjunction",
+      "name": "conjunction::is_smallest_component__AND__does_not_touch_border",
+      "predicates": [
+        "is_smallest_component",
+        "does_not_touch_border"
+      ]
+    },
+    {
+      "kind": "pairwise_conjunction",
+      "name": "conjunction::is_smallest_component__AND__has_barrier_density_above_median",
+      "predicates": [
+        "is_smallest_component",
+        "has_barrier_density_above_median"
+      ]
+    },
+    {
+      "kind": "pairwise_conjunction",
+      "name": "conjunction::is_smallest_component__AND__has_region_size_above_median",
+      "predicates": [
+        "is_smallest_component",
+        "has_region_size_above_median"
+      ]
+    },
+    {
+      "kind": "pairwise_conjunction",
+      "name": "conjunction::is_smallest_component__AND__has_region_size_below_median",
+      "predicates": [
+        "is_smallest_component",
+        "has_region_size_below_median"
+      ]
+    },
+    {
+      "kind": "pairwise_conjunction",
+      "name": "conjunction::is_smallest_component__AND__has_seed_distance_above_median",
+      "predicates": [
+        "is_smallest_component",
+        "has_seed_distance_above_median"
+      ]
+    },
+    {
+      "kind": "pairwise_conjunction",
+      "name": "conjunction::is_smallest_component__AND__is_marker_adjacent",
+      "predicates": [
+        "is_smallest_component",
+        "is_marker_adjacent"
+      ]
+    },
+    {
+      "kind": "pairwise_conjunction",
+      "name": "conjunction::is_smallest_component__AND__is_not_marker_adjacent",
+      "predicates": [
+        "is_smallest_component",
+        "is_not_marker_adjacent"
+      ]
+    },
+    {
+      "kind": "pairwise_conjunction",
+      "name": "conjunction::is_smallest_component__AND__touches_border",
+      "predicates": [
+        "is_smallest_component",
+        "touches_border"
+      ]
+    },
+    {
+      "kind": "pairwise_conjunction",
+      "name": "conjunction::touches_border__AND__does_not_touch_border",
+      "predicates": [
+        "touches_border",
+        "does_not_touch_border"
+      ]
+    },
+    {
+      "kind": "pairwise_conjunction",
+      "name": "conjunction::touches_border__AND__has_barrier_density_above_median",
+      "predicates": [
+        "touches_border",
+        "has_barrier_density_above_median"
+      ]
+    },
+    {
+      "kind": "pairwise_conjunction",
+      "name": "conjunction::touches_border__AND__has_region_size_above_median",
+      "predicates": [
+        "touches_border",
+        "has_region_size_above_median"
+      ]
+    },
+    {
+      "kind": "pairwise_conjunction",
+      "name": "conjunction::touches_border__AND__has_region_size_below_median",
+      "predicates": [
+        "touches_border",
+        "has_region_size_below_median"
+      ]
+    },
+    {
+      "kind": "pairwise_conjunction",
+      "name": "conjunction::touches_border__AND__has_seed_distance_above_median",
+      "predicates": [
+        "touches_border",
+        "has_seed_distance_above_median"
+      ]
+    },
+    {
+      "kind": "pairwise_conjunction",
+      "name": "conjunction::touches_border__AND__is_marker_adjacent",
+      "predicates": [
+        "touches_border",
+        "is_marker_adjacent"
+      ]
+    },
+    {
+      "kind": "pairwise_conjunction",
+      "name": "conjunction::touches_border__AND__is_not_marker_adjacent",
+      "predicates": [
+        "touches_border",
+        "is_not_marker_adjacent"
+      ]
+    },
+    {
+      "kind": "single",
+      "name": "identity_output",
+      "predicates": []
+    },
+    {
+      "kind": "ordered_lexicographic",
+      "name": "lexicographic::does_not_touch_border__THEN__has_barrier_density_above_median",
+      "predicates": [
+        "does_not_touch_border",
+        "has_barrier_density_above_median"
+      ]
+    },
+    {
+      "kind": "ordered_lexicographic",
+      "name": "lexicographic::does_not_touch_border__THEN__has_region_size_above_median",
+      "predicates": [
+        "does_not_touch_border",
+        "has_region_size_above_median"
+      ]
+    },
+    {
+      "kind": "ordered_lexicographic",
+      "name": "lexicographic::does_not_touch_border__THEN__has_region_size_below_median",
+      "predicates": [
+        "does_not_touch_border",
+        "has_region_size_below_median"
+      ]
+    },
+    {
+      "kind": "ordered_lexicographic",
+      "name": "lexicographic::does_not_touch_border__THEN__has_seed_distance_above_median",
+      "predicates": [
+        "does_not_touch_border",
+        "has_seed_distance_above_median"
+      ]
+    },
+    {
+      "kind": "ordered_lexicographic",
+      "name": "lexicographic::does_not_touch_border__THEN__is_largest_component",
+      "predicates": [
+        "does_not_touch_border",
+        "is_largest_component"
+      ]
+    },
+    {
+      "kind": "ordered_lexicographic",
+      "name": "lexicographic::does_not_touch_border__THEN__is_marker_adjacent",
+      "predicates": [
+        "does_not_touch_border",
+        "is_marker_adjacent"
+      ]
+    },
+    {
+      "kind": "ordered_lexicographic",
+      "name": "lexicographic::does_not_touch_border__THEN__is_not_marker_adjacent",
+      "predicates": [
+        "does_not_touch_border",
+        "is_not_marker_adjacent"
+      ]
+    },
+    {
+      "kind": "ordered_lexicographic",
+      "name": "lexicographic::does_not_touch_border__THEN__is_smallest_component",
+      "predicates": [
+        "does_not_touch_border",
+        "is_smallest_component"
+      ]
+    },
+    {
+      "kind": "ordered_lexicographic",
+      "name": "lexicographic::does_not_touch_border__THEN__touches_border",
+      "predicates": [
+        "does_not_touch_border",
+        "touches_border"
+      ]
+    },
+    {
+      "kind": "ordered_lexicographic",
+      "name": "lexicographic::has_barrier_density_above_median__THEN__does_not_touch_border",
+      "predicates": [
+        "has_barrier_density_above_median",
+        "does_not_touch_border"
+      ]
+    },
+    {
+      "kind": "ordered_lexicographic",
+      "name": "lexicographic::has_barrier_density_above_median__THEN__has_region_size_above_median",
+      "predicates": [
+        "has_barrier_density_above_median",
+        "has_region_size_above_median"
+      ]
+    },
+    {
+      "kind": "ordered_lexicographic",
+      "name": "lexicographic::has_barrier_density_above_median__THEN__has_region_size_below_median",
+      "predicates": [
+        "has_barrier_density_above_median",
+        "has_region_size_below_median"
+      ]
+    },
+    {
+      "kind": "ordered_lexicographic",
+      "name": "lexicographic::has_barrier_density_above_median__THEN__has_seed_distance_above_median",
+      "predicates": [
+        "has_barrier_density_above_median",
+        "has_seed_distance_above_median"
+      ]
+    },
+    {
+      "kind": "ordered_lexicographic",
+      "name": "lexicographic::has_barrier_density_above_median__THEN__is_largest_component",
+      "predicates": [
+        "has_barrier_density_above_median",
+        "is_largest_component"
+      ]
+    },
+    {
+      "kind": "ordered_lexicographic",
+      "name": "lexicographic::has_barrier_density_above_median__THEN__is_marker_adjacent",
+      "predicates": [
+        "has_barrier_density_above_median",
+        "is_marker_adjacent"
+      ]
+    },
+    {
+      "kind": "ordered_lexicographic",
+      "name": "lexicographic::has_barrier_density_above_median__THEN__is_not_marker_adjacent",
+      "predicates": [
+        "has_barrier_density_above_median",
+        "is_not_marker_adjacent"
+      ]
+    },
+    {
+      "kind": "ordered_lexicographic",
+      "name": "lexicographic::has_barrier_density_above_median__THEN__is_smallest_component",
+      "predicates": [
+        "has_barrier_density_above_median",
+        "is_smallest_component"
+      ]
+    },
+    {
+      "kind": "ordered_lexicographic",
+      "name": "lexicographic::has_barrier_density_above_median__THEN__touches_border",
+      "predicates": [
+        "has_barrier_density_above_median",
+        "touches_border"
+      ]
+    },
+    {
+      "kind": "ordered_lexicographic",
+      "name": "lexicographic::has_region_size_above_median__THEN__does_not_touch_border",
+      "predicates": [
+        "has_region_size_above_median",
+        "does_not_touch_border"
+      ]
+    },
+    {
+      "kind": "ordered_lexicographic",
+      "name": "lexicographic::has_region_size_above_median__THEN__has_barrier_density_above_median",
+      "predicates": [
+        "has_region_size_above_median",
+        "has_barrier_density_above_median"
+      ]
+    },
+    {
+      "kind": "ordered_lexicographic",
+      "name": "lexicographic::has_region_size_above_median__THEN__has_region_size_below_median",
+      "predicates": [
+        "has_region_size_above_median",
+        "has_region_size_below_median"
+      ]
+    },
+    {
+      "kind": "ordered_lexicographic",
+      "name": "lexicographic::has_region_size_above_median__THEN__has_seed_distance_above_median",
+      "predicates": [
+        "has_region_size_above_median",
+        "has_seed_distance_above_median"
+      ]
+    },
+    {
+      "kind": "ordered_lexicographic",
+      "name": "lexicographic::has_region_size_above_median__THEN__is_largest_component",
+      "predicates": [
+        "has_region_size_above_median",
+        "is_largest_component"
+      ]
+    },
+    {
+      "kind": "ordered_lexicographic",
+      "name": "lexicographic::has_region_size_above_median__THEN__is_marker_adjacent",
+      "predicates": [
+        "has_region_size_above_median",
+        "is_marker_adjacent"
+      ]
+    },
+    {
+      "kind": "ordered_lexicographic",
+      "name": "lexicographic::has_region_size_above_median__THEN__is_not_marker_adjacent",
+      "predicates": [
+        "has_region_size_above_median",
+        "is_not_marker_adjacent"
+      ]
+    },
+    {
+      "kind": "ordered_lexicographic",
+      "name": "lexicographic::has_region_size_above_median__THEN__is_smallest_component",
+      "predicates": [
+        "has_region_size_above_median",
+        "is_smallest_component"
+      ]
+    },
+    {
+      "kind": "ordered_lexicographic",
+      "name": "lexicographic::has_region_size_above_median__THEN__touches_border",
+      "predicates": [
+        "has_region_size_above_median",
+        "touches_border"
+      ]
+    },
+    {
+      "kind": "ordered_lexicographic",
+      "name": "lexicographic::has_region_size_below_median__THEN__does_not_touch_border",
+      "predicates": [
+        "has_region_size_below_median",
+        "does_not_touch_border"
+      ]
+    },
+    {
+      "kind": "ordered_lexicographic",
+      "name": "lexicographic::has_region_size_below_median__THEN__has_barrier_density_above_median",
+      "predicates": [
+        "has_region_size_below_median",
+        "has_barrier_density_above_median"
+      ]
+    },
+    {
+      "kind": "ordered_lexicographic",
+      "name": "lexicographic::has_region_size_below_median__THEN__has_region_size_above_median",
+      "predicates": [
+        "has_region_size_below_median",
+        "has_region_size_above_median"
+      ]
+    },
+    {
+      "kind": "ordered_lexicographic",
+      "name": "lexicographic::has_region_size_below_median__THEN__has_seed_distance_above_median",
+      "predicates": [
+        "has_region_size_below_median",
+        "has_seed_distance_above_median"
+      ]
+    },
+    {
+      "kind": "ordered_lexicographic",
+      "name": "lexicographic::has_region_size_below_median__THEN__is_largest_component",
+      "predicates": [
+        "has_region_size_below_median",
+        "is_largest_component"
+      ]
+    },
+    {
+      "kind": "ordered_lexicographic",
+      "name": "lexicographic::has_region_size_below_median__THEN__is_marker_adjacent",
+      "predicates": [
+        "has_region_size_below_median",
+        "is_marker_adjacent"
+      ]
+    },
+    {
+      "kind": "ordered_lexicographic",
+      "name": "lexicographic::has_region_size_below_median__THEN__is_not_marker_adjacent",
+      "predicates": [
+        "has_region_size_below_median",
+        "is_not_marker_adjacent"
+      ]
+    },
+    {
+      "kind": "ordered_lexicographic",
+      "name": "lexicographic::has_region_size_below_median__THEN__is_smallest_component",
+      "predicates": [
+        "has_region_size_below_median",
+        "is_smallest_component"
+      ]
+    },
+    {
+      "kind": "ordered_lexicographic",
+      "name": "lexicographic::has_region_size_below_median__THEN__touches_border",
+      "predicates": [
+        "has_region_size_below_median",
+        "touches_border"
+      ]
+    },
+    {
+      "kind": "ordered_lexicographic",
+      "name": "lexicographic::has_seed_distance_above_median__THEN__does_not_touch_border",
+      "predicates": [
+        "has_seed_distance_above_median",
+        "does_not_touch_border"
+      ]
+    },
+    {
+      "kind": "ordered_lexicographic",
+      "name": "lexicographic::has_seed_distance_above_median__THEN__has_barrier_density_above_median",
+      "predicates": [
+        "has_seed_distance_above_median",
+        "has_barrier_density_above_median"
+      ]
+    },
+    {
+      "kind": "ordered_lexicographic",
+      "name": "lexicographic::has_seed_distance_above_median__THEN__has_region_size_above_median",
+      "predicates": [
+        "has_seed_distance_above_median",
+        "has_region_size_above_median"
+      ]
+    },
+    {
+      "kind": "ordered_lexicographic",
+      "name": "lexicographic::has_seed_distance_above_median__THEN__has_region_size_below_median",
+      "predicates": [
+        "has_seed_distance_above_median",
+        "has_region_size_below_median"
+      ]
+    },
+    {
+      "kind": "ordered_lexicographic",
+      "name": "lexicographic::has_seed_distance_above_median__THEN__is_largest_component",
+      "predicates": [
+        "has_seed_distance_above_median",
+        "is_largest_component"
+      ]
+    },
+    {
+      "kind": "ordered_lexicographic",
+      "name": "lexicographic::has_seed_distance_above_median__THEN__is_marker_adjacent",
+      "predicates": [
+        "has_seed_distance_above_median",
+        "is_marker_adjacent"
+      ]
+    },
+    {
+      "kind": "ordered_lexicographic",
+      "name": "lexicographic::has_seed_distance_above_median__THEN__is_not_marker_adjacent",
+      "predicates": [
+        "has_seed_distance_above_median",
+        "is_not_marker_adjacent"
+      ]
+    },
+    {
+      "kind": "ordered_lexicographic",
+      "name": "lexicographic::has_seed_distance_above_median__THEN__is_smallest_component",
+      "predicates": [
+        "has_seed_distance_above_median",
+        "is_smallest_component"
+      ]
+    },
+    {
+      "kind": "ordered_lexicographic",
+      "name": "lexicographic::has_seed_distance_above_median__THEN__touches_border",
+      "predicates": [
+        "has_seed_distance_above_median",
+        "touches_border"
+      ]
+    },
+    {
+      "kind": "ordered_lexicographic",
+      "name": "lexicographic::is_largest_component__THEN__does_not_touch_border",
+      "predicates": [
+        "is_largest_component",
+        "does_not_touch_border"
+      ]
+    },
+    {
+      "kind": "ordered_lexicographic",
+      "name": "lexicographic::is_largest_component__THEN__has_barrier_density_above_median",
+      "predicates": [
+        "is_largest_component",
+        "has_barrier_density_above_median"
+      ]
+    },
+    {
+      "kind": "ordered_lexicographic",
+      "name": "lexicographic::is_largest_component__THEN__has_region_size_above_median",
+      "predicates": [
+        "is_largest_component",
+        "has_region_size_above_median"
+      ]
+    },
+    {
+      "kind": "ordered_lexicographic",
+      "name": "lexicographic::is_largest_component__THEN__has_region_size_below_median",
+      "predicates": [
+        "is_largest_component",
+        "has_region_size_below_median"
+      ]
+    },
+    {
+      "kind": "ordered_lexicographic",
+      "name": "lexicographic::is_largest_component__THEN__has_seed_distance_above_median",
+      "predicates": [
+        "is_largest_component",
+        "has_seed_distance_above_median"
+      ]
+    },
+    {
+      "kind": "ordered_lexicographic",
+      "name": "lexicographic::is_largest_component__THEN__is_marker_adjacent",
+      "predicates": [
+        "is_largest_component",
+        "is_marker_adjacent"
+      ]
+    },
+    {
+      "kind": "ordered_lexicographic",
+      "name": "lexicographic::is_largest_component__THEN__is_not_marker_adjacent",
+      "predicates": [
+        "is_largest_component",
+        "is_not_marker_adjacent"
+      ]
+    },
+    {
+      "kind": "ordered_lexicographic",
+      "name": "lexicographic::is_largest_component__THEN__is_smallest_component",
+      "predicates": [
+        "is_largest_component",
+        "is_smallest_component"
+      ]
+    },
+    {
+      "kind": "ordered_lexicographic",
+      "name": "lexicographic::is_largest_component__THEN__touches_border",
+      "predicates": [
+        "is_largest_component",
+        "touches_border"
+      ]
+    },
+    {
+      "kind": "ordered_lexicographic",
+      "name": "lexicographic::is_marker_adjacent__THEN__does_not_touch_border",
+      "predicates": [
+        "is_marker_adjacent",
+        "does_not_touch_border"
+      ]
+    },
+    {
+      "kind": "ordered_lexicographic",
+      "name": "lexicographic::is_marker_adjacent__THEN__has_barrier_density_above_median",
+      "predicates": [
+        "is_marker_adjacent",
+        "has_barrier_density_above_median"
+      ]
+    },
+    {
+      "kind": "ordered_lexicographic",
+      "name": "lexicographic::is_marker_adjacent__THEN__has_region_size_above_median",
+      "predicates": [
+        "is_marker_adjacent",
+        "has_region_size_above_median"
+      ]
+    },
+    {
+      "kind": "ordered_lexicographic",
+      "name": "lexicographic::is_marker_adjacent__THEN__has_region_size_below_median",
+      "predicates": [
+        "is_marker_adjacent",
+        "has_region_size_below_median"
+      ]
+    },
+    {
+      "kind": "ordered_lexicographic",
+      "name": "lexicographic::is_marker_adjacent__THEN__has_seed_distance_above_median",
+      "predicates": [
+        "is_marker_adjacent",
+        "has_seed_distance_above_median"
+      ]
+    },
+    {
+      "kind": "ordered_lexicographic",
+      "name": "lexicographic::is_marker_adjacent__THEN__is_largest_component",
+      "predicates": [
+        "is_marker_adjacent",
+        "is_largest_component"
+      ]
+    },
+    {
+      "kind": "ordered_lexicographic",
+      "name": "lexicographic::is_marker_adjacent__THEN__is_not_marker_adjacent",
+      "predicates": [
+        "is_marker_adjacent",
+        "is_not_marker_adjacent"
+      ]
+    },
+    {
+      "kind": "ordered_lexicographic",
+      "name": "lexicographic::is_marker_adjacent__THEN__is_smallest_component",
+      "predicates": [
+        "is_marker_adjacent",
+        "is_smallest_component"
+      ]
+    },
+    {
+      "kind": "ordered_lexicographic",
+      "name": "lexicographic::is_marker_adjacent__THEN__touches_border",
+      "predicates": [
+        "is_marker_adjacent",
+        "touches_border"
+      ]
+    },
+    {
+      "kind": "ordered_lexicographic",
+      "name": "lexicographic::is_not_marker_adjacent__THEN__does_not_touch_border",
+      "predicates": [
+        "is_not_marker_adjacent",
+        "does_not_touch_border"
+      ]
+    },
+    {
+      "kind": "ordered_lexicographic",
+      "name": "lexicographic::is_not_marker_adjacent__THEN__has_barrier_density_above_median",
+      "predicates": [
+        "is_not_marker_adjacent",
+        "has_barrier_density_above_median"
+      ]
+    },
+    {
+      "kind": "ordered_lexicographic",
+      "name": "lexicographic::is_not_marker_adjacent__THEN__has_region_size_above_median",
+      "predicates": [
+        "is_not_marker_adjacent",
+        "has_region_size_above_median"
+      ]
+    },
+    {
+      "kind": "ordered_lexicographic",
+      "name": "lexicographic::is_not_marker_adjacent__THEN__has_region_size_below_median",
+      "predicates": [
+        "is_not_marker_adjacent",
+        "has_region_size_below_median"
+      ]
+    },
+    {
+      "kind": "ordered_lexicographic",
+      "name": "lexicographic::is_not_marker_adjacent__THEN__has_seed_distance_above_median",
+      "predicates": [
+        "is_not_marker_adjacent",
+        "has_seed_distance_above_median"
+      ]
+    },
+    {
+      "kind": "ordered_lexicographic",
+      "name": "lexicographic::is_not_marker_adjacent__THEN__is_largest_component",
+      "predicates": [
+        "is_not_marker_adjacent",
+        "is_largest_component"
+      ]
+    },
+    {
+      "kind": "ordered_lexicographic",
+      "name": "lexicographic::is_not_marker_adjacent__THEN__is_marker_adjacent",
+      "predicates": [
+        "is_not_marker_adjacent",
+        "is_marker_adjacent"
+      ]
+    },
+    {
+      "kind": "ordered_lexicographic",
+      "name": "lexicographic::is_not_marker_adjacent__THEN__is_smallest_component",
+      "predicates": [
+        "is_not_marker_adjacent",
+        "is_smallest_component"
+      ]
+    },
+    {
+      "kind": "ordered_lexicographic",
+      "name": "lexicographic::is_not_marker_adjacent__THEN__touches_border",
+      "predicates": [
+        "is_not_marker_adjacent",
+        "touches_border"
+      ]
+    },
+    {
+      "kind": "ordered_lexicographic",
+      "name": "lexicographic::is_smallest_component__THEN__does_not_touch_border",
+      "predicates": [
+        "is_smallest_component",
+        "does_not_touch_border"
+      ]
+    },
+    {
+      "kind": "ordered_lexicographic",
+      "name": "lexicographic::is_smallest_component__THEN__has_barrier_density_above_median",
+      "predicates": [
+        "is_smallest_component",
+        "has_barrier_density_above_median"
+      ]
+    },
+    {
+      "kind": "ordered_lexicographic",
+      "name": "lexicographic::is_smallest_component__THEN__has_region_size_above_median",
+      "predicates": [
+        "is_smallest_component",
+        "has_region_size_above_median"
+      ]
+    },
+    {
+      "kind": "ordered_lexicographic",
+      "name": "lexicographic::is_smallest_component__THEN__has_region_size_below_median",
+      "predicates": [
+        "is_smallest_component",
+        "has_region_size_below_median"
+      ]
+    },
+    {
+      "kind": "ordered_lexicographic",
+      "name": "lexicographic::is_smallest_component__THEN__has_seed_distance_above_median",
+      "predicates": [
+        "is_smallest_component",
+        "has_seed_distance_above_median"
+      ]
+    },
+    {
+      "kind": "ordered_lexicographic",
+      "name": "lexicographic::is_smallest_component__THEN__is_largest_component",
+      "predicates": [
+        "is_smallest_component",
+        "is_largest_component"
+      ]
+    },
+    {
+      "kind": "ordered_lexicographic",
+      "name": "lexicographic::is_smallest_component__THEN__is_marker_adjacent",
+      "predicates": [
+        "is_smallest_component",
+        "is_marker_adjacent"
+      ]
+    },
+    {
+      "kind": "ordered_lexicographic",
+      "name": "lexicographic::is_smallest_component__THEN__is_not_marker_adjacent",
+      "predicates": [
+        "is_smallest_component",
+        "is_not_marker_adjacent"
+      ]
+    },
+    {
+      "kind": "ordered_lexicographic",
+      "name": "lexicographic::is_smallest_component__THEN__touches_border",
+      "predicates": [
+        "is_smallest_component",
+        "touches_border"
+      ]
+    },
+    {
+      "kind": "ordered_lexicographic",
+      "name": "lexicographic::touches_border__THEN__does_not_touch_border",
+      "predicates": [
+        "touches_border",
+        "does_not_touch_border"
+      ]
+    },
+    {
+      "kind": "ordered_lexicographic",
+      "name": "lexicographic::touches_border__THEN__has_barrier_density_above_median",
+      "predicates": [
+        "touches_border",
+        "has_barrier_density_above_median"
+      ]
+    },
+    {
+      "kind": "ordered_lexicographic",
+      "name": "lexicographic::touches_border__THEN__has_region_size_above_median",
+      "predicates": [
+        "touches_border",
+        "has_region_size_above_median"
+      ]
+    },
+    {
+      "kind": "ordered_lexicographic",
+      "name": "lexicographic::touches_border__THEN__has_region_size_below_median",
+      "predicates": [
+        "touches_border",
+        "has_region_size_below_median"
+      ]
+    },
+    {
+      "kind": "ordered_lexicographic",
+      "name": "lexicographic::touches_border__THEN__has_seed_distance_above_median",
+      "predicates": [
+        "touches_border",
+        "has_seed_distance_above_median"
+      ]
+    },
+    {
+      "kind": "ordered_lexicographic",
+      "name": "lexicographic::touches_border__THEN__is_largest_component",
+      "predicates": [
+        "touches_border",
+        "is_largest_component"
+      ]
+    },
+    {
+      "kind": "ordered_lexicographic",
+      "name": "lexicographic::touches_border__THEN__is_marker_adjacent",
+      "predicates": [
+        "touches_border",
+        "is_marker_adjacent"
+      ]
+    },
+    {
+      "kind": "ordered_lexicographic",
+      "name": "lexicographic::touches_border__THEN__is_not_marker_adjacent",
+      "predicates": [
+        "touches_border",
+        "is_not_marker_adjacent"
+      ]
+    },
+    {
+      "kind": "ordered_lexicographic",
+      "name": "lexicographic::touches_border__THEN__is_smallest_component",
+      "predicates": [
+        "touches_border",
+        "is_smallest_component"
+      ]
+    },
+    {
+      "kind": "single",
+      "name": "one_step_only",
+      "predicates": []
+    },
+    {
+      "kind": "single",
+      "name": "paint_all_passable",
+      "predicates": []
+    },
+    {
+      "kind": "single",
+      "name": "wrong_adjacency_8_connected",
+      "predicates": []
+    }
+  ],
+  "shortcut_catalog_sha256": "3bf2a8d64a6b1b0ab989750c2023d84b792b65cd6986888c1934d4af346abf2a",
+  "single_rule_count": 11,
+  "total_rule_count": 146
+}

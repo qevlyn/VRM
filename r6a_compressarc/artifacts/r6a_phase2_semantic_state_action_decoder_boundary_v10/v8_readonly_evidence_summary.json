@@ -1,0 +1,20 @@
+{
+  "created_utc": "2026-07-04T05:04:08Z",
+  "v8_file_count_hashed": 36,
+  "v8_first_divergence_per_case": {
+    "1f876c06_adjacent_0_1": "FIRST_DIVERGENCE_AFFINE",
+    "1f876c06_adjacent_1_2": "FIRST_DIVERGENCE_AFFINE",
+    "604001fa_adjacent_0_1": "FIRST_DIVERGENCE_AFFINE",
+    "604001fa_adjacent_1_2": "FIRST_DIVERGENCE_NORMALIZE",
+    "604001fa_adjacent_2_3": "FIRST_DIVERGENCE_AFFINE",
+    "synthetic_uniform_shape_oracle_adjacent_0_1": "FIRST_DIVERGENCE_AFFINE",
+    "synthetic_uniform_shape_oracle_adjacent_1_2": "FIRST_DIVERGENCE_AFFINE"
+  },
+  "v8_read_only": true,
+  "v8_report_path": "/mnt/d/VRM/r6a_compressarc/reports/r6a_phase2_support_permutation_first_divergence_v8/R6A_PHASE2_SUPPORT_PERMUTATION_FIRST_DIVERGENCE_CERTIFICATE_V8_REPORT.md",
+  "v8_report_sha256": "674472e636ed889c43a415f6fd2741e2c064fbd1ec73a64fc4df61a1868c0fd4",
+  "v8_state_action_counts": {
+    "fail": 0,
+    "pass": 7
+  }
+}

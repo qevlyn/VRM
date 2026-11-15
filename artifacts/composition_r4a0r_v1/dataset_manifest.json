@@ -1,0 +1,36 @@
+{
+  "benchmark": "composition_r4a0r_v1",
+  "blocked_before_dataset_generation": true,
+  "blocker": "query_type_split_infeasible",
+  "dataset_generated": false,
+  "query_type_feasibility": {
+    "available_query_type_count": 128,
+    "declared_query_type": [
+      "primary_shape",
+      "primary_color",
+      "anchor_region",
+      "distractor_count"
+    ],
+    "factor_cardinalities": {
+      "anchor_region": 4,
+      "distractor_count": 2,
+      "primary_color": 4,
+      "primary_shape": 4
+    },
+    "feasible": false,
+    "reason": "The declared query_type factors produce 4*4*4*2 = 128 combinations, but the requested disjoint split requires 96+24+24 = 144 combinations.",
+    "required_disjoint_query_type_count": 144,
+    "required_query_type_counts": {
+      "dev": 24,
+      "sealed": 24,
+      "train": 96
+    }
+  },
+  "requested_split_episode_counts": {
+    "dev": 8640,
+    "sealed": 12960,
+    "train": 34560
+  },
+  "scene_collision_rejection_not_run": true,
+  "sequence_balance_not_generated": true
+}

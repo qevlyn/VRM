@@ -1,0 +1,14 @@
+{
+  "interpretation": {
+    "constraint_delta": "RELATION_HARD_CONSTRAINT minus RELATION_NO_PRUNE",
+    "relation_delta": "RELATION_NO_PRUNE minus OBJECT_ONLY",
+    "smart_prune_delta": "RELATION_HARD_CONSTRAINT minus MATCHED_RANDOM_PRUNE mean across salts"
+  },
+  "narrowest_justified_next_action": "B",
+  "pilot_version": "R5A3B_P0_RELATION_OBJECT_GRAPH_CONSTRAINT_CAUSAL_PILOT",
+  "primary_deltas": {
+    "constraint_delta_recall_at_128": 0.0,
+    "relation_delta_recall_at_128": 0.0,
+    "smart_prune_delta_vs_random_mean_recall_at_128": 0.006666666666666666
+  }
+}

@@ -1,0 +1,146 @@
+{
+  "cases": [
+    {
+      "E_hash": {
+        "event_key": "channel_layer[occurrence=1,dims=[1, 1, 0, 0, 0],direction=None]::tensor=channel_layer/0",
+        "point_ordinal": 3,
+        "primitive_function": "channel_layer",
+        "tensor_name": "channel_layer/0"
+      },
+      "E_threshold": null,
+      "case_id": "1f876c06_adjacent_0_1",
+      "schedule": {
+        "event_count": 89,
+        "label": "TRACE_SCHEDULE_MATCH",
+        "pass": true
+      }
+    },
+    {
+      "E_hash": {
+        "event_key": "channel_layer[occurrence=1,dims=[1, 1, 0, 0, 0],direction=None]::tensor=channel_layer/0",
+        "point_ordinal": 3,
+        "primitive_function": "channel_layer",
+        "tensor_name": "channel_layer/0"
+      },
+      "E_threshold": null,
+      "case_id": "1f876c06_adjacent_1_2",
+      "schedule": {
+        "event_count": 89,
+        "label": "TRACE_SCHEDULE_MATCH",
+        "pass": true
+      }
+    },
+    {
+      "E_hash": {
+        "event_key": "channel_layer[occurrence=1,dims=[1, 1, 0, 0, 0],direction=None]::tensor=channel_layer/0",
+        "point_ordinal": 3,
+        "primitive_function": "channel_layer",
+        "tensor_name": "channel_layer/0"
+      },
+      "E_threshold": {
+        "comparison": {
+          "max_abs": 3.532818482199218e-11,
+          "max_rel": 5.776741126791885e-10,
+          "over_tolerance_count": 2,
+          "over_tolerance_fraction": 3.2552083333333335e-06,
+          "pass": false
+        },
+        "event_key": "cummax[occurrence=1,dims=None,direction=None]::tensor=cummax[(1, 1, 1, 1, 1)]",
+        "point_ordinal": 395,
+        "primitive_function": "cummax",
+        "tensor_name": "cummax[(1, 1, 1, 1, 1)]"
+      },
+      "case_id": "604001fa_adjacent_0_1",
+      "schedule": {
+        "event_count": 89,
+        "label": "TRACE_SCHEDULE_MATCH",
+        "pass": true
+      }
+    },
+    {
+      "E_hash": {
+        "event_key": "channel_layer[occurrence=1,dims=[1, 1, 0, 0, 0],direction=None]::tensor=channel_layer/0",
+        "point_ordinal": 3,
+        "primitive_function": "channel_layer",
+        "tensor_name": "channel_layer/0"
+      },
+      "E_threshold": {
+        "comparison": {
+          "max_abs": 1.4130918657428992e-10,
+          "max_rel": 2.0562976072115273e-09,
+          "over_tolerance_count": 7,
+          "over_tolerance_fraction": 1.1393229166666667e-05,
+          "pass": false
+        },
+        "event_key": "cummax[occurrence=1,dims=None,direction=None]::tensor=cummax[(1, 1, 1, 1, 1)]",
+        "point_ordinal": 395,
+        "primitive_function": "cummax",
+        "tensor_name": "cummax[(1, 1, 1, 1, 1)]"
+      },
+      "case_id": "604001fa_adjacent_1_2",
+      "schedule": {
+        "event_count": 89,
+        "label": "TRACE_SCHEDULE_MATCH",
+        "pass": true
+      }
+    },
+    {
+      "E_hash": {
+        "event_key": "channel_layer[occurrence=1,dims=[1, 1, 0, 0, 0],direction=None]::tensor=channel_layer/0",
+        "point_ordinal": 3,
+        "primitive_function": "channel_layer",
+        "tensor_name": "channel_layer/0"
+      },
+      "E_threshold": {
+        "comparison": {
+          "max_abs": 7.065326101951541e-11,
+          "max_rel": 9.643100036700527e-10,
+          "over_tolerance_count": 5,
+          "over_tolerance_fraction": 8.138020833333333e-06,
+          "pass": false
+        },
+        "event_key": "cummax[occurrence=1,dims=None,direction=None]::tensor=cummax[(1, 1, 1, 1, 1)]",
+        "point_ordinal": 395,
+        "primitive_function": "cummax",
+        "tensor_name": "cummax[(1, 1, 1, 1, 1)]"
+      },
+      "case_id": "604001fa_adjacent_2_3",
+      "schedule": {
+        "event_count": 89,
+        "label": "TRACE_SCHEDULE_MATCH",
+        "pass": true
+      }
+    },
+    {
+      "E_hash": {
+        "event_key": "channel_layer[occurrence=1,dims=[1, 1, 0, 0, 0],direction=None]::tensor=channel_layer/0",
+        "point_ordinal": 3,
+        "primitive_function": "channel_layer",
+        "tensor_name": "channel_layer/0"
+      },
+      "E_threshold": null,
+      "case_id": "synthetic_uniform_shape_oracle_adjacent_0_1",
+      "schedule": {
+        "event_count": 89,
+        "label": "TRACE_SCHEDULE_MATCH",
+        "pass": true
+      }
+    },
+    {
+      "E_hash": {
+        "event_key": "channel_layer[occurrence=1,dims=[1, 1, 0, 0, 0],direction=None]::tensor=channel_layer/0",
+        "point_ordinal": 3,
+        "primitive_function": "channel_layer",
+        "tensor_name": "channel_layer/0"
+      },
+      "E_threshold": null,
+      "case_id": "synthetic_uniform_shape_oracle_adjacent_1_2",
+      "schedule": {
+        "event_count": 89,
+        "label": "TRACE_SCHEDULE_MATCH",
+        "pass": true
+      }
+    }
+  ],
+  "created_utc": "2026-07-04T06:36:26Z"
+}

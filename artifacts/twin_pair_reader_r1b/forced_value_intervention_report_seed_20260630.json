@@ -1,0 +1,9 @@
+{
+  "condition": "FORCED_VALUE_INTERVENTION",
+  "confident_episode_count": 2000,
+  "episode_count": 2000,
+  "forced_value_alpha_unchanged_rate": 1.0,
+  "forced_value_exact_match_rate": 1.0,
+  "forced_value_output_follows_value_rate": 1.0,
+  "split": "sealed"
+}

@@ -1,0 +1,15 @@
+command: PYTHONPATH=/mnt/d/tmp/vrm_runtime_stubs:/mnt/d/VRM python3 -m pytest -q tests/test_r5a3b_relation_constraint_pilot.py
+/usr/bin/python3: No module named pytest
+pytest_exit_code=1
+
+fallback_direct_test_harness: PYTHONPATH=/mnt/d/tmp/vrm_runtime_stubs:/mnt/d/VRM python3 /mnt/d/tmp/run_r5a3b_direct_tests.py
+PASS test_condition_ledgers_share_raw_universe_and_respect_budget
+PASS test_hard_constraints_require_universal_unambiguous_contrastive_support
+PASS test_object_graph_represents_nearest_ties_without_silent_choice
+PASS test_parse_hypotheses_include_connectivity_and_background_variants
+PASS test_pre_hidden_commitment_records_forbidden_hidden_use_false
+PASS test_preflight_and_property_reports_pass
+PASS test_protected_prior_hash_scan_is_read_only_and_new_source_paths_are_additive
+PASS test_selection_uses_input_hash_not_task_id_for_manifest_tie_breaks
+8 direct test functions passed
+direct_harness_exit_code=0

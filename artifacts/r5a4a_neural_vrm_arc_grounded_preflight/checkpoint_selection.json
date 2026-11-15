@@ -1,0 +1,69 @@
+{
+  "checkpoint_candidates": [
+    {
+      "checkpoint_path": "/mnt/d/VRM/artifacts/r5a4a_neural_vrm_arc_grounded_preflight/checkpoint_step_01000.pt",
+      "step": 1000,
+      "validation_mean_total_loss": 2.3668811375647785
+    },
+    {
+      "checkpoint_path": "/mnt/d/VRM/artifacts/r5a4a_neural_vrm_arc_grounded_preflight/checkpoint_step_02000.pt",
+      "step": 2000,
+      "validation_mean_total_loss": 1.9591433466598391
+    },
+    {
+      "checkpoint_path": "/mnt/d/VRM/artifacts/r5a4a_neural_vrm_arc_grounded_preflight/checkpoint_step_03000.pt",
+      "step": 3000,
+      "validation_mean_total_loss": 1.7456335935369134
+    },
+    {
+      "checkpoint_path": "/mnt/d/VRM/artifacts/r5a4a_neural_vrm_arc_grounded_preflight/checkpoint_step_04000.pt",
+      "step": 4000,
+      "validation_mean_total_loss": 1.6114913691207766
+    },
+    {
+      "checkpoint_path": "/mnt/d/VRM/artifacts/r5a4a_neural_vrm_arc_grounded_preflight/checkpoint_step_05000.pt",
+      "step": 5000,
+      "validation_mean_total_loss": 1.5548972788080573
+    },
+    {
+      "checkpoint_path": "/mnt/d/VRM/artifacts/r5a4a_neural_vrm_arc_grounded_preflight/checkpoint_step_06000.pt",
+      "step": 6000,
+      "validation_mean_total_loss": 1.540469908900559
+    },
+    {
+      "checkpoint_path": "/mnt/d/VRM/artifacts/r5a4a_neural_vrm_arc_grounded_preflight/checkpoint_step_07000.pt",
+      "step": 7000,
+      "validation_mean_total_loss": 1.4355461629852653
+    },
+    {
+      "checkpoint_path": "/mnt/d/VRM/artifacts/r5a4a_neural_vrm_arc_grounded_preflight/checkpoint_step_08000.pt",
+      "step": 8000,
+      "validation_mean_total_loss": 1.3945656373724342
+    },
+    {
+      "checkpoint_path": "/mnt/d/VRM/artifacts/r5a4a_neural_vrm_arc_grounded_preflight/checkpoint_step_09000.pt",
+      "step": 9000,
+      "validation_mean_total_loss": 1.4130411905422806
+    },
+    {
+      "checkpoint_path": "/mnt/d/VRM/artifacts/r5a4a_neural_vrm_arc_grounded_preflight/checkpoint_step_10000.pt",
+      "step": 10000,
+      "validation_mean_total_loss": 1.3931346232444048
+    },
+    {
+      "checkpoint_path": "/mnt/d/VRM/artifacts/r5a4a_neural_vrm_arc_grounded_preflight/checkpoint_step_11000.pt",
+      "step": 11000,
+      "validation_mean_total_loss": 1.3871317425742746
+    },
+    {
+      "checkpoint_path": "/mnt/d/VRM/artifacts/r5a4a_neural_vrm_arc_grounded_preflight/checkpoint_step_12000.pt",
+      "step": 12000,
+      "validation_mean_total_loss": 1.3756557025387883
+    }
+  ],
+  "selected_by_validation_only": true,
+  "selected_checkpoint_path": "/mnt/d/VRM/artifacts/r5a4a_neural_vrm_arc_grounded_preflight/selected_trained_state.pt",
+  "selected_checkpoint_step": 12000,
+  "selection_rule": "minimum validation mean_total_loss",
+  "sentinel_metrics_available_at_selection_time": false
+}

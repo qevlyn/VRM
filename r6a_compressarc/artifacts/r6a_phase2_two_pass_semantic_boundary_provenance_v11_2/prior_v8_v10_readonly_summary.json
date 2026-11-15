@@ -1,0 +1,97 @@
+{
+  "created_utc": "2026-07-04T06:28:45Z",
+  "read_only": true,
+  "v10_A0_certificate_path": "/mnt/d/VRM/r6a_compressarc/artifacts/r6a_phase2_semantic_state_action_decoder_boundary_v10/instrumentation_reuse_certificate.json",
+  "v10_affine_certificate_path": "/mnt/d/VRM/r6a_compressarc/artifacts/r6a_phase2_semantic_state_action_decoder_boundary_v10/affine_commutation_certificate.json",
+  "v10_collision_witness_path": "/mnt/d/VRM/r6a_compressarc/artifacts/r6a_phase2_semantic_state_action_decoder_boundary_v10/parameter_collision_witnesses.json",
+  "v10_decoder_boundary_trace_path": "/mnt/d/VRM/r6a_compressarc/artifacts/r6a_phase2_semantic_state_action_decoder_boundary_v10/decoder_boundary_trace.json",
+  "v10_file_count_hashed": 31,
+  "v10_final_outcome": {
+    "outcome": "Outcome D",
+    "statement": "A deterministic mismatch remains after semantic parameter-action repair at the reported source boundary. It is not yet evidence that a shortcut carrier, architectural route, or reasoning mechanism has been identified."
+  },
+  "v10_report_path": "/mnt/d/VRM/r6a_compressarc/reports/r6a_phase2_semantic_state_action_decoder_boundary_v10/R6A_PHASE2_SEMANTIC_STATE_ACTION_DECODER_BOUNDARY_V10_REPORT.md",
+  "v10_semantic_action_table_path": "/mnt/d/VRM/r6a_compressarc/artifacts/r6a_phase2_semantic_state_action_decoder_boundary_v10/semantic_action_table.csv",
+  "v10_summary": {
+    "a0_reuse_pass_fail": [
+      3,
+      0
+    ],
+    "affine_certificate_pass_fail": [
+      7,
+      0
+    ],
+    "collision_witness_pass_fail": [
+      1024,
+      0
+    ],
+    "cpu_only_no_gpu": true,
+    "decoder_boundary_result_per_case": {
+      "1f876c06_adjacent_0_1": "FORWARD_ROLE_PRESERVING_SUPPORT_PERMUTATION_CERTIFIED",
+      "1f876c06_adjacent_1_2": "FORWARD_ROLE_PRESERVING_SUPPORT_PERMUTATION_CERTIFIED",
+      "604001fa_adjacent_0_1": "FIRST_DIVERGENCE_CUMMAX",
+      "604001fa_adjacent_1_2": "FIRST_DIVERGENCE_CUMMAX",
+      "604001fa_adjacent_2_3": "FIRST_DIVERGENCE_CUMMAX",
+      "synthetic_uniform_shape_oracle_adjacent_0_1": "FORWARD_ROLE_PRESERVING_SUPPORT_PERMUTATION_CERTIFIED",
+      "synthetic_uniform_shape_oracle_adjacent_1_2": "FORWARD_ROLE_PRESERVING_SUPPORT_PERMUTATION_CERTIFIED"
+    },
+    "final_report_path": "/mnt/d/VRM/r6a_compressarc/reports/r6a_phase2_semantic_state_action_decoder_boundary_v10/R6A_PHASE2_SEMANTIC_STATE_ACTION_DECODER_BOUNDARY_V10_REPORT.md",
+    "import_provenance_status": "IMPORT_PROVENANCE_CERTIFIED",
+    "protected_file_integrity_before_after": [
+      true,
+      true
+    ],
+    "semantic_state_action_pass_fail": [
+      7,
+      0
+    ],
+    "status": "R6A_PHASE2_SEMANTIC_STATE_ACTION_DECODER_BOUNDARY_V10_COMPLETE",
+    "task_action_pass_fail": [
+      7,
+      0
+    ],
+    "v8_action_behavior_status": "V8_NONPOSTERIOR_PERMUTATION_OBSERVED",
+    "write_ledger_count": 28
+  },
+  "v10_test_result_path": "/mnt/d/VRM/r6a_compressarc/artifacts/r6a_phase2_semantic_state_action_decoder_boundary_v10/r6a_phase2_semantic_state_action_decoder_boundary_v10_pytest.txt",
+  "v8_file_count_hashed": 36,
+  "v8_report_path": "/mnt/d/VRM/r6a_compressarc/reports/r6a_phase2_support_permutation_first_divergence_v8/R6A_PHASE2_SUPPORT_PERMUTATION_FIRST_DIVERGENCE_CERTIFICATE_V8_REPORT.md",
+  "v8_summary": {
+    "a0_counts": {
+      "fail": 0,
+      "pass": 7
+    },
+    "cpu_only_no_gpu": true,
+    "final_report_path": "/mnt/d/VRM/r6a_compressarc/reports/r6a_phase2_support_permutation_first_divergence_v8/R6A_PHASE2_SUPPORT_PERMUTATION_FIRST_DIVERGENCE_CERTIFICATE_V8_REPORT.md",
+    "first_divergence_per_case": {
+      "1f876c06_adjacent_0_1": "FIRST_DIVERGENCE_AFFINE",
+      "1f876c06_adjacent_1_2": "FIRST_DIVERGENCE_AFFINE",
+      "604001fa_adjacent_0_1": "FIRST_DIVERGENCE_AFFINE",
+      "604001fa_adjacent_1_2": "FIRST_DIVERGENCE_NORMALIZE",
+      "604001fa_adjacent_2_3": "FIRST_DIVERGENCE_AFFINE",
+      "synthetic_uniform_shape_oracle_adjacent_0_1": "FIRST_DIVERGENCE_AFFINE",
+      "synthetic_uniform_shape_oracle_adjacent_1_2": "FIRST_DIVERGENCE_AFFINE"
+    },
+    "import_provenance_status": "IMPORT_PROVENANCE_CERTIFIED",
+    "loss_backward_adam_reached": false,
+    "protected_file_integrity_before_after": [
+      true,
+      true
+    ],
+    "real_task_permutation_cases_tested": 5,
+    "state_action_counts": {
+      "fail": 0,
+      "pass": 7
+    },
+    "status": "R6A_PHASE2_SUPPORT_PERMUTATION_FIRST_DIVERGENCE_V8_COMPLETE",
+    "synthetic_oracle_result": {
+      "synthetic_uniform_shape_oracle_adjacent_0_1": "FIRST_DIVERGENCE_AFFINE",
+      "synthetic_uniform_shape_oracle_adjacent_1_2": "FIRST_DIVERGENCE_AFFINE"
+    },
+    "task_action_counts": {
+      "fail": 0,
+      "pass": 7
+    },
+    "write_ledger_count": 33
+  }
+}

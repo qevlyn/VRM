@@ -1,0 +1,34 @@
+{
+  "allowed_inputs_for_selection": [
+    "train input grids",
+    "test input grids",
+    "train input grid shapes",
+    "test input grid shapes",
+    "train support-pair count",
+    "split name"
+  ],
+  "forbidden_inputs_for_selection": [
+    "train output grids",
+    "held-out fold output grids",
+    "ARC test outputs",
+    "task id as tie-break or runtime input"
+  ],
+  "grid_size_bins": {
+    "large": "max input area > 400",
+    "medium": "100 < max input area <= 400",
+    "small": "max input area <= 100"
+  },
+  "object_classifier": {
+    "background": "modal color from raw input grid",
+    "connectivity": 4,
+    "object_count": "non-background same-color connected component count",
+    "task_slice_rule": "one_object if every train input has at most one object; otherwise multi_object"
+  },
+  "pilot_version": "R5A3B_P0_RELATION_OBJECT_GRAPH_CONSTRAINT_CAUSAL_PILOT",
+  "requested_multi_object_count": 18,
+  "requested_one_object_count": 6,
+  "requested_task_count": 24,
+  "selection_phase": "before_fold_hidden_outputs_are_used_for_metrics",
+  "selection_spec_sha256": "6e9c32442fdec86fdc7140afbe87af07e1273e2305ef7c02161e7c50374e95fd",
+  "tie_break": "SHA256 over raw input grids and input shapes only, never task id"
+}

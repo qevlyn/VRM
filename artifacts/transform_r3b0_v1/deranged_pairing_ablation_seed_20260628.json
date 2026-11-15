@@ -1,0 +1,18 @@
+{
+  "deranged_exact_accuracy": 0.0,
+  "episode_count": 18000,
+  "normal_to_deranged_grid_change_rate": 1.0,
+  "normal_to_deranged_pointer_change_rate": 1.0,
+  "per_shift": {
+    "1": {
+      "deranged_exact_accuracy": 0.0,
+      "normal_to_deranged_grid_change_rate": 1.0,
+      "normal_to_deranged_pointer_change_rate": 1.0
+    },
+    "2": {
+      "deranged_exact_accuracy": 0.0,
+      "normal_to_deranged_grid_change_rate": 1.0,
+      "normal_to_deranged_pointer_change_rate": 1.0
+    }
+  }
+}

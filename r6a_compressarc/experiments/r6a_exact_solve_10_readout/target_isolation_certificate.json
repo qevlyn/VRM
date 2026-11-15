@@ -1,0 +1,166 @@
+{
+  "all_fresh_reruns_passed_G1_G5": true,
+  "created_utc": "2026-07-04T14:11:04Z",
+  "experiment": "R6A_EXACT_SOLVE_10_READOUT",
+  "fresh_gate_rows": [
+    {
+      "G1_target_isolation_pass": true,
+      "G2_optimizer_step_count_pass": true,
+      "G3_canonical_decode_pass": true,
+      "G4_protected_scope_pass": true,
+      "G5_manifest_and_seed_preregistered_pass": true,
+      "actual_step_count": 1500,
+      "all_G1_G5_pass": true,
+      "fresh_command": "/home/quyen/.venvs/vrm/bin/python /mnt/d/VRM/r6a_compressarc/scripts/phase1_condition_solver.py --compressarc-root /mnt/d/VRM/third_party/compressarc_reference --challenge-json /mnt/d/VRM/r6a_compressarc/experiments/r6a_exact_solve_10_readout/logs/00576224/20260702/F1/challenge.json --initialization-artifact /mnt/d/VRM/r6a_compressarc/experiments/r6a_exact_solve_10_readout/logs/00576224/20260702/initialization.pt --task-id 00576224 --stratum A --condition F1 --steps 1500 --output-json /mnt/d/VRM/r6a_compressarc/experiments/r6a_exact_solve_10_readout/logs/00576224/20260702/F1/solver.json --probability-npz /mnt/d/VRM/r6a_compressarc/experiments/r6a_exact_solve_10_readout/logs/00576224/20260702/F1/probability.npz --device cuda",
+      "solver_status": "RUN_COMPLETED",
+      "task_id": "00576224"
+    }
+  ],
+  "machine_check_summary": {
+    "fresh_task_count": 1,
+    "protected_scope_unchanged": true,
+    "target_visible_task_ids": []
+  },
+  "target_isolation_rows": [
+    {
+      "challenge_json": "/mnt/d/VRM/r6a_compressarc/artifacts/phase1_runs/A/3ed85e70/20260702/F1/challenge.json",
+      "mode": "RECOVERED_EXISTING_FULL_RUN",
+      "solution_argument_present": false,
+      "solver_firewall": {
+        "challenge_json_only": true,
+        "denied_solution_paths": [],
+        "solution_argument_present": false
+      },
+      "target_grid_serialization_present_anywhere_in_challenge": false,
+      "target_was_solver_visible": false,
+      "task_id": "3ed85e70",
+      "test_outputs_present": false
+    },
+    {
+      "challenge_json": "/mnt/d/VRM/r6a_compressarc/artifacts/phase1_runs/A/929ab4e9/20260702/F1/challenge.json",
+      "mode": "RECOVERED_EXISTING_FULL_RUN",
+      "solution_argument_present": false,
+      "solver_firewall": {
+        "challenge_json_only": true,
+        "denied_solution_paths": [],
+        "solution_argument_present": false
+      },
+      "target_grid_serialization_present_anywhere_in_challenge": false,
+      "target_was_solver_visible": false,
+      "task_id": "929ab4e9",
+      "test_outputs_present": false
+    },
+    {
+      "challenge_json": "/mnt/d/VRM/r6a_compressarc/artifacts/phase1_runs/A/981571dc/20260702/F1/challenge.json",
+      "mode": "RECOVERED_EXISTING_FULL_RUN",
+      "solution_argument_present": false,
+      "solver_firewall": {
+        "challenge_json_only": true,
+        "denied_solution_paths": [],
+        "solution_argument_present": false
+      },
+      "target_grid_serialization_present_anywhere_in_challenge": false,
+      "target_was_solver_visible": false,
+      "task_id": "981571dc",
+      "test_outputs_present": false
+    },
+    {
+      "challenge_json": "/mnt/d/VRM/r6a_compressarc/artifacts/phase1_runs/A/604001fa/20260702/F1/challenge.json",
+      "mode": "RECOVERED_EXISTING_FULL_RUN",
+      "solution_argument_present": false,
+      "solver_firewall": {
+        "challenge_json_only": true,
+        "denied_solution_paths": [],
+        "solution_argument_present": false
+      },
+      "target_grid_serialization_present_anywhere_in_challenge": false,
+      "target_was_solver_visible": false,
+      "task_id": "604001fa",
+      "test_outputs_present": false
+    },
+    {
+      "challenge_json": "/mnt/d/VRM/r6a_compressarc/artifacts/phase1_runs/A/79fb03f4/20260702/F1/challenge.json",
+      "mode": "RECOVERED_EXISTING_FULL_RUN",
+      "solution_argument_present": false,
+      "solver_firewall": {
+        "challenge_json_only": true,
+        "denied_solution_paths": [],
+        "solution_argument_present": false
+      },
+      "target_grid_serialization_present_anywhere_in_challenge": false,
+      "target_was_solver_visible": false,
+      "task_id": "79fb03f4",
+      "test_outputs_present": false
+    },
+    {
+      "challenge_json": "/mnt/d/VRM/r6a_compressarc/artifacts/phase1_runs/A/aa4ec2a5/20260702/F1/challenge.json",
+      "mode": "RECOVERED_EXISTING_FULL_RUN",
+      "solution_argument_present": false,
+      "solver_firewall": {
+        "challenge_json_only": true,
+        "denied_solution_paths": [],
+        "solution_argument_present": false
+      },
+      "target_grid_serialization_present_anywhere_in_challenge": false,
+      "target_was_solver_visible": false,
+      "task_id": "aa4ec2a5",
+      "test_outputs_present": false
+    },
+    {
+      "challenge_json": "/mnt/d/VRM/r6a_compressarc/artifacts/phase1_runs/B/0dfd9992/20260702/F1/challenge.json",
+      "mode": "RECOVERED_EXISTING_FULL_RUN",
+      "solution_argument_present": false,
+      "solver_firewall": {
+        "challenge_json_only": true,
+        "denied_solution_paths": [],
+        "solution_argument_present": false
+      },
+      "target_grid_serialization_present_anywhere_in_challenge": false,
+      "target_was_solver_visible": false,
+      "task_id": "0dfd9992",
+      "test_outputs_present": false
+    },
+    {
+      "challenge_json": "/mnt/d/VRM/r6a_compressarc/artifacts/phase1_runs/B/1f876c06/20260702/F1/challenge.json",
+      "mode": "RECOVERED_EXISTING_FULL_RUN",
+      "solution_argument_present": false,
+      "solver_firewall": {
+        "challenge_json_only": true,
+        "denied_solution_paths": [],
+        "solution_argument_present": false
+      },
+      "target_grid_serialization_present_anywhere_in_challenge": false,
+      "target_was_solver_visible": false,
+      "task_id": "1f876c06",
+      "test_outputs_present": false
+    },
+    {
+      "challenge_json": "/mnt/d/VRM/r6a_compressarc/artifacts/phase1_runs/B/1c786137/20260702/F1/challenge.json",
+      "mode": "RECOVERED_EXISTING_FULL_RUN",
+      "solution_argument_present": false,
+      "solver_firewall": {
+        "challenge_json_only": true,
+        "denied_solution_paths": [],
+        "solution_argument_present": false
+      },
+      "target_grid_serialization_present_anywhere_in_challenge": false,
+      "target_was_solver_visible": false,
+      "task_id": "1c786137",
+      "test_outputs_present": false
+    },
+    {
+      "challenge_json": "/mnt/d/VRM/r6a_compressarc/experiments/r6a_exact_solve_10_readout/logs/00576224/20260702/F1/challenge.json",
+      "mode": "FRESH_FULL_RERUN",
+      "solution_argument_present": false,
+      "solver_firewall": {
+        "challenge_json_only": true,
+        "denied_solution_paths": [],
+        "solution_argument_present": false
+      },
+      "target_grid_serialization_present_anywhere_in_challenge": false,
+      "target_was_solver_visible": false,
+      "task_id": "00576224",
+      "test_outputs_present": false
+    }
+  ]
+}

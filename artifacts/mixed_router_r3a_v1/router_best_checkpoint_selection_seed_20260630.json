@@ -1,0 +1,7 @@
+{
+  "seed": 20260630,
+  "selected_checkpoint": "/mnt/d/VRM/checkpoints/mixed_router_r3a_v1/router_r3a_seed_20260630_best_dev.pt",
+  "selected_checkpoint_sha256_before_sealed": "caeca478920a0df9f50103867606d0721f8b17c19f8b2c0a8bb071987ec8bb7b",
+  "selected_epoch_index": 0,
+  "selection_rule": "macro exact, route accuracy, hard-negative exact, low confusion, earliest epoch"
+}

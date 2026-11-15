@@ -1,0 +1,24 @@
+{
+  "passed": true,
+  "pilot_version": "R5A3B_P0_RELATION_OBJECT_GRAPH_CONSTRAINT_CAUSAL_PILOT",
+  "report_sha256": "ca88fd8c12677990131638fc613d5b3d74ab487a16483629dd3795472c2619a3",
+  "rows": [
+    {
+      "name": "budget_cap",
+      "observed_raw_candidate_count": 8,
+      "passed": true
+    },
+    {
+      "name": "all_conditions_are_subsets_of_same_raw_universe",
+      "passed": true
+    },
+    {
+      "name": "matched_random_prune_never_exceeds_hard_survivor_count",
+      "passed": true
+    },
+    {
+      "name": "raw_grid_fidelity_shape_preserved_by_p0_renderer",
+      "passed": true
+    }
+  ]
+}

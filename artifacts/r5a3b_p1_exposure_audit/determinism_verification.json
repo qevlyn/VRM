@@ -1,0 +1,17 @@
+{
+  "artifact_hashes": {
+    "candidate_regeneration_verification.json": "924dd070a21a3aa7bef286e2423d40e1f5e706a1cede9b2389f02b43585622ba",
+    "constraint_efficacy_report.json": "fbed9c4bf96c01c92fe62913f1467cacf157ae0139208419fbb75393464e2c06",
+    "constraint_eligibility_report.json": "fd536655e1ab1a1aa29a9d1380ce9399a27f9d53db91e275c23fa21911120541",
+    "final_report.json": "5657b14a159fe1f74a8c3c275da011d7f74fc2d38fc0168f2a5eca76c6092ab9",
+    "hit_provenance_report.json": "6240417cd090d20fea5daa9fd57dc5a46d3a43744cc2db94c7f18538463ec39b",
+    "ledger_completeness_report.json": "c3208ecc1a199d65e9902f3c1589eab1f9dcd7cf62df715574c252a3f4503f23",
+    "object_vs_relation_surface_report.json": "432bbf6baae64c270e32381a27d9b303f50ca1ca76faf58d22f6801451efdf37",
+    "parse_exposure_report.json": "5daa15005c9fe1e4f29a76207f5337bac77c0b7836a402c44ec36ca719b41de7",
+    "relation_exposure_taxonomy.json": "5c7f6618b9d6d045d3b0b8980746833d43f3e0e6e6a09d65aa27a51685bc4beb",
+    "runtime_exposure_report.json": "2fff4037c4bfd6c9fe0e8810a0ea2411b2ac22e5b679b998c1ae5f80a52a587a"
+  },
+  "audit_version": "R5A3B_P1_RELATION_EXPOSURE_CONSTRAINT_EFFICACY_AUDIT",
+  "candidate_regeneration_performed": false,
+  "deterministic_reader_no_candidate_generation": true
+}

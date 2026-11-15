@@ -1,0 +1,11 @@
+Intervention,Raw inputs changed?,Raw outputs changed?,Pairing preserved?,Order changed?,State changed?,Optimization rerun?,Behavioral outcome measured?,Intended scientific target
+Phase1 FULL/F1/F2,No,No,Yes,No,Fresh same-initialization run per seed,Yes,Yes,Reference condition for query NLL; no nuisance broken
+Phase1 ALL_PAIRING_SWAP,No,Yes; support outputs reassigned across inputs,No,No,Fresh same-initialization run per seed,Yes,Yes,"Pairing sensitivity, not semantic-preserving shortcut isolation"
+Phase2 support-pair order transposition,Order only,Order only,Yes after inverse alignment,Yes,Fresh model state semantically aligned,No in v10/v11.2,No end-to-end; forward tensors only,Support-order equivariance / coordinate convention
+v8 shape/has_real_example_axis state permutation,Order only,Order only,Intended yes,Yes,Yes; incorrectly applied to nonposterior tensors,Only if forward certified; actual loss/backward/Adam not reached,Forward comparison only,Invalid implementation-level state action
+v10 semantic posterior-only state action,Order only,Order only,Yes after inverse alignment,Yes,Only posterior mean/local-capacity dims[0]==1 permuted,No,No; forward boundary label only,Repair of v8 state-action semantics
+v10/v11 zero-noise channel replay,No direct raw-grid change inside forward,No direct raw-grid change inside forward,Depends on prebuilt Task,No new task order beyond case,Noise replaced by zero during forward,No,No,Numerical/replay control for stochastic channel_layer
+v11.2 E_hash/E_bit targeted replay,No,No,N/A; compares aligned event tensors,N/A,No source state mutation beyond in-memory tracing,No,No,"Internal byte/hash provenance, not task behavior"
+v11.2 E_threshold Cummax marker,No,No,N/A,N/A,No,No,No,Internal threshold crossing / amplification candidate
+R5A-4B QUERY_ONLY/zero support conditions,Support evidence effectively removed,Support evidence removed or dummy,No; legitimate support relation often unavailable,No,No model parameter change,No training in audit,Yes,Support-dependence audit in separate VRM model line
+R5A-4B PAIRING_BROKEN/GEOMETRY_SCRAMBLED,No or output metadata only,Yes for output pairing/color placement,Often no,No,No model parameter change,No training in audit,Yes,Support-semantics stress test; not R6A shortcut isolation

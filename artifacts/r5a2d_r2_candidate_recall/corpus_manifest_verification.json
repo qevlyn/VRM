@@ -1,0 +1,46 @@
+{
+  "audit_version": "R5A2D_R2_FROZEN_CANDIDATE_RECALL",
+  "exact_match": true,
+  "file_records_match": true,
+  "manifest_hash_match": true,
+  "no_corpus_fallback_or_reselection": true,
+  "r5a2d_r1_corpus_manifest_sha256": "a712951a54f0d1c6701024e0c9298d04a6a04a0c8770afc997be61aef8f5c911",
+  "r5a2d_r1_task_count": 1360,
+  "reconstructed_corpus_manifest_sha256": "a712951a54f0d1c6701024e0c9298d04a6a04a0c8770afc997be61aef8f5c911",
+  "required_corpus_root": "/mnt/d/VRM/arc-prize-2026-arc-agi-2",
+  "required_previous_corpus_manifest_sha256": "a712951a54f0d1c6701024e0c9298d04a6a04a0c8770afc997be61aef8f5c911",
+  "task_count": 1360,
+  "task_count_match": true,
+  "task_files": [
+    {
+      "byte_size": 984679,
+      "corpus_relative_path": "arc-agi_evaluation_challenges.json",
+      "relative_path": "arc-prize-2026-arc-agi-2/arc-agi_evaluation_challenges.json",
+      "sha256": "e7c62a4bd211867c6b538f66b8013b81f299663c82ca062f49a52bf439d6e4e8"
+    },
+    {
+      "byte_size": 223838,
+      "corpus_relative_path": "arc-agi_evaluation_solutions.json",
+      "relative_path": "arc-prize-2026-arc-agi-2/arc-agi_evaluation_solutions.json",
+      "sha256": "84be4f4f39b79e82c36d565fc878830988b094917f052ee7069aef30b33ca8f1"
+    },
+    {
+      "byte_size": 1015295,
+      "corpus_relative_path": "arc-agi_test_challenges.json",
+      "relative_path": "arc-prize-2026-arc-agi-2/arc-agi_test_challenges.json",
+      "sha256": "232264c58f825ee77327dcfc9f4e5cb2f83b8d997eb69032be1bf2205bbe1a83"
+    },
+    {
+      "byte_size": 4010050,
+      "corpus_relative_path": "arc-agi_training_challenges.json",
+      "relative_path": "arc-prize-2026-arc-agi-2/arc-agi_training_challenges.json",
+      "sha256": "779eaba89790ebad9af02514a7efc0aefaf2cf8236f046a31bbf8b9ec48f20f5"
+    },
+    {
+      "byte_size": 658743,
+      "corpus_relative_path": "arc-agi_training_solutions.json",
+      "relative_path": "arc-prize-2026-arc-agi-2/arc-agi_training_solutions.json",
+      "sha256": "9f07a38bd25af5e83aa5bf85c5cb1a1fefdb30f6a755256fa65429e697ca97f9"
+    }
+  ]
+}

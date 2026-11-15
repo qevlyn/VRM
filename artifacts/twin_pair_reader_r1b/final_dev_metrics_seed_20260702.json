@@ -1,0 +1,138 @@
+{
+  "conditions": {
+    "ALL_PAIR_PERMUTATIONS": {
+      "all_cell_color_accuracy": 1.0,
+      "all_permutation_same_candidate_rate": 1.0,
+      "all_permutation_same_grid_rate": 1.0,
+      "all_permutation_same_logical_pair_rate": 1.0,
+      "candidate_exact_match_rate": 1.0,
+      "candidate_nearest_score": 1.0,
+      "candidate_tie_rate": 0.0,
+      "condition": "ALL_PAIR_PERMUTATIONS",
+      "direct_grid_exact_accuracy": 1.0,
+      "episode_count": 12000,
+      "foreground_cell_count_per_episode": {
+        "expected_informative_foreground_count_verified": true,
+        "mean": 5.0,
+        "unique": [
+          5
+        ]
+      },
+      "foreground_color_accuracy": 1.0,
+      "max_abs_alpha_difference_after_logical_unpermute": 1.1920928955078125e-07,
+      "max_abs_retrieved_probability_difference_after_logical_unpermute": 1.7881393432617188e-07,
+      "mean_relevant_pair_mass": 0.9999696588118872,
+      "mean_target_rectangle_hamming_error": 0.0,
+      "median_relevant_pair_mass": 0.9999710321426392,
+      "permutation_presentation_count": 12000,
+      "permutations_evaluated": [
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          0,
+          2,
+          1
+        ],
+        [
+          1,
+          0,
+          2
+        ],
+        [
+          1,
+          2,
+          0
+        ],
+        [
+          2,
+          0,
+          1
+        ],
+        [
+          2,
+          1,
+          0
+        ]
+      ],
+      "retrieval_entropy": 0.0003638938507817026,
+      "retrieval_top1_accuracy": 1.0,
+      "split": "dev",
+      "target_rectangle_hamming_error": 0.0
+    },
+    "FORCED_ALPHA_INTERVENTION": {
+      "condition": "FORCED_ALPHA_INTERVENTION",
+      "forced_alpha_exact_route_rate": 1.0,
+      "forced_alpha_route_count": 6000,
+      "split": "dev"
+    },
+    "FORCED_VALUE_INTERVENTION": {
+      "condition": "FORCED_VALUE_INTERVENTION",
+      "confident_episode_count": 2000,
+      "episode_count": 2000,
+      "forced_value_alpha_unchanged_rate": 1.0,
+      "forced_value_exact_match_rate": 1.0,
+      "forced_value_output_follows_value_rate": 1.0,
+      "split": "dev"
+    },
+    "NORMAL": {
+      "all_cell_color_accuracy": 1.0,
+      "candidate_exact_match_rate": 1.0,
+      "candidate_nearest_score": 1.0,
+      "candidate_tie_rate": 0.0,
+      "condition": "NORMAL",
+      "direct_grid_exact_accuracy": 1.0,
+      "episode_count": 2000,
+      "foreground_cell_count_per_episode": {
+        "expected_informative_foreground_count_verified": true,
+        "mean": 5.0,
+        "unique": [
+          5
+        ]
+      },
+      "foreground_color_accuracy": 1.0,
+      "mean_relevant_pair_mass": 0.9999696587324143,
+      "mean_target_rectangle_hamming_error": 0.0,
+      "median_relevant_pair_mass": 0.9999710321426392,
+      "retrieval_entropy": 0.000363893929788901,
+      "retrieval_top1_accuracy": 1.0,
+      "split": "dev",
+      "target_rectangle_hamming_error": 0.0
+    },
+    "TWIN_SWAP_SUPPORTS": {
+      "all_cell_color_accuracy": 0.8979591836734694,
+      "candidate_exact_match_rate": 1.0,
+      "candidate_nearest_score": 0.0,
+      "candidate_tie_rate": 0.0,
+      "condition": "TWIN_SWAP_SUPPORTS",
+      "direct_grid_exact_accuracy": 0.0,
+      "episode_count": 2000,
+      "foreground_cell_count_per_episode": {
+        "expected_informative_foreground_count_verified": true,
+        "mean": 5.0,
+        "unique": [
+          5
+        ]
+      },
+      "foreground_color_accuracy": 0.0,
+      "mean_relevant_pair_mass": 0.9999696587324143,
+      "mean_target_rectangle_hamming_error": 5.0,
+      "median_relevant_pair_mass": 0.9999710321426392,
+      "retrieval_entropy": 0.000363893929788901,
+      "retrieval_top1_accuracy": 1.0,
+      "split": "dev",
+      "target_rectangle_hamming_error": 5.0
+    }
+  },
+  "twin_metrics": {
+    "correct_counterfactual_switch_rate": 1.0,
+    "normal_to_swapped_candidate_change_rate": 1.0,
+    "normal_to_swapped_grid_change_rate": 1.0,
+    "twin_pair_joint_normal_accuracy": 1.0,
+    "twin_pair_mapping_flip_consistency": 1.0,
+    "twin_same_candidate_decision_rate": 0.0,
+    "twin_same_predicted_grid_rate": 0.0
+  }
+}

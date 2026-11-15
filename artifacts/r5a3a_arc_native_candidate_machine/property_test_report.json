@@ -1,0 +1,380 @@
+{
+  "accepted_count": 7,
+  "audit_version": "R5A3A_ARC_NATIVE_STRUCTURAL_CANDIDATE_MACHINE_V0",
+  "deterministic_hash": "8089c13e7fa9a20df2194c2e8b3a19efb37615f5229615def00bf24c1b267734",
+  "families_covered": [
+    "arbitrary grid sizes 1x1 to 30x30",
+    "palette 0..9",
+    "one through ten support pairs",
+    "same-shape and changed-shape outputs",
+    "object selection ambiguity",
+    "translation, copy, recolor, rotation, reflection",
+    "two-step compositions",
+    "duplicate-output deduplication",
+    "empty-object and multiple-background edge cases"
+  ],
+  "rejected_count": 0,
+  "rows": [
+    {
+      "accepted": true,
+      "candidate_count": 1,
+      "case_id": "size=1x1",
+      "grid_hash": "e8a7dd0803d370a802adf795de545757ab2706a7a90100ebaa9efad3720c560e",
+      "raw_grid_fidelity_passed": true,
+      "sample_grid": [
+        [
+          0
+        ]
+      ]
+    },
+    {
+      "accepted": true,
+      "candidate_count": 7,
+      "case_id": "size=1x30",
+      "grid_hash": "a405b216e05b232a0f38cb2c84fc6b13511b1efdec8a02656d87c20c47804954",
+      "raw_grid_fidelity_passed": true,
+      "sample_grid": [
+        [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          0
+        ]
+      ]
+    },
+    {
+      "accepted": true,
+      "candidate_count": 5,
+      "case_id": "size=30x1",
+      "grid_hash": "f951af40d5568c5437e29b14629f9b376edd03bfca4b76c84f58f4a846c9a9d1",
+      "raw_grid_fidelity_passed": true,
+      "sample_grid": [
+        [
+          2
+        ],
+        [
+          3
+        ],
+        [
+          4
+        ],
+        [
+          5
+        ],
+        [
+          6
+        ]
+      ]
+    },
+    {
+      "accepted": true,
+      "candidate_count": 5,
+      "case_id": "size=30x30",
+      "grid_hash": "14a22f4c02e467cc97342e8134e211a7e108c89b301d630cd79080c644660c7a",
+      "raw_grid_fidelity_passed": true,
+      "sample_grid": [
+        [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          0,
+          1,
+          2
+        ],
+        [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          5,
+          6,
+          7,
+          8,
+          9,
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        [
+          6,
+          7,
+          8,
+          9,
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        [
+          7,
+          8,
+          9,
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      ]
+    },
+    {
+      "accepted": true,
+      "candidate_count": 6,
+      "case_id": "size=7x5",
+      "grid_hash": "96ad3fbd0d49f36019fc80d3453ec00de3f0f642aabf52f1b0df9b1f7a0ef5b7",
+      "raw_grid_fidelity_passed": true,
+      "sample_grid": [
+        [
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        [
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        [
+          6,
+          7,
+          8,
+          9,
+          0
+        ],
+        [
+          7,
+          8,
+          9,
+          0,
+          1
+        ],
+        [
+          8,
+          9,
+          0,
+          1,
+          2
+        ]
+      ]
+    },
+    {
+      "accepted": true,
+      "candidate_count": 6,
+      "case_id": "size=5x7",
+      "grid_hash": "e60ba5696890ad2280e8ce631d22bf7c56914192db0d6bf1951a82e60a67eec2",
+      "raw_grid_fidelity_passed": true,
+      "sample_grid": [
+        [
+          5,
+          6,
+          7,
+          8,
+          9,
+          0,
+          1
+        ],
+        [
+          6,
+          7,
+          8,
+          9,
+          0,
+          1,
+          2
+        ],
+        [
+          7,
+          8,
+          9,
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          8,
+          9,
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        [
+          9,
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      ]
+    },
+    {
+      "accepted": true,
+      "candidate_count": 1,
+      "case_id": "duplicate_output_deduplication",
+      "grid_hash": "c47347ff14705a8959ada78f2ae9b3e34ec5ec7c1c355da06dc2d67e3767e7c3",
+      "raw_grid_fidelity_passed": true,
+      "sample_grid": [
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ]
+    }
+  ]
+}

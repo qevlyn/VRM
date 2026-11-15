@@ -1,0 +1,277 @@
+{
+  "all_artifacts_exist": true,
+  "all_f1_s_f2_use_same_initialization_by_design": true,
+  "created_utc": "2026-07-01T23:38:30Z",
+  "rows": [
+    {
+      "model_state_hash": "6abf283f29d376d9415752c623506e08c11d0f72928d8bda9e696fcf7031125b",
+      "optimizer_state_hash": "303dfc88384552ee65180297eee2929b9103e91ba38ee03e5a6c10ac4237b9d5",
+      "path": "/mnt/d/VRM/r6a_compressarc/artifacts/phase1_initializations/604001fa/20260702/initialization.pt",
+      "reused": true,
+      "rng_state_hash": "65e54a566008dd1c3a8fe8a77d759503c672a470f0d81daad0a5955fc07a8a5e",
+      "seed": 20260702,
+      "stratum": "A",
+      "task_id": "604001fa"
+    },
+    {
+      "model_state_hash": "36ac8a1afa4ddee7e7d80e48764c8c2cc95bff8e4658151a28c78c70f1a3d0c0",
+      "optimizer_state_hash": "303dfc88384552ee65180297eee2929b9103e91ba38ee03e5a6c10ac4237b9d5",
+      "path": "/mnt/d/VRM/r6a_compressarc/artifacts/phase1_initializations/604001fa/20260703/initialization.pt",
+      "reused": true,
+      "rng_state_hash": "324360b1958aa83a765b456eab51f6f4e34b09dadec4bbb8e638cf4b3ca33b87",
+      "seed": 20260703,
+      "stratum": "A",
+      "task_id": "604001fa"
+    },
+    {
+      "model_state_hash": "15411152edab70fa3c530d3910a52f651766efd4ade672d061e03150602a0490",
+      "optimizer_state_hash": "303dfc88384552ee65180297eee2929b9103e91ba38ee03e5a6c10ac4237b9d5",
+      "path": "/mnt/d/VRM/r6a_compressarc/artifacts/phase1_initializations/604001fa/20260704/initialization.pt",
+      "reused": true,
+      "rng_state_hash": "516358d41e7d9dd2db0aa28b0ce051c75505be21c012f51a1ee475fe2666c1e3",
+      "seed": 20260704,
+      "stratum": "A",
+      "task_id": "604001fa"
+    },
+    {
+      "model_state_hash": "c6f3f272651889dbba96283c80f017aeaf36afaab7ce09a23011338b5f04355b",
+      "optimizer_state_hash": "303dfc88384552ee65180297eee2929b9103e91ba38ee03e5a6c10ac4237b9d5",
+      "path": "/mnt/d/VRM/r6a_compressarc/artifacts/phase1_initializations/79fb03f4/20260702/initialization.pt",
+      "reused": true,
+      "rng_state_hash": "9a25c4f083f6e21b8e42b1a3f16e3c1be80c182fe7ef323d84d260d4a24ca771",
+      "seed": 20260702,
+      "stratum": "A",
+      "task_id": "79fb03f4"
+    },
+    {
+      "model_state_hash": "ef3697eb3f79de9925387b4365e0097864fe3098885ecebac7763a262ca1a5b9",
+      "optimizer_state_hash": "303dfc88384552ee65180297eee2929b9103e91ba38ee03e5a6c10ac4237b9d5",
+      "path": "/mnt/d/VRM/r6a_compressarc/artifacts/phase1_initializations/79fb03f4/20260703/initialization.pt",
+      "reused": true,
+      "rng_state_hash": "1981d97b6f92a41d0ceab415540cc0e100ced37466216d8e32a9f94e0c8d9c68",
+      "seed": 20260703,
+      "stratum": "A",
+      "task_id": "79fb03f4"
+    },
+    {
+      "model_state_hash": "0de051e6adf350c286d77e46436faf0cf93f033bba6226a6473c722329b3608e",
+      "optimizer_state_hash": "303dfc88384552ee65180297eee2929b9103e91ba38ee03e5a6c10ac4237b9d5",
+      "path": "/mnt/d/VRM/r6a_compressarc/artifacts/phase1_initializations/79fb03f4/20260704/initialization.pt",
+      "reused": true,
+      "rng_state_hash": "07ab14b0ce47affc819c462e059a41239cc09c7fac385ec02813b385d0f8119c",
+      "seed": 20260704,
+      "stratum": "A",
+      "task_id": "79fb03f4"
+    },
+    {
+      "model_state_hash": "198dfcc64ea09284648a50da9d1d82481318d18b29b64f6baa8d32ef8dd97269",
+      "optimizer_state_hash": "303dfc88384552ee65180297eee2929b9103e91ba38ee03e5a6c10ac4237b9d5",
+      "path": "/mnt/d/VRM/r6a_compressarc/artifacts/phase1_initializations/981571dc/20260702/initialization.pt",
+      "reused": true,
+      "rng_state_hash": "78e15ecefaa2fd8d93df3a117cd7698123132c99dd990c68c578057e65ec0659",
+      "seed": 20260702,
+      "stratum": "A",
+      "task_id": "981571dc"
+    },
+    {
+      "model_state_hash": "48a9a60d322412ff941d7197ac63304d7201b800c32e7f95c048002d1dd1e101",
+      "optimizer_state_hash": "303dfc88384552ee65180297eee2929b9103e91ba38ee03e5a6c10ac4237b9d5",
+      "path": "/mnt/d/VRM/r6a_compressarc/artifacts/phase1_initializations/981571dc/20260703/initialization.pt",
+      "reused": true,
+      "rng_state_hash": "de39aa50c153b87e8982d9e6fd058fced76a9dcdb54e5343e531f6fc0648a799",
+      "seed": 20260703,
+      "stratum": "A",
+      "task_id": "981571dc"
+    },
+    {
+      "model_state_hash": "094a3e8603691ecabd46015e3ea6bef3118d48cc6ff003a444f352b3c396df10",
+      "optimizer_state_hash": "303dfc88384552ee65180297eee2929b9103e91ba38ee03e5a6c10ac4237b9d5",
+      "path": "/mnt/d/VRM/r6a_compressarc/artifacts/phase1_initializations/981571dc/20260704/initialization.pt",
+      "reused": true,
+      "rng_state_hash": "fa0d2d40f68e238c3ede54aaa4c2043575968cdafc5e566b0ecf792b831d777c",
+      "seed": 20260704,
+      "stratum": "A",
+      "task_id": "981571dc"
+    },
+    {
+      "model_state_hash": "220323dec0e6507f1cb600306acc93de2eaa80eaad967477954e34a0517c64d9",
+      "optimizer_state_hash": "303dfc88384552ee65180297eee2929b9103e91ba38ee03e5a6c10ac4237b9d5",
+      "path": "/mnt/d/VRM/r6a_compressarc/artifacts/phase1_initializations/3ed85e70/20260702/initialization.pt",
+      "reused": true,
+      "rng_state_hash": "9a25c4f083f6e21b8e42b1a3f16e3c1be80c182fe7ef323d84d260d4a24ca771",
+      "seed": 20260702,
+      "stratum": "A",
+      "task_id": "3ed85e70"
+    },
+    {
+      "model_state_hash": "6a7333523599f127e3b0e4eeb3fa8500e33bd8808ec99e2753994943eb214f8d",
+      "optimizer_state_hash": "303dfc88384552ee65180297eee2929b9103e91ba38ee03e5a6c10ac4237b9d5",
+      "path": "/mnt/d/VRM/r6a_compressarc/artifacts/phase1_initializations/3ed85e70/20260703/initialization.pt",
+      "reused": true,
+      "rng_state_hash": "1981d97b6f92a41d0ceab415540cc0e100ced37466216d8e32a9f94e0c8d9c68",
+      "seed": 20260703,
+      "stratum": "A",
+      "task_id": "3ed85e70"
+    },
+    {
+      "model_state_hash": "5970288821a836bab8b99f06f3d54269b8a2bcd51004c1b6dcb0826def4ebadd",
+      "optimizer_state_hash": "303dfc88384552ee65180297eee2929b9103e91ba38ee03e5a6c10ac4237b9d5",
+      "path": "/mnt/d/VRM/r6a_compressarc/artifacts/phase1_initializations/3ed85e70/20260704/initialization.pt",
+      "reused": true,
+      "rng_state_hash": "07ab14b0ce47affc819c462e059a41239cc09c7fac385ec02813b385d0f8119c",
+      "seed": 20260704,
+      "stratum": "A",
+      "task_id": "3ed85e70"
+    },
+    {
+      "model_state_hash": "eaf6ae0f2b854772e96847138d7f0e2748831bd0898d6c8b2513c663ea0d6e38",
+      "optimizer_state_hash": "303dfc88384552ee65180297eee2929b9103e91ba38ee03e5a6c10ac4237b9d5",
+      "path": "/mnt/d/VRM/r6a_compressarc/artifacts/phase1_initializations/aa4ec2a5/20260702/initialization.pt",
+      "reused": true,
+      "rng_state_hash": "9a25c4f083f6e21b8e42b1a3f16e3c1be80c182fe7ef323d84d260d4a24ca771",
+      "seed": 20260702,
+      "stratum": "A",
+      "task_id": "aa4ec2a5"
+    },
+    {
+      "model_state_hash": "7b52b931bb89bbc34fc4795e03847d0bc40aa38b48a19848390e402aa20309ee",
+      "optimizer_state_hash": "303dfc88384552ee65180297eee2929b9103e91ba38ee03e5a6c10ac4237b9d5",
+      "path": "/mnt/d/VRM/r6a_compressarc/artifacts/phase1_initializations/aa4ec2a5/20260703/initialization.pt",
+      "reused": true,
+      "rng_state_hash": "1981d97b6f92a41d0ceab415540cc0e100ced37466216d8e32a9f94e0c8d9c68",
+      "seed": 20260703,
+      "stratum": "A",
+      "task_id": "aa4ec2a5"
+    },
+    {
+      "model_state_hash": "465185985909b7af6ec6cff9e50cf9045b9043877aa014d5a4c81e6859d79909",
+      "optimizer_state_hash": "303dfc88384552ee65180297eee2929b9103e91ba38ee03e5a6c10ac4237b9d5",
+      "path": "/mnt/d/VRM/r6a_compressarc/artifacts/phase1_initializations/aa4ec2a5/20260704/initialization.pt",
+      "reused": true,
+      "rng_state_hash": "07ab14b0ce47affc819c462e059a41239cc09c7fac385ec02813b385d0f8119c",
+      "seed": 20260704,
+      "stratum": "A",
+      "task_id": "aa4ec2a5"
+    },
+    {
+      "model_state_hash": "87513527eac0a64c41eeaf2c966578cc638803d5c8024694cfd0c6404e545581",
+      "optimizer_state_hash": "303dfc88384552ee65180297eee2929b9103e91ba38ee03e5a6c10ac4237b9d5",
+      "path": "/mnt/d/VRM/r6a_compressarc/artifacts/phase1_initializations/929ab4e9/20260702/initialization.pt",
+      "reused": true,
+      "rng_state_hash": "6095ddb339bd166c1e4c3587d898820fff9f26e8295d8e9750afd3b7084919e4",
+      "seed": 20260702,
+      "stratum": "A",
+      "task_id": "929ab4e9"
+    },
+    {
+      "model_state_hash": "1f640474299ca2d4c86edc17a90e70daf039aa794ba0f14daf123e7980025955",
+      "optimizer_state_hash": "303dfc88384552ee65180297eee2929b9103e91ba38ee03e5a6c10ac4237b9d5",
+      "path": "/mnt/d/VRM/r6a_compressarc/artifacts/phase1_initializations/929ab4e9/20260703/initialization.pt",
+      "reused": true,
+      "rng_state_hash": "c242c20af5b4182b2db10779a96ab44086cd8fd2eb9c59bb72f25b5a6b2ee4b9",
+      "seed": 20260703,
+      "stratum": "A",
+      "task_id": "929ab4e9"
+    },
+    {
+      "model_state_hash": "7e8d6fa90652624ed31df6aa107c5d2cc850babf50e0ef27dbbb9c109dd317f5",
+      "optimizer_state_hash": "303dfc88384552ee65180297eee2929b9103e91ba38ee03e5a6c10ac4237b9d5",
+      "path": "/mnt/d/VRM/r6a_compressarc/artifacts/phase1_initializations/929ab4e9/20260704/initialization.pt",
+      "reused": true,
+      "rng_state_hash": "dd4502c31df3d7d34be82f7db6e031db54c0c267f626f08d99fd032382b5d0ab",
+      "seed": 20260704,
+      "stratum": "A",
+      "task_id": "929ab4e9"
+    },
+    {
+      "model_state_hash": "2ffd7eebbaf431ec68e756fe26320759ac1cd3320dc26db8335b323cadccf697",
+      "optimizer_state_hash": "303dfc88384552ee65180297eee2929b9103e91ba38ee03e5a6c10ac4237b9d5",
+      "path": "/mnt/d/VRM/r6a_compressarc/artifacts/phase1_initializations/0dfd9992/20260702/initialization.pt",
+      "reused": true,
+      "rng_state_hash": "9a25c4f083f6e21b8e42b1a3f16e3c1be80c182fe7ef323d84d260d4a24ca771",
+      "seed": 20260702,
+      "stratum": "B",
+      "task_id": "0dfd9992"
+    },
+    {
+      "model_state_hash": "64c56939d3bbfd72b0645bd96db5cae363e9a2b926c5ab01375f806d8ca4ea81",
+      "optimizer_state_hash": "303dfc88384552ee65180297eee2929b9103e91ba38ee03e5a6c10ac4237b9d5",
+      "path": "/mnt/d/VRM/r6a_compressarc/artifacts/phase1_initializations/0dfd9992/20260703/initialization.pt",
+      "reused": true,
+      "rng_state_hash": "1981d97b6f92a41d0ceab415540cc0e100ced37466216d8e32a9f94e0c8d9c68",
+      "seed": 20260703,
+      "stratum": "B",
+      "task_id": "0dfd9992"
+    },
+    {
+      "model_state_hash": "7bb5bebca390f3ddec925e50b3d62940e9949a03268c9414905fa51ea78e4e91",
+      "optimizer_state_hash": "303dfc88384552ee65180297eee2929b9103e91ba38ee03e5a6c10ac4237b9d5",
+      "path": "/mnt/d/VRM/r6a_compressarc/artifacts/phase1_initializations/0dfd9992/20260704/initialization.pt",
+      "reused": true,
+      "rng_state_hash": "07ab14b0ce47affc819c462e059a41239cc09c7fac385ec02813b385d0f8119c",
+      "seed": 20260704,
+      "stratum": "B",
+      "task_id": "0dfd9992"
+    },
+    {
+      "model_state_hash": "372c970f45e95ec1ab91841aa9d74b3188c4e4059f9411f394f9a30a10b15629",
+      "optimizer_state_hash": "303dfc88384552ee65180297eee2929b9103e91ba38ee03e5a6c10ac4237b9d5",
+      "path": "/mnt/d/VRM/r6a_compressarc/artifacts/phase1_initializations/1c786137/20260702/initialization.pt",
+      "reused": true,
+      "rng_state_hash": "9a25c4f083f6e21b8e42b1a3f16e3c1be80c182fe7ef323d84d260d4a24ca771",
+      "seed": 20260702,
+      "stratum": "B",
+      "task_id": "1c786137"
+    },
+    {
+      "model_state_hash": "9debb299e1c809fde64be427e466721a554347c5918cb3b8cfb99053829e008c",
+      "optimizer_state_hash": "303dfc88384552ee65180297eee2929b9103e91ba38ee03e5a6c10ac4237b9d5",
+      "path": "/mnt/d/VRM/r6a_compressarc/artifacts/phase1_initializations/1c786137/20260703/initialization.pt",
+      "reused": true,
+      "rng_state_hash": "1981d97b6f92a41d0ceab415540cc0e100ced37466216d8e32a9f94e0c8d9c68",
+      "seed": 20260703,
+      "stratum": "B",
+      "task_id": "1c786137"
+    },
+    {
+      "model_state_hash": "8ca977eb5f29e90ed88bdbbbbdd8d9c042801616de09bf6020b2306b4254c822",
+      "optimizer_state_hash": "303dfc88384552ee65180297eee2929b9103e91ba38ee03e5a6c10ac4237b9d5",
+      "path": "/mnt/d/VRM/r6a_compressarc/artifacts/phase1_initializations/1c786137/20260704/initialization.pt",
+      "reused": true,
+      "rng_state_hash": "07ab14b0ce47affc819c462e059a41239cc09c7fac385ec02813b385d0f8119c",
+      "seed": 20260704,
+      "stratum": "B",
+      "task_id": "1c786137"
+    },
+    {
+      "model_state_hash": "14ae222f524b51a7d8aa456da54d6cd284cd017042a366ca48e7a102741ffdc6",
+      "optimizer_state_hash": "303dfc88384552ee65180297eee2929b9103e91ba38ee03e5a6c10ac4237b9d5",
+      "path": "/mnt/d/VRM/r6a_compressarc/artifacts/phase1_initializations/1f876c06/20260702/initialization.pt",
+      "reused": true,
+      "rng_state_hash": "65e54a566008dd1c3a8fe8a77d759503c672a470f0d81daad0a5955fc07a8a5e",
+      "seed": 20260702,
+      "stratum": "B",
+      "task_id": "1f876c06"
+    },
+    {
+      "model_state_hash": "c92171f70ffbf45592278283648cf147e6e1d57cb65ab24a71aaed182dc2ea3e",
+      "optimizer_state_hash": "303dfc88384552ee65180297eee2929b9103e91ba38ee03e5a6c10ac4237b9d5",
+      "path": "/mnt/d/VRM/r6a_compressarc/artifacts/phase1_initializations/1f876c06/20260703/initialization.pt",
+      "reused": true,
+      "rng_state_hash": "324360b1958aa83a765b456eab51f6f4e34b09dadec4bbb8e638cf4b3ca33b87",
+      "seed": 20260703,
+      "stratum": "B",
+      "task_id": "1f876c06"
+    },
+    {
+      "model_state_hash": "b6fd2d4d48046e5147c9d3a5800e11442d17f11fc1ac6ca3591c4b987283db48",
+      "optimizer_state_hash": "303dfc88384552ee65180297eee2929b9103e91ba38ee03e5a6c10ac4237b9d5",
+      "path": "/mnt/d/VRM/r6a_compressarc/artifacts/phase1_initializations/1f876c06/20260704/initialization.pt",
+      "reused": true,
+      "rng_state_hash": "516358d41e7d9dd2db0aa28b0ce051c75505be21c012f51a1ee475fe2666c1e3",
+      "seed": 20260704,
+      "stratum": "B",
+      "task_id": "1f876c06"
+    }
+  ]
+}

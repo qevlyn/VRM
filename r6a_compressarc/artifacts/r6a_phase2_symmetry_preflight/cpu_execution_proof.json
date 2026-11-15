@@ -1,0 +1,270 @@
+{
+  "all_tested_floating_tensors_float64": true,
+  "all_tested_tensors_cpu": true,
+  "classification": "CPU_PREFLIGHT_ESTABLISHED",
+  "created_utc": "2026-07-04T02:16:57Z",
+  "cuda_available": true,
+  "cuda_memory_allocated_after_preflights": 0,
+  "effective_default_device": "cpu",
+  "effective_default_dtype": "torch.float64",
+  "final_seed_probe_after_explicit_reset": {
+    "numpy_random_first": 0.6366826804702569,
+    "python_random_first": 0.717434086842874,
+    "seed": 20260702,
+    "torch_random_first": 0.9261273525561634
+  },
+  "fixed_seed": 20260702,
+  "import_intercept_log": [
+    {
+      "effective": "cpu",
+      "redirected": true,
+      "requested": "cuda"
+    },
+    {
+      "effective": "cpu",
+      "redirected": false,
+      "requested": "cpu"
+    }
+  ],
+  "integer_index_tensor_exception": "task.problem is an int64 color-index tensor by production design, not a floating preflight tensor.",
+  "post_import_seed_probe": {
+    "numpy_random_first": 0.6366826804702569,
+    "python_random_first": 0.717434086842874,
+    "seed": 20260702,
+    "torch_random_first": 0.9261273525561634
+  },
+  "tensor_proof": {
+    "floating_tensors": [
+      {
+        "device": "cpu",
+        "dtype": "torch.float64",
+        "name": "task.masks",
+        "shape": [
+          3,
+          2,
+          2,
+          2
+        ]
+      },
+      {
+        "device": "cpu",
+        "dtype": "torch.float64",
+        "name": "weight_0",
+        "shape": [
+          2,
+          4
+        ]
+      },
+      {
+        "device": "cpu",
+        "dtype": "torch.float64",
+        "name": "weight_1",
+        "shape": [
+          2,
+          4
+        ]
+      },
+      {
+        "device": "cpu",
+        "dtype": "torch.float64",
+        "name": "weight_2",
+        "shape": [
+          3,
+          2,
+          4
+        ]
+      },
+      {
+        "device": "cpu",
+        "dtype": "torch.float64",
+        "name": "weight_3",
+        "shape": [
+          3,
+          2,
+          4
+        ]
+      },
+      {
+        "device": "cpu",
+        "dtype": "torch.float64",
+        "name": "weight_4",
+        "shape": [
+          8,
+          4
+        ]
+      },
+      {
+        "device": "cpu",
+        "dtype": "torch.float64",
+        "name": "weight_5",
+        "shape": [
+          8,
+          4
+        ]
+      },
+      {
+        "device": "cpu",
+        "dtype": "torch.float64",
+        "name": "weight_6",
+        "shape": [
+          3,
+          8,
+          4
+        ]
+      },
+      {
+        "device": "cpu",
+        "dtype": "torch.float64",
+        "name": "weight_7",
+        "shape": [
+          3,
+          8,
+          4
+        ]
+      },
+      {
+        "device": "cpu",
+        "dtype": "torch.float64",
+        "name": "weight_8",
+        "shape": [
+          2,
+          8,
+          4
+        ]
+      },
+      {
+        "device": "cpu",
+        "dtype": "torch.float64",
+        "name": "weight_9",
+        "shape": [
+          2,
+          8,
+          4
+        ]
+      },
+      {
+        "device": "cpu",
+        "dtype": "torch.float64",
+        "name": "weight_10",
+        "shape": [
+          3,
+          2,
+          8,
+          4
+        ]
+      },
+      {
+        "device": "cpu",
+        "dtype": "torch.float64",
+        "name": "weight_11",
+        "shape": [
+          3,
+          2,
+          8,
+          4
+        ]
+      },
+      {
+        "device": "cpu",
+        "dtype": "torch.float64",
+        "name": "weight_12",
+        "shape": [
+          3,
+          2,
+          4
+        ]
+      },
+      {
+        "device": "cpu",
+        "dtype": "torch.float64",
+        "name": "weight_13",
+        "shape": [
+          3,
+          2,
+          4
+        ]
+      },
+      {
+        "device": "cpu",
+        "dtype": "torch.float64",
+        "name": "weight_14",
+        "shape": [
+          3,
+          2,
+          2,
+          4
+        ]
+      },
+      {
+        "device": "cpu",
+        "dtype": "torch.float64",
+        "name": "weight_15",
+        "shape": [
+          3,
+          2,
+          2,
+          4
+        ]
+      },
+      {
+        "device": "cpu",
+        "dtype": "torch.float64",
+        "name": "weight_16",
+        "shape": [
+          3,
+          8,
+          2,
+          4
+        ]
+      },
+      {
+        "device": "cpu",
+        "dtype": "torch.float64",
+        "name": "weight_17",
+        "shape": [
+          3,
+          8,
+          2,
+          4
+        ]
+      },
+      {
+        "device": "cpu",
+        "dtype": "torch.float64",
+        "name": "weight_18",
+        "shape": [
+          3,
+          2,
+          8,
+          2,
+          4
+        ]
+      },
+      {
+        "device": "cpu",
+        "dtype": "torch.float64",
+        "name": "weight_19",
+        "shape": [
+          3,
+          2,
+          8,
+          2,
+          4
+        ]
+      }
+    ],
+    "integer_index_tensors": [
+      {
+        "device": "cpu",
+        "dtype": "torch.int64",
+        "name": "task.problem",
+        "shape": [
+          3,
+          2,
+          2,
+          2
+        ]
+      }
+    ]
+  }
+}

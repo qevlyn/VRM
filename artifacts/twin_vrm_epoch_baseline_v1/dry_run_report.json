@@ -1,0 +1,15 @@
+{
+  "batches_run": 4,
+  "candidate_metadata_excluded": true,
+  "finite_parameters": true,
+  "finite_train_losses": true,
+  "fresh_initialization": true,
+  "global_step": 4,
+  "last_train_loss": 2.8290510177612305,
+  "loaded_checkpoint": false,
+  "mode": "dry_run",
+  "protected_hashes_unchanged": true,
+  "support_pair_order_diagnostic_epochs": 2,
+  "support_pair_order_report_passed": true,
+  "target_excluded_from_forward": true
+}

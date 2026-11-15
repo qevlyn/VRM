@@ -1,0 +1,4916 @@
+{
+  "accepted_episode_count": 147,
+  "accepted_geometry_distributions": {
+    "barrier_density": {
+      "count": 147,
+      "histogram_or_bucketed_distribution": {
+        "0.061224489795918366": 37,
+        "0.10204081632653061": 110
+      },
+      "max": 0.10204081632653061,
+      "mean": 0.09176731917256699,
+      "median": 0.10204081632653061,
+      "min": 0.061224489795918366
+    },
+    "enclosed_region_size": {
+      "count": 147,
+      "histogram_or_bucketed_distribution": {
+        "3": 8,
+        "4": 50,
+        "5": 56,
+        "6": 4,
+        "7": 29
+      },
+      "max": 7,
+      "mean": 4.9727891156462585,
+      "median": 5,
+      "min": 3
+    },
+    "marker_to_target_distance": {
+      "count": 147,
+      "histogram_or_bucketed_distribution": {
+        "1": 49
+      },
+      "max": 1,
+      "mean": 1.0,
+      "median": 1,
+      "min": 1
+    },
+    "number_of_candidate_hypotheses_before_support_filtering": {
+      "count": 147,
+      "histogram_or_bucketed_distribution": {
+        "24": 147
+      },
+      "max": 24,
+      "mean": 24.0,
+      "median": 24,
+      "min": 24
+    },
+    "number_of_enclosed_components": {
+      "count": 147,
+      "histogram_or_bucketed_distribution": {
+        "1": 42,
+        "2": 68,
+        "3": 37
+      },
+      "max": 3,
+      "mean": 1.965986394557823,
+      "median": 2,
+      "min": 1
+    },
+    "number_of_passable_components": {
+      "count": 147,
+      "histogram_or_bucketed_distribution": {
+        "3": 87,
+        "4": 60
+      },
+      "max": 4,
+      "mean": 3.4081632653061225,
+      "median": 3,
+      "min": 3
+    },
+    "reachable_region_size": {
+      "count": 147,
+      "histogram_or_bucketed_distribution": {
+        "2": 4,
+        "3": 4,
+        "4": 114,
+        "5": 25
+      },
+      "max": 5,
+      "mean": 4.08843537414966,
+      "median": 4,
+      "min": 2
+    },
+    "seed_to_border_shortest_distance": {
+      "count": 147,
+      "histogram_or_bucketed_distribution": {
+        "0": 98,
+        "1": 45,
+        "2": 4
+      },
+      "max": 2,
+      "mean": 0.36054421768707484,
+      "median": 0,
+      "min": 0
+    }
+  },
+  "accepted_vs_rejected_selection_effect_statement": "Rejected episodes are intentionally empty ambiguous controls; the gate selects valid nonempty topology instances rather than a geometrically easier subset of valid topology tasks.",
+  "all_generated_episode_count": 155,
+  "candidate_hypothesis_count_distribution": {
+    "24": 155
+  },
+  "checker_episode_rows": [
+    {
+      "border_reachability_checked": true,
+      "complete_tuple_unique": true,
+      "component_validity": true,
+      "consistent_hypotheses": [
+        {
+          "adjacency": "4_connected",
+          "barrier_color": 4,
+          "convention": "seed_reachable_recolor",
+          "marker_color_or_none": 5,
+          "output_recolor_color": 7,
+          "passable_color": 1,
+          "seed_condition_or_none": "marker_adjacent_4_connected"
+        }
+      ],
+      "consistent_hypothesis_count": 1,
+      "convention": "seed_reachable_recolor",
+      "domain_containment": true,
+      "domain_reasons": [],
+      "enclosed_region_complement_checked": true,
+      "episode_id": "golden_suite:seed_reachable_recolor:p1:o7:m5:gdiagonal_bridge_a:v0",
+      "expected_output_matches_checker": true,
+      "fixed_point_reachability_checked": true,
+      "grid_validity": true,
+      "marker_validity": true,
+      "passable_and_barrier_masks_valid": true,
+      "passed": true,
+      "query_target_unique": true,
+      "support_consistency": true,
+      "wrong_adjacency_output_differs": true
+    },
+    {
+      "border_reachability_checked": true,
+      "complete_tuple_unique": true,
+      "component_validity": true,
+      "consistent_hypotheses": [
+        {
+          "adjacency": "4_connected",
+          "barrier_color": 4,
+          "convention": "border_reachable_recolor",
+          "marker_color_or_none": null,
+          "output_recolor_color": 8,
+          "passable_color": 2,
+          "seed_condition_or_none": null
+        }
+      ],
+      "consistent_hypothesis_count": 1,
+      "convention": "border_reachable_recolor",
+      "domain_containment": true,
+      "domain_reasons": [],
+      "enclosed_region_complement_checked": true,
+      "episode_id": "golden_suite:border_reachable_recolor:p2:o8:mNone:gdiagonal_bridge_b:v1",
+      "expected_output_matches_checker": true,
+      "fixed_point_reachability_checked": true,
+      "grid_validity": true,
+      "marker_validity": true,
+      "passable_and_barrier_masks_valid": true,
+      "passed": true,
+      "query_target_unique": true,
+      "support_consistency": true,
+      "wrong_adjacency_output_differs": true
+    },
+    {
+      "border_reachability_checked": true,
+      "complete_tuple_unique": true,
+      "component_validity": true,
+      "consistent_hypotheses": [
+        {
+          "adjacency": "4_connected",
+          "barrier_color": 4,
+          "convention": "enclosed_region_recolor",
+          "marker_color_or_none": null,
+          "output_recolor_color": 7,
+          "passable_color": 3,
+          "seed_condition_or_none": null
+        }
+      ],
+      "consistent_hypothesis_count": 1,
+      "convention": "enclosed_region_recolor",
+      "domain_containment": true,
+      "domain_reasons": [],
+      "enclosed_region_complement_checked": true,
+      "episode_id": "golden_suite:enclosed_region_recolor:p3:o7:mNone:gdiagonal_bridge_c:v2",
+      "expected_output_matches_checker": true,
+      "fixed_point_reachability_checked": true,
+      "grid_validity": true,
+      "marker_validity": true,
+      "passable_and_barrier_masks_valid": true,
+      "passed": true,
+      "query_target_unique": true,
+      "support_consistency": true,
+      "wrong_adjacency_output_differs": true
+    },
+    {
+      "border_reachability_checked": true,
+      "complete_tuple_unique": true,
+      "component_validity": true,
+      "consistent_hypotheses": [
+        {
+          "adjacency": "4_connected",
+          "barrier_color": 4,
+          "convention": "seed_reachable_recolor",
+          "marker_color_or_none": 5,
+          "output_recolor_color": 7,
+          "passable_color": 1,
+          "seed_condition_or_none": "marker_adjacent_4_connected"
+        }
+      ],
+      "consistent_hypothesis_count": 1,
+      "convention": "seed_reachable_recolor",
+      "domain_containment": true,
+      "domain_reasons": [],
+      "enclosed_region_complement_checked": true,
+      "episode_id": "randomized_suite:seed_reachable_recolor:p1:o7:m5:gdiagonal_bridge_a:v0",
+      "expected_output_matches_checker": true,
+      "fixed_point_reachability_checked": true,
+      "grid_validity": true,
+      "marker_validity": true,
+      "passable_and_barrier_masks_valid": true,
+      "passed": true,
+      "query_target_unique": true,
+      "support_consistency": true,
+      "wrong_adjacency_output_differs": true
+    },
+    {
+      "border_reachability_checked": true,
+      "complete_tuple_unique": true,
+      "component_validity": true,
+      "consistent_hypotheses": [
+        {
+          "adjacency": "4_connected",
+          "barrier_color": 4,
+          "convention": "seed_reachable_recolor",
+          "marker_color_or_none": 6,
+          "output_recolor_color": 7,
+          "passable_color": 1,
+          "seed_condition_or_none": "marker_adjacent_4_connected"
+        }
+      ],
+      "consistent_hypothesis_count": 1,
+      "convention": "seed_reachable_recolor",
+      "domain_containment": true,
+      "domain_reasons": [],
+      "enclosed_region_complement_checked": true,
+      "episode_id": "randomized_suite:seed_reachable_recolor:p1:o7:m6:gdiagonal_bridge_b:v1",
+      "expected_output_matches_checker": true,
+      "fixed_point_reachability_checked": true,
+      "grid_validity": true,
+      "marker_validity": true,
+      "passable_and_barrier_masks_valid": true,
+      "passed": true,
+      "query_target_unique": true,
+      "support_consistency": true,
+      "wrong_adjacency_output_differs": true
+    },
+    {
+      "border_reachability_checked": true,
+      "complete_tuple_unique": true,
+      "component_validity": true,
+      "consistent_hypotheses": [
+        {
+          "adjacency": "4_connected",
+          "barrier_color": 4,
+          "convention": "seed_reachable_recolor",
+          "marker_color_or_none": 5,
+          "output_recolor_color": 7,
+          "passable_color": 1,
+          "seed_condition_or_none": "marker_adjacent_4_connected"
+        }
+      ],
+      "consistent_hypothesis_count": 1,
+      "convention": "seed_reachable_recolor",
+      "domain_containment": true,
+      "domain_reasons": [],
+      "enclosed_region_complement_checked": true,
+      "episode_id": "randomized_suite:seed_reachable_recolor:p1:o7:m5:gdiagonal_bridge_c:v2",
+      "expected_output_matches_checker": true,
+      "fixed_point_reachability_checked": true,
+      "grid_validity": true,
+      "marker_validity": true,
+      "passable_and_barrier_masks_valid": true,
+      "passed": true,
+      "query_target_unique": true,
+      "support_consistency": true,
+      "wrong_adjacency_output_differs": true
+    },
+    {
+      "border_reachability_checked": true,
+      "complete_tuple_unique": true,
+      "component_validity": true,
+      "consistent_hypotheses": [
+        {
+          "adjacency": "4_connected",
+          "barrier_color": 4,
+          "convention": "seed_reachable_recolor",
+          "marker_color_or_none": 6,
+          "output_recolor_color": 7,
+          "passable_color": 1,
+          "seed_condition_or_none": "marker_adjacent_4_connected"
+        }
+      ],
+      "consistent_hypothesis_count": 1,
+      "convention": "seed_reachable_recolor",
+      "domain_containment": true,
+      "domain_reasons": [],
+      "enclosed_region_complement_checked": true,
+      "episode_id": "randomized_suite:seed_reachable_recolor:p1:o7:m6:gdiagonal_bridge_d:v3",
+      "expected_output_matches_checker": true,
+      "fixed_point_reachability_checked": true,
+      "grid_validity": true,
+      "marker_validity": true,
+      "passable_and_barrier_masks_valid": true,
+      "passed": true,
+      "query_target_unique": true,
+      "support_consistency": true,
+      "wrong_adjacency_output_differs": true
+    },
+    {
+      "border_reachability_checked": true,
+      "complete_tuple_unique": true,
+      "component_validity": true,
+      "consistent_hypotheses": [
+        {
+          "adjacency": "4_connected",
+          "barrier_color": 4,
+          "convention": "seed_reachable_recolor",
+          "marker_color_or_none": 6,
+          "output_recolor_color": 8,
+          "passable_color": 1,
+          "seed_condition_or_none": "marker_adjacent_4_connected"
+        }
+      ],
+      "consistent_hypothesis_count": 1,
+      "convention": "seed_reachable_recolor",
+      "domain_containment": true,
+      "domain_reasons": [],
+      "enclosed_region_complement_checked": true,
+      "episode_id": "randomized_suite:seed_reachable_recolor:p1:o8:m6:gdiagonal_bridge_d:v7",
+      "expected_output_matches_checker": true,
+      "fixed_point_reachability_checked": true,
+      "grid_validity": true,
+      "marker_validity": true,
+      "passable_and_barrier_masks_valid": true,
+      "passed": true,
+      "query_target_unique": true,
+      "support_consistency": true,
+      "wrong_adjacency_output_differs": true
+    },
+    {
+      "border_reachability_checked": true,
+      "complete_tuple_unique": true,
+      "component_validity": true,
+      "consistent_hypotheses": [
+        {
+          "adjacency": "4_connected",
+          "barrier_color": 4,
+          "convention": "seed_reachable_recolor",
+          "marker_color_or_none": 5,
+          "output_recolor_color": 8,
+          "passable_color": 1,
+          "seed_condition_or_none": "marker_adjacent_4_connected"
+        }
+      ],
+      "consistent_hypothesis_count": 1,
+      "convention": "seed_reachable_recolor",
+      "domain_containment": true,
+      "domain_reasons": [],
+      "enclosed_region_complement_checked": true,
+      "episode_id": "randomized_suite:seed_reachable_recolor:p1:o8:m5:gdiagonal_bridge_a:v8",
+      "expected_output_matches_checker": true,
+      "fixed_point_reachability_checked": true,
+      "grid_validity": true,
+      "marker_validity": true,
+      "passable_and_barrier_masks_valid": true,
+      "passed": true,
+      "query_target_unique": true,
+      "support_consistency": true,
+      "wrong_adjacency_output_differs": true
+    },
+    {
+      "border_reachability_checked": true,
+      "complete_tuple_unique": true,
+      "component_validity": true,
+      "consistent_hypotheses": [
+        {
+          "adjacency": "4_connected",
+          "barrier_color": 4,
+          "convention": "seed_reachable_recolor",
+          "marker_color_or_none": 6,
+          "output_recolor_color": 8,
+          "passable_color": 1,
+          "seed_condition_or_none": "marker_adjacent_4_connected"
+        }
+      ],
+      "consistent_hypothesis_count": 1,
+      "convention": "seed_reachable_recolor",
+      "domain_containment": true,
+      "domain_reasons": [],
+      "enclosed_region_complement_checked": true,
+      "episode_id": "randomized_suite:seed_reachable_recolor:p1:o8:m6:gdiagonal_bridge_b:v9",
+      "expected_output_matches_checker": true,
+      "fixed_point_reachability_checked": true,
+      "grid_validity": true,
+      "marker_validity": true,
+      "passable_and_barrier_masks_valid": true,
+      "passed": true,
+      "query_target_unique": true,
+      "support_consistency": true,
+      "wrong_adjacency_output_differs": true
+    },
+    {
+      "border_reachability_checked": true,
+      "complete_tuple_unique": true,
+      "component_validity": true,
+      "consistent_hypotheses": [
+        {
+          "adjacency": "4_connected",
+          "barrier_color": 4,
+          "convention": "seed_reachable_recolor",
+          "marker_color_or_none": 5,
+          "output_recolor_color": 8,
+          "passable_color": 1,
+          "seed_condition_or_none": "marker_adjacent_4_connected"
+        }
+      ],
+      "consistent_hypothesis_count": 1,
+      "convention": "seed_reachable_recolor",
+      "domain_containment": true,
+      "domain_reasons": [],
+      "enclosed_region_complement_checked": true,
+      "episode_id": "randomized_suite:seed_reachable_recolor:p1:o8:m5:gdiagonal_bridge_c:v10",
+      "expected_output_matches_checker": true,
+      "fixed_point_reachability_checked": true,
+      "grid_validity": true,
+      "marker_validity": true,
+      "passable_and_barrier_masks_valid": true,
+      "passed": true,
+      "query_target_unique": true,
+      "support_consistency": true,
+      "wrong_adjacency_output_differs": true
+    },
+    {
+      "border_reachability_checked": true,
+      "complete_tuple_unique": true,
+      "component_validity": true,
+      "consistent_hypotheses": [
+        {
+          "adjacency": "4_connected",
+          "barrier_color": 4,
+          "convention": "seed_reachable_recolor",
+          "marker_color_or_none": 5,
+          "output_recolor_color": 7,
+          "passable_color": 2,
+          "seed_condition_or_none": "marker_adjacent_4_connected"
+        }
+      ],
+      "consistent_hypothesis_count": 1,
+      "convention": "seed_reachable_recolor",
+      "domain_containment": true,
+      "domain_reasons": [],
+      "enclosed_region_complement_checked": true,
+      "episode_id": "randomized_suite:seed_reachable_recolor:p2:o7:m5:gdiagonal_bridge_c:v14",
+      "expected_output_matches_checker": true,
+      "fixed_point_reachability_checked": true,
+      "grid_validity": true,
+      "marker_validity": true,
+      "passable_and_barrier_masks_valid": true,
+      "passed": true,
+      "query_target_unique": true,
+      "support_consistency": true,
+      "wrong_adjacency_output_differs": true
+    },
+    {
+      "border_reachability_checked": true,
+      "complete_tuple_unique": true,
+      "component_validity": true,
+      "consistent_hypotheses": [
+        {
+          "adjacency": "4_connected",
+          "barrier_color": 4,
+          "convention": "seed_reachable_recolor",
+          "marker_color_or_none": 6,
+          "output_recolor_color": 7,
+          "passable_color": 2,
+          "seed_condition_or_none": "marker_adjacent_4_connected"
+        }
+      ],
+      "consistent_hypothesis_count": 1,
+      "convention": "seed_reachable_recolor",
+      "domain_containment": true,
+      "domain_reasons": [],
+      "enclosed_region_complement_checked": true,
+      "episode_id": "randomized_suite:seed_reachable_recolor:p2:o7:m6:gdiagonal_bridge_d:v15",
+      "expected_output_matches_checker": true,
+      "fixed_point_reachability_checked": true,
+      "grid_validity": true,
+      "marker_validity": true,
+      "passable_and_barrier_masks_valid": true,
+      "passed": true,
+      "query_target_unique": true,
+      "support_consistency": true,
+      "wrong_adjacency_output_differs": true
+    },
+    {
+      "border_reachability_checked": true,
+      "complete_tuple_unique": true,
+      "component_validity": true,
+      "consistent_hypotheses": [
+        {
+          "adjacency": "4_connected",
+          "barrier_color": 4,
+          "convention": "seed_reachable_recolor",
+          "marker_color_or_none": 5,
+          "output_recolor_color": 7,
+          "passable_color": 2,
+          "seed_condition_or_none": "marker_adjacent_4_connected"
+        }
+      ],
+      "consistent_hypothesis_count": 1,
+      "convention": "seed_reachable_recolor",
+      "domain_containment": true,
+      "domain_reasons": [],
+      "enclosed_region_complement_checked": true,
+      "episode_id": "randomized_suite:seed_reachable_recolor:p2:o7:m5:gdiagonal_bridge_a:v16",
+      "expected_output_matches_checker": true,
+      "fixed_point_reachability_checked": true,
+      "grid_validity": true,
+      "marker_validity": true,
+      "passable_and_barrier_masks_valid": true,
+      "passed": true,
+      "query_target_unique": true,
+      "support_consistency": true,
+      "wrong_adjacency_output_differs": true
+    },
+    {
+      "border_reachability_checked": true,
+      "complete_tuple_unique": true,
+      "component_validity": true,
+      "consistent_hypotheses": [
+        {
+          "adjacency": "4_connected",
+          "barrier_color": 4,
+          "convention": "seed_reachable_recolor",
+          "marker_color_or_none": 6,
+          "output_recolor_color": 7,
+          "passable_color": 2,
+          "seed_condition_or_none": "marker_adjacent_4_connected"
+        }
+      ],
+      "consistent_hypothesis_count": 1,
+      "convention": "seed_reachable_recolor",
+      "domain_containment": true,
+      "domain_reasons": [],
+      "enclosed_region_complement_checked": true,
+      "episode_id": "randomized_suite:seed_reachable_recolor:p2:o7:m6:gdiagonal_bridge_b:v17",
+      "expected_output_matches_checker": true,
+      "fixed_point_reachability_checked": true,
+      "grid_validity": true,
+      "marker_validity": true,
+      "passable_and_barrier_masks_valid": true,
+      "passed": true,
+      "query_target_unique": true,
+      "support_consistency": true,
+      "wrong_adjacency_output_differs": true
+    },
+    {
+      "border_reachability_checked": true,
+      "complete_tuple_unique": true,
+      "component_validity": true,
+      "consistent_hypotheses": [
+        {
+          "adjacency": "4_connected",
+          "barrier_color": 4,
+          "convention": "seed_reachable_recolor",
+          "marker_color_or_none": 6,
+          "output_recolor_color": 8,
+          "passable_color": 2,
+          "seed_condition_or_none": "marker_adjacent_4_connected"
+        }
+      ],
+      "consistent_hypothesis_count": 1,
+      "convention": "seed_reachable_recolor",
+      "domain_containment": true,
+      "domain_reasons": [],
+      "enclosed_region_complement_checked": true,
+      "episode_id": "randomized_suite:seed_reachable_recolor:p2:o8:m6:gdiagonal_bridge_b:v21",
+      "expected_output_matches_checker": true,
+      "fixed_point_reachability_checked": true,
+      "grid_validity": true,
+      "marker_validity": true,
+      "passable_and_barrier_masks_valid": true,
+      "passed": true,
+      "query_target_unique": true,
+      "support_consistency": true,
+      "wrong_adjacency_output_differs": true
+    },
+    {
+      "border_reachability_checked": true,
+      "complete_tuple_unique": true,
+      "component_validity": true,
+      "consistent_hypotheses": [
+        {
+          "adjacency": "4_connected",
+          "barrier_color": 4,
+          "convention": "seed_reachable_recolor",
+          "marker_color_or_none": 5,
+          "output_recolor_color": 8,
+          "passable_color": 2,
+          "seed_condition_or_none": "marker_adjacent_4_connected"
+        }
+      ],
+      "consistent_hypothesis_count": 1,
+      "convention": "seed_reachable_recolor",
+      "domain_containment": true,
+      "domain_reasons": [],
+      "enclosed_region_complement_checked": true,
+      "episode_id": "randomized_suite:seed_reachable_recolor:p2:o8:m5:gdiagonal_bridge_c:v22",
+      "expected_output_matches_checker": true,
+      "fixed_point_reachability_checked": true,
+      "grid_validity": true,
+      "marker_validity": true,
+      "passable_and_barrier_masks_valid": true,
+      "passed": true,
+      "query_target_unique": true,
+      "support_consistency": true,
+      "wrong_adjacency_output_differs": true
+    },
+    {
+      "border_reachability_checked": true,
+      "complete_tuple_unique": true,
+      "component_validity": true,
+      "consistent_hypotheses": [
+        {
+          "adjacency": "4_connected",
+          "barrier_color": 4,
+          "convention": "seed_reachable_recolor",
+          "marker_color_or_none": 6,
+          "output_recolor_color": 8,
+          "passable_color": 2,
+          "seed_condition_or_none": "marker_adjacent_4_connected"
+        }
+      ],
+      "consistent_hypothesis_count": 1,
+      "convention": "seed_reachable_recolor",
+      "domain_containment": true,
+      "domain_reasons": [],
+      "enclosed_region_complement_checked": true,
+      "episode_id": "randomized_suite:seed_reachable_recolor:p2:o8:m6:gdiagonal_bridge_d:v23",
+      "expected_output_matches_checker": true,
+      "fixed_point_reachability_checked": true,
+      "grid_validity": true,
+      "marker_validity": true,
+      "passable_and_barrier_masks_valid": true,
+      "passed": true,
+      "query_target_unique": true,
+      "support_consistency": true,
+      "wrong_adjacency_output_differs": false
+    },
+    {
+      "border_reachability_checked": true,
+      "complete_tuple_unique": true,
+      "component_validity": true,
+      "consistent_hypotheses": [
+        {
+          "adjacency": "4_connected",
+          "barrier_color": 4,
+          "convention": "seed_reachable_recolor",
+          "marker_color_or_none": 5,
+          "output_recolor_color": 8,
+          "passable_color": 2,
+          "seed_condition_or_none": "marker_adjacent_4_connected"
+        }
+      ],
+      "consistent_hypothesis_count": 1,
+      "convention": "seed_reachable_recolor",
+      "domain_containment": true,
+      "domain_reasons": [],
+      "enclosed_region_complement_checked": true,
+      "episode_id": "randomized_suite:seed_reachable_recolor:p2:o8:m5:gdiagonal_bridge_a:v24",
+      "expected_output_matches_checker": true,
+      "fixed_point_reachability_checked": true,
+      "grid_validity": true,
+      "marker_validity": true,
+      "passable_and_barrier_masks_valid": true,
+      "passed": true,
+      "query_target_unique": true,
+      "support_consistency": true,
+      "wrong_adjacency_output_differs": true
+    },
+    {
+      "border_reachability_checked": true,
+      "complete_tuple_unique": true,
+      "component_validity": true,
+      "consistent_hypotheses": [
+        {
+          "adjacency": "4_connected",
+          "barrier_color": 4,
+          "convention": "seed_reachable_recolor",
+          "marker_color_or_none": 5,
+          "output_recolor_color": 7,
+          "passable_color": 3,
+          "seed_condition_or_none": "marker_adjacent_4_connected"
+        }
+      ],
+      "consistent_hypothesis_count": 1,
+      "convention": "seed_reachable_recolor",
+      "domain_containment": true,
+      "domain_reasons": [],
+      "enclosed_region_complement_checked": true,
+      "episode_id": "randomized_suite:seed_reachable_recolor:p3:o7:m5:gdiagonal_bridge_a:v28",
+      "expected_output_matches_checker": true,
+      "fixed_point_reachability_checked": true,
+      "grid_validity": true,
+      "marker_validity": true,
+      "passable_and_barrier_masks_valid": true,
+      "passed": true,
+      "query_target_unique": true,
+      "support_consistency": true,
+      "wrong_adjacency_output_differs": true
+    },
+    {
+      "border_reachability_checked": true,
+      "complete_tuple_unique": true,
+      "component_validity": true,
+      "consistent_hypotheses": [
+        {
+          "adjacency": "4_connected",
+          "barrier_color": 4,
+          "convention": "seed_reachable_recolor",
+          "marker_color_or_none": 6,
+          "output_recolor_color": 7,
+          "passable_color": 3,
+          "seed_condition_or_none": "marker_adjacent_4_connected"
+        }
+      ],
+      "consistent_hypothesis_count": 1,
+      "convention": "seed_reachable_recolor",
+      "domain_containment": true,
+      "domain_reasons": [],
+      "enclosed_region_complement_checked": true,
+      "episode_id": "randomized_suite:seed_reachable_recolor:p3:o7:m6:gdiagonal_bridge_b:v29",
+      "expected_output_matches_checker": true,
+      "fixed_point_reachability_checked": true,
+      "grid_validity": true,
+      "marker_validity": true,
+      "passable_and_barrier_masks_valid": true,
+      "passed": true,
+      "query_target_unique": true,
+      "support_consistency": true,
+      "wrong_adjacency_output_differs": true
+    },
+    {
+      "border_reachability_checked": true,
+      "complete_tuple_unique": true,
+      "component_validity": true,
+      "consistent_hypotheses": [
+        {
+          "adjacency": "4_connected",
+          "barrier_color": 4,
+          "convention": "seed_reachable_recolor",
+          "marker_color_or_none": 5,
+          "output_recolor_color": 7,
+          "passable_color": 3,
+          "seed_condition_or_none": "marker_adjacent_4_connected"
+        }
+      ],
+      "consistent_hypothesis_count": 1,
+      "convention": "seed_reachable_recolor",
+      "domain_containment": true,
+      "domain_reasons": [],
+      "enclosed_region_complement_checked": true,
+      "episode_id": "randomized_suite:seed_reachable_recolor:p3:o7:m5:gdiagonal_bridge_c:v30",
+      "expected_output_matches_checker": true,
+      "fixed_point_reachability_checked": true,
+      "grid_validity": true,
+      "marker_validity": true,
+      "passable_and_barrier_masks_valid": true,
+      "passed": true,
+      "query_target_unique": true,
+      "support_consistency": true,
+      "wrong_adjacency_output_differs": true
+    },
+    {
+      "border_reachability_checked": true,
+      "complete_tuple_unique": true,
+      "component_validity": true,
+      "consistent_hypotheses": [
+        {
+          "adjacency": "4_connected",
+          "barrier_color": 4,
+          "convention": "seed_reachable_recolor",
+          "marker_color_or_none": 6,
+          "output_recolor_color": 7,
+          "passable_color": 3,
+          "seed_condition_or_none": "marker_adjacent_4_connected"
+        }
+      ],
+      "consistent_hypothesis_count": 1,
+      "convention": "seed_reachable_recolor",
+      "domain_containment": true,
+      "domain_reasons": [],
+      "enclosed_region_complement_checked": true,
+      "episode_id": "randomized_suite:seed_reachable_recolor:p3:o7:m6:gdiagonal_bridge_d:v31",
+      "expected_output_matches_checker": true,
+      "fixed_point_reachability_checked": true,
+      "grid_validity": true,
+      "marker_validity": true,
+      "passable_and_barrier_masks_valid": true,
+      "passed": true,
+      "query_target_unique": true,
+      "support_consistency": true,
+      "wrong_adjacency_output_differs": true
+    },
+    {
+      "border_reachability_checked": true,
+      "complete_tuple_unique": true,
+      "component_validity": true,
+      "consistent_hypotheses": [
+        {
+          "adjacency": "4_connected",
+          "barrier_color": 4,
+          "convention": "seed_reachable_recolor",
+          "marker_color_or_none": 6,
+          "output_recolor_color": 8,
+          "passable_color": 3,
+          "seed_condition_or_none": "marker_adjacent_4_connected"
+        }
+      ],
+      "consistent_hypothesis_count": 1,
+      "convention": "seed_reachable_recolor",
+      "domain_containment": true,
+      "domain_reasons": [],
+      "enclosed_region_complement_checked": true,
+      "episode_id": "randomized_suite:seed_reachable_recolor:p3:o8:m6:gdiagonal_bridge_d:v35",
+      "expected_output_matches_checker": true,
+      "fixed_point_reachability_checked": true,
+      "grid_validity": true,
+      "marker_validity": true,
+      "passable_and_barrier_masks_valid": true,
+      "passed": true,
+      "query_target_unique": true,
+      "support_consistency": true,
+      "wrong_adjacency_output_differs": false
+    },
+    {
+      "border_reachability_checked": true,
+      "complete_tuple_unique": true,
+      "component_validity": true,
+      "consistent_hypotheses": [
+        {
+          "adjacency": "4_connected",
+          "barrier_color": 4,
+          "convention": "seed_reachable_recolor",
+          "marker_color_or_none": 5,
+          "output_recolor_color": 8,
+          "passable_color": 3,
+          "seed_condition_or_none": "marker_adjacent_4_connected"
+        }
+      ],
+      "consistent_hypothesis_count": 1,
+      "convention": "seed_reachable_recolor",
+      "domain_containment": true,
+      "domain_reasons": [],
+      "enclosed_region_complement_checked": true,
+      "episode_id": "randomized_suite:seed_reachable_recolor:p3:o8:m5:gdiagonal_bridge_a:v36",
+      "expected_output_matches_checker": true,
+      "fixed_point_reachability_checked": true,
+      "grid_validity": true,
+      "marker_validity": true,
+      "passable_and_barrier_masks_valid": true,
+      "passed": true,
+      "query_target_unique": true,
+      "support_consistency": true,
+      "wrong_adjacency_output_differs": true
+    },
+    {
+      "border_reachability_checked": true,
+      "complete_tuple_unique": true,
+      "component_validity": true,
+      "consistent_hypotheses": [
+        {
+          "adjacency": "4_connected",
+          "barrier_color": 4,
+          "convention": "seed_reachable_recolor",
+          "marker_color_or_none": 6,
+          "output_recolor_color": 8,
+          "passable_color": 3,
+          "seed_condition_or_none": "marker_adjacent_4_connected"
+        }
+      ],
+      "consistent_hypothesis_count": 1,
+      "convention": "seed_reachable_recolor",
+      "domain_containment": true,
+      "domain_reasons": [],
+      "enclosed_region_complement_checked": true,
+      "episode_id": "randomized_suite:seed_reachable_recolor:p3:o8:m6:gdiagonal_bridge_b:v37",
+      "expected_output_matches_checker": true,
+      "fixed_point_reachability_checked": true,
+      "grid_validity": true,
+      "marker_validity": true,
+      "passable_and_barrier_masks_valid": true,
+      "passed": true,
+      "query_target_unique": true,
+      "support_consistency": true,
+      "wrong_adjacency_output_differs": true
+    },
+    {
+      "border_reachability_checked": true,
+      "complete_tuple_unique": true,
+      "component_validity": true,
+      "consistent_hypotheses": [
+        {
+          "adjacency": "4_connected",
+          "barrier_color": 4,
+          "convention": "seed_reachable_recolor",
+          "marker_color_or_none": 5,
+          "output_recolor_color": 8,
+          "passable_color": 3,
+          "seed_condition_or_none": "marker_adjacent_4_connected"
+        }
+      ],
+      "consistent_hypothesis_count": 1,
+      "convention": "seed_reachable_recolor",
+      "domain_containment": true,
+      "domain_reasons": [],
+      "enclosed_region_complement_checked": true,
+      "episode_id": "randomized_suite:seed_reachable_recolor:p3:o8:m5:gdiagonal_bridge_c:v38",
+      "expected_output_matches_checker": true,
+      "fixed_point_reachability_checked": true,
+      "grid_validity": true,
+      "marker_validity": true,
+      "passable_and_barrier_masks_valid": true,
+      "passed": true,
+      "query_target_unique": true,
+      "support_consistency": true,
+      "wrong_adjacency_output_differs": true
+    },
+    {
+      "border_reachability_checked": true,
+      "complete_tuple_unique": true,
+      "component_validity": true,
+      "consistent_hypotheses": [
+        {
+          "adjacency": "4_connected",
+          "barrier_color": 4,
+          "convention": "border_reachable_recolor",
+          "marker_color_or_none": null,
+          "output_recolor_color": 7,
+          "passable_color": 1,
+          "seed_condition_or_none": null
+        }
+      ],
+      "consistent_hypothesis_count": 1,
+      "convention": "border_reachable_recolor",
+      "domain_containment": true,
+      "domain_reasons": [],
+      "enclosed_region_complement_checked": true,
+      "episode_id": "randomized_suite:border_reachable_recolor:p1:o7:mNone:gdiagonal_bridge_c:v42",
+      "expected_output_matches_checker": true,
+      "fixed_point_reachability_checked": true,
+      "grid_validity": true,
+      "marker_validity": true,
+      "passable_and_barrier_masks_valid": true,
+      "passed": true,
+      "query_target_unique": true,
+      "support_consistency": true,
+      "wrong_adjacency_output_differs": true
+    },
+    {
+      "border_reachability_checked": true,
+      "complete_tuple_unique": true,
+      "component_validity": true,
+      "consistent_hypotheses": [
+        {
+          "adjacency": "4_connected",
+          "barrier_color": 4,
+          "convention": "border_reachable_recolor",
+          "marker_color_or_none": null,
+          "output_recolor_color": 7,
+          "passable_color": 1,
+          "seed_condition_or_none": null
+        }
+      ],
+      "consistent_hypothesis_count": 1,
+      "convention": "border_reachable_recolor",
+      "domain_containment": true,
+      "domain_reasons": [],
+      "enclosed_region_complement_checked": true,
+      "episode_id": "randomized_suite:border_reachable_recolor:p1:o7:mNone:gdiagonal_bridge_d:v43",
+      "expected_output_matches_checker": true,
+      "fixed_point_reachability_checked": true,
+      "grid_validity": true,
+      "marker_validity": true,
+      "passable_and_barrier_masks_valid": true,
+      "passed": true,
+      "query_target_unique": true,
+      "support_consistency": true,
+      "wrong_adjacency_output_differs": true
+    },
+    {
+      "border_reachability_checked": true,
+      "complete_tuple_unique": true,
+      "component_validity": true,
+      "consistent_hypotheses": [
+        {
+          "adjacency": "4_connected",
+          "barrier_color": 4,
+          "convention": "border_reachable_recolor",
+          "marker_color_or_none": null,
+          "output_recolor_color": 7,
+          "passable_color": 1,
+          "seed_condition_or_none": null
+        }
+      ],
+      "consistent_hypothesis_count": 1,
+      "convention": "border_reachable_recolor",
+      "domain_containment": true,
+      "domain_reasons": [],
+      "enclosed_region_complement_checked": true,
+      "episode_id": "randomized_suite:border_reachable_recolor:p1:o7:mNone:gdiagonal_bridge_a:v44",
+      "expected_output_matches_checker": true,
+      "fixed_point_reachability_checked": true,
+      "grid_validity": true,
+      "marker_validity": true,
+      "passable_and_barrier_masks_valid": true,
+      "passed": true,
+      "query_target_unique": true,
+      "support_consistency": true,
+      "wrong_adjacency_output_differs": true
+    },
+    {
+      "border_reachability_checked": true,
+      "complete_tuple_unique": true,
+      "component_validity": true,
+      "consistent_hypotheses": [
+        {
+          "adjacency": "4_connected",
+          "barrier_color": 4,
+          "convention": "border_reachable_recolor",
+          "marker_color_or_none": null,
+          "output_recolor_color": 7,
+          "passable_color": 1,
+          "seed_condition_or_none": null
+        }
+      ],
+      "consistent_hypothesis_count": 1,
+      "convention": "border_reachable_recolor",
+      "domain_containment": true,
+      "domain_reasons": [],
+      "enclosed_region_complement_checked": true,
+      "episode_id": "randomized_suite:border_reachable_recolor:p1:o7:mNone:gdiagonal_bridge_b:v45",
+      "expected_output_matches_checker": true,
+      "fixed_point_reachability_checked": true,
+      "grid_validity": true,
+      "marker_validity": true,
+      "passable_and_barrier_masks_valid": true,
+      "passed": true,
+      "query_target_unique": true,
+      "support_consistency": true,
+      "wrong_adjacency_output_differs": true
+    },
+    {
+      "border_reachability_checked": true,
+      "complete_tuple_unique": true,
+      "component_validity": true,
+      "consistent_hypotheses": [
+        {
+          "adjacency": "4_connected",
+          "barrier_color": 4,
+          "convention": "border_reachable_recolor",
+          "marker_color_or_none": null,
+          "output_recolor_color": 8,
+          "passable_color": 1,
+          "seed_condition_or_none": null
+        }
+      ],
+      "consistent_hypothesis_count": 1,
+      "convention": "border_reachable_recolor",
+      "domain_containment": true,
+      "domain_reasons": [],
+      "enclosed_region_complement_checked": true,
+      "episode_id": "randomized_suite:border_reachable_recolor:p1:o8:mNone:gdiagonal_bridge_b:v49",
+      "expected_output_matches_checker": true,
+      "fixed_point_reachability_checked": true,
+      "grid_validity": true,
+      "marker_validity": true,
+      "passable_and_barrier_masks_valid": true,
+      "passed": true,
+      "query_target_unique": true,
+      "support_consistency": true,
+      "wrong_adjacency_output_differs": true
+    },
+    {
+      "border_reachability_checked": true,
+      "complete_tuple_unique": true,
+      "component_validity": true,
+      "consistent_hypotheses": [
+        {
+          "adjacency": "4_connected",
+          "barrier_color": 4,
+          "convention": "border_reachable_recolor",
+          "marker_color_or_none": null,
+          "output_recolor_color": 8,
+          "passable_color": 1,
+          "seed_condition_or_none": null
+        }
+      ],
+      "consistent_hypothesis_count": 1,
+      "convention": "border_reachable_recolor",
+      "domain_containment": true,
+      "domain_reasons": [],
+      "enclosed_region_complement_checked": true,
+      "episode_id": "randomized_suite:border_reachable_recolor:p1:o8:mNone:gdiagonal_bridge_c:v50",
+      "expected_output_matches_checker": true,
+      "fixed_point_reachability_checked": true,
+      "grid_validity": true,
+      "marker_validity": true,
+      "passable_and_barrier_masks_valid": true,
+      "passed": true,
+      "query_target_unique": true,
+      "support_consistency": true,
+      "wrong_adjacency_output_differs": true
+    },
+    {
+      "border_reachability_checked": true,
+      "complete_tuple_unique": true,
+      "component_validity": true,
+      "consistent_hypotheses": [
+        {
+          "adjacency": "4_connected",
+          "barrier_color": 4,
+          "convention": "border_reachable_recolor",
+          "marker_color_or_none": null,
+          "output_recolor_color": 8,
+          "passable_color": 1,
+          "seed_condition_or_none": null
+        }
+      ],
+      "consistent_hypothesis_count": 1,
+      "convention": "border_reachable_recolor",
+      "domain_containment": true,
+      "domain_reasons": [],
+      "enclosed_region_complement_checked": true,
+      "episode_id": "randomized_suite:border_reachable_recolor:p1:o8:mNone:gdiagonal_bridge_d:v51",
+      "expected_output_matches_checker": true,
+      "fixed_point_reachability_checked": true,
+      "grid_validity": true,
+      "marker_validity": true,
+      "passable_and_barrier_masks_valid": true,
+      "passed": true,
+      "query_target_unique": true,
+      "support_consistency": true,
+      "wrong_adjacency_output_differs": true
+    },
+    {
+      "border_reachability_checked": true,
+      "complete_tuple_unique": true,
+      "component_validity": true,
+      "consistent_hypotheses": [
+        {
+          "adjacency": "4_connected",
+          "barrier_color": 4,
+          "convention": "border_reachable_recolor",
+          "marker_color_or_none": null,
+          "output_recolor_color": 8,
+          "passable_color": 1,
+          "seed_condition_or_none": null
+        }
+      ],
+      "consistent_hypothesis_count": 1,
+      "convention": "border_reachable_recolor",
+      "domain_containment": true,
+      "domain_reasons": [],
+      "enclosed_region_complement_checked": true,
+      "episode_id": "randomized_suite:border_reachable_recolor:p1:o8:mNone:gdiagonal_bridge_a:v52",
+      "expected_output_matches_checker": true,
+      "fixed_point_reachability_checked": true,
+      "grid_validity": true,
+      "marker_validity": true,
+      "passable_and_barrier_masks_valid": true,
+      "passed": true,
+      "query_target_unique": true,
+      "support_consistency": true,
+      "wrong_adjacency_output_differs": true
+    },
+    {
+      "border_reachability_checked": true,
+      "complete_tuple_unique": true,
+      "component_validity": true,
+      "consistent_hypotheses": [
+        {
+          "adjacency": "4_connected",
+          "barrier_color": 4,
+          "convention": "border_reachable_recolor",
+          "marker_color_or_none": null,
+          "output_recolor_color": 7,
+          "passable_color": 2,
+          "seed_condition_or_none": null
+        }
+      ],
+      "consistent_hypothesis_count": 1,
+      "convention": "border_reachable_recolor",
+      "domain_containment": true,
+      "domain_reasons": [],
+      "enclosed_region_complement_checked": true,
+      "episode_id": "randomized_suite:border_reachable_recolor:p2:o7:mNone:gdiagonal_bridge_a:v56",
+      "expected_output_matches_checker": true,
+      "fixed_point_reachability_checked": true,
+      "grid_validity": true,
+      "marker_validity": true,
+      "passable_and_barrier_masks_valid": true,
+      "passed": true,
+      "query_target_unique": true,
+      "support_consistency": true,
+      "wrong_adjacency_output_differs": true
+    },
+    {
+      "border_reachability_checked": true,
+      "complete_tuple_unique": true,
+      "component_validity": true,
+      "consistent_hypotheses": [
+        {
+          "adjacency": "4_connected",
+          "barrier_color": 4,
+          "convention": "border_reachable_recolor",
+          "marker_color_or_none": null,
+          "output_recolor_color": 7,
+          "passable_color": 2,
+          "seed_condition_or_none": null
+        }
+      ],
+      "consistent_hypothesis_count": 1,
+      "convention": "border_reachable_recolor",
+      "domain_containment": true,
+      "domain_reasons": [],
+      "enclosed_region_complement_checked": true,
+      "episode_id": "randomized_suite:border_reachable_recolor:p2:o7:mNone:gdiagonal_bridge_b:v57",
+      "expected_output_matches_checker": true,
+      "fixed_point_reachability_checked": true,
+      "grid_validity": true,
+      "marker_validity": true,
+      "passable_and_barrier_masks_valid": true,
+      "passed": true,
+      "query_target_unique": true,
+      "support_consistency": true,
+      "wrong_adjacency_output_differs": true
+    },
+    {
+      "border_reachability_checked": true,
+      "complete_tuple_unique": true,
+      "component_validity": true,
+      "consistent_hypotheses": [
+        {
+          "adjacency": "4_connected",
+          "barrier_color": 4,
+          "convention": "border_reachable_recolor",
+          "marker_color_or_none": null,
+          "output_recolor_color": 7,
+          "passable_color": 2,
+          "seed_condition_or_none": null
+        }
+      ],
+      "consistent_hypothesis_count": 1,
+      "convention": "border_reachable_recolor",
+      "domain_containment": true,
+      "domain_reasons": [],
+      "enclosed_region_complement_checked": true,
+      "episode_id": "randomized_suite:border_reachable_recolor:p2:o7:mNone:gdiagonal_bridge_c:v58",
+      "expected_output_matches_checker": true,
+      "fixed_point_reachability_checked": true,
+      "grid_validity": true,
+      "marker_validity": true,
+      "passable_and_barrier_masks_valid": true,
+      "passed": true,
+      "query_target_unique": true,
+      "support_consistency": true,
+      "wrong_adjacency_output_differs": true
+    },
+    {
+      "border_reachability_checked": true,
+      "complete_tuple_unique": true,
+      "component_validity": true,
+      "consistent_hypotheses": [
+        {
+          "adjacency": "4_connected",
+          "barrier_color": 4,
+          "convention": "border_reachable_recolor",
+          "marker_color_or_none": null,
+          "output_recolor_color": 7,
+          "passable_color": 2,
+          "seed_condition_or_none": null
+        }
+      ],
+      "consistent_hypothesis_count": 1,
+      "convention": "border_reachable_recolor",
+      "domain_containment": true,
+      "domain_reasons": [],
+      "enclosed_region_complement_checked": true,
+      "episode_id": "randomized_suite:border_reachable_recolor:p2:o7:mNone:gdiagonal_bridge_d:v59",
+      "expected_output_matches_checker": true,
+      "fixed_point_reachability_checked": true,
+      "grid_validity": true,
+      "marker_validity": true,
+      "passable_and_barrier_masks_valid": true,
+      "passed": true,
+      "query_target_unique": true,
+      "support_consistency": true,
+      "wrong_adjacency_output_differs": true
+    },
+    {
+      "border_reachability_checked": true,
+      "complete_tuple_unique": true,
+      "component_validity": true,
+      "consistent_hypotheses": [
+        {
+          "adjacency": "4_connected",
+          "barrier_color": 4,
+          "convention": "border_reachable_recolor",
+          "marker_color_or_none": null,
+          "output_recolor_color": 8,
+          "passable_color": 2,
+          "seed_condition_or_none": null
+        }
+      ],
+      "consistent_hypothesis_count": 1,
+      "convention": "border_reachable_recolor",
+      "domain_containment": true,
+      "domain_reasons": [],
+      "enclosed_region_complement_checked": true,
+      "episode_id": "randomized_suite:border_reachable_recolor:p2:o8:mNone:gdiagonal_bridge_d:v63",
+      "expected_output_matches_checker": true,
+      "fixed_point_reachability_checked": true,
+      "grid_validity": true,
+      "marker_validity": true,
+      "passable_and_barrier_masks_valid": true,
+      "passed": true,
+      "query_target_unique": true,
+      "support_consistency": true,
+      "wrong_adjacency_output_differs": true
+    },
+    {
+      "border_reachability_checked": true,
+      "complete_tuple_unique": true,
+      "component_validity": true,
+      "consistent_hypotheses": [
+        {
+          "adjacency": "4_connected",
+          "barrier_color": 4,
+          "convention": "border_reachable_recolor",
+          "marker_color_or_none": null,
+          "output_recolor_color": 8,
+          "passable_color": 2,
+          "seed_condition_or_none": null
+        }
+      ],
+      "consistent_hypothesis_count": 1,
+      "convention": "border_reachable_recolor",
+      "domain_containment": true,
+      "domain_reasons": [],
+      "enclosed_region_complement_checked": true,
+      "episode_id": "randomized_suite:border_reachable_recolor:p2:o8:mNone:gdiagonal_bridge_a:v64",
+      "expected_output_matches_checker": true,
+      "fixed_point_reachability_checked": true,
+      "grid_validity": true,
+      "marker_validity": true,
+      "passable_and_barrier_masks_valid": true,
+      "passed": true,
+      "query_target_unique": true,
+      "support_consistency": true,
+      "wrong_adjacency_output_differs": true
+    },
+    {
+      "border_reachability_checked": true,
+      "complete_tuple_unique": true,
+      "component_validity": true,
+      "consistent_hypotheses": [
+        {
+          "adjacency": "4_connected",
+          "barrier_color": 4,
+          "convention": "border_reachable_recolor",
+          "marker_color_or_none": null,
+          "output_recolor_color": 8,
+          "passable_color": 2,
+          "seed_condition_or_none": null
+        }
+      ],
+      "consistent_hypothesis_count": 1,
+      "convention": "border_reachable_recolor",
+      "domain_containment": true,
+      "domain_reasons": [],
+      "enclosed_region_complement_checked": true,
+      "episode_id": "randomized_suite:border_reachable_recolor:p2:o8:mNone:gdiagonal_bridge_b:v65",
+      "expected_output_matches_checker": true,
+      "fixed_point_reachability_checked": true,
+      "grid_validity": true,
+      "marker_validity": true,
+      "passable_and_barrier_masks_valid": true,
+      "passed": true,
+      "query_target_unique": true,
+      "support_consistency": true,
+      "wrong_adjacency_output_differs": true
+    },
+    {
+      "border_reachability_checked": true,
+      "complete_tuple_unique": true,
+      "component_validity": true,
+      "consistent_hypotheses": [
+        {
+          "adjacency": "4_connected",
+          "barrier_color": 4,
+          "convention": "border_reachable_recolor",
+          "marker_color_or_none": null,
+          "output_recolor_color": 8,
+          "passable_color": 2,
+          "seed_condition_or_none": null
+        }
+      ],
+      "consistent_hypothesis_count": 1,
+      "convention": "border_reachable_recolor",
+      "domain_containment": true,
+      "domain_reasons": [],
+      "enclosed_region_complement_checked": true,
+      "episode_id": "randomized_suite:border_reachable_recolor:p2:o8:mNone:gdiagonal_bridge_c:v66",
+      "expected_output_matches_checker": true,
+      "fixed_point_reachability_checked": true,
+      "grid_validity": true,
+      "marker_validity": true,
+      "passable_and_barrier_masks_valid": true,
+      "passed": true,
+      "query_target_unique": true,
+      "support_consistency": true,
+      "wrong_adjacency_output_differs": true
+    },
+    {
+      "border_reachability_checked": true,
+      "complete_tuple_unique": true,
+      "component_validity": true,
+      "consistent_hypotheses": [
+        {
+          "adjacency": "4_connected",
+          "barrier_color": 4,
+          "convention": "border_reachable_recolor",
+          "marker_color_or_none": null,
+          "output_recolor_color": 7,
+          "passable_color": 3,
+          "seed_condition_or_none": null
+        }
+      ],
+      "consistent_hypothesis_count": 1,
+      "convention": "border_reachable_recolor",
+      "domain_containment": true,
+      "domain_reasons": [],
+      "enclosed_region_complement_checked": true,
+      "episode_id": "randomized_suite:border_reachable_recolor:p3:o7:mNone:gdiagonal_bridge_c:v70",
+      "expected_output_matches_checker": true,
+      "fixed_point_reachability_checked": true,
+      "grid_validity": true,
+      "marker_validity": true,
+      "passable_and_barrier_masks_valid": true,
+      "passed": true,
+      "query_target_unique": true,
+      "support_consistency": true,
+      "wrong_adjacency_output_differs": true
+    },
+    {
+      "border_reachability_checked": true,
+      "complete_tuple_unique": true,
+      "component_validity": true,
+      "consistent_hypotheses": [
+        {
+          "adjacency": "4_connected",
+          "barrier_color": 4,
+          "convention": "border_reachable_recolor",
+          "marker_color_or_none": null,
+          "output_recolor_color": 7,
+          "passable_color": 3,
+          "seed_condition_or_none": null
+        }
+      ],
+      "consistent_hypothesis_count": 1,
+      "convention": "border_reachable_recolor",
+      "domain_containment": true,
+      "domain_reasons": [],
+      "enclosed_region_complement_checked": true,
+      "episode_id": "randomized_suite:border_reachable_recolor:p3:o7:mNone:gdiagonal_bridge_d:v71",
+      "expected_output_matches_checker": true,
+      "fixed_point_reachability_checked": true,
+      "grid_validity": true,
+      "marker_validity": true,
+      "passable_and_barrier_masks_valid": true,
+      "passed": true,
+      "query_target_unique": true,
+      "support_consistency": true,
+      "wrong_adjacency_output_differs": true
+    },
+    {
+      "border_reachability_checked": true,
+      "complete_tuple_unique": true,
+      "component_validity": true,
+      "consistent_hypotheses": [
+        {
+          "adjacency": "4_connected",
+          "barrier_color": 4,
+          "convention": "border_reachable_recolor",
+          "marker_color_or_none": null,
+          "output_recolor_color": 7,
+          "passable_color": 3,
+          "seed_condition_or_none": null
+        }
+      ],
+      "consistent_hypothesis_count": 1,
+      "convention": "border_reachable_recolor",
+      "domain_containment": true,
+      "domain_reasons": [],
+      "enclosed_region_complement_checked": true,
+      "episode_id": "randomized_suite:border_reachable_recolor:p3:o7:mNone:gdiagonal_bridge_a:v72",
+      "expected_output_matches_checker": true,
+      "fixed_point_reachability_checked": true,
+      "grid_validity": true,
+      "marker_validity": true,
+      "passable_and_barrier_masks_valid": true,
+      "passed": true,
+      "query_target_unique": true,
+      "support_consistency": true,
+      "wrong_adjacency_output_differs": true
+    },
+    {
+      "border_reachability_checked": true,
+      "complete_tuple_unique": true,
+      "component_validity": true,
+      "consistent_hypotheses": [
+        {
+          "adjacency": "4_connected",
+          "barrier_color": 4,
+          "convention": "border_reachable_recolor",
+          "marker_color_or_none": null,
+          "output_recolor_color": 7,
+          "passable_color": 3,
+          "seed_condition_or_none": null
+        }
+      ],
+      "consistent_hypothesis_count": 1,
+      "convention": "border_reachable_recolor",
+      "domain_containment": true,
+      "domain_reasons": [],
+      "enclosed_region_complement_checked": true,
+      "episode_id": "randomized_suite:border_reachable_recolor:p3:o7:mNone:gdiagonal_bridge_b:v73",
+      "expected_output_matches_checker": true,
+      "fixed_point_reachability_checked": true,
+      "grid_validity": true,
+      "marker_validity": true,
+      "passable_and_barrier_masks_valid": true,
+      "passed": true,
+      "query_target_unique": true,
+      "support_consistency": true,
+      "wrong_adjacency_output_differs": true
+    },
+    {
+      "border_reachability_checked": true,
+      "complete_tuple_unique": true,
+      "component_validity": true,
+      "consistent_hypotheses": [
+        {
+          "adjacency": "4_connected",
+          "barrier_color": 4,
+          "convention": "border_reachable_recolor",
+          "marker_color_or_none": null,
+          "output_recolor_color": 8,
+          "passable_color": 3,
+          "seed_condition_or_none": null
+        }
+      ],
+      "consistent_hypothesis_count": 1,
+      "convention": "border_reachable_recolor",
+      "domain_containment": true,
+      "domain_reasons": [],
+      "enclosed_region_complement_checked": true,
+      "episode_id": "randomized_suite:border_reachable_recolor:p3:o8:mNone:gdiagonal_bridge_b:v77",
+      "expected_output_matches_checker": true,
+      "fixed_point_reachability_checked": true,
+      "grid_validity": true,
+      "marker_validity": true,
+      "passable_and_barrier_masks_valid": true,
+      "passed": true,
+      "query_target_unique": true,
+      "support_consistency": true,
+      "wrong_adjacency_output_differs": true
+    },
+    {
+      "border_reachability_checked": true,
+      "complete_tuple_unique": true,
+      "component_validity": true,
+      "consistent_hypotheses": [
+        {
+          "adjacency": "4_connected",
+          "barrier_color": 4,
+          "convention": "border_reachable_recolor",
+          "marker_color_or_none": null,
+          "output_recolor_color": 8,
+          "passable_color": 3,
+          "seed_condition_or_none": null
+        }
+      ],
+      "consistent_hypothesis_count": 1,
+      "convention": "border_reachable_recolor",
+      "domain_containment": true,
+      "domain_reasons": [],
+      "enclosed_region_complement_checked": true,
+      "episode_id": "randomized_suite:border_reachable_recolor:p3:o8:mNone:gdiagonal_bridge_c:v78",
+      "expected_output_matches_checker": true,
+      "fixed_point_reachability_checked": true,
+      "grid_validity": true,
+      "marker_validity": true,
+      "passable_and_barrier_masks_valid": true,
+      "passed": true,
+      "query_target_unique": true,
+      "support_consistency": true,
+      "wrong_adjacency_output_differs": true
+    },
+    {
+      "border_reachability_checked": true,
+      "complete_tuple_unique": true,
+      "component_validity": true,
+      "consistent_hypotheses": [
+        {
+          "adjacency": "4_connected",
+          "barrier_color": 4,
+          "convention": "border_reachable_recolor",
+          "marker_color_or_none": null,
+          "output_recolor_color": 8,
+          "passable_color": 3,
+          "seed_condition_or_none": null
+        }
+      ],
+      "consistent_hypothesis_count": 1,
+      "convention": "border_reachable_recolor",
+      "domain_containment": true,
+      "domain_reasons": [],
+      "enclosed_region_complement_checked": true,
+      "episode_id": "randomized_suite:border_reachable_recolor:p3:o8:mNone:gdiagonal_bridge_d:v79",
+      "expected_output_matches_checker": true,
+      "fixed_point_reachability_checked": true,
+      "grid_validity": true,
+      "marker_validity": true,
+      "passable_and_barrier_masks_valid": true,
+      "passed": true,
+      "query_target_unique": true,
+      "support_consistency": true,
+      "wrong_adjacency_output_differs": true
+    },
+    {
+      "border_reachability_checked": true,
+      "complete_tuple_unique": true,
+      "component_validity": true,
+      "consistent_hypotheses": [
+        {
+          "adjacency": "4_connected",
+          "barrier_color": 4,
+          "convention": "border_reachable_recolor",
+          "marker_color_or_none": null,
+          "output_recolor_color": 8,
+          "passable_color": 3,
+          "seed_condition_or_none": null
+        }
+      ],
+      "consistent_hypothesis_count": 1,
+      "convention": "border_reachable_recolor",
+      "domain_containment": true,
+      "domain_reasons": [],
+      "enclosed_region_complement_checked": true,
+      "episode_id": "randomized_suite:border_reachable_recolor:p3:o8:mNone:gdiagonal_bridge_a:v80",
+      "expected_output_matches_checker": true,
+      "fixed_point_reachability_checked": true,
+      "grid_validity": true,
+      "marker_validity": true,
+      "passable_and_barrier_masks_valid": true,
+      "passed": true,
+      "query_target_unique": true,
+      "support_consistency": true,
+      "wrong_adjacency_output_differs": true
+    },
+    {
+      "border_reachability_checked": true,
+      "complete_tuple_unique": true,
+      "component_validity": true,
+      "consistent_hypotheses": [
+        {
+          "adjacency": "4_connected",
+          "barrier_color": 4,
+          "convention": "enclosed_region_recolor",
+          "marker_color_or_none": null,
+          "output_recolor_color": 7,
+          "passable_color": 1,
+          "seed_condition_or_none": null
+        }
+      ],
+      "consistent_hypothesis_count": 1,
+      "convention": "enclosed_region_recolor",
+      "domain_containment": true,
+      "domain_reasons": [],
+      "enclosed_region_complement_checked": true,
+      "episode_id": "randomized_suite:enclosed_region_recolor:p1:o7:mNone:gdiagonal_bridge_a:v84",
+      "expected_output_matches_checker": true,
+      "fixed_point_reachability_checked": true,
+      "grid_validity": true,
+      "marker_validity": true,
+      "passable_and_barrier_masks_valid": true,
+      "passed": true,
+      "query_target_unique": true,
+      "support_consistency": true,
+      "wrong_adjacency_output_differs": true
+    },
+    {
+      "border_reachability_checked": true,
+      "complete_tuple_unique": true,
+      "component_validity": true,
+      "consistent_hypotheses": [
+        {
+          "adjacency": "4_connected",
+          "barrier_color": 4,
+          "convention": "enclosed_region_recolor",
+          "marker_color_or_none": null,
+          "output_recolor_color": 7,
+          "passable_color": 1,
+          "seed_condition_or_none": null
+        }
+      ],
+      "consistent_hypothesis_count": 1,
+      "convention": "enclosed_region_recolor",
+      "domain_containment": true,
+      "domain_reasons": [],
+      "enclosed_region_complement_checked": true,
+      "episode_id": "randomized_suite:enclosed_region_recolor:p1:o7:mNone:gdiagonal_bridge_b:v85",
+      "expected_output_matches_checker": true,
+      "fixed_point_reachability_checked": true,
+      "grid_validity": true,
+      "marker_validity": true,
+      "passable_and_barrier_masks_valid": true,
+      "passed": true,
+      "query_target_unique": true,
+      "support_consistency": true,
+      "wrong_adjacency_output_differs": true
+    },
+    {
+      "border_reachability_checked": true,
+      "complete_tuple_unique": true,
+      "component_validity": true,
+      "consistent_hypotheses": [
+        {
+          "adjacency": "4_connected",
+          "barrier_color": 4,
+          "convention": "enclosed_region_recolor",
+          "marker_color_or_none": null,
+          "output_recolor_color": 7,
+          "passable_color": 1,
+          "seed_condition_or_none": null
+        }
+      ],
+      "consistent_hypothesis_count": 1,
+      "convention": "enclosed_region_recolor",
+      "domain_containment": true,
+      "domain_reasons": [],
+      "enclosed_region_complement_checked": true,
+      "episode_id": "randomized_suite:enclosed_region_recolor:p1:o7:mNone:gdiagonal_bridge_c:v86",
+      "expected_output_matches_checker": true,
+      "fixed_point_reachability_checked": true,
+      "grid_validity": true,
+      "marker_validity": true,
+      "passable_and_barrier_masks_valid": true,
+      "passed": true,
+      "query_target_unique": true,
+      "support_consistency": true,
+      "wrong_adjacency_output_differs": true
+    },
+    {
+      "border_reachability_checked": true,
+      "complete_tuple_unique": true,
+      "component_validity": true,
+      "consistent_hypotheses": [
+        {
+          "adjacency": "4_connected",
+          "barrier_color": 4,
+          "convention": "enclosed_region_recolor",
+          "marker_color_or_none": null,
+          "output_recolor_color": 7,
+          "passable_color": 1,
+          "seed_condition_or_none": null
+        }
+      ],
+      "consistent_hypothesis_count": 1,
+      "convention": "enclosed_region_recolor",
+      "domain_containment": true,
+      "domain_reasons": [],
+      "enclosed_region_complement_checked": true,
+      "episode_id": "randomized_suite:enclosed_region_recolor:p1:o7:mNone:gdiagonal_bridge_d:v87",
+      "expected_output_matches_checker": true,
+      "fixed_point_reachability_checked": true,
+      "grid_validity": true,
+      "marker_validity": true,
+      "passable_and_barrier_masks_valid": true,
+      "passed": true,
+      "query_target_unique": true,
+      "support_consistency": true,
+      "wrong_adjacency_output_differs": true
+    },
+    {
+      "border_reachability_checked": true,
+      "complete_tuple_unique": true,
+      "component_validity": true,
+      "consistent_hypotheses": [
+        {
+          "adjacency": "4_connected",
+          "barrier_color": 4,
+          "convention": "enclosed_region_recolor",
+          "marker_color_or_none": null,
+          "output_recolor_color": 8,
+          "passable_color": 1,
+          "seed_condition_or_none": null
+        }
+      ],
+      "consistent_hypothesis_count": 1,
+      "convention": "enclosed_region_recolor",
+      "domain_containment": true,
+      "domain_reasons": [],
+      "enclosed_region_complement_checked": true,
+      "episode_id": "randomized_suite:enclosed_region_recolor:p1:o8:mNone:gdiagonal_bridge_d:v91",
+      "expected_output_matches_checker": true,
+      "fixed_point_reachability_checked": true,
+      "grid_validity": true,
+      "marker_validity": true,
+      "passable_and_barrier_masks_valid": true,
+      "passed": true,
+      "query_target_unique": true,
+      "support_consistency": true,
+      "wrong_adjacency_output_differs": true
+    },
+    {
+      "border_reachability_checked": true,
+      "complete_tuple_unique": true,
+      "component_validity": true,
+      "consistent_hypotheses": [
+        {
+          "adjacency": "4_connected",
+          "barrier_color": 4,
+          "convention": "enclosed_region_recolor",
+          "marker_color_or_none": null,
+          "output_recolor_color": 8,
+          "passable_color": 1,
+          "seed_condition_or_none": null
+        }
+      ],
+      "consistent_hypothesis_count": 1,
+      "convention": "enclosed_region_recolor",
+      "domain_containment": true,
+      "domain_reasons": [],
+      "enclosed_region_complement_checked": true,
+      "episode_id": "randomized_suite:enclosed_region_recolor:p1:o8:mNone:gdiagonal_bridge_a:v92",
+      "expected_output_matches_checker": true,
+      "fixed_point_reachability_checked": true,
+      "grid_validity": true,
+      "marker_validity": true,
+      "passable_and_barrier_masks_valid": true,
+      "passed": true,
+      "query_target_unique": true,
+      "support_consistency": true,
+      "wrong_adjacency_output_differs": true
+    },
+    {
+      "border_reachability_checked": true,
+      "complete_tuple_unique": true,
+      "component_validity": true,
+      "consistent_hypotheses": [
+        {
+          "adjacency": "4_connected",
+          "barrier_color": 4,
+          "convention": "enclosed_region_recolor",
+          "marker_color_or_none": null,
+          "output_recolor_color": 8,
+          "passable_color": 1,
+          "seed_condition_or_none": null
+        }
+      ],
+      "consistent_hypothesis_count": 1,
+      "convention": "enclosed_region_recolor",
+      "domain_containment": true,
+      "domain_reasons": [],
+      "enclosed_region_complement_checked": true,
+      "episode_id": "randomized_suite:enclosed_region_recolor:p1:o8:mNone:gdiagonal_bridge_b:v93",
+      "expected_output_matches_checker": true,
+      "fixed_point_reachability_checked": true,
+      "grid_validity": true,
+      "marker_validity": true,
+      "passable_and_barrier_masks_valid": true,
+      "passed": true,
+      "query_target_unique": true,
+      "support_consistency": true,
+      "wrong_adjacency_output_differs": true
+    },
+    {
+      "border_reachability_checked": true,
+      "complete_tuple_unique": true,
+      "component_validity": true,
+      "consistent_hypotheses": [
+        {
+          "adjacency": "4_connected",
+          "barrier_color": 4,
+          "convention": "enclosed_region_recolor",
+          "marker_color_or_none": null,
+          "output_recolor_color": 8,
+          "passable_color": 1,
+          "seed_condition_or_none": null
+        }
+      ],
+      "consistent_hypothesis_count": 1,
+      "convention": "enclosed_region_recolor",
+      "domain_containment": true,
+      "domain_reasons": [],
+      "enclosed_region_complement_checked": true,
+      "episode_id": "randomized_suite:enclosed_region_recolor:p1:o8:mNone:gdiagonal_bridge_c:v94",
+      "expected_output_matches_checker": true,
+      "fixed_point_reachability_checked": true,
+      "grid_validity": true,
+      "marker_validity": true,
+      "passable_and_barrier_masks_valid": true,
+      "passed": true,
+      "query_target_unique": true,
+      "support_consistency": true,
+      "wrong_adjacency_output_differs": true
+    },
+    {
+      "border_reachability_checked": true,
+      "complete_tuple_unique": true,
+      "component_validity": true,
+      "consistent_hypotheses": [
+        {
+          "adjacency": "4_connected",
+          "barrier_color": 4,
+          "convention": "enclosed_region_recolor",
+          "marker_color_or_none": null,
+          "output_recolor_color": 7,
+          "passable_color": 2,
+          "seed_condition_or_none": null
+        }
+      ],
+      "consistent_hypothesis_count": 1,
+      "convention": "enclosed_region_recolor",
+      "domain_containment": true,
+      "domain_reasons": [],
+      "enclosed_region_complement_checked": true,
+      "episode_id": "randomized_suite:enclosed_region_recolor:p2:o7:mNone:gdiagonal_bridge_c:v98",
+      "expected_output_matches_checker": true,
+      "fixed_point_reachability_checked": true,
+      "grid_validity": true,
+      "marker_validity": true,
+      "passable_and_barrier_masks_valid": true,
+      "passed": true,
+      "query_target_unique": true,
+      "support_consistency": true,
+      "wrong_adjacency_output_differs": true
+    },
+    {
+      "border_reachability_checked": true,
+      "complete_tuple_unique": true,
+      "component_validity": true,
+      "consistent_hypotheses": [
+        {
+          "adjacency": "4_connected",
+          "barrier_color": 4,
+          "convention": "enclosed_region_recolor",
+          "marker_color_or_none": null,
+          "output_recolor_color": 7,
+          "passable_color": 2,
+          "seed_condition_or_none": null
+        }
+      ],
+      "consistent_hypothesis_count": 1,
+      "convention": "enclosed_region_recolor",
+      "domain_containment": true,
+      "domain_reasons": [],
+      "enclosed_region_complement_checked": true,
+      "episode_id": "randomized_suite:enclosed_region_recolor:p2:o7:mNone:gdiagonal_bridge_d:v99",
+      "expected_output_matches_checker": true,
+      "fixed_point_reachability_checked": true,
+      "grid_validity": true,
+      "marker_validity": true,
+      "passable_and_barrier_masks_valid": true,
+      "passed": true,
+      "query_target_unique": true,
+      "support_consistency": true,
+      "wrong_adjacency_output_differs": true
+    },
+    {
+      "border_reachability_checked": true,
+      "complete_tuple_unique": true,
+      "component_validity": true,
+      "consistent_hypotheses": [
+        {
+          "adjacency": "4_connected",
+          "barrier_color": 4,
+          "convention": "enclosed_region_recolor",
+          "marker_color_or_none": null,
+          "output_recolor_color": 7,
+          "passable_color": 2,
+          "seed_condition_or_none": null
+        }
+      ],
+      "consistent_hypothesis_count": 1,
+      "convention": "enclosed_region_recolor",
+      "domain_containment": true,
+      "domain_reasons": [],
+      "enclosed_region_complement_checked": true,
+      "episode_id": "randomized_suite:enclosed_region_recolor:p2:o7:mNone:gdiagonal_bridge_a:v100",
+      "expected_output_matches_checker": true,
+      "fixed_point_reachability_checked": true,
+      "grid_validity": true,
+      "marker_validity": true,
+      "passable_and_barrier_masks_valid": true,
+      "passed": true,
+      "query_target_unique": true,
+      "support_consistency": true,
+      "wrong_adjacency_output_differs": true
+    },
+    {
+      "border_reachability_checked": true,
+      "complete_tuple_unique": true,
+      "component_validity": true,
+      "consistent_hypotheses": [
+        {
+          "adjacency": "4_connected",
+          "barrier_color": 4,
+          "convention": "enclosed_region_recolor",
+          "marker_color_or_none": null,
+          "output_recolor_color": 7,
+          "passable_color": 2,
+          "seed_condition_or_none": null
+        }
+      ],
+      "consistent_hypothesis_count": 1,
+      "convention": "enclosed_region_recolor",
+      "domain_containment": true,
+      "domain_reasons": [],
+      "enclosed_region_complement_checked": true,
+      "episode_id": "randomized_suite:enclosed_region_recolor:p2:o7:mNone:gdiagonal_bridge_b:v101",
+      "expected_output_matches_checker": true,
+      "fixed_point_reachability_checked": true,
+      "grid_validity": true,
+      "marker_validity": true,
+      "passable_and_barrier_masks_valid": true,
+      "passed": true,
+      "query_target_unique": true,
+      "support_consistency": true,
+      "wrong_adjacency_output_differs": true
+    },
+    {
+      "border_reachability_checked": true,
+      "complete_tuple_unique": true,
+      "component_validity": true,
+      "consistent_hypotheses": [
+        {
+          "adjacency": "4_connected",
+          "barrier_color": 4,
+          "convention": "enclosed_region_recolor",
+          "marker_color_or_none": null,
+          "output_recolor_color": 8,
+          "passable_color": 2,
+          "seed_condition_or_none": null
+        }
+      ],
+      "consistent_hypothesis_count": 1,
+      "convention": "enclosed_region_recolor",
+      "domain_containment": true,
+      "domain_reasons": [],
+      "enclosed_region_complement_checked": true,
+      "episode_id": "randomized_suite:enclosed_region_recolor:p2:o8:mNone:gdiagonal_bridge_b:v105",
+      "expected_output_matches_checker": true,
+      "fixed_point_reachability_checked": true,
+      "grid_validity": true,
+      "marker_validity": true,
+      "passable_and_barrier_masks_valid": true,
+      "passed": true,
+      "query_target_unique": true,
+      "support_consistency": true,
+      "wrong_adjacency_output_differs": true
+    },
+    {
+      "border_reachability_checked": true,
+      "complete_tuple_unique": true,
+      "component_validity": true,
+      "consistent_hypotheses": [
+        {
+          "adjacency": "4_connected",
+          "barrier_color": 4,
+          "convention": "enclosed_region_recolor",
+          "marker_color_or_none": null,
+          "output_recolor_color": 8,
+          "passable_color": 2,
+          "seed_condition_or_none": null
+        }
+      ],
+      "consistent_hypothesis_count": 1,
+      "convention": "enclosed_region_recolor",
+      "domain_containment": true,
+      "domain_reasons": [],
+      "enclosed_region_complement_checked": true,
+      "episode_id": "randomized_suite:enclosed_region_recolor:p2:o8:mNone:gdiagonal_bridge_c:v106",
+      "expected_output_matches_checker": true,
+      "fixed_point_reachability_checked": true,
+      "grid_validity": true,
+      "marker_validity": true,
+      "passable_and_barrier_masks_valid": true,
+      "passed": true,
+      "query_target_unique": true,
+      "support_consistency": true,
+      "wrong_adjacency_output_differs": true
+    },
+    {
+      "border_reachability_checked": true,
+      "complete_tuple_unique": true,
+      "component_validity": true,
+      "consistent_hypotheses": [
+        {
+          "adjacency": "4_connected",
+          "barrier_color": 4,
+          "convention": "enclosed_region_recolor",
+          "marker_color_or_none": null,
+          "output_recolor_color": 8,
+          "passable_color": 2,
+          "seed_condition_or_none": null
+        }
+      ],
+      "consistent_hypothesis_count": 1,
+      "convention": "enclosed_region_recolor",
+      "domain_containment": true,
+      "domain_reasons": [],
+      "enclosed_region_complement_checked": true,
+      "episode_id": "randomized_suite:enclosed_region_recolor:p2:o8:mNone:gdiagonal_bridge_d:v107",
+      "expected_output_matches_checker": true,
+      "fixed_point_reachability_checked": true,
+      "grid_validity": true,
+      "marker_validity": true,
+      "passable_and_barrier_masks_valid": true,
+      "passed": true,
+      "query_target_unique": true,
+      "support_consistency": true,
+      "wrong_adjacency_output_differs": true
+    },
+    {
+      "border_reachability_checked": true,
+      "complete_tuple_unique": true,
+      "component_validity": true,
+      "consistent_hypotheses": [
+        {
+          "adjacency": "4_connected",
+          "barrier_color": 4,
+          "convention": "enclosed_region_recolor",
+          "marker_color_or_none": null,
+          "output_recolor_color": 8,
+          "passable_color": 2,
+          "seed_condition_or_none": null
+        }
+      ],
+      "consistent_hypothesis_count": 1,
+      "convention": "enclosed_region_recolor",
+      "domain_containment": true,
+      "domain_reasons": [],
+      "enclosed_region_complement_checked": true,
+      "episode_id": "randomized_suite:enclosed_region_recolor:p2:o8:mNone:gdiagonal_bridge_a:v108",
+      "expected_output_matches_checker": true,
+      "fixed_point_reachability_checked": true,
+      "grid_validity": true,
+      "marker_validity": true,
+      "passable_and_barrier_masks_valid": true,
+      "passed": true,
+      "query_target_unique": true,
+      "support_consistency": true,
+      "wrong_adjacency_output_differs": true
+    },
+    {
+      "border_reachability_checked": true,
+      "complete_tuple_unique": true,
+      "component_validity": true,
+      "consistent_hypotheses": [
+        {
+          "adjacency": "4_connected",
+          "barrier_color": 4,
+          "convention": "enclosed_region_recolor",
+          "marker_color_or_none": null,
+          "output_recolor_color": 7,
+          "passable_color": 3,
+          "seed_condition_or_none": null
+        }
+      ],
+      "consistent_hypothesis_count": 1,
+      "convention": "enclosed_region_recolor",
+      "domain_containment": true,
+      "domain_reasons": [],
+      "enclosed_region_complement_checked": true,
+      "episode_id": "randomized_suite:enclosed_region_recolor:p3:o7:mNone:gdiagonal_bridge_a:v112",
+      "expected_output_matches_checker": true,
+      "fixed_point_reachability_checked": true,
+      "grid_validity": true,
+      "marker_validity": true,
+      "passable_and_barrier_masks_valid": true,
+      "passed": true,
+      "query_target_unique": true,
+      "support_consistency": true,
+      "wrong_adjacency_output_differs": true
+    },
+    {
+      "border_reachability_checked": true,
+      "complete_tuple_unique": true,
+      "component_validity": true,
+      "consistent_hypotheses": [
+        {
+          "adjacency": "4_connected",
+          "barrier_color": 4,
+          "convention": "enclosed_region_recolor",
+          "marker_color_or_none": null,
+          "output_recolor_color": 7,
+          "passable_color": 3,
+          "seed_condition_or_none": null
+        }
+      ],
+      "consistent_hypothesis_count": 1,
+      "convention": "enclosed_region_recolor",
+      "domain_containment": true,
+      "domain_reasons": [],
+      "enclosed_region_complement_checked": true,
+      "episode_id": "randomized_suite:enclosed_region_recolor:p3:o7:mNone:gdiagonal_bridge_b:v113",
+      "expected_output_matches_checker": true,
+      "fixed_point_reachability_checked": true,
+      "grid_validity": true,
+      "marker_validity": true,
+      "passable_and_barrier_masks_valid": true,
+      "passed": true,
+      "query_target_unique": true,
+      "support_consistency": true,
+      "wrong_adjacency_output_differs": true
+    },
+    {
+      "border_reachability_checked": true,
+      "complete_tuple_unique": true,
+      "component_validity": true,
+      "consistent_hypotheses": [
+        {
+          "adjacency": "4_connected",
+          "barrier_color": 4,
+          "convention": "enclosed_region_recolor",
+          "marker_color_or_none": null,
+          "output_recolor_color": 7,
+          "passable_color": 3,
+          "seed_condition_or_none": null
+        }
+      ],
+      "consistent_hypothesis_count": 1,
+      "convention": "enclosed_region_recolor",
+      "domain_containment": true,
+      "domain_reasons": [],
+      "enclosed_region_complement_checked": true,
+      "episode_id": "randomized_suite:enclosed_region_recolor:p3:o7:mNone:gdiagonal_bridge_c:v114",
+      "expected_output_matches_checker": true,
+      "fixed_point_reachability_checked": true,
+      "grid_validity": true,
+      "marker_validity": true,
+      "passable_and_barrier_masks_valid": true,
+      "passed": true,
+      "query_target_unique": true,
+      "support_consistency": true,
+      "wrong_adjacency_output_differs": true
+    },
+    {
+      "border_reachability_checked": true,
+      "complete_tuple_unique": true,
+      "component_validity": true,
+      "consistent_hypotheses": [
+        {
+          "adjacency": "4_connected",
+          "barrier_color": 4,
+          "convention": "enclosed_region_recolor",
+          "marker_color_or_none": null,
+          "output_recolor_color": 7,
+          "passable_color": 3,
+          "seed_condition_or_none": null
+        }
+      ],
+      "consistent_hypothesis_count": 1,
+      "convention": "enclosed_region_recolor",
+      "domain_containment": true,
+      "domain_reasons": [],
+      "enclosed_region_complement_checked": true,
+      "episode_id": "randomized_suite:enclosed_region_recolor:p3:o7:mNone:gdiagonal_bridge_d:v115",
+      "expected_output_matches_checker": true,
+      "fixed_point_reachability_checked": true,
+      "grid_validity": true,
+      "marker_validity": true,
+      "passable_and_barrier_masks_valid": true,
+      "passed": true,
+      "query_target_unique": true,
+      "support_consistency": true,
+      "wrong_adjacency_output_differs": true
+    },
+    {
+      "border_reachability_checked": true,
+      "complete_tuple_unique": true,
+      "component_validity": true,
+      "consistent_hypotheses": [
+        {
+          "adjacency": "4_connected",
+          "barrier_color": 4,
+          "convention": "enclosed_region_recolor",
+          "marker_color_or_none": null,
+          "output_recolor_color": 8,
+          "passable_color": 3,
+          "seed_condition_or_none": null
+        }
+      ],
+      "consistent_hypothesis_count": 1,
+      "convention": "enclosed_region_recolor",
+      "domain_containment": true,
+      "domain_reasons": [],
+      "enclosed_region_complement_checked": true,
+      "episode_id": "randomized_suite:enclosed_region_recolor:p3:o8:mNone:gdiagonal_bridge_d:v119",
+      "expected_output_matches_checker": true,
+      "fixed_point_reachability_checked": true,
+      "grid_validity": true,
+      "marker_validity": true,
+      "passable_and_barrier_masks_valid": true,
+      "passed": true,
+      "query_target_unique": true,
+      "support_consistency": true,
+      "wrong_adjacency_output_differs": true
+    },
+    {
+      "border_reachability_checked": true,
+      "complete_tuple_unique": true,
+      "component_validity": true,
+      "consistent_hypotheses": [
+        {
+          "adjacency": "4_connected",
+          "barrier_color": 4,
+          "convention": "enclosed_region_recolor",
+          "marker_color_or_none": null,
+          "output_recolor_color": 8,
+          "passable_color": 3,
+          "seed_condition_or_none": null
+        }
+      ],
+      "consistent_hypothesis_count": 1,
+      "convention": "enclosed_region_recolor",
+      "domain_containment": true,
+      "domain_reasons": [],
+      "enclosed_region_complement_checked": true,
+      "episode_id": "randomized_suite:enclosed_region_recolor:p3:o8:mNone:gdiagonal_bridge_a:v120",
+      "expected_output_matches_checker": true,
+      "fixed_point_reachability_checked": true,
+      "grid_validity": true,
+      "marker_validity": true,
+      "passable_and_barrier_masks_valid": true,
+      "passed": true,
+      "query_target_unique": true,
+      "support_consistency": true,
+      "wrong_adjacency_output_differs": true
+    },
+    {
+      "border_reachability_checked": true,
+      "complete_tuple_unique": true,
+      "component_validity": true,
+      "consistent_hypotheses": [
+        {
+          "adjacency": "4_connected",
+          "barrier_color": 4,
+          "convention": "enclosed_region_recolor",
+          "marker_color_or_none": null,
+          "output_recolor_color": 8,
+          "passable_color": 3,
+          "seed_condition_or_none": null
+        }
+      ],
+      "consistent_hypothesis_count": 1,
+      "convention": "enclosed_region_recolor",
+      "domain_containment": true,
+      "domain_reasons": [],
+      "enclosed_region_complement_checked": true,
+      "episode_id": "randomized_suite:enclosed_region_recolor:p3:o8:mNone:gdiagonal_bridge_b:v121",
+      "expected_output_matches_checker": true,
+      "fixed_point_reachability_checked": true,
+      "grid_validity": true,
+      "marker_validity": true,
+      "passable_and_barrier_masks_valid": true,
+      "passed": true,
+      "query_target_unique": true,
+      "support_consistency": true,
+      "wrong_adjacency_output_differs": true
+    },
+    {
+      "border_reachability_checked": true,
+      "complete_tuple_unique": true,
+      "component_validity": true,
+      "consistent_hypotheses": [
+        {
+          "adjacency": "4_connected",
+          "barrier_color": 4,
+          "convention": "enclosed_region_recolor",
+          "marker_color_or_none": null,
+          "output_recolor_color": 8,
+          "passable_color": 3,
+          "seed_condition_or_none": null
+        }
+      ],
+      "consistent_hypothesis_count": 1,
+      "convention": "enclosed_region_recolor",
+      "domain_containment": true,
+      "domain_reasons": [],
+      "enclosed_region_complement_checked": true,
+      "episode_id": "randomized_suite:enclosed_region_recolor:p3:o8:mNone:gdiagonal_bridge_c:v122",
+      "expected_output_matches_checker": true,
+      "fixed_point_reachability_checked": true,
+      "grid_validity": true,
+      "marker_validity": true,
+      "passable_and_barrier_masks_valid": true,
+      "passed": true,
+      "query_target_unique": true,
+      "support_consistency": true,
+      "wrong_adjacency_output_differs": true
+    },
+    {
+      "border_reachability_checked": true,
+      "complete_tuple_unique": true,
+      "component_validity": true,
+      "consistent_hypotheses": [
+        {
+          "adjacency": "4_connected",
+          "barrier_color": 4,
+          "convention": "seed_reachable_recolor",
+          "marker_color_or_none": 5,
+          "output_recolor_color": 7,
+          "passable_color": 1,
+          "seed_condition_or_none": "marker_adjacent_4_connected"
+        }
+      ],
+      "consistent_hypothesis_count": 1,
+      "convention": "seed_reachable_recolor",
+      "domain_containment": true,
+      "domain_reasons": [],
+      "enclosed_region_complement_checked": true,
+      "episode_id": "generator_stress_suite:seed_reachable_recolor:p1:o7:m5:gdiagonal_bridge_c:v126",
+      "expected_output_matches_checker": true,
+      "fixed_point_reachability_checked": true,
+      "grid_validity": true,
+      "marker_validity": true,
+      "passable_and_barrier_masks_valid": true,
+      "passed": true,
+      "query_target_unique": true,
+      "support_consistency": true,
+      "wrong_adjacency_output_differs": true
+    },
+    {
+      "border_reachability_checked": true,
+      "complete_tuple_unique": true,
+      "component_validity": true,
+      "consistent_hypotheses": [
+        {
+          "adjacency": "4_connected",
+          "barrier_color": 4,
+          "convention": "seed_reachable_recolor",
+          "marker_color_or_none": 6,
+          "output_recolor_color": 7,
+          "passable_color": 1,
+          "seed_condition_or_none": "marker_adjacent_4_connected"
+        }
+      ],
+      "consistent_hypothesis_count": 1,
+      "convention": "seed_reachable_recolor",
+      "domain_containment": true,
+      "domain_reasons": [],
+      "enclosed_region_complement_checked": true,
+      "episode_id": "generator_stress_suite:seed_reachable_recolor:p1:o7:m6:gdiagonal_bridge_d:v127",
+      "expected_output_matches_checker": true,
+      "fixed_point_reachability_checked": true,
+      "grid_validity": true,
+      "marker_validity": true,
+      "passable_and_barrier_masks_valid": true,
+      "passed": true,
+      "query_target_unique": true,
+      "support_consistency": true,
+      "wrong_adjacency_output_differs": true
+    },
+    {
+      "border_reachability_checked": true,
+      "complete_tuple_unique": true,
+      "component_validity": true,
+      "consistent_hypotheses": [
+        {
+          "adjacency": "4_connected",
+          "barrier_color": 4,
+          "convention": "seed_reachable_recolor",
+          "marker_color_or_none": 5,
+          "output_recolor_color": 7,
+          "passable_color": 1,
+          "seed_condition_or_none": "marker_adjacent_4_connected"
+        }
+      ],
+      "consistent_hypothesis_count": 1,
+      "convention": "seed_reachable_recolor",
+      "domain_containment": true,
+      "domain_reasons": [],
+      "enclosed_region_complement_checked": true,
+      "episode_id": "generator_stress_suite:seed_reachable_recolor:p1:o7:m5:gdiagonal_bridge_a:v128",
+      "expected_output_matches_checker": true,
+      "fixed_point_reachability_checked": true,
+      "grid_validity": true,
+      "marker_validity": true,
+      "passable_and_barrier_masks_valid": true,
+      "passed": true,
+      "query_target_unique": true,
+      "support_consistency": true,
+      "wrong_adjacency_output_differs": true
+    },
+    {
+      "border_reachability_checked": true,
+      "complete_tuple_unique": true,
+      "component_validity": true,
+      "consistent_hypotheses": [
+        {
+          "adjacency": "4_connected",
+          "barrier_color": 4,
+          "convention": "seed_reachable_recolor",
+          "marker_color_or_none": 6,
+          "output_recolor_color": 7,
+          "passable_color": 1,
+          "seed_condition_or_none": "marker_adjacent_4_connected"
+        }
+      ],
+      "consistent_hypothesis_count": 1,
+      "convention": "seed_reachable_recolor",
+      "domain_containment": true,
+      "domain_reasons": [],
+      "enclosed_region_complement_checked": true,
+      "episode_id": "generator_stress_suite:seed_reachable_recolor:p1:o7:m6:gdiagonal_bridge_b:v129",
+      "expected_output_matches_checker": true,
+      "fixed_point_reachability_checked": true,
+      "grid_validity": true,
+      "marker_validity": true,
+      "passable_and_barrier_masks_valid": true,
+      "passed": true,
+      "query_target_unique": true,
+      "support_consistency": true,
+      "wrong_adjacency_output_differs": true
+    },
+    {
+      "border_reachability_checked": true,
+      "complete_tuple_unique": true,
+      "component_validity": true,
+      "consistent_hypotheses": [
+        {
+          "adjacency": "4_connected",
+          "barrier_color": 4,
+          "convention": "seed_reachable_recolor",
+          "marker_color_or_none": 6,
+          "output_recolor_color": 8,
+          "passable_color": 1,
+          "seed_condition_or_none": "marker_adjacent_4_connected"
+        }
+      ],
+      "consistent_hypothesis_count": 1,
+      "convention": "seed_reachable_recolor",
+      "domain_containment": true,
+      "domain_reasons": [],
+      "enclosed_region_complement_checked": true,
+      "episode_id": "generator_stress_suite:seed_reachable_recolor:p1:o8:m6:gdiagonal_bridge_b:v133",
+      "expected_output_matches_checker": true,
+      "fixed_point_reachability_checked": true,
+      "grid_validity": true,
+      "marker_validity": true,
+      "passable_and_barrier_masks_valid": true,
+      "passed": true,
+      "query_target_unique": true,
+      "support_consistency": true,
+      "wrong_adjacency_output_differs": true
+    },
+    {
+      "border_reachability_checked": true,
+      "complete_tuple_unique": true,
+      "component_validity": true,
+      "consistent_hypotheses": [
+        {
+          "adjacency": "4_connected",
+          "barrier_color": 4,
+          "convention": "seed_reachable_recolor",
+          "marker_color_or_none": 5,
+          "output_recolor_color": 8,
+          "passable_color": 1,
+          "seed_condition_or_none": "marker_adjacent_4_connected"
+        }
+      ],
+      "consistent_hypothesis_count": 1,
+      "convention": "seed_reachable_recolor",
+      "domain_containment": true,
+      "domain_reasons": [],
+      "enclosed_region_complement_checked": true,
+      "episode_id": "generator_stress_suite:seed_reachable_recolor:p1:o8:m5:gdiagonal_bridge_c:v134",
+      "expected_output_matches_checker": true,
+      "fixed_point_reachability_checked": true,
+      "grid_validity": true,
+      "marker_validity": true,
+      "passable_and_barrier_masks_valid": true,
+      "passed": true,
+      "query_target_unique": true,
+      "support_consistency": true,
+      "wrong_adjacency_output_differs": true
+    },
+    {
+      "border_reachability_checked": true,
+      "complete_tuple_unique": true,
+      "component_validity": true,
+      "consistent_hypotheses": [
+        {
+          "adjacency": "4_connected",
+          "barrier_color": 4,
+          "convention": "seed_reachable_recolor",
+          "marker_color_or_none": 6,
+          "output_recolor_color": 8,
+          "passable_color": 1,
+          "seed_condition_or_none": "marker_adjacent_4_connected"
+        }
+      ],
+      "consistent_hypothesis_count": 1,
+      "convention": "seed_reachable_recolor",
+      "domain_containment": true,
+      "domain_reasons": [],
+      "enclosed_region_complement_checked": true,
+      "episode_id": "generator_stress_suite:seed_reachable_recolor:p1:o8:m6:gdiagonal_bridge_d:v135",
+      "expected_output_matches_checker": true,
+      "fixed_point_reachability_checked": true,
+      "grid_validity": true,
+      "marker_validity": true,
+      "passable_and_barrier_masks_valid": true,
+      "passed": true,
+      "query_target_unique": true,
+      "support_consistency": true,
+      "wrong_adjacency_output_differs": true
+    },
+    {
+      "border_reachability_checked": true,
+      "complete_tuple_unique": true,
+      "component_validity": true,
+      "consistent_hypotheses": [
+        {
+          "adjacency": "4_connected",
+          "barrier_color": 4,
+          "convention": "seed_reachable_recolor",
+          "marker_color_or_none": 5,
+          "output_recolor_color": 8,
+          "passable_color": 1,
+          "seed_condition_or_none": "marker_adjacent_4_connected"
+        }
+      ],
+      "consistent_hypothesis_count": 1,
+      "convention": "seed_reachable_recolor",
+      "domain_containment": true,
+      "domain_reasons": [],
+      "enclosed_region_complement_checked": true,
+      "episode_id": "generator_stress_suite:seed_reachable_recolor:p1:o8:m5:gdiagonal_bridge_a:v136",
+      "expected_output_matches_checker": true,
+      "fixed_point_reachability_checked": true,
+      "grid_validity": true,
+      "marker_validity": true,
+      "passable_and_barrier_masks_valid": true,
+      "passed": true,
+      "query_target_unique": true,
+      "support_consistency": true,
+      "wrong_adjacency_output_differs": true
+    },
+    {
+      "border_reachability_checked": true,
+      "complete_tuple_unique": true,
+      "component_validity": true,
+      "consistent_hypotheses": [
+        {
+          "adjacency": "4_connected",
+          "barrier_color": 4,
+          "convention": "seed_reachable_recolor",
+          "marker_color_or_none": 5,
+          "output_recolor_color": 7,
+          "passable_color": 2,
+          "seed_condition_or_none": "marker_adjacent_4_connected"
+        }
+      ],
+      "consistent_hypothesis_count": 1,
+      "convention": "seed_reachable_recolor",
+      "domain_containment": true,
+      "domain_reasons": [],
+      "enclosed_region_complement_checked": true,
+      "episode_id": "generator_stress_suite:seed_reachable_recolor:p2:o7:m5:gdiagonal_bridge_a:v140",
+      "expected_output_matches_checker": true,
+      "fixed_point_reachability_checked": true,
+      "grid_validity": true,
+      "marker_validity": true,
+      "passable_and_barrier_masks_valid": true,
+      "passed": true,
+      "query_target_unique": true,
+      "support_consistency": true,
+      "wrong_adjacency_output_differs": true
+    },
+    {
+      "border_reachability_checked": true,
+      "complete_tuple_unique": true,
+      "component_validity": true,
+      "consistent_hypotheses": [
+        {
+          "adjacency": "4_connected",
+          "barrier_color": 4,
+          "convention": "seed_reachable_recolor",
+          "marker_color_or_none": 6,
+          "output_recolor_color": 7,
+          "passable_color": 2,
+          "seed_condition_or_none": "marker_adjacent_4_connected"
+        }
+      ],
+      "consistent_hypothesis_count": 1,
+      "convention": "seed_reachable_recolor",
+      "domain_containment": true,
+      "domain_reasons": [],
+      "enclosed_region_complement_checked": true,
+      "episode_id": "generator_stress_suite:seed_reachable_recolor:p2:o7:m6:gdiagonal_bridge_b:v141",
+      "expected_output_matches_checker": true,
+      "fixed_point_reachability_checked": true,
+      "grid_validity": true,
+      "marker_validity": true,
+      "passable_and_barrier_masks_valid": true,
+      "passed": true,
+      "query_target_unique": true,
+      "support_consistency": true,
+      "wrong_adjacency_output_differs": true
+    },
+    {
+      "border_reachability_checked": true,
+      "complete_tuple_unique": true,
+      "component_validity": true,
+      "consistent_hypotheses": [
+        {
+          "adjacency": "4_connected",
+          "barrier_color": 4,
+          "convention": "seed_reachable_recolor",
+          "marker_color_or_none": 5,
+          "output_recolor_color": 7,
+          "passable_color": 2,
+          "seed_condition_or_none": "marker_adjacent_4_connected"
+        }
+      ],
+      "consistent_hypothesis_count": 1,
+      "convention": "seed_reachable_recolor",
+      "domain_containment": true,
+      "domain_reasons": [],
+      "enclosed_region_complement_checked": true,
+      "episode_id": "generator_stress_suite:seed_reachable_recolor:p2:o7:m5:gdiagonal_bridge_c:v142",
+      "expected_output_matches_checker": true,
+      "fixed_point_reachability_checked": true,
+      "grid_validity": true,
+      "marker_validity": true,
+      "passable_and_barrier_masks_valid": true,
+      "passed": true,
+      "query_target_unique": true,
+      "support_consistency": true,
+      "wrong_adjacency_output_differs": true
+    },
+    {
+      "border_reachability_checked": true,
+      "complete_tuple_unique": true,
+      "component_validity": true,
+      "consistent_hypotheses": [
+        {
+          "adjacency": "4_connected",
+          "barrier_color": 4,
+          "convention": "seed_reachable_recolor",
+          "marker_color_or_none": 6,
+          "output_recolor_color": 7,
+          "passable_color": 2,
+          "seed_condition_or_none": "marker_adjacent_4_connected"
+        }
+      ],
+      "consistent_hypothesis_count": 1,
+      "convention": "seed_reachable_recolor",
+      "domain_containment": true,
+      "domain_reasons": [],
+      "enclosed_region_complement_checked": true,
+      "episode_id": "generator_stress_suite:seed_reachable_recolor:p2:o7:m6:gdiagonal_bridge_d:v143",
+      "expected_output_matches_checker": true,
+      "fixed_point_reachability_checked": true,
+      "grid_validity": true,
+      "marker_validity": true,
+      "passable_and_barrier_masks_valid": true,
+      "passed": true,
+      "query_target_unique": true,
+      "support_consistency": true,
+      "wrong_adjacency_output_differs": false
+    },
+    {
+      "border_reachability_checked": true,
+      "complete_tuple_unique": true,
+      "component_validity": true,
+      "consistent_hypotheses": [
+        {
+          "adjacency": "4_connected",
+          "barrier_color": 4,
+          "convention": "seed_reachable_recolor",
+          "marker_color_or_none": 6,
+          "output_recolor_color": 8,
+          "passable_color": 2,
+          "seed_condition_or_none": "marker_adjacent_4_connected"
+        }
+      ],
+      "consistent_hypothesis_count": 1,
+      "convention": "seed_reachable_recolor",
+      "domain_containment": true,
+      "domain_reasons": [],
+      "enclosed_region_complement_checked": true,
+      "episode_id": "generator_stress_suite:seed_reachable_recolor:p2:o8:m6:gdiagonal_bridge_d:v147",
+      "expected_output_matches_checker": true,
+      "fixed_point_reachability_checked": true,
+      "grid_validity": true,
+      "marker_validity": true,
+      "passable_and_barrier_masks_valid": true,
+      "passed": true,
+      "query_target_unique": true,
+      "support_consistency": true,
+      "wrong_adjacency_output_differs": true
+    },
+    {
+      "border_reachability_checked": true,
+      "complete_tuple_unique": true,
+      "component_validity": true,
+      "consistent_hypotheses": [
+        {
+          "adjacency": "4_connected",
+          "barrier_color": 4,
+          "convention": "seed_reachable_recolor",
+          "marker_color_or_none": 5,
+          "output_recolor_color": 8,
+          "passable_color": 2,
+          "seed_condition_or_none": "marker_adjacent_4_connected"
+        }
+      ],
+      "consistent_hypothesis_count": 1,
+      "convention": "seed_reachable_recolor",
+      "domain_containment": true,
+      "domain_reasons": [],
+      "enclosed_region_complement_checked": true,
+      "episode_id": "generator_stress_suite:seed_reachable_recolor:p2:o8:m5:gdiagonal_bridge_a:v148",
+      "expected_output_matches_checker": true,
+      "fixed_point_reachability_checked": true,
+      "grid_validity": true,
+      "marker_validity": true,
+      "passable_and_barrier_masks_valid": true,
+      "passed": true,
+      "query_target_unique": true,
+      "support_consistency": true,
+      "wrong_adjacency_output_differs": true
+    },
+    {
+      "border_reachability_checked": true,
+      "complete_tuple_unique": true,
+      "component_validity": true,
+      "consistent_hypotheses": [
+        {
+          "adjacency": "4_connected",
+          "barrier_color": 4,
+          "convention": "seed_reachable_recolor",
+          "marker_color_or_none": 6,
+          "output_recolor_color": 8,
+          "passable_color": 2,
+          "seed_condition_or_none": "marker_adjacent_4_connected"
+        }
+      ],
+      "consistent_hypothesis_count": 1,
+      "convention": "seed_reachable_recolor",
+      "domain_containment": true,
+      "domain_reasons": [],
+      "enclosed_region_complement_checked": true,
+      "episode_id": "generator_stress_suite:seed_reachable_recolor:p2:o8:m6:gdiagonal_bridge_b:v149",
+      "expected_output_matches_checker": true,
+      "fixed_point_reachability_checked": true,
+      "grid_validity": true,
+      "marker_validity": true,
+      "passable_and_barrier_masks_valid": true,
+      "passed": true,
+      "query_target_unique": true,
+      "support_consistency": true,
+      "wrong_adjacency_output_differs": true
+    },
+    {
+      "border_reachability_checked": true,
+      "complete_tuple_unique": true,
+      "component_validity": true,
+      "consistent_hypotheses": [
+        {
+          "adjacency": "4_connected",
+          "barrier_color": 4,
+          "convention": "seed_reachable_recolor",
+          "marker_color_or_none": 5,
+          "output_recolor_color": 8,
+          "passable_color": 2,
+          "seed_condition_or_none": "marker_adjacent_4_connected"
+        }
+      ],
+      "consistent_hypothesis_count": 1,
+      "convention": "seed_reachable_recolor",
+      "domain_containment": true,
+      "domain_reasons": [],
+      "enclosed_region_complement_checked": true,
+      "episode_id": "generator_stress_suite:seed_reachable_recolor:p2:o8:m5:gdiagonal_bridge_c:v150",
+      "expected_output_matches_checker": true,
+      "fixed_point_reachability_checked": true,
+      "grid_validity": true,
+      "marker_validity": true,
+      "passable_and_barrier_masks_valid": true,
+      "passed": true,
+      "query_target_unique": true,
+      "support_consistency": true,
+      "wrong_adjacency_output_differs": true
+    },
+    {
+      "border_reachability_checked": true,
+      "complete_tuple_unique": true,
+      "component_validity": true,
+      "consistent_hypotheses": [
+        {
+          "adjacency": "4_connected",
+          "barrier_color": 4,
+          "convention": "seed_reachable_recolor",
+          "marker_color_or_none": 5,
+          "output_recolor_color": 7,
+          "passable_color": 3,
+          "seed_condition_or_none": "marker_adjacent_4_connected"
+        }
+      ],
+      "consistent_hypothesis_count": 1,
+      "convention": "seed_reachable_recolor",
+      "domain_containment": true,
+      "domain_reasons": [],
+      "enclosed_region_complement_checked": true,
+      "episode_id": "generator_stress_suite:seed_reachable_recolor:p3:o7:m5:gdiagonal_bridge_c:v154",
+      "expected_output_matches_checker": true,
+      "fixed_point_reachability_checked": true,
+      "grid_validity": true,
+      "marker_validity": true,
+      "passable_and_barrier_masks_valid": true,
+      "passed": true,
+      "query_target_unique": true,
+      "support_consistency": true,
+      "wrong_adjacency_output_differs": true
+    },
+    {
+      "border_reachability_checked": true,
+      "complete_tuple_unique": true,
+      "component_validity": true,
+      "consistent_hypotheses": [
+        {
+          "adjacency": "4_connected",
+          "barrier_color": 4,
+          "convention": "seed_reachable_recolor",
+          "marker_color_or_none": 6,
+          "output_recolor_color": 7,
+          "passable_color": 3,
+          "seed_condition_or_none": "marker_adjacent_4_connected"
+        }
+      ],
+      "consistent_hypothesis_count": 1,
+      "convention": "seed_reachable_recolor",
+      "domain_containment": true,
+      "domain_reasons": [],
+      "enclosed_region_complement_checked": true,
+      "episode_id": "generator_stress_suite:seed_reachable_recolor:p3:o7:m6:gdiagonal_bridge_d:v155",
+      "expected_output_matches_checker": true,
+      "fixed_point_reachability_checked": true,
+      "grid_validity": true,
+      "marker_validity": true,
+      "passable_and_barrier_masks_valid": true,
+      "passed": true,
+      "query_target_unique": true,
+      "support_consistency": true,
+      "wrong_adjacency_output_differs": false
+    },
+    {
+      "border_reachability_checked": true,
+      "complete_tuple_unique": true,
+      "component_validity": true,
+      "consistent_hypotheses": [
+        {
+          "adjacency": "4_connected",
+          "barrier_color": 4,
+          "convention": "seed_reachable_recolor",
+          "marker_color_or_none": 5,
+          "output_recolor_color": 7,
+          "passable_color": 3,
+          "seed_condition_or_none": "marker_adjacent_4_connected"
+        }
+      ],
+      "consistent_hypothesis_count": 1,
+      "convention": "seed_reachable_recolor",
+      "domain_containment": true,
+      "domain_reasons": [],
+      "enclosed_region_complement_checked": true,
+      "episode_id": "generator_stress_suite:seed_reachable_recolor:p3:o7:m5:gdiagonal_bridge_a:v156",
+      "expected_output_matches_checker": true,
+      "fixed_point_reachability_checked": true,
+      "grid_validity": true,
+      "marker_validity": true,
+      "passable_and_barrier_masks_valid": true,
+      "passed": true,
+      "query_target_unique": true,
+      "support_consistency": true,
+      "wrong_adjacency_output_differs": true
+    },
+    {
+      "border_reachability_checked": true,
+      "complete_tuple_unique": true,
+      "component_validity": true,
+      "consistent_hypotheses": [
+        {
+          "adjacency": "4_connected",
+          "barrier_color": 4,
+          "convention": "seed_reachable_recolor",
+          "marker_color_or_none": 6,
+          "output_recolor_color": 7,
+          "passable_color": 3,
+          "seed_condition_or_none": "marker_adjacent_4_connected"
+        }
+      ],
+      "consistent_hypothesis_count": 1,
+      "convention": "seed_reachable_recolor",
+      "domain_containment": true,
+      "domain_reasons": [],
+      "enclosed_region_complement_checked": true,
+      "episode_id": "generator_stress_suite:seed_reachable_recolor:p3:o7:m6:gdiagonal_bridge_b:v157",
+      "expected_output_matches_checker": true,
+      "fixed_point_reachability_checked": true,
+      "grid_validity": true,
+      "marker_validity": true,
+      "passable_and_barrier_masks_valid": true,
+      "passed": true,
+      "query_target_unique": true,
+      "support_consistency": true,
+      "wrong_adjacency_output_differs": true
+    },
+    {
+      "border_reachability_checked": true,
+      "complete_tuple_unique": true,
+      "component_validity": true,
+      "consistent_hypotheses": [
+        {
+          "adjacency": "4_connected",
+          "barrier_color": 4,
+          "convention": "seed_reachable_recolor",
+          "marker_color_or_none": 6,
+          "output_recolor_color": 8,
+          "passable_color": 3,
+          "seed_condition_or_none": "marker_adjacent_4_connected"
+        }
+      ],
+      "consistent_hypothesis_count": 1,
+      "convention": "seed_reachable_recolor",
+      "domain_containment": true,
+      "domain_reasons": [],
+      "enclosed_region_complement_checked": true,
+      "episode_id": "generator_stress_suite:seed_reachable_recolor:p3:o8:m6:gdiagonal_bridge_b:v161",
+      "expected_output_matches_checker": true,
+      "fixed_point_reachability_checked": true,
+      "grid_validity": true,
+      "marker_validity": true,
+      "passable_and_barrier_masks_valid": true,
+      "passed": true,
+      "query_target_unique": true,
+      "support_consistency": true,
+      "wrong_adjacency_output_differs": true
+    },
+    {
+      "border_reachability_checked": true,
+      "complete_tuple_unique": true,
+      "component_validity": true,
+      "consistent_hypotheses": [
+        {
+          "adjacency": "4_connected",
+          "barrier_color": 4,
+          "convention": "seed_reachable_recolor",
+          "marker_color_or_none": 5,
+          "output_recolor_color": 8,
+          "passable_color": 3,
+          "seed_condition_or_none": "marker_adjacent_4_connected"
+        }
+      ],
+      "consistent_hypothesis_count": 1,
+      "convention": "seed_reachable_recolor",
+      "domain_containment": true,
+      "domain_reasons": [],
+      "enclosed_region_complement_checked": true,
+      "episode_id": "generator_stress_suite:seed_reachable_recolor:p3:o8:m5:gdiagonal_bridge_c:v162",
+      "expected_output_matches_checker": true,
+      "fixed_point_reachability_checked": true,
+      "grid_validity": true,
+      "marker_validity": true,
+      "passable_and_barrier_masks_valid": true,
+      "passed": true,
+      "query_target_unique": true,
+      "support_consistency": true,
+      "wrong_adjacency_output_differs": true
+    },
+    {
+      "border_reachability_checked": true,
+      "complete_tuple_unique": true,
+      "component_validity": true,
+      "consistent_hypotheses": [
+        {
+          "adjacency": "4_connected",
+          "barrier_color": 4,
+          "convention": "seed_reachable_recolor",
+          "marker_color_or_none": 6,
+          "output_recolor_color": 8,
+          "passable_color": 3,
+          "seed_condition_or_none": "marker_adjacent_4_connected"
+        }
+      ],
+      "consistent_hypothesis_count": 1,
+      "convention": "seed_reachable_recolor",
+      "domain_containment": true,
+      "domain_reasons": [],
+      "enclosed_region_complement_checked": true,
+      "episode_id": "generator_stress_suite:seed_reachable_recolor:p3:o8:m6:gdiagonal_bridge_d:v163",
+      "expected_output_matches_checker": true,
+      "fixed_point_reachability_checked": true,
+      "grid_validity": true,
+      "marker_validity": true,
+      "passable_and_barrier_masks_valid": true,
+      "passed": true,
+      "query_target_unique": true,
+      "support_consistency": true,
+      "wrong_adjacency_output_differs": true
+    },
+    {
+      "border_reachability_checked": true,
+      "complete_tuple_unique": true,
+      "component_validity": true,
+      "consistent_hypotheses": [
+        {
+          "adjacency": "4_connected",
+          "barrier_color": 4,
+          "convention": "seed_reachable_recolor",
+          "marker_color_or_none": 5,
+          "output_recolor_color": 8,
+          "passable_color": 3,
+          "seed_condition_or_none": "marker_adjacent_4_connected"
+        }
+      ],
+      "consistent_hypothesis_count": 1,
+      "convention": "seed_reachable_recolor",
+      "domain_containment": true,
+      "domain_reasons": [],
+      "enclosed_region_complement_checked": true,
+      "episode_id": "generator_stress_suite:seed_reachable_recolor:p3:o8:m5:gdiagonal_bridge_a:v164",
+      "expected_output_matches_checker": true,
+      "fixed_point_reachability_checked": true,
+      "grid_validity": true,
+      "marker_validity": true,
+      "passable_and_barrier_masks_valid": true,
+      "passed": true,
+      "query_target_unique": true,
+      "support_consistency": true,
+      "wrong_adjacency_output_differs": true
+    },
+    {
+      "border_reachability_checked": true,
+      "complete_tuple_unique": true,
+      "component_validity": true,
+      "consistent_hypotheses": [
+        {
+          "adjacency": "4_connected",
+          "barrier_color": 4,
+          "convention": "border_reachable_recolor",
+          "marker_color_or_none": null,
+          "output_recolor_color": 7,
+          "passable_color": 1,
+          "seed_condition_or_none": null
+        }
+      ],
+      "consistent_hypothesis_count": 1,
+      "convention": "border_reachable_recolor",
+      "domain_containment": true,
+      "domain_reasons": [],
+      "enclosed_region_complement_checked": true,
+      "episode_id": "generator_stress_suite:border_reachable_recolor:p1:o7:mNone:gdiagonal_bridge_a:v168",
+      "expected_output_matches_checker": true,
+      "fixed_point_reachability_checked": true,
+      "grid_validity": true,
+      "marker_validity": true,
+      "passable_and_barrier_masks_valid": true,
+      "passed": true,
+      "query_target_unique": true,
+      "support_consistency": true,
+      "wrong_adjacency_output_differs": true
+    },
+    {
+      "border_reachability_checked": true,
+      "complete_tuple_unique": true,
+      "component_validity": true,
+      "consistent_hypotheses": [
+        {
+          "adjacency": "4_connected",
+          "barrier_color": 4,
+          "convention": "border_reachable_recolor",
+          "marker_color_or_none": null,
+          "output_recolor_color": 7,
+          "passable_color": 1,
+          "seed_condition_or_none": null
+        }
+      ],
+      "consistent_hypothesis_count": 1,
+      "convention": "border_reachable_recolor",
+      "domain_containment": true,
+      "domain_reasons": [],
+      "enclosed_region_complement_checked": true,
+      "episode_id": "generator_stress_suite:border_reachable_recolor:p1:o7:mNone:gdiagonal_bridge_b:v169",
+      "expected_output_matches_checker": true,
+      "fixed_point_reachability_checked": true,
+      "grid_validity": true,
+      "marker_validity": true,
+      "passable_and_barrier_masks_valid": true,
+      "passed": true,
+      "query_target_unique": true,
+      "support_consistency": true,
+      "wrong_adjacency_output_differs": true
+    },
+    {
+      "border_reachability_checked": true,
+      "complete_tuple_unique": true,
+      "component_validity": true,
+      "consistent_hypotheses": [
+        {
+          "adjacency": "4_connected",
+          "barrier_color": 4,
+          "convention": "border_reachable_recolor",
+          "marker_color_or_none": null,
+          "output_recolor_color": 7,
+          "passable_color": 1,
+          "seed_condition_or_none": null
+        }
+      ],
+      "consistent_hypothesis_count": 1,
+      "convention": "border_reachable_recolor",
+      "domain_containment": true,
+      "domain_reasons": [],
+      "enclosed_region_complement_checked": true,
+      "episode_id": "generator_stress_suite:border_reachable_recolor:p1:o7:mNone:gdiagonal_bridge_c:v170",
+      "expected_output_matches_checker": true,
+      "fixed_point_reachability_checked": true,
+      "grid_validity": true,
+      "marker_validity": true,
+      "passable_and_barrier_masks_valid": true,
+      "passed": true,
+      "query_target_unique": true,
+      "support_consistency": true,
+      "wrong_adjacency_output_differs": true
+    },
+    {
+      "border_reachability_checked": true,
+      "complete_tuple_unique": true,
+      "component_validity": true,
+      "consistent_hypotheses": [
+        {
+          "adjacency": "4_connected",
+          "barrier_color": 4,
+          "convention": "border_reachable_recolor",
+          "marker_color_or_none": null,
+          "output_recolor_color": 7,
+          "passable_color": 1,
+          "seed_condition_or_none": null
+        }
+      ],
+      "consistent_hypothesis_count": 1,
+      "convention": "border_reachable_recolor",
+      "domain_containment": true,
+      "domain_reasons": [],
+      "enclosed_region_complement_checked": true,
+      "episode_id": "generator_stress_suite:border_reachable_recolor:p1:o7:mNone:gdiagonal_bridge_d:v171",
+      "expected_output_matches_checker": true,
+      "fixed_point_reachability_checked": true,
+      "grid_validity": true,
+      "marker_validity": true,
+      "passable_and_barrier_masks_valid": true,
+      "passed": true,
+      "query_target_unique": true,
+      "support_consistency": true,
+      "wrong_adjacency_output_differs": true
+    },
+    {
+      "border_reachability_checked": true,
+      "complete_tuple_unique": true,
+      "component_validity": true,
+      "consistent_hypotheses": [
+        {
+          "adjacency": "4_connected",
+          "barrier_color": 4,
+          "convention": "border_reachable_recolor",
+          "marker_color_or_none": null,
+          "output_recolor_color": 8,
+          "passable_color": 1,
+          "seed_condition_or_none": null
+        }
+      ],
+      "consistent_hypothesis_count": 1,
+      "convention": "border_reachable_recolor",
+      "domain_containment": true,
+      "domain_reasons": [],
+      "enclosed_region_complement_checked": true,
+      "episode_id": "generator_stress_suite:border_reachable_recolor:p1:o8:mNone:gdiagonal_bridge_d:v175",
+      "expected_output_matches_checker": true,
+      "fixed_point_reachability_checked": true,
+      "grid_validity": true,
+      "marker_validity": true,
+      "passable_and_barrier_masks_valid": true,
+      "passed": true,
+      "query_target_unique": true,
+      "support_consistency": true,
+      "wrong_adjacency_output_differs": true
+    },
+    {
+      "border_reachability_checked": true,
+      "complete_tuple_unique": true,
+      "component_validity": true,
+      "consistent_hypotheses": [
+        {
+          "adjacency": "4_connected",
+          "barrier_color": 4,
+          "convention": "border_reachable_recolor",
+          "marker_color_or_none": null,
+          "output_recolor_color": 8,
+          "passable_color": 1,
+          "seed_condition_or_none": null
+        }
+      ],
+      "consistent_hypothesis_count": 1,
+      "convention": "border_reachable_recolor",
+      "domain_containment": true,
+      "domain_reasons": [],
+      "enclosed_region_complement_checked": true,
+      "episode_id": "generator_stress_suite:border_reachable_recolor:p1:o8:mNone:gdiagonal_bridge_a:v176",
+      "expected_output_matches_checker": true,
+      "fixed_point_reachability_checked": true,
+      "grid_validity": true,
+      "marker_validity": true,
+      "passable_and_barrier_masks_valid": true,
+      "passed": true,
+      "query_target_unique": true,
+      "support_consistency": true,
+      "wrong_adjacency_output_differs": true
+    },
+    {
+      "border_reachability_checked": true,
+      "complete_tuple_unique": true,
+      "component_validity": true,
+      "consistent_hypotheses": [
+        {
+          "adjacency": "4_connected",
+          "barrier_color": 4,
+          "convention": "border_reachable_recolor",
+          "marker_color_or_none": null,
+          "output_recolor_color": 8,
+          "passable_color": 1,
+          "seed_condition_or_none": null
+        }
+      ],
+      "consistent_hypothesis_count": 1,
+      "convention": "border_reachable_recolor",
+      "domain_containment": true,
+      "domain_reasons": [],
+      "enclosed_region_complement_checked": true,
+      "episode_id": "generator_stress_suite:border_reachable_recolor:p1:o8:mNone:gdiagonal_bridge_b:v177",
+      "expected_output_matches_checker": true,
+      "fixed_point_reachability_checked": true,
+      "grid_validity": true,
+      "marker_validity": true,
+      "passable_and_barrier_masks_valid": true,
+      "passed": true,
+      "query_target_unique": true,
+      "support_consistency": true,
+      "wrong_adjacency_output_differs": true
+    },
+    {
+      "border_reachability_checked": true,
+      "complete_tuple_unique": true,
+      "component_validity": true,
+      "consistent_hypotheses": [
+        {
+          "adjacency": "4_connected",
+          "barrier_color": 4,
+          "convention": "border_reachable_recolor",
+          "marker_color_or_none": null,
+          "output_recolor_color": 8,
+          "passable_color": 1,
+          "seed_condition_or_none": null
+        }
+      ],
+      "consistent_hypothesis_count": 1,
+      "convention": "border_reachable_recolor",
+      "domain_containment": true,
+      "domain_reasons": [],
+      "enclosed_region_complement_checked": true,
+      "episode_id": "generator_stress_suite:border_reachable_recolor:p1:o8:mNone:gdiagonal_bridge_c:v178",
+      "expected_output_matches_checker": true,
+      "fixed_point_reachability_checked": true,
+      "grid_validity": true,
+      "marker_validity": true,
+      "passable_and_barrier_masks_valid": true,
+      "passed": true,
+      "query_target_unique": true,
+      "support_consistency": true,
+      "wrong_adjacency_output_differs": true
+    },
+    {
+      "border_reachability_checked": true,
+      "complete_tuple_unique": true,
+      "component_validity": true,
+      "consistent_hypotheses": [
+        {
+          "adjacency": "4_connected",
+          "barrier_color": 4,
+          "convention": "border_reachable_recolor",
+          "marker_color_or_none": null,
+          "output_recolor_color": 7,
+          "passable_color": 2,
+          "seed_condition_or_none": null
+        }
+      ],
+      "consistent_hypothesis_count": 1,
+      "convention": "border_reachable_recolor",
+      "domain_containment": true,
+      "domain_reasons": [],
+      "enclosed_region_complement_checked": true,
+      "episode_id": "generator_stress_suite:border_reachable_recolor:p2:o7:mNone:gdiagonal_bridge_c:v182",
+      "expected_output_matches_checker": true,
+      "fixed_point_reachability_checked": true,
+      "grid_validity": true,
+      "marker_validity": true,
+      "passable_and_barrier_masks_valid": true,
+      "passed": true,
+      "query_target_unique": true,
+      "support_consistency": true,
+      "wrong_adjacency_output_differs": true
+    },
+    {
+      "border_reachability_checked": true,
+      "complete_tuple_unique": true,
+      "component_validity": true,
+      "consistent_hypotheses": [
+        {
+          "adjacency": "4_connected",
+          "barrier_color": 4,
+          "convention": "border_reachable_recolor",
+          "marker_color_or_none": null,
+          "output_recolor_color": 7,
+          "passable_color": 2,
+          "seed_condition_or_none": null
+        }
+      ],
+      "consistent_hypothesis_count": 1,
+      "convention": "border_reachable_recolor",
+      "domain_containment": true,
+      "domain_reasons": [],
+      "enclosed_region_complement_checked": true,
+      "episode_id": "generator_stress_suite:border_reachable_recolor:p2:o7:mNone:gdiagonal_bridge_d:v183",
+      "expected_output_matches_checker": true,
+      "fixed_point_reachability_checked": true,
+      "grid_validity": true,
+      "marker_validity": true,
+      "passable_and_barrier_masks_valid": true,
+      "passed": true,
+      "query_target_unique": true,
+      "support_consistency": true,
+      "wrong_adjacency_output_differs": true
+    },
+    {
+      "border_reachability_checked": true,
+      "complete_tuple_unique": true,
+      "component_validity": true,
+      "consistent_hypotheses": [
+        {
+          "adjacency": "4_connected",
+          "barrier_color": 4,
+          "convention": "border_reachable_recolor",
+          "marker_color_or_none": null,
+          "output_recolor_color": 7,
+          "passable_color": 2,
+          "seed_condition_or_none": null
+        }
+      ],
+      "consistent_hypothesis_count": 1,
+      "convention": "border_reachable_recolor",
+      "domain_containment": true,
+      "domain_reasons": [],
+      "enclosed_region_complement_checked": true,
+      "episode_id": "generator_stress_suite:border_reachable_recolor:p2:o7:mNone:gdiagonal_bridge_a:v184",
+      "expected_output_matches_checker": true,
+      "fixed_point_reachability_checked": true,
+      "grid_validity": true,
+      "marker_validity": true,
+      "passable_and_barrier_masks_valid": true,
+      "passed": true,
+      "query_target_unique": true,
+      "support_consistency": true,
+      "wrong_adjacency_output_differs": true
+    },
+    {
+      "border_reachability_checked": true,
+      "complete_tuple_unique": true,
+      "component_validity": true,
+      "consistent_hypotheses": [
+        {
+          "adjacency": "4_connected",
+          "barrier_color": 4,
+          "convention": "border_reachable_recolor",
+          "marker_color_or_none": null,
+          "output_recolor_color": 7,
+          "passable_color": 2,
+          "seed_condition_or_none": null
+        }
+      ],
+      "consistent_hypothesis_count": 1,
+      "convention": "border_reachable_recolor",
+      "domain_containment": true,
+      "domain_reasons": [],
+      "enclosed_region_complement_checked": true,
+      "episode_id": "generator_stress_suite:border_reachable_recolor:p2:o7:mNone:gdiagonal_bridge_b:v185",
+      "expected_output_matches_checker": true,
+      "fixed_point_reachability_checked": true,
+      "grid_validity": true,
+      "marker_validity": true,
+      "passable_and_barrier_masks_valid": true,
+      "passed": true,
+      "query_target_unique": true,
+      "support_consistency": true,
+      "wrong_adjacency_output_differs": true
+    },
+    {
+      "border_reachability_checked": true,
+      "complete_tuple_unique": true,
+      "component_validity": true,
+      "consistent_hypotheses": [
+        {
+          "adjacency": "4_connected",
+          "barrier_color": 4,
+          "convention": "border_reachable_recolor",
+          "marker_color_or_none": null,
+          "output_recolor_color": 8,
+          "passable_color": 2,
+          "seed_condition_or_none": null
+        }
+      ],
+      "consistent_hypothesis_count": 1,
+      "convention": "border_reachable_recolor",
+      "domain_containment": true,
+      "domain_reasons": [],
+      "enclosed_region_complement_checked": true,
+      "episode_id": "generator_stress_suite:border_reachable_recolor:p2:o8:mNone:gdiagonal_bridge_b:v189",
+      "expected_output_matches_checker": true,
+      "fixed_point_reachability_checked": true,
+      "grid_validity": true,
+      "marker_validity": true,
+      "passable_and_barrier_masks_valid": true,
+      "passed": true,
+      "query_target_unique": true,
+      "support_consistency": true,
+      "wrong_adjacency_output_differs": true
+    },
+    {
+      "border_reachability_checked": true,
+      "complete_tuple_unique": true,
+      "component_validity": true,
+      "consistent_hypotheses": [
+        {
+          "adjacency": "4_connected",
+          "barrier_color": 4,
+          "convention": "border_reachable_recolor",
+          "marker_color_or_none": null,
+          "output_recolor_color": 8,
+          "passable_color": 2,
+          "seed_condition_or_none": null
+        }
+      ],
+      "consistent_hypothesis_count": 1,
+      "convention": "border_reachable_recolor",
+      "domain_containment": true,
+      "domain_reasons": [],
+      "enclosed_region_complement_checked": true,
+      "episode_id": "generator_stress_suite:border_reachable_recolor:p2:o8:mNone:gdiagonal_bridge_c:v190",
+      "expected_output_matches_checker": true,
+      "fixed_point_reachability_checked": true,
+      "grid_validity": true,
+      "marker_validity": true,
+      "passable_and_barrier_masks_valid": true,
+      "passed": true,
+      "query_target_unique": true,
+      "support_consistency": true,
+      "wrong_adjacency_output_differs": true
+    },
+    {
+      "border_reachability_checked": true,
+      "complete_tuple_unique": true,
+      "component_validity": true,
+      "consistent_hypotheses": [
+        {
+          "adjacency": "4_connected",
+          "barrier_color": 4,
+          "convention": "border_reachable_recolor",
+          "marker_color_or_none": null,
+          "output_recolor_color": 8,
+          "passable_color": 2,
+          "seed_condition_or_none": null
+        }
+      ],
+      "consistent_hypothesis_count": 1,
+      "convention": "border_reachable_recolor",
+      "domain_containment": true,
+      "domain_reasons": [],
+      "enclosed_region_complement_checked": true,
+      "episode_id": "generator_stress_suite:border_reachable_recolor:p2:o8:mNone:gdiagonal_bridge_d:v191",
+      "expected_output_matches_checker": true,
+      "fixed_point_reachability_checked": true,
+      "grid_validity": true,
+      "marker_validity": true,
+      "passable_and_barrier_masks_valid": true,
+      "passed": true,
+      "query_target_unique": true,
+      "support_consistency": true,
+      "wrong_adjacency_output_differs": true
+    },
+    {
+      "border_reachability_checked": true,
+      "complete_tuple_unique": true,
+      "component_validity": true,
+      "consistent_hypotheses": [
+        {
+          "adjacency": "4_connected",
+          "barrier_color": 4,
+          "convention": "border_reachable_recolor",
+          "marker_color_or_none": null,
+          "output_recolor_color": 8,
+          "passable_color": 2,
+          "seed_condition_or_none": null
+        }
+      ],
+      "consistent_hypothesis_count": 1,
+      "convention": "border_reachable_recolor",
+      "domain_containment": true,
+      "domain_reasons": [],
+      "enclosed_region_complement_checked": true,
+      "episode_id": "generator_stress_suite:border_reachable_recolor:p2:o8:mNone:gdiagonal_bridge_a:v192",
+      "expected_output_matches_checker": true,
+      "fixed_point_reachability_checked": true,
+      "grid_validity": true,
+      "marker_validity": true,
+      "passable_and_barrier_masks_valid": true,
+      "passed": true,
+      "query_target_unique": true,
+      "support_consistency": true,
+      "wrong_adjacency_output_differs": true
+    },
+    {
+      "border_reachability_checked": true,
+      "complete_tuple_unique": true,
+      "component_validity": true,
+      "consistent_hypotheses": [
+        {
+          "adjacency": "4_connected",
+          "barrier_color": 4,
+          "convention": "border_reachable_recolor",
+          "marker_color_or_none": null,
+          "output_recolor_color": 7,
+          "passable_color": 3,
+          "seed_condition_or_none": null
+        }
+      ],
+      "consistent_hypothesis_count": 1,
+      "convention": "border_reachable_recolor",
+      "domain_containment": true,
+      "domain_reasons": [],
+      "enclosed_region_complement_checked": true,
+      "episode_id": "generator_stress_suite:border_reachable_recolor:p3:o7:mNone:gdiagonal_bridge_a:v196",
+      "expected_output_matches_checker": true,
+      "fixed_point_reachability_checked": true,
+      "grid_validity": true,
+      "marker_validity": true,
+      "passable_and_barrier_masks_valid": true,
+      "passed": true,
+      "query_target_unique": true,
+      "support_consistency": true,
+      "wrong_adjacency_output_differs": true
+    },
+    {
+      "border_reachability_checked": true,
+      "complete_tuple_unique": true,
+      "component_validity": true,
+      "consistent_hypotheses": [
+        {
+          "adjacency": "4_connected",
+          "barrier_color": 4,
+          "convention": "border_reachable_recolor",
+          "marker_color_or_none": null,
+          "output_recolor_color": 7,
+          "passable_color": 3,
+          "seed_condition_or_none": null
+        }
+      ],
+      "consistent_hypothesis_count": 1,
+      "convention": "border_reachable_recolor",
+      "domain_containment": true,
+      "domain_reasons": [],
+      "enclosed_region_complement_checked": true,
+      "episode_id": "generator_stress_suite:border_reachable_recolor:p3:o7:mNone:gdiagonal_bridge_b:v197",
+      "expected_output_matches_checker": true,
+      "fixed_point_reachability_checked": true,
+      "grid_validity": true,
+      "marker_validity": true,
+      "passable_and_barrier_masks_valid": true,
+      "passed": true,
+      "query_target_unique": true,
+      "support_consistency": true,
+      "wrong_adjacency_output_differs": true
+    },
+    {
+      "border_reachability_checked": true,
+      "complete_tuple_unique": true,
+      "component_validity": true,
+      "consistent_hypotheses": [
+        {
+          "adjacency": "4_connected",
+          "barrier_color": 4,
+          "convention": "border_reachable_recolor",
+          "marker_color_or_none": null,
+          "output_recolor_color": 7,
+          "passable_color": 3,
+          "seed_condition_or_none": null
+        }
+      ],
+      "consistent_hypothesis_count": 1,
+      "convention": "border_reachable_recolor",
+      "domain_containment": true,
+      "domain_reasons": [],
+      "enclosed_region_complement_checked": true,
+      "episode_id": "generator_stress_suite:border_reachable_recolor:p3:o7:mNone:gdiagonal_bridge_c:v198",
+      "expected_output_matches_checker": true,
+      "fixed_point_reachability_checked": true,
+      "grid_validity": true,
+      "marker_validity": true,
+      "passable_and_barrier_masks_valid": true,
+      "passed": true,
+      "query_target_unique": true,
+      "support_consistency": true,
+      "wrong_adjacency_output_differs": true
+    },
+    {
+      "border_reachability_checked": true,
+      "complete_tuple_unique": true,
+      "component_validity": true,
+      "consistent_hypotheses": [
+        {
+          "adjacency": "4_connected",
+          "barrier_color": 4,
+          "convention": "border_reachable_recolor",
+          "marker_color_or_none": null,
+          "output_recolor_color": 7,
+          "passable_color": 3,
+          "seed_condition_or_none": null
+        }
+      ],
+      "consistent_hypothesis_count": 1,
+      "convention": "border_reachable_recolor",
+      "domain_containment": true,
+      "domain_reasons": [],
+      "enclosed_region_complement_checked": true,
+      "episode_id": "generator_stress_suite:border_reachable_recolor:p3:o7:mNone:gdiagonal_bridge_d:v199",
+      "expected_output_matches_checker": true,
+      "fixed_point_reachability_checked": true,
+      "grid_validity": true,
+      "marker_validity": true,
+      "passable_and_barrier_masks_valid": true,
+      "passed": true,
+      "query_target_unique": true,
+      "support_consistency": true,
+      "wrong_adjacency_output_differs": true
+    },
+    {
+      "border_reachability_checked": true,
+      "complete_tuple_unique": true,
+      "component_validity": true,
+      "consistent_hypotheses": [
+        {
+          "adjacency": "4_connected",
+          "barrier_color": 4,
+          "convention": "border_reachable_recolor",
+          "marker_color_or_none": null,
+          "output_recolor_color": 8,
+          "passable_color": 3,
+          "seed_condition_or_none": null
+        }
+      ],
+      "consistent_hypothesis_count": 1,
+      "convention": "border_reachable_recolor",
+      "domain_containment": true,
+      "domain_reasons": [],
+      "enclosed_region_complement_checked": true,
+      "episode_id": "generator_stress_suite:border_reachable_recolor:p3:o8:mNone:gdiagonal_bridge_d:v203",
+      "expected_output_matches_checker": true,
+      "fixed_point_reachability_checked": true,
+      "grid_validity": true,
+      "marker_validity": true,
+      "passable_and_barrier_masks_valid": true,
+      "passed": true,
+      "query_target_unique": true,
+      "support_consistency": true,
+      "wrong_adjacency_output_differs": true
+    },
+    {
+      "border_reachability_checked": true,
+      "complete_tuple_unique": true,
+      "component_validity": true,
+      "consistent_hypotheses": [
+        {
+          "adjacency": "4_connected",
+          "barrier_color": 4,
+          "convention": "border_reachable_recolor",
+          "marker_color_or_none": null,
+          "output_recolor_color": 8,
+          "passable_color": 3,
+          "seed_condition_or_none": null
+        }
+      ],
+      "consistent_hypothesis_count": 1,
+      "convention": "border_reachable_recolor",
+      "domain_containment": true,
+      "domain_reasons": [],
+      "enclosed_region_complement_checked": true,
+      "episode_id": "generator_stress_suite:border_reachable_recolor:p3:o8:mNone:gdiagonal_bridge_a:v204",
+      "expected_output_matches_checker": true,
+      "fixed_point_reachability_checked": true,
+      "grid_validity": true,
+      "marker_validity": true,
+      "passable_and_barrier_masks_valid": true,
+      "passed": true,
+      "query_target_unique": true,
+      "support_consistency": true,
+      "wrong_adjacency_output_differs": true
+    },
+    {
+      "border_reachability_checked": true,
+      "complete_tuple_unique": true,
+      "component_validity": true,
+      "consistent_hypotheses": [
+        {
+          "adjacency": "4_connected",
+          "barrier_color": 4,
+          "convention": "border_reachable_recolor",
+          "marker_color_or_none": null,
+          "output_recolor_color": 8,
+          "passable_color": 3,
+          "seed_condition_or_none": null
+        }
+      ],
+      "consistent_hypothesis_count": 1,
+      "convention": "border_reachable_recolor",
+      "domain_containment": true,
+      "domain_reasons": [],
+      "enclosed_region_complement_checked": true,
+      "episode_id": "generator_stress_suite:border_reachable_recolor:p3:o8:mNone:gdiagonal_bridge_b:v205",
+      "expected_output_matches_checker": true,
+      "fixed_point_reachability_checked": true,
+      "grid_validity": true,
+      "marker_validity": true,
+      "passable_and_barrier_masks_valid": true,
+      "passed": true,
+      "query_target_unique": true,
+      "support_consistency": true,
+      "wrong_adjacency_output_differs": true
+    },
+    {
+      "border_reachability_checked": true,
+      "complete_tuple_unique": true,
+      "component_validity": true,
+      "consistent_hypotheses": [
+        {
+          "adjacency": "4_connected",
+          "barrier_color": 4,
+          "convention": "border_reachable_recolor",
+          "marker_color_or_none": null,
+          "output_recolor_color": 8,
+          "passable_color": 3,
+          "seed_condition_or_none": null
+        }
+      ],
+      "consistent_hypothesis_count": 1,
+      "convention": "border_reachable_recolor",
+      "domain_containment": true,
+      "domain_reasons": [],
+      "enclosed_region_complement_checked": true,
+      "episode_id": "generator_stress_suite:border_reachable_recolor:p3:o8:mNone:gdiagonal_bridge_c:v206",
+      "expected_output_matches_checker": true,
+      "fixed_point_reachability_checked": true,
+      "grid_validity": true,
+      "marker_validity": true,
+      "passable_and_barrier_masks_valid": true,
+      "passed": true,
+      "query_target_unique": true,
+      "support_consistency": true,
+      "wrong_adjacency_output_differs": true
+    },
+    {
+      "border_reachability_checked": true,
+      "complete_tuple_unique": true,
+      "component_validity": true,
+      "consistent_hypotheses": [
+        {
+          "adjacency": "4_connected",
+          "barrier_color": 4,
+          "convention": "enclosed_region_recolor",
+          "marker_color_or_none": null,
+          "output_recolor_color": 7,
+          "passable_color": 1,
+          "seed_condition_or_none": null
+        }
+      ],
+      "consistent_hypothesis_count": 1,
+      "convention": "enclosed_region_recolor",
+      "domain_containment": true,
+      "domain_reasons": [],
+      "enclosed_region_complement_checked": true,
+      "episode_id": "generator_stress_suite:enclosed_region_recolor:p1:o7:mNone:gdiagonal_bridge_c:v210",
+      "expected_output_matches_checker": true,
+      "fixed_point_reachability_checked": true,
+      "grid_validity": true,
+      "marker_validity": true,
+      "passable_and_barrier_masks_valid": true,
+      "passed": true,
+      "query_target_unique": true,
+      "support_consistency": true,
+      "wrong_adjacency_output_differs": true
+    },
+    {
+      "border_reachability_checked": true,
+      "complete_tuple_unique": true,
+      "component_validity": true,
+      "consistent_hypotheses": [
+        {
+          "adjacency": "4_connected",
+          "barrier_color": 4,
+          "convention": "enclosed_region_recolor",
+          "marker_color_or_none": null,
+          "output_recolor_color": 7,
+          "passable_color": 1,
+          "seed_condition_or_none": null
+        }
+      ],
+      "consistent_hypothesis_count": 1,
+      "convention": "enclosed_region_recolor",
+      "domain_containment": true,
+      "domain_reasons": [],
+      "enclosed_region_complement_checked": true,
+      "episode_id": "generator_stress_suite:enclosed_region_recolor:p1:o7:mNone:gdiagonal_bridge_d:v211",
+      "expected_output_matches_checker": true,
+      "fixed_point_reachability_checked": true,
+      "grid_validity": true,
+      "marker_validity": true,
+      "passable_and_barrier_masks_valid": true,
+      "passed": true,
+      "query_target_unique": true,
+      "support_consistency": true,
+      "wrong_adjacency_output_differs": true
+    },
+    {
+      "border_reachability_checked": true,
+      "complete_tuple_unique": true,
+      "component_validity": true,
+      "consistent_hypotheses": [
+        {
+          "adjacency": "4_connected",
+          "barrier_color": 4,
+          "convention": "enclosed_region_recolor",
+          "marker_color_or_none": null,
+          "output_recolor_color": 7,
+          "passable_color": 1,
+          "seed_condition_or_none": null
+        }
+      ],
+      "consistent_hypothesis_count": 1,
+      "convention": "enclosed_region_recolor",
+      "domain_containment": true,
+      "domain_reasons": [],
+      "enclosed_region_complement_checked": true,
+      "episode_id": "generator_stress_suite:enclosed_region_recolor:p1:o7:mNone:gdiagonal_bridge_a:v212",
+      "expected_output_matches_checker": true,
+      "fixed_point_reachability_checked": true,
+      "grid_validity": true,
+      "marker_validity": true,
+      "passable_and_barrier_masks_valid": true,
+      "passed": true,
+      "query_target_unique": true,
+      "support_consistency": true,
+      "wrong_adjacency_output_differs": true
+    },
+    {
+      "border_reachability_checked": true,
+      "complete_tuple_unique": true,
+      "component_validity": true,
+      "consistent_hypotheses": [
+        {
+          "adjacency": "4_connected",
+          "barrier_color": 4,
+          "convention": "enclosed_region_recolor",
+          "marker_color_or_none": null,
+          "output_recolor_color": 7,
+          "passable_color": 1,
+          "seed_condition_or_none": null
+        }
+      ],
+      "consistent_hypothesis_count": 1,
+      "convention": "enclosed_region_recolor",
+      "domain_containment": true,
+      "domain_reasons": [],
+      "enclosed_region_complement_checked": true,
+      "episode_id": "generator_stress_suite:enclosed_region_recolor:p1:o7:mNone:gdiagonal_bridge_b:v213",
+      "expected_output_matches_checker": true,
+      "fixed_point_reachability_checked": true,
+      "grid_validity": true,
+      "marker_validity": true,
+      "passable_and_barrier_masks_valid": true,
+      "passed": true,
+      "query_target_unique": true,
+      "support_consistency": true,
+      "wrong_adjacency_output_differs": true
+    },
+    {
+      "border_reachability_checked": true,
+      "complete_tuple_unique": true,
+      "component_validity": true,
+      "consistent_hypotheses": [
+        {
+          "adjacency": "4_connected",
+          "barrier_color": 4,
+          "convention": "enclosed_region_recolor",
+          "marker_color_or_none": null,
+          "output_recolor_color": 8,
+          "passable_color": 1,
+          "seed_condition_or_none": null
+        }
+      ],
+      "consistent_hypothesis_count": 1,
+      "convention": "enclosed_region_recolor",
+      "domain_containment": true,
+      "domain_reasons": [],
+      "enclosed_region_complement_checked": true,
+      "episode_id": "generator_stress_suite:enclosed_region_recolor:p1:o8:mNone:gdiagonal_bridge_b:v217",
+      "expected_output_matches_checker": true,
+      "fixed_point_reachability_checked": true,
+      "grid_validity": true,
+      "marker_validity": true,
+      "passable_and_barrier_masks_valid": true,
+      "passed": true,
+      "query_target_unique": true,
+      "support_consistency": true,
+      "wrong_adjacency_output_differs": true
+    },
+    {
+      "border_reachability_checked": true,
+      "complete_tuple_unique": true,
+      "component_validity": true,
+      "consistent_hypotheses": [
+        {
+          "adjacency": "4_connected",
+          "barrier_color": 4,
+          "convention": "enclosed_region_recolor",
+          "marker_color_or_none": null,
+          "output_recolor_color": 8,
+          "passable_color": 1,
+          "seed_condition_or_none": null
+        }
+      ],
+      "consistent_hypothesis_count": 1,
+      "convention": "enclosed_region_recolor",
+      "domain_containment": true,
+      "domain_reasons": [],
+      "enclosed_region_complement_checked": true,
+      "episode_id": "generator_stress_suite:enclosed_region_recolor:p1:o8:mNone:gdiagonal_bridge_c:v218",
+      "expected_output_matches_checker": true,
+      "fixed_point_reachability_checked": true,
+      "grid_validity": true,
+      "marker_validity": true,
+      "passable_and_barrier_masks_valid": true,
+      "passed": true,
+      "query_target_unique": true,
+      "support_consistency": true,
+      "wrong_adjacency_output_differs": true
+    },
+    {
+      "border_reachability_checked": true,
+      "complete_tuple_unique": true,
+      "component_validity": true,
+      "consistent_hypotheses": [
+        {
+          "adjacency": "4_connected",
+          "barrier_color": 4,
+          "convention": "enclosed_region_recolor",
+          "marker_color_or_none": null,
+          "output_recolor_color": 8,
+          "passable_color": 1,
+          "seed_condition_or_none": null
+        }
+      ],
+      "consistent_hypothesis_count": 1,
+      "convention": "enclosed_region_recolor",
+      "domain_containment": true,
+      "domain_reasons": [],
+      "enclosed_region_complement_checked": true,
+      "episode_id": "generator_stress_suite:enclosed_region_recolor:p1:o8:mNone:gdiagonal_bridge_d:v219",
+      "expected_output_matches_checker": true,
+      "fixed_point_reachability_checked": true,
+      "grid_validity": true,
+      "marker_validity": true,
+      "passable_and_barrier_masks_valid": true,
+      "passed": true,
+      "query_target_unique": true,
+      "support_consistency": true,
+      "wrong_adjacency_output_differs": true
+    },
+    {
+      "border_reachability_checked": true,
+      "complete_tuple_unique": true,
+      "component_validity": true,
+      "consistent_hypotheses": [
+        {
+          "adjacency": "4_connected",
+          "barrier_color": 4,
+          "convention": "enclosed_region_recolor",
+          "marker_color_or_none": null,
+          "output_recolor_color": 8,
+          "passable_color": 1,
+          "seed_condition_or_none": null
+        }
+      ],
+      "consistent_hypothesis_count": 1,
+      "convention": "enclosed_region_recolor",
+      "domain_containment": true,
+      "domain_reasons": [],
+      "enclosed_region_complement_checked": true,
+      "episode_id": "generator_stress_suite:enclosed_region_recolor:p1:o8:mNone:gdiagonal_bridge_a:v220",
+      "expected_output_matches_checker": true,
+      "fixed_point_reachability_checked": true,
+      "grid_validity": true,
+      "marker_validity": true,
+      "passable_and_barrier_masks_valid": true,
+      "passed": true,
+      "query_target_unique": true,
+      "support_consistency": true,
+      "wrong_adjacency_output_differs": true
+    },
+    {
+      "border_reachability_checked": true,
+      "complete_tuple_unique": true,
+      "component_validity": true,
+      "consistent_hypotheses": [
+        {
+          "adjacency": "4_connected",
+          "barrier_color": 4,
+          "convention": "enclosed_region_recolor",
+          "marker_color_or_none": null,
+          "output_recolor_color": 7,
+          "passable_color": 2,
+          "seed_condition_or_none": null
+        }
+      ],
+      "consistent_hypothesis_count": 1,
+      "convention": "enclosed_region_recolor",
+      "domain_containment": true,
+      "domain_reasons": [],
+      "enclosed_region_complement_checked": true,
+      "episode_id": "generator_stress_suite:enclosed_region_recolor:p2:o7:mNone:gdiagonal_bridge_a:v224",
+      "expected_output_matches_checker": true,
+      "fixed_point_reachability_checked": true,
+      "grid_validity": true,
+      "marker_validity": true,
+      "passable_and_barrier_masks_valid": true,
+      "passed": true,
+      "query_target_unique": true,
+      "support_consistency": true,
+      "wrong_adjacency_output_differs": true
+    },
+    {
+      "border_reachability_checked": true,
+      "complete_tuple_unique": true,
+      "component_validity": true,
+      "consistent_hypotheses": [
+        {
+          "adjacency": "4_connected",
+          "barrier_color": 4,
+          "convention": "enclosed_region_recolor",
+          "marker_color_or_none": null,
+          "output_recolor_color": 7,
+          "passable_color": 2,
+          "seed_condition_or_none": null
+        }
+      ],
+      "consistent_hypothesis_count": 1,
+      "convention": "enclosed_region_recolor",
+      "domain_containment": true,
+      "domain_reasons": [],
+      "enclosed_region_complement_checked": true,
+      "episode_id": "generator_stress_suite:enclosed_region_recolor:p2:o7:mNone:gdiagonal_bridge_b:v225",
+      "expected_output_matches_checker": true,
+      "fixed_point_reachability_checked": true,
+      "grid_validity": true,
+      "marker_validity": true,
+      "passable_and_barrier_masks_valid": true,
+      "passed": true,
+      "query_target_unique": true,
+      "support_consistency": true,
+      "wrong_adjacency_output_differs": true
+    },
+    {
+      "border_reachability_checked": true,
+      "complete_tuple_unique": true,
+      "component_validity": true,
+      "consistent_hypotheses": [
+        {
+          "adjacency": "4_connected",
+          "barrier_color": 4,
+          "convention": "enclosed_region_recolor",
+          "marker_color_or_none": null,
+          "output_recolor_color": 7,
+          "passable_color": 2,
+          "seed_condition_or_none": null
+        }
+      ],
+      "consistent_hypothesis_count": 1,
+      "convention": "enclosed_region_recolor",
+      "domain_containment": true,
+      "domain_reasons": [],
+      "enclosed_region_complement_checked": true,
+      "episode_id": "generator_stress_suite:enclosed_region_recolor:p2:o7:mNone:gdiagonal_bridge_c:v226",
+      "expected_output_matches_checker": true,
+      "fixed_point_reachability_checked": true,
+      "grid_validity": true,
+      "marker_validity": true,
+      "passable_and_barrier_masks_valid": true,
+      "passed": true,
+      "query_target_unique": true,
+      "support_consistency": true,
+      "wrong_adjacency_output_differs": true
+    },
+    {
+      "border_reachability_checked": true,
+      "complete_tuple_unique": true,
+      "component_validity": true,
+      "consistent_hypotheses": [
+        {
+          "adjacency": "4_connected",
+          "barrier_color": 4,
+          "convention": "enclosed_region_recolor",
+          "marker_color_or_none": null,
+          "output_recolor_color": 7,
+          "passable_color": 2,
+          "seed_condition_or_none": null
+        }
+      ],
+      "consistent_hypothesis_count": 1,
+      "convention": "enclosed_region_recolor",
+      "domain_containment": true,
+      "domain_reasons": [],
+      "enclosed_region_complement_checked": true,
+      "episode_id": "generator_stress_suite:enclosed_region_recolor:p2:o7:mNone:gdiagonal_bridge_d:v227",
+      "expected_output_matches_checker": true,
+      "fixed_point_reachability_checked": true,
+      "grid_validity": true,
+      "marker_validity": true,
+      "passable_and_barrier_masks_valid": true,
+      "passed": true,
+      "query_target_unique": true,
+      "support_consistency": true,
+      "wrong_adjacency_output_differs": true
+    },
+    {
+      "border_reachability_checked": true,
+      "complete_tuple_unique": true,
+      "component_validity": true,
+      "consistent_hypotheses": [
+        {
+          "adjacency": "4_connected",
+          "barrier_color": 4,
+          "convention": "enclosed_region_recolor",
+          "marker_color_or_none": null,
+          "output_recolor_color": 8,
+          "passable_color": 2,
+          "seed_condition_or_none": null
+        }
+      ],
+      "consistent_hypothesis_count": 1,
+      "convention": "enclosed_region_recolor",
+      "domain_containment": true,
+      "domain_reasons": [],
+      "enclosed_region_complement_checked": true,
+      "episode_id": "generator_stress_suite:enclosed_region_recolor:p2:o8:mNone:gdiagonal_bridge_d:v231",
+      "expected_output_matches_checker": true,
+      "fixed_point_reachability_checked": true,
+      "grid_validity": true,
+      "marker_validity": true,
+      "passable_and_barrier_masks_valid": true,
+      "passed": true,
+      "query_target_unique": true,
+      "support_consistency": true,
+      "wrong_adjacency_output_differs": true
+    },
+    {
+      "border_reachability_checked": true,
+      "complete_tuple_unique": true,
+      "component_validity": true,
+      "consistent_hypotheses": [
+        {
+          "adjacency": "4_connected",
+          "barrier_color": 4,
+          "convention": "enclosed_region_recolor",
+          "marker_color_or_none": null,
+          "output_recolor_color": 8,
+          "passable_color": 2,
+          "seed_condition_or_none": null
+        }
+      ],
+      "consistent_hypothesis_count": 1,
+      "convention": "enclosed_region_recolor",
+      "domain_containment": true,
+      "domain_reasons": [],
+      "enclosed_region_complement_checked": true,
+      "episode_id": "generator_stress_suite:enclosed_region_recolor:p2:o8:mNone:gdiagonal_bridge_a:v232",
+      "expected_output_matches_checker": true,
+      "fixed_point_reachability_checked": true,
+      "grid_validity": true,
+      "marker_validity": true,
+      "passable_and_barrier_masks_valid": true,
+      "passed": true,
+      "query_target_unique": true,
+      "support_consistency": true,
+      "wrong_adjacency_output_differs": true
+    },
+    {
+      "border_reachability_checked": true,
+      "complete_tuple_unique": true,
+      "component_validity": true,
+      "consistent_hypotheses": [
+        {
+          "adjacency": "4_connected",
+          "barrier_color": 4,
+          "convention": "enclosed_region_recolor",
+          "marker_color_or_none": null,
+          "output_recolor_color": 8,
+          "passable_color": 2,
+          "seed_condition_or_none": null
+        }
+      ],
+      "consistent_hypothesis_count": 1,
+      "convention": "enclosed_region_recolor",
+      "domain_containment": true,
+      "domain_reasons": [],
+      "enclosed_region_complement_checked": true,
+      "episode_id": "generator_stress_suite:enclosed_region_recolor:p2:o8:mNone:gdiagonal_bridge_b:v233",
+      "expected_output_matches_checker": true,
+      "fixed_point_reachability_checked": true,
+      "grid_validity": true,
+      "marker_validity": true,
+      "passable_and_barrier_masks_valid": true,
+      "passed": true,
+      "query_target_unique": true,
+      "support_consistency": true,
+      "wrong_adjacency_output_differs": true
+    },
+    {
+      "border_reachability_checked": true,
+      "complete_tuple_unique": true,
+      "component_validity": true,
+      "consistent_hypotheses": [
+        {
+          "adjacency": "4_connected",
+          "barrier_color": 4,
+          "convention": "enclosed_region_recolor",
+          "marker_color_or_none": null,
+          "output_recolor_color": 8,
+          "passable_color": 2,
+          "seed_condition_or_none": null
+        }
+      ],
+      "consistent_hypothesis_count": 1,
+      "convention": "enclosed_region_recolor",
+      "domain_containment": true,
+      "domain_reasons": [],
+      "enclosed_region_complement_checked": true,
+      "episode_id": "generator_stress_suite:enclosed_region_recolor:p2:o8:mNone:gdiagonal_bridge_c:v234",
+      "expected_output_matches_checker": true,
+      "fixed_point_reachability_checked": true,
+      "grid_validity": true,
+      "marker_validity": true,
+      "passable_and_barrier_masks_valid": true,
+      "passed": true,
+      "query_target_unique": true,
+      "support_consistency": true,
+      "wrong_adjacency_output_differs": true
+    },
+    {
+      "border_reachability_checked": true,
+      "complete_tuple_unique": true,
+      "component_validity": true,
+      "consistent_hypotheses": [
+        {
+          "adjacency": "4_connected",
+          "barrier_color": 4,
+          "convention": "enclosed_region_recolor",
+          "marker_color_or_none": null,
+          "output_recolor_color": 7,
+          "passable_color": 3,
+          "seed_condition_or_none": null
+        }
+      ],
+      "consistent_hypothesis_count": 1,
+      "convention": "enclosed_region_recolor",
+      "domain_containment": true,
+      "domain_reasons": [],
+      "enclosed_region_complement_checked": true,
+      "episode_id": "generator_stress_suite:enclosed_region_recolor:p3:o7:mNone:gdiagonal_bridge_c:v238",
+      "expected_output_matches_checker": true,
+      "fixed_point_reachability_checked": true,
+      "grid_validity": true,
+      "marker_validity": true,
+      "passable_and_barrier_masks_valid": true,
+      "passed": true,
+      "query_target_unique": true,
+      "support_consistency": true,
+      "wrong_adjacency_output_differs": true
+    },
+    {
+      "border_reachability_checked": true,
+      "complete_tuple_unique": true,
+      "component_validity": true,
+      "consistent_hypotheses": [
+        {
+          "adjacency": "4_connected",
+          "barrier_color": 4,
+          "convention": "enclosed_region_recolor",
+          "marker_color_or_none": null,
+          "output_recolor_color": 7,
+          "passable_color": 3,
+          "seed_condition_or_none": null
+        }
+      ],
+      "consistent_hypothesis_count": 1,
+      "convention": "enclosed_region_recolor",
+      "domain_containment": true,
+      "domain_reasons": [],
+      "enclosed_region_complement_checked": true,
+      "episode_id": "generator_stress_suite:enclosed_region_recolor:p3:o7:mNone:gdiagonal_bridge_d:v239",
+      "expected_output_matches_checker": true,
+      "fixed_point_reachability_checked": true,
+      "grid_validity": true,
+      "marker_validity": true,
+      "passable_and_barrier_masks_valid": true,
+      "passed": true,
+      "query_target_unique": true,
+      "support_consistency": true,
+      "wrong_adjacency_output_differs": true
+    },
+    {
+      "border_reachability_checked": true,
+      "complete_tuple_unique": true,
+      "component_validity": true,
+      "consistent_hypotheses": [
+        {
+          "adjacency": "4_connected",
+          "barrier_color": 4,
+          "convention": "enclosed_region_recolor",
+          "marker_color_or_none": null,
+          "output_recolor_color": 7,
+          "passable_color": 3,
+          "seed_condition_or_none": null
+        }
+      ],
+      "consistent_hypothesis_count": 1,
+      "convention": "enclosed_region_recolor",
+      "domain_containment": true,
+      "domain_reasons": [],
+      "enclosed_region_complement_checked": true,
+      "episode_id": "generator_stress_suite:enclosed_region_recolor:p3:o7:mNone:gdiagonal_bridge_a:v240",
+      "expected_output_matches_checker": true,
+      "fixed_point_reachability_checked": true,
+      "grid_validity": true,
+      "marker_validity": true,
+      "passable_and_barrier_masks_valid": true,
+      "passed": true,
+      "query_target_unique": true,
+      "support_consistency": true,
+      "wrong_adjacency_output_differs": true
+    },
+    {
+      "border_reachability_checked": true,
+      "complete_tuple_unique": true,
+      "component_validity": true,
+      "consistent_hypotheses": [
+        {
+          "adjacency": "4_connected",
+          "barrier_color": 4,
+          "convention": "enclosed_region_recolor",
+          "marker_color_or_none": null,
+          "output_recolor_color": 7,
+          "passable_color": 3,
+          "seed_condition_or_none": null
+        }
+      ],
+      "consistent_hypothesis_count": 1,
+      "convention": "enclosed_region_recolor",
+      "domain_containment": true,
+      "domain_reasons": [],
+      "enclosed_region_complement_checked": true,
+      "episode_id": "generator_stress_suite:enclosed_region_recolor:p3:o7:mNone:gdiagonal_bridge_b:v241",
+      "expected_output_matches_checker": true,
+      "fixed_point_reachability_checked": true,
+      "grid_validity": true,
+      "marker_validity": true,
+      "passable_and_barrier_masks_valid": true,
+      "passed": true,
+      "query_target_unique": true,
+      "support_consistency": true,
+      "wrong_adjacency_output_differs": true
+    },
+    {
+      "border_reachability_checked": true,
+      "complete_tuple_unique": true,
+      "component_validity": true,
+      "consistent_hypotheses": [
+        {
+          "adjacency": "4_connected",
+          "barrier_color": 4,
+          "convention": "enclosed_region_recolor",
+          "marker_color_or_none": null,
+          "output_recolor_color": 8,
+          "passable_color": 3,
+          "seed_condition_or_none": null
+        }
+      ],
+      "consistent_hypothesis_count": 1,
+      "convention": "enclosed_region_recolor",
+      "domain_containment": true,
+      "domain_reasons": [],
+      "enclosed_region_complement_checked": true,
+      "episode_id": "generator_stress_suite:enclosed_region_recolor:p3:o8:mNone:gdiagonal_bridge_b:v245",
+      "expected_output_matches_checker": true,
+      "fixed_point_reachability_checked": true,
+      "grid_validity": true,
+      "marker_validity": true,
+      "passable_and_barrier_masks_valid": true,
+      "passed": true,
+      "query_target_unique": true,
+      "support_consistency": true,
+      "wrong_adjacency_output_differs": true
+    },
+    {
+      "border_reachability_checked": true,
+      "complete_tuple_unique": true,
+      "component_validity": true,
+      "consistent_hypotheses": [
+        {
+          "adjacency": "4_connected",
+          "barrier_color": 4,
+          "convention": "enclosed_region_recolor",
+          "marker_color_or_none": null,
+          "output_recolor_color": 8,
+          "passable_color": 3,
+          "seed_condition_or_none": null
+        }
+      ],
+      "consistent_hypothesis_count": 1,
+      "convention": "enclosed_region_recolor",
+      "domain_containment": true,
+      "domain_reasons": [],
+      "enclosed_region_complement_checked": true,
+      "episode_id": "generator_stress_suite:enclosed_region_recolor:p3:o8:mNone:gdiagonal_bridge_c:v246",
+      "expected_output_matches_checker": true,
+      "fixed_point_reachability_checked": true,
+      "grid_validity": true,
+      "marker_validity": true,
+      "passable_and_barrier_masks_valid": true,
+      "passed": true,
+      "query_target_unique": true,
+      "support_consistency": true,
+      "wrong_adjacency_output_differs": true
+    },
+    {
+      "border_reachability_checked": true,
+      "complete_tuple_unique": true,
+      "component_validity": true,
+      "consistent_hypotheses": [
+        {
+          "adjacency": "4_connected",
+          "barrier_color": 4,
+          "convention": "enclosed_region_recolor",
+          "marker_color_or_none": null,
+          "output_recolor_color": 8,
+          "passable_color": 3,
+          "seed_condition_or_none": null
+        }
+      ],
+      "consistent_hypothesis_count": 1,
+      "convention": "enclosed_region_recolor",
+      "domain_containment": true,
+      "domain_reasons": [],
+      "enclosed_region_complement_checked": true,
+      "episode_id": "generator_stress_suite:enclosed_region_recolor:p3:o8:mNone:gdiagonal_bridge_d:v247",
+      "expected_output_matches_checker": true,
+      "fixed_point_reachability_checked": true,
+      "grid_validity": true,
+      "marker_validity": true,
+      "passable_and_barrier_masks_valid": true,
+      "passed": true,
+      "query_target_unique": true,
+      "support_consistency": true,
+      "wrong_adjacency_output_differs": true
+    },
+    {
+      "border_reachability_checked": true,
+      "complete_tuple_unique": true,
+      "component_validity": true,
+      "consistent_hypotheses": [
+        {
+          "adjacency": "4_connected",
+          "barrier_color": 4,
+          "convention": "enclosed_region_recolor",
+          "marker_color_or_none": null,
+          "output_recolor_color": 8,
+          "passable_color": 3,
+          "seed_condition_or_none": null
+        }
+      ],
+      "consistent_hypothesis_count": 1,
+      "convention": "enclosed_region_recolor",
+      "domain_containment": true,
+      "domain_reasons": [],
+      "enclosed_region_complement_checked": true,
+      "episode_id": "generator_stress_suite:enclosed_region_recolor:p3:o8:mNone:gdiagonal_bridge_a:v248",
+      "expected_output_matches_checker": true,
+      "fixed_point_reachability_checked": true,
+      "grid_validity": true,
+      "marker_validity": true,
+      "passable_and_barrier_masks_valid": true,
+      "passed": true,
+      "query_target_unique": true,
+      "support_consistency": true,
+      "wrong_adjacency_output_differs": true
+    }
+  ],
+  "complete_tuple_uniqueness": {
+    "accepted_episode_count": 147,
+    "accepted_with_exactly_one_complete_tuple": 147,
+    "all_accepted_unique": true
+  },
+  "consistent_hypothesis_count_before_rejection_distribution": {
+    "1": 147,
+    "multiple": 8
+  },
+  "counterbalancing_summary": {
+    "empty_or_underrepresented_cells": [],
+    "marginal_contingency_summaries": {
+      "barrier_color": {
+        "4": 147
+      },
+      "barrier_geometry": {
+        "diagonal_bridge_a": 37,
+        "diagonal_bridge_b": 37,
+        "diagonal_bridge_c": 37,
+        "diagonal_bridge_d": 36
+      },
+      "convention": {
+        "border_reachable_recolor": 49,
+        "enclosed_region_recolor": 49,
+        "seed_reachable_recolor": 49
+      },
+      "marker_color_or_none": {
+        "5": 25,
+        "6": 24,
+        "None": 98
+      },
+      "output_recolor_color": {
+        "7": 74,
+        "8": 73
+      },
+      "passable_color": {
+        "1": 49,
+        "2": 49,
+        "3": 49
+      }
+    },
+    "pairwise_contingency_summaries": {
+      "barrier_color__x__barrier_geometry": {
+        "4|diagonal_bridge_a": 37,
+        "4|diagonal_bridge_b": 37,
+        "4|diagonal_bridge_c": 37,
+        "4|diagonal_bridge_d": 36
+      },
+      "barrier_color__x__marker_color_or_none": {
+        "4|5": 25,
+        "4|6": 24,
+        "4|None": 98
+      },
+      "barrier_color__x__output_recolor_color": {
+        "4|7": 74,
+        "4|8": 73
+      },
+      "convention__x__barrier_color": {
+        "border_reachable_recolor|4": 49,
+        "enclosed_region_recolor|4": 49,
+        "seed_reachable_recolor|4": 49
+      },
+      "convention__x__barrier_geometry": {
+        "border_reachable_recolor|diagonal_bridge_a": 12,
+        "border_reachable_recolor|diagonal_bridge_b": 13,
+        "border_reachable_recolor|diagonal_bridge_c": 12,
+        "border_reachable_recolor|diagonal_bridge_d": 12,
+        "enclosed_region_recolor|diagonal_bridge_a": 12,
+        "enclosed_region_recolor|diagonal_bridge_b": 12,
+        "enclosed_region_recolor|diagonal_bridge_c": 13,
+        "enclosed_region_recolor|diagonal_bridge_d": 12,
+        "seed_reachable_recolor|diagonal_bridge_a": 13,
+        "seed_reachable_recolor|diagonal_bridge_b": 12,
+        "seed_reachable_recolor|diagonal_bridge_c": 12,
+        "seed_reachable_recolor|diagonal_bridge_d": 12
+      },
+      "convention__x__marker_color_or_none": {
+        "border_reachable_recolor|None": 49,
+        "enclosed_region_recolor|None": 49,
+        "seed_reachable_recolor|5": 25,
+        "seed_reachable_recolor|6": 24
+      },
+      "convention__x__output_recolor_color": {
+        "border_reachable_recolor|7": 24,
+        "border_reachable_recolor|8": 25,
+        "enclosed_region_recolor|7": 25,
+        "enclosed_region_recolor|8": 24,
+        "seed_reachable_recolor|7": 25,
+        "seed_reachable_recolor|8": 24
+      },
+      "convention__x__passable_color": {
+        "border_reachable_recolor|1": 16,
+        "border_reachable_recolor|2": 17,
+        "border_reachable_recolor|3": 16,
+        "enclosed_region_recolor|1": 16,
+        "enclosed_region_recolor|2": 16,
+        "enclosed_region_recolor|3": 17,
+        "seed_reachable_recolor|1": 17,
+        "seed_reachable_recolor|2": 16,
+        "seed_reachable_recolor|3": 16
+      },
+      "marker_color_or_none__x__barrier_geometry": {
+        "5|diagonal_bridge_a": 13,
+        "5|diagonal_bridge_c": 12,
+        "6|diagonal_bridge_b": 12,
+        "6|diagonal_bridge_d": 12,
+        "None|diagonal_bridge_a": 24,
+        "None|diagonal_bridge_b": 25,
+        "None|diagonal_bridge_c": 25,
+        "None|diagonal_bridge_d": 24
+      },
+      "marker_color_or_none__x__output_recolor_color": {
+        "5|7": 13,
+        "5|8": 12,
+        "6|7": 12,
+        "6|8": 12,
+        "None|7": 49,
+        "None|8": 49
+      },
+      "output_recolor_color__x__barrier_geometry": {
+        "7|diagonal_bridge_a": 19,
+        "7|diagonal_bridge_b": 18,
+        "7|diagonal_bridge_c": 19,
+        "7|diagonal_bridge_d": 18,
+        "8|diagonal_bridge_a": 18,
+        "8|diagonal_bridge_b": 19,
+        "8|diagonal_bridge_c": 18,
+        "8|diagonal_bridge_d": 18
+      },
+      "passable_color__x__barrier_color": {
+        "1|4": 49,
+        "2|4": 49,
+        "3|4": 49
+      },
+      "passable_color__x__barrier_geometry": {
+        "1|diagonal_bridge_a": 13,
+        "1|diagonal_bridge_b": 12,
+        "1|diagonal_bridge_c": 12,
+        "1|diagonal_bridge_d": 12,
+        "2|diagonal_bridge_a": 12,
+        "2|diagonal_bridge_b": 13,
+        "2|diagonal_bridge_c": 12,
+        "2|diagonal_bridge_d": 12,
+        "3|diagonal_bridge_a": 12,
+        "3|diagonal_bridge_b": 12,
+        "3|diagonal_bridge_c": 13,
+        "3|diagonal_bridge_d": 12
+      },
+      "passable_color__x__marker_color_or_none": {
+        "1|5": 9,
+        "1|6": 8,
+        "1|None": 32,
+        "2|5": 8,
+        "2|6": 8,
+        "2|None": 33,
+        "3|5": 8,
+        "3|6": 8,
+        "3|None": 33
+      },
+      "passable_color__x__output_recolor_color": {
+        "1|7": 25,
+        "1|8": 24,
+        "2|7": 24,
+        "2|8": 25,
+        "3|7": 25,
+        "3|8": 24
+      }
+    }
+  },
+  "domain_containment_all_accepted": true,
+  "identifiability_gate_activity_label": "IDENTIFIABILITY_GATE_ACTIVE",
+  "identifiability_gate_activity_rate": 0.05161290322580645,
+  "rejected_episode_count": 8,
+  "rejected_geometry_distributions": {
+    "barrier_density": {
+      "count": 8,
+      "histogram_or_bucketed_distribution": {
+        "0.0": 8
+      },
+      "max": 0.0,
+      "mean": 0.0,
+      "median": 0.0,
+      "min": 0.0
+    },
+    "enclosed_region_size": {
+      "count": 8,
+      "histogram_or_bucketed_distribution": {
+        "0": 8
+      },
+      "max": 0,
+      "mean": 0.0,
+      "median": 0.0,
+      "min": 0
+    },
+    "marker_to_target_distance": {
+      "count": 8,
+      "histogram_or_bucketed_distribution": {},
+      "max": null,
+      "mean": null,
+      "median": null,
+      "min": null
+    },
+    "number_of_candidate_hypotheses_before_support_filtering": {
+      "count": 8,
+      "histogram_or_bucketed_distribution": {
+        "24": 8
+      },
+      "max": 24,
+      "mean": 24.0,
+      "median": 24.0,
+      "min": 24
+    },
+    "number_of_enclosed_components": {
+      "count": 8,
+      "histogram_or_bucketed_distribution": {
+        "0": 8
+      },
+      "max": 0,
+      "mean": 0.0,
+      "median": 0.0,
+      "min": 0
+    },
+    "number_of_passable_components": {
+      "count": 8,
+      "histogram_or_bucketed_distribution": {
+        "0": 8
+      },
+      "max": 0,
+      "mean": 0.0,
+      "median": 0.0,
+      "min": 0
+    },
+    "reachable_region_size": {
+      "count": 8,
+      "histogram_or_bucketed_distribution": {
+        "0": 8
+      },
+      "max": 0,
+      "mean": 0.0,
+      "median": 0.0,
+      "min": 0
+    },
+    "seed_to_border_shortest_distance": {
+      "count": 8,
+      "histogram_or_bucketed_distribution": {},
+      "max": null,
+      "mean": null,
+      "median": null,
+      "min": null
+    }
+  },
+  "rejection_reason_counts": {
+    "multiple_consistent_hypotheses": 8
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "base_pair_counts": {
+    "dev": 1000,
+    "sealed": 1000,
+    "train": 8000
+  },
+  "candidate_and_labels_eval_only": true,
+  "data_dir": "/mnt/d/VRM/artifacts/twin_task_pilot_v1",
+  "episode_counts": {
+    "dev": 2000,
+    "sealed": 2000,
+    "train": 16000
+  },
+  "foreground_target_counts": {
+    "dev": [
+      5
+    ],
+    "sealed": [
+      5
+    ],
+    "train": [
+      5
+    ]
+  },
+  "raw_arc_data_used": false,
+  "source_files": {
+    "dev": {
+      "path": "/mnt/d/VRM/artifacts/twin_task_pilot_v1/dev.jsonl",
+      "sha256": "9233194ceb3c73c2b97eddcdd8af1b0b625f54c40f8b369cece2693b89f6c02c"
+    },
+    "sealed": {
+      "path": "/mnt/d/VRM/artifacts/twin_task_pilot_v1/sealed.jsonl",
+      "sha256": "1dc822ed6ec43c6b776ab586d109ad7b9c568cc9b17e06f0b2129540c20bd434"
+    },
+    "train": {
+      "path": "/mnt/d/VRM/artifacts/twin_task_pilot_v1/train.jsonl",
+      "sha256": "f0fa89ecdf2159d3921dfb2231224fa7693439b41b223dba35b522431c5cc1a1"
+    }
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "claims": [
+    {
+      "claim": "The module resets NumPy/Torch seeds, sets float32, and requests CUDA as the default device at import.",
+      "claim_id": "IMPORT_DEFAULT_DEVICE",
+      "classification": "DIRECT_SOURCE_FACT",
+      "line_range": "8-11",
+      "pinned_commit": "83a22218024d46273eb32b769a906340202ffb4d",
+      "source_file": "arc_compressor.py"
+    },
+    {
+      "claim": "Task construction collects shapes, predicts solution shapes, constructs multitensor system, masks, problem tensor, and optional solution tensor from the supplied problem.",
+      "claim_id": "TASK_RECONSTRUCTS_FROM_RAW",
+      "classification": "DIRECT_SOURCE_FACT",
+      "line_range": "15-28",
+      "pinned_commit": "83a22218024d46273eb32b769a906340202ffb4d",
+      "source_file": "preprocessing.py"
+    },
+    {
+      "claim": "Query output shape prediction is controlled by in_out_same_size and all_out_same_size, otherwise maximum dimensions are used.",
+      "claim_id": "PREDICTED_QUERY_SHAPE_FLAGS",
+      "classification": "DIRECT_SOURCE_FACT",
+      "line_range": "44-62",
+      "pinned_commit": "83a22218024d46273eb32b769a906340202ffb4d",
+      "source_file": "preprocessing.py"
+    },
+    {
+      "claim": "Known raw colors from support inputs/outputs and query inputs are sorted into the task color list, with black added.",
+      "claim_id": "COLOR_CANONICALIZATION",
+      "classification": "DIRECT_SOURCE_FACT",
+      "line_range": "80-89",
+      "pinned_commit": "83a22218024d46273eb32b769a906340202ffb4d",
+      "source_file": "preprocessing.py"
+    },
+    {
+      "claim": "Problem and mask tensors are moved to the current Torch default device; masks are converted to the default dtype.",
+      "claim_id": "PROBLEM_AND_MASK_DEVICE",
+      "classification": "DIRECT_SOURCE_FACT",
+      "line_range": "95-156",
+      "pinned_commit": "83a22218024d46273eb32b769a906340202ffb4d",
+      "source_file": "preprocessing.py"
+    },
+    {
+      "claim": "The reconstruction loss grid-size branch uses in_out_same_size, all_out_same_size, and all_in_same_size.",
+      "claim_id": "LOSS_BRANCH_FLAGS",
+      "classification": "DIRECT_SOURCE_FACT",
+      "line_range": "65-87",
+      "pinned_commit": "83a22218024d46273eb32b769a906340202ffb4d",
+      "source_file": "train.py"
+    },
+    {
+      "claim": "Mask postprocessing uses task shapes to add large negative modifiers outside per-example max dimensions.",
+      "claim_id": "POSTPROCESS_MASK_SHAPE_DEPENDENCE",
+      "classification": "DIRECT_SOURCE_FACT",
+      "line_range": "542-570",
+      "pinned_commit": "83a22218024d46273eb32b769a906340202ffb4d",
+      "source_file": "layers.py"
+    },
+    {
+      "claim": "The forward path samples latent noise with torch.randn; an exact group action on RNG streams is not defined in source.",
+      "claim_id": "STOCHASTIC_LATENT_SAMPLE",
+      "classification": "DIRECT_SOURCE_FACT",
+      "line_range": "123-125",
+      "pinned_commit": "83a22218024d46273eb32b769a906340202ffb4d",
+      "source_file": "layers.py"
+    },
+    {
+      "claim": "When dims[0] is set, multitensor tensors have an example axis whose length is task.n_examples.",
+      "claim_id": "EXAMPLE_AXIS_STATE",
+      "classification": "SOURCE_DERIVED_INFERENCE",
+      "line_range": "17-33,53-68",
+      "pinned_commit": "83a22218024d46273eb32b769a906340202ffb4d",
+      "source_file": "multitensor_systems.py"
+    },
+    {
+      "claim": "Adam optimizer state is empty before the first optimizer step and is created by normal optimizer.step execution.",
+      "claim_id": "ADAM_EMPTY_STEP_ZERO",
+      "classification": "SOURCE_DERIVED_INFERENCE",
+      "line_range": "49-109",
+      "pinned_commit": "83a22218024d46273eb32b769a906340202ffb4d",
+      "source_file": "train.py"
+    },
+    {
+      "claim": "The source contains x/y and directional symmetry machinery, but a complete D4 whole-pipeline null requires explicit action on raw grid, shape, masks, directions, axes, trainable state, and inverse scoring.",
+      "claim_id": "D4_FULL_PIPELINE",
+      "classification": "UNKNOWN_REQUIRES_RUNTIME_CHECK",
+      "line_range": "initializers.py:122-168; layers.py:310-524; arc_compressor.py:37-39,76-89",
+      "pinned_commit": "83a22218024d46273eb32b769a906340202ffb4d",
+      "source_file": "initializers.py,layers.py,arc_compressor.py"
+    }
+  ],
+  "created_utc": "2026-07-04T02:16:53Z",
+  "j_classification_policy": {
+    "default": "J_UNKNOWN_REQUIRES_MANUAL_REVIEW",
+    "reason": "No D4 transform is labelled J_NULL_CANDIDATE without a source-backed full-pipeline action and CPU evidence."
+  },
+  "pinned_commit": "83a22218024d46273eb32b769a906340202ffb4d",
+  "source_pin_verified": true
+}

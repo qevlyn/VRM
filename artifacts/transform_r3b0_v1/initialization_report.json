@@ -1,0 +1,22 @@
+{
+  "architecture": "SupportConditionedTransformPointerR3B0",
+  "config": {
+    "attention_heads": 4,
+    "color_count": 10,
+    "dropout": 0.0,
+    "grid_size": 7,
+    "hidden_size": 128,
+    "relation_layers": 2
+  },
+  "output_path": "query-copy pointer distribution only",
+  "pair_relation_encoder": "shared transformer over support-input/support-output cell tokens plus learned readout",
+  "parameter_count": {
+    "total": 1080193,
+    "trainable": 1080193
+  },
+  "same_color_relation_projection": "pair-local output-position/input-position color correspondence projected into the task context",
+  "support_pair_id_embeddings": false,
+  "support_pair_position_embeddings": false,
+  "task_aggregation": "mean(pair_representations) followed by bias-free MLP",
+  "transform_labels_in_forward": false
+}

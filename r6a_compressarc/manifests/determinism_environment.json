@@ -1,0 +1,97 @@
+{
+  "active_environment": {
+    "cuda_driver_query": {
+      "cmd": [
+        "nvidia-smi",
+        "--query-gpu=name,driver_version,cuda_version",
+        "--format=csv,noheader"
+      ],
+      "returncode": 2,
+      "stdout": "Field \"cuda_version\" is not a valid field to query.\n\n"
+    },
+    "env": {
+      "CUBLAS_WORKSPACE_CONFIG": null,
+      "CUDA_VISIBLE_DEVICES": null,
+      "MKL_NUM_THREADS": null,
+      "NVIDIA_VISIBLE_DEVICES": null,
+      "OMP_NUM_THREADS": null,
+      "PYTHONHASHSEED": null,
+      "TORCH_DETERMINISTIC": null
+    },
+    "gpu_name": "NVIDIA GeForce RTX 4070 Ti SUPER",
+    "matplotlib_version": "3.11.0",
+    "numpy_version": "2.5.0",
+    "platform": "Linux-6.18.33.1-microsoft-standard-WSL2-x86_64-with-glibc2.43",
+    "python_executable": "/home/quyen/.venvs/vrm/bin/python",
+    "python_version": "3.14.4 (main, Apr  8 2026, 04:02:31) [GCC 15.2.0]",
+    "torch_are_deterministic_algorithms_enabled": false,
+    "torch_backends_cuda_matmul_allow_tf32": false,
+    "torch_backends_cudnn_allow_tf32": true,
+    "torch_backends_cudnn_benchmark": false,
+    "torch_backends_cudnn_deterministic": false,
+    "torch_cuda_is_available": true,
+    "torch_cuda_runtime_version": "13.0",
+    "torch_cudnn_version": 92000,
+    "torch_version": "2.12.1+cu130",
+    "torch_version_cuda": "13.0",
+    "tqdm_version": "4.68.3"
+  },
+  "created_utc": "2026-07-01T15:35:19Z",
+  "environment_label": "ENVIRONMENT_DIFFERS_BUT_COMPATIBLE",
+  "exact_reference_reproduction_claim_allowed": false,
+  "installed_versions": {
+    "matplotlib": "3.11.0",
+    "numpy": "2.5.0",
+    "torch": "2.12.1+cu130",
+    "tqdm": "4.68.3"
+  },
+  "official_requirements": [
+    "matplotlib==3.10.0",
+    "numpy==2.2.2",
+    "torch==2.5.1",
+    "tqdm==4.66.6"
+  ],
+  "separate_environment_attempts": [
+    {
+      "cmd": [
+        "existing_path"
+      ],
+      "returncode": 0,
+      "stdout": "/home/quyen/.venvs/compressarc already exists"
+    },
+    {
+      "cmd": [
+        "/home/quyen/.venvs/compressarc/bin/python",
+        "-m",
+        "pip",
+        "install",
+        "-r",
+        "/mnt/d/VRM/third_party/compressarc_reference/requirements.txt"
+      ],
+      "returncode": 1,
+      "stdout": "/home/quyen/.venvs/compressarc/bin/python: No module named pip\n"
+    }
+  ],
+  "version_differences": {
+    "matplotlib": {
+      "expected": "3.10.0",
+      "installed": "3.11.0",
+      "matches": false
+    },
+    "numpy": {
+      "expected": "2.2.2",
+      "installed": "2.5.0",
+      "matches": false
+    },
+    "torch": {
+      "expected": "2.5.1",
+      "installed": "2.12.1+cu130",
+      "matches": false
+    },
+    "tqdm": {
+      "expected": "4.66.6",
+      "installed": "4.68.3",
+      "matches": false
+    }
+  }
+}

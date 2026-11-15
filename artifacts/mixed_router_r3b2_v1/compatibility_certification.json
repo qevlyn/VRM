@@ -1,0 +1,38 @@
+{
+  "example_count_per_family": 1500,
+  "fresh_r3b2_generation_path": true,
+  "passed": true,
+  "seeds": {
+    "20260628": {
+      "passed": true,
+      "per_example_branch_nll_recorded": true,
+      "reader_exact_on_retrieval_clear": 1.0,
+      "reader_exact_on_transform_clear": 0.0,
+      "reader_exact_on_transform_hard_negative": 0.0,
+      "transform_exact_on_retrieval_clear": 0.0,
+      "transform_exact_on_transform_clear": 1.0,
+      "transform_exact_on_transform_hard_negative": 1.0
+    },
+    "20260629": {
+      "passed": true,
+      "per_example_branch_nll_recorded": true,
+      "reader_exact_on_retrieval_clear": 1.0,
+      "reader_exact_on_transform_clear": 0.0,
+      "reader_exact_on_transform_hard_negative": 0.0,
+      "transform_exact_on_retrieval_clear": 0.0,
+      "transform_exact_on_transform_clear": 1.0,
+      "transform_exact_on_transform_hard_negative": 1.0
+    },
+    "20260630": {
+      "passed": true,
+      "per_example_branch_nll_recorded": true,
+      "reader_exact_on_retrieval_clear": 1.0,
+      "reader_exact_on_transform_clear": 0.0,
+      "reader_exact_on_transform_hard_negative": 0.0,
+      "transform_exact_on_retrieval_clear": 0.0,
+      "transform_exact_on_transform_clear": 1.0,
+      "transform_exact_on_transform_hard_negative": 1.0
+    }
+  },
+  "total_examples": 4500
+}

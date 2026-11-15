@@ -1,0 +1,47 @@
+Collecting matplotlib==3.10.0
+  Downloading matplotlib-3.10.0.tar.gz (36.7 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 36.7/36.7 MB 50.8 MB/s  0:00:00
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'done'
+  Installing backend dependencies: started
+  Installing backend dependencies: finished with status 'done'
+  Preparing metadata (pyproject.toml): started
+  Preparing metadata (pyproject.toml): finished with status 'error'
+  error: subprocess-exited-with-error
+  
+  × Preparing metadata (pyproject.toml) did not run successfully.
+  │ exit code: 1
+  ╰─> [21 lines of output]
+      + meson setup /tmp/pip-install-1g4fdx1w/matplotlib_0af2add60deb4eeabed7c63a3a04565f /tmp/pip-install-1g4fdx1w/matplotlib_0af2add60deb4eeabed7c63a3a04565f/.mesonpy-e0izbxs6 -Dbuildtype=release -Db_ndebug=if-release -Db_vscrt=md --native-file=/tmp/pip-install-1g4fdx1w/matplotlib_0af2add60deb4eeabed7c63a3a04565f/.mesonpy-e0izbxs6/meson-python-native-file.ini
+      The Meson build system
+      Version: 1.11.1
+      Source dir: /tmp/pip-install-1g4fdx1w/matplotlib_0af2add60deb4eeabed7c63a3a04565f
+      Build dir: /tmp/pip-install-1g4fdx1w/matplotlib_0af2add60deb4eeabed7c63a3a04565f/.mesonpy-e0izbxs6
+      Build type: native build
+      Program python3 found: YES (/usr/bin/python3)
+      Project name: matplotlib
+      Project version: 3.10.0
+      
+      ../meson.build:1:0: ERROR: Unknown compiler(s): [['cc'], ['gcc'], ['clang'], ['nvc'], ['pgcc'], ['icc'], ['icx']]
+      The following exception(s) were encountered:
+      Running `cc --version` gave "[Errno 2] No such file or directory: 'cc'"
+      Running `gcc --version` gave "[Errno 2] No such file or directory: 'gcc'"
+      Running `clang --version` gave "[Errno 2] No such file or directory: 'clang'"
+      Running `nvc --version` gave "[Errno 2] No such file or directory: 'nvc'"
+      Running `pgcc --version` gave "[Errno 2] No such file or directory: 'pgcc'"
+      Running `icc --version` gave "[Errno 2] No such file or directory: 'icc'"
+      Running `icx --version` gave "[Errno 2] No such file or directory: 'icx'"
+      
+      A full log can be found at /tmp/pip-install-1g4fdx1w/matplotlib_0af2add60deb4eeabed7c63a3a04565f/.mesonpy-e0izbxs6/meson-logs/meson-log.txt
+      [end of output]
+  
+  note: This error originates from a subprocess, and is likely not a problem with pip.
+error: metadata-generation-failed
+
+× Encountered error while generating package metadata.
+╰─> matplotlib
+
+note: This is an issue with the package mentioned above, not pip.
+hint: See above for details.

@@ -1,0 +1,16 @@
+# Pair Key-Value Reader R1B
+
+Output-only confirmation run: no retrieval supervision was used in training.
+
+|seed|normal top1|normal mass|normal exact|normal fg|swap rate|twin same-grid|perm same grid|perm same logical|max alpha diff|max prob diff|forced value|forced alpha|
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+|20260628|1.000000|0.999968|1.000000|1.000000|1.000000|0.000000|1.000000|1.000000|0.00000012|0.00000018|1.000000|1.000000|
+|20260629|1.000000|0.999969|1.000000|1.000000|1.000000|0.000000|1.000000|1.000000|0.00000012|0.00000018|1.000000|1.000000|
+|20260630|1.000000|0.999971|1.000000|1.000000|1.000000|0.000000|1.000000|1.000000|0.00000012|0.00000018|1.000000|1.000000|
+|20260701|1.000000|0.999968|1.000000|1.000000|1.000000|0.000000|1.000000|1.000000|0.00000012|0.00000018|1.000000|1.000000|
+|20260702|1.000000|0.999970|1.000000|1.000000|1.000000|0.000000|1.000000|1.000000|0.00000012|0.00000018|1.000000|1.000000|
+
+Aggregate min/mean normal exact: 1.000000 / 1.000000
+Aggregate min/mean swap rate: 1.000000 / 1.000000
+Aggregate min/mean permutation grid rate: 1.000000 / 1.000000
+Verdict: `OUTPUT_ONLY_READER_CONFIRMED`

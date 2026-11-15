@@ -1,0 +1,352 @@
+{
+  "after": {
+    "D:/VRM/third_party/compressarc_reference/analyze_example.py": {
+      "path": "D:\\VRM\\third_party\\compressarc_reference\\analyze_example.py",
+      "sha256": "19cd079842275ce165afac57980dc3237708cbd9af3c5e628dffb00683115979",
+      "size_bytes": 13800
+    },
+    "D:/VRM/third_party/compressarc_reference/arc_compressor.py": {
+      "path": "D:\\VRM\\third_party\\compressarc_reference\\arc_compressor.py",
+      "sha256": "7a89e502c1106f419dc34374aea858fa4182eb605ecbf9a473ca47da655a97ce",
+      "size_bytes": 7111
+    },
+    "D:/VRM/third_party/compressarc_reference/initializers.py": {
+      "path": "D:\\VRM\\third_party\\compressarc_reference\\initializers.py",
+      "sha256": "d90ecdbef1aa555f8c3559abe6b1a9bf2e028dcc73b81e892bc4e70591338e4b",
+      "size_bytes": 7041
+    },
+    "D:/VRM/third_party/compressarc_reference/layers.py": {
+      "path": "D:\\VRM\\third_party\\compressarc_reference\\layers.py",
+      "sha256": "548f767ec5b634d74a185465788dbcf86af8fa63b1413a1f380f0e9766216baf",
+      "size_bytes": 28240
+    },
+    "D:/VRM/third_party/compressarc_reference/list_solved_puzzles.py": {
+      "path": "D:\\VRM\\third_party\\compressarc_reference\\list_solved_puzzles.py",
+      "sha256": "5dd8092fbf1a6f26f8c65e60507ec4ba96ea3207258045b4ad05936194df82cf",
+      "size_bytes": 3893
+    },
+    "D:/VRM/third_party/compressarc_reference/multitensor_systems.py": {
+      "path": "D:\\VRM\\third_party\\compressarc_reference\\multitensor_systems.py",
+      "sha256": "641fa6d55b5583d8565326e5213459d5a4b2b7423d83fad1999476bc2aee4f4c",
+      "size_bytes": 7726
+    },
+    "D:/VRM/third_party/compressarc_reference/parallel_train.py": {
+      "path": "D:\\VRM\\third_party\\compressarc_reference\\parallel_train.py",
+      "sha256": "3289e5c54bc19aabd4cbcb844a5167f5451ea7098ae43f447024fe2e1dec2fee",
+      "size_bytes": 6630
+    },
+    "D:/VRM/third_party/compressarc_reference/plot_accuracy.py": {
+      "path": "D:\\VRM\\third_party\\compressarc_reference\\plot_accuracy.py",
+      "sha256": "737c184d1b39bcbc412c1ced4134e336fdb22ceca78bb314223787b0512ef856",
+      "size_bytes": 6502
+    },
+    "D:/VRM/third_party/compressarc_reference/plot_problems.py": {
+      "path": "D:\\VRM\\third_party\\compressarc_reference\\plot_problems.py",
+      "sha256": "b2c4bddc9f7eef3c2d25165796ea4613be45eccd843b1c187781d0ae67728ca6",
+      "size_bytes": 636
+    },
+    "D:/VRM/third_party/compressarc_reference/preprocessing.py": {
+      "path": "D:\\VRM\\third_party\\compressarc_reference\\preprocessing.py",
+      "sha256": "856ebf465145dfb7f7c8a9f78bc88e8b860304a529dc18a8cdc3b0b241459d0d",
+      "size_bytes": 7103
+    },
+    "D:/VRM/third_party/compressarc_reference/scoring.py": {
+      "path": "D:\\VRM\\third_party\\compressarc_reference\\scoring.py",
+      "sha256": "5595435ba002b8808d22288b8cc2db429bd811104de83fa185a65a0fa483208c",
+      "size_bytes": 2470
+    },
+    "D:/VRM/third_party/compressarc_reference/solution_selection.py": {
+      "path": "D:\\VRM\\third_party\\compressarc_reference\\solution_selection.py",
+      "sha256": "2c0355a7969b7a6b7f347674d194993e41ed28e870d2a2e528788933f0a334a5",
+      "size_bytes": 9091
+    },
+    "D:/VRM/third_party/compressarc_reference/solve_task.py": {
+      "path": "D:\\VRM\\third_party\\compressarc_reference\\solve_task.py",
+      "sha256": "b4b7000c1bc9ea92ab274653e5129dcf1510dc84e398d62c9242e1db7d0d74c7",
+      "size_bytes": 3337
+    },
+    "D:/VRM/third_party/compressarc_reference/train.py": {
+      "path": "D:\\VRM\\third_party\\compressarc_reference\\train.py",
+      "sha256": "a1f3541bd08a9f0d614c98c063c64039ae4de451163712f4e8c1534c946ddcaf",
+      "size_bytes": 7298
+    },
+    "D:/VRM/third_party/compressarc_reference/visualization.py": {
+      "path": "D:\\VRM\\third_party\\compressarc_reference\\visualization.py",
+      "sha256": "4f327dbf7c671fffea75f6fa37082e4e7b06a2de6156e85a619461ffacd1a416",
+      "size_bytes": 8549
+    },
+    "scripts/determinism_trace_solver.py": {
+      "path": "D:\\VRM\\r6a_compressarc\\scripts\\determinism_trace_solver.py",
+      "sha256": "8beb56eb5e77a41e8f177511bd139c68e909bd5ec78f4f19c76c1669952ef6aa",
+      "size_bytes": 15764
+    },
+    "scripts/evaluate_prediction.py": {
+      "path": "D:\\VRM\\r6a_compressarc\\scripts\\evaluate_prediction.py",
+      "sha256": "0ce7bcd517912a24973ca19ac14be056e75bcd24a7c0d34d5f19bcf37d790aa4",
+      "size_bytes": 1796
+    },
+    "scripts/finalize_phase1_reports.py": {
+      "path": "D:\\VRM\\r6a_compressarc\\scripts\\finalize_phase1_reports.py",
+      "sha256": "3e360cd97d5e9398d8aa10975944c5731bfd798e6ba5b721d6476324a8b57e30",
+      "size_bytes": 10605
+    },
+    "scripts/phase1_condition_solver.py": {
+      "path": "D:\\VRM\\r6a_compressarc\\scripts\\phase1_condition_solver.py",
+      "sha256": "e4e9275cb0c5279640338b254b23c27f0349d83fa38e9d978c2d7ede884d8e43",
+      "size_bytes": 14695
+    },
+    "scripts/phase2_cpu_preflight_child.py": {
+      "path": "D:\\VRM\\r6a_compressarc\\scripts\\phase2_cpu_preflight_child.py",
+      "sha256": "18dec1cbbf193a611369dc51358a67da9b5590528663778ddb1ebd67170f7716",
+      "size_bytes": 38716
+    },
+    "scripts/r6a_common.py": {
+      "path": "D:\\VRM\\r6a_compressarc\\scripts\\r6a_common.py",
+      "sha256": "ca77ec9bfc8fa4c02d6c090a0fa61cf87730b0cdff1d3c905ce8ab1f797a4fe4",
+      "size_bytes": 8621
+    },
+    "scripts/r6a_phase2_role_preserving_pstrict_noise_tape_closure_v4_child.py": {
+      "path": "D:\\VRM\\r6a_compressarc\\scripts\\r6a_phase2_role_preserving_pstrict_noise_tape_closure_v4_child.py",
+      "sha256": "6832ca898e47aebffe45a2999cbfe9557fc3190cb7311c71b9af2b8bae26f6c6",
+      "size_bytes": 50565
+    },
+    "scripts/r6a_phase2_role_preserving_pstrict_noise_tape_closure_v4_run.py": {
+      "path": "D:\\VRM\\r6a_compressarc\\scripts\\r6a_phase2_role_preserving_pstrict_noise_tape_closure_v4_run.py",
+      "sha256": "c1e2cf3a77c1e697464cb42f868f309915dcca6cd50ba29a531d86c2a8cdb7b3",
+      "size_bytes": 24524
+    },
+    "scripts/r6a_phase2_semantic_state_action_decoder_boundary_v10_child.py": {
+      "path": "D:\\VRM\\r6a_compressarc\\scripts\\r6a_phase2_semantic_state_action_decoder_boundary_v10_child.py",
+      "sha256": "72aeb92bfeccb51f863fa038f58f99e15696e09620ffbc6d4f910bbd56fa942b",
+      "size_bytes": 52377
+    },
+    "scripts/r6a_phase2_semantic_state_action_decoder_boundary_v10_run.py": {
+      "path": "D:\\VRM\\r6a_compressarc\\scripts\\r6a_phase2_semantic_state_action_decoder_boundary_v10_run.py",
+      "sha256": "97be3232840a29840f251b80b885236636033903bd1be2554dcd28a2db7963fb",
+      "size_bytes": 14294
+    },
+    "scripts/r6a_phase2_support_permutation_first_divergence_v8_child.py": {
+      "path": "D:\\VRM\\r6a_compressarc\\scripts\\r6a_phase2_support_permutation_first_divergence_v8_child.py",
+      "sha256": "19c95d2aae9bb5286af707d16a6ef2e61911b9548ee19c019ca5fc04adce1875",
+      "size_bytes": 75106
+    },
+    "scripts/r6a_phase2_support_permutation_first_divergence_v8_run.py": {
+      "path": "D:\\VRM\\r6a_compressarc\\scripts\\r6a_phase2_support_permutation_first_divergence_v8_run.py",
+      "sha256": "d196d9144900c03612d9e19a58a0b336bbbd17bb7988e50538567cb79dbfdc45",
+      "size_bytes": 16907
+    },
+    "scripts/r6a_phase2_two_pass_semantic_boundary_provenance_v11_2_child.py": {
+      "path": "D:\\VRM\\r6a_compressarc\\scripts\\r6a_phase2_two_pass_semantic_boundary_provenance_v11_2_child.py",
+      "sha256": "1e93bae445f4de4424ba59866ae4ed2971e3f57bb31bcd1d8d3ceb79e13fd1d9",
+      "size_bytes": 56840
+    },
+    "scripts/r6a_phase2_two_pass_semantic_boundary_provenance_v11_2_run.py": {
+      "path": "D:\\VRM\\r6a_compressarc\\scripts\\r6a_phase2_two_pass_semantic_boundary_provenance_v11_2_run.py",
+      "sha256": "77c745c24613620377a4373607eed38062f2830176f84c78161f0bfb702b23df",
+      "size_bytes": 16537
+    },
+    "scripts/run_determinism_triage.py": {
+      "path": "D:\\VRM\\r6a_compressarc\\scripts\\run_determinism_triage.py",
+      "sha256": "4763d9949b909980b81e101734ea96cd0ea0d66e4e14d6710cf9eba91146b8c5",
+      "size_bytes": 16303
+    },
+    "scripts/run_phase1_multirepeat_pairing_audit.py": {
+      "path": "D:\\VRM\\r6a_compressarc\\scripts\\run_phase1_multirepeat_pairing_audit.py",
+      "sha256": "2600d600fcff57d5f5040dcda767f2d1c2c1ff17c496fe26ea1a85db0e2ac898",
+      "size_bytes": 32423
+    },
+    "scripts/run_phase2_symmetry_preflight.py": {
+      "path": "D:\\VRM\\r6a_compressarc\\scripts\\run_phase2_symmetry_preflight.py",
+      "sha256": "34a01420ab9dda558398784e05126da7c52a1855b0c186025afbc3554be07fc7",
+      "size_bytes": 18896
+    },
+    "scripts/run_r6a_compressarc_audit.py": {
+      "path": "D:\\VRM\\r6a_compressarc\\scripts\\run_r6a_compressarc_audit.py",
+      "sha256": "0734eb136971304a2bd74b2dcddd7b67b5a18aebe436d77a36e5ee95b900afa0",
+      "size_bytes": 24587
+    },
+    "scripts/solve_challenge_only.py": {
+      "path": "D:\\VRM\\r6a_compressarc\\scripts\\solve_challenge_only.py",
+      "sha256": "79b9346ae006e6d4fe5c6e83b8cdef5b2b7bbba9a6d7b36d06f5cf6462493d3a",
+      "size_bytes": 8810
+    }
+  },
+  "after_utc": "2026-07-04T14:11:04Z",
+  "before": {
+    "D:/VRM/third_party/compressarc_reference/analyze_example.py": {
+      "path": "D:\\VRM\\third_party\\compressarc_reference\\analyze_example.py",
+      "sha256": "19cd079842275ce165afac57980dc3237708cbd9af3c5e628dffb00683115979",
+      "size_bytes": 13800
+    },
+    "D:/VRM/third_party/compressarc_reference/arc_compressor.py": {
+      "path": "D:\\VRM\\third_party\\compressarc_reference\\arc_compressor.py",
+      "sha256": "7a89e502c1106f419dc34374aea858fa4182eb605ecbf9a473ca47da655a97ce",
+      "size_bytes": 7111
+    },
+    "D:/VRM/third_party/compressarc_reference/initializers.py": {
+      "path": "D:\\VRM\\third_party\\compressarc_reference\\initializers.py",
+      "sha256": "d90ecdbef1aa555f8c3559abe6b1a9bf2e028dcc73b81e892bc4e70591338e4b",
+      "size_bytes": 7041
+    },
+    "D:/VRM/third_party/compressarc_reference/layers.py": {
+      "path": "D:\\VRM\\third_party\\compressarc_reference\\layers.py",
+      "sha256": "548f767ec5b634d74a185465788dbcf86af8fa63b1413a1f380f0e9766216baf",
+      "size_bytes": 28240
+    },
+    "D:/VRM/third_party/compressarc_reference/list_solved_puzzles.py": {
+      "path": "D:\\VRM\\third_party\\compressarc_reference\\list_solved_puzzles.py",
+      "sha256": "5dd8092fbf1a6f26f8c65e60507ec4ba96ea3207258045b4ad05936194df82cf",
+      "size_bytes": 3893
+    },
+    "D:/VRM/third_party/compressarc_reference/multitensor_systems.py": {
+      "path": "D:\\VRM\\third_party\\compressarc_reference\\multitensor_systems.py",
+      "sha256": "641fa6d55b5583d8565326e5213459d5a4b2b7423d83fad1999476bc2aee4f4c",
+      "size_bytes": 7726
+    },
+    "D:/VRM/third_party/compressarc_reference/parallel_train.py": {
+      "path": "D:\\VRM\\third_party\\compressarc_reference\\parallel_train.py",
+      "sha256": "3289e5c54bc19aabd4cbcb844a5167f5451ea7098ae43f447024fe2e1dec2fee",
+      "size_bytes": 6630
+    },
+    "D:/VRM/third_party/compressarc_reference/plot_accuracy.py": {
+      "path": "D:\\VRM\\third_party\\compressarc_reference\\plot_accuracy.py",
+      "sha256": "737c184d1b39bcbc412c1ced4134e336fdb22ceca78bb314223787b0512ef856",
+      "size_bytes": 6502
+    },
+    "D:/VRM/third_party/compressarc_reference/plot_problems.py": {
+      "path": "D:\\VRM\\third_party\\compressarc_reference\\plot_problems.py",
+      "sha256": "b2c4bddc9f7eef3c2d25165796ea4613be45eccd843b1c187781d0ae67728ca6",
+      "size_bytes": 636
+    },
+    "D:/VRM/third_party/compressarc_reference/preprocessing.py": {
+      "path": "D:\\VRM\\third_party\\compressarc_reference\\preprocessing.py",
+      "sha256": "856ebf465145dfb7f7c8a9f78bc88e8b860304a529dc18a8cdc3b0b241459d0d",
+      "size_bytes": 7103
+    },
+    "D:/VRM/third_party/compressarc_reference/scoring.py": {
+      "path": "D:\\VRM\\third_party\\compressarc_reference\\scoring.py",
+      "sha256": "5595435ba002b8808d22288b8cc2db429bd811104de83fa185a65a0fa483208c",
+      "size_bytes": 2470
+    },
+    "D:/VRM/third_party/compressarc_reference/solution_selection.py": {
+      "path": "D:\\VRM\\third_party\\compressarc_reference\\solution_selection.py",
+      "sha256": "2c0355a7969b7a6b7f347674d194993e41ed28e870d2a2e528788933f0a334a5",
+      "size_bytes": 9091
+    },
+    "D:/VRM/third_party/compressarc_reference/solve_task.py": {
+      "path": "D:\\VRM\\third_party\\compressarc_reference\\solve_task.py",
+      "sha256": "b4b7000c1bc9ea92ab274653e5129dcf1510dc84e398d62c9242e1db7d0d74c7",
+      "size_bytes": 3337
+    },
+    "D:/VRM/third_party/compressarc_reference/train.py": {
+      "path": "D:\\VRM\\third_party\\compressarc_reference\\train.py",
+      "sha256": "a1f3541bd08a9f0d614c98c063c64039ae4de451163712f4e8c1534c946ddcaf",
+      "size_bytes": 7298
+    },
+    "D:/VRM/third_party/compressarc_reference/visualization.py": {
+      "path": "D:\\VRM\\third_party\\compressarc_reference\\visualization.py",
+      "sha256": "4f327dbf7c671fffea75f6fa37082e4e7b06a2de6156e85a619461ffacd1a416",
+      "size_bytes": 8549
+    },
+    "scripts/determinism_trace_solver.py": {
+      "path": "D:\\VRM\\r6a_compressarc\\scripts\\determinism_trace_solver.py",
+      "sha256": "8beb56eb5e77a41e8f177511bd139c68e909bd5ec78f4f19c76c1669952ef6aa",
+      "size_bytes": 15764
+    },
+    "scripts/evaluate_prediction.py": {
+      "path": "D:\\VRM\\r6a_compressarc\\scripts\\evaluate_prediction.py",
+      "sha256": "0ce7bcd517912a24973ca19ac14be056e75bcd24a7c0d34d5f19bcf37d790aa4",
+      "size_bytes": 1796
+    },
+    "scripts/finalize_phase1_reports.py": {
+      "path": "D:\\VRM\\r6a_compressarc\\scripts\\finalize_phase1_reports.py",
+      "sha256": "3e360cd97d5e9398d8aa10975944c5731bfd798e6ba5b721d6476324a8b57e30",
+      "size_bytes": 10605
+    },
+    "scripts/phase1_condition_solver.py": {
+      "path": "D:\\VRM\\r6a_compressarc\\scripts\\phase1_condition_solver.py",
+      "sha256": "e4e9275cb0c5279640338b254b23c27f0349d83fa38e9d978c2d7ede884d8e43",
+      "size_bytes": 14695
+    },
+    "scripts/phase2_cpu_preflight_child.py": {
+      "path": "D:\\VRM\\r6a_compressarc\\scripts\\phase2_cpu_preflight_child.py",
+      "sha256": "18dec1cbbf193a611369dc51358a67da9b5590528663778ddb1ebd67170f7716",
+      "size_bytes": 38716
+    },
+    "scripts/r6a_common.py": {
+      "path": "D:\\VRM\\r6a_compressarc\\scripts\\r6a_common.py",
+      "sha256": "ca77ec9bfc8fa4c02d6c090a0fa61cf87730b0cdff1d3c905ce8ab1f797a4fe4",
+      "size_bytes": 8621
+    },
+    "scripts/r6a_phase2_role_preserving_pstrict_noise_tape_closure_v4_child.py": {
+      "path": "D:\\VRM\\r6a_compressarc\\scripts\\r6a_phase2_role_preserving_pstrict_noise_tape_closure_v4_child.py",
+      "sha256": "6832ca898e47aebffe45a2999cbfe9557fc3190cb7311c71b9af2b8bae26f6c6",
+      "size_bytes": 50565
+    },
+    "scripts/r6a_phase2_role_preserving_pstrict_noise_tape_closure_v4_run.py": {
+      "path": "D:\\VRM\\r6a_compressarc\\scripts\\r6a_phase2_role_preserving_pstrict_noise_tape_closure_v4_run.py",
+      "sha256": "c1e2cf3a77c1e697464cb42f868f309915dcca6cd50ba29a531d86c2a8cdb7b3",
+      "size_bytes": 24524
+    },
+    "scripts/r6a_phase2_semantic_state_action_decoder_boundary_v10_child.py": {
+      "path": "D:\\VRM\\r6a_compressarc\\scripts\\r6a_phase2_semantic_state_action_decoder_boundary_v10_child.py",
+      "sha256": "72aeb92bfeccb51f863fa038f58f99e15696e09620ffbc6d4f910bbd56fa942b",
+      "size_bytes": 52377
+    },
+    "scripts/r6a_phase2_semantic_state_action_decoder_boundary_v10_run.py": {
+      "path": "D:\\VRM\\r6a_compressarc\\scripts\\r6a_phase2_semantic_state_action_decoder_boundary_v10_run.py",
+      "sha256": "97be3232840a29840f251b80b885236636033903bd1be2554dcd28a2db7963fb",
+      "size_bytes": 14294
+    },
+    "scripts/r6a_phase2_support_permutation_first_divergence_v8_child.py": {
+      "path": "D:\\VRM\\r6a_compressarc\\scripts\\r6a_phase2_support_permutation_first_divergence_v8_child.py",
+      "sha256": "19c95d2aae9bb5286af707d16a6ef2e61911b9548ee19c019ca5fc04adce1875",
+      "size_bytes": 75106
+    },
+    "scripts/r6a_phase2_support_permutation_first_divergence_v8_run.py": {
+      "path": "D:\\VRM\\r6a_compressarc\\scripts\\r6a_phase2_support_permutation_first_divergence_v8_run.py",
+      "sha256": "d196d9144900c03612d9e19a58a0b336bbbd17bb7988e50538567cb79dbfdc45",
+      "size_bytes": 16907
+    },
+    "scripts/r6a_phase2_two_pass_semantic_boundary_provenance_v11_2_child.py": {
+      "path": "D:\\VRM\\r6a_compressarc\\scripts\\r6a_phase2_two_pass_semantic_boundary_provenance_v11_2_child.py",
+      "sha256": "1e93bae445f4de4424ba59866ae4ed2971e3f57bb31bcd1d8d3ceb79e13fd1d9",
+      "size_bytes": 56840
+    },
+    "scripts/r6a_phase2_two_pass_semantic_boundary_provenance_v11_2_run.py": {
+      "path": "D:\\VRM\\r6a_compressarc\\scripts\\r6a_phase2_two_pass_semantic_boundary_provenance_v11_2_run.py",
+      "sha256": "77c745c24613620377a4373607eed38062f2830176f84c78161f0bfb702b23df",
+      "size_bytes": 16537
+    },
+    "scripts/run_determinism_triage.py": {
+      "path": "D:\\VRM\\r6a_compressarc\\scripts\\run_determinism_triage.py",
+      "sha256": "4763d9949b909980b81e101734ea96cd0ea0d66e4e14d6710cf9eba91146b8c5",
+      "size_bytes": 16303
+    },
+    "scripts/run_phase1_multirepeat_pairing_audit.py": {
+      "path": "D:\\VRM\\r6a_compressarc\\scripts\\run_phase1_multirepeat_pairing_audit.py",
+      "sha256": "2600d600fcff57d5f5040dcda767f2d1c2c1ff17c496fe26ea1a85db0e2ac898",
+      "size_bytes": 32423
+    },
+    "scripts/run_phase2_symmetry_preflight.py": {
+      "path": "D:\\VRM\\r6a_compressarc\\scripts\\run_phase2_symmetry_preflight.py",
+      "sha256": "34a01420ab9dda558398784e05126da7c52a1855b0c186025afbc3554be07fc7",
+      "size_bytes": 18896
+    },
+    "scripts/run_r6a_compressarc_audit.py": {
+      "path": "D:\\VRM\\r6a_compressarc\\scripts\\run_r6a_compressarc_audit.py",
+      "sha256": "0734eb136971304a2bd74b2dcddd7b67b5a18aebe436d77a36e5ee95b900afa0",
+      "size_bytes": 24587
+    },
+    "scripts/solve_challenge_only.py": {
+      "path": "D:\\VRM\\r6a_compressarc\\scripts\\solve_challenge_only.py",
+      "sha256": "79b9346ae006e6d4fe5c6e83b8cdef5b2b7bbba9a6d7b36d06f5cf6462493d3a",
+      "size_bytes": 8810
+    }
+  },
+  "changed_files": [],
+  "created_utc": "2026-07-04T13:43:02Z",
+  "experiment": "R6A_EXACT_SOLVE_10_READOUT",
+  "protected_scope_description": "R6A scripts and local CompressARC reference Python source files used by the solver/evaluator. Experiment output files under experiments/r6a_exact_solve_10_readout are intentionally outside this protected source scope.",
+  "unchanged": true
+}

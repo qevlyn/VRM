@@ -1,0 +1,26 @@
+{
+  "held_out": [
+    "F->C",
+    "T->F",
+    "C->T"
+  ],
+  "sequence_classes": [
+    "C",
+    "F",
+    "T",
+    "C->F",
+    "F->T",
+    "T->C",
+    "F->C",
+    "T->F",
+    "C->T"
+  ],
+  "train_visible": [
+    "C",
+    "F",
+    "T",
+    "C->F",
+    "F->T",
+    "T->C"
+  ]
+}

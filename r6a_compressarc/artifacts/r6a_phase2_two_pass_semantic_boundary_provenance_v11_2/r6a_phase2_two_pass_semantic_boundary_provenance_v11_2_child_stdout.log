@@ -1,0 +1,70 @@
+{
+  "E_bit_per_case": {
+    "1f876c06_adjacent_0_1": "channel_layer[occurrence=1,dims=[1, 1, 0, 0, 0],direction=None]::tensor=channel_layer/0",
+    "1f876c06_adjacent_1_2": "channel_layer[occurrence=1,dims=[1, 1, 0, 0, 0],direction=None]::tensor=channel_layer/0",
+    "604001fa_adjacent_0_1": "channel_layer[occurrence=1,dims=[1, 1, 0, 0, 0],direction=None]::tensor=channel_layer/0",
+    "604001fa_adjacent_1_2": "channel_layer[occurrence=1,dims=[1, 1, 0, 0, 0],direction=None]::tensor=channel_layer/0",
+    "604001fa_adjacent_2_3": "channel_layer[occurrence=1,dims=[1, 1, 0, 0, 0],direction=None]::tensor=channel_layer/0",
+    "synthetic_uniform_shape_oracle_adjacent_0_1": "channel_layer[occurrence=1,dims=[1, 1, 0, 0, 0],direction=None]::tensor=channel_layer/0",
+    "synthetic_uniform_shape_oracle_adjacent_1_2": "channel_layer[occurrence=1,dims=[1, 1, 0, 0, 0],direction=None]::tensor=channel_layer/0"
+  },
+  "E_hash_per_case": {
+    "1f876c06_adjacent_0_1": "channel_layer[occurrence=1,dims=[1, 1, 0, 0, 0],direction=None]::tensor=channel_layer/0",
+    "1f876c06_adjacent_1_2": "channel_layer[occurrence=1,dims=[1, 1, 0, 0, 0],direction=None]::tensor=channel_layer/0",
+    "604001fa_adjacent_0_1": "channel_layer[occurrence=1,dims=[1, 1, 0, 0, 0],direction=None]::tensor=channel_layer/0",
+    "604001fa_adjacent_1_2": "channel_layer[occurrence=1,dims=[1, 1, 0, 0, 0],direction=None]::tensor=channel_layer/0",
+    "604001fa_adjacent_2_3": "channel_layer[occurrence=1,dims=[1, 1, 0, 0, 0],direction=None]::tensor=channel_layer/0",
+    "synthetic_uniform_shape_oracle_adjacent_0_1": "channel_layer[occurrence=1,dims=[1, 1, 0, 0, 0],direction=None]::tensor=channel_layer/0",
+    "synthetic_uniform_shape_oracle_adjacent_1_2": "channel_layer[occurrence=1,dims=[1, 1, 0, 0, 0],direction=None]::tensor=channel_layer/0"
+  },
+  "E_threshold_per_case": {
+    "1f876c06_adjacent_0_1": null,
+    "1f876c06_adjacent_1_2": null,
+    "604001fa_adjacent_0_1": "cummax[occurrence=1,dims=None,direction=None]::tensor=cummax[(1, 1, 1, 1, 1)]",
+    "604001fa_adjacent_1_2": "cummax[occurrence=1,dims=None,direction=None]::tensor=cummax[(1, 1, 1, 1, 1)]",
+    "604001fa_adjacent_2_3": "cummax[occurrence=1,dims=None,direction=None]::tensor=cummax[(1, 1, 1, 1, 1)]",
+    "synthetic_uniform_shape_oracle_adjacent_0_1": null,
+    "synthetic_uniform_shape_oracle_adjacent_1_2": null
+  },
+  "audited_discrete_behavior_changed": {
+    "1f876c06_adjacent_0_1": false,
+    "1f876c06_adjacent_1_2": false,
+    "604001fa_adjacent_0_1": false,
+    "604001fa_adjacent_1_2": false,
+    "604001fa_adjacent_2_3": false,
+    "synthetic_uniform_shape_oracle_adjacent_0_1": false,
+    "synthetic_uniform_shape_oracle_adjacent_1_2": false
+  },
+  "case_count": 7,
+  "cpu_only_no_gpu": true,
+  "created_utc": "2026-07-04T06:36:27Z",
+  "decoder_scope_status": "AUDIT_DECODER_NOT_IN_FORWARD_SCOPE",
+  "eligible_cases_scanned": [
+    "1f876c06_adjacent_0_1",
+    "1f876c06_adjacent_1_2",
+    "604001fa_adjacent_0_1",
+    "604001fa_adjacent_1_2",
+    "604001fa_adjacent_2_3",
+    "synthetic_uniform_shape_oracle_adjacent_0_1",
+    "synthetic_uniform_shape_oracle_adjacent_1_2"
+  ],
+  "final_classification_per_case": {
+    "1f876c06_adjacent_0_1": "TRACE_ALIGNMENT_OR_CAPTURE_CANDIDATE",
+    "1f876c06_adjacent_1_2": "TRACE_ALIGNMENT_OR_CAPTURE_CANDIDATE",
+    "604001fa_adjacent_0_1": "STRUCTURAL_SOURCE_SUBPATH_CANDIDATE_REQUIRES_NARROW_AUDIT",
+    "604001fa_adjacent_1_2": "STRUCTURAL_SOURCE_SUBPATH_CANDIDATE_REQUIRES_NARROW_AUDIT",
+    "604001fa_adjacent_2_3": "STRUCTURAL_SOURCE_SUBPATH_CANDIDATE_REQUIRES_NARROW_AUDIT",
+    "synthetic_uniform_shape_oracle_adjacent_0_1": "TRACE_ALIGNMENT_OR_CAPTURE_CANDIDATE",
+    "synthetic_uniform_shape_oracle_adjacent_1_2": "TRACE_ALIGNMENT_OR_CAPTURE_CANDIDATE"
+  },
+  "import_provenance_status": "IMPORT_PROVENANCE_CERTIFIED",
+  "mutation_calibration_pass_fail": [
+    4,
+    0
+  ],
+  "scanner_transparency_pass_fail": [
+    3,
+    0
+  ],
+  "status": "CHILD_COMPLETE"
+}

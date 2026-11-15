@@ -1,0 +1,53 @@
+{
+  "bad_group_count": 0,
+  "bad_group_examples": [],
+  "episode_count": 7000,
+  "group_count": 1000,
+  "negative_recombinations": {
+    "G_C_plus_G_H": [
+      "G_C",
+      "G_H"
+    ],
+    "G_C_plus_POST_L": [
+      "G_C",
+      "POST_L"
+    ],
+    "G_H_plus_PRE_L": [
+      "G_H",
+      "PRE_L"
+    ],
+    "G_V_plus_POST_K": [
+      "G_V",
+      "POST_K"
+    ]
+  },
+  "passed": true,
+  "recombination_targets": {
+    "C->K": [
+      "G_C",
+      "POST_K"
+    ],
+    "H->L": [
+      "G_H",
+      "POST_L"
+    ],
+    "K->C": [
+      "G_C",
+      "PRE_K"
+    ],
+    "L->C": [
+      "G_C",
+      "PRE_L"
+    ]
+  },
+  "required_contexts_or_classes": [
+    "C",
+    "C->L",
+    "H",
+    "H->K",
+    "K->V",
+    "L->H",
+    "V"
+  ],
+  "required_group_count": 1000
+}

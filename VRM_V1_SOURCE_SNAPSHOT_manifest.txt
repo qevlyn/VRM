@@ -1,0 +1,22 @@
+archive path: /mnt/d/VRM/VRM_V1_SOURCE_SNAPSHOT.zip
+creation timestamp: 2026-06-28T00:26:13+07:00
+ZIP size: 31117 bytes
+SHA-256: ba2c1ccd4b9b9d01c0af1dcecfef6673e60dfc23b80178141b6ba8b79749cdeb
+pytest result: pytest -q: 14 passed in 3.31s
+active architecture name: VRM V1 — Spatial Evidence Rewrite
+excluded major directories: arc-prize-2026-arc-agi-2/, checkpoints/, full artifacts/, .git/, .claude/, .pytest_cache/, __pycache__/, .venv/, venv/, node_modules/, IDE settings
+included file list:
+- README.md
+- requirements.txt
+- vrm/__init__.py
+- vrm/data.py
+- vrm/inspect.py
+- vrm/metrics.py
+- vrm/model.py
+- vrm/train.py
+- tests/test_vrm_v1.py
+- reports/vrm_v1_config.json
+- reports/vrm_v1_task_manifest.json
+- reports/vrm_v1_initialization_report.json
+- reports/vrm_v1_metrics.json
+- reports/vrm_v1_summary.md

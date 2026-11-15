@@ -1,0 +1,66 @@
+{
+  "created_utc": "2026-07-04T13:43:02Z",
+  "decoder_source_hash": "e4e9275cb0c5279640338b254b23c27f0349d83fa38e9d978c2d7ede884d8e43",
+  "decoder_source_path": "D:\\VRM\\r6a_compressarc\\scripts\\phase1_condition_solver.py",
+  "evaluator_metrics_source_hash": "2600d600fcff57d5f5040dcda767f2d1c2c1ff17c496fe26ea1a85db0e2ac898",
+  "evaluator_metrics_source_path": "D:\\VRM\\r6a_compressarc\\scripts\\run_phase1_multirepeat_pairing_audit.py",
+  "experiment": "R6A_EXACT_SOLVE_10_READOUT",
+  "final_interpretation_language": "This report measures exact decoded-query performance after a declared per-task adaptation protocol. It does not establish reasoning, a shared latent rule z, cross-task pretraining, shortcut absence, or ARC benchmark performance beyond the fixed ten-task readout.",
+  "fixed_ten_task_ids_in_order": [
+    "3ed85e70",
+    "929ab4e9",
+    "981571dc",
+    "604001fa",
+    "79fb03f4",
+    "aa4ec2a5",
+    "0dfd9992",
+    "1f876c06",
+    "1c786137",
+    "00576224"
+  ],
+  "fresh_commands_preregistered": {
+    "00576224": [
+      "/home/quyen/.venvs/vrm/bin/python",
+      "/mnt/d/VRM/r6a_compressarc/scripts/phase1_condition_solver.py",
+      "--compressarc-root",
+      "/mnt/d/VRM/third_party/compressarc_reference",
+      "--challenge-json",
+      "/mnt/d/VRM/r6a_compressarc/experiments/r6a_exact_solve_10_readout/logs/00576224/20260702/F1/challenge.json",
+      "--initialization-artifact",
+      "/mnt/d/VRM/r6a_compressarc/experiments/r6a_exact_solve_10_readout/logs/00576224/20260702/initialization.pt",
+      "--task-id",
+      "00576224",
+      "--stratum",
+      "A",
+      "--condition",
+      "F1",
+      "--steps",
+      "1500",
+      "--output-json",
+      "/mnt/d/VRM/r6a_compressarc/experiments/r6a_exact_solve_10_readout/logs/00576224/20260702/F1/solver.json",
+      "--probability-npz",
+      "/mnt/d/VRM/r6a_compressarc/experiments/r6a_exact_solve_10_readout/logs/00576224/20260702/F1/probability.npz",
+      "--device",
+      "cuda"
+    ]
+  },
+  "fresh_condition": "F1",
+  "fresh_device_requested": "cuda",
+  "fresh_rerun_rule": "For task ten or any not recoverable task, run exactly one fresh FULL Phase1-style solve using seed 20260702, condition F1, 1500 steps, existing phase1_condition_solver.py, and existing train.take_step.",
+  "fresh_seed": 20260702,
+  "fresh_tasks_planned": [
+    "00576224"
+  ],
+  "manifest_path_correction_note": "Corrected Windows D:/ paths to WSL /mnt/d paths before any fresh execution.",
+  "no_architecture_change": true,
+  "no_train_take_step_change": true,
+  "phase1_full_conditions": [
+    "F1",
+    "F2"
+  ],
+  "purpose": "Bounded exact decoded-query performance readout for ten fixed ARC tasks after declared per-task adaptation protocol.",
+  "r6a_common_source_hash": "ca77ec9bfc8fa4c02d6c090a0fa61cf87730b0cdff1d3c905ce8ab1f797a4fe4",
+  "r6a_common_source_path": "D:\\VRM\\r6a_compressarc\\scripts\\r6a_common.py",
+  "recovery_selection_rule": "For each fixed first-nine task, use existing seed 20260702 condition F1 FULL run if solver.json is RUN_COMPLETED with 1500 steps and probability.npz exists; otherwise try seed 20260702 condition F2; otherwise mark NOT_RECOVERABLE.",
+  "run_manifest_written_before_fresh_execution": true
+}

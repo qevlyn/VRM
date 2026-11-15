@@ -1,0 +1,89 @@
+{
+  "by_condition": {
+    "FRESH_INIT": {
+      "condition": "FRESH_INIT",
+      "overall_correct_shape_count": 0,
+      "overall_shape_accuracy": 0.0,
+      "same_shape_correct_shape_count": 0,
+      "same_shape_fold_count": 104,
+      "same_shape_shape_accuracy": 0.0,
+      "shape_changing_correct_shape_count": 0,
+      "shape_changing_fold_count": 52,
+      "shape_changing_shape_accuracy": 0.0
+    },
+    "TRAINED_FULL_SUPPORT_REPLAY": {
+      "condition": "TRAINED_FULL_SUPPORT_REPLAY",
+      "overall_correct_shape_count": 104,
+      "overall_shape_accuracy": 0.6666666666666666,
+      "same_shape_correct_shape_count": 83,
+      "same_shape_fold_count": 104,
+      "same_shape_shape_accuracy": 0.7980769230769231,
+      "shape_changing_correct_shape_count": 21,
+      "shape_changing_fold_count": 52,
+      "shape_changing_shape_accuracy": 0.40384615384615385
+    },
+    "TRAINED_OUTPUT_PAIRING_BROKEN": {
+      "condition": "TRAINED_OUTPUT_PAIRING_BROKEN",
+      "overall_correct_shape_count": 105,
+      "overall_shape_accuracy": 0.6730769230769231,
+      "same_shape_correct_shape_count": 84,
+      "same_shape_fold_count": 104,
+      "same_shape_shape_accuracy": 0.8076923076923077,
+      "shape_changing_correct_shape_count": 21,
+      "shape_changing_fold_count": 52,
+      "shape_changing_shape_accuracy": 0.40384615384615385
+    },
+    "TRAINED_QUERY_ONLY": {
+      "condition": "TRAINED_QUERY_ONLY",
+      "overall_correct_shape_count": 0,
+      "overall_shape_accuracy": null,
+      "same_shape_correct_shape_count": 0,
+      "same_shape_fold_count": 0,
+      "same_shape_shape_accuracy": null,
+      "shape_changing_correct_shape_count": 0,
+      "shape_changing_fold_count": 0,
+      "shape_changing_shape_accuracy": null
+    },
+    "TRAINED_SUPPORT_PAIR_ORDER_PERMUTED": {
+      "condition": "TRAINED_SUPPORT_PAIR_ORDER_PERMUTED",
+      "overall_correct_shape_count": 107,
+      "overall_shape_accuracy": 0.6858974358974359,
+      "same_shape_correct_shape_count": 84,
+      "same_shape_fold_count": 104,
+      "same_shape_shape_accuracy": 0.8076923076923077,
+      "shape_changing_correct_shape_count": 23,
+      "shape_changing_fold_count": 52,
+      "shape_changing_shape_accuracy": 0.4423076923076923
+    },
+    "TRAINED_ZEROED_SUPPORT_OUTPUTS": {
+      "condition": "TRAINED_ZEROED_SUPPORT_OUTPUTS",
+      "overall_correct_shape_count": 90,
+      "overall_shape_accuracy": 0.5769230769230769,
+      "same_shape_correct_shape_count": 74,
+      "same_shape_fold_count": 104,
+      "same_shape_shape_accuracy": 0.7115384615384616,
+      "shape_changing_correct_shape_count": 16,
+      "shape_changing_fold_count": 52,
+      "shape_changing_shape_accuracy": 0.3076923076923077
+    }
+  },
+  "metric_note": "Overall shape accuracy is descriptive; same-shape and shape-changing regimes must be read separately.",
+  "paired_bootstrap_intervals": {
+    "trained_minus_fresh_same_shape_shape_accuracy": {
+      "bootstrap_replicates": 10000,
+      "ci95_high": 0.875,
+      "ci95_low": 0.7211538461538461,
+      "confidence_level": 0.95,
+      "count": 104,
+      "mean": 0.7980769230769231
+    },
+    "trained_minus_fresh_shape_changing_shape_accuracy": {
+      "bootstrap_replicates": 10000,
+      "ci95_high": 0.5384615384615384,
+      "ci95_low": 0.2692307692307692,
+      "confidence_level": 0.95,
+      "count": 52,
+      "mean": 0.40384615384615385
+    }
+  }
+}

@@ -1,0 +1,201 @@
+{
+  "all_passed": true,
+  "base_instance_overlap_count": 0,
+  "base_instance_overlaps": [],
+  "candidate_order_label_report": {
+    "dev": {
+      "candidate_order_groups": 72,
+      "examples": {},
+      "non_balanced_candidate_order_groups": 0,
+      "passed": true
+    },
+    "sealed": {
+      "candidate_order_groups": 72,
+      "examples": {},
+      "non_balanced_candidate_order_groups": 0,
+      "passed": true
+    },
+    "train": {
+      "candidate_order_groups": 72,
+      "examples": {},
+      "non_balanced_candidate_order_groups": 0,
+      "passed": true
+    }
+  },
+  "duplicate_unpaired_payload_report": {
+    "duplicate_payload_groups": 10000,
+    "non_complementary_or_cross_base_duplicates": [],
+    "passed": true
+  },
+  "label_balance": {
+    "dev": {
+      "balanced": true,
+      "counts": {
+        "0": 1000,
+        "1": 1000
+      },
+      "total": 2000
+    },
+    "sealed": {
+      "balanced": true,
+      "counts": {
+        "0": 1000,
+        "1": 1000
+      },
+      "total": 2000
+    },
+    "train": {
+      "balanced": true,
+      "counts": {
+        "0": 8000,
+        "1": 8000
+      },
+      "total": 16000
+    }
+  },
+  "passed": true,
+  "rendered_grid_cross_split_overlap_count": 16000,
+  "rendered_grid_cross_split_overlap_note": "informational only; this pilot partitions by base twin ID, and marker/output vocabularies are intentionally reused across splits",
+  "rendered_grid_cross_split_overlaps": [
+    {
+      "grid_hash": "03e9d0bb3c3ac8c4dc5efc33efadf6a471e9573865886a663c3eb9594278b7a6",
+      "splits": [
+        "dev",
+        "train"
+      ]
+    },
+    {
+      "grid_hash": "4871be914f18ffed2f1c6e0d173c69fe89df3c05adb9e39da96d0feb98176662",
+      "splits": [
+        "dev",
+        "train"
+      ]
+    },
+    {
+      "grid_hash": "03e9d0bb3c3ac8c4dc5efc33efadf6a471e9573865886a663c3eb9594278b7a6",
+      "splits": [
+        "dev",
+        "train"
+      ]
+    },
+    {
+      "grid_hash": "dd33174365f1826407d2d5610979825efa1b9180d0c4c32296f11d68b4151ce0",
+      "splits": [
+        "dev",
+        "train"
+      ]
+    },
+    {
+      "grid_hash": "03e9d0bb3c3ac8c4dc5efc33efadf6a471e9573865886a663c3eb9594278b7a6",
+      "splits": [
+        "dev",
+        "train"
+      ]
+    },
+    {
+      "grid_hash": "4871be914f18ffed2f1c6e0d173c69fe89df3c05adb9e39da96d0feb98176662",
+      "splits": [
+        "dev",
+        "train"
+      ]
+    },
+    {
+      "grid_hash": "03e9d0bb3c3ac8c4dc5efc33efadf6a471e9573865886a663c3eb9594278b7a6",
+      "splits": [
+        "dev",
+        "train"
+      ]
+    },
+    {
+      "grid_hash": "dd33174365f1826407d2d5610979825efa1b9180d0c4c32296f11d68b4151ce0",
+      "splits": [
+        "dev",
+        "train"
+      ]
+    },
+    {
+      "grid_hash": "470af5edda3c691049838af4a6a7c1e2da7863ca502bf8554db7d89f40d23d3b",
+      "splits": [
+        "dev",
+        "train"
+      ]
+    },
+    {
+      "grid_hash": "0a86dd624904f9e6c4c5eaff992a98058943a399ce23af2e8ec651ce44afa06a",
+      "splits": [
+        "dev",
+        "train"
+      ]
+    },
+    {
+      "grid_hash": "1f585fd33a9440d35d421e8b0e1f7f7d92e13ccde6938b97ab76901b52093be1",
+      "splits": [
+        "dev",
+        "train"
+      ]
+    },
+    {
+      "grid_hash": "470af5edda3c691049838af4a6a7c1e2da7863ca502bf8554db7d89f40d23d3b",
+      "splits": [
+        "dev",
+        "train"
+      ]
+    },
+    {
+      "grid_hash": "470af5edda3c691049838af4a6a7c1e2da7863ca502bf8554db7d89f40d23d3b",
+      "splits": [
+        "dev",
+        "train"
+      ]
+    },
+    {
+      "grid_hash": "1f585fd33a9440d35d421e8b0e1f7f7d92e13ccde6938b97ab76901b52093be1",
+      "splits": [
+        "dev",
+        "train"
+      ]
+    },
+    {
+      "grid_hash": "470af5edda3c691049838af4a6a7c1e2da7863ca502bf8554db7d89f40d23d3b",
+      "splits": [
+        "dev",
+        "train"
+      ]
+    },
+    {
+      "grid_hash": "0a86dd624904f9e6c4c5eaff992a98058943a399ce23af2e8ec651ce44afa06a",
+      "splits": [
+        "dev",
+        "train"
+      ]
+    },
+    {
+      "grid_hash": "615b3cdf964e81d1cdbe5a8873cc10c6c06d0ff4a2784257aaf717367d958b41",
+      "splits": [
+        "dev",
+        "train"
+      ]
+    },
+    {
+      "grid_hash": "85a4b78e5facd9aaeb924a54762d3107ea4394b15aef914cb467573bf7e46c39",
+      "splits": [
+        "dev",
+        "train"
+      ]
+    },
+    {
+      "grid_hash": "cf040cfd99f1c29b84124e71431a6e64d149fe1ded617e5ff81e8f75fbad351c",
+      "splits": [
+        "dev",
+        "train"
+      ]
+    },
+    {
+      "grid_hash": "615b3cdf964e81d1cdbe5a8873cc10c6c06d0ff4a2784257aaf717367d958b41",
+      "splits": [
+        "dev",
+        "train"
+      ]
+    }
+  ]
+}

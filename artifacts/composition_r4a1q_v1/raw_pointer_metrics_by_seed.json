@@ -1,0 +1,260 @@
+{
+  "20260628": {
+    "by_sequence": {
+      "C": {
+        "foreground_cell_count": 1609,
+        "mean_raw_entropy": 2.4768715967127264e-09,
+        "mean_raw_max_probability": 1.0,
+        "mean_raw_oracle_coordinate_mass": 1.0,
+        "raw_argmax_coordinate_accuracy": 1.0,
+        "same_color_wrong_coordinate_rate": 0.0
+      },
+      "C->F": {
+        "foreground_cell_count": 1587,
+        "mean_raw_entropy": 2.4768715967127264e-09,
+        "mean_raw_max_probability": 1.0,
+        "mean_raw_oracle_coordinate_mass": 1.0,
+        "raw_argmax_coordinate_accuracy": 1.0,
+        "same_color_wrong_coordinate_rate": 0.0
+      },
+      "C->T": {
+        "foreground_cell_count": 1578,
+        "mean_raw_entropy": 2.4768715967127264e-09,
+        "mean_raw_max_probability": 1.0,
+        "mean_raw_oracle_coordinate_mass": 1.0,
+        "raw_argmax_coordinate_accuracy": 1.0,
+        "same_color_wrong_coordinate_rate": 0.0
+      },
+      "F": {
+        "foreground_cell_count": 1576,
+        "mean_raw_entropy": 2.4768715967127264e-09,
+        "mean_raw_max_probability": 1.0,
+        "mean_raw_oracle_coordinate_mass": 1.0,
+        "raw_argmax_coordinate_accuracy": 1.0,
+        "same_color_wrong_coordinate_rate": 0.0
+      },
+      "F->C": {
+        "foreground_cell_count": 1576,
+        "mean_raw_entropy": 2.4768715967127264e-09,
+        "mean_raw_max_probability": 1.0,
+        "mean_raw_oracle_coordinate_mass": 1.0,
+        "raw_argmax_coordinate_accuracy": 1.0,
+        "same_color_wrong_coordinate_rate": 0.0
+      },
+      "F->T": {
+        "foreground_cell_count": 1578,
+        "mean_raw_entropy": 2.4768715967127264e-09,
+        "mean_raw_max_probability": 1.0,
+        "mean_raw_oracle_coordinate_mass": 1.0,
+        "raw_argmax_coordinate_accuracy": 1.0,
+        "same_color_wrong_coordinate_rate": 0.0
+      },
+      "T": {
+        "foreground_cell_count": 1600,
+        "mean_raw_entropy": 2.4768715967127264e-09,
+        "mean_raw_max_probability": 1.0,
+        "mean_raw_oracle_coordinate_mass": 1.0,
+        "raw_argmax_coordinate_accuracy": 1.0,
+        "same_color_wrong_coordinate_rate": 0.0
+      },
+      "T->C": {
+        "foreground_cell_count": 1586,
+        "mean_raw_entropy": 2.4768715967127264e-09,
+        "mean_raw_max_probability": 1.0,
+        "mean_raw_oracle_coordinate_mass": 1.0,
+        "raw_argmax_coordinate_accuracy": 1.0,
+        "same_color_wrong_coordinate_rate": 0.0
+      },
+      "T->F": {
+        "foreground_cell_count": 1563,
+        "mean_raw_entropy": 2.4768715967127264e-09,
+        "mean_raw_max_probability": 1.0,
+        "mean_raw_oracle_coordinate_mass": 1.0,
+        "raw_argmax_coordinate_accuracy": 1.0,
+        "same_color_wrong_coordinate_rate": 0.0
+      }
+    },
+    "dataset_label": "r4a0r_v2_sealed_balanced_2007",
+    "episode_count": 2007,
+    "foreground_cell_count": 14253,
+    "mean_raw_entropy_on_foreground_rows": 2.4768715967127264e-09,
+    "mean_raw_max_probability_on_foreground_rows": 1.0,
+    "mean_raw_oracle_coordinate_mass": 1.0,
+    "old_r4a0r_scope_all_cell_mean_raw_entropy": 2.9387215503608206,
+    "old_r4a0r_scope_all_cell_mean_raw_max_probability": 0.2603082045988769,
+    "raw_argmax_coordinate_accuracy": 1.0,
+    "same_color_wrong_coordinate_rate": 0.0
+  },
+  "20260629": {
+    "by_sequence": {
+      "C": {
+        "foreground_cell_count": 1582,
+        "mean_raw_entropy": 2.4768715967127264e-09,
+        "mean_raw_max_probability": 1.0,
+        "mean_raw_oracle_coordinate_mass": 1.0,
+        "raw_argmax_coordinate_accuracy": 1.0,
+        "same_color_wrong_coordinate_rate": 0.0
+      },
+      "C->F": {
+        "foreground_cell_count": 1579,
+        "mean_raw_entropy": 2.4768715967127264e-09,
+        "mean_raw_max_probability": 1.0,
+        "mean_raw_oracle_coordinate_mass": 1.0,
+        "raw_argmax_coordinate_accuracy": 1.0,
+        "same_color_wrong_coordinate_rate": 0.0
+      },
+      "C->T": {
+        "foreground_cell_count": 1571,
+        "mean_raw_entropy": 2.4768715967127264e-09,
+        "mean_raw_max_probability": 1.0,
+        "mean_raw_oracle_coordinate_mass": 1.0,
+        "raw_argmax_coordinate_accuracy": 1.0,
+        "same_color_wrong_coordinate_rate": 0.0
+      },
+      "F": {
+        "foreground_cell_count": 1601,
+        "mean_raw_entropy": 2.4768715967127264e-09,
+        "mean_raw_max_probability": 1.0,
+        "mean_raw_oracle_coordinate_mass": 1.0,
+        "raw_argmax_coordinate_accuracy": 1.0,
+        "same_color_wrong_coordinate_rate": 0.0
+      },
+      "F->C": {
+        "foreground_cell_count": 1565,
+        "mean_raw_entropy": 2.4768715967127264e-09,
+        "mean_raw_max_probability": 1.0,
+        "mean_raw_oracle_coordinate_mass": 1.0,
+        "raw_argmax_coordinate_accuracy": 1.0,
+        "same_color_wrong_coordinate_rate": 0.0
+      },
+      "F->T": {
+        "foreground_cell_count": 1567,
+        "mean_raw_entropy": 2.4768715967127264e-09,
+        "mean_raw_max_probability": 1.0,
+        "mean_raw_oracle_coordinate_mass": 1.0,
+        "raw_argmax_coordinate_accuracy": 1.0,
+        "same_color_wrong_coordinate_rate": 0.0
+      },
+      "T": {
+        "foreground_cell_count": 1585,
+        "mean_raw_entropy": 2.4768715967127264e-09,
+        "mean_raw_max_probability": 1.0,
+        "mean_raw_oracle_coordinate_mass": 1.0,
+        "raw_argmax_coordinate_accuracy": 1.0,
+        "same_color_wrong_coordinate_rate": 0.0
+      },
+      "T->C": {
+        "foreground_cell_count": 1578,
+        "mean_raw_entropy": 2.4768715967127264e-09,
+        "mean_raw_max_probability": 1.0,
+        "mean_raw_oracle_coordinate_mass": 1.0,
+        "raw_argmax_coordinate_accuracy": 1.0,
+        "same_color_wrong_coordinate_rate": 0.0
+      },
+      "T->F": {
+        "foreground_cell_count": 1563,
+        "mean_raw_entropy": 2.4768715967127264e-09,
+        "mean_raw_max_probability": 1.0,
+        "mean_raw_oracle_coordinate_mass": 1.0,
+        "raw_argmax_coordinate_accuracy": 1.0,
+        "same_color_wrong_coordinate_rate": 0.0
+      }
+    },
+    "dataset_label": "r4a0r_v2_sealed_balanced_2007",
+    "episode_count": 2007,
+    "foreground_cell_count": 14191,
+    "mean_raw_entropy_on_foreground_rows": 2.4768715967127264e-09,
+    "mean_raw_max_probability_on_foreground_rows": 1.0,
+    "mean_raw_oracle_coordinate_mass": 1.0,
+    "old_r4a0r_scope_all_cell_mean_raw_entropy": 2.9387215503608206,
+    "old_r4a0r_scope_all_cell_mean_raw_max_probability": 0.2603082045988769,
+    "raw_argmax_coordinate_accuracy": 1.0,
+    "same_color_wrong_coordinate_rate": 0.0
+  },
+  "20260630": {
+    "by_sequence": {
+      "C": {
+        "foreground_cell_count": 1579,
+        "mean_raw_entropy": 2.4768715967127264e-09,
+        "mean_raw_max_probability": 1.0,
+        "mean_raw_oracle_coordinate_mass": 1.0,
+        "raw_argmax_coordinate_accuracy": 1.0,
+        "same_color_wrong_coordinate_rate": 0.0
+      },
+      "C->F": {
+        "foreground_cell_count": 1573,
+        "mean_raw_entropy": 2.4768715967127264e-09,
+        "mean_raw_max_probability": 1.0,
+        "mean_raw_oracle_coordinate_mass": 1.0,
+        "raw_argmax_coordinate_accuracy": 1.0,
+        "same_color_wrong_coordinate_rate": 0.0
+      },
+      "C->T": {
+        "foreground_cell_count": 1601,
+        "mean_raw_entropy": 2.4768715967127264e-09,
+        "mean_raw_max_probability": 1.0,
+        "mean_raw_oracle_coordinate_mass": 1.0,
+        "raw_argmax_coordinate_accuracy": 1.0,
+        "same_color_wrong_coordinate_rate": 0.0
+      },
+      "F": {
+        "foreground_cell_count": 1563,
+        "mean_raw_entropy": 2.4768715967127264e-09,
+        "mean_raw_max_probability": 1.0,
+        "mean_raw_oracle_coordinate_mass": 1.0,
+        "raw_argmax_coordinate_accuracy": 1.0,
+        "same_color_wrong_coordinate_rate": 0.0
+      },
+      "F->C": {
+        "foreground_cell_count": 1584,
+        "mean_raw_entropy": 2.4768715967127264e-09,
+        "mean_raw_max_probability": 1.0,
+        "mean_raw_oracle_coordinate_mass": 1.0,
+        "raw_argmax_coordinate_accuracy": 1.0,
+        "same_color_wrong_coordinate_rate": 0.0
+      },
+      "F->T": {
+        "foreground_cell_count": 1576,
+        "mean_raw_entropy": 2.4768715967127264e-09,
+        "mean_raw_max_probability": 1.0,
+        "mean_raw_oracle_coordinate_mass": 1.0,
+        "raw_argmax_coordinate_accuracy": 1.0,
+        "same_color_wrong_coordinate_rate": 0.0
+      },
+      "T": {
+        "foreground_cell_count": 1575,
+        "mean_raw_entropy": 2.4768715967127264e-09,
+        "mean_raw_max_probability": 1.0,
+        "mean_raw_oracle_coordinate_mass": 1.0,
+        "raw_argmax_coordinate_accuracy": 1.0,
+        "same_color_wrong_coordinate_rate": 0.0
+      },
+      "T->C": {
+        "foreground_cell_count": 1577,
+        "mean_raw_entropy": 2.4768715967127264e-09,
+        "mean_raw_max_probability": 1.0,
+        "mean_raw_oracle_coordinate_mass": 1.0,
+        "raw_argmax_coordinate_accuracy": 1.0,
+        "same_color_wrong_coordinate_rate": 0.0
+      },
+      "T->F": {
+        "foreground_cell_count": 1586,
+        "mean_raw_entropy": 2.4768715967127264e-09,
+        "mean_raw_max_probability": 1.0,
+        "mean_raw_oracle_coordinate_mass": 1.0,
+        "raw_argmax_coordinate_accuracy": 1.0,
+        "same_color_wrong_coordinate_rate": 0.0
+      }
+    },
+    "dataset_label": "r4a0r_v2_sealed_balanced_2007",
+    "episode_count": 2007,
+    "foreground_cell_count": 14214,
+    "mean_raw_entropy_on_foreground_rows": 2.4768715967127264e-09,
+    "mean_raw_max_probability_on_foreground_rows": 1.0,
+    "mean_raw_oracle_coordinate_mass": 1.0,
+    "old_r4a0r_scope_all_cell_mean_raw_entropy": 2.9387215503608206,
+    "old_r4a0r_scope_all_cell_mean_raw_max_probability": 0.2603082045988769,
+    "raw_argmax_coordinate_accuracy": 1.0,
+    "same_color_wrong_coordinate_rate": 0.0
+  }
+}

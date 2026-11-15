@@ -1,0 +1,39 @@
+{
+  "excluded_batch_bookkeeping_keys": [
+    "task_ids",
+    "query_pair_indices",
+    "source_splits"
+  ],
+  "excluded_target_keys": [
+    "query_targets",
+    "query_target_mask",
+    "height_targets",
+    "width_targets",
+    "query_output_heights",
+    "query_output_widths"
+  ],
+  "forward_parameters": [
+    "support_evidence_colors",
+    "support_evidence_rows",
+    "support_evidence_cols",
+    "support_evidence_roles",
+    "support_evidence_pair_indices",
+    "support_evidence_mask",
+    "query_inputs",
+    "query_input_mask",
+    "disable_support_evidence"
+  ],
+  "hidden_target_reaches_forward": false,
+  "model_class": "VRM",
+  "model_inputs_from_batch_keys": [
+    "support_evidence_colors",
+    "support_evidence_rows",
+    "support_evidence_cols",
+    "support_evidence_roles",
+    "support_evidence_pair_indices",
+    "support_evidence_mask",
+    "query_inputs",
+    "query_input_mask"
+  ],
+  "task_identifier_reaches_forward": false
+}

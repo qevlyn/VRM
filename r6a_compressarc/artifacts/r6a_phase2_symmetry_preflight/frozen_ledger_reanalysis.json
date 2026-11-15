@@ -1,0 +1,94 @@
+{
+  "created_utc": "2026-07-04T02:17:57Z",
+  "grouped_mean_delta": {
+    "False": 0.6598581168096534,
+    "True": 2.363838208663332
+  },
+  "interpretation": "Exploratory frozen-ledger reanalysis only; it does not alter the Phase 1 verdict.",
+  "outcome_files_read_after_structural_sha_written": true,
+  "phase1_verdict_unchanged": "PAIRING_SENSITIVE_QUERY_PILOT",
+  "rows": [
+    {
+      "delta_gt_nu_seed_count": 3,
+      "lemma_assumption_status": "LEMMA_VERIFIED_FOR_TASK",
+      "mean_delta": 1.9520857477535432,
+      "positive_seed_count": 3,
+      "s_cycle_invariant": true,
+      "stratum": "B",
+      "task_id": "0dfd9992"
+    },
+    {
+      "delta_gt_nu_seed_count": 3,
+      "lemma_assumption_status": "LEMMA_NOT_CLAIMED",
+      "mean_delta": 0.8741502590876075,
+      "positive_seed_count": 3,
+      "s_cycle_invariant": false,
+      "stratum": "B",
+      "task_id": "1c786137"
+    },
+    {
+      "delta_gt_nu_seed_count": 3,
+      "lemma_assumption_status": "LEMMA_VERIFIED_FOR_TASK",
+      "mean_delta": 1.6991189922316121,
+      "positive_seed_count": 3,
+      "s_cycle_invariant": true,
+      "stratum": "B",
+      "task_id": "1f876c06"
+    },
+    {
+      "delta_gt_nu_seed_count": 3,
+      "lemma_assumption_status": "LEMMA_VERIFIED_FOR_TASK",
+      "mean_delta": 1.022128549778958,
+      "positive_seed_count": 3,
+      "s_cycle_invariant": true,
+      "stratum": "A",
+      "task_id": "3ed85e70"
+    },
+    {
+      "delta_gt_nu_seed_count": 3,
+      "lemma_assumption_status": "LEMMA_NOT_CLAIMED",
+      "mean_delta": 0.8386380389761771,
+      "positive_seed_count": 3,
+      "s_cycle_invariant": false,
+      "stratum": "A",
+      "task_id": "604001fa"
+    },
+    {
+      "delta_gt_nu_seed_count": 3,
+      "lemma_assumption_status": "LEMMA_NOT_CLAIMED",
+      "mean_delta": 0.5882060019361294,
+      "positive_seed_count": 3,
+      "s_cycle_invariant": false,
+      "stratum": "A",
+      "task_id": "79fb03f4"
+    },
+    {
+      "delta_gt_nu_seed_count": 3,
+      "lemma_assumption_status": "LEMMA_VERIFIED_FOR_TASK",
+      "mean_delta": 3.761075828101882,
+      "positive_seed_count": 3,
+      "s_cycle_invariant": true,
+      "stratum": "A",
+      "task_id": "929ab4e9"
+    },
+    {
+      "delta_gt_nu_seed_count": 3,
+      "lemma_assumption_status": "LEMMA_VERIFIED_FOR_TASK",
+      "mean_delta": 3.384781925450664,
+      "positive_seed_count": 3,
+      "s_cycle_invariant": true,
+      "stratum": "A",
+      "task_id": "981571dc"
+    },
+    {
+      "delta_gt_nu_seed_count": 0,
+      "lemma_assumption_status": "LEMMA_NOT_CLAIMED",
+      "mean_delta": 0.3384381672386998,
+      "positive_seed_count": 2,
+      "s_cycle_invariant": false,
+      "stratum": "A",
+      "task_id": "aa4ec2a5"
+    }
+  ],
+  "structural_sha256_used": "d16147b6b2a10acb3d1de0d846cd03ca1da96511a393309800949151a19e63af"
+}

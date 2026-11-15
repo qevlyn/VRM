@@ -1,0 +1,26 @@
+{
+  "20260628": {
+    "logit_scale": {
+      "dtype": "torch.float32",
+      "requires_grad": false,
+      "sha256": "816207690e7813edb46d9dc5647878280fc822f8e2c6c4bbc52a6168cd8fc2b4",
+      "shape": []
+    }
+  },
+  "20260629": {
+    "logit_scale": {
+      "dtype": "torch.float32",
+      "requires_grad": false,
+      "sha256": "816207690e7813edb46d9dc5647878280fc822f8e2c6c4bbc52a6168cd8fc2b4",
+      "shape": []
+    }
+  },
+  "20260630": {
+    "logit_scale": {
+      "dtype": "torch.float32",
+      "requires_grad": false,
+      "sha256": "816207690e7813edb46d9dc5647878280fc822f8e2c6c4bbc52a6168cd8fc2b4",
+      "shape": []
+    }
+  }
+}

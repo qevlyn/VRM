@@ -1,0 +1,126 @@
+{
+  "curve": [
+    {
+      "cell_accuracy": 0.654248083106604,
+      "exact_full_grid_accuracy": 0.005,
+      "fold_count": 200,
+      "mean_color_loss": 1.1682252381742,
+      "mean_height_loss": 2.278751029781997,
+      "mean_total_loss": 2.3668811375647785,
+      "mean_width_loss": 2.515872575826943,
+      "step": 1000
+    },
+    {
+      "cell_accuracy": 0.6605243630967104,
+      "exact_full_grid_accuracy": 0.0,
+      "fold_count": 200,
+      "mean_color_loss": 1.1288606841117144,
+      "mean_height_loss": 1.6680836809345054,
+      "mean_total_loss": 1.9591433466598391,
+      "mean_width_loss": 1.6530469652009196,
+      "step": 2000
+    },
+    {
+      "cell_accuracy": 0.6608335394509028,
+      "exact_full_grid_accuracy": 0.005,
+      "fold_count": 200,
+      "mean_color_loss": 1.069120000526309,
+      "mean_height_loss": 1.2730934231335413,
+      "mean_total_loss": 1.7456335935369134,
+      "mean_width_loss": 1.432960941627971,
+      "step": 3000
+    },
+    {
+      "cell_accuracy": 0.6680373485035864,
+      "exact_full_grid_accuracy": 0.0,
+      "fold_count": 200,
+      "mean_color_loss": 1.0243266355618834,
+      "mean_height_loss": 1.1495661489240592,
+      "mean_total_loss": 1.6114913691207766,
+      "mean_width_loss": 1.199092812400777,
+      "step": 4000
+    },
+    {
+      "cell_accuracy": 0.6806208261192184,
+      "exact_full_grid_accuracy": 0.005,
+      "fold_count": 200,
+      "mean_color_loss": 1.0093171685189009,
+      "mean_height_loss": 1.095446746055095,
+      "mean_total_loss": 1.5548972788080573,
+      "mean_width_loss": 1.0868737047186006,
+      "step": 5000
+    },
+    {
+      "cell_accuracy": 0.6923076923076923,
+      "exact_full_grid_accuracy": 0.0,
+      "fold_count": 200,
+      "mean_color_loss": 0.9845857728645205,
+      "mean_height_loss": 1.0101692453237048,
+      "mean_total_loss": 1.540469908900559,
+      "mean_width_loss": 1.2133672939847748,
+      "step": 6000
+    },
+    {
+      "cell_accuracy": 0.7032834528815236,
+      "exact_full_grid_accuracy": 0.0,
+      "fold_count": 200,
+      "mean_color_loss": 0.956948304027319,
+      "mean_height_loss": 0.9001426121890836,
+      "mean_total_loss": 1.4355461629852653,
+      "mean_width_loss": 1.0142488391677034,
+      "step": 7000
+    },
+    {
+      "cell_accuracy": 0.7180930002473411,
+      "exact_full_grid_accuracy": 0.0,
+      "fold_count": 200,
+      "mean_color_loss": 0.9209649292752147,
+      "mean_height_loss": 0.863637463090854,
+      "mean_total_loss": 1.3945656373724342,
+      "mean_width_loss": 1.0307653682059026,
+      "step": 8000
+    },
+    {
+      "cell_accuracy": 0.7235035864457087,
+      "exact_full_grid_accuracy": 0.0,
+      "fold_count": 200,
+      "mean_color_loss": 0.9330772957205773,
+      "mean_height_loss": 0.8768551868434952,
+      "mean_total_loss": 1.4130411905422806,
+      "mean_width_loss": 1.0430004089623253,
+      "step": 9000
+    },
+    {
+      "cell_accuracy": 0.7242146920603513,
+      "exact_full_grid_accuracy": 0.0,
+      "fold_count": 200,
+      "mean_color_loss": 0.9265225882455707,
+      "mean_height_loss": 0.8495234590137625,
+      "mean_total_loss": 1.3931346232444048,
+      "mean_width_loss": 1.0169246525534255,
+      "step": 10000
+    },
+    {
+      "cell_accuracy": 0.7291615137274301,
+      "exact_full_grid_accuracy": 0.0,
+      "fold_count": 200,
+      "mean_color_loss": 0.9260237070173025,
+      "mean_height_loss": 0.8354831050058783,
+      "mean_total_loss": 1.3871317425742746,
+      "mean_width_loss": 1.008949073613112,
+      "step": 11000
+    },
+    {
+      "cell_accuracy": 0.7286049962898837,
+      "exact_full_grid_accuracy": 0.0,
+      "fold_count": 200,
+      "mean_color_loss": 0.9149556363746524,
+      "mean_height_loss": 0.85484993641443,
+      "mean_total_loss": 1.3756557025387883,
+      "mean_width_loss": 0.9879503376831781,
+      "step": 12000
+    }
+  ],
+  "selection_metric": "validation_mean_total_loss",
+  "validation_interval": 1000
+}

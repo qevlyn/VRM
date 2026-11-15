@@ -1,0 +1,242 @@
+{"event": "eval", "exact_decoded_grid_accuracy": 0.0, "mean_loss": 3.1775401760550106, "mode": "capacity4", "step": 0, "token_accuracy_nonpad": 0.028727770177838577}
+{"event": "eval", "exact_decoded_grid_accuracy": 0.0, "mean_loss": 0.7741093442720526, "mode": "capacity4", "step": 50, "token_accuracy_nonpad": 0.7387140902872777}
+{"event": "eval", "exact_decoded_grid_accuracy": 0.0, "mean_loss": 0.5353344573694117, "mode": "capacity4", "step": 100, "token_accuracy_nonpad": 0.5075239398084815}
+{"event": "eval", "exact_decoded_grid_accuracy": 0.0, "mean_loss": 0.3138493150472641, "mode": "capacity4", "step": 250, "token_accuracy_nonpad": 0.813953488372093}
+{"event": "eval", "exact_decoded_grid_accuracy": 0.0, "mean_loss": 0.17964959035024924, "mode": "capacity4", "step": 500, "token_accuracy_nonpad": 0.8577291381668947}
+{"event": "eval", "exact_decoded_grid_accuracy": 0.29411764705882354, "mean_loss": 0.06498470538131454, "mode": "capacity4", "step": 1000, "token_accuracy_nonpad": 0.9347925216598267}
+{"event": "eval", "exact_decoded_grid_accuracy": 0.5882352941176471, "mean_loss": 0.02405011604594834, "mode": "capacity4", "step": 1500, "token_accuracy_nonpad": 0.97765617875057}
+{
+  "aggregate_metrics": [
+    {
+      "episode_count": 17,
+      "exact_decoded_grid_accuracy": 0.0,
+      "exact_padded_grid_accuracy": 0.0,
+      "invalid_padding_pattern_rate": 1.0,
+      "mean_loss": 3.1775401760550106,
+      "mean_nonpad_hamming_error": 125.29411764705883,
+      "median_nonpad_hamming_error": 96,
+      "minimum_nonpad_hamming_error": 28,
+      "output_shape_match_rate": 0.0,
+      "step": 0,
+      "token_accuracy_all": 0.01758169934640523,
+      "token_accuracy_nonpad": 0.028727770177838577
+    },
+    {
+      "episode_count": 17,
+      "exact_decoded_grid_accuracy": 0.0,
+      "exact_padded_grid_accuracy": 0.0,
+      "invalid_padding_pattern_rate": 1.0,
+      "mean_loss": 0.7741093442720526,
+      "mean_nonpad_hamming_error": 33.705882352941174,
+      "median_nonpad_hamming_error": 25,
+      "minimum_nonpad_hamming_error": 8,
+      "output_shape_match_rate": 0.0,
+      "step": 50,
+      "token_accuracy_all": 0.8075816993464052,
+      "token_accuracy_nonpad": 0.7387140902872777
+    },
+    {
+      "episode_count": 17,
+      "exact_decoded_grid_accuracy": 0.0,
+      "exact_padded_grid_accuracy": 0.0,
+      "invalid_padding_pattern_rate": 0.8823529411764706,
+      "mean_loss": 0.5353344573694117,
+      "mean_nonpad_hamming_error": 63.529411764705884,
+      "median_nonpad_hamming_error": 35,
+      "minimum_nonpad_hamming_error": 8,
+      "output_shape_match_rate": 0.058823529411764705,
+      "step": 100,
+      "token_accuracy_all": 0.922156862745098,
+      "token_accuracy_nonpad": 0.5075239398084815
+    },
+    {
+      "episode_count": 17,
+      "exact_decoded_grid_accuracy": 0.0,
+      "exact_padded_grid_accuracy": 0.0,
+      "invalid_padding_pattern_rate": 0.8235294117647058,
+      "mean_loss": 0.3138493150472641,
+      "mean_nonpad_hamming_error": 24.0,
+      "median_nonpad_hamming_error": 25,
+      "minimum_nonpad_hamming_error": 8,
+      "output_shape_match_rate": 0.058823529411764705,
+      "step": 250,
+      "token_accuracy_all": 0.9461437908496731,
+      "token_accuracy_nonpad": 0.813953488372093
+    },
+    {
+      "episode_count": 17,
+      "exact_decoded_grid_accuracy": 0.0,
+      "exact_padded_grid_accuracy": 0.0,
+      "invalid_padding_pattern_rate": 0.11764705882352941,
+      "mean_loss": 0.17964959035024924,
+      "mean_nonpad_hamming_error": 18.352941176470587,
+      "median_nonpad_hamming_error": 21,
+      "minimum_nonpad_hamming_error": 3,
+      "output_shape_match_rate": 0.8823529411764706,
+      "step": 500,
+      "token_accuracy_all": 0.9787581699346405,
+      "token_accuracy_nonpad": 0.8577291381668947
+    },
+    {
+      "episode_count": 17,
+      "exact_decoded_grid_accuracy": 0.29411764705882354,
+      "exact_padded_grid_accuracy": 0.29411764705882354,
+      "invalid_padding_pattern_rate": 0.0,
+      "mean_loss": 0.06498470538131454,
+      "mean_nonpad_hamming_error": 8.411764705882353,
+      "median_nonpad_hamming_error": 8,
+      "minimum_nonpad_hamming_error": 0,
+      "output_shape_match_rate": 1.0,
+      "step": 1000,
+      "token_accuracy_all": 0.9906535947712418,
+      "token_accuracy_nonpad": 0.9347925216598267
+    },
+    {
+      "episode_count": 17,
+      "exact_decoded_grid_accuracy": 0.5882352941176471,
+      "exact_padded_grid_accuracy": 0.5882352941176471,
+      "invalid_padding_pattern_rate": 0.0,
+      "mean_loss": 0.02405011604594834,
+      "mean_nonpad_hamming_error": 2.8823529411764706,
+      "median_nonpad_hamming_error": 0,
+      "minimum_nonpad_hamming_error": 0,
+      "output_shape_match_rate": 1.0,
+      "step": 1500,
+      "token_accuracy_all": 0.996797385620915,
+      "token_accuracy_nonpad": 0.97765617875057
+    }
+  ],
+  "artifact_dir": "/mnt/d/VRM/artifacts/capacity4",
+  "average_seconds_per_optimizer_step": 0.5100985924453333,
+  "batch_size": 1,
+  "checkpoint_path": "/mnt/d/VRM/checkpoints/capacity4_step1500.pt",
+  "command": "python -m vrm.train --mode capacity4",
+  "config": {
+    "dropout": 0.0,
+    "hidden_size": 128,
+    "max_grid_height": 30,
+    "max_grid_tokens": 900,
+    "max_grid_width": 30,
+    "memory_slots": 16,
+    "num_heads": 4,
+    "reasoning_cycles": 2,
+    "reasoning_layers": 2,
+    "vocab_size": 11
+  },
+  "cuda_available": false,
+  "cuda_device": null,
+  "device": "cpu",
+  "episode_count": 17,
+  "exact_decoded_grids_step_1500": 10,
+  "final_state_dict_forbidden_key_matches": [],
+  "integrity_checks": {
+    "all_passed": true,
+    "every_generated_episode_is_leave_one_out_correct": {
+      "failure_count": 0,
+      "failures": [],
+      "passed": true
+    },
+    "failed_checks": [],
+    "no_task_id_enters_vrm_forward": {
+      "forbidden_forward_parameters": [],
+      "forward_parameters": [
+        "self",
+        "support_inputs",
+        "support_outputs",
+        "support_mask",
+        "query_inputs"
+      ],
+      "model_input_keys": [
+        "query_inputs",
+        "support_inputs",
+        "support_mask",
+        "support_outputs"
+      ],
+      "passed": true
+    },
+    "old_trm_checkpoint_loaded": {
+      "loaded": false,
+      "passed": true
+    },
+    "original_trm_source_files_unchanged": {
+      "baseline_exists": true,
+      "baseline_path": "/mnt/d/VRM/artifacts/trm_source_hashes_before.sha256",
+      "passed": true
+    },
+    "query_target_absent_from_model_input_tensors": {
+      "model_input_keys": [
+        "query_inputs",
+        "support_inputs",
+        "support_mask",
+        "support_outputs"
+      ],
+      "passed": true,
+      "query_target_tensor_reused_as_input": false
+    },
+    "raw_arc_training_source_contains_exact_four_task_ids": {
+      "passed": true,
+      "task_ids": [
+        "00576224",
+        "007bbfb7",
+        "009d5c81",
+        "00d62c1b"
+      ],
+      "training_challenges": "/mnt/d/ARC2/arc-prize-2026-arc-agi-2/arc-agi_training_challenges.json"
+    },
+    "selected_tasks_are_training_split_not_validation": {
+      "passed": true,
+      "source_splits": {
+        "00576224": "train",
+        "007bbfb7": "train",
+        "009d5c81": "train",
+        "00d62c1b": "train"
+      }
+    },
+    "vrm_state_dict_free_of_forbidden_lookup_terms": {
+      "banned_terms": [
+        "puzzle_emb",
+        "puzzle_identifier",
+        "sparse_embedding",
+        "task_id"
+      ],
+      "matching_state_keys": [],
+      "passed": true
+    }
+  },
+  "learning_rate": 0.001,
+  "median_nonpad_hamming_error_step_1500": 0,
+  "minimum_nonpad_hamming_error_step_1500": 0,
+  "mode": "capacity4",
+  "optimizer": {
+    "amsgrad": false,
+    "betas": [
+      0.9,
+      0.999
+    ],
+    "capturable": false,
+    "differentiable": false,
+    "eps": 1e-08,
+    "foreach": null,
+    "fused": null,
+    "lr": 0.001,
+    "maximize": false,
+    "name": "AdamW",
+    "weight_decay": 0.01
+  },
+  "parameter_count": {
+    "total": 653067,
+    "trainable": 653067
+  },
+  "seed": 12345,
+  "selected_task_ids": [
+    "00576224",
+    "007bbfb7",
+    "009d5c81",
+    "00d62c1b"
+  ],
+  "steps": 1500,
+  "torch_version": "2.12.1+cpu",
+  "training_seconds": 765.147888668,
+  "verdict": "CAPACITY_SIGNAL_STRONG",
+  "wall_clock_seconds": 768.168860137
+}

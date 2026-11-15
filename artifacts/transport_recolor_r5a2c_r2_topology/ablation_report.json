@@ -1,0 +1,261 @@
+{
+  "ablations": {
+    "barrier_ignored": {
+      "absolute_drop_vs_normal": {
+        "border_reachable_recolor": 1.0,
+        "enclosed_region_recolor": 1.0,
+        "seed_reachable_recolor": 1.0
+      },
+      "exact_by_convention": {
+        "border_reachable_recolor": 0.0,
+        "enclosed_region_recolor": 0.0,
+        "seed_reachable_recolor": 0.0
+      },
+      "first_counterexample": {
+        "consistent_hypotheses": [],
+        "convention": "seed_reachable_recolor",
+        "episode_id": "golden_suite:seed_reachable_recolor:p1:o7:m5:gdiagonal_bridge_a:v0",
+        "exact": false,
+        "output_grid": null,
+        "selected_hypothesis": null,
+        "status": "no_consistent_hypothesis",
+        "suite_name": "golden_suite"
+      },
+      "generator_stress_suite_exact": 0.0,
+      "passes_relevant_drop_threshold": true,
+      "randomized_suite_exact": 0.0
+    },
+    "border_seed_disabled": {
+      "absolute_drop_vs_normal": {
+        "border_reachable_recolor": 1.0,
+        "enclosed_region_recolor": 1.0,
+        "seed_reachable_recolor": 0.0
+      },
+      "exact_by_convention": {
+        "border_reachable_recolor": 0.0,
+        "enclosed_region_recolor": 0.0,
+        "seed_reachable_recolor": 1.0
+      },
+      "first_counterexample": {
+        "consistent_hypotheses": [],
+        "convention": "border_reachable_recolor",
+        "episode_id": "golden_suite:border_reachable_recolor:p2:o8:mNone:gdiagonal_bridge_b:v1",
+        "exact": false,
+        "output_grid": null,
+        "selected_hypothesis": null,
+        "status": "no_consistent_hypothesis",
+        "suite_name": "golden_suite"
+      },
+      "generator_stress_suite_exact": 0.3333333333333333,
+      "passes_relevant_drop_threshold": true,
+      "randomized_suite_exact": 0.3333333333333333
+    },
+    "no_propagation": {
+      "absolute_drop_vs_normal": {
+        "border_reachable_recolor": 1.0,
+        "enclosed_region_recolor": 1.0,
+        "seed_reachable_recolor": 1.0
+      },
+      "exact_by_convention": {
+        "border_reachable_recolor": 0.0,
+        "enclosed_region_recolor": 0.0,
+        "seed_reachable_recolor": 0.0
+      },
+      "first_counterexample": {
+        "consistent_hypotheses": [],
+        "convention": "seed_reachable_recolor",
+        "episode_id": "golden_suite:seed_reachable_recolor:p1:o7:m5:gdiagonal_bridge_a:v0",
+        "exact": false,
+        "output_grid": null,
+        "selected_hypothesis": null,
+        "status": "no_consistent_hypothesis",
+        "suite_name": "golden_suite"
+      },
+      "generator_stress_suite_exact": 0.0,
+      "passes_relevant_drop_threshold": true,
+      "randomized_suite_exact": 0.0
+    },
+    "one_step_only": {
+      "absolute_drop_vs_normal": {
+        "border_reachable_recolor": 1.0,
+        "enclosed_region_recolor": 1.0,
+        "seed_reachable_recolor": 0.0
+      },
+      "exact_by_convention": {
+        "border_reachable_recolor": 0.0,
+        "enclosed_region_recolor": 0.0,
+        "seed_reachable_recolor": 1.0
+      },
+      "first_counterexample": {
+        "consistent_hypotheses": [],
+        "convention": "border_reachable_recolor",
+        "episode_id": "golden_suite:border_reachable_recolor:p2:o8:mNone:gdiagonal_bridge_b:v1",
+        "exact": false,
+        "output_grid": null,
+        "selected_hypothesis": null,
+        "status": "no_consistent_hypothesis",
+        "suite_name": "golden_suite"
+      },
+      "generator_stress_suite_exact": 0.3333333333333333,
+      "passes_relevant_drop_threshold": true,
+      "randomized_suite_exact": 0.3333333333333333
+    },
+    "support_consistency_disabled": {
+      "absolute_drop_vs_normal": {
+        "border_reachable_recolor": 0.8367346938775511,
+        "enclosed_region_recolor": 1.0,
+        "seed_reachable_recolor": 1.0
+      },
+      "exact_by_convention": {
+        "border_reachable_recolor": 0.16326530612244897,
+        "enclosed_region_recolor": 0.0,
+        "seed_reachable_recolor": 0.0
+      },
+      "first_counterexample": {
+        "consistent_hypotheses": [
+          {
+            "adjacency": "4_connected",
+            "barrier_color": 4,
+            "convention": "border_reachable_recolor",
+            "marker_color_or_none": null,
+            "output_recolor_color": 7,
+            "passable_color": 1,
+            "seed_condition_or_none": null
+          }
+        ],
+        "convention": "seed_reachable_recolor",
+        "episode_id": "golden_suite:seed_reachable_recolor:p1:o7:m5:gdiagonal_bridge_a:v0",
+        "exact": false,
+        "output_grid": [
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0,
+            4,
+            1,
+            1,
+            0
+          ],
+          [
+            0,
+            5,
+            1,
+            1,
+            4,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            4,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "selected_hypothesis": {
+          "adjacency": "4_connected",
+          "barrier_color": 4,
+          "convention": "border_reachable_recolor",
+          "marker_color_or_none": null,
+          "output_recolor_color": 7,
+          "passable_color": 1,
+          "seed_condition_or_none": null
+        },
+        "status": "support_consistency_disabled",
+        "suite_name": "golden_suite"
+      },
+      "generator_stress_suite_exact": 0.05555555555555555,
+      "passes_relevant_drop_threshold": true,
+      "randomized_suite_exact": 0.05555555555555555
+    },
+    "wrong_adjacency_8_connected": {
+      "absolute_drop_vs_normal": {
+        "border_reachable_recolor": 1.0,
+        "enclosed_region_recolor": 1.0,
+        "seed_reachable_recolor": 1.0
+      },
+      "exact_by_convention": {
+        "border_reachable_recolor": 0.0,
+        "enclosed_region_recolor": 0.0,
+        "seed_reachable_recolor": 0.0
+      },
+      "first_counterexample": {
+        "consistent_hypotheses": [],
+        "convention": "seed_reachable_recolor",
+        "episode_id": "golden_suite:seed_reachable_recolor:p1:o7:m5:gdiagonal_bridge_a:v0",
+        "exact": false,
+        "output_grid": null,
+        "selected_hypothesis": null,
+        "status": "no_consistent_hypothesis",
+        "suite_name": "golden_suite"
+      },
+      "generator_stress_suite_exact": 0.0,
+      "passes_relevant_drop_threshold": true,
+      "randomized_suite_exact": 0.0
+    }
+  },
+  "adjacency_discrimination": {
+    "absolute_drop_on_adjacency_slice": 1.0,
+    "adjacency_discrimination_episode_count": 140,
+    "adjacency_discrimination_episode_fraction": 0.9722222222222222,
+    "first_adjacency_counterexample": {
+      "consistent_hypotheses": [],
+      "convention": "seed_reachable_recolor",
+      "episode_id": "randomized_suite:seed_reachable_recolor:p1:o7:m5:gdiagonal_bridge_a:v0",
+      "exact": false,
+      "output_grid": null,
+      "selected_hypothesis": null,
+      "status": "no_consistent_hypothesis",
+      "suite_name": "randomized_suite"
+    },
+    "normal_4_connected_exact_on_adjacency_slice": 1.0,
+    "passes": true,
+    "wrong_8_connected_exact_on_adjacency_slice": 0.0
+  },
+  "all_relevant_ablations_pass_drop_threshold": true,
+  "normal_exact_by_convention": {
+    "border_reachable_recolor": 1.0,
+    "enclosed_region_recolor": 1.0,
+    "seed_reachable_recolor": 1.0
+  },
+  "normal_overall_exact": 1.0
+}

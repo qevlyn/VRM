@@ -1,0 +1,14 @@
+{
+  "batch_size": 128,
+  "checkpoint_selection": false,
+  "data_out": "/mnt/d/VRM/artifacts/composition_r4a1p_v1",
+  "evaluation_only": true,
+  "max_batches": 4,
+  "mode": "full",
+  "seeds": [
+    20260628,
+    20260629,
+    20260630
+  ],
+  "training_started": false
+}

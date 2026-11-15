@@ -1,0 +1,919 @@
+{
+  "metrics": {
+    "condition": "MATCHED_RANDOM_PRUNE",
+    "max_recall_at_128": 0.02,
+    "mean_recall_at_128": 0.013333333333333334,
+    "min_recall_at_128": 0.01,
+    "salt_count": 3
+  },
+  "pilot_version": "R5A3B_P0_RELATION_OBJECT_GRAPH_CONSTRAINT_CAUSAL_PILOT",
+  "rows": [
+    {
+      "fold_key": "00203783c277:fold=0",
+      "matched_survivor_count": 15,
+      "salt_candidate_counts": {
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_A": 9,
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_B": 9,
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_C": 9
+      }
+    },
+    {
+      "fold_key": "00203783c277:fold=1",
+      "matched_survivor_count": 7,
+      "salt_candidate_counts": {
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_A": 4,
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_B": 4,
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_C": 5
+      }
+    },
+    {
+      "fold_key": "003ab26e8f50:fold=0",
+      "matched_survivor_count": 4,
+      "salt_candidate_counts": {
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_A": 4,
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_B": 4,
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_C": 4
+      }
+    },
+    {
+      "fold_key": "003ab26e8f50:fold=1",
+      "matched_survivor_count": 4,
+      "salt_candidate_counts": {
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_A": 4,
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_B": 4,
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_C": 4
+      }
+    },
+    {
+      "fold_key": "00a70cb1f01a:fold=0",
+      "matched_survivor_count": 2,
+      "salt_candidate_counts": {
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_A": 2,
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_B": 2,
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_C": 2
+      }
+    },
+    {
+      "fold_key": "00a70cb1f01a:fold=1",
+      "matched_survivor_count": 2,
+      "salt_candidate_counts": {
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_A": 2,
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_B": 2,
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_C": 2
+      }
+    },
+    {
+      "fold_key": "00a70cb1f01a:fold=2",
+      "matched_survivor_count": 2,
+      "salt_candidate_counts": {
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_A": 2,
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_B": 2,
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_C": 2
+      }
+    },
+    {
+      "fold_key": "00d50b52b427:fold=0",
+      "matched_survivor_count": 12,
+      "salt_candidate_counts": {
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_A": 9,
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_B": 5,
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_C": 9
+      }
+    },
+    {
+      "fold_key": "00d50b52b427:fold=1",
+      "matched_survivor_count": 11,
+      "salt_candidate_counts": {
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_A": 5,
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_B": 8,
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_C": 6
+      }
+    },
+    {
+      "fold_key": "00d900ed4f5c:fold=0",
+      "matched_survivor_count": 6,
+      "salt_candidate_counts": {
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_A": 4,
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_B": 5,
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_C": 3
+      }
+    },
+    {
+      "fold_key": "00d900ed4f5c:fold=1",
+      "matched_survivor_count": 6,
+      "salt_candidate_counts": {
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_A": 4,
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_B": 6,
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_C": 5
+      }
+    },
+    {
+      "fold_key": "014db861a6b7:fold=0",
+      "matched_survivor_count": 6,
+      "salt_candidate_counts": {
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_A": 5,
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_B": 5,
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_C": 4
+      }
+    },
+    {
+      "fold_key": "014db861a6b7:fold=1",
+      "matched_survivor_count": 7,
+      "salt_candidate_counts": {
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_A": 6,
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_B": 7,
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_C": 6
+      }
+    },
+    {
+      "fold_key": "014db861a6b7:fold=2",
+      "matched_survivor_count": 6,
+      "salt_candidate_counts": {
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_A": 5,
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_B": 5,
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_C": 5
+      }
+    },
+    {
+      "fold_key": "01dd2602608c:fold=0",
+      "matched_survivor_count": 3,
+      "salt_candidate_counts": {
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_A": 3,
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_B": 2,
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_C": 2
+      }
+    },
+    {
+      "fold_key": "01dd2602608c:fold=1",
+      "matched_survivor_count": 5,
+      "salt_candidate_counts": {
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_A": 4,
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_B": 4,
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_C": 4
+      }
+    },
+    {
+      "fold_key": "01dd2602608c:fold=2",
+      "matched_survivor_count": 5,
+      "salt_candidate_counts": {
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_A": 3,
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_B": 2,
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_C": 3
+      }
+    },
+    {
+      "fold_key": "0205ac0218ff:fold=0",
+      "matched_survivor_count": 10,
+      "salt_candidate_counts": {
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_A": 7,
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_B": 7,
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_C": 5
+      }
+    },
+    {
+      "fold_key": "0205ac0218ff:fold=1",
+      "matched_survivor_count": 10,
+      "salt_candidate_counts": {
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_A": 6,
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_B": 7,
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_C": 6
+      }
+    },
+    {
+      "fold_key": "0205ac0218ff:fold=2",
+      "matched_survivor_count": 11,
+      "salt_candidate_counts": {
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_A": 8,
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_B": 9,
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_C": 9
+      }
+    },
+    {
+      "fold_key": "0205ac0218ff:fold=3",
+      "matched_survivor_count": 11,
+      "salt_candidate_counts": {
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_A": 9,
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_B": 7,
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_C": 7
+      }
+    },
+    {
+      "fold_key": "0742b02b74a9:fold=0",
+      "matched_survivor_count": 8,
+      "salt_candidate_counts": {
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_A": 5,
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_B": 5,
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_C": 6
+      }
+    },
+    {
+      "fold_key": "0742b02b74a9:fold=1",
+      "matched_survivor_count": 10,
+      "salt_candidate_counts": {
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_A": 5,
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_B": 8,
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_C": 6
+      }
+    },
+    {
+      "fold_key": "0742b02b74a9:fold=2",
+      "matched_survivor_count": 10,
+      "salt_candidate_counts": {
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_A": 9,
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_B": 6,
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_C": 8
+      }
+    },
+    {
+      "fold_key": "0742b02b74a9:fold=3",
+      "matched_survivor_count": 8,
+      "salt_candidate_counts": {
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_A": 6,
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_B": 6,
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_C": 5
+      }
+    },
+    {
+      "fold_key": "0742b02b74a9:fold=4",
+      "matched_survivor_count": 6,
+      "salt_candidate_counts": {
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_A": 3,
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_B": 4,
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_C": 4
+      }
+    },
+    {
+      "fold_key": "0742b02b74a9:fold=5",
+      "matched_survivor_count": 8,
+      "salt_candidate_counts": {
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_A": 6,
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_B": 5,
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_C": 7
+      }
+    },
+    {
+      "fold_key": "088b5677df69:fold=0",
+      "matched_survivor_count": 19,
+      "salt_candidate_counts": {
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_A": 13,
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_B": 12,
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_C": 15
+      }
+    },
+    {
+      "fold_key": "088b5677df69:fold=1",
+      "matched_survivor_count": 19,
+      "salt_candidate_counts": {
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_A": 14,
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_B": 12,
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_C": 13
+      }
+    },
+    {
+      "fold_key": "088b5677df69:fold=2",
+      "matched_survivor_count": 17,
+      "salt_candidate_counts": {
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_A": 12,
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_B": 12,
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_C": 10
+      }
+    },
+    {
+      "fold_key": "088b5677df69:fold=3",
+      "matched_survivor_count": 18,
+      "salt_candidate_counts": {
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_A": 13,
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_B": 10,
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_C": 12
+      }
+    },
+    {
+      "fold_key": "0c932836daba:fold=0",
+      "matched_survivor_count": 6,
+      "salt_candidate_counts": {
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_A": 5,
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_B": 6,
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_C": 5
+      }
+    },
+    {
+      "fold_key": "0c932836daba:fold=1",
+      "matched_survivor_count": 8,
+      "salt_candidate_counts": {
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_A": 7,
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_B": 6,
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_C": 5
+      }
+    },
+    {
+      "fold_key": "0c932836daba:fold=2",
+      "matched_survivor_count": 10,
+      "salt_candidate_counts": {
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_A": 8,
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_B": 7,
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_C": 6
+      }
+    },
+    {
+      "fold_key": "0c932836daba:fold=3",
+      "matched_survivor_count": 5,
+      "salt_candidate_counts": {
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_A": 3,
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_B": 3,
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_C": 4
+      }
+    },
+    {
+      "fold_key": "157e29bf4dac:fold=0",
+      "matched_survivor_count": 4,
+      "salt_candidate_counts": {
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_A": 2,
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_B": 2,
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_C": 2
+      }
+    },
+    {
+      "fold_key": "157e29bf4dac:fold=1",
+      "matched_survivor_count": 4,
+      "salt_candidate_counts": {
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_A": 4,
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_B": 2,
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_C": 2
+      }
+    },
+    {
+      "fold_key": "157e29bf4dac:fold=2",
+      "matched_survivor_count": 1,
+      "salt_candidate_counts": {
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_A": 1,
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_B": 1,
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_C": 1
+      }
+    },
+    {
+      "fold_key": "157e29bf4dac:fold=3",
+      "matched_survivor_count": 2,
+      "salt_candidate_counts": {
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_A": 1,
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_B": 1,
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_C": 1
+      }
+    },
+    {
+      "fold_key": "157e29bf4dac:fold=4",
+      "matched_survivor_count": 4,
+      "salt_candidate_counts": {
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_A": 3,
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_B": 1,
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_C": 2
+      }
+    },
+    {
+      "fold_key": "162b59c1a156:fold=0",
+      "matched_survivor_count": 1,
+      "salt_candidate_counts": {
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_A": 1,
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_B": 1,
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_C": 1
+      }
+    },
+    {
+      "fold_key": "162b59c1a156:fold=1",
+      "matched_survivor_count": 1,
+      "salt_candidate_counts": {
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_A": 1,
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_B": 1,
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_C": 1
+      }
+    },
+    {
+      "fold_key": "162b59c1a156:fold=2",
+      "matched_survivor_count": 1,
+      "salt_candidate_counts": {
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_A": 1,
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_B": 1,
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_C": 1
+      }
+    },
+    {
+      "fold_key": "162b59c1a156:fold=3",
+      "matched_survivor_count": 1,
+      "salt_candidate_counts": {
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_A": 1,
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_B": 1,
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_C": 1
+      }
+    },
+    {
+      "fold_key": "162b59c1a156:fold=4",
+      "matched_survivor_count": 1,
+      "salt_candidate_counts": {
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_A": 1,
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_B": 1,
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_C": 1
+      }
+    },
+    {
+      "fold_key": "18ce90663716:fold=0",
+      "matched_survivor_count": 4,
+      "salt_candidate_counts": {
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_A": 4,
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_B": 4,
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_C": 4
+      }
+    },
+    {
+      "fold_key": "18ce90663716:fold=1",
+      "matched_survivor_count": 4,
+      "salt_candidate_counts": {
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_A": 4,
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_B": 4,
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_C": 4
+      }
+    },
+    {
+      "fold_key": "18ce90663716:fold=2",
+      "matched_survivor_count": 4,
+      "salt_candidate_counts": {
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_A": 4,
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_B": 4,
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_C": 4
+      }
+    },
+    {
+      "fold_key": "22784a7099b9:fold=0",
+      "matched_survivor_count": 4,
+      "salt_candidate_counts": {
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_A": 4,
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_B": 4,
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_C": 4
+      }
+    },
+    {
+      "fold_key": "22784a7099b9:fold=1",
+      "matched_survivor_count": 4,
+      "salt_candidate_counts": {
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_A": 4,
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_B": 4,
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_C": 4
+      }
+    },
+    {
+      "fold_key": "23b0b31e435e:fold=0",
+      "matched_survivor_count": 2,
+      "salt_candidate_counts": {
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_A": 1,
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_B": 1,
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_C": 2
+      }
+    },
+    {
+      "fold_key": "23b0b31e435e:fold=1",
+      "matched_survivor_count": 2,
+      "salt_candidate_counts": {
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_A": 2,
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_B": 2,
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_C": 2
+      }
+    },
+    {
+      "fold_key": "23b0b31e435e:fold=2",
+      "matched_survivor_count": 2,
+      "salt_candidate_counts": {
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_A": 1,
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_B": 2,
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_C": 2
+      }
+    },
+    {
+      "fold_key": "23b0b31e435e:fold=3",
+      "matched_survivor_count": 2,
+      "salt_candidate_counts": {
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_A": 2,
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_B": 2,
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_C": 2
+      }
+    },
+    {
+      "fold_key": "2aa102da5d10:fold=0",
+      "matched_survivor_count": 7,
+      "salt_candidate_counts": {
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_A": 6,
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_B": 3,
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_C": 5
+      }
+    },
+    {
+      "fold_key": "2aa102da5d10:fold=1",
+      "matched_survivor_count": 9,
+      "salt_candidate_counts": {
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_A": 6,
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_B": 7,
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_C": 6
+      }
+    },
+    {
+      "fold_key": "2aa102da5d10:fold=2",
+      "matched_survivor_count": 10,
+      "salt_candidate_counts": {
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_A": 7,
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_B": 7,
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_C": 7
+      }
+    },
+    {
+      "fold_key": "2aa102da5d10:fold=3",
+      "matched_survivor_count": 10,
+      "salt_candidate_counts": {
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_A": 7,
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_B": 7,
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_C": 7
+      }
+    },
+    {
+      "fold_key": "2aa102da5d10:fold=4",
+      "matched_survivor_count": 17,
+      "salt_candidate_counts": {
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_A": 13,
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_B": 12,
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_C": 11
+      }
+    },
+    {
+      "fold_key": "2aa102da5d10:fold=5",
+      "matched_survivor_count": 7,
+      "salt_candidate_counts": {
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_A": 5,
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_B": 2,
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_C": 3
+      }
+    },
+    {
+      "fold_key": "2aa102da5d10:fold=6",
+      "matched_survivor_count": 9,
+      "salt_candidate_counts": {
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_A": 6,
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_B": 5,
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_C": 5
+      }
+    },
+    {
+      "fold_key": "3ff41d671fa4:fold=0",
+      "matched_survivor_count": 9,
+      "salt_candidate_counts": {
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_A": 8,
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_B": 7,
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_C": 7
+      }
+    },
+    {
+      "fold_key": "3ff41d671fa4:fold=1",
+      "matched_survivor_count": 9,
+      "salt_candidate_counts": {
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_A": 8,
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_B": 6,
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_C": 6
+      }
+    },
+    {
+      "fold_key": "3ff41d671fa4:fold=2",
+      "matched_survivor_count": 8,
+      "salt_candidate_counts": {
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_A": 6,
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_B": 5,
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_C": 5
+      }
+    },
+    {
+      "fold_key": "54b762e754fd:fold=0",
+      "matched_survivor_count": 11,
+      "salt_candidate_counts": {
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_A": 8,
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_B": 10,
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_C": 8
+      }
+    },
+    {
+      "fold_key": "54b762e754fd:fold=1",
+      "matched_survivor_count": 20,
+      "salt_candidate_counts": {
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_A": 14,
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_B": 15,
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_C": 13
+      }
+    },
+    {
+      "fold_key": "54b762e754fd:fold=2",
+      "matched_survivor_count": 17,
+      "salt_candidate_counts": {
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_A": 12,
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_B": 11,
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_C": 11
+      }
+    },
+    {
+      "fold_key": "54b762e754fd:fold=3",
+      "matched_survivor_count": 10,
+      "salt_candidate_counts": {
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_A": 6,
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_B": 8,
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_C": 8
+      }
+    },
+    {
+      "fold_key": "54b762e754fd:fold=4",
+      "matched_survivor_count": 12,
+      "salt_candidate_counts": {
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_A": 8,
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_B": 10,
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_C": 11
+      }
+    },
+    {
+      "fold_key": "66bff05f6a05:fold=0",
+      "matched_survivor_count": 5,
+      "salt_candidate_counts": {
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_A": 3,
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_B": 3,
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_C": 2
+      }
+    },
+    {
+      "fold_key": "66bff05f6a05:fold=1",
+      "matched_survivor_count": 5,
+      "salt_candidate_counts": {
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_A": 3,
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_B": 3,
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_C": 4
+      }
+    },
+    {
+      "fold_key": "66bff05f6a05:fold=2",
+      "matched_survivor_count": 6,
+      "salt_candidate_counts": {
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_A": 4,
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_B": 2,
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_C": 3
+      }
+    },
+    {
+      "fold_key": "66bff05f6a05:fold=3",
+      "matched_survivor_count": 5,
+      "salt_candidate_counts": {
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_A": 2,
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_B": 4,
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_C": 3
+      }
+    },
+    {
+      "fold_key": "66bff05f6a05:fold=4",
+      "matched_survivor_count": 6,
+      "salt_candidate_counts": {
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_A": 4,
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_B": 4,
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_C": 2
+      }
+    },
+    {
+      "fold_key": "66bff05f6a05:fold=5",
+      "matched_survivor_count": 5,
+      "salt_candidate_counts": {
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_A": 3,
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_B": 3,
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_C": 4
+      }
+    },
+    {
+      "fold_key": "66bff05f6a05:fold=6",
+      "matched_survivor_count": 5,
+      "salt_candidate_counts": {
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_A": 3,
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_B": 5,
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_C": 3
+      }
+    },
+    {
+      "fold_key": "a69db6bd21bc:fold=0",
+      "matched_survivor_count": 2,
+      "salt_candidate_counts": {
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_A": 2,
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_B": 2,
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_C": 2
+      }
+    },
+    {
+      "fold_key": "a69db6bd21bc:fold=1",
+      "matched_survivor_count": 2,
+      "salt_candidate_counts": {
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_A": 2,
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_B": 2,
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_C": 2
+      }
+    },
+    {
+      "fold_key": "a69db6bd21bc:fold=2",
+      "matched_survivor_count": 2,
+      "salt_candidate_counts": {
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_A": 2,
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_B": 2,
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_C": 2
+      }
+    },
+    {
+      "fold_key": "a69db6bd21bc:fold=3",
+      "matched_survivor_count": 2,
+      "salt_candidate_counts": {
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_A": 2,
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_B": 2,
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_C": 2
+      }
+    },
+    {
+      "fold_key": "bbff85487300:fold=0",
+      "matched_survivor_count": 9,
+      "salt_candidate_counts": {
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_A": 4,
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_B": 4,
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_C": 6
+      }
+    },
+    {
+      "fold_key": "bbff85487300:fold=1",
+      "matched_survivor_count": 11,
+      "salt_candidate_counts": {
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_A": 7,
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_B": 9,
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_C": 8
+      }
+    },
+    {
+      "fold_key": "bbff85487300:fold=2",
+      "matched_survivor_count": 7,
+      "salt_candidate_counts": {
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_A": 3,
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_B": 4,
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_C": 3
+      }
+    },
+    {
+      "fold_key": "bbff85487300:fold=3",
+      "matched_survivor_count": 10,
+      "salt_candidate_counts": {
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_A": 7,
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_B": 7,
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_C": 9
+      }
+    },
+    {
+      "fold_key": "bbff85487300:fold=4",
+      "matched_survivor_count": 7,
+      "salt_candidate_counts": {
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_A": 3,
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_B": 3,
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_C": 2
+      }
+    },
+    {
+      "fold_key": "bbff85487300:fold=5",
+      "matched_survivor_count": 10,
+      "salt_candidate_counts": {
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_A": 6,
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_B": 9,
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_C": 8
+      }
+    },
+    {
+      "fold_key": "e90439a0e159:fold=0",
+      "matched_survivor_count": 3,
+      "salt_candidate_counts": {
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_A": 3,
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_B": 3,
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_C": 3
+      }
+    },
+    {
+      "fold_key": "e90439a0e159:fold=1",
+      "matched_survivor_count": 2,
+      "salt_candidate_counts": {
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_A": 2,
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_B": 2,
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_C": 2
+      }
+    },
+    {
+      "fold_key": "e90439a0e159:fold=2",
+      "matched_survivor_count": 2,
+      "salt_candidate_counts": {
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_A": 2,
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_B": 2,
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_C": 2
+      }
+    },
+    {
+      "fold_key": "e90439a0e159:fold=3",
+      "matched_survivor_count": 3,
+      "salt_candidate_counts": {
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_A": 1,
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_B": 2,
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_C": 3
+      }
+    },
+    {
+      "fold_key": "e90439a0e159:fold=4",
+      "matched_survivor_count": 3,
+      "salt_candidate_counts": {
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_A": 2,
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_B": 2,
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_C": 2
+      }
+    },
+    {
+      "fold_key": "e90439a0e159:fold=5",
+      "matched_survivor_count": 2,
+      "salt_candidate_counts": {
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_A": 2,
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_B": 2,
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_C": 1
+      }
+    },
+    {
+      "fold_key": "e90439a0e159:fold=6",
+      "matched_survivor_count": 2,
+      "salt_candidate_counts": {
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_A": 1,
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_B": 1,
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_C": 1
+      }
+    },
+    {
+      "fold_key": "e90439a0e159:fold=7",
+      "matched_survivor_count": 3,
+      "salt_candidate_counts": {
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_A": 2,
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_B": 2,
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_C": 2
+      }
+    },
+    {
+      "fold_key": "ec85552b4473:fold=0",
+      "matched_survivor_count": 2,
+      "salt_candidate_counts": {
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_A": 2,
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_B": 2,
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_C": 2
+      }
+    },
+    {
+      "fold_key": "ec85552b4473:fold=1",
+      "matched_survivor_count": 2,
+      "salt_candidate_counts": {
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_A": 2,
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_B": 2,
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_C": 2
+      }
+    },
+    {
+      "fold_key": "ec85552b4473:fold=2",
+      "matched_survivor_count": 2,
+      "salt_candidate_counts": {
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_A": 2,
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_B": 2,
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_C": 1
+      }
+    },
+    {
+      "fold_key": "ec85552b4473:fold=3",
+      "matched_survivor_count": 2,
+      "salt_candidate_counts": {
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_A": 2,
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_B": 2,
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_C": 2
+      }
+    },
+    {
+      "fold_key": "ec85552b4473:fold=4",
+      "matched_survivor_count": 2,
+      "salt_candidate_counts": {
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_A": 2,
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_B": 2,
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_C": 2
+      }
+    },
+    {
+      "fold_key": "ec85552b4473:fold=5",
+      "matched_survivor_count": 2,
+      "salt_candidate_counts": {
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_A": 2,
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_B": 2,
+        "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_C": 2
+      }
+    }
+  ],
+  "salts": [
+    "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_A",
+    "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_B",
+    "R5A3B_P0_MATCHED_RANDOM_PRUNE_SALT_C"
+  ],
+  "task_id_used_in_random_seed": false,
+  "visible_hash_only_seed_material": true
+}

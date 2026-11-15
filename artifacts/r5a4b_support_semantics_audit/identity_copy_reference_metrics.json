@@ -1,0 +1,8 @@
+{
+  "changed_cell_accuracy_macro": 0.0,
+  "changed_cell_accuracy_pooled": 0.0,
+  "descriptive_non_transform_baseline": true,
+  "identity_copy_changed_cell_accuracy_is_zero_by_construction": true,
+  "reference": "identity-copy query colors only",
+  "unchanged_cell_accuracy_macro": 1.0
+}

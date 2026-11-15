@@ -1,0 +1,176 @@
+{
+  "coverage": {
+    "all_seeds_passed": false,
+    "seeds": {
+      "20260628": {
+        "all_epochs_passed": false,
+        "epochs": [
+          {
+            "duplicate_episode_count": 0,
+            "epoch_index": 0,
+            "expected_episode_count": 36000,
+            "missing_episode_count": 35488,
+            "observed_episode_count": 512,
+            "passed": false,
+            "unique_episode_count": 512
+          }
+        ],
+        "seed": 20260628
+      },
+      "20260629": {
+        "all_epochs_passed": false,
+        "epochs": [
+          {
+            "duplicate_episode_count": 0,
+            "epoch_index": 0,
+            "expected_episode_count": 36000,
+            "missing_episode_count": 35488,
+            "observed_episode_count": 512,
+            "passed": false,
+            "unique_episode_count": 512
+          }
+        ],
+        "seed": 20260629
+      },
+      "20260630": {
+        "all_epochs_passed": false,
+        "epochs": [
+          {
+            "duplicate_episode_count": 0,
+            "epoch_index": 0,
+            "expected_episode_count": 36000,
+            "missing_episode_count": 35488,
+            "observed_episode_count": 512,
+            "passed": false,
+            "unique_episode_count": 512
+          }
+        ],
+        "seed": 20260630
+      }
+    }
+  },
+  "mode": "dry_run",
+  "protected_hashes_unchanged": true,
+  "train_results": [
+    {
+      "coverage": {
+        "all_epochs_passed": false,
+        "epochs": [
+          {
+            "duplicate_episode_count": 0,
+            "epoch_index": 0,
+            "expected_episode_count": 36000,
+            "missing_episode_count": 35488,
+            "observed_episode_count": 512,
+            "passed": false,
+            "unique_episode_count": 512
+          }
+        ],
+        "seed": 20260628
+      },
+      "dev_rows": [
+        {
+          "direct_grid_exact_accuracy": 0.0,
+          "epoch_index": 0,
+          "foreground_color_accuracy": 0.0,
+          "global_step": 4,
+          "heldout_type_score": 0.0,
+          "normal_to_zero_support_grid_change_rate": 0.0,
+          "seed": 20260628,
+          "support_counterfactual_exact": 0.0,
+          "target_rectangle_hamming_error": 4.3359375,
+          "transform_balance_score": 0.0,
+          "zero_support_exact_accuracy": 0.0
+        }
+      ],
+      "seed": 20260628,
+      "selection": {
+        "seed": 20260628,
+        "selected_checkpoint": "/mnt/d/VRM/checkpoints/transform_r3b0_v1/transform_r3b0_seed_20260628_best_dev.pt",
+        "selected_checkpoint_sha256_before_sealed": "3de45e1c79102b2a2270528b934463905aa7ab1f17f1c05556447cb9365fa9db",
+        "selected_epoch_index": 0,
+        "selection_rule": "exact, transform balance, dev support counterfactual, hamming, earliest epoch"
+      }
+    },
+    {
+      "coverage": {
+        "all_epochs_passed": false,
+        "epochs": [
+          {
+            "duplicate_episode_count": 0,
+            "epoch_index": 0,
+            "expected_episode_count": 36000,
+            "missing_episode_count": 35488,
+            "observed_episode_count": 512,
+            "passed": false,
+            "unique_episode_count": 512
+          }
+        ],
+        "seed": 20260629
+      },
+      "dev_rows": [
+        {
+          "direct_grid_exact_accuracy": 0.0,
+          "epoch_index": 0,
+          "foreground_color_accuracy": 0.0,
+          "global_step": 4,
+          "heldout_type_score": 0.0,
+          "normal_to_zero_support_grid_change_rate": 0.0,
+          "seed": 20260629,
+          "support_counterfactual_exact": 0.0,
+          "target_rectangle_hamming_error": 4.3359375,
+          "transform_balance_score": 0.0,
+          "zero_support_exact_accuracy": 0.0
+        }
+      ],
+      "seed": 20260629,
+      "selection": {
+        "seed": 20260629,
+        "selected_checkpoint": "/mnt/d/VRM/checkpoints/transform_r3b0_v1/transform_r3b0_seed_20260629_best_dev.pt",
+        "selected_checkpoint_sha256_before_sealed": "6fb2ce0d8aa0df1ff729f10c9b9c84f2b5c5129356771325c0736ad5a41c2068",
+        "selected_epoch_index": 0,
+        "selection_rule": "exact, transform balance, dev support counterfactual, hamming, earliest epoch"
+      }
+    },
+    {
+      "coverage": {
+        "all_epochs_passed": false,
+        "epochs": [
+          {
+            "duplicate_episode_count": 0,
+            "epoch_index": 0,
+            "expected_episode_count": 36000,
+            "missing_episode_count": 35488,
+            "observed_episode_count": 512,
+            "passed": false,
+            "unique_episode_count": 512
+          }
+        ],
+        "seed": 20260630
+      },
+      "dev_rows": [
+        {
+          "direct_grid_exact_accuracy": 0.0,
+          "epoch_index": 0,
+          "foreground_color_accuracy": 0.0,
+          "global_step": 4,
+          "heldout_type_score": 0.0,
+          "normal_to_zero_support_grid_change_rate": 0.0,
+          "seed": 20260630,
+          "support_counterfactual_exact": 0.0,
+          "target_rectangle_hamming_error": 4.3359375,
+          "transform_balance_score": 0.0,
+          "zero_support_exact_accuracy": 0.0
+        }
+      ],
+      "seed": 20260630,
+      "selection": {
+        "seed": 20260630,
+        "selected_checkpoint": "/mnt/d/VRM/checkpoints/transform_r3b0_v1/transform_r3b0_seed_20260630_best_dev.pt",
+        "selected_checkpoint_sha256_before_sealed": "c85dedcb8f7d1df1c3fbc575844d6e2674ae4f9073c060cf4ada1d22978a8b44",
+        "selected_epoch_index": 0,
+        "selection_rule": "exact, transform balance, dev support counterfactual, hamming, earliest epoch"
+      }
+    }
+  ]
+}

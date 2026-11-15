@@ -1,0 +1,1796 @@
+{
+  "all_programs_by_split": {
+    "dev": [
+      "C",
+      "H",
+      "V",
+      "L",
+      "K",
+      "C->L",
+      "L->H",
+      "H->K",
+      "K->V"
+    ],
+    "sealed": [
+      "C",
+      "H",
+      "V",
+      "L",
+      "K",
+      "C->L",
+      "L->H",
+      "H->K",
+      "K->V",
+      "L->C",
+      "H->L",
+      "C->K",
+      "K->C"
+    ],
+    "train": [
+      "C",
+      "H",
+      "V",
+      "L",
+      "K",
+      "C->L",
+      "L->H",
+      "H->K",
+      "K->V"
+    ]
+  },
+  "audit_version": "R5A0V2_ORDER_AUDIT_V1",
+  "cellwise_lift_failure_reasons": [],
+  "cellwise_lift_valid": true,
+  "cellwise_lift_validity": {
+    "cellwise_lift_failure_reasons": [],
+    "cellwise_lift_valid": true,
+    "coordinate_bijection_by_primitive": {
+      "C": {
+        "background_coordinate_bijection": true,
+        "colliding_destinations": [],
+        "coordinate_bijection_by_color": {
+          "0": {
+            "coordinate_bijection": true,
+            "dropped_destinations": [],
+            "duplicated_destinations": [],
+            "invalid_colors": [],
+            "out_of_bounds": []
+          },
+          "1": {
+            "coordinate_bijection": true,
+            "dropped_destinations": [],
+            "duplicated_destinations": [],
+            "invalid_colors": [],
+            "out_of_bounds": []
+          },
+          "2": {
+            "coordinate_bijection": true,
+            "dropped_destinations": [],
+            "duplicated_destinations": [],
+            "invalid_colors": [],
+            "out_of_bounds": []
+          },
+          "3": {
+            "coordinate_bijection": true,
+            "dropped_destinations": [],
+            "duplicated_destinations": [],
+            "invalid_colors": [],
+            "out_of_bounds": []
+          },
+          "4": {
+            "coordinate_bijection": true,
+            "dropped_destinations": [],
+            "duplicated_destinations": [],
+            "invalid_colors": [],
+            "out_of_bounds": []
+          },
+          "5": {
+            "coordinate_bijection": true,
+            "dropped_destinations": [],
+            "duplicated_destinations": [],
+            "invalid_colors": [],
+            "out_of_bounds": []
+          },
+          "6": {
+            "coordinate_bijection": true,
+            "dropped_destinations": [],
+            "duplicated_destinations": [],
+            "invalid_colors": [],
+            "out_of_bounds": []
+          },
+          "7": {
+            "coordinate_bijection": true,
+            "dropped_destinations": [],
+            "duplicated_destinations": [],
+            "invalid_colors": [],
+            "out_of_bounds": []
+          },
+          "8": {
+            "coordinate_bijection": true,
+            "dropped_destinations": [],
+            "duplicated_destinations": [],
+            "invalid_colors": [],
+            "out_of_bounds": []
+          }
+        },
+        "destinations_in_bounds": true,
+        "dropped_destinations": [],
+        "duplicated_destinations": [],
+        "failure_reasons": [],
+        "foreground_coordinate_bijection": true,
+        "mapping_total": true,
+        "output_colors_valid": true,
+        "overwritten_destinations": [],
+        "primitive": "C",
+        "state_count": 441
+      },
+      "H": {
+        "background_coordinate_bijection": true,
+        "colliding_destinations": [],
+        "coordinate_bijection_by_color": {
+          "0": {
+            "coordinate_bijection": true,
+            "dropped_destinations": [],
+            "duplicated_destinations": [],
+            "invalid_colors": [],
+            "out_of_bounds": []
+          },
+          "1": {
+            "coordinate_bijection": true,
+            "dropped_destinations": [],
+            "duplicated_destinations": [],
+            "invalid_colors": [],
+            "out_of_bounds": []
+          },
+          "2": {
+            "coordinate_bijection": true,
+            "dropped_destinations": [],
+            "duplicated_destinations": [],
+            "invalid_colors": [],
+            "out_of_bounds": []
+          },
+          "3": {
+            "coordinate_bijection": true,
+            "dropped_destinations": [],
+            "duplicated_destinations": [],
+            "invalid_colors": [],
+            "out_of_bounds": []
+          },
+          "4": {
+            "coordinate_bijection": true,
+            "dropped_destinations": [],
+            "duplicated_destinations": [],
+            "invalid_colors": [],
+            "out_of_bounds": []
+          },
+          "5": {
+            "coordinate_bijection": true,
+            "dropped_destinations": [],
+            "duplicated_destinations": [],
+            "invalid_colors": [],
+            "out_of_bounds": []
+          },
+          "6": {
+            "coordinate_bijection": true,
+            "dropped_destinations": [],
+            "duplicated_destinations": [],
+            "invalid_colors": [],
+            "out_of_bounds": []
+          },
+          "7": {
+            "coordinate_bijection": true,
+            "dropped_destinations": [],
+            "duplicated_destinations": [],
+            "invalid_colors": [],
+            "out_of_bounds": []
+          },
+          "8": {
+            "coordinate_bijection": true,
+            "dropped_destinations": [],
+            "duplicated_destinations": [],
+            "invalid_colors": [],
+            "out_of_bounds": []
+          }
+        },
+        "destinations_in_bounds": true,
+        "dropped_destinations": [],
+        "duplicated_destinations": [],
+        "failure_reasons": [],
+        "foreground_coordinate_bijection": true,
+        "mapping_total": true,
+        "output_colors_valid": true,
+        "overwritten_destinations": [],
+        "primitive": "H",
+        "state_count": 441
+      },
+      "K": {
+        "background_coordinate_bijection": true,
+        "colliding_destinations": [],
+        "coordinate_bijection_by_color": {
+          "0": {
+            "coordinate_bijection": true,
+            "dropped_destinations": [],
+            "duplicated_destinations": [],
+            "invalid_colors": [],
+            "out_of_bounds": []
+          },
+          "1": {
+            "coordinate_bijection": true,
+            "dropped_destinations": [],
+            "duplicated_destinations": [],
+            "invalid_colors": [],
+            "out_of_bounds": []
+          },
+          "2": {
+            "coordinate_bijection": true,
+            "dropped_destinations": [],
+            "duplicated_destinations": [],
+            "invalid_colors": [],
+            "out_of_bounds": []
+          },
+          "3": {
+            "coordinate_bijection": true,
+            "dropped_destinations": [],
+            "duplicated_destinations": [],
+            "invalid_colors": [],
+            "out_of_bounds": []
+          },
+          "4": {
+            "coordinate_bijection": true,
+            "dropped_destinations": [],
+            "duplicated_destinations": [],
+            "invalid_colors": [],
+            "out_of_bounds": []
+          },
+          "5": {
+            "coordinate_bijection": true,
+            "dropped_destinations": [],
+            "duplicated_destinations": [],
+            "invalid_colors": [],
+            "out_of_bounds": []
+          },
+          "6": {
+            "coordinate_bijection": true,
+            "dropped_destinations": [],
+            "duplicated_destinations": [],
+            "invalid_colors": [],
+            "out_of_bounds": []
+          },
+          "7": {
+            "coordinate_bijection": true,
+            "dropped_destinations": [],
+            "duplicated_destinations": [],
+            "invalid_colors": [],
+            "out_of_bounds": []
+          },
+          "8": {
+            "coordinate_bijection": true,
+            "dropped_destinations": [],
+            "duplicated_destinations": [],
+            "invalid_colors": [],
+            "out_of_bounds": []
+          }
+        },
+        "destinations_in_bounds": true,
+        "dropped_destinations": [],
+        "duplicated_destinations": [],
+        "failure_reasons": [],
+        "foreground_coordinate_bijection": true,
+        "mapping_total": true,
+        "output_colors_valid": true,
+        "overwritten_destinations": [],
+        "primitive": "K",
+        "state_count": 441
+      },
+      "L": {
+        "background_coordinate_bijection": true,
+        "colliding_destinations": [],
+        "coordinate_bijection_by_color": {
+          "0": {
+            "coordinate_bijection": true,
+            "dropped_destinations": [],
+            "duplicated_destinations": [],
+            "invalid_colors": [],
+            "out_of_bounds": []
+          },
+          "1": {
+            "coordinate_bijection": true,
+            "dropped_destinations": [],
+            "duplicated_destinations": [],
+            "invalid_colors": [],
+            "out_of_bounds": []
+          },
+          "2": {
+            "coordinate_bijection": true,
+            "dropped_destinations": [],
+            "duplicated_destinations": [],
+            "invalid_colors": [],
+            "out_of_bounds": []
+          },
+          "3": {
+            "coordinate_bijection": true,
+            "dropped_destinations": [],
+            "duplicated_destinations": [],
+            "invalid_colors": [],
+            "out_of_bounds": []
+          },
+          "4": {
+            "coordinate_bijection": true,
+            "dropped_destinations": [],
+            "duplicated_destinations": [],
+            "invalid_colors": [],
+            "out_of_bounds": []
+          },
+          "5": {
+            "coordinate_bijection": true,
+            "dropped_destinations": [],
+            "duplicated_destinations": [],
+            "invalid_colors": [],
+            "out_of_bounds": []
+          },
+          "6": {
+            "coordinate_bijection": true,
+            "dropped_destinations": [],
+            "duplicated_destinations": [],
+            "invalid_colors": [],
+            "out_of_bounds": []
+          },
+          "7": {
+            "coordinate_bijection": true,
+            "dropped_destinations": [],
+            "duplicated_destinations": [],
+            "invalid_colors": [],
+            "out_of_bounds": []
+          },
+          "8": {
+            "coordinate_bijection": true,
+            "dropped_destinations": [],
+            "duplicated_destinations": [],
+            "invalid_colors": [],
+            "out_of_bounds": []
+          }
+        },
+        "destinations_in_bounds": true,
+        "dropped_destinations": [],
+        "duplicated_destinations": [],
+        "failure_reasons": [],
+        "foreground_coordinate_bijection": true,
+        "mapping_total": true,
+        "output_colors_valid": true,
+        "overwritten_destinations": [],
+        "primitive": "L",
+        "state_count": 441
+      },
+      "V": {
+        "background_coordinate_bijection": true,
+        "colliding_destinations": [],
+        "coordinate_bijection_by_color": {
+          "0": {
+            "coordinate_bijection": true,
+            "dropped_destinations": [],
+            "duplicated_destinations": [],
+            "invalid_colors": [],
+            "out_of_bounds": []
+          },
+          "1": {
+            "coordinate_bijection": true,
+            "dropped_destinations": [],
+            "duplicated_destinations": [],
+            "invalid_colors": [],
+            "out_of_bounds": []
+          },
+          "2": {
+            "coordinate_bijection": true,
+            "dropped_destinations": [],
+            "duplicated_destinations": [],
+            "invalid_colors": [],
+            "out_of_bounds": []
+          },
+          "3": {
+            "coordinate_bijection": true,
+            "dropped_destinations": [],
+            "duplicated_destinations": [],
+            "invalid_colors": [],
+            "out_of_bounds": []
+          },
+          "4": {
+            "coordinate_bijection": true,
+            "dropped_destinations": [],
+            "duplicated_destinations": [],
+            "invalid_colors": [],
+            "out_of_bounds": []
+          },
+          "5": {
+            "coordinate_bijection": true,
+            "dropped_destinations": [],
+            "duplicated_destinations": [],
+            "invalid_colors": [],
+            "out_of_bounds": []
+          },
+          "6": {
+            "coordinate_bijection": true,
+            "dropped_destinations": [],
+            "duplicated_destinations": [],
+            "invalid_colors": [],
+            "out_of_bounds": []
+          },
+          "7": {
+            "coordinate_bijection": true,
+            "dropped_destinations": [],
+            "duplicated_destinations": [],
+            "invalid_colors": [],
+            "out_of_bounds": []
+          },
+          "8": {
+            "coordinate_bijection": true,
+            "dropped_destinations": [],
+            "duplicated_destinations": [],
+            "invalid_colors": [],
+            "out_of_bounds": []
+          }
+        },
+        "destinations_in_bounds": true,
+        "dropped_destinations": [],
+        "duplicated_destinations": [],
+        "failure_reasons": [],
+        "foreground_coordinate_bijection": true,
+        "mapping_total": true,
+        "output_colors_valid": true,
+        "overwritten_destinations": [],
+        "primitive": "V",
+        "state_count": 441
+      }
+    },
+    "multicell_fixture_count": 22,
+    "multicell_production_agreement_count": 330,
+    "multicell_production_agreement_failures": [],
+    "multicell_program_count": 15,
+    "single_cell_domain_size": 441,
+    "source_grid_independence": {
+      "evidence": "Production primitive accepts only op, x, y, color; source contains no grid, neighbor, object, occupancy, foreground-count, or global-state read terms.",
+      "forbidden_grid_state_terms_found": [],
+      "no_neighbor_object_occupancy_or_global_state_reads": true,
+      "production_primitive_signature": "(op: 'str', x: 'int', y: 'int', color: 'int') -> 'tuple[int, int, int]'",
+      "production_primitive_source_hash": "b43740034ec143d6eeea3f87d91fbf485cc3b9562b6f454b737878e6692299f5"
+    },
+    "whole_grid_exhaustiveness_claim": true
+  },
+  "checker_agreement_count": 80,
+  "checker_agreement_failures": [],
+  "claim_boundary": {
+    "established": "Semantic order distinguishability and heldout-vs-train non-overlap are established over the exact whole-grid semantic domain only when whole_grid_exhaustiveness_claim is true; otherwise they are established only over the deterministic single-cell branch-complete domain.",
+    "not_established": "This audit does not validate model training, checkpoint quality, ARC generalization, or any future R5A/R5B design."
+  },
+  "coordinate_bijection_by_primitive": {
+    "C": {
+      "background_coordinate_bijection": true,
+      "colliding_destinations": [],
+      "coordinate_bijection_by_color": {
+        "0": {
+          "coordinate_bijection": true,
+          "dropped_destinations": [],
+          "duplicated_destinations": [],
+          "invalid_colors": [],
+          "out_of_bounds": []
+        },
+        "1": {
+          "coordinate_bijection": true,
+          "dropped_destinations": [],
+          "duplicated_destinations": [],
+          "invalid_colors": [],
+          "out_of_bounds": []
+        },
+        "2": {
+          "coordinate_bijection": true,
+          "dropped_destinations": [],
+          "duplicated_destinations": [],
+          "invalid_colors": [],
+          "out_of_bounds": []
+        },
+        "3": {
+          "coordinate_bijection": true,
+          "dropped_destinations": [],
+          "duplicated_destinations": [],
+          "invalid_colors": [],
+          "out_of_bounds": []
+        },
+        "4": {
+          "coordinate_bijection": true,
+          "dropped_destinations": [],
+          "duplicated_destinations": [],
+          "invalid_colors": [],
+          "out_of_bounds": []
+        },
+        "5": {
+          "coordinate_bijection": true,
+          "dropped_destinations": [],
+          "duplicated_destinations": [],
+          "invalid_colors": [],
+          "out_of_bounds": []
+        },
+        "6": {
+          "coordinate_bijection": true,
+          "dropped_destinations": [],
+          "duplicated_destinations": [],
+          "invalid_colors": [],
+          "out_of_bounds": []
+        },
+        "7": {
+          "coordinate_bijection": true,
+          "dropped_destinations": [],
+          "duplicated_destinations": [],
+          "invalid_colors": [],
+          "out_of_bounds": []
+        },
+        "8": {
+          "coordinate_bijection": true,
+          "dropped_destinations": [],
+          "duplicated_destinations": [],
+          "invalid_colors": [],
+          "out_of_bounds": []
+        }
+      },
+      "destinations_in_bounds": true,
+      "dropped_destinations": [],
+      "duplicated_destinations": [],
+      "failure_reasons": [],
+      "foreground_coordinate_bijection": true,
+      "mapping_total": true,
+      "output_colors_valid": true,
+      "overwritten_destinations": [],
+      "primitive": "C",
+      "state_count": 441
+    },
+    "H": {
+      "background_coordinate_bijection": true,
+      "colliding_destinations": [],
+      "coordinate_bijection_by_color": {
+        "0": {
+          "coordinate_bijection": true,
+          "dropped_destinations": [],
+          "duplicated_destinations": [],
+          "invalid_colors": [],
+          "out_of_bounds": []
+        },
+        "1": {
+          "coordinate_bijection": true,
+          "dropped_destinations": [],
+          "duplicated_destinations": [],
+          "invalid_colors": [],
+          "out_of_bounds": []
+        },
+        "2": {
+          "coordinate_bijection": true,
+          "dropped_destinations": [],
+          "duplicated_destinations": [],
+          "invalid_colors": [],
+          "out_of_bounds": []
+        },
+        "3": {
+          "coordinate_bijection": true,
+          "dropped_destinations": [],
+          "duplicated_destinations": [],
+          "invalid_colors": [],
+          "out_of_bounds": []
+        },
+        "4": {
+          "coordinate_bijection": true,
+          "dropped_destinations": [],
+          "duplicated_destinations": [],
+          "invalid_colors": [],
+          "out_of_bounds": []
+        },
+        "5": {
+          "coordinate_bijection": true,
+          "dropped_destinations": [],
+          "duplicated_destinations": [],
+          "invalid_colors": [],
+          "out_of_bounds": []
+        },
+        "6": {
+          "coordinate_bijection": true,
+          "dropped_destinations": [],
+          "duplicated_destinations": [],
+          "invalid_colors": [],
+          "out_of_bounds": []
+        },
+        "7": {
+          "coordinate_bijection": true,
+          "dropped_destinations": [],
+          "duplicated_destinations": [],
+          "invalid_colors": [],
+          "out_of_bounds": []
+        },
+        "8": {
+          "coordinate_bijection": true,
+          "dropped_destinations": [],
+          "duplicated_destinations": [],
+          "invalid_colors": [],
+          "out_of_bounds": []
+        }
+      },
+      "destinations_in_bounds": true,
+      "dropped_destinations": [],
+      "duplicated_destinations": [],
+      "failure_reasons": [],
+      "foreground_coordinate_bijection": true,
+      "mapping_total": true,
+      "output_colors_valid": true,
+      "overwritten_destinations": [],
+      "primitive": "H",
+      "state_count": 441
+    },
+    "K": {
+      "background_coordinate_bijection": true,
+      "colliding_destinations": [],
+      "coordinate_bijection_by_color": {
+        "0": {
+          "coordinate_bijection": true,
+          "dropped_destinations": [],
+          "duplicated_destinations": [],
+          "invalid_colors": [],
+          "out_of_bounds": []
+        },
+        "1": {
+          "coordinate_bijection": true,
+          "dropped_destinations": [],
+          "duplicated_destinations": [],
+          "invalid_colors": [],
+          "out_of_bounds": []
+        },
+        "2": {
+          "coordinate_bijection": true,
+          "dropped_destinations": [],
+          "duplicated_destinations": [],
+          "invalid_colors": [],
+          "out_of_bounds": []
+        },
+        "3": {
+          "coordinate_bijection": true,
+          "dropped_destinations": [],
+          "duplicated_destinations": [],
+          "invalid_colors": [],
+          "out_of_bounds": []
+        },
+        "4": {
+          "coordinate_bijection": true,
+          "dropped_destinations": [],
+          "duplicated_destinations": [],
+          "invalid_colors": [],
+          "out_of_bounds": []
+        },
+        "5": {
+          "coordinate_bijection": true,
+          "dropped_destinations": [],
+          "duplicated_destinations": [],
+          "invalid_colors": [],
+          "out_of_bounds": []
+        },
+        "6": {
+          "coordinate_bijection": true,
+          "dropped_destinations": [],
+          "duplicated_destinations": [],
+          "invalid_colors": [],
+          "out_of_bounds": []
+        },
+        "7": {
+          "coordinate_bijection": true,
+          "dropped_destinations": [],
+          "duplicated_destinations": [],
+          "invalid_colors": [],
+          "out_of_bounds": []
+        },
+        "8": {
+          "coordinate_bijection": true,
+          "dropped_destinations": [],
+          "duplicated_destinations": [],
+          "invalid_colors": [],
+          "out_of_bounds": []
+        }
+      },
+      "destinations_in_bounds": true,
+      "dropped_destinations": [],
+      "duplicated_destinations": [],
+      "failure_reasons": [],
+      "foreground_coordinate_bijection": true,
+      "mapping_total": true,
+      "output_colors_valid": true,
+      "overwritten_destinations": [],
+      "primitive": "K",
+      "state_count": 441
+    },
+    "L": {
+      "background_coordinate_bijection": true,
+      "colliding_destinations": [],
+      "coordinate_bijection_by_color": {
+        "0": {
+          "coordinate_bijection": true,
+          "dropped_destinations": [],
+          "duplicated_destinations": [],
+          "invalid_colors": [],
+          "out_of_bounds": []
+        },
+        "1": {
+          "coordinate_bijection": true,
+          "dropped_destinations": [],
+          "duplicated_destinations": [],
+          "invalid_colors": [],
+          "out_of_bounds": []
+        },
+        "2": {
+          "coordinate_bijection": true,
+          "dropped_destinations": [],
+          "duplicated_destinations": [],
+          "invalid_colors": [],
+          "out_of_bounds": []
+        },
+        "3": {
+          "coordinate_bijection": true,
+          "dropped_destinations": [],
+          "duplicated_destinations": [],
+          "invalid_colors": [],
+          "out_of_bounds": []
+        },
+        "4": {
+          "coordinate_bijection": true,
+          "dropped_destinations": [],
+          "duplicated_destinations": [],
+          "invalid_colors": [],
+          "out_of_bounds": []
+        },
+        "5": {
+          "coordinate_bijection": true,
+          "dropped_destinations": [],
+          "duplicated_destinations": [],
+          "invalid_colors": [],
+          "out_of_bounds": []
+        },
+        "6": {
+          "coordinate_bijection": true,
+          "dropped_destinations": [],
+          "duplicated_destinations": [],
+          "invalid_colors": [],
+          "out_of_bounds": []
+        },
+        "7": {
+          "coordinate_bijection": true,
+          "dropped_destinations": [],
+          "duplicated_destinations": [],
+          "invalid_colors": [],
+          "out_of_bounds": []
+        },
+        "8": {
+          "coordinate_bijection": true,
+          "dropped_destinations": [],
+          "duplicated_destinations": [],
+          "invalid_colors": [],
+          "out_of_bounds": []
+        }
+      },
+      "destinations_in_bounds": true,
+      "dropped_destinations": [],
+      "duplicated_destinations": [],
+      "failure_reasons": [],
+      "foreground_coordinate_bijection": true,
+      "mapping_total": true,
+      "output_colors_valid": true,
+      "overwritten_destinations": [],
+      "primitive": "L",
+      "state_count": 441
+    },
+    "V": {
+      "background_coordinate_bijection": true,
+      "colliding_destinations": [],
+      "coordinate_bijection_by_color": {
+        "0": {
+          "coordinate_bijection": true,
+          "dropped_destinations": [],
+          "duplicated_destinations": [],
+          "invalid_colors": [],
+          "out_of_bounds": []
+        },
+        "1": {
+          "coordinate_bijection": true,
+          "dropped_destinations": [],
+          "duplicated_destinations": [],
+          "invalid_colors": [],
+          "out_of_bounds": []
+        },
+        "2": {
+          "coordinate_bijection": true,
+          "dropped_destinations": [],
+          "duplicated_destinations": [],
+          "invalid_colors": [],
+          "out_of_bounds": []
+        },
+        "3": {
+          "coordinate_bijection": true,
+          "dropped_destinations": [],
+          "duplicated_destinations": [],
+          "invalid_colors": [],
+          "out_of_bounds": []
+        },
+        "4": {
+          "coordinate_bijection": true,
+          "dropped_destinations": [],
+          "duplicated_destinations": [],
+          "invalid_colors": [],
+          "out_of_bounds": []
+        },
+        "5": {
+          "coordinate_bijection": true,
+          "dropped_destinations": [],
+          "duplicated_destinations": [],
+          "invalid_colors": [],
+          "out_of_bounds": []
+        },
+        "6": {
+          "coordinate_bijection": true,
+          "dropped_destinations": [],
+          "duplicated_destinations": [],
+          "invalid_colors": [],
+          "out_of_bounds": []
+        },
+        "7": {
+          "coordinate_bijection": true,
+          "dropped_destinations": [],
+          "duplicated_destinations": [],
+          "invalid_colors": [],
+          "out_of_bounds": []
+        },
+        "8": {
+          "coordinate_bijection": true,
+          "dropped_destinations": [],
+          "duplicated_destinations": [],
+          "invalid_colors": [],
+          "out_of_bounds": []
+        }
+      },
+      "destinations_in_bounds": true,
+      "dropped_destinations": [],
+      "duplicated_destinations": [],
+      "failure_reasons": [],
+      "foreground_coordinate_bijection": true,
+      "mapping_total": true,
+      "output_colors_valid": true,
+      "overwritten_destinations": [],
+      "primitive": "V",
+      "state_count": 441
+    }
+  },
+  "cross_split_function_overlap": {
+    "collision_pairs": [
+      {
+        "behavior_fingerprint": "0c86dd3b1d291e203a0da1a6082fe1d4557198d16b3009706351d421f621ea1e",
+        "left_program": "C",
+        "left_split": "train",
+        "right_program": "C",
+        "right_split": "dev",
+        "same_program_id": true
+      },
+      {
+        "behavior_fingerprint": "8c7089714a7ae895deb6bb722b34c66eeb9501ef578681d91f0f9c433565f8da",
+        "left_program": "H",
+        "left_split": "train",
+        "right_program": "H",
+        "right_split": "dev",
+        "same_program_id": true
+      },
+      {
+        "behavior_fingerprint": "4cd6745d9270cb7e70d199b843f89704f832fa703d60e1e4e209a8193e0ca22c",
+        "left_program": "V",
+        "left_split": "train",
+        "right_program": "V",
+        "right_split": "dev",
+        "same_program_id": true
+      },
+      {
+        "behavior_fingerprint": "a81ecf60d81eedb56d724d935c9c539932522192e643a31386e8cd0db82737ac",
+        "left_program": "L",
+        "left_split": "train",
+        "right_program": "L",
+        "right_split": "dev",
+        "same_program_id": true
+      },
+      {
+        "behavior_fingerprint": "95610710741a7f891f69bc07045b3bfa54c23a672bc8a56fb70d581eae15fab9",
+        "left_program": "K",
+        "left_split": "train",
+        "right_program": "K",
+        "right_split": "dev",
+        "same_program_id": true
+      },
+      {
+        "behavior_fingerprint": "8bb530ce7e61c9e8bb770baabcd78f2075ee4278ea1b03034b8fa0fd17c7eab6",
+        "left_program": "C->L",
+        "left_split": "train",
+        "right_program": "C->L",
+        "right_split": "dev",
+        "same_program_id": true
+      },
+      {
+        "behavior_fingerprint": "e0bfe34881765f179c459254c5efe3370aa6b898a844502986a4c51b92cd82a1",
+        "left_program": "L->H",
+        "left_split": "train",
+        "right_program": "L->H",
+        "right_split": "dev",
+        "same_program_id": true
+      },
+      {
+        "behavior_fingerprint": "c544809b0a2f3ddbaa4a98264cb7add4a4775f81dba1260d5492f6fff7ec3d76",
+        "left_program": "H->K",
+        "left_split": "train",
+        "right_program": "H->K",
+        "right_split": "dev",
+        "same_program_id": true
+      },
+      {
+        "behavior_fingerprint": "d57760c886273fb63e036d6c761d8e9ebd2cd6d8f4647053ee9efa640fde89c8",
+        "left_program": "K->V",
+        "left_split": "train",
+        "right_program": "K->V",
+        "right_split": "dev",
+        "same_program_id": true
+      },
+      {
+        "behavior_fingerprint": "0c86dd3b1d291e203a0da1a6082fe1d4557198d16b3009706351d421f621ea1e",
+        "left_program": "C",
+        "left_split": "train",
+        "right_program": "C",
+        "right_split": "sealed",
+        "same_program_id": true
+      },
+      {
+        "behavior_fingerprint": "8c7089714a7ae895deb6bb722b34c66eeb9501ef578681d91f0f9c433565f8da",
+        "left_program": "H",
+        "left_split": "train",
+        "right_program": "H",
+        "right_split": "sealed",
+        "same_program_id": true
+      },
+      {
+        "behavior_fingerprint": "4cd6745d9270cb7e70d199b843f89704f832fa703d60e1e4e209a8193e0ca22c",
+        "left_program": "V",
+        "left_split": "train",
+        "right_program": "V",
+        "right_split": "sealed",
+        "same_program_id": true
+      },
+      {
+        "behavior_fingerprint": "a81ecf60d81eedb56d724d935c9c539932522192e643a31386e8cd0db82737ac",
+        "left_program": "L",
+        "left_split": "train",
+        "right_program": "L",
+        "right_split": "sealed",
+        "same_program_id": true
+      },
+      {
+        "behavior_fingerprint": "95610710741a7f891f69bc07045b3bfa54c23a672bc8a56fb70d581eae15fab9",
+        "left_program": "K",
+        "left_split": "train",
+        "right_program": "K",
+        "right_split": "sealed",
+        "same_program_id": true
+      },
+      {
+        "behavior_fingerprint": "8bb530ce7e61c9e8bb770baabcd78f2075ee4278ea1b03034b8fa0fd17c7eab6",
+        "left_program": "C->L",
+        "left_split": "train",
+        "right_program": "C->L",
+        "right_split": "sealed",
+        "same_program_id": true
+      },
+      {
+        "behavior_fingerprint": "e0bfe34881765f179c459254c5efe3370aa6b898a844502986a4c51b92cd82a1",
+        "left_program": "L->H",
+        "left_split": "train",
+        "right_program": "L->H",
+        "right_split": "sealed",
+        "same_program_id": true
+      },
+      {
+        "behavior_fingerprint": "c544809b0a2f3ddbaa4a98264cb7add4a4775f81dba1260d5492f6fff7ec3d76",
+        "left_program": "H->K",
+        "left_split": "train",
+        "right_program": "H->K",
+        "right_split": "sealed",
+        "same_program_id": true
+      },
+      {
+        "behavior_fingerprint": "d57760c886273fb63e036d6c761d8e9ebd2cd6d8f4647053ee9efa640fde89c8",
+        "left_program": "K->V",
+        "left_split": "train",
+        "right_program": "K->V",
+        "right_split": "sealed",
+        "same_program_id": true
+      },
+      {
+        "behavior_fingerprint": "0c86dd3b1d291e203a0da1a6082fe1d4557198d16b3009706351d421f621ea1e",
+        "left_program": "C",
+        "left_split": "dev",
+        "right_program": "C",
+        "right_split": "sealed",
+        "same_program_id": true
+      },
+      {
+        "behavior_fingerprint": "8c7089714a7ae895deb6bb722b34c66eeb9501ef578681d91f0f9c433565f8da",
+        "left_program": "H",
+        "left_split": "dev",
+        "right_program": "H",
+        "right_split": "sealed",
+        "same_program_id": true
+      },
+      {
+        "behavior_fingerprint": "4cd6745d9270cb7e70d199b843f89704f832fa703d60e1e4e209a8193e0ca22c",
+        "left_program": "V",
+        "left_split": "dev",
+        "right_program": "V",
+        "right_split": "sealed",
+        "same_program_id": true
+      },
+      {
+        "behavior_fingerprint": "a81ecf60d81eedb56d724d935c9c539932522192e643a31386e8cd0db82737ac",
+        "left_program": "L",
+        "left_split": "dev",
+        "right_program": "L",
+        "right_split": "sealed",
+        "same_program_id": true
+      },
+      {
+        "behavior_fingerprint": "95610710741a7f891f69bc07045b3bfa54c23a672bc8a56fb70d581eae15fab9",
+        "left_program": "K",
+        "left_split": "dev",
+        "right_program": "K",
+        "right_split": "sealed",
+        "same_program_id": true
+      },
+      {
+        "behavior_fingerprint": "8bb530ce7e61c9e8bb770baabcd78f2075ee4278ea1b03034b8fa0fd17c7eab6",
+        "left_program": "C->L",
+        "left_split": "dev",
+        "right_program": "C->L",
+        "right_split": "sealed",
+        "same_program_id": true
+      },
+      {
+        "behavior_fingerprint": "e0bfe34881765f179c459254c5efe3370aa6b898a844502986a4c51b92cd82a1",
+        "left_program": "L->H",
+        "left_split": "dev",
+        "right_program": "L->H",
+        "right_split": "sealed",
+        "same_program_id": true
+      },
+      {
+        "behavior_fingerprint": "c544809b0a2f3ddbaa4a98264cb7add4a4775f81dba1260d5492f6fff7ec3d76",
+        "left_program": "H->K",
+        "left_split": "dev",
+        "right_program": "H->K",
+        "right_split": "sealed",
+        "same_program_id": true
+      },
+      {
+        "behavior_fingerprint": "d57760c886273fb63e036d6c761d8e9ebd2cd6d8f4647053ee9efa640fde89c8",
+        "left_program": "K->V",
+        "left_split": "dev",
+        "right_program": "K->V",
+        "right_split": "sealed",
+        "same_program_id": true
+      }
+    ],
+    "collision_witness_summary": {
+      "different_program_id_collision_count": 0,
+      "note": "Train/dev and visible/sealed share the same visible program IDs, so same-program fingerprint overlaps are expected bookkeeping overlaps, not semantic aliasing between distinct programs.",
+      "same_program_id_collision_count": 27
+    },
+    "dev_vs_sealed_collision_count": 9,
+    "train_vs_dev_collision_count": 9,
+    "train_vs_sealed_collision_count": 9
+  },
+  "existing_v2_artifact_hashes": {
+    "aggregate_seed_summary.json": {
+      "sha256": "8884da68805516525dfeea8dbf10ce20664d903e519b0de76de5dc816fff6a14",
+      "size_bytes": 987200
+    },
+    "best_checkpoint_selection_seed_20260628.json": {
+      "sha256": "94ba0ccfb646c2c871a4fc01116f404abe265a0639a9db17b2cef507ac5e7dbd",
+      "size_bytes": 527
+    },
+    "best_checkpoint_selection_seed_20260629.json": {
+      "sha256": "e0d95b70efec2eded73cc3302032cf6d9033f990a801d99d930d49d587e317a7",
+      "size_bytes": 527
+    },
+    "best_checkpoint_selection_seed_20260630.json": {
+      "sha256": "accd7e316cdd345fb6cfb407a8384de058383f5d3efaea0b53f3eb21a3131634",
+      "size_bytes": 527
+    },
+    "dataset_manifest.json": {
+      "sha256": "c054191e91b9a8df31de5fc092be41e96548a142041b4f6f76e8cbac1caa7c23",
+      "size_bytes": 4424
+    },
+    "deranged_pairing_report_seed_20260628.json": {
+      "sha256": "5d7e958400bdba9edc9adea9b81a032b98f8228096f1506abe53c1264d774fc3",
+      "size_bytes": 2146
+    },
+    "deranged_pairing_report_seed_20260629.json": {
+      "sha256": "5d7e958400bdba9edc9adea9b81a032b98f8228096f1506abe53c1264d774fc3",
+      "size_bytes": 2146
+    },
+    "deranged_pairing_report_seed_20260630.json": {
+      "sha256": "5d7e958400bdba9edc9adea9b81a032b98f8228096f1506abe53c1264d774fc3",
+      "size_bytes": 2146
+    },
+    "dev.jsonl": {
+      "sha256": "9928cd109fd4360920964fe0a32e27ce11bf86de1ab6c9c875c97898a0b73cb2",
+      "size_bytes": 23976540
+    },
+    "dev_metrics_by_epoch_seed_20260628.json": {
+      "sha256": "d904c3c014b9df6dfdca9b4d76e498588ee0f3f0aed4be756d28c70b57b078e8",
+      "size_bytes": 399045
+    },
+    "dev_metrics_by_epoch_seed_20260629.json": {
+      "sha256": "801a676a2ae8ff2cf3c219555904061306970da1a7d5a13b43b71c7eea859ec9",
+      "size_bytes": 398949
+    },
+    "dev_metrics_by_epoch_seed_20260630.json": {
+      "sha256": "90abab0432cfe12dfe44e5f85aed19349ddca6076c9cb960903c254ea885843f",
+      "size_bytes": 399105
+    },
+    "dry_run_report.json": {
+      "sha256": "25b000c6eabcd3c32984a195e9d8dd90d02c7e2a4b80e7ec662a63e71b2a96fb",
+      "size_bytes": 33834
+    },
+    "environment_report.json": {
+      "sha256": "0edf15e34eb2ec7c22ca363c91430366013023064817716d83191a253c496e43",
+      "size_bytes": 373
+    },
+    "epoch_coverage_report.json": {
+      "sha256": "8d4382615d6e6bf166312be55354ef6c7c082c7f0e9674b3a6213f75972ca22d",
+      "size_bytes": 12387
+    },
+    "final_dev_metrics_seed_20260628.json": {
+      "sha256": "718211521780b23b46a06d087cba7c16440781ca889b3f6a0ec1f65d9cfadd30",
+      "size_bytes": 30332
+    },
+    "final_dev_metrics_seed_20260629.json": {
+      "sha256": "718211521780b23b46a06d087cba7c16440781ca889b3f6a0ec1f65d9cfadd30",
+      "size_bytes": 30332
+    },
+    "final_dev_metrics_seed_20260630.json": {
+      "sha256": "718211521780b23b46a06d087cba7c16440781ca889b3f6a0ec1f65d9cfadd30",
+      "size_bytes": 30332
+    },
+    "final_sealed_metrics_seed_20260628.json": {
+      "sha256": "906f51f02c401755394e3c0a699e6d29cc900492df4cb5de943b1b8425072acb",
+      "size_bytes": 33701
+    },
+    "final_sealed_metrics_seed_20260629.json": {
+      "sha256": "906f51f02c401755394e3c0a699e6d29cc900492df4cb5de943b1b8425072acb",
+      "size_bytes": 33701
+    },
+    "final_sealed_metrics_seed_20260630.json": {
+      "sha256": "906f51f02c401755394e3c0a699e6d29cc900492df4cb5de943b1b8425072acb",
+      "size_bytes": 33701
+    },
+    "final_train_metrics_seed_20260628.json": {
+      "sha256": "ca8018f9ed50d25d0bda92ce99cb400c7a4d410132578a890b0aee0a0192bbc1",
+      "size_bytes": 80601
+    },
+    "final_train_metrics_seed_20260629.json": {
+      "sha256": "ca8018f9ed50d25d0bda92ce99cb400c7a4d410132578a890b0aee0a0192bbc1",
+      "size_bytes": 80601
+    },
+    "final_train_metrics_seed_20260630.json": {
+      "sha256": "ca8018f9ed50d25d0bda92ce99cb400c7a4d410132578a890b0aee0a0192bbc1",
+      "size_bytes": 80601
+    },
+    "head_recombination_negative_controls_seed_20260628.json": {
+      "sha256": "902043b99b4da4625e272a6c3102a5f027964e4bcc91874b4320d7ec5d0158df",
+      "size_bytes": 779
+    },
+    "head_recombination_negative_controls_seed_20260629.json": {
+      "sha256": "902043b99b4da4625e272a6c3102a5f027964e4bcc91874b4320d7ec5d0158df",
+      "size_bytes": 779
+    },
+    "head_recombination_negative_controls_seed_20260630.json": {
+      "sha256": "902043b99b4da4625e272a6c3102a5f027964e4bcc91874b4320d7ec5d0158df",
+      "size_bytes": 779
+    },
+    "head_recombination_report_seed_20260628.json": {
+      "sha256": "1dd66f71c3b3376e5db41677fe6449db17147022eb46479bf5530c37bda40e3a",
+      "size_bytes": 15423
+    },
+    "head_recombination_report_seed_20260629.json": {
+      "sha256": "1dd66f71c3b3376e5db41677fe6449db17147022eb46479bf5530c37bda40e3a",
+      "size_bytes": 15423
+    },
+    "head_recombination_report_seed_20260630.json": {
+      "sha256": "1dd66f71c3b3376e5db41677fe6449db17147022eb46479bf5530c37bda40e3a",
+      "size_bytes": 15423
+    },
+    "head_recombination_suite.jsonl": {
+      "sha256": "7e4b8a456c3dc07cca6b1d0bb981b80670b024887604954c76e71b926dc16f3d",
+      "size_bytes": 13796786
+    },
+    "head_recombination_suite_manifest.json": {
+      "sha256": "de849a0762199db57c36cd38affacfe4559f58425fce6ceb1443620538fee30e",
+      "size_bytes": 762
+    },
+    "heldout_query_type_report_seed_20260628.json": {
+      "sha256": "f05d7b5486c17f6e792b48e4a7abda14fc43a27256301c157d1262a937cfbf49",
+      "size_bytes": 282
+    },
+    "heldout_query_type_report_seed_20260629.json": {
+      "sha256": "f05d7b5486c17f6e792b48e4a7abda14fc43a27256301c157d1262a937cfbf49",
+      "size_bytes": 282
+    },
+    "heldout_query_type_report_seed_20260630.json": {
+      "sha256": "f05d7b5486c17f6e792b48e4a7abda14fc43a27256301c157d1262a937cfbf49",
+      "size_bytes": 282
+    },
+    "heterogeneous_counterfactual_manifest.json": {
+      "sha256": "0a61ff76f753a15ba19a69319c6ecaa7832e26d080c07bb93d62d3b4c127baf0",
+      "size_bytes": 289
+    },
+    "heterogeneous_counterfactual_report_seed_20260628.json": {
+      "sha256": "28db0cf5e33d1967d4b641eb0e43d5e5a60cbae722e96526172af12c2e6fa444",
+      "size_bytes": 31173
+    },
+    "heterogeneous_counterfactual_report_seed_20260629.json": {
+      "sha256": "28db0cf5e33d1967d4b641eb0e43d5e5a60cbae722e96526172af12c2e6fa444",
+      "size_bytes": 31173
+    },
+    "heterogeneous_counterfactual_report_seed_20260630.json": {
+      "sha256": "28db0cf5e33d1967d4b641eb0e43d5e5a60cbae722e96526172af12c2e6fa444",
+      "size_bytes": 31173
+    },
+    "heterogeneous_counterfactual_suite.jsonl": {
+      "sha256": "d7fb0a04979bc21b166ef4e2d9c2c7433b7bc725a1a59d13ccbdda506ada0df3",
+      "size_bytes": 15763168
+    },
+    "identity_color_transition_report_seed_20260628.json": {
+      "sha256": "2e4be51730a23ff5cccbae225d57e45386dc65fed200d604d7f9805c282334dc",
+      "size_bytes": 40125
+    },
+    "identity_color_transition_report_seed_20260629.json": {
+      "sha256": "2e4be51730a23ff5cccbae225d57e45386dc65fed200d604d7f9805c282334dc",
+      "size_bytes": 40125
+    },
+    "identity_color_transition_report_seed_20260630.json": {
+      "sha256": "2e4be51730a23ff5cccbae225d57e45386dc65fed200d604d7f9805c282334dc",
+      "size_bytes": 40125
+    },
+    "identity_transport_report_seed_20260628.json": {
+      "sha256": "456cc05ebf9bf388c49822ec118c0d6faf5653dd859ab86ee23b7a284903c2ef",
+      "size_bytes": 41830
+    },
+    "identity_transport_report_seed_20260629.json": {
+      "sha256": "456cc05ebf9bf388c49822ec118c0d6faf5653dd859ab86ee23b7a284903c2ef",
+      "size_bytes": 41830
+    },
+    "identity_transport_report_seed_20260630.json": {
+      "sha256": "456cc05ebf9bf388c49822ec118c0d6faf5653dd859ab86ee23b7a284903c2ef",
+      "size_bytes": 41830
+    },
+    "initialization_report.json": {
+      "sha256": "4401feab83143533ebfbd4450433bce280ff4df36593fec52c31edf66a3182f5",
+      "size_bytes": 1637
+    },
+    "operation_balance_report.json": {
+      "sha256": "faeec6375b5b2f05a7f5f88e1db3a14da872dd80a7cae005d6cfca013184392f",
+      "size_bytes": 1219
+    },
+    "operation_function_audit.json": {
+      "sha256": "b79802895b96b9aad1e24440cd0de5cb3d7ab1414ecebe89c6b7228941e6edcf",
+      "size_bytes": 18735
+    },
+    "operation_split_manifest.json": {
+      "sha256": "d45a3baf6d67b39bda569a52317af10874f267c12a4fecdc079f62e1bdd9c64f",
+      "size_bytes": 232
+    },
+    "permutation_report_seed_20260628.json": {
+      "sha256": "dfcd45bcf2d018c3efe4a18ec15318b53ee55a3aaf8de73af4a6a1035b8e649b",
+      "size_bytes": 516
+    },
+    "permutation_report_seed_20260629.json": {
+      "sha256": "dfcd45bcf2d018c3efe4a18ec15318b53ee55a3aaf8de73af4a6a1035b8e649b",
+      "size_bytes": 516
+    },
+    "permutation_report_seed_20260630.json": {
+      "sha256": "dfcd45bcf2d018c3efe4a18ec15318b53ee55a3aaf8de73af4a6a1035b8e649b",
+      "size_bytes": 516
+    },
+    "prediction_examples.txt": {
+      "sha256": "703a296c13914da11c0574f1b473860a5718e78ff06a904be76b6cab09812923",
+      "size_bytes": 11817
+    },
+    "pytest_result.txt": {
+      "sha256": "e17f5d80cc2af21904bda5cd69d37e4c281d3e59fa23cb1c6be11bb51a7696c7",
+      "size_bytes": 1596
+    },
+    "query_type_preflight_catalog.json": {
+      "sha256": "01035bdd2e41fee11ff964ae8e45ed828b371011918355e810e0887543255fe6",
+      "size_bytes": 88314
+    },
+    "query_type_split_audit.json": {
+      "sha256": "985690fcb0fa03f93e85d7ad85bfe783f788fb2c83a5ce465b64ca46019e0ab3",
+      "size_bytes": 1829
+    },
+    "run_config.json": {
+      "sha256": "9b7ac4d88ad530cae0e092c360c8b1117dc02978a77f206df9b6187b42e0a3eb",
+      "size_bytes": 324
+    },
+    "scene_rejection_report.json": {
+      "sha256": "e819893ca6cef1fb38a374740d90ec556bbe284e74859095a90802fa28a5d068",
+      "size_bytes": 186
+    },
+    "sealed.jsonl": {
+      "sha256": "1b0114b2dba8ec897550f2adaff273be0084f75db7654f8b67b95b4c4ace5705",
+      "size_bytes": 34849020
+    },
+    "source_protection_hashes_after.json": {
+      "sha256": "73b8d5452af87e84e1f4ceafe38b8c5c8a5d54ecd601bc395cd87de234b247d3",
+      "size_bytes": 152104
+    },
+    "source_protection_hashes_before.json": {
+      "sha256": "73b8d5452af87e84e1f4ceafe38b8c5c8a5d54ecd601bc395cd87de234b247d3",
+      "size_bytes": 152104
+    },
+    "summary.md": {
+      "sha256": "2165f09d4adeaed635afe191abb3956751ab118b0289bba1dcc4032b53e93f3f",
+      "size_bytes": 517
+    },
+    "train.jsonl": {
+      "sha256": "c39b65c82fe9633a0e7c094fb4f1be73a03582a2a54f51ad804294d369928b08",
+      "size_bytes": 80299800
+    },
+    "training_log_seed_20260628.jsonl": {
+      "sha256": "1f7c8a9b8ac9801e7cdf9097f7219f8eb6a32c51594db7367bd177a11a7094d4",
+      "size_bytes": 5530
+    },
+    "training_log_seed_20260629.jsonl": {
+      "sha256": "8965bc67dba126eb13cc5a01e24ae7ee8ad4d49e79c79aff4d6a55ec18af03c3",
+      "size_bytes": 5530
+    },
+    "training_log_seed_20260630.jsonl": {
+      "sha256": "f300aa6b0c518fa5c374d7fde0e2f532ec36189398dab85e90d2dbde3a2a37e2",
+      "size_bytes": 5530
+    },
+    "zero_support_report_seed_20260628.json": {
+      "sha256": "7d1f4a26b99368a478422783672cea81ed4d318cd45727d73bd8105e7909bc8a",
+      "size_bytes": 2030
+    },
+    "zero_support_report_seed_20260629.json": {
+      "sha256": "7d1f4a26b99368a478422783672cea81ed4d318cd45727d73bd8105e7909bc8a",
+      "size_bytes": 2030
+    },
+    "zero_support_report_seed_20260630.json": {
+      "sha256": "7d1f4a26b99368a478422783672cea81ed4d318cd45727d73bd8105e7909bc8a",
+      "size_bytes": 2030
+    }
+  },
+  "failed_gates": [],
+  "generated_validation_example_count": 62,
+  "golden_case_count": 18,
+  "grammar_inventory": {
+    "operation_context_sensitivity": {
+      "context_sensitive": [],
+      "objectwise": [],
+      "pointwise": [
+        "C",
+        "H",
+        "V",
+        "L",
+        "K",
+        "C->L",
+        "L->H",
+        "H->K",
+        "K->V",
+        "L->C",
+        "H->L",
+        "C->K",
+        "K->C"
+      ]
+    },
+    "primitive_operations": {
+      "C": {
+        "kind": "pointwise_coordinate_bijection",
+        "semantic": "(x,y,c)->(6-y,x,c)",
+        "syntactic": "ROT90_CW"
+      },
+      "H": {
+        "kind": "pointwise_coordinate_bijection",
+        "semantic": "(x,y,c)->(6-x,y,c)",
+        "syntactic": "HFLIP"
+      },
+      "K": {
+        "kind": "pointwise_coordinate_conditioned_recolor",
+        "semantic": "if current x <= 3 and current y <= 3 and c in 1..4 then c->c+4",
+        "syntactic": "UPPER_LEFT_QUADRANT_RECOLOR"
+      },
+      "L": {
+        "kind": "pointwise_coordinate_conditioned_recolor",
+        "semantic": "if current x <= 3 and c in 1..4 then c->c+4",
+        "syntactic": "LEFT_REGION_RECOLOR"
+      },
+      "V": {
+        "kind": "pointwise_coordinate_bijection",
+        "semantic": "(x,y,c)->(x,6-y,c)",
+        "syntactic": "VFLIP"
+      }
+    },
+    "semantic_behavior": [
+      "final coordinate map",
+      "color transition as a function of current coordinate and color",
+      "composition order"
+    ],
+    "sequence_notation": "A->B means apply A first, then B",
+    "syntactic_metadata": [
+      "program_id",
+      "split membership",
+      "sequence string",
+      "operation label"
+    ]
+  },
+  "heldout_vs_train": {
+    "collision_pairs": [],
+    "heldout_mixed_collision_with_train_count": 0,
+    "heldout_mixed_program_count": 4
+  },
+  "mixed_programs_by_split": {
+    "dev": [
+      "C->L",
+      "L->H",
+      "H->K",
+      "K->V"
+    ],
+    "sealed": [
+      "C->L",
+      "L->H",
+      "H->K",
+      "K->V",
+      "L->C",
+      "H->L",
+      "C->K",
+      "K->C"
+    ],
+    "train": [
+      "C->L",
+      "L->H",
+      "H->K",
+      "K->V"
+    ]
+  },
+  "multicell_production_agreement_count": 330,
+  "multicell_production_agreement_failures": [],
+  "per_program": [
+    {
+      "first_divergence_input": {
+        "color": 1,
+        "x": 0,
+        "y": 0
+      },
+      "first_divergence_witness_id": "cell:x=0,y=0,color=1",
+      "order_distinguishable": true,
+      "original_behavior_fingerprint": "8bb530ce7e61c9e8bb770baabcd78f2075ee4278ea1b03034b8fa0fd17c7eab6",
+      "original_output": {
+        "color": 1,
+        "x": 6,
+        "y": 0
+      },
+      "program_id": "C->L",
+      "reversed_behavior_fingerprint": "875576ec4055299d0f377556feed57f7c99961467ea72685059d48f4ceb6cbeb",
+      "reversed_output": {
+        "color": 5,
+        "x": 6,
+        "y": 0
+      },
+      "reversed_program_id": "L->C",
+      "syntactic_signature": {
+        "ordered_primitives": [
+          "C",
+          "L"
+        ],
+        "sequence_string": "C->L"
+      }
+    },
+    {
+      "first_divergence_input": {
+        "color": 1,
+        "x": 0,
+        "y": 0
+      },
+      "first_divergence_witness_id": "cell:x=0,y=0,color=1",
+      "order_distinguishable": true,
+      "original_behavior_fingerprint": "e0bfe34881765f179c459254c5efe3370aa6b898a844502986a4c51b92cd82a1",
+      "original_output": {
+        "color": 5,
+        "x": 6,
+        "y": 0
+      },
+      "program_id": "L->H",
+      "reversed_behavior_fingerprint": "d23e3a172499023c197ea72a4ec877e19067ed66660a8593addfa6ed72ffa02f",
+      "reversed_output": {
+        "color": 1,
+        "x": 6,
+        "y": 0
+      },
+      "reversed_program_id": "H->L",
+      "syntactic_signature": {
+        "ordered_primitives": [
+          "L",
+          "H"
+        ],
+        "sequence_string": "L->H"
+      }
+    },
+    {
+      "first_divergence_input": {
+        "color": 1,
+        "x": 0,
+        "y": 0
+      },
+      "first_divergence_witness_id": "cell:x=0,y=0,color=1",
+      "order_distinguishable": true,
+      "original_behavior_fingerprint": "c544809b0a2f3ddbaa4a98264cb7add4a4775f81dba1260d5492f6fff7ec3d76",
+      "original_output": {
+        "color": 1,
+        "x": 6,
+        "y": 0
+      },
+      "program_id": "H->K",
+      "reversed_behavior_fingerprint": "c949b0ef43aff742d87a8a474083a5ad7de7d93fea22b918cc839b9b10f88ee5",
+      "reversed_output": {
+        "color": 5,
+        "x": 6,
+        "y": 0
+      },
+      "reversed_program_id": "K->H",
+      "syntactic_signature": {
+        "ordered_primitives": [
+          "H",
+          "K"
+        ],
+        "sequence_string": "H->K"
+      }
+    },
+    {
+      "first_divergence_input": {
+        "color": 1,
+        "x": 0,
+        "y": 0
+      },
+      "first_divergence_witness_id": "cell:x=0,y=0,color=1",
+      "order_distinguishable": true,
+      "original_behavior_fingerprint": "d57760c886273fb63e036d6c761d8e9ebd2cd6d8f4647053ee9efa640fde89c8",
+      "original_output": {
+        "color": 5,
+        "x": 0,
+        "y": 6
+      },
+      "program_id": "K->V",
+      "reversed_behavior_fingerprint": "ab470b6114bcec4280cdbf12c5eb355a95775126f4d6d9533e3537ed70feca3b",
+      "reversed_output": {
+        "color": 1,
+        "x": 0,
+        "y": 6
+      },
+      "reversed_program_id": "V->K",
+      "syntactic_signature": {
+        "ordered_primitives": [
+          "K",
+          "V"
+        ],
+        "sequence_string": "K->V"
+      }
+    },
+    {
+      "first_divergence_input": {
+        "color": 1,
+        "x": 0,
+        "y": 0
+      },
+      "first_divergence_witness_id": "cell:x=0,y=0,color=1",
+      "order_distinguishable": true,
+      "original_behavior_fingerprint": "875576ec4055299d0f377556feed57f7c99961467ea72685059d48f4ceb6cbeb",
+      "original_output": {
+        "color": 5,
+        "x": 6,
+        "y": 0
+      },
+      "program_id": "L->C",
+      "reversed_behavior_fingerprint": "8bb530ce7e61c9e8bb770baabcd78f2075ee4278ea1b03034b8fa0fd17c7eab6",
+      "reversed_output": {
+        "color": 1,
+        "x": 6,
+        "y": 0
+      },
+      "reversed_program_id": "C->L",
+      "syntactic_signature": {
+        "ordered_primitives": [
+          "L",
+          "C"
+        ],
+        "sequence_string": "L->C"
+      }
+    },
+    {
+      "first_divergence_input": {
+        "color": 1,
+        "x": 0,
+        "y": 0
+      },
+      "first_divergence_witness_id": "cell:x=0,y=0,color=1",
+      "order_distinguishable": true,
+      "original_behavior_fingerprint": "d23e3a172499023c197ea72a4ec877e19067ed66660a8593addfa6ed72ffa02f",
+      "original_output": {
+        "color": 1,
+        "x": 6,
+        "y": 0
+      },
+      "program_id": "H->L",
+      "reversed_behavior_fingerprint": "e0bfe34881765f179c459254c5efe3370aa6b898a844502986a4c51b92cd82a1",
+      "reversed_output": {
+        "color": 5,
+        "x": 6,
+        "y": 0
+      },
+      "reversed_program_id": "L->H",
+      "syntactic_signature": {
+        "ordered_primitives": [
+          "H",
+          "L"
+        ],
+        "sequence_string": "H->L"
+      }
+    },
+    {
+      "first_divergence_input": {
+        "color": 1,
+        "x": 0,
+        "y": 0
+      },
+      "first_divergence_witness_id": "cell:x=0,y=0,color=1",
+      "order_distinguishable": true,
+      "original_behavior_fingerprint": "a94d117799034e350c6de7a94a4cff77ac250766ed089a442bdcbf9308056434",
+      "original_output": {
+        "color": 1,
+        "x": 6,
+        "y": 0
+      },
+      "program_id": "C->K",
+      "reversed_behavior_fingerprint": "7d1a818e044b4efd099d54d60b1dc7d6a6fbafe17522838edfde2fef800f48e8",
+      "reversed_output": {
+        "color": 5,
+        "x": 6,
+        "y": 0
+      },
+      "reversed_program_id": "K->C",
+      "syntactic_signature": {
+        "ordered_primitives": [
+          "C",
+          "K"
+        ],
+        "sequence_string": "C->K"
+      }
+    },
+    {
+      "first_divergence_input": {
+        "color": 1,
+        "x": 0,
+        "y": 0
+      },
+      "first_divergence_witness_id": "cell:x=0,y=0,color=1",
+      "order_distinguishable": true,
+      "original_behavior_fingerprint": "7d1a818e044b4efd099d54d60b1dc7d6a6fbafe17522838edfde2fef800f48e8",
+      "original_output": {
+        "color": 5,
+        "x": 6,
+        "y": 0
+      },
+      "program_id": "K->C",
+      "reversed_behavior_fingerprint": "a94d117799034e350c6de7a94a4cff77ac250766ed089a442bdcbf9308056434",
+      "reversed_output": {
+        "color": 1,
+        "x": 6,
+        "y": 0
+      },
+      "reversed_program_id": "C->K",
+      "syntactic_signature": {
+        "ordered_primitives": [
+          "K",
+          "C"
+        ],
+        "sequence_string": "K->C"
+      }
+    }
+  ],
+  "per_split": {
+    "dev": {
+      "by_program": {
+        "C->L": true,
+        "H->K": true,
+        "K->V": true,
+        "L->H": true
+      },
+      "mixed_program_count": 4,
+      "order_distinguishable_count": 4,
+      "order_distinguishable_rate": 1.0,
+      "order_indistinguishable_count": 0
+    },
+    "sealed": {
+      "by_program": {
+        "C->K": true,
+        "C->L": true,
+        "H->K": true,
+        "H->L": true,
+        "K->C": true,
+        "K->V": true,
+        "L->C": true,
+        "L->H": true
+      },
+      "mixed_program_count": 8,
+      "order_distinguishable_count": 8,
+      "order_distinguishable_rate": 1.0,
+      "order_indistinguishable_count": 0
+    },
+    "train": {
+      "by_program": {
+        "C->L": true,
+        "H->K": true,
+        "K->V": true,
+        "L->H": true
+      },
+      "mixed_program_count": 4,
+      "order_distinguishable_count": 4,
+      "order_distinguishable_rate": 1.0,
+      "order_indistinguishable_count": 0
+    }
+  },
+  "probe_domain_description": {
+    "color_states": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "coordinate_predicate_boundaries": {
+      "x": [
+        2,
+        3,
+        4
+      ],
+      "y": [
+        2,
+        3,
+        4
+      ]
+    },
+    "domain": "all independent cell states (x,y,color) with x,y in 0..6 and color in 0..8",
+    "fallback_if_lift_invalid": "If the cellwise lift gate fails, this same 441-state set is only a deterministic single-cell / branch-complete probe domain.",
+    "grid_size": 7,
+    "why_exhaustive": "Whole-grid exhaustiveness is claimed only if cellwise_lift_validity.cellwise_lift_valid is true. The gate verifies total in-bounds primitive maps, foreground coordinate bijections, no hidden grid-state reads in the production primitive, and deterministic multi-cell production agreement."
+  },
+  "probe_domain_exhaustive": true,
+  "probe_fixture_count": 441,
+  "pytest_q_passed": true,
+  "reused_immutable_constants": [],
+  "single_cell_domain_size": 441,
+  "source_file_hashes": {
+    "docs/TRANSPORT_RECOLOR_R5A0V2.md": "715909827c421dbcfa81ab485b231813f200fec149c98edfd4ae3b5d5fdf5800",
+    "docs/TRANSPORT_RECOLOR_R5A0V2_ORDER_AUDIT.md": "f8803512704386086fd37600ad1c7ffc0220ca0b15066ef6ae3b1f493ec6531c",
+    "tests/test_transport_recolor_r5a0v2.py": "7e342221e22e9cbfe6517e7e0b1b99125cff102138fd8272b74c0a228680b9f3",
+    "tests/test_transport_recolor_r5a0v2_order_audit.py": "08772f26bc0ea7347a27a3cddf5b9805755068fb01ae2483164ad09430c472e5",
+    "vrm/twin_tasks/run_transport_recolor_r5a0v2.py": "46bef01b4f545c36df8ede5087269515fd80377f2540f9a382bf5c8bd71ebf39",
+    "vrm/twin_tasks/transport_recolor_r5a0v2_data.py": "8ba05be9b30f10eeaf17ec368a5b6482f28e769e8f81098a082cd581e8488279",
+    "vrm/twin_tasks/transport_recolor_r5a0v2_model.py": "1ba3582f80fbf59b3eab142dde4d651e92e761ccb4c907835a421b1e13bc473e",
+    "vrm/twin_tasks/transport_recolor_r5a0v2_oracles.py": "2e427a417e31e88ba6106a23d42e964989508d003677bc6a400c0a7730293de4",
+    "vrm/twin_tasks/transport_recolor_r5a0v2_order_audit.py": "93a27725eb63ce2233ccbe583f26d9b1cce875a22cceb31355087f0b36d52aec"
+  },
+  "verdict": "R5A0V2_ORDER_AUDIT_PASS",
+  "whole_grid_exhaustiveness_claim": true
+}

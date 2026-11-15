@@ -1,0 +1,7 @@
+{
+  "seed": 20260629,
+  "selected_checkpoint": "/mnt/d/VRM/checkpoints/mixed_router_r3a_v1/reader_r3a_seed_20260629_best_dev.pt",
+  "selected_checkpoint_sha256": "ce281a54f7b3ec0d4c9ffd2abc7f6108d19ec09799b85c169c17f31e64526fab",
+  "selected_epoch_index": 6,
+  "selection_rule": "highest dev exact, foreground, relevant mass, earliest epoch"
+}
