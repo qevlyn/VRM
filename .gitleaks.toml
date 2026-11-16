@@ -1,0 +1,34 @@
+# VRM-specific Gitleaks tuning.
+# Extend the pinned Gitleaks default rules; do not disable generic-api-key.
+
+[extend]
+useDefault = true
+
+# The R5A4A audit artifacts contain SHA-256 fingerprints in these named
+# fields. Ignore only 64-character hexadecimal values in these exact paths.
+[[allowlists]]
+description = "Known SHA-256 model-output fingerprints in the R5A4A preflight artifacts; these are not credentials."
+targetRules = ["generic-api-key"]
+condition = "AND"
+regexTarget = "line"
+paths = [
+  '''^artifacts/r5a4a_neural_vrm_arc_grounded_preflight/.*$''',
+  '''^docs/R5A4A_NEURAL_VRM_ARC_GROUNDED_PREFLIGHT\.md$'''
+]
+regexes = [
+  '''"(sha256_order_key|rule_tokens)"\s*:\s*"[0-9a-fA-F]{64}"'''
+]
+
+# These reviewed before/after manifests map source-file paths to SHA-256
+# integrity digests. Keep the exception limited to the named manifests.
+[[allowlists]]
+description = "Known SHA-256 file-integrity digests in reviewed protection manifests."
+targetRules = ["generic-api-key"]
+condition = "AND"
+regexTarget = "line"
+paths = [
+  '''^artifacts/(composition_r4a1p_v1|composition_r4a1q_v1|transport_recolor_r5a0_v1|transport_recolor_r5a0_v2)/(protected_hashes|source_protection_hashes)_(before|after)\.json$'''
+]
+regexes = [
+  '''"/mnt/d/VRM/[^"]+"\s*:\s*"[0-9a-fA-F]{64}"'''
+]
